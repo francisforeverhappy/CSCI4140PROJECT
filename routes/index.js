@@ -36,12 +36,12 @@ router.post('/search', (req, res) => {
 router.get('/:courseCode/details', (req, res) => {
     // new page
     console.log('get /details');
-    CourseSession.findOne({courseCode: req.params.courseCode}, (err, courseSession) => {
+    Course.findOne({courseCode: req.params.courseCode}, (err, course) => {
         if (err) {
             return console.error('courseSession find error');
         }
-        console.log(courseSession.description);
-        res.render('index', {sid: req.session.sid, sessions: courseSession});
+        console.log(course.description);
+        res.render('index', {sid: req.session.sid, sessions: course});
     });
 });
 

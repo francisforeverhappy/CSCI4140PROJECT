@@ -17,6 +17,7 @@ const db = mongoose.connection;
 db.on('error', console.error.bind(console, 'MongoDB connnection error:'));
 
 app.set('view engine', 'ejs');
+app.use("/",express.static(__dirname + "/public"));
 
 app.use(flash());
 
