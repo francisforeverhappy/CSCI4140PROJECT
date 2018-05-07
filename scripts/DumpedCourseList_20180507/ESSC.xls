@@ -1,0 +1,360 @@
+<html dir='ltr' lang='en'>
+<!-- Copyright (c) 2000, 2007, Oracle. All rights reserved. -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><body><table border='1' cellpadding='3' cellspacing='0'>
+<tr>
+<th>Class Code</th><th>Class Nbr</th><th>Course Title</th><th>Units</th><th>Teaching Staff</th><th>Quota(s)</th><th>Vacancy</th><th>Course Component</th><th>Section Code</th><th>Language</th><th>Period</th><th>Room</th><th>Meeting Date</th><th>Add Consent</th><th>Drop Consent</th><th>Course Offering Dept</th></tr>
+<tr>
+<td>ESSC2010-</td>
+<td>6452</td>
+<td>Solid Earth Dynamics 固體地球動力學</td>
+<td>3.00</td>
+<td>- Dr ZHANG Jian
+- Professor LIU Lin</td>
+<td>81</td>
+<td>56</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Tu 11:30AM - 01:15PM</td>
+<td>SC_L3</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Earth System Science Pgm Comm</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 10:30AM - 11:15AM</td>
+<td>LSB_LT3</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>80</td>
+<td>55</td>
+<td>TUT</td>
+<td>-T01</td>
+<td>E</td>
+<td>Th 11:30AM - 12:15PM</td>
+<td>LSB_LT3</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>Earth System Science Pgm Comm</td>
+<tr>
+<td>ESSC3100-</td>
+<td>6343</td>
+<td>Structural Geology 構造地質學</td>
+<td>3.00</td>
+<td>- Dr ZHANG Jian</td>
+<td>40</td>
+<td>26</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Tu 04:30PM - 06:15PM</td>
+<td>LSB_G34</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Earth System Science Pgm Comm</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 04:30PM - 05:15PM</td>
+<td>LSB_C3</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>40</td>
+<td>26</td>
+<td>LAB</td>
+<td>-L01</td>
+<td>E</td>
+<td>Th 05:30PM - 06:15PM</td>
+<td>LSB_C3</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>Earth System Science Pgm Comm</td>
+<tr>
+<td>ESSC3220-</td>
+<td>6226</td>
+<td>Atmospheric Chemistry 大氣化學</td>
+<td>3.00</td>
+<td>- Professor CHAN Man Nin</td>
+<td>40</td>
+<td>23</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Mo 11:30AM - 01:15PM</td>
+<td>MMW_706</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Earth System Science Pgm Comm</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>We 11:30AM - 12:15PM</td>
+<td>LSB_G35</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>40</td>
+<td>23</td>
+<td>TUT</td>
+<td>-T01</td>
+<td>E</td>
+<td>We 12:30PM - 01:15PM</td>
+<td>LSB_G35</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Earth System Science Pgm Comm</td>
+<tr>
+<td>ESSC3300-</td>
+<td>3774</td>
+<td>Ocean and Climate 海洋與氣候</td>
+<td>3.00</td>
+<td>- Professor TAM Chi Yung Francis</td>
+<td>40</td>
+<td>19</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Mo 04:30PM - 06:15PM</td>
+<td>LSB_G34</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Earth System Science Pgm Comm</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>We 04:30PM - 05:15PM</td>
+<td>LSB_C5</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>40</td>
+<td>19</td>
+<td>TUT</td>
+<td>-T01</td>
+<td>E</td>
+<td>We 05:30PM - 06:15PM</td>
+<td>LSB_C5</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Earth System Science Pgm Comm</td>
+<tr>
+<td>ESSC4130-</td>
+<td>8381</td>
+<td>Geomorphology 地貌學</td>
+<td>3.00</td>
+<td>- MR Robert Joseph SAS JR</td>
+<td>25</td>
+<td>8</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Th 10:30AM - 01:15PM</td>
+<td>SC_139</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>Earth System Science Pgm Comm</td>
+<tr>
+<td>ESSC4510-</td>
+<td>3958</td>
+<td>Statistical Data Analysis 地球系統科學的統計方法與數據分析</td>
+<td>3.00</td>
+<td>- Professor TAI Pui Kuen Amos
+- Professor YANG Hongfeng</td>
+<td>40</td>
+<td>26</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Tu 02:30PM - 04:15PM</td>
+<td>SC_329</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Earth System Science Pgm Comm</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 02:30PM - 03:15PM</td>
+<td>SC_329</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>40</td>
+<td>26</td>
+<td>TUT</td>
+<td>-T01</td>
+<td>E</td>
+<td>Th 03:30PM - 04:15PM</td>
+<td>SC_329</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>Earth System Science Pgm Comm</td>
+</table></body></html>

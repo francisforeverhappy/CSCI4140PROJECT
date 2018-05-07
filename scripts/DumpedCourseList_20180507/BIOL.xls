@@ -1,0 +1,750 @@
+<html dir='ltr' lang='en'>
+<!-- Copyright (c) 2000, 2007, Oracle. All rights reserved. -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><body><table border='1' cellpadding='3' cellspacing='0'>
+<tr>
+<th>Class Code</th><th>Class Nbr</th><th>Course Title</th><th>Units</th><th>Teaching Staff</th><th>Quota(s)</th><th>Vacancy</th><th>Course Component</th><th>Section Code</th><th>Language</th><th>Period</th><th>Room</th><th>Meeting Date</th><th>Add Consent</th><th>Drop Consent</th><th>Course Offering Dept</th></tr>
+<tr>
+<td>BIOL2210-</td>
+<td>7140</td>
+<td>Ecology 生態學</td>
+<td>3.00</td>
+<td>- Professor WONG Chong Kim</td>
+<td>122</td>
+<td>15</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Tu 02:30PM - 05:15PM</td>
+<td>SC_L1</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Biology Pgm Comm</td>
+<tr>
+<td>BIOL2213A</td>
+<td>7409</td>
+<td>Ecology Laboratory 生態學實驗</td>
+<td>1.00</td>
+<td>- Dr. CHIU Chi Ming Lawrence</td>
+<td>20</td>
+<td>0</td>
+<td>LAB</td>
+<td>AL01</td>
+<td>E</td>
+<td>Mo 02:30PM - 06:15PM</td>
+<td>SCE_E108</td>
+<td>12/01/2015 - 12/01/2015</td>
+<td></td>
+<td></td>
+<td>Biology Pgm Comm</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Mo 02:30PM - 06:15PM</td>
+<td>SCE_E108</td>
+<td>26/01/2015 - 26/01/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Mo 02:30PM - 06:15PM</td>
+<td>SCE_E108</td>
+<td>09/02/2015 - 09/02/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Mo 02:30PM - 06:15PM</td>
+<td>SCE_E108</td>
+<td>23/02/2015 - 23/02/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Mo 02:30PM - 06:15PM</td>
+<td>SCE_E108</td>
+<td>09/03/2015 - 09/03/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Mo 02:30PM - 06:15PM</td>
+<td>SCE_E108</td>
+<td>23/03/2015 - 23/03/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Mo 02:30PM - 06:15PM</td>
+<td>SCE_E108</td>
+<td>06/04/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>BIOL2213B</td>
+<td>7408</td>
+<td>Ecology Laboratory 生態學實驗</td>
+<td>1.00</td>
+<td>- Dr. CHIU Chi Ming Lawrence</td>
+<td>32</td>
+<td>2</td>
+<td>LAB</td>
+<td>BL01</td>
+<td>E</td>
+<td>Mo 02:30PM - 06:15PM</td>
+<td>SCE_E108</td>
+<td>19/01/2015 - 19/01/2015</td>
+<td></td>
+<td></td>
+<td>Biology Pgm Comm</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Mo 02:30PM - 06:15PM</td>
+<td>SCE_E108</td>
+<td>02/02/2015 - 02/02/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Mo 02:30PM - 06:15PM</td>
+<td>SCE_E108</td>
+<td>16/02/2015 - 16/02/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Mo 02:30PM - 06:15PM</td>
+<td>SCE_E108</td>
+<td>02/03/2015 - 02/03/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Mo 02:30PM - 06:15PM</td>
+<td>SCE_E108</td>
+<td>16/03/2015 - 16/03/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Mo 02:30PM - 06:15PM</td>
+<td>SCE_E108</td>
+<td>30/03/2015 - 30/03/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Mo 02:30PM - 06:15PM</td>
+<td>SCE_E108</td>
+<td>13/04/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>BIOL2310-</td>
+<td>7494</td>
+<td>General and Molecular Genetics 普通與分子遺傳學</td>
+<td>3.00</td>
+<td>- Professor GUO Dianjing
+- Professor HE Junxian</td>
+<td>260</td>
+<td>72</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Tu 08:30AM - 11:15AM</td>
+<td>TYW_LT</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Biology Pgm Comm</td>
+<tr>
+<td>BIOL2313A</td>
+<td>7141</td>
+<td>Genetics Laboratory 遺傳學實驗</td>
+<td>1.00</td>
+<td>- Miss YAM Kwan Mei</td>
+<td>30</td>
+<td>0</td>
+<td>LAB</td>
+<td>AL01</td>
+<td>E</td>
+<td>Tu 02:30PM - 06:15PM</td>
+<td>SC_295</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Biology Pgm Comm</td>
+<tr>
+<td>BIOL2313B</td>
+<td>7142</td>
+<td>Genetics Laboratory 遺傳學實驗</td>
+<td>1.00</td>
+<td>- Miss YAM Kwan Mei</td>
+<td>30</td>
+<td>2</td>
+<td>LAB</td>
+<td>BL01</td>
+<td>E</td>
+<td>We 02:30PM - 06:15PM</td>
+<td>SC_295</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Biology Pgm Comm</td>
+<tr>
+<td>BIOL2313C</td>
+<td>6652</td>
+<td>Genetics Laboratory 遺傳學實驗</td>
+<td>1.00</td>
+<td>- Miss YAM Kwan Mei</td>
+<td>30</td>
+<td>4</td>
+<td>LAB</td>
+<td>CL01</td>
+<td>E</td>
+<td>Tu 02:30PM - 06:15PM</td>
+<td>SC_295</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Biology Pgm Comm</td>
+<tr>
+<td>BIOL2313D</td>
+<td>6707</td>
+<td>Genetics Laboratory 遺傳學實驗</td>
+<td>1.00</td>
+<td>- Miss YAM Kwan Mei</td>
+<td>30</td>
+<td>13</td>
+<td>LAB</td>
+<td>DL01</td>
+<td>E</td>
+<td>We 02:30PM - 06:15PM</td>
+<td>SC_295</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Biology Pgm Comm</td>
+<tr>
+<td>BIOL3022-</td>
+<td>3869</td>
+<td>Biodiversity Laboratory II 生物多樣性實驗（二）</td>
+<td>2.00</td>
+<td>- Dr CHUNG Kwok Cheong
+- Dr. CHOW Cheung Ming</td>
+<td>32</td>
+<td>7</td>
+<td>LAB</td>
+<td>-L01</td>
+<td>E</td>
+<td>Th 02:30PM - 06:15PM</td>
+<td>SC_392</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>Biology Pgm Comm</td>
+<tr>
+<td>BIOL3310-</td>
+<td>3870</td>
+<td>Human Biology 人類生物學</td>
+<td>3.00</td>
+<td>- Dr SIOW Lam
+- Professor FUNG Ming Chiu</td>
+<td>81</td>
+<td>45</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Mo 09:30AM - 10:15AM</td>
+<td>SC_L2</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Biology Pgm Comm</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Fr 08:30AM - 10:15AM</td>
+<td>SC_L4</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>BIOL3530-</td>
+<td>7143</td>
+<td>Plant Physiology 植物生理學</td>
+<td>3.00</td>
+<td>- Professor ZHANG Jianhua</td>
+<td>61</td>
+<td>17</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Mo 10:30AM - 12:15PM</td>
+<td>SC_L3</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Biology Pgm Comm</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 10:30AM - 11:15AM</td>
+<td>SC_L5</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>BIOL3570-</td>
+<td>7447</td>
+<td>Biology of Vascular Plants 維管植物生物學</td>
+<td>2.00</td>
+<td>- Dr. CHOW Cheung Ming
+- Professor ZHANG Jianhua</td>
+<td>80</td>
+<td>44</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Tu 10:30AM - 12:15PM</td>
+<td>SC_L2</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Biology Pgm Comm</td>
+<tr>
+<td>BIOL3620-</td>
+<td>7169</td>
+<td>Vertebrate Life 脊椎動物之生活</td>
+<td>2.00</td>
+<td>- Dr CHUNG Kwok Cheong</td>
+<td>80</td>
+<td>33</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>We 10:30AM - 12:15PM</td>
+<td>SC_L4</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Biology Pgm Comm</td>
+<tr>
+<td>BIOL4260-</td>
+<td>3987</td>
+<td>Conservation Biology 保育生物學</td>
+<td>3.00</td>
+<td>- Dr. CHIU Siu Wai
+- Professor ANG Put Jr.
+- Professor CHU Ka Hou
+- Professor CHU Lee Man</td>
+<td>81</td>
+<td>37</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Mo 01:30PM - 02:15PM</td>
+<td>SC_L3</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Biology Pgm Comm</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>We 02:30PM - 04:15PM</td>
+<td>SC_L5</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>BIOL4310-</td>
+<td>7170</td>
+<td>Human Genetics 人類遺傳學</td>
+<td>3.00</td>
+<td>- Professor FUNG Ming Chiu</td>
+<td>83</td>
+<td>28</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Tu 08:30AM - 10:15AM</td>
+<td>SC_L2</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Biology Pgm Comm</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 08:30AM - 09:15AM</td>
+<td>SC_L2</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>BIOL4451-</td>
+<td>6551</td>
+<td>Experimental Senior Seminar II 實驗專題討論（二）</td>
+<td>3.00</td>
+<td>- Professor CHU Ka Hou</td>
+<td>50</td>
+<td>43</td>
+<td>PRJ</td>
+<td>-J01</td>
+<td>E</td>
+<td>TBA</td>
+<td>TBA</td>
+<td>08/01/2015 - 17/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Biology Pgm Comm</td>
+<tr>
+<td>BIOL4510-</td>
+<td>7342</td>
+<td>Hong Kong Flora & Vegetation 香港植物及植被</td>
+<td>3.00</td>
+<td>- Dr. LAU Tai Wai David</td>
+<td>40</td>
+<td>2</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Th 02:30PM - 05:15PM</td>
+<td>BMS_1</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>Biology Pgm Comm</td>
+</table></body></html>

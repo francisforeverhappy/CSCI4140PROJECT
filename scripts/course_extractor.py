@@ -30,16 +30,16 @@ def dumplist(tofile):
 	if m:
 		redirectURL = m.group(1)
 	else:
-		print '[Err] The redirect URL could not be found in html code.'
+		print('[Err] The redirect URL could not be found in html code.')
 		exit(0)
 	r = cusis.session.get(redirectURL)
 	if r.ok:
 		with open(tofile,'wb') as f:
 			for chunk in r.iter_content():
 				f.write(chunk)
-			print 'Course lists are in', tofile, 'now.'
+			print('Course lists are in', tofile, 'now.')
 	else:
-		print '[Err] Download link error.'
+		print('[Err] Download link error.')
 
 def dodump(subject):
 	search_panel()
@@ -54,7 +54,7 @@ def main():
 	with open('FacList.txt','r') as f:
 		for line in f.readlines():
 			subject = line.split()[0]
-			print 'Dumping',subject,'......'
+			print('Dumping',subject,'......')
 			dodump(subject)
 
 if __name__ == '__main__':

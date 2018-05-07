@@ -1,0 +1,2159 @@
+<html dir='ltr' lang='en'>
+<!-- Copyright (c) 2000, 2007, Oracle. All rights reserved. -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><body><table border='1' cellpadding='3' cellspacing='0'>
+<tr>
+<th>Class Code</th><th>Class Nbr</th><th>Course Title</th><th>Units</th><th>Teaching Staff</th><th>Quota(s)</th><th>Vacancy</th><th>Course Component</th><th>Section Code</th><th>Language</th><th>Period</th><th>Room</th><th>Meeting Date</th><th>Add Consent</th><th>Drop Consent</th><th>Course Offering Dept</th></tr>
+<tr>
+<td>SOWK1112C</td>
+<td>6994</td>
+<td>Soc Problems, Soc Wel & Soc Wk 社會問題、社會福利和社會工作</td>
+<td>3.00</td>
+<td>- Professor DAI Haijing</td>
+<td>79</td>
+<td>41</td>
+<td>LEC</td>
+<td>C</td>
+<td>E</td>
+<td>Mo 10:30AM - 01:15PM</td>
+<td>WMY_303</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Social Work</td>
+<tr>
+<td>SOWK1112D</td>
+<td>4315</td>
+<td>Soc Problems, Soc Wel & Soc Wk 社會問題、社會福利和社會工作</td>
+<td>3.00</td>
+<td>- Professor Raees Begum BAIG</td>
+<td>77</td>
+<td>56</td>
+<td>LEC</td>
+<td>D</td>
+<td>E</td>
+<td>Mo 02:30PM - 05:15PM</td>
+<td>YIA_505</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Social Work</td>
+<tr>
+<td>SOWK1113C</td>
+<td>6995</td>
+<td>Self-deve. in Changing Society 社會轉變中的自我發展</td>
+<td>3.00</td>
+<td>- Ms. CHEUNG Man Sze</td>
+<td>70</td>
+<td>29</td>
+<td>LEC</td>
+<td>C</td>
+<td>E</td>
+<td>Th 10:30AM - 01:15PM</td>
+<td>WMY_407</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Social Work</td>
+<tr>
+<td>SOWK1113D</td>
+<td>6180</td>
+<td>Self-deve. in Changing Society 社會轉變中的自我發展</td>
+<td>3.00</td>
+<td>- Dr. HO Wai Ming</td>
+<td>70</td>
+<td>15</td>
+<td>LEC</td>
+<td>D</td>
+<td>C</td>
+<td>We 10:30AM - 01:15PM</td>
+<td>WMY_305</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Social Work</td>
+<tr>
+<td>SOWK1130-</td>
+<td>6590</td>
+<td>Living with grief 與哀傷共存：認識死亡、垂死與喪</td>
+<td>3.00</td>
+<td>- Professor CHAN Chi Ho</td>
+<td>22</td>
+<td>0</td>
+<td>LEC</td>
+<td>-</td>
+<td>C</td>
+<td>Tu 02:30PM - 05:15PM</td>
+<td>UCC_C4</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Social Work</td>
+<tr>
+<td>SOWK1150B</td>
+<td>5451</td>
+<td>Choices in Life:Self Develop’t 生命的選擇：個人成長之旅</td>
+<td>3.00</td>
+<td>- Miss YUE Sau Chun Judia</td>
+<td>10</td>
+<td>0</td>
+<td>LEC</td>
+<td>B</td>
+<td>C</td>
+<td>Th 02:30PM - 05:15PM</td>
+<td>NAH_114</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Social Work</td>
+<tr>
+<td>SOWK1160C</td>
+<td>4988</td>
+<td>Movies, Life and Social Work 電影、人生與社工</td>
+<td>3.00</td>
+<td>- Miss NG Wai Ching</td>
+<td>20</td>
+<td>0</td>
+<td>LEC</td>
+<td>C</td>
+<td>C</td>
+<td>Th 02:30PM - 05:15PM</td>
+<td>UCC_C4</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Social Work</td>
+<tr>
+<td>SOWK1160D</td>
+<td>6676</td>
+<td>Movies, Life and Social Work 電影、人生與社工</td>
+<td>3.00</td>
+<td>- Miss YUE Sau Chun Judia</td>
+<td>30</td>
+<td>0</td>
+<td>LEC</td>
+<td>D</td>
+<td>C</td>
+<td>We 10:30AM - 01:15PM</td>
+<td>UCC_C4</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Social Work</td>
+<tr>
+<td>SOWK1190B</td>
+<td>5745</td>
+<td>Risk and Resilience in Life 人生風險與抗逆</td>
+<td>3.00</td>
+<td>- MR CHEN Wai Yip</td>
+<td>20</td>
+<td>17</td>
+<td>LEC</td>
+<td>B</td>
+<td>C</td>
+<td>Tu 10:30AM - 01:15PM</td>
+<td>LSK_LT5</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Social Work</td>
+<tr>
+<td>SOWK2140-</td>
+<td>6386</td>
+<td>Mental Disorders 精神失調</td>
+<td>2.00</td>
+<td>- Professor CHEUNG Mei Chun</td>
+<td>71</td>
+<td>0</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Th 02:30PM - 04:15PM</td>
+<td>UCC_C5</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Dept of Social Work</td>
+<tr>
+<td>SOWK2150C</td>
+<td>4412</td>
+<td>Indi Mental Health&Healthy Fam 個人心理健康與健康家庭</td>
+<td>3.00</td>
+<td>- Dr. HO Wai Ming</td>
+<td>10</td>
+<td>2</td>
+<td>LEC</td>
+<td>C</td>
+<td>C</td>
+<td>Mo 02:30PM - 05:15PM</td>
+<td>UCC_C4</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Social Work</td>
+<tr>
+<td>SOWK2150D</td>
+<td>4348</td>
+<td>Indi Mental Health&Healthy Fam 個人心理健康與健康家庭</td>
+<td>3.00</td>
+<td>- Mr CHAN Kar Choi</td>
+<td>10</td>
+<td>6</td>
+<td>LEC</td>
+<td>D</td>
+<td>E</td>
+<td>Fr 02:30PM - 05:15PM</td>
+<td>CYT_LT5</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Social Work</td>
+<tr>
+<td>SOWK2190C</td>
+<td>4451</td>
+<td>Und'g Social Disadvantaged 瞭解社會弱勢社群</td>
+<td>3.00</td>
+<td>- Mr TSOI Kcon Wah</td>
+<td>15</td>
+<td>4</td>
+<td>LEC</td>
+<td>C</td>
+<td>C</td>
+<td>Th 10:30AM - 01:15PM</td>
+<td>UCC_C4</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Social Work</td>
+<tr>
+<td>SOWK2200B</td>
+<td>5950</td>
+<td>Interpersonal Violence 人際暴力</td>
+<td>3.00</td>
+<td>- Miss NG Wai Ching</td>
+<td>15</td>
+<td>4</td>
+<td>LEC</td>
+<td>B</td>
+<td>C</td>
+<td>We 02:30PM - 05:15PM</td>
+<td>UCC_C5</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Social Work</td>
+<tr>
+<td>SOWK2230-</td>
+<td>6053</td>
+<td>Community Work 社區工作</td>
+<td>3.00</td>
+<td>- Professor WONG Hung</td>
+<td>56</td>
+<td>3</td>
+<td>LEC</td>
+<td>-</td>
+<td>C</td>
+<td>We 11:30AM - 01:15PM</td>
+<td>NAH_12</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Dept of Social Work</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>14</td>
+<td>1</td>
+<td>TUT</td>
+<td>-T01</td>
+<td>C</td>
+<td>We 02:30PM - 04:15PM</td>
+<td>UCC_103</td>
+<td>14/01/2015 - 14/01/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Dept of Social Work</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>We 02:30PM - 04:15PM</td>
+<td>UCC_103</td>
+<td>28/01/2015 - 28/01/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>We 02:30PM - 04:15PM</td>
+<td>UCC_103</td>
+<td>11/02/2015 - 11/02/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>We 02:30PM - 04:15PM</td>
+<td>UCC_103</td>
+<td>25/02/2015 - 25/02/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>We 02:30PM - 04:15PM</td>
+<td>UCC_103</td>
+<td>11/03/2015 - 11/03/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>We 02:30PM - 04:15PM</td>
+<td>UCC_103</td>
+<td>25/03/2015 - 25/03/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>We 02:30PM - 04:15PM</td>
+<td>UCC_103</td>
+<td>08/04/2015 - 08/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>14</td>
+<td>1</td>
+<td>TUT</td>
+<td>-T02</td>
+<td>C</td>
+<td>We 02:30PM - 04:15PM</td>
+<td>UCC_206</td>
+<td>21/01/2015 - 21/01/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Dept of Social Work</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>We 02:30PM - 04:15PM</td>
+<td>UCC_206</td>
+<td>04/02/2015 - 04/02/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>We 02:30PM - 04:15PM</td>
+<td>UCC_206</td>
+<td>18/02/2015 - 18/02/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>We 02:30PM - 04:15PM</td>
+<td>UCC_206</td>
+<td>04/03/2015 - 04/03/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>We 02:30PM - 04:15PM</td>
+<td>UCC_206</td>
+<td>18/03/2015 - 18/03/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>We 02:30PM - 04:15PM</td>
+<td>UCC_206</td>
+<td>01/04/2015 - 01/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>We 02:30PM - 04:15PM</td>
+<td>UCC_206</td>
+<td>15/04/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>14</td>
+<td>1</td>
+<td>TUT</td>
+<td>-T03</td>
+<td>C</td>
+<td>Mo 11:30AM - 01:15PM</td>
+<td>WMY_501</td>
+<td>12/01/2015 - 12/01/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Dept of Social Work</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Mo 11:30AM - 01:15PM</td>
+<td>WMY_501</td>
+<td>26/01/2015 - 26/01/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Mo 11:30AM - 01:15PM</td>
+<td>WMY_501</td>
+<td>09/02/2015 - 09/02/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Mo 11:30AM - 01:15PM</td>
+<td>WMY_501</td>
+<td>23/02/2015 - 23/02/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Mo 11:30AM - 01:15PM</td>
+<td>WMY_501</td>
+<td>09/03/2015 - 09/03/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Mo 11:30AM - 01:15PM</td>
+<td>WMY_501</td>
+<td>23/03/2015 - 23/03/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Mo 11:30AM - 01:15PM</td>
+<td>WMY_501</td>
+<td>06/04/2015 - 06/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>14</td>
+<td>0</td>
+<td>TUT</td>
+<td>-T04</td>
+<td>C</td>
+<td>Mo 11:30AM - 01:15PM</td>
+<td>WMY_501</td>
+<td>19/01/2015 - 19/01/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Dept of Social Work</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Mo 11:30AM - 01:15PM</td>
+<td>WMY_501</td>
+<td>02/02/2015 - 02/02/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Mo 11:30AM - 01:15PM</td>
+<td>WMY_501</td>
+<td>16/02/2015 - 16/02/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Mo 11:30AM - 01:15PM</td>
+<td>WMY_501</td>
+<td>02/03/2015 - 02/03/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Mo 11:30AM - 01:15PM</td>
+<td>WMY_501</td>
+<td>16/03/2015 - 16/03/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Mo 11:30AM - 01:15PM</td>
+<td>WMY_501</td>
+<td>30/03/2015 - 30/03/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Mo 11:30AM - 01:15PM</td>
+<td>WMY_501</td>
+<td>13/04/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>SOWK2430A</td>
+<td>6387</td>
+<td>Social Work Field Laboratory 社會工作實習實驗</td>
+<td>2.00</td>
+<td>- Miss YUE Sau Chun Judia</td>
+<td>15</td>
+<td>1</td>
+<td>LAB</td>
+<td>AL01</td>
+<td>C</td>
+<td>Mo 02:30PM - 05:15PM</td>
+<td>UCA_105</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Dept of Social Work</td>
+<tr>
+<td>SOWK2430B</td>
+<td>5666</td>
+<td>Social Work Field Laboratory 社會工作實習實驗</td>
+<td>2.00</td>
+<td>- Ms. CHEUNG Man Sze</td>
+<td>15</td>
+<td>2</td>
+<td>LAB</td>
+<td>BL01</td>
+<td>C</td>
+<td>Mo 02:30PM - 05:15PM</td>
+<td>UCC_206</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Dept of Social Work</td>
+<tr>
+<td>SOWK2430C</td>
+<td>5667</td>
+<td>Social Work Field Laboratory 社會工作實習實驗</td>
+<td>2.00</td>
+<td>- Miss NG Wai Ching</td>
+<td>15</td>
+<td>2</td>
+<td>LAB</td>
+<td>CL01</td>
+<td>C</td>
+<td>Mo 02:30PM - 05:15PM</td>
+<td>UCC_208</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Dept of Social Work</td>
+<tr>
+<td>SOWK2430D</td>
+<td>5668</td>
+<td>Social Work Field Laboratory 社會工作實習實驗</td>
+<td>2.00</td>
+<td>- Staff</td>
+<td>15</td>
+<td>2</td>
+<td>LAB</td>
+<td>DL01</td>
+<td>C</td>
+<td>Mo 02:30PM - 05:15PM</td>
+<td>UCC_201</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Dept of Social Work</td>
+<tr>
+<td>SOWK3310B</td>
+<td>5356</td>
+<td>Social Welfare Administration 社會福利行政</td>
+<td>3.00</td>
+<td>- Professor LEUNG Tse Fong Terry</td>
+<td>72</td>
+<td>17</td>
+<td>LEC</td>
+<td>B</td>
+<td>E</td>
+<td>Tu 10:30AM - 01:15PM</td>
+<td>UCC_C3</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Dept of Social Work</td>
+<tr>
+<td>SOWK3320-</td>
+<td>5659</td>
+<td>Social Work Research 社會工作研究</td>
+<td>3.00</td>
+<td>- Professor CHEN Ji Kang</td>
+<td>69</td>
+<td>15</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Th 10:30AM - 12:15PM</td>
+<td>UCC_C3</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Dept of Social Work</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>18</td>
+<td>4</td>
+<td>TUT</td>
+<td>-T01</td>
+<td>E</td>
+<td>Th 02:30PM - 04:15PM</td>
+<td>UCC_102</td>
+<td>15/01/2015 - 15/01/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Dept of Social Work</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 02:30PM - 04:15PM</td>
+<td>UCC_102</td>
+<td>29/01/2015 - 29/01/2015</td>
+<td></td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 02:30PM - 04:15PM</td>
+<td>UCC_102</td>
+<td>12/02/2015 - 12/02/2015</td>
+<td></td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 02:30PM - 04:15PM</td>
+<td>UCC_102</td>
+<td>26/02/2015 - 26/02/2015</td>
+<td></td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 02:30PM - 04:15PM</td>
+<td>UCC_102</td>
+<td>12/03/2015 - 12/03/2015</td>
+<td></td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 02:30PM - 04:15PM</td>
+<td>UCC_102</td>
+<td>26/03/2015 - 26/03/2015</td>
+<td></td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 02:30PM - 04:15PM</td>
+<td>UCC_102</td>
+<td>09/04/2015 - 09/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>17</td>
+<td>4</td>
+<td>TUT</td>
+<td>-T02</td>
+<td>E</td>
+<td>Th 02:30PM - 04:15PM</td>
+<td>UCC_104</td>
+<td>22/01/2015 - 22/01/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Dept of Social Work</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 02:30PM - 04:15PM</td>
+<td>UCC_104</td>
+<td>05/02/2015 - 05/02/2015</td>
+<td></td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 02:30PM - 04:15PM</td>
+<td>UCC_104</td>
+<td>19/02/2015 - 19/02/2015</td>
+<td></td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 02:30PM - 04:15PM</td>
+<td>UCC_104</td>
+<td>05/03/2015 - 05/03/2015</td>
+<td></td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 02:30PM - 04:15PM</td>
+<td>UCC_104</td>
+<td>19/03/2015 - 19/03/2015</td>
+<td></td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 02:30PM - 04:15PM</td>
+<td>UCC_104</td>
+<td>02/04/2015 - 02/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 02:30PM - 04:15PM</td>
+<td>UCC_104</td>
+<td>16/04/2015 - 16/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>17</td>
+<td>4</td>
+<td>TUT</td>
+<td>-T03</td>
+<td>E</td>
+<td>Th 02:30PM - 04:15PM</td>
+<td>UCC_104</td>
+<td>15/01/2015 - 15/01/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Dept of Social Work</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 02:30PM - 04:15PM</td>
+<td>UCC_104</td>
+<td>29/01/2015 - 29/01/2015</td>
+<td></td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 02:30PM - 04:15PM</td>
+<td>UCC_104</td>
+<td>12/02/2015 - 12/02/2015</td>
+<td></td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 02:30PM - 04:15PM</td>
+<td>UCC_104</td>
+<td>26/02/2015 - 26/02/2015</td>
+<td></td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 02:30PM - 04:15PM</td>
+<td>UCC_104</td>
+<td>12/03/2015 - 12/03/2015</td>
+<td></td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 02:30PM - 04:15PM</td>
+<td>UCC_104</td>
+<td>26/03/2015 - 26/03/2015</td>
+<td></td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 02:30PM - 04:15PM</td>
+<td>UCC_104</td>
+<td>09/04/2015 - 09/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>17</td>
+<td>3</td>
+<td>TUT</td>
+<td>-T04</td>
+<td>E</td>
+<td>Th 02:30PM - 04:15PM</td>
+<td>UCC_103</td>
+<td>22/01/2015 - 22/01/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Dept of Social Work</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 02:30PM - 04:15PM</td>
+<td>UCC_103</td>
+<td>05/02/2015 - 05/02/2015</td>
+<td></td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 02:30PM - 04:15PM</td>
+<td>UCC_103</td>
+<td>19/02/2015 - 19/02/2015</td>
+<td></td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 02:30PM - 04:15PM</td>
+<td>UCC_103</td>
+<td>05/03/2015 - 05/03/2015</td>
+<td></td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 02:30PM - 04:15PM</td>
+<td>UCC_103</td>
+<td>19/03/2015 - 19/03/2015</td>
+<td></td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 02:30PM - 04:15PM</td>
+<td>UCC_103</td>
+<td>02/04/2015 - 02/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 02:30PM - 04:15PM</td>
+<td>UCC_103</td>
+<td>16/04/2015 - 16/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>SOWK3410-</td>
+<td>7764</td>
+<td>Field Instruction I 實習指導（一）</td>
+<td>4.00</td>
+<td>- Mrs. LO NG Mei Kuen Eva
+- Ms. CHEUNG Man Sze</td>
+<td>55</td>
+<td>55</td>
+<td>FLD</td>
+<td>-F01</td>
+<td>C</td>
+<td>TBA</td>
+<td>TBA</td>
+<td>08/01/2015 - 17/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Dept of Social Work</td>
+<tr>
+<td>SOWK3420-</td>
+<td>5743</td>
+<td>Field Instruction II 實習指導（二）</td>
+<td>4.00</td>
+<td>- Mrs. LO NG Mei Kuen Eva
+- Ms. CHEUNG Man Sze</td>
+<td>55</td>
+<td>5</td>
+<td>FLD</td>
+<td>-F01</td>
+<td>C</td>
+<td>TBA</td>
+<td>TBA</td>
+<td>07/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Dept of Social Work</td>
+<tr>
+<td>SOWK4010A</td>
+<td>8089</td>
+<td>Student-Orientated Teaching I 學生為本教學課程（一）</td>
+<td>2.00</td>
+<td>- Professor LAM Ching Man</td>
+<td>15</td>
+<td>3</td>
+<td>PRJ</td>
+<td>AJ01</td>
+<td>C</td>
+<td>Tu 04:30PM - 06:15PM</td>
+<td>UCC_102</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Dept of Social Work</td>
+<tr>
+<td>SOWK4010B</td>
+<td>8088</td>
+<td>Student-Orientated Teaching I 學生為本教學課程（一）</td>
+<td>2.00</td>
+<td>- Professor TO Siu Ming</td>
+<td>15</td>
+<td>4</td>
+<td>PRJ</td>
+<td>BJ02</td>
+<td>C</td>
+<td>Tu 04:30PM - 06:15PM</td>
+<td>UCC_105</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Dept of Social Work</td>
+<tr>
+<td>SOWK4010C</td>
+<td>8087</td>
+<td>Student-Orientated Teaching I 學生為本教學課程（一）</td>
+<td>2.00</td>
+<td>- Ms TSE Kit Yee</td>
+<td>15</td>
+<td>3</td>
+<td>PRJ</td>
+<td>CJ03</td>
+<td>C</td>
+<td>We 09:30AM - 11:15AM</td>
+<td>ELB_204</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Dept of Social Work</td>
+<tr>
+<td>SOWK4010D</td>
+<td>8086</td>
+<td>Student-Orientated Teaching I 學生為本教學課程（一）</td>
+<td>2.00</td>
+<td>- Mrs. LO NG Mei Kuen Eva</td>
+<td>15</td>
+<td>3</td>
+<td>PRJ</td>
+<td>DJ04</td>
+<td>C</td>
+<td>Tu 04:30PM - 06:15PM</td>
+<td>UCC_205</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Dept of Social Work</td>
+<tr>
+<td>SOWK4020A</td>
+<td>7765</td>
+<td>Student Orientated Teaching II 學生為本教學課程（二）</td>
+<td>2.00</td>
+<td>- Dr. HO Wai Ming</td>
+<td>14</td>
+<td>0</td>
+<td>PRJ</td>
+<td>AJ01</td>
+<td>E</td>
+<td>Tu 10:30AM - 12:15PM</td>
+<td>WMY_302</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Dept of Social Work</td>
+<tr>
+<td>SOWK4020B</td>
+<td>7766</td>
+<td>Student Orientated Teaching II 學生為本教學課程（二）</td>
+<td>2.00</td>
+<td>- Professor CHEN Ji Kang</td>
+<td>14</td>
+<td>2</td>
+<td>PRJ</td>
+<td>BJ01</td>
+<td>E</td>
+<td>Tu 10:30AM - 12:15PM</td>
+<td>UCC_204</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Dept of Social Work</td>
+<tr>
+<td>SOWK4020C</td>
+<td>7767</td>
+<td>Student Orientated Teaching II 學生為本教學課程（二）</td>
+<td>2.00</td>
+<td>- Dr. LAU Yuk King</td>
+<td>14</td>
+<td>1</td>
+<td>PRJ</td>
+<td>CJ01</td>
+<td>E</td>
+<td>Tu 10:30AM - 12:15PM</td>
+<td>UCC_109</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Dept of Social Work</td>
+<tr>
+<td>SOWK4020D</td>
+<td>7768</td>
+<td>Student Orientated Teaching II 學生為本教學課程（二）</td>
+<td>2.00</td>
+<td>- Professor WU Qiaobing</td>
+<td>14</td>
+<td>0</td>
+<td>PRJ</td>
+<td>DJ01</td>
+<td>E</td>
+<td>Tu 10:30AM - 12:15PM</td>
+<td>UCC_104</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Dept of Social Work</td>
+<tr>
+<td>SOWK4350-</td>
+<td>7769</td>
+<td>Law and Social Work 法律與社工</td>
+<td>3.00</td>
+<td>- Miss CHOW Ching Yee</td>
+<td>60</td>
+<td>8</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Fr 06:30PM - 09:15PM</td>
+<td>ELB_303</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Dept of Social Work</td>
+<tr>
+<td>SOWK4410-</td>
+<td>5742</td>
+<td>Field Instruction III 實習指導（三）</td>
+<td>4.00</td>
+<td>- Mrs. LO NG Mei Kuen Eva
+- Ms. CHEUNG Man Sze</td>
+<td>55</td>
+<td>54</td>
+<td>FLD</td>
+<td>-F01</td>
+<td>C</td>
+<td>TBA</td>
+<td>TBA</td>
+<td>06/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Dept of Social Work</td>
+<tr>
+<td>SOWK4420-</td>
+<td>7770</td>
+<td>Field Instruction IV 實習指導（四）</td>
+<td>4.00</td>
+<td>- Mrs. LO NG Mei Kuen Eva
+- Ms. CHEUNG Man Sze</td>
+<td>55</td>
+<td>5</td>
+<td>FLD</td>
+<td>-F01</td>
+<td>C</td>
+<td>TBA</td>
+<td>TBA</td>
+<td>05/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Dept of Social Work</td>
+<tr>
+<td>SOWK4520-</td>
+<td>5314</td>
+<td>Seminar II Youth Social Work 專題研討（二）青少年社會工作</td>
+<td>3.00</td>
+<td>- Professor TO Siu Ming</td>
+<td>35</td>
+<td>1</td>
+<td>SEM</td>
+<td>-S01</td>
+<td>C</td>
+<td>We 09:30AM - 12:15PM</td>
+<td>UCC_111</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Dept of Social Work</td>
+<tr>
+<td>SOWK4540-</td>
+<td>6967</td>
+<td>Sem IV Soc Wk Peop w Spec Nds 專題研討（四）弱能人士社會工作</td>
+<td>3.00</td>
+<td>- Ms NG Lai Tuen Monica</td>
+<td>35</td>
+<td>0</td>
+<td>SEM</td>
+<td>-S01</td>
+<td>C</td>
+<td>Tu 02:30PM - 05:15PM</td>
+<td>UCC_111</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Dept of Social Work</td>
+<tr>
+<td>SOWK4560-</td>
+<td>5415</td>
+<td>Seminar VI: Family Therapy 專題研討（六）家庭治療</td>
+<td>3.00</td>
+<td>- Professor KIM Yeong Hee</td>
+<td>35</td>
+<td>4</td>
+<td>SEM</td>
+<td>-S01</td>
+<td>C</td>
+<td>We 02:30PM - 05:15PM</td>
+<td>LSK_201</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Dept of Social Work</td>
+</table></body></html>

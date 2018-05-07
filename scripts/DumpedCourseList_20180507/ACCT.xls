@@ -1,0 +1,867 @@
+<html dir='ltr' lang='en'>
+<!-- Copyright (c) 2000, 2007, Oracle. All rights reserved. -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><body><table border='1' cellpadding='3' cellspacing='0'>
+<tr>
+<th>Class Code</th><th>Class Nbr</th><th>Course Title</th><th>Units</th><th>Teaching Staff</th><th>Quota(s)</th><th>Vacancy</th><th>Course Component</th><th>Section Code</th><th>Language</th><th>Period</th><th>Room</th><th>Meeting Date</th><th>Add Consent</th><th>Drop Consent</th><th>Course Offering Dept</th></tr>
+<tr>
+<td>ACCT1111D</td>
+<td>5007</td>
+<td>Foundations in Financial Acctg 基礎財務會計</td>
+<td>3.00</td>
+<td>- Mr. LEE Siu Po</td>
+<td>80</td>
+<td>5</td>
+<td>LEC</td>
+<td>D</td>
+<td>E</td>
+<td>Tu 02:30PM - 05:15PM</td>
+<td>YIA_LT9</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Sch of Accountancy</td>
+<tr>
+<td>ACCT2121C</td>
+<td>7010</td>
+<td>Introductory Mgt Accounting 管理會計導論</td>
+<td>3.00</td>
+<td>- Professor KYUNG Hang Soo</td>
+<td>62</td>
+<td>21</td>
+<td>LEC</td>
+<td>C</td>
+<td>E</td>
+<td>We 08:30AM - 11:15AM</td>
+<td>YIA_503</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Sch of Accountancy</td>
+<tr>
+<td>ACCT2121D</td>
+<td>4027</td>
+<td>Introductory Mgt Accounting 管理會計導論</td>
+<td>3.00</td>
+<td>- Professor KYUNG Hang Soo</td>
+<td>62</td>
+<td>33</td>
+<td>LEC</td>
+<td>D</td>
+<td>E</td>
+<td>Mo 08:30AM - 11:15AM</td>
+<td>WMY_304</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Sch of Accountancy</td>
+<tr>
+<td>ACCT2121E</td>
+<td>7011</td>
+<td>Introductory Mgt Accounting 管理會計導論</td>
+<td>3.00</td>
+<td>- Professor KYUNG Hang Soo</td>
+<td>62</td>
+<td>24</td>
+<td>LEC</td>
+<td>E</td>
+<td>E</td>
+<td>Tu 10:30AM - 01:15PM</td>
+<td>YIA_LT6</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Sch of Accountancy</td>
+<tr>
+<td>ACCT2121F</td>
+<td>7012</td>
+<td>Introductory Mgt Accounting 管理會計導論</td>
+<td>3.00</td>
+<td>- Dr. WANG Linghua</td>
+<td>65</td>
+<td>0</td>
+<td>LEC</td>
+<td>F</td>
+<td>E</td>
+<td>We 08:30AM - 11:15AM</td>
+<td>WMY_306</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Sch of Accountancy</td>
+<tr>
+<td>ACCT2121G</td>
+<td>7016</td>
+<td>Introductory Mgt Accounting 管理會計導論</td>
+<td>3.00</td>
+<td>- Dr. WONG Kin Ho</td>
+<td>62</td>
+<td>1</td>
+<td>LEC</td>
+<td>G</td>
+<td>E</td>
+<td>Mo 08:30AM - 11:15AM</td>
+<td>CYT_LT1</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Sch of Accountancy</td>
+<tr>
+<td>ACCT2121H</td>
+<td>7017</td>
+<td>Introductory Mgt Accounting 管理會計導論</td>
+<td>3.00</td>
+<td>- Dr. WONG Kin Ho</td>
+<td>62</td>
+<td>1</td>
+<td>LEC</td>
+<td>H</td>
+<td>E</td>
+<td>Tu 10:30AM - 01:15PM</td>
+<td>CYT_201</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Sch of Accountancy</td>
+<tr>
+<td>ACCT2121I</td>
+<td>7013</td>
+<td>Introductory Mgt Accounting 管理會計導論</td>
+<td>3.00</td>
+<td>- Dr. WANG Linghua</td>
+<td>62</td>
+<td>2</td>
+<td>LEC</td>
+<td>I</td>
+<td>E</td>
+<td>Mo 08:30AM - 11:15AM</td>
+<td>YIA_403</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Sch of Accountancy</td>
+<tr>
+<td>ACCT2121J</td>
+<td>7014</td>
+<td>Introductory Mgt Accounting 管理會計導論</td>
+<td>3.00</td>
+<td>- Mr NG Yick Man Andy</td>
+<td>64</td>
+<td>0</td>
+<td>LEC</td>
+<td>J</td>
+<td>E</td>
+<td>We 08:30AM - 11:15AM</td>
+<td>WMY_304</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Sch of Accountancy</td>
+<tr>
+<td>ACCT2121K</td>
+<td>7015</td>
+<td>Introductory Mgt Accounting 管理會計導論</td>
+<td>3.00</td>
+<td>- Mr NG Yick Man Andy</td>
+<td>62</td>
+<td>2</td>
+<td>LEC</td>
+<td>K</td>
+<td>E</td>
+<td>Fr 08:30AM - 11:15AM</td>
+<td>WMY_506</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td></td>
+<td>Sch of Accountancy</td>
+<tr>
+<td>ACCT2121L</td>
+<td>5010</td>
+<td>Introductory Mgt Accounting 管理會計導論</td>
+<td>3.00</td>
+<td>- Dr. WONG Kin Ho</td>
+<td>65</td>
+<td>0</td>
+<td>LEC</td>
+<td>L</td>
+<td>E</td>
+<td>Fr 08:30AM - 11:15AM</td>
+<td>CYT_LT8</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td></td>
+<td>Sch of Accountancy</td>
+<tr>
+<td>ACCT3001D</td>
+<td>5920</td>
+<td>Business Ethics and Issues 商業道德專題研究</td>
+<td>2.00</td>
+<td>- Professor JIANG Zhaodong</td>
+<td>15</td>
+<td>0</td>
+<td>PRJ</td>
+<td>DJ01</td>
+<td>E</td>
+<td>Mo 02:30PM - 04:15PM</td>
+<td>FYB_402</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Sch of Accountancy</td>
+<tr>
+<td>ACCT3001E</td>
+<td>5924</td>
+<td>Business Ethics and Issues 商業道德專題研究</td>
+<td>2.00</td>
+<td>- Professor KYUNG Hang Soo</td>
+<td>15</td>
+<td>0</td>
+<td>PRJ</td>
+<td>EJ01</td>
+<td>E</td>
+<td>Th 08:30AM - 10:15AM</td>
+<td>ELB_304</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>Sch of Accountancy</td>
+<tr>
+<td>ACCT3001F</td>
+<td>4869</td>
+<td>Business Ethics and Issues 商業道德專題研究</td>
+<td>2.00</td>
+<td>- Professor CHIU Peng Chia</td>
+<td>15</td>
+<td>0</td>
+<td>PRJ</td>
+<td>FJ01</td>
+<td>E</td>
+<td>Th 08:30AM - 10:15AM</td>
+<td>FYB_107B</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>Sch of Accountancy</td>
+<tr>
+<td>ACCT3001G</td>
+<td>5921</td>
+<td>Business Ethics and Issues 商業道德專題研究</td>
+<td>2.00</td>
+<td>- Professor ZHANG Yinglei</td>
+<td>15</td>
+<td>0</td>
+<td>PRJ</td>
+<td>GJ01</td>
+<td>E</td>
+<td>We 04:30PM - 06:15PM</td>
+<td>CYT_211</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Sch of Accountancy</td>
+<tr>
+<td>ACCT3001H</td>
+<td>5925</td>
+<td>Business Ethics and Issues 商業道德專題研究</td>
+<td>2.00</td>
+<td>- Professor ZHUANG Zili</td>
+<td>15</td>
+<td>0</td>
+<td>PRJ</td>
+<td>HJ01</td>
+<td>E</td>
+<td>Tu 10:30AM - 12:15PM</td>
+<td>ELB_204</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Sch of Accountancy</td>
+<tr>
+<td>ACCT3001I</td>
+<td>7018</td>
+<td>Business Ethics and Issues 商業道德專題研究</td>
+<td>2.00</td>
+<td>- Professor CAO Ying</td>
+<td>15</td>
+<td>0</td>
+<td>PRJ</td>
+<td>IJ01</td>
+<td>E</td>
+<td>We 02:30PM - 04:15PM</td>
+<td>FYB_107A</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Sch of Accountancy</td>
+<tr>
+<td>ACCT3001J</td>
+<td>4957</td>
+<td>Business Ethics and Issues 商業道德專題研究</td>
+<td>2.00</td>
+<td>- Ms. LI Ka Wa Karen</td>
+<td>15</td>
+<td>0</td>
+<td>PRJ</td>
+<td>JJ01</td>
+<td>E</td>
+<td>Mo 02:30PM - 04:15PM</td>
+<td>CYT_212</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Sch of Accountancy</td>
+<tr>
+<td>ACCT3001K</td>
+<td>6954</td>
+<td>Business Ethics and Issues 商業道德專題研究</td>
+<td>2.00</td>
+<td>- Professor XIE Jin</td>
+<td>15</td>
+<td>0</td>
+<td>PRJ</td>
+<td>KJ01</td>
+<td>E</td>
+<td>Tu 08:30AM - 10:15AM</td>
+<td>YIA_411</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Sch of Accountancy</td>
+<tr>
+<td>ACCT3001L</td>
+<td>5918</td>
+<td>Business Ethics and Issues 商業道德專題研究</td>
+<td>2.00</td>
+<td>- Professor NG Jeff</td>
+<td>15</td>
+<td>0</td>
+<td>PRJ</td>
+<td>LJ01</td>
+<td>E</td>
+<td>Mo 02:30PM - 04:15PM</td>
+<td>FYB_107A</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Sch of Accountancy</td>
+<tr>
+<td>ACCT3111D</td>
+<td>5622</td>
+<td>Financial Reporting I 財務報告（一）</td>
+<td>3.00</td>
+<td>- Professor TSANG Hiu Leong</td>
+<td>50</td>
+<td>0</td>
+<td>LEC</td>
+<td>D</td>
+<td>E</td>
+<td>We 08:30AM - 11:15AM</td>
+<td>WMY_301</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Sch of Accountancy</td>
+<tr>
+<td>ACCT3112B</td>
+<td>5932</td>
+<td>Financial Reporting II 財務報告（二）</td>
+<td>3.00</td>
+<td>- Professor ZHANG Yinglei</td>
+<td>50</td>
+<td>10</td>
+<td>LEC</td>
+<td>B</td>
+<td>E</td>
+<td>Tu 02:30PM - 05:15PM</td>
+<td>ELB_202</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Sch of Accountancy</td>
+<tr>
+<td>ACCT3112C</td>
+<td>7019</td>
+<td>Financial Reporting II 財務報告（二）</td>
+<td>3.00</td>
+<td>- Professor ZHANG Yinglei</td>
+<td>30</td>
+<td>20</td>
+<td>LEC</td>
+<td>C</td>
+<td>E</td>
+<td>Mo 08:30AM - 11:15AM</td>
+<td>YIA_407</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Sch of Accountancy</td>
+<tr>
+<td>ACCT3112D</td>
+<td>7020</td>
+<td>Financial Reporting II 財務報告（二）</td>
+<td>3.00</td>
+<td>- Professor ZHANG Yinglei</td>
+<td>50</td>
+<td>13</td>
+<td>LEC</td>
+<td>D</td>
+<td>E</td>
+<td>Th 02:30PM - 05:15PM</td>
+<td>CYT_LT5</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>Sch of Accountancy</td>
+<tr>
+<td>ACCT3121D</td>
+<td>7032</td>
+<td>Cost and Management Accounting 成本及管理會計</td>
+<td>3.00</td>
+<td>- Dr. WANG Linghua</td>
+<td>50</td>
+<td>0</td>
+<td>LEC</td>
+<td>D</td>
+<td>E</td>
+<td>Fr 08:30AM - 11:15AM</td>
+<td>AIT_G04</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td></td>
+<td>Sch of Accountancy</td>
+<tr>
+<td>ACCT3142B</td>
+<td>4871</td>
+<td>Accounting Information Systems 會計資訊系統</td>
+<td>3.00</td>
+<td>- Dr. WONG Ka Lok</td>
+<td>50</td>
+<td>0</td>
+<td>LEC</td>
+<td>B</td>
+<td>E</td>
+<td>Th 02:30PM - 05:15PM</td>
+<td>ELB_308</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>Sch of Accountancy</td>
+<tr>
+<td>ACCT3142C</td>
+<td>4872</td>
+<td>Accounting Information Systems 會計資訊系統</td>
+<td>3.00</td>
+<td>- Dr. WONG Ka Lok</td>
+<td>50</td>
+<td>0</td>
+<td>LEC</td>
+<td>C</td>
+<td>E</td>
+<td>Fr 08:30AM - 11:15AM</td>
+<td>WMY_508</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td></td>
+<td>Sch of Accountancy</td>
+<tr>
+<td>ACCT3142D</td>
+<td>4870</td>
+<td>Accounting Information Systems 會計資訊系統</td>
+<td>3.00</td>
+<td>- Dr. WONG Ka Lok</td>
+<td>50</td>
+<td>0</td>
+<td>LEC</td>
+<td>D</td>
+<td>E</td>
+<td>Mo 08:30AM - 11:15AM</td>
+<td>WMY_403</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Sch of Accountancy</td>
+<tr>
+<td>ACCT3151F</td>
+<td>7033</td>
+<td>Business Law 商業法</td>
+<td>3.00</td>
+<td>- Dr. LAW Man Wai Anthony</td>
+<td>70</td>
+<td>7</td>
+<td>LEC</td>
+<td>F</td>
+<td>E</td>
+<td>Mo 08:30AM - 11:15AM</td>
+<td>WMY_301</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Sch of Accountancy</td>
+<tr>
+<td>ACCT3151G</td>
+<td>7034</td>
+<td>Business Law 商業法</td>
+<td>3.00</td>
+<td>- Dr. LAW Man Wai Anthony</td>
+<td>65</td>
+<td>0</td>
+<td>LEC</td>
+<td>G</td>
+<td>E</td>
+<td>Tu 02:30PM - 05:15PM</td>
+<td>WMY_306</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Sch of Accountancy</td>
+<tr>
+<td>ACCT3151H</td>
+<td>7035</td>
+<td>Business Law 商業法</td>
+<td>3.00</td>
+<td>- Mr KO Ka Yiu</td>
+<td>65</td>
+<td>13</td>
+<td>LEC</td>
+<td>H</td>
+<td>E</td>
+<td>We 02:30PM - 05:15PM</td>
+<td>YIA_LT5</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Sch of Accountancy</td>
+<tr>
+<td>ACCT3151I</td>
+<td>7036</td>
+<td>Business Law 商業法</td>
+<td>3.00</td>
+<td>- Dr. LAW Man Wai Anthony</td>
+<td>66</td>
+<td>0</td>
+<td>LEC</td>
+<td>I</td>
+<td>E</td>
+<td>Fr 08:30AM - 11:15AM</td>
+<td>WMY_301</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td></td>
+<td>Sch of Accountancy</td>
+<tr>
+<td>ACCT3152B</td>
+<td>5532</td>
+<td>Company Law 公司法</td>
+<td>3.00</td>
+<td>- Professor LOW Chee Keong</td>
+<td>65</td>
+<td>2</td>
+<td>LEC</td>
+<td>B</td>
+<td>E</td>
+<td>We 08:30AM - 11:15AM</td>
+<td>WMY_403</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Sch of Accountancy</td>
+<tr>
+<td>ACCT3152C</td>
+<td>5535</td>
+<td>Company Law 公司法</td>
+<td>3.00</td>
+<td>- Professor LOW Chee Keong</td>
+<td>65</td>
+<td>4</td>
+<td>LEC</td>
+<td>C</td>
+<td>E</td>
+<td>Th 02:30PM - 05:15PM</td>
+<td>YIA_LT5</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>Sch of Accountancy</td>
+<tr>
+<td>ACCT3152D</td>
+<td>7037</td>
+<td>Company Law 公司法</td>
+<td>3.00</td>
+<td>- Professor LOW Chee Keong</td>
+<td>65</td>
+<td>13</td>
+<td>LEC</td>
+<td>D</td>
+<td>E</td>
+<td>Fr 08:30AM - 11:15AM</td>
+<td>WMY_304</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td></td>
+<td>Sch of Accountancy</td>
+<tr>
+<td>ACCT3161C</td>
+<td>5540</td>
+<td>Taxation 稅務學</td>
+<td>3.00</td>
+<td>- Dr KAN FU Mee Yuk Shirley</td>
+<td>50</td>
+<td>10</td>
+<td>LEC</td>
+<td>C</td>
+<td>E</td>
+<td>Th 02:30PM - 05:15PM</td>
+<td>AIT_G04</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>Sch of Accountancy</td>
+<tr>
+<td>ACCT3161D</td>
+<td>7038</td>
+<td>Taxation 稅務學</td>
+<td>3.00</td>
+<td>- Dr KAN FU Mee Yuk Shirley</td>
+<td>50</td>
+<td>34</td>
+<td>LEC</td>
+<td>D</td>
+<td>E</td>
+<td>Mo 08:30AM - 11:15AM</td>
+<td>AIT_G04</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Sch of Accountancy</td>
+<tr>
+<td>ACCT3161E</td>
+<td>7039</td>
+<td>Taxation 稅務學</td>
+<td>3.00</td>
+<td>- Dr KAN FU Mee Yuk Shirley</td>
+<td>50</td>
+<td>6</td>
+<td>LEC</td>
+<td>E</td>
+<td>E</td>
+<td>Tu 02:30PM - 05:15PM</td>
+<td>AIT_G04</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Sch of Accountancy</td>
+<tr>
+<td>ACCT4111C</td>
+<td>5539</td>
+<td>Advanced Financial Accounting 高級財務會計</td>
+<td>3.00</td>
+<td>- Mr LEUNG Yiu Wing Eric</td>
+<td>50</td>
+<td>38</td>
+<td>LEC</td>
+<td>C</td>
+<td>E</td>
+<td>Fr 08:30AM - 11:15AM</td>
+<td>WMY_407</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td></td>
+<td>Sch of Accountancy</td>
+<tr>
+<td>ACCT4111D</td>
+<td>7040</td>
+<td>Advanced Financial Accounting 高級財務會計</td>
+<td>3.00</td>
+<td>- Mr LEUNG Yiu Wing Eric</td>
+<td>50</td>
+<td>11</td>
+<td>LEC</td>
+<td>D</td>
+<td>E</td>
+<td>We 08:30AM - 11:15AM</td>
+<td>WMY_406</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Sch of Accountancy</td>
+<tr>
+<td>ACCT4121A</td>
+<td>7041</td>
+<td>Strategic Mgt Accounting 策略管理會計</td>
+<td>3.00</td>
+<td>- Professor YANG Yong</td>
+<td>50</td>
+<td>13</td>
+<td>LEC</td>
+<td>A</td>
+<td>E</td>
+<td>Tu 02:30PM - 05:15PM</td>
+<td>WMY_408</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Sch of Accountancy</td>
+<tr>
+<td>ACCT4121B</td>
+<td>5100</td>
+<td>Strategic Mgt Accounting 策略管理會計</td>
+<td>3.00</td>
+<td>- Professor YANG Yong</td>
+<td>50</td>
+<td>17</td>
+<td>LEC</td>
+<td>B</td>
+<td>E</td>
+<td>We 02:30PM - 05:15PM</td>
+<td>YIA_403</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Sch of Accountancy</td>
+<tr>
+<td>ACCT4131C</td>
+<td>7042</td>
+<td>Auditing 審計學</td>
+<td>3.00</td>
+<td>- Professor CAO Ying</td>
+<td>60</td>
+<td>32</td>
+<td>LEC</td>
+<td>C</td>
+<td>E</td>
+<td>Fr 08:30AM - 11:15AM</td>
+<td>WMY_305</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td></td>
+<td>Sch of Accountancy</td>
+<tr>
+<td>ACCT4213B</td>
+<td>6996</td>
+<td>Financial Statement Analysis 財務報表分析</td>
+<td>3.00</td>
+<td>- Professor WU Donghui</td>
+<td>50</td>
+<td>19</td>
+<td>LEC</td>
+<td>B</td>
+<td>E</td>
+<td>Th 02:30PM - 05:15PM</td>
+<td>WMY_508</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>Sch of Accountancy</td>
+<tr>
+<td>ACCT4231A</td>
+<td>5099</td>
+<td>Internal Auditing and Control 內部審計及監控</td>
+<td>3.00</td>
+<td>- Mr LEUNG Yiu Wing Eric</td>
+<td>50</td>
+<td>0</td>
+<td>LEC</td>
+<td>A</td>
+<td>E</td>
+<td>Tu 02:30PM - 05:15PM</td>
+<td>WMY_403</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Sch of Accountancy</td>
+<tr>
+<td>ACCT4231B</td>
+<td>6004</td>
+<td>Internal Auditing and Control 內部審計及監控</td>
+<td>3.00</td>
+<td>- Mr LEUNG Yiu Wing Eric</td>
+<td>50</td>
+<td>0</td>
+<td>LEC</td>
+<td>B</td>
+<td>E</td>
+<td>Tu 10:30AM - 01:15PM</td>
+<td>LSK_514</td>
+<td>06/01/2015 - 10/03/2015</td>
+<td></td>
+<td></td>
+<td>Sch of Accountancy</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Tu 10:30AM - 01:15PM</td>
+<td>LSK_514</td>
+<td>24/03/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ACCT4253A</td>
+<td>6011</td>
+<td>Chinese Legal Env for Business 中國的商業法律環境</td>
+<td>3.00</td>
+<td>- Professor JIANG Zhaodong</td>
+<td>50</td>
+<td>32</td>
+<td>LEC</td>
+<td>A</td>
+<td>P&amp;E</td>
+<td>We 08:30AM - 11:15AM</td>
+<td>CYT_201</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Sch of Accountancy</td>
+<tr>
+<td>ACCT4261A</td>
+<td>5542</td>
+<td>Taxes and Business Strategy 稅務與商業策略</td>
+<td>3.00</td>
+<td>- Dr KAN FU Mee Yuk Shirley</td>
+<td>50</td>
+<td>0</td>
+<td>LEC</td>
+<td>A</td>
+<td>E</td>
+<td>Fr 08:30AM - 11:15AM</td>
+<td>WMY_403</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td></td>
+<td>Sch of Accountancy</td>
+<tr>
+<td>ACCT4271A</td>
+<td>5536</td>
+<td>Corporate Governance 公司管治</td>
+<td>3.00</td>
+<td>- Professor YANG Yong</td>
+<td>50</td>
+<td>0</td>
+<td>LEC</td>
+<td>A</td>
+<td>E</td>
+<td>Mo 08:30AM - 11:15AM</td>
+<td>CYT_201</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Sch of Accountancy</td>
+</table></body></html>

@@ -1,0 +1,1526 @@
+<html dir='ltr' lang='en'>
+<!-- Copyright (c) 2000, 2007, Oracle. All rights reserved. -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><body><table border='1' cellpadding='3' cellspacing='0'>
+<tr>
+<th>Class Code</th><th>Class Nbr</th><th>Course Title</th><th>Units</th><th>Teaching Staff</th><th>Quota(s)</th><th>Vacancy</th><th>Course Component</th><th>Section Code</th><th>Language</th><th>Period</th><th>Room</th><th>Meeting Date</th><th>Add Consent</th><th>Drop Consent</th><th>Course Offering Dept</th></tr>
+<tr>
+<td>CSCI1020-</td>
+<td>6772</td>
+<td>Hands-On Intro to C++ 高級程序設計語言C++實用介紹</td>
+<td>1.00</td>
+<td>- Dr CHEONG Chi Hong</td>
+<td>50</td>
+<td>4</td>
+<td>LEC</td>
+<td>-</td>
+<td>C&amp;E</td>
+<td>Th 12:30PM - 01:15PM</td>
+<td>LHC_101</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Computer Sci &amp; Engg</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>50</td>
+<td>4</td>
+<td>LAB</td>
+<td>-L01</td>
+<td>C&amp;E</td>
+<td>Th 02:30PM - 04:15PM</td>
+<td>SHB_123</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Computer Sci &amp; Engg</td>
+<tr>
+<td>CSCI1050-</td>
+<td>6774</td>
+<td>Hands-on Intro to MATLAB MATLAB實用介紹</td>
+<td>1.00</td>
+<td>- Professor LUI Chi Shing John</td>
+<td>50</td>
+<td>26</td>
+<td>LEC</td>
+<td>-</td>
+<td>C&amp;E</td>
+<td>Tu 01:30PM - 02:15PM</td>
+<td>ERB_703</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Computer Sci &amp; Engg</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>50</td>
+<td>26</td>
+<td>LAB</td>
+<td>-L01</td>
+<td>C&amp;E</td>
+<td>Th 10:30AM - 12:15PM</td>
+<td>SHB_123</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Computer Sci &amp; Engg</td>
+<tr>
+<td>CSCI1510-</td>
+<td>6775</td>
+<td>Computer Principle & C Prog 計算機原理及C程序設計</td>
+<td>3.00</td>
+<td>- Dr. LAW Yat Chiu</td>
+<td>90</td>
+<td>42</td>
+<td>LEC</td>
+<td>-</td>
+<td>C&amp;E</td>
+<td>Tu 02:30PM - 04:15PM</td>
+<td>MMW_703</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Computer Sci &amp; Engg</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>90</td>
+<td>42</td>
+<td>TUT</td>
+<td>-T01</td>
+<td>C&amp;E</td>
+<td>Tu 05:30PM - 06:15PM</td>
+<td>LSB_LT4</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Computer Sci &amp; Engg</td>
+<tr>
+<td>CSCI1520-</td>
+<td>5390</td>
+<td>Computer Principle & C++ Prog 計算機原理及C++程序設計</td>
+<td>3.00</td>
+<td>- Dr. LAW Yat Chiu</td>
+<td>120</td>
+<td>17</td>
+<td>LEC</td>
+<td>-</td>
+<td>C&amp;E</td>
+<td>Mo 10:30AM - 12:15PM</td>
+<td>YIA_LT5</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Computer Sci &amp; Engg</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>120</td>
+<td>83</td>
+<td>TUT</td>
+<td>-T01</td>
+<td>C&amp;E</td>
+<td>Mo 09:30AM - 10:15AM</td>
+<td>YIA_LT5</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Computer Sci &amp; Engg</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>120</td>
+<td>54</td>
+<td>TUT</td>
+<td>-T02</td>
+<td>C&amp;E</td>
+<td>Mo 12:30PM - 01:15PM</td>
+<td>YIA_LT5</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Computer Sci &amp; Engg</td>
+<tr>
+<td>CSCI1530-</td>
+<td>6777</td>
+<td>Computer Principle & Java Prog 計算機原理及JAVA程序設計</td>
+<td>3.00</td>
+<td>- Mr. FUNG Ping Fu</td>
+<td>60</td>
+<td>21</td>
+<td>LEC</td>
+<td>-</td>
+<td>C&amp;E</td>
+<td>Mo 02:30PM - 04:15PM</td>
+<td>ERB_404</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Computer Sci &amp; Engg</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>40</td>
+<td>18</td>
+<td>TUT</td>
+<td>-T01</td>
+<td>C&amp;E</td>
+<td>We 05:30PM - 06:15PM</td>
+<td>LSB_C3</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Computer Sci &amp; Engg</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>40</td>
+<td>23</td>
+<td>TUT</td>
+<td>-T02</td>
+<td>C&amp;E</td>
+<td>Th 05:30PM - 06:15PM</td>
+<td>LSB_C5</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Computer Sci &amp; Engg</td>
+<tr>
+<td>CSCI2100A</td>
+<td>5106</td>
+<td>Data Structures 數據結構</td>
+<td>3.00</td>
+<td>- Professor KING Kuo Chin Irwin</td>
+<td>100</td>
+<td>0</td>
+<td>LEC</td>
+<td>A</td>
+<td>E</td>
+<td>Mo 12:30PM - 01:15PM</td>
+<td>ERB_LT</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Computer Sci &amp; Engg</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>We 11:30AM - 12:15PM</td>
+<td>LSK_LT3</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>We 10:30AM - 11:15AM</td>
+<td>LSK_LT5</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>100</td>
+<td>6</td>
+<td>TUT</td>
+<td>AT01</td>
+<td>E</td>
+<td>Mo 05:30PM - 06:15PM</td>
+<td>ERB_407</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Computer Sci &amp; Engg</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>40</td>
+<td>31</td>
+<td>TUT</td>
+<td>AT02</td>
+<td>E</td>
+<td>We 03:30PM - 04:15PM</td>
+<td>ERB_404</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Computer Sci &amp; Engg</td>
+<tr>
+<td>CSCI2100B</td>
+<td>5105</td>
+<td>Data Structures 數據結構</td>
+<td>3.00</td>
+<td>- Professor SUN Hanqiu</td>
+<td>100</td>
+<td>56</td>
+<td>LEC</td>
+<td>B</td>
+<td>E</td>
+<td>We 12:30PM - 01:15PM</td>
+<td>ERB_407</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Computer Sci &amp; Engg</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 04:30PM - 06:15PM</td>
+<td>LHC_103</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>100</td>
+<td>56</td>
+<td>TUT</td>
+<td>BT01</td>
+<td>E</td>
+<td>We 11:30AM - 12:15PM</td>
+<td>ICS_L1</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Computer Sci &amp; Engg</td>
+<tr>
+<td>CSCI2100C</td>
+<td>5104</td>
+<td>Data Structures 數據結構</td>
+<td>3.00</td>
+<td>- Professor YU Jeffrey Xu</td>
+<td>125</td>
+<td>1</td>
+<td>LEC</td>
+<td>C</td>
+<td>E</td>
+<td>Th 09:30AM - 12:15PM</td>
+<td>YIA_LT4</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Computer Sci &amp; Engg</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>125</td>
+<td>3</td>
+<td>TUT</td>
+<td>CT01</td>
+<td>E</td>
+<td>Tu 01:30PM - 02:15PM</td>
+<td>MMW_702</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Computer Sci &amp; Engg</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>125</td>
+<td>123</td>
+<td>TUT</td>
+<td>CT02</td>
+<td>E</td>
+<td>Th 12:30PM - 01:15PM</td>
+<td>ERB_803</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Computer Sci &amp; Engg</td>
+<tr>
+<td>CSCI2100D</td>
+<td>8908</td>
+<td>Data Structures 數據結構</td>
+<td>3.00</td>
+<td>- Mr. FUNG Ping Fu</td>
+<td>50</td>
+<td>8</td>
+<td>LEC</td>
+<td>D</td>
+<td>E</td>
+<td>Tu 04:30PM - 05:15PM</td>
+<td>ERB_803</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Dept of Computer Sci &amp; Engg</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 10:30AM - 12:15PM</td>
+<td>KKB_101</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>50</td>
+<td>8</td>
+<td>TUT</td>
+<td>DT01</td>
+<td>E</td>
+<td>Th 09:30AM - 10:15AM</td>
+<td>KKB_101</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Dept of Computer Sci &amp; Engg</td>
+<tr>
+<td>CSCI2120-</td>
+<td>6779</td>
+<td>Intro to Software Engineering 軟件工程導論</td>
+<td>2.00</td>
+<td>- Dr CHEONG Chi Hong</td>
+<td>40</td>
+<td>16</td>
+<td>LEC</td>
+<td>-</td>
+<td>C&amp;E</td>
+<td>We 12:30PM - 02:15PM</td>
+<td>ERB_706</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Computer Sci &amp; Engg</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>40</td>
+<td>16</td>
+<td>TUT</td>
+<td>-T01</td>
+<td>C&amp;E</td>
+<td>Mo 06:30PM - 07:15PM</td>
+<td>SHB_123</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Computer Sci &amp; Engg</td>
+<tr>
+<td>CSCI2510-</td>
+<td>4697</td>
+<td>Computer Organization 計算機結構</td>
+<td>3.00</td>
+<td>- Professor YOUNG Fung Yu</td>
+<td>50</td>
+<td>23</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Tu 10:30AM - 12:15PM</td>
+<td>LHC_G03</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Computer Sci &amp; Engg</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 05:30PM - 06:15PM</td>
+<td>ERB_703</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>50</td>
+<td>23</td>
+<td>TUT</td>
+<td>-T01</td>
+<td>E</td>
+<td>Tu 02:30PM - 03:15PM</td>
+<td>ERB_703</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Computer Sci &amp; Engg</td>
+<tr>
+<td>CSCI2720-</td>
+<td>6782</td>
+<td>Building Web Applications 建設網上應用程式</td>
+<td>3.00</td>
+<td>- Dr. YUAN Cheng Jiun</td>
+<td>40</td>
+<td>16</td>
+<td>LEC</td>
+<td>-</td>
+<td>C#E</td>
+<td>Mo 04:30PM - 06:15PM</td>
+<td>LSB_G35</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Computer Sci &amp; Engg</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 05:30PM - 06:15PM</td>
+<td>ERB_408</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>40</td>
+<td>16</td>
+<td>TUT</td>
+<td>-T01</td>
+<td>C#E</td>
+<td>Th 06:30PM - 07:15PM</td>
+<td>SHB_904</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Computer Sci &amp; Engg</td>
+<tr>
+<td>CSCI3100-</td>
+<td>6804</td>
+<td>Software Engineering 軟件工程</td>
+<td>3.00</td>
+<td>- Professor LYU Rung Tsong Michael</td>
+<td>174</td>
+<td>13</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Mo 10:30AM - 11:15AM</td>
+<td>ERB_LT</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Computer Sci &amp; Engg</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Tu 10:30AM - 12:15PM</td>
+<td>ERB_LT</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>170</td>
+<td>42</td>
+<td>TUT</td>
+<td>-T01</td>
+<td>E</td>
+<td>Mo 09:30AM - 10:15AM</td>
+<td>ERB_LT</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Computer Sci &amp; Engg</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>70</td>
+<td>37</td>
+<td>TUT</td>
+<td>-T02</td>
+<td>E</td>
+<td>We 05:30PM - 06:15PM</td>
+<td>LPN_LT</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Computer Sci &amp; Engg</td>
+<tr>
+<td>CSCI3160-</td>
+<td>7571</td>
+<td>Design & Analysis of Algo 算法設計及分析</td>
+<td>3.00</td>
+<td>- Professor ZHANG Shengyu</td>
+<td>55</td>
+<td>14</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Tu 02:30PM - 05:15PM</td>
+<td>ERB_804</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Computer Sci &amp; Engg</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>50</td>
+<td>14</td>
+<td>TUT</td>
+<td>-T01</td>
+<td>E</td>
+<td>Tu 05:30PM - 06:15PM</td>
+<td>ERB_804</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Computer Sci &amp; Engg</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>50</td>
+<td>45</td>
+<td>TUT</td>
+<td>-T02</td>
+<td>E</td>
+<td>We 07:30PM - 08:15PM</td>
+<td>ERB_401</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Computer Sci &amp; Engg</td>
+<tr>
+<td>CSCI3170-</td>
+<td>6807</td>
+<td>Intro to Database Systems 數據庫系統導論</td>
+<td>3.00</td>
+<td>- Professor WONG Man Hon</td>
+<td>123</td>
+<td>88</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>We 11:30AM - 12:15PM</td>
+<td>LSB_LT6</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Computer Sci &amp; Engg</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 10:30AM - 12:15PM</td>
+<td>LSK_LT3</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>70</td>
+<td>57</td>
+<td>TUT</td>
+<td>-T01</td>
+<td>E</td>
+<td>We 02:30PM - 03:15PM</td>
+<td>LHC_G04</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Computer Sci &amp; Engg</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>70</td>
+<td>48</td>
+<td>TUT</td>
+<td>-T02</td>
+<td>E</td>
+<td>Th 01:30PM - 02:15PM</td>
+<td>LPN_LT</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Computer Sci &amp; Engg</td>
+<tr>
+<td>CSCI3180-</td>
+<td>6810</td>
+<td>Principles of Programming Lang 程序設計語言原理</td>
+<td>3.00</td>
+<td>- Professor LEE Ho Man</td>
+<td>100</td>
+<td>45</td>
+<td>LEC</td>
+<td>-</td>
+<td>C&amp;E</td>
+<td>Mo 02:30PM - 04:15PM</td>
+<td>TYW_LT</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Computer Sci &amp; Engg</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Tu 02:30PM - 03:15PM</td>
+<td>LSB_LT2</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>45</td>
+<td>17</td>
+<td>TUT</td>
+<td>-T01</td>
+<td>C&amp;E</td>
+<td>Tu 05:30PM - 06:15PM</td>
+<td>ERB_405</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Computer Sci &amp; Engg</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>70</td>
+<td>46</td>
+<td>TUT</td>
+<td>-T02</td>
+<td>C&amp;E</td>
+<td>Th 02:30PM - 03:15PM</td>
+<td>ERB_405</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Computer Sci &amp; Engg</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>70</td>
+<td>67</td>
+<td>TUT</td>
+<td>-T03</td>
+<td>C&amp;E</td>
+<td>TBA</td>
+<td>TBA</td>
+<td>08/01/2015 - 17/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Computer Sci &amp; Engg</td>
+<tr>
+<td>CSCI3280-</td>
+<td>6812</td>
+<td>Intro to Multimedia Systems 多媒體系統導論</td>
+<td>3.00</td>
+<td>- Professor WONG Tien Tsin</td>
+<td>100</td>
+<td>0</td>
+<td>LEC</td>
+<td>-</td>
+<td>C</td>
+<td>Th 12:30PM - 01:15PM</td>
+<td>ERB_407</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Computer Sci &amp; Engg</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Fr 09:30AM - 11:15AM</td>
+<td>ERB_407</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>55</td>
+<td>9</td>
+<td>TUT</td>
+<td>-T01</td>
+<td>C</td>
+<td>Th 04:30PM - 05:15PM</td>
+<td>MMW_702</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Computer Sci &amp; Engg</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>55</td>
+<td>1</td>
+<td>TUT</td>
+<td>-T02</td>
+<td>C</td>
+<td>Th 01:30PM - 02:15PM</td>
+<td>ERB_703</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Computer Sci &amp; Engg</td>
+<tr>
+<td>CSCI3320-</td>
+<td>5704</td>
+<td>Fund. of Machine Learning 機器學習之基礎課程</td>
+<td>3.00</td>
+<td>- Professor LUI Chi Shing John</td>
+<td>32</td>
+<td>8</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Tu 10:30AM - 12:15PM</td>
+<td>ERB_402</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Computer Sci &amp; Engg</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 01:30PM - 02:15PM</td>
+<td>ERB_713</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>30</td>
+<td>6</td>
+<td>TUT</td>
+<td>-T01</td>
+<td>E</td>
+<td>Th 02:30PM - 03:15PM</td>
+<td>ERB_713</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Computer Sci &amp; Engg</td>
+<tr>
+<td>CSCI4020-</td>
+<td>6519</td>
+<td>Final Project II 畢業專題研究（二）</td>
+<td>4.00</td>
+<td>- Dr CHEONG Chi Hong
+- Dr LAM Tak Kei
+- Dr MA Wai Man
+- Dr OR Siu Hang
+- Dr WONG Tsz Yeung
+- Dr. LAW Yat Chiu
+- Dr. YUAN Cheng Jiun
+- Professor Andrej BOGDANOV
+- Professor CAI Leizhen
+- Professor CHAN Lai Wan
+- Professor CHENG James
+- Professo</td>
+<td>150</td>
+<td>78</td>
+<td>PRJ</td>
+<td>-J01</td>
+<td>C&amp;E</td>
+<td>TBA</td>
+<td>TBA</td>
+<td>05/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Computer Sci &amp; Engg</td>
+<tr>
+<td>CSCI4140-</td>
+<td>4863</td>
+<td>Open-source SW Project Dev 開放代源碼軟件項目開發</td>
+<td>3.00</td>
+<td>- Dr WONG Tsz Yeung</td>
+<td>126</td>
+<td>37</td>
+<td>LEC</td>
+<td>-</td>
+<td>C#E</td>
+<td>Mo 05:30PM - 06:15PM</td>
+<td>LSB_LT6</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Computer Sci &amp; Engg</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Tu 12:30PM - 02:15PM</td>
+<td>TYW_LT</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>60</td>
+<td>18</td>
+<td>TUT</td>
+<td>-T01</td>
+<td>C&amp;E</td>
+<td>Th 11:30AM - 12:15PM</td>
+<td>ERB_404</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Computer Sci &amp; Engg</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>60</td>
+<td>40</td>
+<td>TUT</td>
+<td>-T02</td>
+<td>C&amp;E</td>
+<td>Th 02:30PM - 03:15PM</td>
+<td>ERB_404</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Computer Sci &amp; Engg</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>30</td>
+<td>3</td>
+<td>TUT</td>
+<td>-T03</td>
+<td>C&amp;E</td>
+<td>Th 05:30PM - 06:15PM</td>
+<td>ERB_405</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Computer Sci &amp; Engg</td>
+<tr>
+<td>CSCI4190-</td>
+<td>4413</td>
+<td>Intro to Social Networks 社交網絡導論</td>
+<td>3.00</td>
+<td>- Professor CHAN Lai Wan</td>
+<td>45</td>
+<td>18</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Th 01:30PM - 04:15PM</td>
+<td>ERB_706</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Computer Sci &amp; Engg</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>45</td>
+<td>18</td>
+<td>TUT</td>
+<td>-T01</td>
+<td>E</td>
+<td>We 01:30PM - 02:15PM</td>
+<td>LHC_G06</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Computer Sci &amp; Engg</td>
+<tr>
+<td>CSCI4430-</td>
+<td>6528</td>
+<td>Data Comm & Computer Networks 數據通信及計算機網絡</td>
+<td>3.00</td>
+<td>- Dr WONG Tsz Yeung
+- Professor LEE Pak Ching</td>
+<td>132</td>
+<td>61</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Mo 12:30PM - 02:15PM</td>
+<td>MMW_LT2</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Computer Sci &amp; Engg</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>We 05:30PM - 06:15PM</td>
+<td>TYW_LT</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>50</td>
+<td>28</td>
+<td>TUT</td>
+<td>-T01</td>
+<td>C&amp;E</td>
+<td>Th 08:30AM - 09:15AM</td>
+<td>ERB_804</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Computer Sci &amp; Engg</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>70</td>
+<td>45</td>
+<td>TUT</td>
+<td>-T02</td>
+<td>C&amp;E</td>
+<td>Th 11:30AM - 12:15PM</td>
+<td>MMW_703</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Computer Sci &amp; Engg</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>50</td>
+<td>26</td>
+<td>TUT</td>
+<td>-T03</td>
+<td>C&amp;E</td>
+<td>Th 12:30PM - 01:15PM</td>
+<td>ERB_703</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Computer Sci &amp; Engg</td>
+</table></body></html>

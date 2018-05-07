@@ -1,9 +1,6 @@
 const express = require('express'),
     router = express.Router(),
-    mongoose = require('mongoose'),
-    session = require('express-session'),
-    bodyParser = require('body-parser'),
-    cookieParser = require('cookie-parser'),
+    store = require('store'),    
     spawn = require('child_process').spawn;
 
 const Course = require('../models/course'),
@@ -14,9 +11,9 @@ const Course = require('../models/course'),
 
 router.get('/', (req, res) => {
     let isLoggedIn = false;
-    console.log(req.session.sid);
     res.render('index', {sid: req.session.sid});
 });
+
 
 router.post('/search', (req, res) => {
     // on the original page
@@ -33,15 +30,36 @@ router.post('/search', (req, res) => {
     });
 });
 
-router.get('/:courseCode/details', (req, res) => {
-    // new page
-    console.log('get /details');
-    Course.findOne({courseCode: req.params.courseCode}, (err, course) => {
+router.get('/test', (req, res) => {
+    Course.find({}, (err, courses) => {
         if (err) {
             return console.error('courseSession find error');
         }
-        console.log(course.description);
-        res.render('index', {sid: req.session.sid, sessions: course});
+        if (courses.length > 0) {
+            courses.forEach((course) => {
+                console.log(course.courseCode);
+            }) 
+        } else {
+            console.log('no such course')
+        }
+    });
+});
+
+router.get('/search/:courseCode', (req, res) => {
+    // new page
+    let courseCode = req.params.courseCode;
+    console.log('get ' + courseCode);
+    let regex = new RegExp(courseCode, 'gi');
+    Course.findOne({courseCode: courseCode}, (err, course) => {
+        if (err) {
+            return console.error('courseSession find error');
+        }
+        if (!course) {
+            console.log('no such course')
+            return res.render('index', {sid: req.session.sid, course: course});
+        }  
+        console.log(course.courseName);
+        return res.render('index', {sid: req.session.sid, course: course})
     });
 });
 
@@ -81,11 +99,6 @@ router.post('/login', (req, res, next) => {
         }
         res.redirect('/');
     });
-});
-
-router.get('/login', (req, res) => {
-    // for debug
-    res.render('login');
 });
 
 router.get('/logout', (req, res) => {
