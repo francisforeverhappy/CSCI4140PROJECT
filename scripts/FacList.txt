@@ -8,26 +8,28 @@ BCME	Chinese Medicine
 BIOL	Biology
 BMED	Maths & Maths Education
 BMEG	Biomedical Engineering
-BMJC	Jointly offered-Bio Pg Com/SBS
 BSCG	Gerontology
-CCAN	Cantonese
 CCSS	Contemporary China Studies
 CENG	Computer Engineering
+CHED	Early Childhood Education
 CHEM	Chemistry
 CHES	Chinese Studies
 CHLL	Chinese Language & Literature
 CHLT	Chinese Proficiency Courses
 CHPR	Community Health Practice
+CLCC	Cantonese
+CLCE	CLC content courses
+CLCP	Putonghua
 CLED	Chinese Language Education
 CMBI	Cell & Molecular Biology
 COMM	Communication
-CPTH	Putonghua
 CSCI	Computer Science
 CUMT	Cultural Management
 CURE	Cultural & Religious Studies
 DSME	Decision Sciences & Managerial
 ECON	Economics
 EDUC	Education
+EEEN	Energy and Environmental Erg
 ELED	English Language Education
 ELEG	Electronic Engineering
 ELTU	English Language Teaching Unit
@@ -35,6 +37,7 @@ ENER	Energy Engineering
 ENGE	English
 ENGG	Courses offered by Fac of Erg
 ENSC	Environmental Science
+EPIN	Entrepreneurship & Innovation
 ESGS	Earth System and GeoInfo Sci
 ESSC	Earth System Science-UG Major
 ESTR	Courses for ELITE Stream
@@ -45,17 +48,17 @@ FREN	French
 GDRS	Gender Studies
 GECC	GE - Chung Chi College
 GECW	GE - CW Chu College
-GELD	Leadership Development Program
 GEMC	GE - Morningside College
 GENA	GE - New Asia College
 GERM	German
 GESC	GE - Shaw College
 GESH	GE - S.H. Ho College
 GEUC	GE - United College
-GEWS	GE - Lee Woo SIng College
+GEWS	GE - Lee Woo Sing College
 GEYS	GE - Wu Yee Sun College
-GLBS	Global Studies
+GLBS	Global Studies (2-year)
 GLEF	Global Economics and Finance
+GLSD	Global Studies
 GPAD	Government & Public Admin
 GRMD	Geography & Resource Mgt
 HIST	History
@@ -64,7 +67,6 @@ HTMG	Hotel And Tourism Management
 IASP	International Asian Studies
 IBBA	Integrated BBA Programme
 IERG	Information Engineering
-IPCE	Putonghua, Cantonese & English
 ITAL	Italian
 JASP	Japanese Studies
 KORE	Korean
@@ -76,9 +78,11 @@ MAEG	Mechanical & Automation Engg
 MATH	Mathematics
 MBTE	Molecular Biotechnology
 MEDF	Medicine Faculty Package
+MEDU	Medicine
 MGNT	Management
 MKTG	Marketing
 MUSC	Music
+NSCI	Natural Sciences
 NURS	Nursing
 PHAR	Pharmacy
 PHED	Physical Education
@@ -94,6 +98,7 @@ SOCI	Sociology
 SOWK	Social Work
 SPAN	Spanish
 SPED	Sports Science & Physical Educ
+STAR	Courses for STAR Stream
 STAT	Statistics
 THAI	Thai
 THEO	Theology
