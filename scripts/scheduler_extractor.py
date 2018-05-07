@@ -27,12 +27,12 @@ def printlist():
     URL = "https://cusis.cuhk.edu.hk/psc/csprd/EMPLOYEE/HRMS/c/SA_LEARNER_SERVICES.SSR_SSENRL_LIST.GBL"
     payload = {'ICType':'Panel','ICAction':'DERIVED_REGFRM1_SA_LINK_PRINTER'}
     r = cusis.session.post(URL,data=payload)
-    print r.text
     course_info = re.findall(r"<table cellspacing='0' (.+?)</table>", r.text, re.DOTALL)
     course_name = re.findall(r"<td class='PAGROUPDIVIDER' align='left'>(.+?)</td>", r.text)
     course_num = len(course_name)
     i = 0
     new_entry = True
+    code_list = []
     for entry in course_info:
         l = re.findall(r"(?:<span  class=.+?>(.+?)</span>|<td align='CENTER'  class='PSLEVEL3GRIDROW' >(.+?)</td>)", entry, re.DOTALL)
         flat_list = [item for sublist in l for item in sublist]
@@ -43,19 +43,18 @@ def printlist():
         else:
             for i in range(len(item)/7):
                 if item[7*i] != "&nbsp;":
-                    print item[7*i]
+                    code_list.append(item[7*i])
                 for col in item[7*i : 7*(i+1)]:
                     if col == "&nbsp;":
                         col = ""
 
-
+    print (','.join(code_list))
 
 
 def dumplist(tofile):
     URL = "https://cusis.cuhk.edu.hk/psc/csprd/EMPLOYEE/HRMS/c/SA_LEARNER_SERVICES.SSR_SSENRL_LIST.GBL"
     payload = {'ICType':'Panel','ICAction':'DERIVED_REGFRM1_SA_LINK_PRINTER'}
     r = cusis.session.post(URL,data=payload)
-    print r.text
     course_info = re.findall(r"<table cellspacing='0' (.+?)</table>", r.text, re.DOTALL)
     course_name = re.findall(r"<td class='PAGROUPDIVIDER' align='left'>(.+?)</td>", r.text)
     course_num = len(course_name)
@@ -76,10 +75,8 @@ def dumplist(tofile):
         new_entry = True
         for entry in course_info:
             l = re.findall(r"(?:<span  class=.+?>(.+?)</span>|<td align='CENTER'  class='PSLEVEL3GRIDROW' >(.+?)</td>)", entry, re.DOTALL)
-            print l
             flat_list = [item for sublist in l for item in sublist]
             item = filter(None, flat_list)
-            print item
             if len(item) == 4:
                 new_entry = True
                 f.write("<tr>\n")
