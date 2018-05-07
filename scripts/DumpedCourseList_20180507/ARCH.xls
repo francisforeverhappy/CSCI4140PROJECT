@@ -1,0 +1,714 @@
+<html dir='ltr' lang='en'>
+<!-- Copyright (c) 2000, 2007, Oracle. All rights reserved. -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><body><table border='1' cellpadding='3' cellspacing='0'>
+<tr>
+<th>Class Code</th><th>Class Nbr</th><th>Course Title</th><th>Units</th><th>Teaching Staff</th><th>Quota(s)</th><th>Vacancy</th><th>Course Component</th><th>Section Code</th><th>Language</th><th>Period</th><th>Room</th><th>Meeting Date</th><th>Add Consent</th><th>Drop Consent</th><th>Course Offering Dept</th></tr>
+<tr>
+<td>ARCH1002-</td>
+<td>6712</td>
+<td>Understanding Cities 認識城市</td>
+<td>3.00</td>
+<td>- Professor FOURNIER Colin</td>
+<td>60</td>
+<td>9</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>We 02:30PM - 05:15PM</td>
+<td>AIT_G04</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Sch of Architecture</td>
+<tr>
+<td>ARCH2112B</td>
+<td>8375</td>
+<td>Intro to Arch Design II 建築設計導論（二）</td>
+<td>5.00</td>
+<td>- Professor GU Daqing
+- Professor SUN Weiwei</td>
+<td>65</td>
+<td>50</td>
+<td>STD</td>
+<td>BU01</td>
+<td>E</td>
+<td>Mo 01:30PM - 06:15PM</td>
+<td>TBA</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Sch of Architecture</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 01:30PM - 06:15PM</td>
+<td>TBA</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ARCH2112C</td>
+<td>8374</td>
+<td>Intro to Arch Design II 建築設計導論（二）</td>
+<td>5.00</td>
+<td>- Professor FUNG Kwok On
+- Professor GU Daqing</td>
+<td>65</td>
+<td>50</td>
+<td>STD</td>
+<td>CU01</td>
+<td>E</td>
+<td>Mo 01:30PM - 06:15PM</td>
+<td>TBA</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Sch of Architecture</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 01:30PM - 06:15PM</td>
+<td>TBA</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ARCH2112D</td>
+<td>8373</td>
+<td>Intro to Arch Design II 建築設計導論（二）</td>
+<td>5.00</td>
+<td>- Professor GU Daqing
+- Professor SZE Ki Shan Ida</td>
+<td>65</td>
+<td>50</td>
+<td>STD</td>
+<td>DU01</td>
+<td>E</td>
+<td>Mo 01:30PM - 06:15PM</td>
+<td>TBA</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Sch of Architecture</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 01:30PM - 06:15PM</td>
+<td>TBA</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ARCH2112E</td>
+<td>8372</td>
+<td>Intro to Arch Design II 建築設計導論（二）</td>
+<td>5.00</td>
+<td>- Professor GU Daqing
+- Professor XUE Jiawei</td>
+<td>65</td>
+<td>50</td>
+<td>STD</td>
+<td>EU01</td>
+<td>E</td>
+<td>Mo 01:30PM - 06:15PM</td>
+<td>AIT_G03</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Sch of Architecture</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 01:30PM - 06:15PM</td>
+<td>AIT_G01</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ARCH2321-</td>
+<td>7078</td>
+<td>Arch History & Theory I 建築歷史及理論（一）</td>
+<td>3.00</td>
+<td>- Professor HO Puay Peng</td>
+<td>75</td>
+<td>12</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>We 09:30AM - 12:15PM</td>
+<td>AIT_G03</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Sch of Architecture</td>
+<tr>
+<td>ARCH2422-</td>
+<td>7079</td>
+<td>Bldg Tech I :Materials & Cons 建築技術（一）：材料和營造</td>
+<td>3.00</td>
+<td>- Professor ZHU Jingxiang</td>
+<td>75</td>
+<td>11</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Mo 09:30AM - 12:15PM</td>
+<td>AIT_G03</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Sch of Architecture</td>
+<tr>
+<td>ARCH3114A</td>
+<td>7080</td>
+<td>Architectural Design Studio II 建築設計工作室（二）</td>
+<td>5.00</td>
+<td>- Mr. Bruce Eric LONNMAN</td>
+<td>65</td>
+<td>55</td>
+<td>STD</td>
+<td>AU01</td>
+<td>E</td>
+<td>Mo 01:30PM - 06:15PM</td>
+<td>TBA</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Sch of Architecture</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 01:30PM - 06:15PM</td>
+<td>TBA</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ARCH3114B</td>
+<td>5114</td>
+<td>Architectural Design Studio II 建築設計工作室（二）</td>
+<td>5.00</td>
+<td>- Mr. CHOW Kelly Chi Wai</td>
+<td>65</td>
+<td>55</td>
+<td>STD</td>
+<td>BU01</td>
+<td>E</td>
+<td>Mo 01:30PM - 06:15PM</td>
+<td>TBA</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Sch of Architecture</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 01:30PM - 06:15PM</td>
+<td>TBA</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ARCH3114C</td>
+<td>5113</td>
+<td>Architectural Design Studio II 建築設計工作室（二）</td>
+<td>5.00</td>
+<td>- Professor BENE Balazs Christopher</td>
+<td>65</td>
+<td>55</td>
+<td>STD</td>
+<td>CU01</td>
+<td>E</td>
+<td>Mo 01:30PM - 06:15PM</td>
+<td>TBA</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Sch of Architecture</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 01:30PM - 06:15PM</td>
+<td>TBA</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ARCH3114D</td>
+<td>5112</td>
+<td>Architectural Design Studio II 建築設計工作室（二）</td>
+<td>5.00</td>
+<td>- Mr. HWANG Cheng Chun</td>
+<td>65</td>
+<td>55</td>
+<td>STD</td>
+<td>DU01</td>
+<td>E</td>
+<td>Mo 01:30PM - 06:15PM</td>
+<td>TBA</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Sch of Architecture</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 01:30PM - 06:15PM</td>
+<td>TBA</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ARCH3114E</td>
+<td>6046</td>
+<td>Architectural Design Studio II 建築設計工作室（二）</td>
+<td>5.00</td>
+<td>- Professor YANO Yutaka</td>
+<td>65</td>
+<td>55</td>
+<td>STD</td>
+<td>EU01</td>
+<td>E</td>
+<td>Mo 01:30PM - 06:15PM</td>
+<td>TBA</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Sch of Architecture</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 01:30PM - 06:15PM</td>
+<td>TBA</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ARCH3322-</td>
+<td>6713</td>
+<td>Architectural Hist & Theory II 建築歷史及理論(二)</td>
+<td>3.00</td>
+<td>- Professor FUNG Stanislaus</td>
+<td>60</td>
+<td>7</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>We 09:30AM - 12:15PM</td>
+<td>AIT_G01</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Sch of Architecture</td>
+<tr>
+<td>ARCH3424-</td>
+<td>7082</td>
+<td>Bldg Tech III : Environ Tech 建築技術（三）：環境技術</td>
+<td>3.00</td>
+<td>- Professor NG Yan Yung</td>
+<td>65</td>
+<td>12</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Th 09:30AM - 12:15PM</td>
+<td>AIT_G03</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Sch of Architecture</td>
+<tr>
+<td>ARCH4116A</td>
+<td>7083</td>
+<td>Architectural Design Studio IV 建築設計工作室（四）</td>
+<td>5.00</td>
+<td>- Professor CHANG Ping Hung</td>
+<td>65</td>
+<td>51</td>
+<td>STD</td>
+<td>AU01</td>
+<td>E</td>
+<td>Mo 01:30PM - 06:15PM</td>
+<td>TBA</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Sch of Architecture</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 01:30PM - 06:15PM</td>
+<td>TBA</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ARCH4116B</td>
+<td>5108</td>
+<td>Architectural Design Studio IV 建築設計工作室（四）</td>
+<td>5.00</td>
+<td>- Professor LAW Sebastian Sai Hung</td>
+<td>65</td>
+<td>52</td>
+<td>STD</td>
+<td>BU01</td>
+<td>E</td>
+<td>Mo 01:30PM - 06:15PM</td>
+<td>TBA</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Sch of Architecture</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 01:30PM - 06:15PM</td>
+<td>TBA</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ARCH4116C</td>
+<td>5107</td>
+<td>Architectural Design Studio IV 建築設計工作室（四）</td>
+<td>5.00</td>
+<td>- Professor Inge GOUDSMIT</td>
+<td>65</td>
+<td>52</td>
+<td>STD</td>
+<td>CU01</td>
+<td>E</td>
+<td>Mo 01:30PM - 06:15PM</td>
+<td>TBA</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Sch of Architecture</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 01:30PM - 06:15PM</td>
+<td>AIT_G03</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ARCH4116D</td>
+<td>5080</td>
+<td>Architectural Design Studio IV 建築設計工作室（四）</td>
+<td>5.00</td>
+<td>- Professor MAING Min Jung</td>
+<td>65</td>
+<td>51</td>
+<td>STD</td>
+<td>DU01</td>
+<td>E</td>
+<td>Mo 01:30PM - 06:15PM</td>
+<td>TBA</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Sch of Architecture</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 01:30PM - 06:15PM</td>
+<td>TBA</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ARCH4425-</td>
+<td>5158</td>
+<td>Building Systems Integration 建築技術綜合設計</td>
+<td>3.00</td>
+<td>- Professor MAING Min Jung</td>
+<td>60</td>
+<td>6</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>We 09:30AM - 12:15PM</td>
+<td>YIA_403</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Sch of Architecture</td>
+<tr>
+<td>ARCH4521-</td>
+<td>7085</td>
+<td>Professional Practice 專業實踐</td>
+<td>3.00</td>
+<td>- Professor LIM Wan Fung Bernard Vincent</td>
+<td>60</td>
+<td>8</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Th 06:30PM - 09:15PM</td>
+<td>AIT_G04</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Sch of Architecture</td>
+</table></body></html>

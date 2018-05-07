@@ -1,0 +1,905 @@
+<html dir='ltr' lang='en'>
+<!-- Copyright (c) 2000, 2007, Oracle. All rights reserved. -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><body><table border='1' cellpadding='3' cellspacing='0'>
+<tr>
+<th>Class Code</th><th>Class Nbr</th><th>Course Title</th><th>Units</th><th>Teaching Staff</th><th>Quota(s)</th><th>Vacancy</th><th>Course Component</th><th>Section Code</th><th>Language</th><th>Period</th><th>Room</th><th>Meeting Date</th><th>Add Consent</th><th>Drop Consent</th><th>Course Offering Dept</th></tr>
+<tr>
+<td>CHEM1070C</td>
+<td>4483</td>
+<td>Principles of Modern Chemistry 現代化學概論</td>
+<td>3.00</td>
+<td>- Professor CHAN Tak Wah Dominic</td>
+<td>150</td>
+<td>3</td>
+<td>LEC</td>
+<td>C</td>
+<td>E</td>
+<td>Th 08:30AM - 09:15AM</td>
+<td>YIA_LT6</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Chemistry</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Fr 08:30AM - 10:15AM</td>
+<td>YIA_LT5</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>150</td>
+<td>3</td>
+<td>TUT</td>
+<td>CT01</td>
+<td>C&amp;E</td>
+<td>Mo 05:30PM - 06:15PM</td>
+<td>YIA_LT6</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Chemistry</td>
+<tr>
+<td>CHEM1280B</td>
+<td>7244</td>
+<td>Intro to Org Chm & Biomolecule 有機化學與生物分子導論</td>
+<td>3.00</td>
+<td>- Professor XIA Jiang</td>
+<td>150</td>
+<td>21</td>
+<td>LEC</td>
+<td>B</td>
+<td>E</td>
+<td>Mo 02:30PM - 05:15PM</td>
+<td>YIA_LT5</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Chemistry</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>150</td>
+<td>21</td>
+<td>TUT</td>
+<td>BT01</td>
+<td>C&amp;E</td>
+<td>Fr 08:30AM - 09:15AM</td>
+<td>YIA_LT6</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Chemistry</td>
+<tr>
+<td>CHEM1380B</td>
+<td>5734</td>
+<td>Basic Chemistry for Engineers 基礎工程化學</td>
+<td>3.00</td>
+<td>- Professor NGAI To</td>
+<td>150</td>
+<td>62</td>
+<td>LEC</td>
+<td>B</td>
+<td>E</td>
+<td>We 09:30AM - 12:15PM</td>
+<td>MMW_LT1</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Chemistry</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>150</td>
+<td>62</td>
+<td>TUT</td>
+<td>BT01</td>
+<td>C&amp;E</td>
+<td>Mo 05:30PM - 06:15PM</td>
+<td>SC_L1</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Chemistry</td>
+<tr>
+<td>CHEM1870C</td>
+<td>4425</td>
+<td>Essential Experimental Chem 基礎實驗化學</td>
+<td>2.00</td>
+<td>- Dr. CHEUNG Yu San</td>
+<td>20</td>
+<td>2</td>
+<td>LAB</td>
+<td>CL01</td>
+<td>C&amp;E</td>
+<td>Tu 02:30PM - 06:15PM</td>
+<td>SC_257</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Dept of Chemistry</td>
+<tr>
+<td>CHEM1870D</td>
+<td>4541</td>
+<td>Essential Experimental Chem 基礎實驗化學</td>
+<td>2.00</td>
+<td>- Dr. CHEUNG Yu San</td>
+<td>20</td>
+<td>4</td>
+<td>LAB</td>
+<td>DL01</td>
+<td>C&amp;E</td>
+<td>We 02:30PM - 06:15PM</td>
+<td>SC_257</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Dept of Chemistry</td>
+<tr>
+<td>CHEM1870E</td>
+<td>4426</td>
+<td>Essential Experimental Chem 基礎實驗化學</td>
+<td>2.00</td>
+<td>- Dr. CHEUNG Yu San</td>
+<td>20</td>
+<td>3</td>
+<td>LAB</td>
+<td>EL01</td>
+<td>C&amp;E</td>
+<td>Th 02:30PM - 06:15PM</td>
+<td>SC_257</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Dept of Chemistry</td>
+<tr>
+<td>CHEM2200-</td>
+<td>7245</td>
+<td>Functional Groups Chemistry 有機官能團的結構和反應</td>
+<td>2.00</td>
+<td>- Professor CHOW Hak Fun</td>
+<td>71</td>
+<td>3</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Th 08:30AM - 10:15AM</td>
+<td>SC_L5</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Chemistry</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>71</td>
+<td>3</td>
+<td>TUT</td>
+<td>-T01</td>
+<td>C&amp;E</td>
+<td>Mo 11:30AM - 12:15PM</td>
+<td>SC_L4</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Chemistry</td>
+<tr>
+<td>CHEM2270A</td>
+<td>3889</td>
+<td>Student Oriented Teaching 學生導讀</td>
+<td>1.00</td>
+<td>- Professor XIA Jiang</td>
+<td>25</td>
+<td>6</td>
+<td>SEM</td>
+<td>AS01</td>
+<td>C&amp;E</td>
+<td>Tu 10:30AM - 11:15AM</td>
+<td>SC_139</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Dept of Chemistry</td>
+<tr>
+<td>CHEM2270B</td>
+<td>6394</td>
+<td>Student Oriented Teaching 學生導讀</td>
+<td>1.00</td>
+<td>- Professor XIA Jiang</td>
+<td>25</td>
+<td>5</td>
+<td>SEM</td>
+<td>BS01</td>
+<td>C&amp;E</td>
+<td>Tu 11:30AM - 12:15PM</td>
+<td>SC_139</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Dept of Chemistry</td>
+<tr>
+<td>CHEM2270C</td>
+<td>7499</td>
+<td>Student Oriented Teaching 學生導讀</td>
+<td>1.00</td>
+<td>- Professor XIA Jiang</td>
+<td>25</td>
+<td>9</td>
+<td>SEM</td>
+<td>CS01</td>
+<td>C&amp;E</td>
+<td>Tu 12:30PM - 01:15PM</td>
+<td>SC_139</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Dept of Chemistry</td>
+<tr>
+<td>CHEM2300-</td>
+<td>7247</td>
+<td>Thermody & Chm Equilibrium 熱力學與化學平衡</td>
+<td>2.00</td>
+<td>- Professor WU Chi</td>
+<td>68</td>
+<td>7</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Th 10:30AM - 12:15PM</td>
+<td>SC_L3</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Chemistry</td>
+<tr>
+<td>CHEM2320-</td>
+<td>6555</td>
+<td>Fund of Spectroscopic Analysis 波譜分析法原理</td>
+<td>2.00</td>
+<td>- Professor LEUNG Wing Por</td>
+<td>71</td>
+<td>0</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Tu 08:30AM - 10:15AM</td>
+<td>SC_L5</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Chemistry</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>71</td>
+<td>0</td>
+<td>TUT</td>
+<td>-T01</td>
+<td>C&amp;E</td>
+<td>We 11:30AM - 12:15PM</td>
+<td>SC_L5</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Chemistry</td>
+<tr>
+<td>CHEM2820A</td>
+<td>7456</td>
+<td>Organic Chemistry Laboratory I 有機化學實驗（一）</td>
+<td>2.00</td>
+<td>- Dr. MAK Kin Wah
+- Professor CHOW Hak Fun</td>
+<td>36</td>
+<td>15</td>
+<td>LAB</td>
+<td>AL01</td>
+<td>C&amp;E</td>
+<td>Mo 02:30PM - 06:15PM</td>
+<td>SC_353</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Dept of Chemistry</td>
+<tr>
+<td>CHEM2820B</td>
+<td>6446</td>
+<td>Organic Chemistry Laboratory I 有機化學實驗（一）</td>
+<td>2.00</td>
+<td>- Dr. MAK Kin Wah
+- Professor CHOW Hak Fun</td>
+<td>36</td>
+<td>0</td>
+<td>LAB</td>
+<td>BL01</td>
+<td>C&amp;E</td>
+<td>Tu 02:30PM - 06:15PM</td>
+<td>SC_353</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Dept of Chemistry</td>
+<tr>
+<td>CHEM2830A</td>
+<td>7457</td>
+<td>Physical Chemistry Lab I 物理化學實驗（一）</td>
+<td>2.00</td>
+<td>- Dr. CHEUNG Yu San
+- Professor WU Chi</td>
+<td>32</td>
+<td>5</td>
+<td>LAB</td>
+<td>AL01</td>
+<td>C&amp;E</td>
+<td>We 02:30PM - 06:15PM</td>
+<td>SC_227</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Dept of Chemistry</td>
+<tr>
+<td>CHEM2830B</td>
+<td>6447</td>
+<td>Physical Chemistry Lab I 物理化學實驗（一）</td>
+<td>2.00</td>
+<td>- Dr. CHEUNG Yu San
+- Professor WU Chi</td>
+<td>34</td>
+<td>6</td>
+<td>LAB</td>
+<td>BL01</td>
+<td>C&amp;E</td>
+<td>Th 02:30PM - 06:15PM</td>
+<td>SC_227</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Dept of Chemistry</td>
+<tr>
+<td>CHEM3130-</td>
+<td>5844</td>
+<td>Transition Metal Chemistry 過渡金屬化學</td>
+<td>2.00</td>
+<td>- Professor NG Kee Pui Dennis</td>
+<td>75</td>
+<td>2</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>We 08:30AM - 10:15AM</td>
+<td>SC_L3</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Dept of Chemistry</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>75</td>
+<td>2</td>
+<td>TUT</td>
+<td>-T01</td>
+<td>C&amp;E</td>
+<td>We 10:30AM - 11:15AM</td>
+<td>SC_L3</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Dept of Chemistry</td>
+<tr>
+<td>CHEM3130S</td>
+<td>8878</td>
+<td>Transition Metal Chemistry 過渡金屬化學</td>
+<td>2.00</td>
+<td>- Professor NG Kee Pui Dennis</td>
+<td>2</td>
+<td>1</td>
+<td>LEC</td>
+<td>S</td>
+<td>E</td>
+<td>TBA</td>
+<td>TBA</td>
+<td>05/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Dept of Chemistry</td>
+<tr>
+<td>CHEM3230-</td>
+<td>6557</td>
+<td>Phy Org Chem and Aromatics 物理有機及芳香化學</td>
+<td>2.00</td>
+<td>- Professor CHAN Kin Shing</td>
+<td>65</td>
+<td>28</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Tu 08:30AM - 10:15AM</td>
+<td>MMW_710</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Dept of Chemistry</td>
+<tr>
+<td>CHEM3330-</td>
+<td>5115</td>
+<td>Molecular Spectroscopy 分子光譜學</td>
+<td>2.00</td>
+<td>- Professor CHAN Man Chor</td>
+<td>65</td>
+<td>28</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Th 08:30AM - 10:15AM</td>
+<td>SC_L3</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Dept of Chemistry</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>25</td>
+<td>15</td>
+<td>EXR</td>
+<td>=&quot;-E01&quot;</td>
+<td>C&amp;E</td>
+<td>Mo 12:30PM - 01:15PM</td>
+<td>LSB_G36</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Dept of Chemistry</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>25</td>
+<td>12</td>
+<td>EXR</td>
+<td>=&quot;-E02&quot;</td>
+<td>C&amp;E</td>
+<td>Tu 12:30PM - 01:15PM</td>
+<td>LSB_G36</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Dept of Chemistry</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>25</td>
+<td>11</td>
+<td>EXR</td>
+<td>=&quot;-E03&quot;</td>
+<td>C&amp;E</td>
+<td>We 12:30PM - 01:15PM</td>
+<td>LSB_G36</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Dept of Chemistry</td>
+<tr>
+<td>CHEM3820A</td>
+<td>7458</td>
+<td>Organic Chemistry Lab III 有機化學實驗（三）</td>
+<td>2.00</td>
+<td>- Dr. MAK Kin Wah
+- Professor CHAN Kin Shing</td>
+<td>32</td>
+<td>15</td>
+<td>LAB</td>
+<td>AL01</td>
+<td>C&amp;E</td>
+<td>We 02:30PM - 06:15PM</td>
+<td>SC_353</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Dept of Chemistry</td>
+<tr>
+<td>CHEM3820B</td>
+<td>6459</td>
+<td>Organic Chemistry Lab III 有機化學實驗（三）</td>
+<td>2.00</td>
+<td>- Dr. MAK Kin Wah
+- Professor CHAN Kin Shing</td>
+<td>32</td>
+<td>13</td>
+<td>LAB</td>
+<td>BL01</td>
+<td>C&amp;E</td>
+<td>Th 02:30PM - 06:15PM</td>
+<td>SC_356</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Dept of Chemistry</td>
+<tr>
+<td>CHEM3840A</td>
+<td>5012</td>
+<td>Physical Chemistry Labo III 物理化學實驗（三）</td>
+<td>2.00</td>
+<td>- Dr. CHEUNG Yu San</td>
+<td>28</td>
+<td>17</td>
+<td>LAB</td>
+<td>AL01</td>
+<td>C&amp;E</td>
+<td>Mo 02:30PM - 06:15PM</td>
+<td>SC_227</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Dept of Chemistry</td>
+<tr>
+<td>CHEM3840B</td>
+<td>5011</td>
+<td>Physical Chemistry Labo III 物理化學實驗（三）</td>
+<td>2.00</td>
+<td>- Dr. CHEUNG Yu San</td>
+<td>28</td>
+<td>6</td>
+<td>LAB</td>
+<td>BL01</td>
+<td>C&amp;E</td>
+<td>Tu 02:30PM - 06:15PM</td>
+<td>SC_227</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Dept of Chemistry</td>
+<tr>
+<td>CHEM3860A</td>
+<td>3892</td>
+<td>Inorganic Chemistry Lab II 無機化學實驗（二）</td>
+<td>2.00</td>
+<td>- Dr WONG Fai George
+- Professor NG Kee Pui Dennis</td>
+<td>28</td>
+<td>1</td>
+<td>LAB</td>
+<td>AL01</td>
+<td>C&amp;E</td>
+<td>Mo 02:30PM - 06:15PM</td>
+<td>SC_157</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Dept of Chemistry</td>
+<tr>
+<td>CHEM3860B</td>
+<td>6346</td>
+<td>Inorganic Chemistry Lab II 無機化學實驗（二）</td>
+<td>2.00</td>
+<td>- Dr WONG Fai George
+- Professor NG Kee Pui Dennis</td>
+<td>25</td>
+<td>3</td>
+<td>LAB</td>
+<td>BL01</td>
+<td>C&amp;E</td>
+<td>We 02:30PM - 06:15PM</td>
+<td>SC_157</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Dept of Chemistry</td>
+<tr>
+<td>CHEM3860C</td>
+<td>3893</td>
+<td>Inorganic Chemistry Lab II 無機化學實驗（二）</td>
+<td>2.00</td>
+<td>- Dr WONG Fai George
+- Professor NG Kee Pui Dennis</td>
+<td>25</td>
+<td>2</td>
+<td>LAB</td>
+<td>CL01</td>
+<td>C&amp;E</td>
+<td>Th 02:30PM - 06:15PM</td>
+<td>SC_157</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Dept of Chemistry</td>
+<tr>
+<td>CHEM4040-</td>
+<td>6504</td>
+<td>Problem-based Learning II 專題研習（二）</td>
+<td>4.00</td>
+<td>- Dr WONG Fai George
+- Dr. CHAN Wing Fat
+- Dr. CHEUNG Yu San
+- Dr. MAK Kin Wah</td>
+<td>70</td>
+<td>11</td>
+<td>PRJ</td>
+<td>-J01</td>
+<td>C&amp;E</td>
+<td>TBA</td>
+<td>TBA</td>
+<td>05/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Dept of Chemistry</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>70</td>
+<td>11</td>
+<td>LEC</td>
+<td>-</td>
+<td>C&amp;E</td>
+<td>Sa 08:30AM - 12:15PM</td>
+<td>SC_LG23</td>
+<td>07/03/2015 - 07/03/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Dept of Chemistry</td>
+<tr>
+<td>CHEM4400-</td>
+<td>5000</td>
+<td>Advanced Analytical Chemistry 高級分析化學</td>
+<td>2.00</td>
+<td>- Professor ZHENG Bo</td>
+<td>71</td>
+<td>5</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Mo 08:30AM - 10:15AM</td>
+<td>SC_L5</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Chemistry</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>71</td>
+<td>5</td>
+<td>TUT</td>
+<td>-T01</td>
+<td>C&amp;E</td>
+<td>We 12:30PM - 01:15PM</td>
+<td>LSB_LT4</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Chemistry</td>
+<tr>
+<td>CHEM4430-</td>
+<td>7554</td>
+<td>Practices in Testing Lab 測試實驗室之措施及守則</td>
+<td>2.00</td>
+<td>- Dr. CHAN Wing Fat</td>
+<td>60</td>
+<td>11</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Th 08:30AM - 10:15AM</td>
+<td>SC_LG23</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Chemistry</td>
+<tr>
+<td>CHEM4640-</td>
+<td>5581</td>
+<td>Pharmaceutical Chemistry 藥物化學</td>
+<td>2.00</td>
+<td>- Professor CHOW Hak Fun</td>
+<td>60</td>
+<td>38</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>We 08:30AM - 10:15AM</td>
+<td>SC_LG23</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Chemistry</td>
+<tr>
+<td>CHEM4710-</td>
+<td>6717</td>
+<td>Quantum Chemistry 量子化學</td>
+<td>2.00</td>
+<td>- Professor LIU Zhifeng</td>
+<td>70</td>
+<td>48</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>We 10:30AM - 12:15PM</td>
+<td>MMW_702</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Chemistry</td>
+<tr>
+<td>CHEM4788-</td>
+<td>7566</td>
+<td>Chem Appl in Forensic Science 化學在法庭科學上之應用</td>
+<td>2.00</td>
+<td>- Professor WONG Yau Shing</td>
+<td>60</td>
+<td>3</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Tu 10:30AM - 12:15PM</td>
+<td>LSB_C1</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Chemistry</td>
+<tr>
+<td>CHEM4980-</td>
+<td>8868</td>
+<td>Undergraduate Thesis I 畢業論文（一）</td>
+<td>0.00</td>
+<td>- Staff</td>
+<td>2</td>
+<td>0</td>
+<td>PRJ</td>
+<td>-J01</td>
+<td>C&amp;E</td>
+<td>TBA</td>
+<td>TBA</td>
+<td>07/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Dept of Chemistry</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>2</td>
+<td>0</td>
+<td>LAB</td>
+<td>-L01</td>
+<td>C&amp;E</td>
+<td>TBA</td>
+<td>TBA</td>
+<td>08/01/2015 - 17/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Dept of Chemistry</td>
+<tr>
+<td>CHEM4990-</td>
+<td>6683</td>
+<td>Undergraduate Thesis II 畢業論文（二）</td>
+<td>4.00</td>
+<td>- Staff</td>
+<td>10</td>
+<td>6</td>
+<td>PRJ</td>
+<td>-J01</td>
+<td>C&amp;E</td>
+<td>TBA</td>
+<td>TBA</td>
+<td>06/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Dept of Chemistry</td>
+</table></body></html>

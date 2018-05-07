@@ -1,0 +1,746 @@
+<html dir='ltr' lang='en'>
+<!-- Copyright (c) 2000, 2007, Oracle. All rights reserved. -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><body><table border='1' cellpadding='3' cellspacing='0'>
+<tr>
+<th>Class Code</th><th>Class Nbr</th><th>Course Title</th><th>Units</th><th>Teaching Staff</th><th>Quota(s)</th><th>Vacancy</th><th>Course Component</th><th>Section Code</th><th>Language</th><th>Period</th><th>Room</th><th>Meeting Date</th><th>Add Consent</th><th>Drop Consent</th><th>Course Offering Dept</th></tr>
+<tr>
+<td>UGEA1310A</td>
+<td>7476</td>
+<td>Artistic Traditions in China 中國藝術傳統</td>
+<td>3.00</td>
+<td>- Dr LEE Wun Sze Sylvia
+- Professor Frank Joseph Emmanuel VIGNERON
+- Professor MOK Kar Leung Harold
+- Professor WONG Wai Yee
+- Professor XU Xiaodong
+- Professor YIU Chun Chong</td>
+<td>15</td>
+<td>3</td>
+<td>LEC</td>
+<td>A</td>
+<td>E</td>
+<td>Mo 02:30PM - 04:15PM</td>
+<td>NAH_11</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Fine Arts</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>15</td>
+<td>3</td>
+<td>TUT</td>
+<td>AT01</td>
+<td>E</td>
+<td>We 10:30AM - 11:15AM</td>
+<td>AMEW</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Fine Arts</td>
+<tr>
+<td>UGEA1310B</td>
+<td>6420</td>
+<td>Artistic Traditions in China 中國藝術傳統</td>
+<td>3.00</td>
+<td>- Dr LEE Wun Sze Sylvia
+- Professor Frank Joseph Emmanuel VIGNERON
+- Professor MOK Kar Leung Harold
+- Professor WONG Wai Yee
+- Professor XU Xiaodong
+- Professor YIU Chun Chong</td>
+<td>25</td>
+<td>0</td>
+<td>LEC</td>
+<td>B</td>
+<td>C</td>
+<td>Mo 02:30PM - 04:15PM</td>
+<td>NAH_115</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Fine Arts</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>13</td>
+<td>0</td>
+<td>TUT</td>
+<td>BT01</td>
+<td>C</td>
+<td>We 11:30AM - 12:15PM</td>
+<td>AMEW</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Fine Arts</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>12</td>
+<td>0</td>
+<td>TUT</td>
+<td>BT02</td>
+<td>C</td>
+<td>We 12:30PM - 01:15PM</td>
+<td>AMEW</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Fine Arts</td>
+<tr>
+<td>UGEA2100A</td>
+<td>4080</td>
+<td>Outline of Chinese Culture 中國文化要義</td>
+<td>2.00</td>
+<td>- Professor David CHAI</td>
+<td>80</td>
+<td>3</td>
+<td>LEC</td>
+<td>A</td>
+<td>E</td>
+<td>Th 02:30PM - 04:15PM</td>
+<td>NAH_12</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Philosophy</td>
+<tr>
+<td>UGEA2100B</td>
+<td>7988</td>
+<td>Outline of Chinese Culture 中國文化要義</td>
+<td>2.00</td>
+<td>- Dr WONG Wing Yuen</td>
+<td>90</td>
+<td>0</td>
+<td>LEC</td>
+<td>B</td>
+<td>C</td>
+<td>Th 12:30PM - 02:15PM</td>
+<td>YIA_LT9</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Philosophy</td>
+<tr>
+<td>UGEA2100C</td>
+<td>7913</td>
+<td>Outline of Chinese Culture 中國文化要義</td>
+<td>2.00</td>
+<td>- Professor TAO Kwok Cheung</td>
+<td>150</td>
+<td>4</td>
+<td>LEC</td>
+<td>C</td>
+<td>C</td>
+<td>Mo 04:30PM - 06:15PM</td>
+<td>LSB_LT1</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Philosophy</td>
+<tr>
+<td>UGEA2100D</td>
+<td>7910</td>
+<td>Outline of Chinese Culture 中國文化要義</td>
+<td>2.00</td>
+<td>- Dr. LO Kit Hung</td>
+<td>90</td>
+<td>4</td>
+<td>LEC</td>
+<td>D</td>
+<td>C</td>
+<td>Tu 10:30AM - 12:15PM</td>
+<td>ELB_LT3</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Philosophy</td>
+<tr>
+<td>UGEA2100E</td>
+<td>7911</td>
+<td>Outline of Chinese Culture 中國文化要義</td>
+<td>2.00</td>
+<td>- Dr WANG Xiaohong</td>
+<td>80</td>
+<td>19</td>
+<td>LEC</td>
+<td>E</td>
+<td>P</td>
+<td>Fr 03:30PM - 05:15PM</td>
+<td>LSK_LT2</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Philosophy</td>
+<tr>
+<td>UGEA2100F</td>
+<td>7912</td>
+<td>Outline of Chinese Culture 中國文化要義</td>
+<td>2.00</td>
+<td>- Professor WAN Shun Chuen</td>
+<td>80</td>
+<td>4</td>
+<td>LEC</td>
+<td>F</td>
+<td>C</td>
+<td>Fr 01:30PM - 03:15PM</td>
+<td>MMW_710</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Philosophy</td>
+<tr>
+<td>UGEA2100G</td>
+<td>4195</td>
+<td>Outline of Chinese Culture 中國文化要義</td>
+<td>2.00</td>
+<td>- Dr TSE Sai Kit</td>
+<td>80</td>
+<td>1</td>
+<td>LEC</td>
+<td>G</td>
+<td>C</td>
+<td>Mo 11:30AM - 01:15PM</td>
+<td>NAH_114</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Philosophy</td>
+<tr>
+<td>UGEA2100H</td>
+<td>4993</td>
+<td>Outline of Chinese Culture 中國文化要義</td>
+<td>2.00</td>
+<td>- Dr. WONG Yiu Hong</td>
+<td>80</td>
+<td>1</td>
+<td>LEC</td>
+<td>H</td>
+<td>C</td>
+<td>We 09:30AM - 11:15AM</td>
+<td>NAH_213</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Philosophy</td>
+<tr>
+<td>UGEA2100I</td>
+<td>4992</td>
+<td>Outline of Chinese Culture 中國文化要義</td>
+<td>2.00</td>
+<td>- Dr WONG Kin Keung</td>
+<td>80</td>
+<td>1</td>
+<td>LEC</td>
+<td>I</td>
+<td>C</td>
+<td>Tu 04:30PM - 06:15PM</td>
+<td>MMW_710</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Philosophy</td>
+<tr>
+<td>UGEA2110-</td>
+<td>4859</td>
+<td>An Intro to Chinese Culture 中國文化導論</td>
+<td>3.00</td>
+<td>- Dr WONG Wing Yuen</td>
+<td>80</td>
+<td>14</td>
+<td>LEC</td>
+<td>-</td>
+<td>C</td>
+<td>We 01:30PM - 04:15PM</td>
+<td>MMW_710</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Philosophy</td>
+<tr>
+<td>UGEA2140-</td>
+<td>6008</td>
+<td>Chi Culture & Modernization 中國文化與現代化</td>
+<td>2.00</td>
+<td>- Dr LAU Kwai Piu</td>
+<td>80</td>
+<td>2</td>
+<td>LEC</td>
+<td>-</td>
+<td>C</td>
+<td>Mo 04:30PM - 06:15PM</td>
+<td>KKB_101</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Philosophy</td>
+<tr>
+<td>UGEA2150A</td>
+<td>7914</td>
+<td>Chi Culture & Its Philosophies 中國文化及其哲學</td>
+<td>2.00</td>
+<td>- Dr LAU Kwai Piu</td>
+<td>80</td>
+<td>1</td>
+<td>LEC</td>
+<td>A</td>
+<td>C</td>
+<td>Th 04:30PM - 06:15PM</td>
+<td>MMW_710</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Philosophy</td>
+<tr>
+<td>UGEA2150B</td>
+<td>7915</td>
+<td>Chi Culture & Its Philosophies 中國文化及其哲學</td>
+<td>2.00</td>
+<td>- Professor WANG Qingjie</td>
+<td>80</td>
+<td>41</td>
+<td>LEC</td>
+<td>B</td>
+<td>P</td>
+<td>We 10:30AM - 12:15PM</td>
+<td>MMW_710</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Philosophy</td>
+<tr>
+<td>UGEA2150C</td>
+<td>6382</td>
+<td>Chi Culture & Its Philosophies 中國文化及其哲學</td>
+<td>2.00</td>
+<td>- Dr. WONG Yiu Hong</td>
+<td>80</td>
+<td>1</td>
+<td>LEC</td>
+<td>C</td>
+<td>C</td>
+<td>Th 10:30AM - 12:15PM</td>
+<td>NAH_11</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Philosophy</td>
+<tr>
+<td>UGEA2160-</td>
+<td>5805</td>
+<td>Mainstream Chinese Phi Thought 中國哲學主流思想</td>
+<td>3.00</td>
+<td>- Professor HUANG Yong</td>
+<td>50</td>
+<td>23</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Mo 10:30AM - 01:15PM</td>
+<td>ERB_703</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Philosophy</td>
+<tr>
+<td>UGEA2180A</td>
+<td>5277</td>
+<td>Chinese Culture and Society 中國文化與社會</td>
+<td>3.00</td>
+<td>- Dr. WANG Danning</td>
+<td>30</td>
+<td>2</td>
+<td>LEC</td>
+<td>A</td>
+<td>P</td>
+<td>Tu 12:30PM - 02:15PM</td>
+<td>NAH_12</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Anthropology</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>10</td>
+<td>0</td>
+<td>TUT</td>
+<td>AT01</td>
+<td>P</td>
+<td>Tu 02:30PM - 03:15PM</td>
+<td>NAH_12</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Anthropology</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>10</td>
+<td>2</td>
+<td>TUT</td>
+<td>AT02</td>
+<td>P</td>
+<td>We 03:30PM - 04:15PM</td>
+<td>UCA_312</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Anthropology</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>10</td>
+<td>0</td>
+<td>TUT</td>
+<td>AT03</td>
+<td>P</td>
+<td>We 05:30PM - 06:15PM</td>
+<td>MMW_705</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Anthropology</td>
+<tr>
+<td>UGEA2180B</td>
+<td>5570</td>
+<td>Chinese Culture and Society 中國文化與社會</td>
+<td>3.00</td>
+<td>- Professor Avron Albert BORETZ</td>
+<td>30</td>
+<td>9</td>
+<td>LEC</td>
+<td>B</td>
+<td>E</td>
+<td>Mo 10:30AM - 12:15PM</td>
+<td>NAH_11</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Anthropology</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>10</td>
+<td>2</td>
+<td>TUT</td>
+<td>BT01</td>
+<td>E</td>
+<td>Mo 12:30PM - 01:15PM</td>
+<td>NAH_11</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Anthropology</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>10</td>
+<td>2</td>
+<td>TUT</td>
+<td>BT02</td>
+<td>E</td>
+<td>TBA</td>
+<td>TBA</td>
+<td>05/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Anthropology</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>10</td>
+<td>5</td>
+<td>TUT</td>
+<td>BT03</td>
+<td>E</td>
+<td>Mo 04:30PM - 05:15PM</td>
+<td>NAH_213</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Anthropology</td>
+<tr>
+<td>UGEA2190C</td>
+<td>5200</td>
+<td>Chinese Society 中國社會</td>
+<td>3.00</td>
+<td>- Dr OR Tsz Ming</td>
+<td>100</td>
+<td>0</td>
+<td>LEC</td>
+<td>C</td>
+<td>C</td>
+<td>Fr 02:30PM - 05:15PM</td>
+<td>SB_LT2</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Sociology</td>
+<tr>
+<td>UGEA2190D</td>
+<td>5688</td>
+<td>Chinese Society 中國社會</td>
+<td>3.00</td>
+<td>- Dr. GUO Hua</td>
+<td>100</td>
+<td>9</td>
+<td>LEC</td>
+<td>D</td>
+<td></td>
+<td>Fr 03:30PM - 06:15PM</td>
+<td>FYB_LT4</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Sociology</td>
+<tr>
+<td>UGEA2190G</td>
+<td>8285</td>
+<td>Chinese Society 中國社會</td>
+<td>3.00</td>
+<td>- DR SIU Yu Kwan</td>
+<td>120</td>
+<td>1</td>
+<td>LEC</td>
+<td>G</td>
+<td>C</td>
+<td>Th 01:30PM - 04:15PM</td>
+<td>YIA_LT7</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Sociology</td>
+<tr>
+<td>UGEA2200-</td>
+<td>6172</td>
+<td>Development of Chi Soc Thought 中國社會思想發展大綱</td>
+<td>3.00</td>
+<td>- Professor CHEUNG Tak Sing</td>
+<td>20</td>
+<td>1</td>
+<td>LEC</td>
+<td>-</td>
+<td>C</td>
+<td>Th 02:30PM - 04:15PM</td>
+<td>ELB_LT1</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Sociology</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>20</td>
+<td>1</td>
+<td>TUT</td>
+<td>-T01</td>
+<td>C</td>
+<td>TBA</td>
+<td>TBA</td>
+<td>05/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Sociology</td>
+<tr>
+<td>UGEA2230D</td>
+<td>5883</td>
+<td>Intro to Transform in Chi Hist 中國歷史變革概論</td>
+<td>2.00</td>
+<td>- Miss CHEUNG Ching Man</td>
+<td>100</td>
+<td>0</td>
+<td>LEC</td>
+<td>D</td>
+<td>C</td>
+<td>Fr 02:30PM - 04:15PM</td>
+<td>LSB_LT2</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of History</td>
+<tr>
+<td>UGEA2230E</td>
+<td>4540</td>
+<td>Intro to Transform in Chi Hist 中國歷史變革概論</td>
+<td>2.00</td>
+<td>- Dr LUI Wing Sing</td>
+<td>100</td>
+<td>7</td>
+<td>LEC</td>
+<td>E</td>
+<td>P</td>
+<td>Th 02:30PM - 04:15PM</td>
+<td>LHC_103</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of History</td>
+<tr>
+<td>UGEA2290-</td>
+<td>5127</td>
+<td>Chinese Culture and Literature 中國文化與文學</td>
+<td>2.00</td>
+<td>- Dr LEUNG Tak Wah</td>
+<td>50</td>
+<td>1</td>
+<td>LEC</td>
+<td>-</td>
+<td>C</td>
+<td>Tu 12:30PM - 02:15PM</td>
+<td>KKB_101</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Chin Lang &amp; Literature</td>
+<tr>
+<td>UGEA2290B</td>
+<td>8869</td>
+<td>Chinese Culture and Literature 中國文化與文學</td>
+<td>2.00</td>
+<td>- Dr. TANG Lap Kwong</td>
+<td>50</td>
+<td>23</td>
+<td>LEC</td>
+<td>B</td>
+<td>C</td>
+<td>We 01:30PM - 03:15PM</td>
+<td>UCC_C4</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Chin Lang &amp; Literature</td>
+<tr>
+<td>UGEA2300-</td>
+<td>5202</td>
+<td>Chi fr Tradition to Modernity 從傳統到現代：中國社會變遷</td>
+<td>3.00</td>
+<td>- Professor CHAN Hoi Man</td>
+<td>60</td>
+<td>4</td>
+<td>LEC</td>
+<td>-</td>
+<td></td>
+<td>We 02:30PM - 05:15PM</td>
+<td>YIA_505</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Sociology</td>
+<tr>
+<td>UGEA2320-</td>
+<td>5073</td>
+<td>Chinese Culture and Education 中國文化與教育</td>
+<td>2.00</td>
+<td>- Professor LI Jun</td>
+<td>65</td>
+<td>8</td>
+<td>LEC</td>
+<td>-</td>
+<td>P&amp;E</td>
+<td>Tu 10:30AM - 12:15PM</td>
+<td>ELB_LT4</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Edu Admin &amp; Policy</td>
+<tr>
+<td>UGEA2451-</td>
+<td>6014</td>
+<td>Chinese Novels and Rel Culture 中國小說與宗教文化</td>
+<td>3.00</td>
+<td>- Professor LAI Tsz Pang</td>
+<td>50</td>
+<td>1</td>
+<td>LEC</td>
+<td>-</td>
+<td>C&amp;E</td>
+<td>Fr 02:30PM - 05:15PM</td>
+<td>MMW_702</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Cultural &amp; Rel Studies</td>
+</table></body></html>

@@ -1,0 +1,868 @@
+<html dir='ltr' lang='en'>
+<!-- Copyright (c) 2000, 2007, Oracle. All rights reserved. -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><body><table border='1' cellpadding='3' cellspacing='0'>
+<tr>
+<th>Class Code</th><th>Class Nbr</th><th>Course Title</th><th>Units</th><th>Teaching Staff</th><th>Quota(s)</th><th>Vacancy</th><th>Course Component</th><th>Section Code</th><th>Language</th><th>Period</th><th>Room</th><th>Meeting Date</th><th>Add Consent</th><th>Drop Consent</th><th>Course Offering Dept</th></tr>
+<tr>
+<td>SPAN1000R</td>
+<td>4411</td>
+<td>Spanish I 西班牙語（一）</td>
+<td>3.00</td>
+<td>- Ms Maria Cecilia BEDOYA GARCIA MONTERO</td>
+<td>24</td>
+<td>0</td>
+<td>CLW</td>
+<td>RC01</td>
+<td>S&amp;E</td>
+<td>Th 02:30PM - 05:15PM</td>
+<td>LHC_G01</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Linguistics &amp; Mod Lang</td>
+<tr>
+<td>SPAN1000S</td>
+<td>6130</td>
+<td>Spanish I 西班牙語（一）</td>
+<td>3.00</td>
+<td>- Miss Isabel BRIZ HERNANDEZ</td>
+<td>24</td>
+<td>2</td>
+<td>CLW</td>
+<td>SC01</td>
+<td>S&amp;E</td>
+<td>Tu 10:30AM - 01:15PM</td>
+<td>UCC_C5</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Linguistics &amp; Mod Lang</td>
+<tr>
+<td>SPAN1000T</td>
+<td>6129</td>
+<td>Spanish I 西班牙語（一）</td>
+<td>3.00</td>
+<td>- Miss Isabel BRIZ HERNANDEZ</td>
+<td>24</td>
+<td>0</td>
+<td>CLW</td>
+<td>TC01</td>
+<td>S&amp;E</td>
+<td>Mo 12:30PM - 01:15PM</td>
+<td>ERB_712</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Linguistics &amp; Mod Lang</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 08:30AM - 10:15AM</td>
+<td>LSK_212</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>SPAN1000U</td>
+<td>4758</td>
+<td>Spanish I 西班牙語（一）</td>
+<td>3.00</td>
+<td>- Dr Ana ALIAS MARTINEZ</td>
+<td>24</td>
+<td>2</td>
+<td>CLW</td>
+<td>UC01</td>
+<td>S&amp;E</td>
+<td>Mo 01:30PM - 02:15PM</td>
+<td>YIA_402</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Linguistics &amp; Mod Lang</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>We 02:30PM - 04:15PM</td>
+<td>LSK_306</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>SPAN1000V</td>
+<td>7733</td>
+<td>Spanish I 西班牙語（一）</td>
+<td>3.00</td>
+<td>- Dr Ana ALIAS MARTINEZ</td>
+<td>24</td>
+<td>2</td>
+<td>CLW</td>
+<td>VC01</td>
+<td>S&amp;E</td>
+<td>Mo 02:30PM - 04:15PM</td>
+<td>YIA_402</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Linguistics &amp; Mod Lang</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>We 01:30PM - 02:15PM</td>
+<td>LSK_212</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>SPAN1000W</td>
+<td>6662</td>
+<td>Spanish I 西班牙語（一）</td>
+<td>3.00</td>
+<td>- Miss Isabel BRIZ HERNANDEZ</td>
+<td>24</td>
+<td>1</td>
+<td>CLW</td>
+<td>WC01</td>
+<td>S&amp;E</td>
+<td>Tu 08:30AM - 10:15AM</td>
+<td>LSK_212</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Linguistics &amp; Mod Lang</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 12:30PM - 01:15PM</td>
+<td>CKB_108</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>SPAN1000X</td>
+<td>7707</td>
+<td>Spanish I 西班牙語（一）</td>
+<td>3.00</td>
+<td>- Mr CHAN Tsz Pan Billy</td>
+<td>24</td>
+<td>0</td>
+<td>CLW</td>
+<td>XC01</td>
+<td>S&amp;E</td>
+<td>Tu 01:30PM - 02:15PM</td>
+<td>LSK_202</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Linguistics &amp; Mod Lang</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 10:30AM - 12:15PM</td>
+<td>LSB_C5</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>SPAN1000Y</td>
+<td>6664</td>
+<td>Spanish I 西班牙語（一）</td>
+<td>3.00</td>
+<td>- Ms Maria Cecilia BEDOYA GARCIA MONTERO</td>
+<td>24</td>
+<td>3</td>
+<td>CLW</td>
+<td>YC01</td>
+<td>S&amp;E</td>
+<td>Tu 02:30PM - 05:15PM</td>
+<td>CKB_UG03</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Linguistics &amp; Mod Lang</td>
+<tr>
+<td>SPAN1000Z</td>
+<td>6663</td>
+<td>Spanish I 西班牙語（一）</td>
+<td>3.00</td>
+<td>- Mr Jordi OROMI VINES</td>
+<td>24</td>
+<td>0</td>
+<td>CLW</td>
+<td>ZC01</td>
+<td>S&amp;E</td>
+<td>We 08:30AM - 11:15AM</td>
+<td>UCA_105</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Linguistics &amp; Mod Lang</td>
+<tr>
+<td>SPAN2000A</td>
+<td>7771</td>
+<td>Spanish II 西班牙語（二）</td>
+<td>3.00</td>
+<td>- Miss Maria Consuelo VEGA LEON</td>
+<td>24</td>
+<td>0</td>
+<td>CLW</td>
+<td>AC01</td>
+<td>S&amp;E</td>
+<td>Mo 11:30AM - 12:15PM</td>
+<td>ERB_712</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Linguistics &amp; Mod Lang</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>We 04:30PM - 06:15PM</td>
+<td>ERB_706</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>SPAN2000B</td>
+<td>7772</td>
+<td>Spanish II 西班牙語（二）</td>
+<td>3.00</td>
+<td>- Miss Maria Consuelo VEGA LEON</td>
+<td>24</td>
+<td>0</td>
+<td>CLW</td>
+<td>BC01</td>
+<td>S&amp;E</td>
+<td>Mo 01:30PM - 02:15PM</td>
+<td>ERB_408</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Linguistics &amp; Mod Lang</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>We 02:30PM - 04:15PM</td>
+<td>ERB_706</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>SPAN2000C</td>
+<td>5748</td>
+<td>Spanish II 西班牙語（二）</td>
+<td>3.00</td>
+<td>- Miss Maria Consuelo VEGA LEON</td>
+<td>24</td>
+<td>0</td>
+<td>CLW</td>
+<td>CC01</td>
+<td>S&amp;E</td>
+<td>Mo 02:30PM - 04:15PM</td>
+<td>ERB_408</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Linguistics &amp; Mod Lang</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>We 01:30PM - 02:15PM</td>
+<td>ERB_405</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>SPAN2000G</td>
+<td>7773</td>
+<td>Spanish II 西班牙語（二）</td>
+<td>3.00</td>
+<td>- Mr Salvador Gerardo MORALES VENEGAS</td>
+<td>24</td>
+<td>11</td>
+<td>CLW</td>
+<td>GC01</td>
+<td>S&amp;E</td>
+<td>Tu 10:30AM - 12:15PM</td>
+<td>ERB_405</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Linguistics &amp; Mod Lang</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 01:30PM - 02:15PM</td>
+<td>ERB_803</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>SPAN2000H</td>
+<td>7706</td>
+<td>Spanish II 西班牙語（二）</td>
+<td>3.00</td>
+<td>- Mr Jorge Martin HERNANDEZ CALVILLO</td>
+<td>24</td>
+<td>3</td>
+<td>CLW</td>
+<td>HC01</td>
+<td>S&amp;E</td>
+<td>Tu 01:30PM - 02:15PM</td>
+<td>MMW_705</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Linguistics &amp; Mod Lang</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 10:30AM - 12:15PM</td>
+<td>ERB_405</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>SPAN2000I</td>
+<td>7791</td>
+<td>Spanish II 西班牙語（二）</td>
+<td>3.00</td>
+<td>- Mr Salvador Gerardo MORALES VENEGAS</td>
+<td>24</td>
+<td>0</td>
+<td>CLW</td>
+<td>IC01</td>
+<td>S&amp;E</td>
+<td>Th 02:30PM - 05:15PM</td>
+<td>ERB_402</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Linguistics &amp; Mod Lang</td>
+<tr>
+<td>SPAN2000J</td>
+<td>4754</td>
+<td>Spanish II 西班牙語（二）</td>
+<td>3.00</td>
+<td>- Mr CHAN Tsz Pan Billy</td>
+<td>24</td>
+<td>0</td>
+<td>CLW</td>
+<td>JC01</td>
+<td>S&amp;E</td>
+<td>Tu 02:30PM - 05:15PM</td>
+<td>ERB_405</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Linguistics &amp; Mod Lang</td>
+<tr>
+<td>SPAN2000K</td>
+<td>6608</td>
+<td>Spanish II 西班牙語（二）</td>
+<td>3.00</td>
+<td>- Mr Jorge Martin HERNANDEZ CALVILLO</td>
+<td>24</td>
+<td>0</td>
+<td>CLW</td>
+<td>KC01</td>
+<td>S&amp;E</td>
+<td>Tu 10:30AM - 01:15PM</td>
+<td>UCC_114</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Linguistics &amp; Mod Lang</td>
+<tr>
+<td>SPAN2000L</td>
+<td>6165</td>
+<td>Spanish II 西班牙語（二）</td>
+<td>3.00</td>
+<td>- Mr CHAN Tsz Pan Billy</td>
+<td>24</td>
+<td>6</td>
+<td>CLW</td>
+<td>LC01</td>
+<td>S&amp;E</td>
+<td>Fr 08:30AM - 11:15AM</td>
+<td>UCC_206</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Linguistics &amp; Mod Lang</td>
+<tr>
+<td>SPAN3000B</td>
+<td>7792</td>
+<td>Spanish IV 西班牙語（四）</td>
+<td>3.00</td>
+<td>- Dr Leticia VICENTE RASOAMALALA</td>
+<td>24</td>
+<td>0</td>
+<td>CLW</td>
+<td>BC01</td>
+<td>S&amp;E</td>
+<td>Mo 02:30PM - 04:15PM</td>
+<td>LHC_G03</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Linguistics &amp; Mod Lang</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>We 01:30PM - 02:15PM</td>
+<td>ELB_403</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>SPAN3000C</td>
+<td>5747</td>
+<td>Spanish IV 西班牙語（四）</td>
+<td>3.00</td>
+<td>- Ms Maria Cecilia BEDOYA GARCIA MONTERO</td>
+<td>24</td>
+<td>11</td>
+<td>CLW</td>
+<td>CC01</td>
+<td>S&amp;E</td>
+<td>Tu 10:30AM - 12:15PM</td>
+<td>UCA_103</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Linguistics &amp; Mod Lang</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 01:30PM - 02:15PM</td>
+<td>UCA_105</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>SPAN3000D</td>
+<td>7705</td>
+<td>Spanish IV 西班牙語（四）</td>
+<td>3.00</td>
+<td>- Dr Leticia VICENTE RASOAMALALA</td>
+<td>24</td>
+<td>0</td>
+<td>CLW</td>
+<td>DC01</td>
+<td>S&amp;E</td>
+<td>Tu 01:30PM - 02:15PM</td>
+<td>LSK_210</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Linguistics &amp; Mod Lang</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 10:30AM - 12:15PM</td>
+<td>ERB_706</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>SPAN3000E</td>
+<td>7793</td>
+<td>Spanish IV 西班牙語（四）</td>
+<td>3.00</td>
+<td>- Dr Leticia VICENTE RASOAMALALA</td>
+<td>24</td>
+<td>0</td>
+<td>CLW</td>
+<td>EC01</td>
+<td>S&amp;E</td>
+<td>Tu 02:30PM - 05:15PM</td>
+<td>LSK_212</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Linguistics &amp; Mod Lang</td>
+<tr>
+<td>SPAN3002A</td>
+<td>7794</td>
+<td>Spanish VI 西班牙語（六）</td>
+<td>3.00</td>
+<td>- Miss Maria Consuelo VEGA LEON</td>
+<td>24</td>
+<td>5</td>
+<td>CLW</td>
+<td>AC01</td>
+<td>S&amp;E</td>
+<td>Tu 02:30PM - 05:15PM</td>
+<td>UCC_206</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Linguistics &amp; Mod Lang</td>
+<tr>
+<td>SPAN3002B</td>
+<td>4996</td>
+<td>Spanish VI 西班牙語（六）</td>
+<td>3.00</td>
+<td>- Miss Veronica J. CONSTANTINO CASTILLO</td>
+<td>24</td>
+<td>7</td>
+<td>CLW</td>
+<td>BC01</td>
+<td>S&amp;E</td>
+<td>Mo 10:30AM - 01:15PM</td>
+<td>YIA_402</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Linguistics &amp; Mod Lang</td>
+<tr>
+<td>SPAN3041-</td>
+<td>6131</td>
+<td>Business Spanish I 商業西班牙語（一）</td>
+<td>3.00</td>
+<td>- Dr Leticia VICENTE RASOAMALALA</td>
+<td>24</td>
+<td>5</td>
+<td>CLW</td>
+<td>-C01</td>
+<td>S&amp;E</td>
+<td>Mo 01:30PM - 02:15PM</td>
+<td>LHC_101</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Linguistics &amp; Mod Lang</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>We 02:30PM - 04:15PM</td>
+<td>ELB_403</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>SPAN3100-</td>
+<td>4997</td>
+<td>Special Topics in Spanish 西班牙語專題</td>
+<td>3.00</td>
+<td>- Miss Isabel BRIZ HERNANDEZ</td>
+<td>24</td>
+<td>7</td>
+<td>CLW</td>
+<td>-C01</td>
+<td>S&amp;E</td>
+<td>Tu 01:30PM - 02:15PM</td>
+<td>LSB_C5</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Linguistics &amp; Mod Lang</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 10:30AM - 12:15PM</td>
+<td>CKB_UG03</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+</table></body></html>

@@ -1,0 +1,203 @@
+<html dir='ltr' lang='en'>
+<!-- Copyright (c) 2000, 2007, Oracle. All rights reserved. -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><body><table border='1' cellpadding='3' cellspacing='0'>
+<tr>
+<th>Class Code</th><th>Class Nbr</th><th>Course Title</th><th>Units</th><th>Teaching Staff</th><th>Quota(s)</th><th>Vacancy</th><th>Course Component</th><th>Section Code</th><th>Language</th><th>Period</th><th>Room</th><th>Meeting Date</th><th>Add Consent</th><th>Drop Consent</th><th>Course Offering Dept</th></tr>
+<tr>
+<td>CUMT1002-</td>
+<td>5497</td>
+<td>Cultural Theories 文化理論</td>
+<td>3.00</td>
+<td>- Professor LAI Yuen Yan</td>
+<td>51</td>
+<td>1</td>
+<td>LEC</td>
+<td>-</td>
+<td>C</td>
+<td>Mo 09:30AM - 11:15AM</td>
+<td>KKB_101</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Cultural Management Pgm Comm</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>30</td>
+<td>1</td>
+<td>TUT</td>
+<td>-T01</td>
+<td>C</td>
+<td>Mo 11:30AM - 12:15PM</td>
+<td>KKB_101</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Cultural Management Pgm Comm</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>30</td>
+<td>9</td>
+<td>TUT</td>
+<td>-T02</td>
+<td>C</td>
+<td>Tu 12:30PM - 01:15PM</td>
+<td>LDS_214</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Cultural Management Pgm Comm</td>
+<tr>
+<td>CUMT1003-</td>
+<td>5279</td>
+<td>Cultural Policy & Development 藝術發展及政策</td>
+<td>3.00</td>
+<td>- Ms HUI Cheung Man</td>
+<td>50</td>
+<td>1</td>
+<td>LEC</td>
+<td>-</td>
+<td>C#E</td>
+<td>We 03:30PM - 06:15PM</td>
+<td>LSB_C2</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Cultural Management Pgm Comm</td>
+<tr>
+<td>CUMT3001-</td>
+<td>5327</td>
+<td>Visual Arts Management 視覺藝術管理</td>
+<td>3.00</td>
+<td>- Professor LAI Yuen Yan</td>
+<td>30</td>
+<td>19</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>We 12:30PM - 03:15PM</td>
+<td>ICS_L1</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Cultural Management Pgm Comm</td>
+<tr>
+<td>CUMT3002-</td>
+<td>6181</td>
+<td>Performing Arts Management 表演藝術管理</td>
+<td>3.00</td>
+<td>- Dr. CHUNG Ming Yan Fanny</td>
+<td>35</td>
+<td>20</td>
+<td>LEC</td>
+<td>-</td>
+<td>C&amp;E</td>
+<td>Mo 12:30PM - 03:15PM</td>
+<td>UCA_104</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Cultural Management Pgm Comm</td>
+<tr>
+<td>CUMT3004-</td>
+<td>5458</td>
+<td>Public and Community Art 公共及社區藝術</td>
+<td>3.00</td>
+<td>- Dr. ZHENG Jie</td>
+<td>25</td>
+<td>18</td>
+<td>LEC</td>
+<td>-</td>
+<td>C&amp;E</td>
+<td>Mo 03:30PM - 06:15PM</td>
+<td>FYB_106</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Cultural Management Pgm Comm</td>
+<tr>
+<td>CUMT3008-</td>
+<td>5276</td>
+<td>Curating & Org. Arts Festival 藝術節的策劃和管理</td>
+<td>3.00</td>
+<td>- Dr. CHUNG Ming Yan Fanny</td>
+<td>42</td>
+<td>13</td>
+<td>LEC</td>
+<td>-</td>
+<td>C</td>
+<td>Th 09:30AM - 12:15PM</td>
+<td>UCC_114</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>Cultural Management Pgm Comm</td>
+<tr>
+<td>CUMT4003-</td>
+<td>5885</td>
+<td>Culture-led City Development 文化導向的城市發展</td>
+<td>3.00</td>
+<td>- Dr. ZHENG Jie</td>
+<td>25</td>
+<td>14</td>
+<td>LEC</td>
+<td>-</td>
+<td>C&amp;E</td>
+<td>Th 01:30PM - 04:15PM</td>
+<td>HYS_306</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>Cultural Management Pgm Comm</td>
+<tr>
+<td>CUMT4005-</td>
+<td>5877</td>
+<td>Art and Propaganda 藝術與政治宣傳</td>
+<td>3.00</td>
+<td>- Professor HO Hing Kay</td>
+<td>35</td>
+<td>10</td>
+<td>LEC</td>
+<td>-</td>
+<td>C#E</td>
+<td>We 09:30AM - 12:15PM</td>
+<td>ERB_404</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Cultural Management Pgm Comm</td>
+<tr>
+<td>CUMT4102-</td>
+<td>8880</td>
+<td>Research Project 專題研習</td>
+<td>3.00</td>
+<td>- Dr. ZHENG Jie</td>
+<td>20</td>
+<td>19</td>
+<td>TMC</td>
+<td>-M01</td>
+<td>C&amp;E</td>
+<td>TBA</td>
+<td>TBA</td>
+<td>05/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Cultural Management Pgm Comm</td>
+</table></body></html>

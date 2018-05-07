@@ -1,0 +1,710 @@
+<html dir='ltr' lang='en'>
+<!-- Copyright (c) 2000, 2007, Oracle. All rights reserved. -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><body><table border='1' cellpadding='3' cellspacing='0'>
+<tr>
+<th>Class Code</th><th>Class Nbr</th><th>Course Title</th><th>Units</th><th>Teaching Staff</th><th>Quota(s)</th><th>Vacancy</th><th>Course Component</th><th>Section Code</th><th>Language</th><th>Period</th><th>Room</th><th>Meeting Date</th><th>Add Consent</th><th>Drop Consent</th><th>Course Offering Dept</th></tr>
+<tr>
+<td>PHAR1110-</td>
+<td>7628</td>
+<td>Pharmaceutical Chemistry 基礎藥物化學</td>
+<td>2.00</td>
+<td>- Professor TO Kin Wah</td>
+<td>60</td>
+<td>11</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Mo 09:30AM - 11:15AM</td>
+<td>BMS_LT</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Sch of Pharmacy</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>60</td>
+<td>11</td>
+<td>PRA</td>
+<td>-P01</td>
+<td>E</td>
+<td>Th 09:30AM - 12:15PM</td>
+<td>BMS_605</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Sch of Pharmacy</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>60</td>
+<td>11</td>
+<td>TUT</td>
+<td>-T01</td>
+<td>E</td>
+<td>Tu 11:30AM - 12:15PM</td>
+<td>MMW_702</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Sch of Pharmacy</td>
+<tr>
+<td>PHAR1434-</td>
+<td>7415</td>
+<td>Anatomy and  Physiology II 解剖學及生理學（二）</td>
+<td>2.00</td>
+<td>- Dr TANG Mei Kuen
+- Professor LAM Fu Yuen</td>
+<td>60</td>
+<td>13</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>We 10:30AM - 12:15PM</td>
+<td>LSB_C2</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Sch of Pharmacy</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>60</td>
+<td>13</td>
+<td>PRA</td>
+<td>-P01</td>
+<td>E</td>
+<td>Th 10:30AM - 12:15PM</td>
+<td>TBA</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Sch of Pharmacy</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>60</td>
+<td>13</td>
+<td>TUT</td>
+<td>-T01</td>
+<td>E</td>
+<td>Th 10:30AM - 12:15PM</td>
+<td>BMS_LT</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Sch of Pharmacy</td>
+<tr>
+<td>PHAR1440-</td>
+<td>4069</td>
+<td>Clin Microbio Infect Cont 臨牀微生物學及感染控制</td>
+<td>1.00</td>
+<td>- Professor CHAN Kay Sheung Paul
+- Professor Mamie HUI
+- Professor Margaret IP
+- Professor YOU Hoi Sze Joyce</td>
+<td>60</td>
+<td>8</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Tu 08:30AM - 11:15AM</td>
+<td>BMS_LT</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Sch of Pharmacy</td>
+<tr>
+<td>PHAR2212-</td>
+<td>7630</td>
+<td>Dosage Form Science II 方劑學（二）</td>
+<td>2.00</td>
+<td>- Professor CHOW Hee Lum Albert</td>
+<td>60</td>
+<td>11</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Mo 10:30AM - 12:15PM</td>
+<td>LSB_C2</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Sch of Pharmacy</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>60</td>
+<td>11</td>
+<td>PRA</td>
+<td>-P01</td>
+<td>E</td>
+<td>Mo 02:30PM - 05:15PM</td>
+<td>BMS_605</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Sch of Pharmacy</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>60</td>
+<td>11</td>
+<td>TUT</td>
+<td>-T01</td>
+<td>E</td>
+<td>Th 04:30PM - 05:15PM</td>
+<td>MMW_707</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Sch of Pharmacy</td>
+<tr>
+<td>PHAR2220-</td>
+<td>7412</td>
+<td>Biopharma & Pharmacokinetics 生物藥學及藥物代謝動力學</td>
+<td>2.00</td>
+<td>- Professor LAM Tai Ning
+- Professor ZUO Zhong</td>
+<td>60</td>
+<td>6</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Tu 09:30AM - 11:15AM</td>
+<td>CKB_LT3</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Sch of Pharmacy</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>60</td>
+<td>6</td>
+<td>TUT</td>
+<td>-T01</td>
+<td>E</td>
+<td>Tu 11:30AM - 12:15PM</td>
+<td>CKB_LT3</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Sch of Pharmacy</td>
+<tr>
+<td>PHAR2330-</td>
+<td>5531</td>
+<td>Contemporary Pharmacy Practice 現代藥劑執業</td>
+<td>2.00</td>
+<td>- Dr. HO Suk San</td>
+<td>60</td>
+<td>6</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Mo 10:30AM - 12:15PM</td>
+<td>BMS_G18</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Sch of Pharmacy</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>60</td>
+<td>6</td>
+<td>PRA</td>
+<td>-P01</td>
+<td>E</td>
+<td>We 09:30AM - 12:15PM</td>
+<td>TBA</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Sch of Pharmacy</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>60</td>
+<td>6</td>
+<td>WKS</td>
+<td>-W01</td>
+<td>E</td>
+<td>We 09:30AM - 12:15PM</td>
+<td>BMS_LT</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Sch of Pharmacy</td>
+<tr>
+<td>PHAR2410-</td>
+<td>6444</td>
+<td>Pharmacology & Therapeutics I 藥理學及治療學（一）</td>
+<td>3.00</td>
+<td>- Dr ZHOU Keary Rui
+- Professor LAU Hang Yung Alaster</td>
+<td>60</td>
+<td>11</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Mo 09:30AM - 10:15AM</td>
+<td>LSB_C2</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Sch of Pharmacy</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Tu 11:30AM - 12:15PM</td>
+<td>MMW_707</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>60</td>
+<td>11</td>
+<td>PRA</td>
+<td>-P01</td>
+<td>E</td>
+<td>We 01:30PM - 05:15PM</td>
+<td>TBA</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Sch of Pharmacy</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>60</td>
+<td>11</td>
+<td>TUT</td>
+<td>-T01</td>
+<td>E</td>
+<td>We 01:30PM - 05:15PM</td>
+<td>MMW_707</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Sch of Pharmacy</td>
+<tr>
+<td>PHAR2520-</td>
+<td>5727</td>
+<td>Fundamentals of Herbal Med 基礎草藥學</td>
+<td>2.00</td>
+<td>- Professor ZUO Zhong</td>
+<td>60</td>
+<td>10</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Tu 03:30PM - 05:15PM</td>
+<td>BMS_LT</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Sch of Pharmacy</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>60</td>
+<td>10</td>
+<td>PRA</td>
+<td>-P01</td>
+<td>E</td>
+<td>Mo 02:30PM - 05:15PM</td>
+<td>BMS_605</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Sch of Pharmacy</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>60</td>
+<td>10</td>
+<td>TUT</td>
+<td>-T01</td>
+<td>E</td>
+<td>Mo 01:30PM - 02:15PM</td>
+<td>MMW_707</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Sch of Pharmacy</td>
+<tr>
+<td>PHAR2710-</td>
+<td>5530</td>
+<td>Pharmaceutical Res Meth 藥物研究方法</td>
+<td>2.00</td>
+<td>- Professor LAM Tai Ning</td>
+<td>60</td>
+<td>7</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Th 09:30AM - 10:15AM</td>
+<td>TBA</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Sch of Pharmacy</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>60</td>
+<td>7</td>
+<td>PRA</td>
+<td>-P01</td>
+<td>E</td>
+<td>Th 10:30AM - 12:15PM</td>
+<td>TBA</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Sch of Pharmacy</td>
+<tr>
+<td>PHAR2711-</td>
+<td>5695</td>
+<td>Principles of Mgmt Pharm Mktg 管理學原理及藥業市場學</td>
+<td>2.00</td>
+<td>- Professor LEE Wai Yip</td>
+<td>60</td>
+<td>41</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Tu 01:30PM - 03:15PM</td>
+<td>LSB_C2</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Sch of Pharmacy</td>
+<tr>
+<td>PHAR2712-</td>
+<td>5729</td>
+<td>Health System Management 醫療制度管理</td>
+<td>2.00</td>
+<td>- DR YU Chui Yu Jennifer</td>
+<td>60</td>
+<td>18</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Tu 09:30AM - 11:15AM</td>
+<td>MMW_707</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Sch of Pharmacy</td>
+<tr>
+<td>PHAR3412-</td>
+<td>6520</td>
+<td>Pharmacology & Therapeutics 4 藥理學及治療（四）</td>
+<td>3.00</td>
+<td>- Dr. LEE Chui Ping
+- Professor Helen WISE</td>
+<td>70</td>
+<td>2</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Fr 02:30PM - 05:15PM</td>
+<td>BMS_G18</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Sch of Pharmacy</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Fr 08:30AM - 11:15AM</td>
+<td>BMS_G18</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>70</td>
+<td>2</td>
+<td>TUT</td>
+<td>-T01</td>
+<td>E</td>
+<td>Fr 02:30PM - 05:15PM</td>
+<td>TBA</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Sch of Pharmacy</td>
+<tr>
+<td>PHAR3414-</td>
+<td>7375</td>
+<td>Pharmacology & TherapeuticsIII 藥理學及治療學（三）</td>
+<td>3.00</td>
+<td>- Dr. LEE Chui Ping
+- Professor Helen WISE</td>
+<td>60</td>
+<td>6</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Fr 02:30PM - 05:15PM</td>
+<td>BMS_G18</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Sch of Pharmacy</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Fr 08:30AM - 11:15AM</td>
+<td>BMS_G18</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>60</td>
+<td>6</td>
+<td>TUT</td>
+<td>-T01</td>
+<td>E</td>
+<td>Th 01:30PM - 04:15PM</td>
+<td>TBA</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Sch of Pharmacy</td>
+<tr>
+<td>PHAR3612-</td>
+<td>6530</td>
+<td>Pharmacy Clerkship/Project II 藥劑實習／專題研究（二）</td>
+<td>9.00</td>
+<td>- DR YU Chui Yu Jennifer
+- Dr EWIG Celeste Lom Ying
+- Dr. HO Suk San
+- Professor CHOW Hee Lum Albert
+- Professor LEE Wai Yip
+- Professor LEE Wing Yan Vivian</td>
+<td>70</td>
+<td>2</td>
+<td>PRJ</td>
+<td>-J01</td>
+<td>E</td>
+<td>TBA</td>
+<td>TBA</td>
+<td>07/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Sch of Pharmacy</td>
+<tr>
+<td>PHAR3812-</td>
+<td>5534</td>
+<td>Clin Assessment Monitoring 臨牀評估及監控</td>
+<td>2.00</td>
+<td>- Professor LEE Wing Yan Vivian</td>
+<td>60</td>
+<td>6</td>
+<td>FLD</td>
+<td>-F01</td>
+<td>E</td>
+<td>Mo 01:30PM - 04:15PM</td>
+<td>LSB_C2</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Sch of Pharmacy</td>
+</table></body></html>

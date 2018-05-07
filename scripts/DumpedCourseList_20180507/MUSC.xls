@@ -1,0 +1,964 @@
+<html dir='ltr' lang='en'>
+<!-- Copyright (c) 2000, 2007, Oracle. All rights reserved. -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><body><table border='1' cellpadding='3' cellspacing='0'>
+<tr>
+<th>Class Code</th><th>Class Nbr</th><th>Course Title</th><th>Units</th><th>Teaching Staff</th><th>Quota(s)</th><th>Vacancy</th><th>Course Component</th><th>Section Code</th><th>Language</th><th>Period</th><th>Room</th><th>Meeting Date</th><th>Add Consent</th><th>Drop Consent</th><th>Course Offering Dept</th></tr>
+<tr>
+<td>MUSC1000-</td>
+<td>6116</td>
+<td>The Study of Music 音樂研究</td>
+<td>3.00</td>
+<td>- Professor LEE Tong Soon</td>
+<td>70</td>
+<td>21</td>
+<td>LEC</td>
+<td>-</td>
+<td>P&amp;E</td>
+<td>Mo 11:30AM - 02:15PM</td>
+<td>CKB_109</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Music</td>
+<tr>
+<td>MUSC1002-</td>
+<td>7876</td>
+<td>Choral Singing II 合唱訓練二</td>
+<td>1.00</td>
+<td>- Professor KOON Mee Yu</td>
+<td>40</td>
+<td>1</td>
+<td>PRA</td>
+<td>-P01</td>
+<td>C#E</td>
+<td>Th 04:30PM - 06:15PM</td>
+<td>TBA</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Music</td>
+<tr>
+<td>MUSC1021-</td>
+<td>6414</td>
+<td>Applied Music II 音樂術科二</td>
+<td>1.00</td>
+<td>- Staff</td>
+<td>40</td>
+<td>5</td>
+<td>LEC</td>
+<td>-</td>
+<td>C&amp;E</td>
+<td>TBA</td>
+<td>TBA</td>
+<td>05/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Music</td>
+<tr>
+<td>MUSC1024-</td>
+<td>6415</td>
+<td>Ensemble II 室內樂二</td>
+<td>1.00</td>
+<td>- Staff</td>
+<td>40</td>
+<td>16</td>
+<td>PRA</td>
+<td>-P01</td>
+<td>C&amp;E</td>
+<td>TBA</td>
+<td>TBA</td>
+<td>05/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Music</td>
+<tr>
+<td>MUSC1032-</td>
+<td>6682</td>
+<td>Orchestral Training II 管弦樂合奏二</td>
+<td>1.00</td>
+<td>- Professor KOON Mee Yu</td>
+<td>30</td>
+<td>10</td>
+<td>PRA</td>
+<td>-P01</td>
+<td>C#E</td>
+<td>Mo 07:30PM - 09:15PM</td>
+<td>TBA</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Music</td>
+<tr>
+<td>MUSC1042-</td>
+<td>7877</td>
+<td>Wind Orchestra II 管樂團二</td>
+<td>1.00</td>
+<td>- Dr. LO Hau Man</td>
+<td>30</td>
+<td>11</td>
+<td>PRA</td>
+<td>-P01</td>
+<td>C#E</td>
+<td>TBA</td>
+<td>TBA</td>
+<td>07/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Music</td>
+<tr>
+<td>MUSC1061-</td>
+<td>4861</td>
+<td>Applied Music (Major II) 音樂術科（主修二）</td>
+<td>1.00</td>
+<td>- Staff</td>
+<td>35</td>
+<td>4</td>
+<td>LEC</td>
+<td>-</td>
+<td>C&amp;E</td>
+<td>TBA</td>
+<td>TBA</td>
+<td>05/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Dept of Music</td>
+<tr>
+<td>MUSC1222-</td>
+<td>7516</td>
+<td>Fundamentals of Tonal Music II 基本調性音樂二</td>
+<td>2.00</td>
+<td>- Professor LEE Wan Ki Wendy</td>
+<td>40</td>
+<td>0</td>
+<td>LEC</td>
+<td>-</td>
+<td>C#E</td>
+<td>Tu 09:30AM - 11:15AM</td>
+<td>HYS_101</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Music</td>
+<tr>
+<td>MUSC2002-</td>
+<td>7878</td>
+<td>Choral Singing IV 合唱訓練四</td>
+<td>1.00</td>
+<td>- Professor KOON Mee Yu</td>
+<td>40</td>
+<td>12</td>
+<td>PRA</td>
+<td>-P01</td>
+<td>C#E</td>
+<td>Th 04:30PM - 06:15PM</td>
+<td>TBA</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Music</td>
+<tr>
+<td>MUSC2021-</td>
+<td>6416</td>
+<td>Applied Music IV 音樂術科四</td>
+<td>1.00</td>
+<td>- Staff</td>
+<td>10</td>
+<td>1</td>
+<td>LEC</td>
+<td>-</td>
+<td>C&amp;E</td>
+<td>TBA</td>
+<td>TBA</td>
+<td>05/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Music</td>
+<tr>
+<td>MUSC2024-</td>
+<td>6419</td>
+<td>Ensemble IV 室內樂四</td>
+<td>1.00</td>
+<td>- Staff</td>
+<td>40</td>
+<td>17</td>
+<td>PRA</td>
+<td>-P01</td>
+<td>C&amp;E</td>
+<td>TBA</td>
+<td>TBA</td>
+<td>05/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Music</td>
+<tr>
+<td>MUSC2032-</td>
+<td>6681</td>
+<td>Orchestral Training IV 管弦樂合奏四</td>
+<td>1.00</td>
+<td>- Professor KOON Mee Yu</td>
+<td>30</td>
+<td>23</td>
+<td>PRA</td>
+<td>-P01</td>
+<td>C#E</td>
+<td>Mo 07:30PM - 09:15PM</td>
+<td>TBA</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Music</td>
+<tr>
+<td>MUSC2042-</td>
+<td>7900</td>
+<td>Wind Orchestra IV 管樂團四</td>
+<td>1.00</td>
+<td>- Dr. LO Hau Man</td>
+<td>30</td>
+<td>25</td>
+<td>PRA</td>
+<td>-P01</td>
+<td>C#E</td>
+<td>TBA</td>
+<td>TBA</td>
+<td>08/01/2015 - 17/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Music</td>
+<tr>
+<td>MUSC2061-</td>
+<td>6169</td>
+<td>Applied Music (Major IV) 音樂術科（主修四）</td>
+<td>1.00</td>
+<td>- Staff</td>
+<td>35</td>
+<td>2</td>
+<td>LEC</td>
+<td>-</td>
+<td>C&amp;E</td>
+<td>TBA</td>
+<td>TBA</td>
+<td>05/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Dept of Music</td>
+<tr>
+<td>MUSC2262-</td>
+<td>6248</td>
+<td>Advanced Harmonic Practice 和聲運用高階</td>
+<td>2.00</td>
+<td>- Professor CHAN Wai Kwong Victor</td>
+<td>50</td>
+<td>13</td>
+<td>LEC</td>
+<td>-</td>
+<td>C&amp;E</td>
+<td>Tu 02:30PM - 04:15PM</td>
+<td>HYS_G04</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Music</td>
+<tr>
+<td>MUSC2333-</td>
+<td>7901</td>
+<td>Music Information Technology 音樂訊息科技</td>
+<td>2.00</td>
+<td>- Dr. LO Hau Man</td>
+<td>15</td>
+<td>0</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>We 09:30AM - 11:15AM</td>
+<td>HYS_104</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Music</td>
+<tr>
+<td>MUSC2543-</td>
+<td>8239</td>
+<td>Conducting 指揮學　</td>
+<td>2.00</td>
+<td>- Mr CHIU Pak Shing</td>
+<td>15</td>
+<td>9</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Mo 03:30PM - 05:15PM</td>
+<td>HYS_G03</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Music</td>
+<tr>
+<td>MUSC2552-</td>
+<td>6214</td>
+<td>Music, Culture and Society 音樂、文化與社會</td>
+<td>2.00</td>
+<td>- Professor Victor Amaro VICENTE</td>
+<td>33</td>
+<td>0</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Mo 02:30PM - 04:15PM</td>
+<td>HYS_101</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Music</td>
+<tr>
+<td>MUSC2622-</td>
+<td>5111</td>
+<td>Chinese Operatic Music 中國戲曲專論</td>
+<td>2.00</td>
+<td>- Professor YU Siu Wah</td>
+<td>30</td>
+<td>19</td>
+<td>LEC</td>
+<td>-</td>
+<td>C&amp;E</td>
+<td>Mo 09:30AM - 11:15AM</td>
+<td>HYS_G03</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Music</td>
+<tr>
+<td>MUSC2882-</td>
+<td>6249</td>
+<td>History of Western Music II 西洋音樂史二</td>
+<td>2.00</td>
+<td>- Professor Nathan Christopher SEINEN</td>
+<td>50</td>
+<td>1</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Th 02:30PM - 04:15PM</td>
+<td>HYS_G04</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Music</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>50</td>
+<td>1</td>
+<td>TUT</td>
+<td>-T01</td>
+<td>E</td>
+<td>Tu 11:30AM - 12:15PM</td>
+<td>HYS_G04</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Music</td>
+<tr>
+<td>MUSC2913A</td>
+<td>3769</td>
+<td>Selected Study I 專題研讀一</td>
+<td>3.00</td>
+<td>- Professor YU Siu Wah</td>
+<td>5</td>
+<td>4</td>
+<td>LEC</td>
+<td>A</td>
+<td>C&amp;E</td>
+<td>TBA</td>
+<td>TBA</td>
+<td>08/01/2015 - 17/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Dept of Music</td>
+<tr>
+<td>MUSC2913B</td>
+<td>5533</td>
+<td>Selected Study I 專題研讀一</td>
+<td>3.00</td>
+<td>- Professor Victor Amaro VICENTE</td>
+<td>5</td>
+<td>4</td>
+<td>LEC</td>
+<td>B</td>
+<td>E</td>
+<td>TBA</td>
+<td>TBA</td>
+<td>07/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Dept of Music</td>
+<tr>
+<td>MUSC3002-</td>
+<td>7902</td>
+<td>Choral Singing VI 合唱訓練六</td>
+<td>1.00</td>
+<td>- Professor KOON Mee Yu</td>
+<td>40</td>
+<td>8</td>
+<td>PRA</td>
+<td>-P01</td>
+<td>C#E</td>
+<td>Th 04:30PM - 06:15PM</td>
+<td>TBA</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Music</td>
+<tr>
+<td>MUSC3021-</td>
+<td>6427</td>
+<td>Applied Music VI 音樂術科六</td>
+<td>1.00</td>
+<td>- Staff</td>
+<td>20</td>
+<td>6</td>
+<td>LEC</td>
+<td>-</td>
+<td>C&amp;E</td>
+<td>TBA</td>
+<td>TBA</td>
+<td>05/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Music</td>
+<tr>
+<td>MUSC3022-</td>
+<td>6428</td>
+<td>Applied Music XIV 音樂術科十四</td>
+<td>2.00</td>
+<td>- Staff</td>
+<td>35</td>
+<td>5</td>
+<td>LEC</td>
+<td>-</td>
+<td>C&amp;E</td>
+<td>TBA</td>
+<td>TBA</td>
+<td>05/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Dept of Music</td>
+<tr>
+<td>MUSC3024-</td>
+<td>6429</td>
+<td>Ensemble VI 室內樂六</td>
+<td>1.00</td>
+<td>- Staff</td>
+<td>35</td>
+<td>20</td>
+<td>PRA</td>
+<td>-P01</td>
+<td>C&amp;E</td>
+<td>TBA</td>
+<td>TBA</td>
+<td>05/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Music</td>
+<tr>
+<td>MUSC3032-</td>
+<td>6680</td>
+<td>Orchestral Training VI 管弦樂合奏六</td>
+<td>1.00</td>
+<td>- Professor KOON Mee Yu</td>
+<td>30</td>
+<td>25</td>
+<td>PRA</td>
+<td>-P01</td>
+<td>C#E</td>
+<td>Mo 07:30PM - 09:15PM</td>
+<td>TBA</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Music</td>
+<tr>
+<td>MUSC3042-</td>
+<td>7903</td>
+<td>Wind Orchestra VI 管樂團六</td>
+<td>1.00</td>
+<td>- Dr. LO Hau Man</td>
+<td>30</td>
+<td>15</td>
+<td>PRA</td>
+<td>-P01</td>
+<td>C#E</td>
+<td>TBA</td>
+<td>TBA</td>
+<td>06/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Music</td>
+<tr>
+<td>MUSC3223-</td>
+<td>8876</td>
+<td>His of Western Music:Sp Top II 西洋音樂史專題二</td>
+<td>2.00</td>
+<td>- Dr WONG Hoi Yan</td>
+<td>10</td>
+<td>0</td>
+<td>LEC</td>
+<td>-</td>
+<td>C&amp;E</td>
+<td>We 04:30PM - 06:15PM</td>
+<td>HYS_G03</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Music</td>
+<tr>
+<td>MUSC3323-</td>
+<td>4878</td>
+<td>Counterpoint (Tonal & Modern) 對位法（調性及現代）</td>
+<td>2.00</td>
+<td>- Professor LEE Wan Ki Wendy</td>
+<td>10</td>
+<td>0</td>
+<td>LEC</td>
+<td>-</td>
+<td>C&amp;E</td>
+<td>Mo 11:30AM - 01:15PM</td>
+<td>HYS_G03</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Music</td>
+<tr>
+<td>MUSC3353-</td>
+<td>5079</td>
+<td>Composition II 作曲二</td>
+<td>3.00</td>
+<td>- Dr. LO Hau Man</td>
+<td>10</td>
+<td>3</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>TBA</td>
+<td>TBA</td>
+<td>05/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Music</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 12:30PM - 02:15PM</td>
+<td>HYS_101</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>MUSC3363-</td>
+<td>4768</td>
+<td>Composition III 作曲三</td>
+<td>3.00</td>
+<td>- Dr. LO Hau Man
+- Professor CHAN Wai Kwong Victor
+- Professor LEE Wan Ki Wendy</td>
+<td>10</td>
+<td>6</td>
+<td>LEC</td>
+<td>-</td>
+<td>C&amp;E</td>
+<td>We 04:30PM - 06:15PM</td>
+<td>HYS_101</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Music</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>TBA</td>
+<td>TBA</td>
+<td>09/01/2015 - 18/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>MUSC3373-</td>
+<td>7904</td>
+<td>Scoring for Film & Television 電影及電視配樂</td>
+<td>2.00</td>
+<td>- Dr. LO Hau Man</td>
+<td>15</td>
+<td>3</td>
+<td>LEC</td>
+<td>-</td>
+<td>C&amp;E</td>
+<td>Tu 02:30PM - 04:15PM</td>
+<td>HYS_104</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Music</td>
+<tr>
+<td>MUSC3383-</td>
+<td>7905</td>
+<td>Electronic Music 電子音樂</td>
+<td>2.00</td>
+<td>- Dr. LO Hau Man</td>
+<td>15</td>
+<td>14</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Tu 09:30AM - 11:15AM</td>
+<td>HYS_104</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Dept of Music</td>
+<tr>
+<td>MUSC3442-</td>
+<td>5078</td>
+<td>Post-tonal Music Analysis 後調性音樂分析</td>
+<td>2.00</td>
+<td>- Dr WONG Hoi Yan</td>
+<td>40</td>
+<td>11</td>
+<td>LEC</td>
+<td>-</td>
+<td>C&amp;E</td>
+<td>Mo 02:30PM - 04:15PM</td>
+<td>HYS_G04</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Music</td>
+<tr>
+<td>MUSC3492-</td>
+<td>4922</td>
+<td>Analysis and Performance 音樂分析與演奏</td>
+<td>2.00</td>
+<td>- Professor Greta Jean OLSON</td>
+<td>20</td>
+<td>18</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Th 10:30AM - 12:15PM</td>
+<td>HYS_G03</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Music</td>
+<tr>
+<td>MUSC3502-</td>
+<td>4921</td>
+<td>Vocal/Instrumental Pedagogy 聲樂及器樂教學法</td>
+<td>2.00</td>
+<td>- Dr. Brian Christopher THOMPSON</td>
+<td>25</td>
+<td>2</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Mo 09:30AM - 11:15AM</td>
+<td>HYS_LG01</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Music</td>
+<tr>
+<td>MUSC3542-</td>
+<td>4880</td>
+<td>Selected Topic in World Musics 世界音樂選題</td>
+<td>2.00</td>
+<td>- Professor LEE Tong Soon</td>
+<td>30</td>
+<td>24</td>
+<td>LEC</td>
+<td>-</td>
+<td>P&amp;E</td>
+<td>Tu 12:30PM - 02:15PM</td>
+<td>TBA</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Music</td>
+<tr>
+<td>MUSC3562-</td>
+<td>6218</td>
+<td>Chinese Music: Selected Topics 中國音樂選論</td>
+<td>2.00</td>
+<td>- Professor CHEUNG Joys Hoi Yan</td>
+<td>30</td>
+<td>24</td>
+<td>LEC</td>
+<td>-</td>
+<td>C&amp;E</td>
+<td>We 02:30PM - 04:15PM</td>
+<td>HYS_G03</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Music</td>
+<tr>
+<td>MUSC3722-</td>
+<td>8244</td>
+<td>Composition: Special Topic II 作曲專題二</td>
+<td>2.00</td>
+<td>- Professor LAW Ping Leung Daniel</td>
+<td>20</td>
+<td>3</td>
+<td>LEC</td>
+<td>-</td>
+<td>C&amp;E</td>
+<td>Th 02:30PM - 04:15PM</td>
+<td>HYS_G03</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Music</td>
+<tr>
+<td>MUSC3832-</td>
+<td>5077</td>
+<td>Romanticism in Music 音樂中的浪漫主義</td>
+<td>2.00</td>
+<td>- Dr. Brian Christopher THOMPSON</td>
+<td>30</td>
+<td>7</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Fr 09:30AM - 11:15AM</td>
+<td>HYS_G03</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Music</td>
+<tr>
+<td>MUSC3923B</td>
+<td>4860</td>
+<td>Selected Study II 專題研讀二</td>
+<td>3.00</td>
+<td>- Professor CHEONG Wai Ling</td>
+<td>5</td>
+<td>4</td>
+<td>LEC</td>
+<td>B</td>
+<td>C&amp;E</td>
+<td>TBA</td>
+<td>TBA</td>
+<td>11/01/2015 - 20/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Dept of Music</td>
+<tr>
+<td>MUSC3933A</td>
+<td>6211</td>
+<td>Selected Study III 專題研讀三</td>
+<td>3.00</td>
+<td>- Professor Victor Amaro VICENTE</td>
+<td>5</td>
+<td>4</td>
+<td>LEC</td>
+<td>A</td>
+<td>E</td>
+<td>TBA</td>
+<td>TBA</td>
+<td>06/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Dept of Music</td>
+<tr>
+<td>MUSC3933B</td>
+<td>3760</td>
+<td>Selected Study III 專題研讀三</td>
+<td>3.00</td>
+<td>- Professor Nathan Christopher SEINEN</td>
+<td>5</td>
+<td>4</td>
+<td>LEC</td>
+<td>B</td>
+<td>E</td>
+<td>TBA</td>
+<td>TBA</td>
+<td>09/01/2015 - 18/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Dept of Music</td>
+<tr>
+<td>MUSC4002-</td>
+<td>7536</td>
+<td>Choral Singing VIII 合唱訓練八</td>
+<td>1.00</td>
+<td>- Professor KOON Mee Yu</td>
+<td>10</td>
+<td>8</td>
+<td>PRA</td>
+<td>-P01</td>
+<td>C#E</td>
+<td>Th 04:30PM - 06:15PM</td>
+<td>TBA</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Music</td>
+<tr>
+<td>MUSC4003-</td>
+<td>6431</td>
+<td>Senior Recital 畢業音樂會</td>
+<td>3.00</td>
+<td>- Staff</td>
+<td>10</td>
+<td>1</td>
+<td>LEC</td>
+<td>-</td>
+<td>C&amp;E</td>
+<td>TBA</td>
+<td>TBA</td>
+<td>05/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Dept of Music</td>
+<tr>
+<td>MUSC4022-</td>
+<td>4008</td>
+<td>Applied Music XVI 音樂術科十六</td>
+<td>2.00</td>
+<td>- Staff</td>
+<td>35</td>
+<td>12</td>
+<td>LEC</td>
+<td>-</td>
+<td>C&amp;E</td>
+<td>TBA</td>
+<td>TBA</td>
+<td>10/01/2015 - 19/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Dept of Music</td>
+<tr>
+<td>MUSC4024-</td>
+<td>4862</td>
+<td>Ensemble VIII 室內樂八</td>
+<td>1.00</td>
+<td>- Staff</td>
+<td>35</td>
+<td>26</td>
+<td>PRA</td>
+<td>-P01</td>
+<td>C&amp;E</td>
+<td>TBA</td>
+<td>TBA</td>
+<td>05/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Music</td>
+<tr>
+<td>MUSC4943A</td>
+<td>3773</td>
+<td>Selected Study IV 專題研讀四</td>
+<td>3.00</td>
+<td>- Professor Greta Jean OLSON</td>
+<td>10</td>
+<td>7</td>
+<td>LEC</td>
+<td>A</td>
+<td>C&amp;E</td>
+<td>TBA</td>
+<td>TBA</td>
+<td>06/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Dept of Music</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>We 10:30AM - 12:15PM</td>
+<td>TBA</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>MUSC4943B</td>
+<td>3772</td>
+<td>Selected Study IV 專題研讀四</td>
+<td>3.00</td>
+<td>- Professor LEE Tong Soon</td>
+<td>5</td>
+<td>4</td>
+<td>LEC</td>
+<td>B</td>
+<td>P&amp;E</td>
+<td>TBA</td>
+<td>TBA</td>
+<td>06/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Dept of Music</td>
+</table></body></html>

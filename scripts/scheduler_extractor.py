@@ -1,6 +1,5 @@
 import cusiscommon
 import re,os
-from bs4 import BeautifulSoup
 from io import StringIO, BytesIO
 from time import strftime
 
@@ -18,21 +17,21 @@ def browse_scheduler():
 	payload = {
 		'ICType':'Panel',
 		'ICAction':'DERIVED_SSS_SCT_SSR_PB_GO',
-		'SSR_DUMMY_RECV1$sels$0' : '1'
+		'SSR_DUMMY_RECV1$sels$0' : '0'
 	}
 	r = cusis.session.post(URL,data=payload)
-	#print r.text
 	return r.status_code
 
 def dumplist(tofile):
 	URL = "https://cusis.cuhk.edu.hk/psc/csprd/EMPLOYEE/HRMS/c/SA_LEARNER_SERVICES.SSR_SSENRL_LIST.GBL"
 	payload = {'ICType':'Panel','ICAction':'DERIVED_REGFRM1_SA_LINK_PRINTER'}
 	r = cusis.session.post(URL,data=payload)
-	print r.text
+
 	course_info = re.findall(r"<table cellspacing='0' (.+?)</table>", r.text, re.DOTALL)
 	course_name = re.findall(r"<td class='PAGROUPDIVIDER' align='left'>(.+?)</td>", r.text)
+	print(course_name)
 	course_num = len(course_name)
-	with open(tofile,'wb') as f:
+	with open(tofile,'w') as f:
 		f.write(''' 
 <html dir='ltr' lang='en'>
 <!-- Copyright (c) 2000, 2007, Oracle. All rights reserved. -->
@@ -49,10 +48,8 @@ def dumplist(tofile):
 		new_entry = True
 		for entry in course_info:
 			l = re.findall(r"(?:<span  class=.+?>(.+?)</span>|<td align='CENTER'  class='PSLEVEL3GRIDROW' >(.+?)</td>)", entry, re.DOTALL)
-			print l
 			flat_list = [item for sublist in l for item in sublist]
-			item = filter(None, flat_list)
-			print item
+			item = [x for x in filter(None, flat_list)]
 			if len(item) == 4:
 				new_entry = True
 				f.write("<tr>\n")
@@ -63,12 +60,12 @@ def dumplist(tofile):
 						col = ""
 					f.write("<td>" + col + "</td>\n")
 			else:
-				for i in range(len(item)/7):
-					if i != 0:
+				for k in range(len(item)//7):
+					if k != 0:
 						f.write("<tr>\n")
 						for j in range(4):
 							f.write("<td>""</td>\n")
-					for col in item[7*i : 7*(i+1)]:
+					for col in item[7*k : 7*(k+1)]:
 						if col == "&nbsp;":
 							col = ""
 						f.write("<td>" + col + "</td>\n")

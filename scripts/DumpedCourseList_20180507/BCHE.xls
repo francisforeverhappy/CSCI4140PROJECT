@@ -1,0 +1,379 @@
+<html dir='ltr' lang='en'>
+<!-- Copyright (c) 2000, 2007, Oracle. All rights reserved. -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><body><table border='1' cellpadding='3' cellspacing='0'>
+<tr>
+<th>Class Code</th><th>Class Nbr</th><th>Course Title</th><th>Units</th><th>Teaching Staff</th><th>Quota(s)</th><th>Vacancy</th><th>Course Component</th><th>Section Code</th><th>Language</th><th>Period</th><th>Room</th><th>Meeting Date</th><th>Add Consent</th><th>Drop Consent</th><th>Course Offering Dept</th></tr>
+<tr>
+<td>BCHE2000-</td>
+<td>6535</td>
+<td>Frontiers in Biochemistry 生物化學專題簡介　　</td>
+<td>2.00</td>
+<td>- Professor LAU Kwok Fai</td>
+<td>200</td>
+<td>131</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>We 11:30AM - 01:15PM</td>
+<td>SC_L1</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Biochemistry Pgm Comm</td>
+<tr>
+<td>BCHE3030-</td>
+<td>3873</td>
+<td>Methods in Biochemistry 生物化學方法</td>
+<td>3.00</td>
+<td>- Professor CHAN Michael Kenneth
+- Professor FONG Wing Ping
+- Professor KONG Siu Kai</td>
+<td>96</td>
+<td>25</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Tu 10:30AM - 12:15PM</td>
+<td>MMW_LT2</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Biochemistry Pgm Comm</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 11:30AM - 12:15PM</td>
+<td>MMW_LT2</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>BCHE3630-</td>
+<td>6511</td>
+<td>Methods in Biochemistry Lab 生物化學方法實驗</td>
+<td>2.00</td>
+<td>- Professor CHAN Michael Kenneth
+- Professor FONG Wing Ping
+- Professor KONG Siu Kai</td>
+<td>86</td>
+<td>36</td>
+<td>LAB</td>
+<td>-L01</td>
+<td>E</td>
+<td>We 02:30PM - 06:15PM</td>
+<td>TBA</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Biochemistry Pgm Comm</td>
+<tr>
+<td>BCHE4010-</td>
+<td>7319</td>
+<td>Molecular Biology 分子生物學</td>
+<td>2.00</td>
+<td>- Professor CHAN Ting Fung Philos
+- Professor SHAW Pang Chui</td>
+<td>110</td>
+<td>16</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Mo 09:30AM - 11:15AM</td>
+<td>LSB_LT6</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Biochemistry Pgm Comm</td>
+<tr>
+<td>BCHE4020-</td>
+<td>7568</td>
+<td>Recombinant DNA Techniques 基因重組技術</td>
+<td>1.00</td>
+<td>- Professor SHAW Pang Chui</td>
+<td>110</td>
+<td>43</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Th 10:30AM - 11:15AM</td>
+<td>SC_L2</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>Biochemistry Pgm Comm</td>
+<tr>
+<td>BCHE4030-</td>
+<td>6537</td>
+<td>Clinical Biochemistry 臨牀生物化學</td>
+<td>3.00</td>
+<td>- Dr LO Fai Hang
+- Professor KONG Siu Kai
+- Professor WOO Kam Sang</td>
+<td>112</td>
+<td>50</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Mo 12:30PM - 01:15PM</td>
+<td>SC_L4</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Biochemistry Pgm Comm</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>We 08:30AM - 10:15AM</td>
+<td>SC_L4</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>BCHE4090-</td>
+<td>6115</td>
+<td>Biochem for Sport and Exercise 運動生物化學</td>
+<td>2.00</td>
+<td>- Dr LO Fai Hang</td>
+<td>55</td>
+<td>23</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Fr 09:30AM - 11:15AM</td>
+<td>MMW_707</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td></td>
+<td>Biochemistry Pgm Comm</td>
+<tr>
+<td>BCHE4130-</td>
+<td>6455</td>
+<td>Molecular Endocrinology 分子內分泌學</td>
+<td>3.00</td>
+<td>- Dr LO Fai Hang
+- Professor CHAN King Ming</td>
+<td>110</td>
+<td>95</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Tu 10:30AM - 12:15PM</td>
+<td>SC_L4</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Biochemistry Pgm Comm</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 01:30PM - 02:15PM</td>
+<td>SC_L4</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>BCHE4300-</td>
+<td>8962</td>
+<td>Selected Topic in Biochemistry 專題文獻討論</td>
+<td>2.00</td>
+<td>- Dr LO Fai Hang
+- Dr. NGAI Hung Kui</td>
+<td>1</td>
+<td>0</td>
+<td>PRJ</td>
+<td>-J01</td>
+<td>E</td>
+<td>TBA</td>
+<td>TBA</td>
+<td>10/01/2015 - 19/04/2015</td>
+<td>Yes</td>
+<td></td>
+<td>Biochemistry Pgm Comm</td>
+<tr>
+<td>BCHE4400-</td>
+<td>7338</td>
+<td>Guided Study in Biochemistry 專題文獻書面報告</td>
+<td>2.00</td>
+<td>- Dr LO Fai Hang
+- Dr. NGAI Hung Kui</td>
+<td>70</td>
+<td>54</td>
+<td>PRJ</td>
+<td>-J01</td>
+<td>E</td>
+<td>TBA</td>
+<td>TBA</td>
+<td>08/01/2015 - 17/04/2015</td>
+<td></td>
+<td></td>
+<td>Biochemistry Pgm Comm</td>
+<tr>
+<td>BCHE4410-</td>
+<td>6538</td>
+<td>Supervised Research in Biochem 專題實驗研究</td>
+<td>4.00</td>
+<td>- Dr LO Fai Hang
+- Dr. NGAI Hung Kui</td>
+<td>70</td>
+<td>47</td>
+<td>PRJ</td>
+<td>-J01</td>
+<td>E</td>
+<td>TBA</td>
+<td>TBA</td>
+<td>05/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Biochemistry Pgm Comm</td>
+<tr>
+<td>BCHE4610-</td>
+<td>7339</td>
+<td>Molecular Biology Lab 分子生物學實驗</td>
+<td>2.00</td>
+<td>- Professor CHAN Ting Fung Philos
+- Professor SHAW Pang Chui</td>
+<td>80</td>
+<td>35</td>
+<td>LAB</td>
+<td>-L01</td>
+<td>E</td>
+<td>Tu 03:30PM - 06:15PM</td>
+<td>TBA</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Biochemistry Pgm Comm</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Tu 02:30PM - 03:15PM</td>
+<td>SC_L3</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>BCHE4830-</td>
+<td>5690</td>
+<td>Medical Biochemistry Lab 醫學生物化學實驗</td>
+<td>2.00</td>
+<td>- Dr LO Fai Hang</td>
+<td>40</td>
+<td>0</td>
+<td>LAB</td>
+<td>-L01</td>
+<td>E</td>
+<td>Mo 02:30PM - 04:15PM</td>
+<td>SC_LG23</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Biochemistry Pgm Comm</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Mo 04:30PM - 06:15PM</td>
+<td>TBA</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+</table></body></html>

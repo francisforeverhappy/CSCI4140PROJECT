@@ -1,0 +1,581 @@
+<html dir='ltr' lang='en'>
+<!-- Copyright (c) 2000, 2007, Oracle. All rights reserved. -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><body><table border='1' cellpadding='3' cellspacing='0'>
+<tr>
+<th>Class Code</th><th>Class Nbr</th><th>Course Title</th><th>Units</th><th>Teaching Staff</th><th>Quota(s)</th><th>Vacancy</th><th>Course Component</th><th>Section Code</th><th>Language</th><th>Period</th><th>Room</th><th>Meeting Date</th><th>Add Consent</th><th>Drop Consent</th><th>Course Offering Dept</th></tr>
+<tr>
+<td>SEEM2420A</td>
+<td>5552</td>
+<td>Operations Research I 運籌學（一）</td>
+<td>3.00</td>
+<td>- Dr. NG Chi Kong</td>
+<td>142</td>
+<td>30</td>
+<td>LEC</td>
+<td>A</td>
+<td>E</td>
+<td>We 01:30PM - 04:15PM</td>
+<td>HTB_B6</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Sys Engg &amp; Engg Mgt</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>140</td>
+<td>28</td>
+<td>TUT</td>
+<td>AT01</td>
+<td>E</td>
+<td>TBA</td>
+<td>TBA</td>
+<td>06/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Sys Engg &amp; Engg Mgt</td>
+<tr>
+<td>SEEM2440-</td>
+<td>3876</td>
+<td>Engineering Economics 工程經濟學</td>
+<td>3.00</td>
+<td>- Dr FUNG Pui Cheong Gabriel</td>
+<td>122</td>
+<td>4</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Tu 03:30PM - 06:15PM</td>
+<td>MMW_LT2</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Sys Engg &amp; Engg Mgt</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>120</td>
+<td>2</td>
+<td>TUT</td>
+<td>-T01</td>
+<td>E</td>
+<td>TBA</td>
+<td>TBA</td>
+<td>05/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Sys Engg &amp; Engg Mgt</td>
+<tr>
+<td>SEEM2460-</td>
+<td>6600</td>
+<td>Introduction to Data Science 數據科學化基礎</td>
+<td>3.00</td>
+<td>- Professor CHENG Hong
+- Professor MENG Mei Ling Helen</td>
+<td>103</td>
+<td>82</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>We 02:30PM - 05:15PM</td>
+<td>LSK_LT4</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Sys Engg &amp; Engg Mgt</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>100</td>
+<td>79</td>
+<td>TUT</td>
+<td>-T01</td>
+<td>E</td>
+<td>TBA</td>
+<td>TBA</td>
+<td>07/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Sys Engg &amp; Engg Mgt</td>
+<tr>
+<td>SEEM2540-</td>
+<td>5147</td>
+<td>Energy Economics & Management 能源經濟學及管理</td>
+<td>3.00</td>
+<td>- Professor LEUNG May Yee Janny</td>
+<td>50</td>
+<td>9</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Th 02:30PM - 05:15PM</td>
+<td>ERB_804</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Sys Engg &amp; Engg Mgt</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>50</td>
+<td>9</td>
+<td>TUT</td>
+<td>-T01</td>
+<td>E</td>
+<td>TBA</td>
+<td>TBA</td>
+<td>05/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Sys Engg &amp; Engg Mgt</td>
+<tr>
+<td>SEEM3430-</td>
+<td>5555</td>
+<td>Info Syst Analysis & Design 資訊系統分析及設計</td>
+<td>3.00</td>
+<td>- Professor WONG Kam Fai William</td>
+<td>132</td>
+<td>88</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Mo 09:30AM - 12:15PM</td>
+<td>LSB_LT1</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Sys Engg &amp; Engg Mgt</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>131</td>
+<td>87</td>
+<td>TUT</td>
+<td>-T01</td>
+<td>E</td>
+<td>TBA</td>
+<td>TBA</td>
+<td>05/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Sys Engg &amp; Engg Mgt</td>
+<tr>
+<td>SEEM3440-</td>
+<td>6298</td>
+<td>Operations Research II 運籌學（二）</td>
+<td>3.00</td>
+<td>- Professor MA Shiqian</td>
+<td>140</td>
+<td>124</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Th 09:30AM - 12:15PM</td>
+<td>LSK_LT2</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Sys Engg &amp; Engg Mgt</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>140</td>
+<td>124</td>
+<td>TUT</td>
+<td>-T01</td>
+<td>E</td>
+<td>TBA</td>
+<td>TBA</td>
+<td>05/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Sys Engg &amp; Engg Mgt</td>
+<tr>
+<td>SEEM3500-</td>
+<td>7008</td>
+<td>Quality Control and Management 品質控制與管理</td>
+<td>3.00</td>
+<td>- Professor CAI Xiaoqiang</td>
+<td>57</td>
+<td>0</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>We 02:30PM - 05:15PM</td>
+<td>ERB_LT</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Sys Engg &amp; Engg Mgt</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>53</td>
+<td>0</td>
+<td>TUT</td>
+<td>-T01</td>
+<td>E</td>
+<td>TBA</td>
+<td>TBA</td>
+<td>05/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Sys Engg &amp; Engg Mgt</td>
+<tr>
+<td>SEEM3550-</td>
+<td>5522</td>
+<td>Fundamentals in Info Syst 訊息系統工程概念</td>
+<td>3.00</td>
+<td>- Professor YU Jeffrey Xu</td>
+<td>121</td>
+<td>9</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Th 02:30PM - 05:15PM</td>
+<td>BMS_G18</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Sys Engg &amp; Engg Mgt</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>121</td>
+<td>9</td>
+<td>TUT</td>
+<td>-T01</td>
+<td>E</td>
+<td>TBA</td>
+<td>TBA</td>
+<td>06/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Sys Engg &amp; Engg Mgt</td>
+<tr>
+<td>SEEM3570-</td>
+<td>7734</td>
+<td>Stochastic Models 隨機模型</td>
+<td>3.00</td>
+<td>- Professor KUO Yong Hong</td>
+<td>104</td>
+<td>38</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Tu 02:30PM - 05:15PM</td>
+<td>LSK_LT2</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Sys Engg &amp; Engg Mgt</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>101</td>
+<td>35</td>
+<td>TUT</td>
+<td>-T01</td>
+<td>E</td>
+<td>TBA</td>
+<td>TBA</td>
+<td>06/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Sys Engg &amp; Engg Mgt</td>
+<tr>
+<td>SEEM3580-</td>
+<td>7736</td>
+<td>Risk Anal for Financial Engg 金融工程的風險分析</td>
+<td>3.00</td>
+<td>- Professor WU Qi</td>
+<td>62</td>
+<td>6</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Tu 09:30AM - 12:15PM</td>
+<td>LHC_103</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Sys Engg &amp; Engg Mgt</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>60</td>
+<td>4</td>
+<td>TUT</td>
+<td>-T01</td>
+<td>E</td>
+<td>TBA</td>
+<td>TBA</td>
+<td>06/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Sys Engg &amp; Engg Mgt</td>
+<tr>
+<td>SEEM3630-</td>
+<td>5554</td>
+<td>Service Management 服務營運的管理</td>
+<td>3.00</td>
+<td>- Professor CHENG Chun Hung</td>
+<td>60</td>
+<td>0</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Th 09:30AM - 12:15PM</td>
+<td>WMY_507</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Sys Engg &amp; Engg Mgt</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>60</td>
+<td>0</td>
+<td>TUT</td>
+<td>-T01</td>
+<td>E</td>
+<td>TBA</td>
+<td>TBA</td>
+<td>10/01/2015 - 19/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Sys Engg &amp; Engg Mgt</td>
+<tr>
+<td>SEEM4540-</td>
+<td>5041</td>
+<td>Open Systems for E-Commerce 電子商務的開放系統</td>
+<td>3.00</td>
+<td>- Dr FUNG Pui Cheong Gabriel</td>
+<td>60</td>
+<td>40</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>We 09:30AM - 12:15PM</td>
+<td>YIA_LT4</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Sys Engg &amp; Engg Mgt</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>60</td>
+<td>40</td>
+<td>TUT</td>
+<td>-T01</td>
+<td>E</td>
+<td>TBA</td>
+<td>TBA</td>
+<td>05/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Sys Engg &amp; Engg Mgt</td>
+<tr>
+<td>SEEM4600-</td>
+<td>5557</td>
+<td>Logistics Management 後勤管理學　</td>
+<td>3.00</td>
+<td>- Professor LEUNG May Yee Janny</td>
+<td>70</td>
+<td>1</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Mo 02:30PM - 05:15PM</td>
+<td>BMS_LT</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Sys Engg &amp; Engg Mgt</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>65</td>
+<td>0</td>
+<td>TUT</td>
+<td>-T01</td>
+<td>E</td>
+<td>TBA</td>
+<td>TBA</td>
+<td>06/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Sys Engg &amp; Engg Mgt</td>
+<tr>
+<td>SEEM4720-</td>
+<td>5523</td>
+<td>Computational Finance 計算金融學</td>
+<td>3.00</td>
+<td>- Professor CHEN Nan</td>
+<td>61</td>
+<td>40</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Mo 01:30PM - 02:15PM</td>
+<td>LPN_LT</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Sys Engg &amp; Engg Mgt</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>We 02:30PM - 04:15PM</td>
+<td>LSK_LT2</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>60</td>
+<td>39</td>
+<td>TUT</td>
+<td>-T01</td>
+<td>E</td>
+<td>TBA</td>
+<td>TBA</td>
+<td>09/01/2015 - 18/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Sys Engg &amp; Engg Mgt</td>
+</table></body></html>

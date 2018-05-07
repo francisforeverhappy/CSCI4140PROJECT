@@ -1,0 +1,1597 @@
+<html dir='ltr' lang='en'>
+<!-- Copyright (c) 2000, 2007, Oracle. All rights reserved. -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><body><table border='1' cellpadding='3' cellspacing='0'>
+<tr>
+<th>Class Code</th><th>Class Nbr</th><th>Course Title</th><th>Units</th><th>Teaching Staff</th><th>Quota(s)</th><th>Vacancy</th><th>Course Component</th><th>Section Code</th><th>Language</th><th>Period</th><th>Room</th><th>Meeting Date</th><th>Add Consent</th><th>Drop Consent</th><th>Course Offering Dept</th></tr>
+<tr>
+<td>LAWS1020-</td>
+<td>7588</td>
+<td>Hong Kong Legal System</td>
+<td>3.00</td>
+<td>- Professor CHENG Kevin Kwok Yin</td>
+<td>90</td>
+<td>15</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Tu 10:30AM - 12:15PM</td>
+<td>SWH_1</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>LLB Pgm Comm</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>23</td>
+<td>4</td>
+<td>TUT</td>
+<td>-T01</td>
+<td>E</td>
+<td>We 04:30PM - 05:15PM</td>
+<td>LSK_514</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>LLB Pgm Comm</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>22</td>
+<td>3</td>
+<td>TUT</td>
+<td>-T02</td>
+<td>E</td>
+<td>We 05:30PM - 06:15PM</td>
+<td>LSK_514</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>LLB Pgm Comm</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>22</td>
+<td>3</td>
+<td>TUT</td>
+<td>-T03</td>
+<td>E</td>
+<td>Th 02:30PM - 03:15PM</td>
+<td>UCC_109</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>LLB Pgm Comm</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>23</td>
+<td>5</td>
+<td>TUT</td>
+<td>-T04</td>
+<td>E</td>
+<td>Th 03:30PM - 04:15PM</td>
+<td>UCC_109</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>LLB Pgm Comm</td>
+<tr>
+<td>LAWS1050-</td>
+<td>4802</td>
+<td>Jurisprudence and Ethics</td>
+<td>3.00</td>
+<td>- Professor Bryan Howard DRUZIN</td>
+<td>83</td>
+<td>10</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Th 10:30AM - 12:15PM</td>
+<td>SWH_2</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>LLB Pgm Comm</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>21</td>
+<td>3</td>
+<td>TUT</td>
+<td>-T01</td>
+<td>E</td>
+<td>Tu 12:30PM - 01:15PM</td>
+<td>UCC_108</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>LLB Pgm Comm</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>21</td>
+<td>2</td>
+<td>TUT</td>
+<td>-T02</td>
+<td>E</td>
+<td>Tu 01:30PM - 02:15PM</td>
+<td>UCC_108</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>LLB Pgm Comm</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>20</td>
+<td>1</td>
+<td>TUT</td>
+<td>-T03</td>
+<td>E</td>
+<td>We 04:30PM - 05:15PM</td>
+<td>LSK_515</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>LLB Pgm Comm</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>21</td>
+<td>4</td>
+<td>TUT</td>
+<td>-T04</td>
+<td>E</td>
+<td>We 05:30PM - 06:15PM</td>
+<td>LSK_515</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>LLB Pgm Comm</td>
+<tr>
+<td>LAWS2102-</td>
+<td>7615</td>
+<td>Companies and the Law II</td>
+<td>3.00</td>
+<td>- Professor David Charles DONALD</td>
+<td>87</td>
+<td>4</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>We 12:30PM - 02:15PM</td>
+<td>LSK_LT1</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>LLB Pgm Comm</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>22</td>
+<td>1</td>
+<td>TUT</td>
+<td>-T01</td>
+<td>E</td>
+<td>Mo 02:30PM - 03:15PM</td>
+<td>UCC_207</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>LLB Pgm Comm</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>23</td>
+<td>3</td>
+<td>TUT</td>
+<td>-T02</td>
+<td>E</td>
+<td>Mo 03:30PM - 04:15PM</td>
+<td>UCC_207</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>LLB Pgm Comm</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>21</td>
+<td>0</td>
+<td>TUT</td>
+<td>-T03</td>
+<td>E</td>
+<td>Th 12:30PM - 01:15PM</td>
+<td>LSK_301</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>LLB Pgm Comm</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>21</td>
+<td>0</td>
+<td>TUT</td>
+<td>-T04</td>
+<td>E</td>
+<td>Th 01:30PM - 02:15PM</td>
+<td>LSK_301</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>LLB Pgm Comm</td>
+<tr>
+<td>LAWS2110-</td>
+<td>7616</td>
+<td>Administrative Law</td>
+<td>3.00</td>
+<td>- Professor Stephen THOMSON</td>
+<td>163</td>
+<td>21</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Mo 09:30AM - 11:15AM</td>
+<td>LSK_LT7</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>LLB Pgm Comm</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>20</td>
+<td>3</td>
+<td>TUT</td>
+<td>-T01</td>
+<td>E</td>
+<td>Tu 12:30PM - 01:15PM</td>
+<td>UCC_109</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>LLB Pgm Comm</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>21</td>
+<td>6</td>
+<td>TUT</td>
+<td>-T02</td>
+<td>E</td>
+<td>Tu 01:30PM - 02:15PM</td>
+<td>UCC_109</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>LLB Pgm Comm</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>21</td>
+<td>2</td>
+<td>TUT</td>
+<td>-T03</td>
+<td>E</td>
+<td>We 11:30AM - 12:15PM</td>
+<td>LSK_204</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>LLB Pgm Comm</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>20</td>
+<td>3</td>
+<td>TUT</td>
+<td>-T04</td>
+<td>E</td>
+<td>We 12:30PM - 01:15PM</td>
+<td>LSK_204</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>LLB Pgm Comm</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>21</td>
+<td>2</td>
+<td>TUT</td>
+<td>-T05</td>
+<td>E</td>
+<td>We 04:30PM - 05:15PM</td>
+<td>LSK_210</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>LLB Pgm Comm</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>20</td>
+<td>0</td>
+<td>TUT</td>
+<td>-T06</td>
+<td>E</td>
+<td>Th 10:30AM - 11:15AM</td>
+<td>LSK_203</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>LLB Pgm Comm</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>20</td>
+<td>2</td>
+<td>TUT</td>
+<td>-T07</td>
+<td>E</td>
+<td>Th 12:30PM - 01:15PM</td>
+<td>LSK_201</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>LLB Pgm Comm</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>20</td>
+<td>3</td>
+<td>TUT</td>
+<td>-T08</td>
+<td>E</td>
+<td>Th 01:30PM - 02:15PM</td>
+<td>LSK_201</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>LLB Pgm Comm</td>
+<tr>
+<td>LAWS2122-</td>
+<td>7619</td>
+<td>Criminal Law II</td>
+<td>3.00</td>
+<td>- Professor Luke MARSH</td>
+<td>85</td>
+<td>7</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Th 08:30AM - 10:15AM</td>
+<td>SWH_2</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>LLB Pgm Comm</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>22</td>
+<td>3</td>
+<td>TUT</td>
+<td>-T01</td>
+<td>E</td>
+<td>Mo 11:30AM - 12:15PM</td>
+<td>LSK_201</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>LLB Pgm Comm</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>22</td>
+<td>1</td>
+<td>TUT</td>
+<td>-T02</td>
+<td>E</td>
+<td>Mo 12:30PM - 01:15PM</td>
+<td>LSK_201</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>LLB Pgm Comm</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>21</td>
+<td>3</td>
+<td>TUT</td>
+<td>-T03</td>
+<td>E</td>
+<td>We 04:30PM - 05:15PM</td>
+<td>LSK_306</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>LLB Pgm Comm</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>20</td>
+<td>0</td>
+<td>TUT</td>
+<td>-T04</td>
+<td>E</td>
+<td>We 05:30PM - 06:15PM</td>
+<td>LSK_306</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>LLB Pgm Comm</td>
+<tr>
+<td>LAWS2200-</td>
+<td>6353</td>
+<td>Jessup International Law Moot JESSUP國際模擬法庭比賽</td>
+<td>3.00</td>
+<td>- Professor Gregory Steven GORDON</td>
+<td>10</td>
+<td>8</td>
+<td>WKS</td>
+<td>-W01</td>
+<td>E</td>
+<td>We 06:30PM - 09:15PM</td>
+<td>TBA</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>LLB Pgm Comm</td>
+<tr>
+<td>LAWS2230-</td>
+<td>5071</td>
+<td>Mediation: Law and Practice</td>
+<td>3.00</td>
+<td>- Professor Martin John DORIS</td>
+<td>33</td>
+<td>5</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Tu 02:30PM - 05:15PM</td>
+<td>LSK_301</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>LLB Pgm Comm</td>
+<tr>
+<td>LAWS2260-</td>
+<td>7438</td>
+<td>International Legal Advocacy 國際法律訟辯</td>
+<td>6.00</td>
+<td>- Professor Michael Phillip RAMSDEN
+- Professor Peter Frederick RHODES</td>
+<td>10</td>
+<td>1</td>
+<td>WKS</td>
+<td>-W01</td>
+<td>E</td>
+<td>TBA</td>
+<td>TBA</td>
+<td>06/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>LLB Pgm Comm</td>
+<tr>
+<td>LAWS3002-</td>
+<td>5737</td>
+<td>Individual, Community & Law II Individual, Community & Law II</td>
+<td>3.00</td>
+<td>- Professor Amy Elizabeth BARROW</td>
+<td>121</td>
+<td>3</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>We 09:30AM - 12:15PM</td>
+<td>UCC_C1</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>LLB Pgm Comm</td>
+<tr>
+<td>LAWS3110-</td>
+<td>7620</td>
+<td>Criminal Procedure Criminal Procedure</td>
+<td>3.00</td>
+<td>- MR Andrew John RAFFELL</td>
+<td>120</td>
+<td>7</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Th 10:30AM - 12:15PM</td>
+<td>LSK_LT4</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>LLB Pgm Comm</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>15</td>
+<td>1</td>
+<td>TUT</td>
+<td>-T01</td>
+<td>E</td>
+<td>Mo 12:30PM - 01:15PM</td>
+<td>LSK_304</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>LLB Pgm Comm</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>15</td>
+<td>1</td>
+<td>TUT</td>
+<td>-T02</td>
+<td>E</td>
+<td>Mo 01:30PM - 02:15PM</td>
+<td>LSK_304</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>LLB Pgm Comm</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>14</td>
+<td>0</td>
+<td>TUT</td>
+<td>-T03</td>
+<td>E</td>
+<td>Mo 04:30PM - 05:15PM</td>
+<td>LSK_514</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>LLB Pgm Comm</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>16</td>
+<td>1</td>
+<td>TUT</td>
+<td>-T04</td>
+<td>E</td>
+<td>Tu 09:30AM - 10:15AM</td>
+<td>LSK_203</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>LLB Pgm Comm</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>15</td>
+<td>2</td>
+<td>TUT</td>
+<td>-T05</td>
+<td>E</td>
+<td>Tu 01:30PM - 02:15PM</td>
+<td>LSK_203</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>LLB Pgm Comm</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>15</td>
+<td>2</td>
+<td>TUT</td>
+<td>-T06</td>
+<td>E</td>
+<td>Tu 02:30PM - 03:15PM</td>
+<td>LSK_203</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>LLB Pgm Comm</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>15</td>
+<td>0</td>
+<td>TUT</td>
+<td>-T07</td>
+<td>E</td>
+<td>Fr 01:30PM - 02:15PM</td>
+<td>LSK_203</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>LLB Pgm Comm</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>15</td>
+<td>1</td>
+<td>TUT</td>
+<td>-T08</td>
+<td>E</td>
+<td>Fr 02:30PM - 03:15PM</td>
+<td>LSK_203</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>LLB Pgm Comm</td>
+<tr>
+<td>LAWS3130-</td>
+<td>5741</td>
+<td>Evidence</td>
+<td>3.00</td>
+<td>- Dr Arthur MCINNIS</td>
+<td>118</td>
+<td>5</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Fr 09:30AM - 11:15AM</td>
+<td>UCC_C1</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>LLB Pgm Comm</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>14</td>
+<td>0</td>
+<td>TUT</td>
+<td>-T01</td>
+<td>E</td>
+<td>Mo 12:30PM - 01:15PM</td>
+<td>LSK_203</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>LLB Pgm Comm</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>15</td>
+<td>1</td>
+<td>TUT</td>
+<td>-T02</td>
+<td>E</td>
+<td>Mo 01:30PM - 02:15PM</td>
+<td>LSK_203</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>LLB Pgm Comm</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>14</td>
+<td>0</td>
+<td>TUT</td>
+<td>-T03</td>
+<td>E</td>
+<td>We 12:30PM - 01:15PM</td>
+<td>LSK_302</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>LLB Pgm Comm</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>15</td>
+<td>2</td>
+<td>TUT</td>
+<td>-T04</td>
+<td>E</td>
+<td>We 01:30PM - 02:15PM</td>
+<td>LSK_302</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>LLB Pgm Comm</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>15</td>
+<td>0</td>
+<td>TUT</td>
+<td>-T05</td>
+<td>E</td>
+<td>Th 09:30AM - 10:15AM</td>
+<td>LSK_203</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>LLB Pgm Comm</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>15</td>
+<td>1</td>
+<td>TUT</td>
+<td>-T06</td>
+<td>E</td>
+<td>Th 12:30PM - 01:15PM</td>
+<td>LSK_208</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>LLB Pgm Comm</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>15</td>
+<td>1</td>
+<td>TUT</td>
+<td>-T07</td>
+<td>E</td>
+<td>Th 01:30PM - 02:15PM</td>
+<td>LSK_208</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>LLB Pgm Comm</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>15</td>
+<td>0</td>
+<td>TUT</td>
+<td>-T08</td>
+<td>E</td>
+<td>Th 05:30PM - 06:15PM</td>
+<td>LSK_212</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>LLB Pgm Comm</td>
+<tr>
+<td>LAWS3152-</td>
+<td>7643</td>
+<td>Land Law II</td>
+<td>3.00</td>
+<td>- Professor Michael Lewis Paul LOWER</td>
+<td>120</td>
+<td>6</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Mo 02:30PM - 04:15PM</td>
+<td>UCC_C1</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>LLB Pgm Comm</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>15</td>
+<td>0</td>
+<td>TUT</td>
+<td>-T01</td>
+<td>E</td>
+<td>We 12:30PM - 01:15PM</td>
+<td>LSK_515</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>LLB Pgm Comm</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>15</td>
+<td>0</td>
+<td>TUT</td>
+<td>-T02</td>
+<td>E</td>
+<td>We 12:30PM - 01:15PM</td>
+<td>LSK_304</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>LLB Pgm Comm</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>15</td>
+<td>0</td>
+<td>TUT</td>
+<td>-T03</td>
+<td>E</td>
+<td>We 01:30PM - 02:15PM</td>
+<td>LSK_515</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>LLB Pgm Comm</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>15</td>
+<td>0</td>
+<td>TUT</td>
+<td>-T04</td>
+<td>E</td>
+<td>We 01:30PM - 02:15PM</td>
+<td>LSK_304</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>LLB Pgm Comm</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>15</td>
+<td>0</td>
+<td>TUT</td>
+<td>-T05</td>
+<td>E</td>
+<td>Tu 01:30PM - 02:15PM</td>
+<td>LSK_508</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>LLB Pgm Comm</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>15</td>
+<td>3</td>
+<td>TUT</td>
+<td>-T06</td>
+<td>E</td>
+<td>Tu 05:30PM - 06:15PM</td>
+<td>LSK_508</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>LLB Pgm Comm</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>15</td>
+<td>1</td>
+<td>TUT</td>
+<td>-T07</td>
+<td>E</td>
+<td>Th 04:30PM - 05:15PM</td>
+<td>LSK_203</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>LLB Pgm Comm</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>15</td>
+<td>3</td>
+<td>TUT</td>
+<td>-T08</td>
+<td>E</td>
+<td>Th 05:30PM - 06:15PM</td>
+<td>LSK_203</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>LLB Pgm Comm</td>
+<tr>
+<td>LAWS3370-</td>
+<td>5702</td>
+<td>Human Rights and the Law Human Rights and the Law</td>
+<td>3.00</td>
+<td>- Professor Kirsten Eve SELLARS</td>
+<td>35</td>
+<td>18</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Th 02:30PM - 05:15PM</td>
+<td>LDS_214</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>LLB Pgm Comm</td>
+<tr>
+<td>LAWS4010-</td>
+<td>7646</td>
+<td>Independent Research Paper Independent Research Paper</td>
+<td>3.00</td>
+<td>- Professor Sandra MARCO COLINO</td>
+<td>75</td>
+<td>2</td>
+<td>PRJ</td>
+<td>-J01</td>
+<td>E</td>
+<td>TBA</td>
+<td>TBA</td>
+<td>05/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>LLB Pgm Comm</td>
+<tr>
+<td>LAWS4130-</td>
+<td>7647</td>
+<td>Conveyancing Conveyancing</td>
+<td>3.00</td>
+<td>- Miss SIU Chi Wan
+- Mrs. Myrette Jean FOK</td>
+<td>75</td>
+<td>3</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Mo 02:30PM - 04:15PM</td>
+<td>KKB_101</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>LLB Pgm Comm</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>19</td>
+<td>1</td>
+<td>TUT</td>
+<td>-T01</td>
+<td>E</td>
+<td>Th 12:30PM - 01:15PM</td>
+<td>LSK_515</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>LLB Pgm Comm</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>19</td>
+<td>0</td>
+<td>TUT</td>
+<td>-T02</td>
+<td>E</td>
+<td>Th 01:30PM - 02:15PM</td>
+<td>LSK_515</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>LLB Pgm Comm</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>19</td>
+<td>1</td>
+<td>TUT</td>
+<td>-T03</td>
+<td>E</td>
+<td>Fr 09:30AM - 10:15AM</td>
+<td>LSK_306</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>LLB Pgm Comm</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>18</td>
+<td>1</td>
+<td>TUT</td>
+<td>-T04</td>
+<td>E</td>
+<td>Fr 10:30AM - 11:15AM</td>
+<td>LSK_306</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>LLB Pgm Comm</td>
+<tr>
+<td>LAWS4152-</td>
+<td>7651</td>
+<td>Equity and Trusts II Equity and Trusts II</td>
+<td>3.00</td>
+<td>- Professor Steven Brian GALLAGHER</td>
+<td>73</td>
+<td>3</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Th 10:30AM - 12:15PM</td>
+<td>SWH_1</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>LLB Pgm Comm</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>19</td>
+<td>1</td>
+<td>TUT</td>
+<td>-T01</td>
+<td>E</td>
+<td>Mo 12:30PM - 01:15PM</td>
+<td>LSK_514</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>LLB Pgm Comm</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>18</td>
+<td>0</td>
+<td>TUT</td>
+<td>-T02</td>
+<td>E</td>
+<td>Mo 01:30PM - 02:15PM</td>
+<td>LSK_514</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>LLB Pgm Comm</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>18</td>
+<td>0</td>
+<td>TUT</td>
+<td>-T03</td>
+<td>E</td>
+<td>Tu 01:30PM - 02:15PM</td>
+<td>UCC_110</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>LLB Pgm Comm</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>18</td>
+<td>2</td>
+<td>TUT</td>
+<td>-T04</td>
+<td>E</td>
+<td>Tu 02:30PM - 03:15PM</td>
+<td>UCC_110</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>LLB Pgm Comm</td>
+<tr>
+<td>LAWS4260-</td>
+<td>6711</td>
+<td>Public International Law</td>
+<td>3.00</td>
+<td>- Professor Aaro Samuli SEPPAENEN</td>
+<td>33</td>
+<td>10</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Tu 10:30AM - 01:15PM</td>
+<td>LSK_306</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>LLB Pgm Comm</td>
+<tr>
+<td>LAWS4280-</td>
+<td>6710</td>
+<td>International Criminal Law</td>
+<td>3.00</td>
+<td>- Professor Gregory Steven GORDON</td>
+<td>35</td>
+<td>7</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Th 02:30PM - 05:15PM</td>
+<td>LSK_301</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>LLB Pgm Comm</td>
+<tr>
+<td>LAWS4290-</td>
+<td>4085</td>
+<td>Refugee Clinical Legal Ass Pro</td>
+<td>3.00</td>
+<td>- Professor Luke MARSH</td>
+<td>10</td>
+<td>6</td>
+<td>PRJ</td>
+<td>-J01</td>
+<td>E</td>
+<td>TBA</td>
+<td>TBA</td>
+<td>05/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>LLB Pgm Comm</td>
+<tr>
+<td>LAWS4300-</td>
+<td>5696</td>
+<td>Shipping and the Law</td>
+<td>3.00</td>
+<td>- Ms Elsa Mary Anne KELLY</td>
+<td>35</td>
+<td>18</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Tu 10:30AM - 01:15PM</td>
+<td>LSK_208</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>LLB Pgm Comm</td>
+<tr>
+<td>LAWS4311-</td>
+<td>8477</td>
+<td>Chinese Environmental Law Chinese Environmental Law</td>
+<td>3.00</td>
+<td>- Professor ZHAO Yuhong</td>
+<td>26</td>
+<td>10</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Tu 02:30PM - 05:15PM</td>
+<td>LSK_501</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>LLB Pgm Comm</td>
+</table></body></html>

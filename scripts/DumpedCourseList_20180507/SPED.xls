@@ -1,0 +1,583 @@
+<html dir='ltr' lang='en'>
+<!-- Copyright (c) 2000, 2007, Oracle. All rights reserved. -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><body><table border='1' cellpadding='3' cellspacing='0'>
+<tr>
+<th>Class Code</th><th>Class Nbr</th><th>Course Title</th><th>Units</th><th>Teaching Staff</th><th>Quota(s)</th><th>Vacancy</th><th>Course Component</th><th>Section Code</th><th>Language</th><th>Period</th><th>Room</th><th>Meeting Date</th><th>Add Consent</th><th>Drop Consent</th><th>Course Offering Dept</th></tr>
+<tr>
+<td>SPED2011-</td>
+<td>3699</td>
+<td>Teaching Basketball: T & P 籃球教學：理論與實踐</td>
+<td>1.00</td>
+<td>- Dr John Timothy O&#039;REILLY</td>
+<td>30</td>
+<td>6</td>
+<td>PRA</td>
+<td>-P01</td>
+<td>C&amp;E</td>
+<td>Mo 01:30PM - 03:15PM</td>
+<td>UG</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Sports Sc &amp; Phy Edu</td>
+<tr>
+<td>SPED2050A</td>
+<td>6454</td>
+<td>Racquet Sports 拍類運動</td>
+<td>1.00</td>
+<td>- Miss CHEUNG Sin Ting Juanita
+- Mr LO Tak Kai</td>
+<td>20</td>
+<td>0</td>
+<td>PRA</td>
+<td>AP01</td>
+<td>C&amp;E</td>
+<td>Th 02:30PM - 04:15PM</td>
+<td>UG</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Sports Sc &amp; Phy Edu</td>
+<tr>
+<td>SPED2050B</td>
+<td>6453</td>
+<td>Racquet Sports 拍類運動</td>
+<td>1.00</td>
+<td>- Miss CHEUNG Sin Ting Juanita
+- Mr LO Tak Kai</td>
+<td>20</td>
+<td>2</td>
+<td>PRA</td>
+<td>BP01</td>
+<td>C&amp;E</td>
+<td>Th 02:30PM - 04:15PM</td>
+<td>UCTT</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Sports Sc &amp; Phy Edu</td>
+<tr>
+<td>SPED2052-</td>
+<td>7795</td>
+<td>Teaching Tennis: T & P 網球教學：理論與實踐</td>
+<td>1.00</td>
+<td>- Miss CHEUNG Sin Ting Juanita</td>
+<td>20</td>
+<td>0</td>
+<td>PRA</td>
+<td>-P01</td>
+<td>C&amp;E</td>
+<td>Th 10:30AM - 12:15PM</td>
+<td>TC</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td></td>
+<td>Dept of Sports Sc &amp; Phy Edu</td>
+<tr>
+<td>SPED2053B</td>
+<td>7426</td>
+<td>Teaching Squash: T & P 壁球教學：理論與實踐</td>
+<td>1.00</td>
+<td>- Dr. CHAN Wan Ka</td>
+<td>20</td>
+<td>3</td>
+<td>PRA</td>
+<td>BP01</td>
+<td>C&amp;E</td>
+<td>Mo 04:30PM - 06:15PM</td>
+<td>KSB_SC</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Sports Sc &amp; Phy Edu</td>
+<tr>
+<td>SPED2141-</td>
+<td>4542</td>
+<td>Fundamental Mov & Dances 基礎動作與舞蹈</td>
+<td>1.00</td>
+<td>- Miss CHEUNG Sin Ting Juanita</td>
+<td>35</td>
+<td>0</td>
+<td>PRA</td>
+<td>-P01</td>
+<td>C&amp;E</td>
+<td>Th 04:30PM - 06:15PM</td>
+<td>UG</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Sports Sc &amp; Phy Edu</td>
+<tr>
+<td>SPED2211-</td>
+<td>7796</td>
+<td>Teaching Gymnastics: T & P 體操教學：理論與實踐</td>
+<td>1.00</td>
+<td>- Dr. CHAN Wan Ka</td>
+<td>25</td>
+<td>5</td>
+<td>PRA</td>
+<td>-P01</td>
+<td>C&amp;E</td>
+<td>Mo 10:30AM - 12:15PM</td>
+<td>UG</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Sports Sc &amp; Phy Edu</td>
+<tr>
+<td>SPED2301-</td>
+<td>4751</td>
+<td>Personal Hlth Fit Prog Design 個人健康與體適能模式設計</td>
+<td>3.00</td>
+<td>- Professor HUI Sai Chuen</td>
+<td>10</td>
+<td>7</td>
+<td>LEC</td>
+<td>-</td>
+<td>C&amp;E</td>
+<td>Th 01:30PM - 02:15PM</td>
+<td>SB_LT2</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Sports Sc &amp; Phy Edu</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>10</td>
+<td>7</td>
+<td>EXR</td>
+<td>=&quot;-E01&quot;</td>
+<td>C&amp;E</td>
+<td>Tu 11:30AM - 12:15PM</td>
+<td>UG</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Sports Sc &amp; Phy Edu</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>10</td>
+<td>7</td>
+<td>LAB</td>
+<td>-L01</td>
+<td>C&amp;E</td>
+<td>Tu 10:30AM - 11:15AM</td>
+<td>UG</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Sports Sc &amp; Phy Edu</td>
+<tr>
+<td>SPED2540-</td>
+<td>6463</td>
+<td>Intro to Exercise Physiology 運動生理學導論</td>
+<td>3.00</td>
+<td>- Dr John Timothy O&#039;REILLY
+- Professor WONG Heung Sang Stephen</td>
+<td>56</td>
+<td>0</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Tu 10:30AM - 12:15PM</td>
+<td>HTB_B5</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Sports Sc &amp; Phy Edu</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>56</td>
+<td>0</td>
+<td>LAB</td>
+<td>-L01</td>
+<td>E</td>
+<td>Tu 12:30PM - 01:15PM</td>
+<td>HTB_B5</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Sports Sc &amp; Phy Edu</td>
+<tr>
+<td>SPED2610-</td>
+<td>7425</td>
+<td>Intro to Exercise Biomechanics 運動生物力學導論</td>
+<td>3.00</td>
+<td>- Professor CHENG Chik Chi Kenneth</td>
+<td>56</td>
+<td>1</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Mo 03:30PM - 05:15PM</td>
+<td>ELB_LT3</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Sports Sc &amp; Phy Edu</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>56</td>
+<td>1</td>
+<td>LAB</td>
+<td>-L01</td>
+<td>E</td>
+<td>Mo 05:30PM - 06:15PM</td>
+<td>ELB_LT3</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Sports Sc &amp; Phy Edu</td>
+<tr>
+<td>SPED2710B</td>
+<td>7797</td>
+<td>Sociology of P.E. & Sports 體育與運動社會學</td>
+<td>3.00</td>
+<td>- Professor SUM Kim Wai Raymond</td>
+<td>25</td>
+<td>3</td>
+<td>LEC</td>
+<td>B</td>
+<td>E</td>
+<td>Tu 02:30PM - 05:15PM</td>
+<td>KSB_G01</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Sports Sc &amp; Phy Edu</td>
+<tr>
+<td>SPED2810-</td>
+<td>7819</td>
+<td>Psychomotor Learning 運動學習心理學</td>
+<td>3.00</td>
+<td>- Dr. CHAN Wan Ka</td>
+<td>56</td>
+<td>0</td>
+<td>LEC</td>
+<td>-</td>
+<td>C&amp;E</td>
+<td>Tu 02:30PM - 04:15PM</td>
+<td>ELB_307</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Sports Sc &amp; Phy Edu</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>56</td>
+<td>0</td>
+<td>LAB</td>
+<td>-L01</td>
+<td>C&amp;E</td>
+<td>Tu 04:30PM - 05:15PM</td>
+<td>ELB_307</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Sports Sc &amp; Phy Edu</td>
+<tr>
+<td>SPED3200-</td>
+<td>6465</td>
+<td>Teaching Practice II 教學實習（二）</td>
+<td>2.00</td>
+<td>- Dr. CHAN Wan Ka
+- Miss CHEUNG Sin Ting Juanita</td>
+<td>24</td>
+<td>0</td>
+<td>PRA</td>
+<td>-P01</td>
+<td>C&amp;E</td>
+<td>TBA</td>
+<td>TBA</td>
+<td>10/01/2015 - 19/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Sports Sc &amp; Phy Edu</td>
+<tr>
+<td>SPED3201-</td>
+<td>3935</td>
+<td>Teaching Practice in Pri Sch 小學教學實習</td>
+<td>4.00</td>
+<td>- Dr. CHAN Wan Ka
+- Miss CHEUNG Sin Ting Juanita</td>
+<td>21</td>
+<td>0</td>
+<td>PRA</td>
+<td>-P01</td>
+<td>C&amp;E</td>
+<td>TBA</td>
+<td>TBA</td>
+<td>10/01/2015 - 19/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Sports Sc &amp; Phy Edu</td>
+<tr>
+<td>SPED3223-</td>
+<td>3794</td>
+<td>Teaching Dances: T & P 舞蹈教學：理論與實踐</td>
+<td>1.00</td>
+<td>- Dr. CHAN Wan Ka
+- MISS NING Ming Man</td>
+<td>26</td>
+<td>1</td>
+<td>PRA</td>
+<td>-P01</td>
+<td>C&amp;E</td>
+<td>We 10:30AM - 12:15PM</td>
+<td>NATT</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Sports Sc &amp; Phy Edu</td>
+<tr>
+<td>SPED3410-</td>
+<td>7820</td>
+<td>Curriculum Planning for P.E. 體育課程設計</td>
+<td>3.00</td>
+<td>- Miss CHEUNG Sin Ting Juanita</td>
+<td>30</td>
+<td>5</td>
+<td>LEC</td>
+<td>-</td>
+<td>C&amp;E</td>
+<td>We 02:30PM - 05:15PM</td>
+<td>KSB_G01</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Sports Sc &amp; Phy Edu</td>
+<tr>
+<td>SPED3430B</td>
+<td>6152</td>
+<td>Adm & Manage in PE & Sports 體育及運動行政管理</td>
+<td>3.00</td>
+<td>- Mr CHU Fook Wing</td>
+<td>56</td>
+<td>0</td>
+<td>LEC</td>
+<td>B</td>
+<td>C&amp;E</td>
+<td>We 10:30AM - 01:15PM</td>
+<td>ELB_203</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Sports Sc &amp; Phy Edu</td>
+<tr>
+<td>SPED3430C</td>
+<td>7424</td>
+<td>Adm & Manage in PE & Sports 體育及運動行政管理</td>
+<td>3.00</td>
+<td>- Mr CHU Fook Wing</td>
+<td>52</td>
+<td>1</td>
+<td>LEC</td>
+<td>C</td>
+<td>C&amp;E</td>
+<td>Th 02:30PM - 05:15PM</td>
+<td>LKC_LT1</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Sports Sc &amp; Phy Edu</td>
+<tr>
+<td>SPED3550-</td>
+<td>6449</td>
+<td>Physiology of Human Perf 運動表現生理學</td>
+<td>3.00</td>
+<td>- Dr John Timothy O&#039;REILLY
+- Professor WONG Heung Sang Stephen</td>
+<td>32</td>
+<td>1</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Mo 09:30AM - 12:15PM</td>
+<td>KSB_G01</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Sports Sc &amp; Phy Edu</td>
+<tr>
+<td>SPED3630B</td>
+<td>3698</td>
+<td>Intro to Research Methods 研究法導論</td>
+<td>3.00</td>
+<td>- Dr John Timothy O&#039;REILLY</td>
+<td>40</td>
+<td>1</td>
+<td>LEC</td>
+<td>B</td>
+<td>C&amp;E</td>
+<td>Th 09:30AM - 12:15PM</td>
+<td>CKB_UG05</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Sports Sc &amp; Phy Edu</td>
+<tr>
+<td>SPED3910-</td>
+<td>7423</td>
+<td>Adapted Physical Edu & Sports 適應體育與運動</td>
+<td>3.00</td>
+<td>- Professor HA Sau Ching Amy</td>
+<td>30</td>
+<td>19</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Mo 01:30PM - 04:15PM</td>
+<td>KSB_G01</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Sports Sc &amp; Phy Edu</td>
+<tr>
+<td>SPED3920-</td>
+<td>7821</td>
+<td>Human Growth & Health Edu 人體生長、發育和健康教育</td>
+<td>3.00</td>
+<td>- Mr. LEE Chi Wo Daniel</td>
+<td>38</td>
+<td>0</td>
+<td>LEC</td>
+<td>-</td>
+<td>C&amp;E</td>
+<td>We 02:30PM - 05:15PM</td>
+<td>ELB_401</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Sports Sc &amp; Phy Edu</td>
+<tr>
+<td>SPED4200-</td>
+<td>6466</td>
+<td>Teaching Practice III 教學實習（三）</td>
+<td>5.00</td>
+<td>- Dr. CHAN Wan Ka
+- Miss CHEUNG Sin Ting Juanita</td>
+<td>17</td>
+<td>0</td>
+<td>PRA</td>
+<td>-P01</td>
+<td>C&amp;E</td>
+<td>TBA</td>
+<td>TBA</td>
+<td>10/01/2015 - 19/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Sports Sc &amp; Phy Edu</td>
+<tr>
+<td>SPED4201A</td>
+<td>6393</td>
+<td>Internship in Sports Industry 體育產業實踐經驗</td>
+<td>2.00</td>
+<td>- Mr. LEE Chi Wo Daniel</td>
+<td>21</td>
+<td>0</td>
+<td>PRA</td>
+<td>AP01</td>
+<td>C&amp;E</td>
+<td>TBA</td>
+<td>TBA</td>
+<td>10/01/2015 - 19/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Sports Sc &amp; Phy Edu</td>
+<tr>
+<td>SPED4201B</td>
+<td>5082</td>
+<td>Internship in Sports Industry 體育產業實踐經驗</td>
+<td>2.00</td>
+<td>- Mr. LEE Chi Wo Daniel</td>
+<td>31</td>
+<td>0</td>
+<td>PRA</td>
+<td>BP01</td>
+<td>C&amp;E</td>
+<td>TBA</td>
+<td>TBA</td>
+<td>10/01/2015 - 19/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Sports Sc &amp; Phy Edu</td>
+<tr>
+<td>SPED4830-</td>
+<td>6148</td>
+<td>Psycho Aspects of Sports & Exe 體育運動心理學</td>
+<td>3.00</td>
+<td>- Professor SIT Hui Ping</td>
+<td>32</td>
+<td>0</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Mo 01:30PM - 04:15PM</td>
+<td>CKB_UG04</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Sports Sc &amp; Phy Edu</td>
+<tr>
+<td>SPED4900-</td>
+<td>3795</td>
+<td>Research Project 專題研究</td>
+<td>3.00</td>
+<td>- Professor SUM Kim Wai Raymond</td>
+<td>37</td>
+<td>8</td>
+<td>PRJ</td>
+<td>-J01</td>
+<td>E</td>
+<td>TBA</td>
+<td>TBA</td>
+<td>10/01/2015 - 19/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Sports Sc &amp; Phy Edu</td>
+</table></body></html>

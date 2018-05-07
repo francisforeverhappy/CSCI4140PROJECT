@@ -1,0 +1,814 @@
+<html dir='ltr' lang='en'>
+<!-- Copyright (c) 2000, 2007, Oracle. All rights reserved. -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><body><table border='1' cellpadding='3' cellspacing='0'>
+<tr>
+<th>Class Code</th><th>Class Nbr</th><th>Course Title</th><th>Units</th><th>Teaching Staff</th><th>Quota(s)</th><th>Vacancy</th><th>Course Component</th><th>Section Code</th><th>Language</th><th>Period</th><th>Room</th><th>Meeting Date</th><th>Add Consent</th><th>Drop Consent</th><th>Course Offering Dept</th></tr>
+<tr>
+<td>BMEG2010-</td>
+<td>6251</td>
+<td>Biomedical Engineering Lab 生物醫學工程實驗</td>
+<td>1.00</td>
+<td>- Professor YUNG Pun To</td>
+<td>30</td>
+<td>30</td>
+<td>LAB</td>
+<td>-L01</td>
+<td>E</td>
+<td>Tu 09:30AM - 11:15AM</td>
+<td>ERB_1112</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Biomedical Engg Pgm Comm</td>
+<tr>
+<td>BMEG2010-</td>
+<td>6252</td>
+<td>Biomedical Engineering Lab 生物醫學工程實驗</td>
+<td>1.00</td>
+<td>- Professor YUNG Pun To</td>
+<td>30</td>
+<td>1</td>
+<td>LAB</td>
+<td>-L02</td>
+<td>E</td>
+<td>Tu 12:30PM - 02:15PM</td>
+<td>ERB_1112</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Biomedical Engg Pgm Comm</td>
+<tr>
+<td>BMEG2010-</td>
+<td>4385</td>
+<td>Biomedical Engineering Lab 生物醫學工程實驗</td>
+<td>1.00</td>
+<td>- Professor YUNG Pun To</td>
+<td>30</td>
+<td>2</td>
+<td>LAB</td>
+<td>-L03</td>
+<td>E</td>
+<td>Th 09:30AM - 11:15AM</td>
+<td>ERB_1112</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Biomedical Engg Pgm Comm</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>90</td>
+<td>33</td>
+<td>PRJ</td>
+<td>-J01</td>
+<td>E</td>
+<td>Mo 04:30PM - 05:15PM</td>
+<td>LSB_LT4</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Biomedical Engg Pgm Comm</td>
+<tr>
+<td>BMEG3102-</td>
+<td>4439</td>
+<td>Bioinformatics 生物信息學</td>
+<td>3.00</td>
+<td>- Professor WANG Huating
+- Professor YIP Yuk Lap</td>
+<td>61</td>
+<td>48</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Mo 11:30AM - 01:15PM</td>
+<td>ERB_404</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Biomedical Engg Pgm Comm</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 09:30AM - 10:15AM</td>
+<td>ERB_404</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>60</td>
+<td>49</td>
+<td>TUT</td>
+<td>-T01</td>
+<td>E</td>
+<td>Th 10:30AM - 11:15AM</td>
+<td>ERB_404</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>Biomedical Engg Pgm Comm</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>60</td>
+<td>58</td>
+<td>TUT</td>
+<td>-T02</td>
+<td>E</td>
+<td>TBA</td>
+<td>TBA</td>
+<td>08/01/2015 - 17/04/2015</td>
+<td></td>
+<td></td>
+<td>Biomedical Engg Pgm Comm</td>
+<tr>
+<td>BMEG3210-</td>
+<td>6602</td>
+<td>Biofluids 生物流體學</td>
+<td>3.00</td>
+<td>- Professor CHOI Chung Hang Jonathan</td>
+<td>70</td>
+<td>52</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>We 01:30PM - 04:15PM</td>
+<td>WMY_306</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Biomedical Engg Pgm Comm</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>25</td>
+<td>14</td>
+<td>TUT</td>
+<td>-T01</td>
+<td>E</td>
+<td>Tu 01:30PM - 02:15PM</td>
+<td>LSB_G36</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Biomedical Engg Pgm Comm</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>25</td>
+<td>24</td>
+<td>TUT</td>
+<td>-T02</td>
+<td>E</td>
+<td>Tu 01:30PM - 02:15PM</td>
+<td>BMS_1</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Biomedical Engg Pgm Comm</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>25</td>
+<td>19</td>
+<td>TUT</td>
+<td>-T03</td>
+<td>E</td>
+<td>Tu 01:30PM - 02:15PM</td>
+<td>ERB_401</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Biomedical Engg Pgm Comm</td>
+<tr>
+<td>BMEG3320-</td>
+<td>4429</td>
+<td>Biomedical Imaging 生物醫學影像</td>
+<td>3.00</td>
+<td>- Professor SHI Lin</td>
+<td>70</td>
+<td>54</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Tu 11:30AM - 01:15PM</td>
+<td>LPN_LT</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Biomedical Engg Pgm Comm</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>We 09:30AM - 10:15AM</td>
+<td>LPN_LT</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>25</td>
+<td>15</td>
+<td>TUT</td>
+<td>-T01</td>
+<td>E</td>
+<td>We 10:30AM - 11:15AM</td>
+<td>ERB_706</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Biomedical Engg Pgm Comm</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>25</td>
+<td>23</td>
+<td>TUT</td>
+<td>-T02</td>
+<td>E</td>
+<td>We 10:30AM - 11:15AM</td>
+<td>ERB_408</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Biomedical Engg Pgm Comm</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>25</td>
+<td>21</td>
+<td>TUT</td>
+<td>-T03</td>
+<td>E</td>
+<td>We 10:30AM - 11:15AM</td>
+<td>ERB_405</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Biomedical Engg Pgm Comm</td>
+<tr>
+<td>BMEG3330-</td>
+<td>6290</td>
+<td>Neuroengineering 神經工程學</td>
+<td>3.00</td>
+<td>- Professor ZHANG Yuanting</td>
+<td>52</td>
+<td>6</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Th 02:30PM - 05:15PM</td>
+<td>ERB_703</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>Biomedical Engg Pgm Comm</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>25</td>
+<td>1</td>
+<td>TUT</td>
+<td>-T01</td>
+<td>E</td>
+<td>Th 05:30PM - 06:15PM</td>
+<td>ERB_402</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>Biomedical Engg Pgm Comm</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>25</td>
+<td>3</td>
+<td>TUT</td>
+<td>-T02</td>
+<td>E</td>
+<td>Th 05:30PM - 06:15PM</td>
+<td>ERB_401</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>Biomedical Engg Pgm Comm</td>
+<tr>
+<td>BMEG3420-</td>
+<td>4443</td>
+<td>Medical Robotics 醫療機器人學</td>
+<td>3.00</td>
+<td>- Professor MENG Max Qing Hu</td>
+<td>100</td>
+<td>82</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Mo 02:30PM - 05:15PM</td>
+<td>LHC_103</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Biomedical Engg Pgm Comm</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>25</td>
+<td>9</td>
+<td>TUT</td>
+<td>-T01</td>
+<td>E</td>
+<td>Mo 05:30PM - 06:15PM</td>
+<td>LSB_C4</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Biomedical Engg Pgm Comm</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>25</td>
+<td>23</td>
+<td>TUT</td>
+<td>-T02</td>
+<td>E</td>
+<td>Mo 05:30PM - 06:15PM</td>
+<td>TBA</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Biomedical Engg Pgm Comm</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>25</td>
+<td>25</td>
+<td>TUT</td>
+<td>-T03</td>
+<td>E</td>
+<td>Mo 05:30PM - 06:15PM</td>
+<td>LSB_G36</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Biomedical Engg Pgm Comm</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>25</td>
+<td>25</td>
+<td>TUT</td>
+<td>-T04</td>
+<td>E</td>
+<td>Mo 05:30PM - 06:15PM</td>
+<td>LSB_C3</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Biomedical Engg Pgm Comm</td>
+<tr>
+<td>BMEG3910-</td>
+<td>5508</td>
+<td>Undergrad Research in BME 生物醫學工程本科研究</td>
+<td>3.00</td>
+<td>- Staff</td>
+<td>50</td>
+<td>50</td>
+<td>TUT</td>
+<td>-T01</td>
+<td>E</td>
+<td>TBA</td>
+<td>TBA</td>
+<td>06/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Biomedical Engg Pgm Comm</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>50</td>
+<td>50</td>
+<td>OTH</td>
+<td>-O01</td>
+<td>E</td>
+<td>TBA</td>
+<td>TBA</td>
+<td>05/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Biomedical Engg Pgm Comm</td>
+<tr>
+<td>BMEG4410-</td>
+<td>3767</td>
+<td>BioMEMS 生物微機電系統</td>
+<td>3.00</td>
+<td>- Professor YUNG Pun To</td>
+<td>51</td>
+<td>10</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>We 05:30PM - 06:15PM</td>
+<td>ERB_712</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Biomedical Engg Pgm Comm</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 11:30AM - 01:15PM</td>
+<td>ERB_804</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>25</td>
+<td>6</td>
+<td>TUT</td>
+<td>-T01</td>
+<td>E</td>
+<td>We 04:30PM - 05:15PM</td>
+<td>ERB_713</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Biomedical Engg Pgm Comm</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>25</td>
+<td>3</td>
+<td>TUT</td>
+<td>-T02</td>
+<td>E</td>
+<td>We 04:30PM - 05:15PM</td>
+<td>ERB_405</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Biomedical Engg Pgm Comm</td>
+<tr>
+<td>BMEG4450-</td>
+<td>7352</td>
+<td>Bionanotechnology 生物納米技術</td>
+<td>3.00</td>
+<td>- Professor CHOI Chung Hang Jonathan
+- Professor HO Ho Pui</td>
+<td>55</td>
+<td>7</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>We 11:30AM - 12:15PM</td>
+<td>ERB_703</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Biomedical Engg Pgm Comm</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Fr 09:30AM - 11:15AM</td>
+<td>ERB_703</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>27</td>
+<td>4</td>
+<td>TUT</td>
+<td>-T01</td>
+<td>E</td>
+<td>We 12:30PM - 01:15PM</td>
+<td>LSB_C3</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Biomedical Engg Pgm Comm</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>28</td>
+<td>3</td>
+<td>TUT</td>
+<td>-T02</td>
+<td>E</td>
+<td>We 12:30PM - 01:15PM</td>
+<td>LHC_G03</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Biomedical Engg Pgm Comm</td>
+<tr>
+<td>BMEG4530-</td>
+<td>4485</td>
+<td>Musculoskeletal Tissue Engg 肌肉骨骼組織工程學</td>
+<td>3.00</td>
+<td>- Professor BIAN Liming</td>
+<td>55</td>
+<td>1</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Mo 09:30AM - 11:15AM</td>
+<td>ERB_804</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Biomedical Engg Pgm Comm</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Tu 09:30AM - 10:15AM</td>
+<td>ERB_804</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>55</td>
+<td>1</td>
+<td>TUT</td>
+<td>-T01</td>
+<td>E</td>
+<td>Tu 10:30AM - 11:15AM</td>
+<td>LHC_101</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Biomedical Engg Pgm Comm</td>
+</table></body></html>

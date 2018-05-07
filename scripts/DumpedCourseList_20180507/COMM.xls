@@ -1,0 +1,880 @@
+<html dir='ltr' lang='en'>
+<!-- Copyright (c) 2000, 2007, Oracle. All rights reserved. -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><body><table border='1' cellpadding='3' cellspacing='0'>
+<tr>
+<th>Class Code</th><th>Class Nbr</th><th>Course Title</th><th>Units</th><th>Teaching Staff</th><th>Quota(s)</th><th>Vacancy</th><th>Course Component</th><th>Section Code</th><th>Language</th><th>Period</th><th>Room</th><th>Meeting Date</th><th>Add Consent</th><th>Drop Consent</th><th>Course Offering Dept</th></tr>
+<tr>
+<td>COMM1110C</td>
+<td>4831</td>
+<td>Media and Everyday Life 媒體‧生活</td>
+<td>3.00</td>
+<td>- Staff</td>
+<td>85</td>
+<td>0</td>
+<td>LEC</td>
+<td>C</td>
+<td>E</td>
+<td>Mo 09:30AM - 12:15PM</td>
+<td>YIA_LT7</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td></td>
+<td>Sch of Journalism and Comm</td>
+<tr>
+<td>COMM1110D</td>
+<td>6227</td>
+<td>Media and Everyday Life 媒體‧生活</td>
+<td>3.00</td>
+<td>- Mr. SIU Yue Hei</td>
+<td>60</td>
+<td>0</td>
+<td>LEC</td>
+<td>D</td>
+<td>C</td>
+<td>Mo 04:30PM - 06:15PM</td>
+<td>WMY_507</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td></td>
+<td>Sch of Journalism and Comm</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>We 11:30AM - 12:15PM</td>
+<td>UCC_201</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>COMM1140-</td>
+<td>4683</td>
+<td>Debating Mass Media 傳媒論辯</td>
+<td>3.00</td>
+<td>- Professor TSUI Lok Man</td>
+<td>50</td>
+<td>31</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Th 02:30PM - 05:15PM</td>
+<td>WMY_407</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td></td>
+<td>Sch of Journalism and Comm</td>
+<tr>
+<td>COMM2100-</td>
+<td>4133</td>
+<td>Audience Analysis and Strategy 受眾分析與策略研究</td>
+<td>3.00</td>
+<td>- Dr. KAN Chung Kan Clara</td>
+<td>30</td>
+<td>10</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Mo 10:30AM - 01:15PM</td>
+<td>UCC_111</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td></td>
+<td>Sch of Journalism and Comm</td>
+<tr>
+<td>COMM2110A</td>
+<td>6730</td>
+<td>Chinese News Reporting I 中文新聞採訪寫作（一）</td>
+<td>3.00</td>
+<td>- Ms LEUNG Wai Yee Joanna</td>
+<td>22</td>
+<td>2</td>
+<td>LEC</td>
+<td>A</td>
+<td>C</td>
+<td>We 09:30AM - 12:15PM</td>
+<td>CML_203</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td></td>
+<td>Sch of Journalism and Comm</td>
+<tr>
+<td>COMM2110B</td>
+<td>6731</td>
+<td>Chinese News Reporting I 中文新聞採訪寫作（一）</td>
+<td>3.00</td>
+<td>- Ms. CHAN Sik Chee</td>
+<td>22</td>
+<td>6</td>
+<td>LEC</td>
+<td>B</td>
+<td>C</td>
+<td>Th 01:30PM - 03:15PM</td>
+<td>NAH_208</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>Sch of Journalism and Comm</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>22</td>
+<td>6</td>
+<td>LAB</td>
+<td>BL01</td>
+<td>C</td>
+<td>We 10:30AM - 12:15PM</td>
+<td>UCC_114</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Sch of Journalism and Comm</td>
+<tr>
+<td>COMM2120-</td>
+<td>7496</td>
+<td>English News Reporting I 英文新聞採訪寫作（一）</td>
+<td>3.00</td>
+<td>- Ms. CHAN Yuen Man</td>
+<td>22</td>
+<td>2</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Mo 10:30AM - 12:15PM</td>
+<td>NAH_208</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td></td>
+<td>Sch of Journalism and Comm</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>22</td>
+<td>2</td>
+<td>LAB</td>
+<td>-L01</td>
+<td>E</td>
+<td>We 01:30PM - 03:15PM</td>
+<td>NAH_208</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td></td>
+<td>Sch of Journalism and Comm</td>
+<tr>
+<td>COMM2140-</td>
+<td>4685</td>
+<td>Med & Soc Dev in Mainland Chi 中國大陸的媒介與社會發展</td>
+<td>3.00</td>
+<td>- Professor QIU Linchuan</td>
+<td>40</td>
+<td>6</td>
+<td>LEC</td>
+<td>-</td>
+<td>P</td>
+<td>Mo 02:30PM - 05:15PM</td>
+<td>NAH_114</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Sch of Journalism and Comm</td>
+<tr>
+<td>COMM2160-</td>
+<td>6347</td>
+<td>Communication Research Methods 傳播研究方法</td>
+<td>3.00</td>
+<td>- Professor CHAN Che Ming</td>
+<td>110</td>
+<td>16</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>We 03:30PM - 06:15PM</td>
+<td>MMW_LT2</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Sch of Journalism and Comm</td>
+<tr>
+<td>COMM2210-</td>
+<td>5477</td>
+<td>News and Society 新聞與社會</td>
+<td>3.00</td>
+<td>- Professor SO York Kee Clement</td>
+<td>40</td>
+<td>7</td>
+<td>LEC</td>
+<td>-</td>
+<td>C</td>
+<td>Tu 02:30PM - 05:15PM</td>
+<td>MMW_707</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Sch of Journalism and Comm</td>
+<tr>
+<td>COMM2300-</td>
+<td>7374</td>
+<td>Sound and Creative Media 聲音與創意媒體</td>
+<td>3.00</td>
+<td>- Professor POON Tat Pui</td>
+<td>20</td>
+<td>1</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>We 10:30AM - 01:15PM</td>
+<td>NAH_208</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td></td>
+<td>Sch of Journalism and Comm</td>
+<tr>
+<td>COMM2440C</td>
+<td>7497</td>
+<td>Photojournalism 新聞攝影</td>
+<td>3.00</td>
+<td>- Mr KWOK Hing Fai</td>
+<td>20</td>
+<td>0</td>
+<td>LEC</td>
+<td>C</td>
+<td>E</td>
+<td>Fr 02:30PM - 05:15PM</td>
+<td>CML_203</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td></td>
+<td>Sch of Journalism and Comm</td>
+<tr>
+<td>COMM2600B</td>
+<td>4682</td>
+<td>Introduction to Journalism 新聞學導論</td>
+<td>3.00</td>
+<td>- Staff</td>
+<td>49</td>
+<td>23</td>
+<td>LEC</td>
+<td>B</td>
+<td>E</td>
+<td>Th 03:30PM - 06:15PM</td>
+<td>MMW_705</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>Sch of Journalism and Comm</td>
+<tr>
+<td>COMM2610-</td>
+<td>7895</td>
+<td>Foreign News Desk Practice 國際新聞實務</td>
+<td>3.00</td>
+<td>- MR LEUNG Ka Wing</td>
+<td>20</td>
+<td>3</td>
+<td>LEC</td>
+<td>-</td>
+<td>C</td>
+<td>Tu 07:30PM - 10:15PM</td>
+<td>NAH_208</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Sch of Journalism and Comm</td>
+<tr>
+<td>COMM2710B</td>
+<td>6733</td>
+<td>Fundamentals in Visual Media 影像媒體初基</td>
+<td>3.00</td>
+<td>- Professor LEUNG Wing Chi Louis</td>
+<td>37</td>
+<td>16</td>
+<td>LEC</td>
+<td>B</td>
+<td>E</td>
+<td>We 03:30PM - 06:15PM</td>
+<td>NAH_208</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Sch of Journalism and Comm</td>
+<tr>
+<td>COMM2733B</td>
+<td>6729</td>
+<td>Radio Production 廣播製作</td>
+<td>3.00</td>
+<td>- Mr YANG Kut Si</td>
+<td>16</td>
+<td>3</td>
+<td>LEC</td>
+<td>B</td>
+<td>C</td>
+<td>Th 10:30AM - 01:15PM</td>
+<td>CML_203</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>Sch of Journalism and Comm</td>
+<tr>
+<td>COMM2740B</td>
+<td>6516</td>
+<td>Broadcast News 廣播及電視新聞</td>
+<td>3.00</td>
+<td>- MR POMFRET James Michael</td>
+<td>24</td>
+<td>8</td>
+<td>LEC</td>
+<td>B</td>
+<td>E</td>
+<td>Mo 06:30PM - 09:15PM</td>
+<td>NAH_314</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Sch of Journalism and Comm</td>
+<tr>
+<td>COMM2813-</td>
+<td>4198</td>
+<td>Social Media and Crisis Comm 社交媒體與危機溝通</td>
+<td>3.00</td>
+<td>- Professor Sora KIM</td>
+<td>47</td>
+<td>34</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Tu 10:30AM - 01:15PM</td>
+<td>MMW_710</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Sch of Journalism and Comm</td>
+<tr>
+<td>COMM2814-</td>
+<td>5444</td>
+<td>Soc Campaigning & PR for NGOs 社會議題推廣與非牟利組織公關策略</td>
+<td>3.00</td>
+<td>- Ms CHAN Kwong Wai</td>
+<td>40</td>
+<td>2</td>
+<td>LEC</td>
+<td>-</td>
+<td>C</td>
+<td>Fr 02:30PM - 05:15PM</td>
+<td>MMW_705</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td></td>
+<td>Sch of Journalism and Comm</td>
+<tr>
+<td>COMM2820-</td>
+<td>3738</td>
+<td>Principles of Advertising 廣告學導論</td>
+<td>3.00</td>
+<td>- Dr. KAN Chung Kan Clara</td>
+<td>47</td>
+<td>15</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Tu 10:30AM - 01:15PM</td>
+<td>MMW_705</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Sch of Journalism and Comm</td>
+<tr>
+<td>COMM2840-</td>
+<td>6986</td>
+<td>Advertising and Society 廣告與社會</td>
+<td>3.00</td>
+<td>- Professor LEE LAI Annisa</td>
+<td>38</td>
+<td>0</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Th 02:30PM - 05:15PM</td>
+<td>LHC_106</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td></td>
+<td>Sch of Journalism and Comm</td>
+<tr>
+<td>COMM2850B</td>
+<td>6348</td>
+<td>Introduction to IMC 綜合市場傳播導論</td>
+<td>3.00</td>
+<td>- Professor KIM So Jung</td>
+<td>48</td>
+<td>1</td>
+<td>LEC</td>
+<td>B</td>
+<td>E</td>
+<td>Tu 02:30PM - 05:15PM</td>
+<td>UCC_201</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Sch of Journalism and Comm</td>
+<tr>
+<td>COMM2920-</td>
+<td>5399</td>
+<td>Media, Sex and Violence 媒介、性與暴力</td>
+<td>3.00</td>
+<td>- Dr. WU LEUNG Lai Kuen</td>
+<td>40</td>
+<td>0</td>
+<td>LEC</td>
+<td>-</td>
+<td>C</td>
+<td>Tu 02:30PM - 05:15PM</td>
+<td>MMW_702</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Sch of Journalism and Comm</td>
+<tr>
+<td>COMM2922B</td>
+<td>6547</td>
+<td>Intro to Creative & New Media 創意媒體與新媒體導論</td>
+<td>3.00</td>
+<td>- Professor FUNG Ying Him Anthony
+- Professor POON Tat Pui</td>
+<td>38</td>
+<td>25</td>
+<td>LEC</td>
+<td>B</td>
+<td>E</td>
+<td>Mo 02:30PM - 05:15PM</td>
+<td>NAH_208</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Sch of Journalism and Comm</td>
+<tr>
+<td>COMM2922C</td>
+<td>7315</td>
+<td>Intro to Creative & New Media 創意媒體與新媒體導論</td>
+<td>3.00</td>
+<td>- Professor FUNG Ying Him Anthony
+- Professor POON Tat Pui</td>
+<td>40</td>
+<td>0</td>
+<td>LEC</td>
+<td>C</td>
+<td>C</td>
+<td>Tu 02:30PM - 05:15PM</td>
+<td>NAH_208</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Sch of Journalism and Comm</td>
+<tr>
+<td>COMM2925-</td>
+<td>6445</td>
+<td>Principles of Editing in CM 創意媒體剪接原理</td>
+<td>3.00</td>
+<td>- Mr CHIANG Chi Chung</td>
+<td>15</td>
+<td>4</td>
+<td>LEC</td>
+<td>-</td>
+<td>C</td>
+<td>We 06:30PM - 09:15PM</td>
+<td>CML_203</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Sch of Journalism and Comm</td>
+<tr>
+<td>COMM2930B</td>
+<td>5889</td>
+<td>Understanding Movies 認識電影　</td>
+<td>3.00</td>
+<td>- Dr CHOW Pui Ha</td>
+<td>49</td>
+<td>1</td>
+<td>LEC</td>
+<td>B</td>
+<td>E</td>
+<td>Tu 02:30PM - 05:15PM</td>
+<td>UCC_C2</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Sch of Journalism and Comm</td>
+<tr>
+<td>COMM2962-</td>
+<td>6112</td>
+<td>Photography 攝影研讀</td>
+<td>3.00</td>
+<td>- Mr SHAM Ka Ho</td>
+<td>18</td>
+<td>1</td>
+<td>LEC</td>
+<td>-</td>
+<td>C</td>
+<td>We 02:30PM - 05:15PM</td>
+<td>CML_203</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Sch of Journalism and Comm</td>
+<tr>
+<td>COMM3140B</td>
+<td>4197</td>
+<td>Chinese News Editing 中文新聞編輯</td>
+<td>3.00</td>
+<td>- Ms. CHAN Sik Chee</td>
+<td>23</td>
+<td>0</td>
+<td>LEC</td>
+<td>B</td>
+<td>C</td>
+<td>Tu 10:30AM - 12:15PM</td>
+<td>MMW_706</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td></td>
+<td>Sch of Journalism and Comm</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>We 10:30AM - 12:15PM</td>
+<td>UCC_114</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>COMM3150-</td>
+<td>6734</td>
+<td>Laws of Mass Communications 傳播法規</td>
+<td>3.00</td>
+<td>- Professor WONG Chun Tung David</td>
+<td>113</td>
+<td>15</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Th 09:30AM - 12:15PM</td>
+<td>NAH_115</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>Sch of Journalism and Comm</td>
+<tr>
+<td>COMM3191-</td>
+<td>6884</td>
+<td>Film, TV and Hong Kong Culture 電影、電視與香港文化</td>
+<td>3.00</td>
+<td>- Professor MA Kit Wai</td>
+<td>50</td>
+<td>0</td>
+<td>LEC</td>
+<td>-</td>
+<td>C</td>
+<td>Th 02:30PM - 05:15PM</td>
+<td>NAH_213</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>Sch of Journalism and Comm</td>
+<tr>
+<td>COMM3193-</td>
+<td>6735</td>
+<td>Media and Gender 媒介與性別</td>
+<td>3.00</td>
+<td>- Professor CHU Shun Chi Donna</td>
+<td>30</td>
+<td>0</td>
+<td>LEC</td>
+<td>-</td>
+<td>C</td>
+<td>Tu 02:30PM - 05:15PM</td>
+<td>NAH_312</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Sch of Journalism and Comm</td>
+<tr>
+<td>COMM3300B</td>
+<td>4687</td>
+<td>Social Campaigning Management 社會議題推廣與管理</td>
+<td>3.00</td>
+<td>- Professor POON Tat Pui</td>
+<td>12</td>
+<td>0</td>
+<td>LEC</td>
+<td>B</td>
+<td>C</td>
+<td>Th 02:30PM - 05:15PM</td>
+<td>CML_202</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>Sch of Journalism and Comm</td>
+<tr>
+<td>COMM3420-</td>
+<td>5435</td>
+<td>Prof Ethics & Media Criticism 新聞道德與媒介評述</td>
+<td>3.00</td>
+<td>- Dr. WU LEUNG Lai Kuen</td>
+<td>112</td>
+<td>22</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Mo 10:30AM - 01:15PM</td>
+<td>NAH_115</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Sch of Journalism and Comm</td>
+<tr>
+<td>COMM3610B</td>
+<td>6737</td>
+<td>English News Editing 英文新聞編輯</td>
+<td>3.00</td>
+<td>- Ms. CHAN Yuen Man</td>
+<td>12</td>
+<td>1</td>
+<td>LEC</td>
+<td>B</td>
+<td>E</td>
+<td>Tu 10:30AM - 12:15PM</td>
+<td>CML_203</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Sch of Journalism and Comm</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>12</td>
+<td>1</td>
+<td>LAB</td>
+<td>BL01</td>
+<td>E</td>
+<td>We 01:30PM - 03:15PM</td>
+<td>NAH_208</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Sch of Journalism and Comm</td>
+<tr>
+<td>COMM3682-</td>
+<td>5392</td>
+<td>Special Topic in Journalism II 新聞學專題（二）</td>
+<td>3.00</td>
+<td>- Professor CHEN Hsuan Ting</td>
+<td>40</td>
+<td>29</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>We 10:30AM - 01:15PM</td>
+<td>NAH_112</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Sch of Journalism and Comm</td>
+<tr>
+<td>COMM3711-</td>
+<td>4832</td>
+<td>Script Writing and Screenplay 劇本寫作</td>
+<td>3.00</td>
+<td>- Mr LAU Tin Chi</td>
+<td>35</td>
+<td>2</td>
+<td>LEC</td>
+<td>-</td>
+<td>C</td>
+<td>Tu 10:30AM - 01:15PM</td>
+<td>NAH_208</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Sch of Journalism and Comm</td>
+<tr>
+<td>COMM3730-</td>
+<td>6533</td>
+<td>Issues & Cases in Bro News 廣播新聞重要議題</td>
+<td>3.00</td>
+<td>- MR LEUNG Ka Wing
+- Mr CHIU Ying Chun Ronald
+- Ms CHAN Suk Mei</td>
+<td>10</td>
+<td>9</td>
+<td>LEC</td>
+<td>-</td>
+<td>C</td>
+<td>Sa 02:30PM - 05:15PM</td>
+<td>NAH_208</td>
+<td>10/01/2015 - 18/04/2015</td>
+<td></td>
+<td></td>
+<td>Sch of Journalism and Comm</td>
+<tr>
+<td>COMM3731-</td>
+<td>5675</td>
+<td>Special Top in Broadcasting I 廣播專題（一）</td>
+<td>3.00</td>
+<td>- Dr. AU Ka Lun Allan</td>
+<td>20</td>
+<td>0</td>
+<td>LEC</td>
+<td>-</td>
+<td>C</td>
+<td>Tu 10:30AM - 01:15PM</td>
+<td>UCC_205</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Sch of Journalism and Comm</td>
+<tr>
+<td>COMM3733-</td>
+<td>7498</td>
+<td>Television Production 電視製作</td>
+<td>3.00</td>
+<td>- Professor HO Fung Kwan Ellen</td>
+<td>15</td>
+<td>1</td>
+<td>LEC</td>
+<td>-</td>
+<td>C&amp;E</td>
+<td>Th 01:30PM - 04:15PM</td>
+<td>CML_205</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>Sch of Journalism and Comm</td>
+<tr>
+<td>COMM3740-</td>
+<td>6451</td>
+<td>Advanced Broadcast News 廣播新聞進階</td>
+<td>3.00</td>
+<td>- Mr FUNG Tak Hung William</td>
+<td>18</td>
+<td>6</td>
+<td>LEC</td>
+<td>-</td>
+<td>C</td>
+<td>Sa 02:30PM - 05:15PM</td>
+<td>CML_203</td>
+<td>10/01/2015 - 18/04/2015</td>
+<td></td>
+<td></td>
+<td>Sch of Journalism and Comm</td>
+<tr>
+<td>COMM3812-</td>
+<td>9039</td>
+<td>Sp Top in Public Relations II 公共關係專題（二）</td>
+<td>3.00</td>
+<td>- MS FONG Kin Yee Akina</td>
+<td>40</td>
+<td>0</td>
+<td>LEC</td>
+<td>-</td>
+<td>C</td>
+<td>We 06:30PM - 09:15PM</td>
+<td>NAH_208</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Sch of Journalism and Comm</td>
+<tr>
+<td>COMM4191-</td>
+<td>5694</td>
+<td>Cultural Studies & Pop Culture 普及文化研究</td>
+<td>3.00</td>
+<td>- Dr CHOW Pui Ha</td>
+<td>40</td>
+<td>17</td>
+<td>LEC</td>
+<td>-</td>
+<td>C</td>
+<td>Mo 10:30AM - 01:15PM</td>
+<td>UCC_201</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Sch of Journalism and Comm</td>
+<tr>
+<td>COMM4730-</td>
+<td>4785</td>
+<td>Documentary 紀錄片</td>
+<td>3.00</td>
+<td>- Ms SIU King Lo Dominica</td>
+<td>20</td>
+<td>4</td>
+<td>LEC</td>
+<td>-</td>
+<td>C</td>
+<td>Mo 02:30PM - 05:15PM</td>
+<td>MMW_704</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Sch of Journalism and Comm</td>
+</table></body></html>

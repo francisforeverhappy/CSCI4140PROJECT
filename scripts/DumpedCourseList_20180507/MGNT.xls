@@ -1,0 +1,658 @@
+<html dir='ltr' lang='en'>
+<!-- Copyright (c) 2000, 2007, Oracle. All rights reserved. -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><body><table border='1' cellpadding='3' cellspacing='0'>
+<tr>
+<th>Class Code</th><th>Class Nbr</th><th>Course Title</th><th>Units</th><th>Teaching Staff</th><th>Quota(s)</th><th>Vacancy</th><th>Course Component</th><th>Section Code</th><th>Language</th><th>Period</th><th>Room</th><th>Meeting Date</th><th>Add Consent</th><th>Drop Consent</th><th>Course Offering Dept</th></tr>
+<tr>
+<td>MGNT1010D</td>
+<td>7814</td>
+<td>Introduction to Business 企業導論</td>
+<td>3.00</td>
+<td>- Professor NGO Hang Yue</td>
+<td>60</td>
+<td>2</td>
+<td>LEC</td>
+<td>D</td>
+<td>E</td>
+<td>We 02:30PM - 05:15PM</td>
+<td>WMY_403</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Management</td>
+<tr>
+<td>MGNT1020O</td>
+<td>7816</td>
+<td>Principles of Management 管理原理</td>
+<td>3.00</td>
+<td>- Mr. CHIU Chi Ming Jimmy</td>
+<td>60</td>
+<td>0</td>
+<td>LEC</td>
+<td>O</td>
+<td>C</td>
+<td>Tu 02:30PM - 05:15PM</td>
+<td>WMY_505</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Management</td>
+<tr>
+<td>MGNT1020P</td>
+<td>7817</td>
+<td>Principles of Management 管理原理</td>
+<td>3.00</td>
+<td>- Dr. TSUI Po Yung</td>
+<td>60</td>
+<td>5</td>
+<td>LEC</td>
+<td>P</td>
+<td>C</td>
+<td>Tu 02:30PM - 05:15PM</td>
+<td>WMY_507</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Management</td>
+<tr>
+<td>MGNT1020Q</td>
+<td>7841</td>
+<td>Principles of Management 管理原理</td>
+<td>3.00</td>
+<td>- Dr. TSUI Po Yung</td>
+<td>60</td>
+<td>14</td>
+<td>LEC</td>
+<td>Q</td>
+<td>C</td>
+<td>Tu 10:30AM - 01:15PM</td>
+<td>WMY_507</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Management</td>
+<tr>
+<td>MGNT1020R</td>
+<td>6408</td>
+<td>Principles of Management 管理原理</td>
+<td>3.00</td>
+<td>- Miss CHEN Xing</td>
+<td>60</td>
+<td>13</td>
+<td>LEC</td>
+<td>R</td>
+<td>E</td>
+<td>Th 02:30PM - 05:15PM</td>
+<td>WMY_303</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Management</td>
+<tr>
+<td>MGNT1020S</td>
+<td>7842</td>
+<td>Principles of Management 管理原理</td>
+<td>3.00</td>
+<td>- Professor FU Pingping</td>
+<td>60</td>
+<td>40</td>
+<td>LEC</td>
+<td>S</td>
+<td>E</td>
+<td>Th 02:30PM - 05:15PM</td>
+<td>WMY_507</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Management</td>
+<tr>
+<td>MGNT1020T</td>
+<td>7815</td>
+<td>Principles of Management 管理原理</td>
+<td>3.00</td>
+<td>- Dr. IUN Sio Kun Joyce</td>
+<td>60</td>
+<td>23</td>
+<td>LEC</td>
+<td>T</td>
+<td>C</td>
+<td>Tu 10:30AM - 01:15PM</td>
+<td>WMY_303</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Management</td>
+<tr>
+<td>MGNT1020W</td>
+<td>4093</td>
+<td>Principles of Management 管理原理</td>
+<td>3.00</td>
+<td>- MR NG Wing Fung</td>
+<td>60</td>
+<td>3</td>
+<td>LEC</td>
+<td>W</td>
+<td>E</td>
+<td>Th 02:30PM - 05:15PM</td>
+<td>WMY_505</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Management</td>
+<tr>
+<td>MGNT2040A</td>
+<td>7843</td>
+<td>Human Resource Management 人力資源管理</td>
+<td>3.00</td>
+<td>- Professor JEONG So Young</td>
+<td>55</td>
+<td>3</td>
+<td>LEC</td>
+<td>A</td>
+<td>E</td>
+<td>Tu 10:30AM - 01:15PM</td>
+<td>CKB_109</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Management</td>
+<tr>
+<td>MGNT2040B</td>
+<td>7844</td>
+<td>Human Resource Management 人力資源管理</td>
+<td>3.00</td>
+<td>- Professor JEONG So Young</td>
+<td>55</td>
+<td>8</td>
+<td>LEC</td>
+<td>B</td>
+<td>E</td>
+<td>Th 02:30PM - 05:15PM</td>
+<td>FYB_LT4</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Management</td>
+<tr>
+<td>MGNT2040E</td>
+<td>5300</td>
+<td>Human Resource Management 人力資源管理</td>
+<td>3.00</td>
+<td>- Dr. IUN Sio Kun Joyce</td>
+<td>55</td>
+<td>2</td>
+<td>LEC</td>
+<td>E</td>
+<td>C</td>
+<td>Th 02:30PM - 05:15PM</td>
+<td>WMY_403</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Management</td>
+<tr>
+<td>MGNT2040H</td>
+<td>7845</td>
+<td>Human Resource Management 人力資源管理</td>
+<td>3.00</td>
+<td>- Professor JEONG So Young</td>
+<td>55</td>
+<td>14</td>
+<td>LEC</td>
+<td>H</td>
+<td>E</td>
+<td>We 02:30PM - 05:15PM</td>
+<td>WMY_406</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Management</td>
+<tr>
+<td>MGNT2510E</td>
+<td>7893</td>
+<td>Intro to Int'l Business 國際企業導論</td>
+<td>3.00</td>
+<td>- Dr. LAI Hon Weng</td>
+<td>60</td>
+<td>5</td>
+<td>LEC</td>
+<td>E</td>
+<td>C</td>
+<td>Tu 10:30AM - 01:15PM</td>
+<td>AIT_G01</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Management</td>
+<tr>
+<td>MGNT2510G</td>
+<td>7846</td>
+<td>Intro to Int'l Business 國際企業導論</td>
+<td>3.00</td>
+<td>- Dr. LAI Hon Weng</td>
+<td>60</td>
+<td>0</td>
+<td>LEC</td>
+<td>G</td>
+<td>E</td>
+<td>Tu 02:30PM - 05:15PM</td>
+<td>AIT_G01</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Management</td>
+<tr>
+<td>MGNT2510I</td>
+<td>7847</td>
+<td>Intro to Int'l Business 國際企業導論</td>
+<td>3.00</td>
+<td>- Dr. CHAK Man Kuen</td>
+<td>60</td>
+<td>42</td>
+<td>LEC</td>
+<td>I</td>
+<td>C</td>
+<td>Tu 10:30AM - 12:15PM</td>
+<td>WMY_406</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Management</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 01:30PM - 02:15PM</td>
+<td>WMY_403</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>MGNT2510J</td>
+<td>7848</td>
+<td>Intro to Int'l Business 國際企業導論</td>
+<td>3.00</td>
+<td>- Dr. CHAK Man Kuen</td>
+<td>60</td>
+<td>29</td>
+<td>LEC</td>
+<td>J</td>
+<td>C</td>
+<td>Tu 01:30PM - 02:15PM</td>
+<td>YIA_503</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Management</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 10:30AM - 12:15PM</td>
+<td>WMY_301</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>MGNT2510K</td>
+<td>6242</td>
+<td>Intro to Int'l Business 國際企業導論</td>
+<td>3.00</td>
+<td>- Mr LEUNG Shing Chuen</td>
+<td>60</td>
+<td>1</td>
+<td>LEC</td>
+<td>K</td>
+<td>E</td>
+<td>Mo 10:30AM - 01:15PM</td>
+<td>CYT_LT6</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Management</td>
+<tr>
+<td>MGNT2510L</td>
+<td>3963</td>
+<td>Intro to Int'l Business 國際企業導論</td>
+<td>3.00</td>
+<td>- Mr LEUNG Shing Chuen</td>
+<td>25</td>
+<td>10</td>
+<td>LEC</td>
+<td>L</td>
+<td>E</td>
+<td>Tu 10:30AM - 01:15PM</td>
+<td>CYT_212</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Management</td>
+<tr>
+<td>MGNT3010D</td>
+<td>6295</td>
+<td>Organizational Behaviour 組織行為學</td>
+<td>3.00</td>
+<td>- Professor LAU Chung Ming</td>
+<td>55</td>
+<td>12</td>
+<td>LEC</td>
+<td>D</td>
+<td>C</td>
+<td>Mo 09:30AM - 12:15PM</td>
+<td>YIA_LT8</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Management</td>
+<tr>
+<td>MGNT3010E</td>
+<td>7918</td>
+<td>Organizational Behaviour 組織行為學</td>
+<td>3.00</td>
+<td>- Professor LAU Chung Ming</td>
+<td>55</td>
+<td>1</td>
+<td>LEC</td>
+<td>E</td>
+<td>C</td>
+<td>Tu 10:30AM - 01:15PM</td>
+<td>WMY_407</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Management</td>
+<tr>
+<td>MGNT3010F</td>
+<td>7489</td>
+<td>Organizational Behaviour 組織行為學</td>
+<td>3.00</td>
+<td>- Professor David Christopher AHLSTROM</td>
+<td>55</td>
+<td>0</td>
+<td>LEC</td>
+<td>F</td>
+<td>E</td>
+<td>We 10:30AM - 01:15PM</td>
+<td>WMY_506</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Management</td>
+<tr>
+<td>MGNT3010G</td>
+<td>8310</td>
+<td>Organizational Behaviour 組織行為學</td>
+<td>3.00</td>
+<td>- Professor David Christopher AHLSTROM</td>
+<td>55</td>
+<td>0</td>
+<td>LEC</td>
+<td>G</td>
+<td>E</td>
+<td>Mo 02:30PM - 05:15PM</td>
+<td>WMY_403</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Management</td>
+<tr>
+<td>MGNT3040B</td>
+<td>7849</td>
+<td>HR Planning & Staffing 人力資源規劃與員工配置</td>
+<td>3.00</td>
+<td>- Dr. TSUI Po Yung</td>
+<td>60</td>
+<td>3</td>
+<td>LEC</td>
+<td>B</td>
+<td>E</td>
+<td>We 02:30PM - 05:15PM</td>
+<td>WMY_506</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Management</td>
+<tr>
+<td>MGNT3060B</td>
+<td>7850</td>
+<td>Training & Development 人力資源培訓</td>
+<td>3.00</td>
+<td>- Mr. CHIU Chi Ming Jimmy</td>
+<td>55</td>
+<td>26</td>
+<td>LEC</td>
+<td>B</td>
+<td>E</td>
+<td>Mo 02:30PM - 05:15PM</td>
+<td>YIA_403</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Management</td>
+<tr>
+<td>MGNT4010D</td>
+<td>7868</td>
+<td>Business Policy and Strategy 企業政策及策略</td>
+<td>3.00</td>
+<td>- Professor MA Xufei</td>
+<td>50</td>
+<td>0</td>
+<td>LEC</td>
+<td>D</td>
+<td>E</td>
+<td>Tu 10:30AM - 01:15PM</td>
+<td>YIA_LT9</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Management</td>
+<tr>
+<td>MGNT4010E</td>
+<td>7851</td>
+<td>Business Policy and Strategy 企業政策及策略</td>
+<td>3.00</td>
+<td>- Professor MA Xufei</td>
+<td>50</td>
+<td>4</td>
+<td>LEC</td>
+<td>E</td>
+<td>E</td>
+<td>We 08:30AM - 11:15AM</td>
+<td>YIA_LT9</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Management</td>
+<tr>
+<td>MGNT4010F</td>
+<td>7867</td>
+<td>Business Policy and Strategy 企業政策及策略</td>
+<td>3.00</td>
+<td>- Professor MA Xufei</td>
+<td>50</td>
+<td>13</td>
+<td>LEC</td>
+<td>F</td>
+<td>E</td>
+<td>Mo 08:30AM - 11:15AM</td>
+<td>YIA_LT9</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Management</td>
+<tr>
+<td>MGNT4010H</td>
+<td>7852</td>
+<td>Business Policy and Strategy 企業政策及策略</td>
+<td>3.00</td>
+<td>- Dr HUI Chui Hong</td>
+<td>50</td>
+<td>0</td>
+<td>LEC</td>
+<td>H</td>
+<td>E</td>
+<td>Tu 10:30AM - 01:15PM</td>
+<td>YIA_405</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Management</td>
+<tr>
+<td>MGNT4010L</td>
+<td>7853</td>
+<td>Business Policy and Strategy 企業政策及策略</td>
+<td>3.00</td>
+<td>- Dr HUI Chui Hong</td>
+<td>50</td>
+<td>1</td>
+<td>LEC</td>
+<td>L</td>
+<td>E</td>
+<td>Th 02:30PM - 05:15PM</td>
+<td>WMY_506</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Management</td>
+<tr>
+<td>MGNT4060-</td>
+<td>7418</td>
+<td>Managing Employment Relations 僱傭關係管理</td>
+<td>3.00</td>
+<td>- Professor NGO Hang Yue</td>
+<td>55</td>
+<td>1</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Tu 02:30PM - 05:15PM</td>
+<td>WMY_303</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Management</td>
+<tr>
+<td>MGNT4510B</td>
+<td>7363</td>
+<td>China Business 中國商業</td>
+<td>3.00</td>
+<td>- Professor CHOU Singmay</td>
+<td>55</td>
+<td>10</td>
+<td>LEC</td>
+<td>B</td>
+<td>E</td>
+<td>Th 02:30PM - 05:15PM</td>
+<td>YIA_LT9</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Management</td>
+<tr>
+<td>MGNT4510D</td>
+<td>7917</td>
+<td>China Business 中國商業</td>
+<td>3.00</td>
+<td>- Professor CHOU Singmay</td>
+<td>54</td>
+<td>9</td>
+<td>LEC</td>
+<td>D</td>
+<td>E</td>
+<td>Th 10:30AM - 01:15PM</td>
+<td>AIT_G01</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Management</td>
+<tr>
+<td>MGNT4530-</td>
+<td>4774</td>
+<td>Japanese Business 日本商業</td>
+<td>3.00</td>
+<td>- Professor MAKINO Shige</td>
+<td>55</td>
+<td>15</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Mo 02:30PM - 05:15PM</td>
+<td>WMY_301</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Management</td>
+<tr>
+<td>MGNT4570B</td>
+<td>7894</td>
+<td>Global Entrepreneurship 環球企業家精神</td>
+<td>3.00</td>
+<td>- Dr Marta Katarzyna DOWEJKO
+- Professor CHAN Chi Bong Dominic</td>
+<td>55</td>
+<td>1</td>
+<td>LEC</td>
+<td>B</td>
+<td>E</td>
+<td>We 02:30PM - 05:15PM</td>
+<td>WMY_407</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Management</td>
+<tr>
+<td>MGNT4620-</td>
+<td>6678</td>
+<td>Analysis of Management Topics 管理學專題分析</td>
+<td>3.00</td>
+<td>- Professor AU Yuk Fai Kevin</td>
+<td>55</td>
+<td>27</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Tu 02:30PM - 05:15PM</td>
+<td>ELB_203</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Management</td>
+</table></body></html>
