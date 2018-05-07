@@ -3,13 +3,15 @@ const express = require('express'),
     mongoose = require('mongoose'),
     session = require('express-session'),
     bodyParser = require('body-parser'),
-    cookieParser = require('cookie-parser');
+    cookieParser = require('cookie-parser'),
+    spawn = require('child_process').spawn;
 
 const CourseSession = require('../models/session'),
-    middleware = require('../middleware')
+    middleware = require('../middleware');
+    support = require('../support/js/support')
 
 router.get('/', (req, res) => {
-    res.render('index');    
+    res.render('index');
 });
 
 router.post('/search', (req, res) => {
@@ -46,16 +48,6 @@ router.get('/updateWaite', (req, res) => {
 
 router.get('/import', (req, res) => {
     console.log('get /import');
-    // let courseNumbers = middleware.import(req.session.sid, req.session.pwd);
-    // courseNumber.forEach((courseNumber) => {
-    //     CourseSession.findOne({: req.params.courseCode}, (err, courseSession) => {
-    //         if (err) {
-    //             return console.error('courseSession find error');
-    //         }
-    //         console.log(courseSession.description);
-    //         res.render('index', {sessions: courseSession});
-    //     }); 
-    // });
 });
 
 router.get('/login', (req, res) => {
@@ -63,22 +55,31 @@ router.get('/login', (req, res) => {
     res.render('login');
 });
 
-router.post('/login', (req, res) => {
+router.post('/login', (req, res, next) => {
     // TBI authentication
     console.log('post /login')
     let sid = req.body.sid,
         pwd = req.body.pwd;
-    if (middleware.checkLogin(sid, pwd)) {
-        req.session.sid = sid;
-        req.session.pwd = pwd;
-        res.render('login', {message: 'login successful'});
-    } else {
-        res.render('login', {message: 'login failed'});
-    }
+    let pythonProcess = spawn('python', ['support/py/login.py', sid, pwd]);
+    pythonProcess.stdout.on('data', (data) => {
+        let result = data.toString().trim(); 
+        if (result == 'True') {
+            let encryptedPwd = support.encrypt(sid, pwd)
+            req.session.sid = sid;
+            req.session.pwd = encryptedPwd;
+            console.log('login success');
+            res.redirect('/');
+        } else {
+            console.log('login fail');
+            res.render('login', {message: 'login failed'});
+        }
+    });
 });
 
-router.get('/logout', (req, res) => {
+router.get('/logout', middleware.checkLogin, (req, res) => {
     console.log('get /logout');
+    console.log(req.session.sid + ' ' + req.session.pwd);
+    support.destroyCredential(req.session.sid);
     req.session.destroy(() => {
         console.log('user logged out');
     });
