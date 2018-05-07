@@ -22,19 +22,19 @@ var courseSchema = mongoose.Schema({
         classAttr: String
     },
 
-    lectures: [{
+    lectures: {
         type: mongoose.Schema.Types.ObjectId,
-        ref: "session"
-    }],
+        ref: "Section"
+    },
 
     tutorials: [{
         type: mongoose.Schema.Types.ObjectId,
-        ref: "session"
+        ref: "Section"
     }],
 
     labs: [{
         type: mongoose.Schema.Types.ObjectId,
-        ref: "session"
+        ref: "Section"
     }]
 });
 

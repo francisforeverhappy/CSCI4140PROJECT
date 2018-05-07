@@ -3,11 +3,14 @@ const spawn = require('child_process').spawn;
 module.exports = {
     checkLogin: (req, res, next) => {
         if ('sid' in req.session) {
-            console.log('have already logined');
-            return next();
+            console.log('isLoggedIn is ture');
+            req.isLoggedIn = true;
         } 
-        console.log('not login');
-        res.redirect('/login');
+        else {
+            console.log('isLoggedIn is false');
+            req.isLoggedIn = false;
+        }
+        return next();        
     },
     import: (sid, password) => {
         let pythonProcess = spawn('python', ['support/py/import.py', sid, password]);

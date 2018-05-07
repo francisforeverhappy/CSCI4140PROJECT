@@ -6,27 +6,30 @@ const express = require('express'),
     cookieParser = require('cookie-parser'),
     spawn = require('child_process').spawn;
 
-const CourseSession = require('../models/session'),
-    middleware = require('../middleware');
-    support = require('../support/js/support')
+const Course = require('../models/course'),
+    Section = require('../models/section'),
+    Comment = require('../models/comment'),
+    middleware = require('../middleware'),
+    support = require('../support/js/support');
 
 router.get('/', (req, res) => {
-    res.render('index');
+    let isLoggedIn = false;
+    console.log(req.session.sid);
+    res.render('index', {sid: req.session.sid});
 });
 
 router.post('/search', (req, res) => {
     // on the original page
     let regex = new RegExp(escapeRegex(req.body.courseInfo), 'gi');
-    let message = null;
-    CourseSession.find({$or: [{courseCode: regex}, {courseName: regex}]}, (err, allSessions) => {
+    Course.find({$or: [{courseCode: regex}, {courseName: regex}]}, (err, courses) => {
         if (err) {
             return console.error(err);
         } else {
-            if (allSessions.length < 1) {
+            if (courses.length < 1) {
                 message = 'No match';
             }
         }
-        res.render('index', {sessions: allSessions, message: message});
+        res.render('index', {sid: req.session.sid, courses: courses});
     });
 });
 
@@ -38,25 +41,30 @@ router.get('/:courseCode/details', (req, res) => {
             return console.error('courseSession find error');
         }
         console.log(courseSession.description);
-        res.render('index', {sessions: courseSession});
+        res.render('index', {sid: req.session.sid, sessions: courseSession});
     });
 });
 
-router.get('/updateWaite', (req, res) => {
+router.get('/getWait', (req, res) => {
+    console.log('get /getWait');
+    if (!('sid' in req.session)) {
+        console.log('getWaite without loggin');
+        return res.redirect('/');
+    }
+    // TBI
 
 });
 
 router.get('/import', (req, res) => {
     console.log('get /import');
-});
-
-router.get('/login', (req, res) => {
-    console.log('get /login');
-    res.render('login');
+    if (!('sid' in req.session)) {
+        console.log('import without loggin');
+        return res.redirect('/');
+    }
+    // TBI
 });
 
 router.post('/login', (req, res, next) => {
-    // TBI authentication
     console.log('post /login')
     let sid = req.body.sid,
         pwd = req.body.pwd;
@@ -68,21 +76,29 @@ router.post('/login', (req, res, next) => {
             req.session.sid = sid;
             req.session.pwd = encryptedPwd;
             console.log('login success');
-            res.redirect('/');
         } else {
             console.log('login fail');
-            res.render('login', {message: 'login failed'});
         }
+        res.redirect('/');
     });
 });
 
-router.get('/logout', middleware.checkLogin, (req, res) => {
+router.get('/login', (req, res) => {
+    // for debug
+    res.render('login');
+});
+
+router.get('/logout', (req, res) => {
     console.log('get /logout');
-    console.log(req.session.sid + ' ' + req.session.pwd);
-    support.destroyCredential(req.session.sid);
-    req.session.destroy(() => {
-        console.log('user logged out');
-    });
+    if ('sid' in req.session) {
+        console.log(req.session.sid + ' ' + req.session.pwd);
+        support.destroyCredential(req.session.sid);
+        req.session.destroy(() => {
+            console.log('user logged out');
+        });
+    } else {
+        console.log("user haven't logged in");
+    }
     res.redirect('/');
 });
 

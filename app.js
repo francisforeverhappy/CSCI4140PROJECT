@@ -7,8 +7,8 @@ const express = require('express'),
     mongoose = require('mongoose'),
     session = require('express-session'),
     bodyParser = require('body-parser'),
-    cookieParser = require('cookie-parser');
-    // flash = require('connect-flash');
+    cookieParser = require('cookie-parser'),
+    flash = require('connect-flash');
     
 const indexRoute = require('./routes/index');
 const dbPath = 'mongodb://localhost/csci4140_db';
@@ -18,7 +18,8 @@ db.on('error', console.error.bind(console, 'MongoDB connnection error:'));
 
 app.set('view engine', 'ejs');
 
-// app.use(flash());
+app.use(flash());
+
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
 app.use(cookieParser());

@@ -1,6 +1,6 @@
 var mongoose = require('mongoose');
 
-var sessionSchema = mongoose.Schema({
+var sectionSchema = mongoose.Schema({
     _id: mongoose.Schema.Types.ObjectId,
     // all the same
     courseInfo: {
@@ -56,4 +56,4 @@ var sessionSchema = mongoose.Schema({
     }
 });
 
-module.exports = mongoose.model('Session', sessionSchema);
+module.exports = mongoose.model('Section', sectionSchema);
