@@ -1,0 +1,193 @@
+<html dir='ltr' lang='en'>
+<!-- Copyright (c) 2000, 2007, Oracle. All rights reserved. -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><body><table border='1' cellpadding='3' cellspacing='0'>
+<tr>
+<th>Class Code</th><th>Class Nbr</th><th>Course Title</th><th>Units</th><th>Teaching Staff</th><th>Quota(s)</th><th>Vacancy</th><th>Course Component</th><th>Section Code</th><th>Language</th><th>Period</th><th>Room</th><th>Meeting Date</th><th>Add Consent</th><th>Drop Consent</th><th>Course Offering Dept</th></tr>
+<tr>
+<td>GEUC1000-</td>
+<td>6410</td>
+<td>College Assembly 書院聚會</td>
+<td>0.00</td>
+<td>- Staff</td>
+<td>1400</td>
+<td>0</td>
+<td>ASB</td>
+<td>-A01</td>
+<td>C&amp;E</td>
+<td>Fr 11:30AM - 01:15PM</td>
+<td>TBA</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>United College</td>
+<tr>
+<td>GEUC1000A</td>
+<td>6185</td>
+<td>College Assembly 書院聚會</td>
+<td>0.00</td>
+<td>- Staff</td>
+<td>1400</td>
+<td>639</td>
+<td>ASB</td>
+<td>AA01</td>
+<td>C&amp;E</td>
+<td>Fr 11:30AM - 01:15PM</td>
+<td>TBA</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>United College</td>
+<tr>
+<td>GEUC2017-</td>
+<td>5268</td>
+<td>Bacchus:Exploring Grape Wine 巴格斯：萄葡酒之旅</td>
+<td>1.00</td>
+<td>- Staff</td>
+<td>35</td>
+<td>0</td>
+<td>LEC</td>
+<td>-</td>
+<td>C</td>
+<td>We 04:30PM - 06:15PM</td>
+<td>TBA</td>
+<td>14/01/2015 - 11/02/2015</td>
+<td></td>
+<td>Yes</td>
+<td>United College</td>
+<tr>
+<td>GEUC2018-</td>
+<td>6411</td>
+<td>Leadership in Practice 實踐領導才</td>
+<td>1.00</td>
+<td>- Staff</td>
+<td>32</td>
+<td>0</td>
+<td>LEC</td>
+<td>-</td>
+<td>C</td>
+<td>TBA</td>
+<td>TBA</td>
+<td>05/03/2015 - 27/03/2015</td>
+<td></td>
+<td></td>
+<td>United College</td>
+<tr>
+<td>GEUC2019-</td>
+<td>8658</td>
+<td>Design Thinking 創新設計思維方法</td>
+<td>1.00</td>
+<td>- Professor SUEN Yiu Sin Bernard</td>
+<td>50</td>
+<td>3</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>TBA</td>
+<td>TBA</td>
+<td>23/01/2015 - 11/04/2015</td>
+<td></td>
+<td></td>
+<td>United College</td>
+<tr>
+<td>GEUC2101A</td>
+<td>5839</td>
+<td>Social Service: P&R 社會服務：參與及反思</td>
+<td>1.00</td>
+<td>- Mr TANG Wai Hung</td>
+<td>50</td>
+<td>1</td>
+<td>FLD</td>
+<td>AF01</td>
+<td>E</td>
+<td>TBA</td>
+<td>TBA</td>
+<td>12/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>United College</td>
+<tr>
+<td>GEUC2101B</td>
+<td>6288</td>
+<td>Social Service: P&R 社會服務：參與及反思</td>
+<td>1.00</td>
+<td>- Mr TANG Wai Hung</td>
+<td>50</td>
+<td>0</td>
+<td>FLD</td>
+<td>BF01</td>
+<td>C</td>
+<td>TBA</td>
+<td>TBA</td>
+<td>13/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>United College</td>
+<tr>
+<td>GEUC2101C</td>
+<td>6942</td>
+<td>Social Service: P&R 社會服務：參與及反思</td>
+<td>1.00</td>
+<td>- Mr TANG Wai Hung</td>
+<td>50</td>
+<td>1</td>
+<td>FLD</td>
+<td>CF01</td>
+<td>C</td>
+<td>TBA</td>
+<td>TBA</td>
+<td>14/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>United College</td>
+<tr>
+<td>GEUC2102A</td>
+<td>5679</td>
+<td>Public Affairs: P&R 公共事務：參與及反思</td>
+<td>1.00</td>
+<td>- Mr. CHOY Chi Keung Ivan</td>
+<td>50</td>
+<td>3</td>
+<td>FLD</td>
+<td>AF01</td>
+<td>C</td>
+<td>TBA</td>
+<td>TBA</td>
+<td>19/01/2015 - 31/03/2015</td>
+<td></td>
+<td></td>
+<td>United College</td>
+<tr>
+<td>GEUC2102B</td>
+<td>6742</td>
+<td>Public Affairs: P&R 公共事務：參與及反思</td>
+<td>1.00</td>
+<td>- Mr. CHOY Chi Keung Ivan</td>
+<td>50</td>
+<td>0</td>
+<td>FLD</td>
+<td>BF01</td>
+<td>C</td>
+<td>TBA</td>
+<td>TBA</td>
+<td>21/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>United College</td>
+<tr>
+<td>GEUC2102C</td>
+<td>6741</td>
+<td>Public Affairs: P&R 公共事務：參與及反思</td>
+<td>1.00</td>
+<td>- Mr. CHOY Chi Keung Ivan</td>
+<td>50</td>
+<td>0</td>
+<td>FLD</td>
+<td>CF01</td>
+<td>C</td>
+<td>TBA</td>
+<td>TBA</td>
+<td>20/01/2015 - 08/04/2015</td>
+<td></td>
+<td></td>
+<td>United College</td>
+</table></body></html>

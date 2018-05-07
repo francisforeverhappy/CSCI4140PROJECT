@@ -1,0 +1,481 @@
+<html dir='ltr' lang='en'>
+<!-- Copyright (c) 2000, 2007, Oracle. All rights reserved. -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><body><table border='1' cellpadding='3' cellspacing='0'>
+<tr>
+<th>Class Code</th><th>Class Nbr</th><th>Course Title</th><th>Units</th><th>Teaching Staff</th><th>Quota(s)</th><th>Vacancy</th><th>Course Component</th><th>Section Code</th><th>Language</th><th>Period</th><th>Room</th><th>Meeting Date</th><th>Add Consent</th><th>Drop Consent</th><th>Course Offering Dept</th></tr>
+<tr>
+<td>HTMG1092-</td>
+<td>5231</td>
+<td>Distinguished Speaker S II 行業領袖演講系列（二）</td>
+<td>1.00</td>
+<td>- DR WAN Chun Cheong</td>
+<td>80</td>
+<td>0</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Fr 09:30AM - 11:15AM</td>
+<td>CYT_LT1</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Sch of Hotel &amp; Tourism Mgt</td>
+<tr>
+<td>HTMG1093A</td>
+<td>8891</td>
+<td>Distinguished Speaker S III 行業領袖演講系列（三）</td>
+<td>0.00</td>
+<td>- DR WAN Chun Cheong</td>
+<td>10</td>
+<td>8</td>
+<td>LEC</td>
+<td>A</td>
+<td>E</td>
+<td>Fr 09:30AM - 11:15AM</td>
+<td>CYT_LT1</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Sch of Hotel &amp; Tourism Mgt</td>
+<tr>
+<td>HTMG1094-</td>
+<td>8243</td>
+<td>Distinguished Speaker S IV 行業領袖演講系列（四）</td>
+<td>1.00</td>
+<td>- DR WAN Chun Cheong</td>
+<td>80</td>
+<td>78</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Fr 09:30AM - 11:15AM</td>
+<td>CYT_LT1</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Sch of Hotel &amp; Tourism Mgt</td>
+<tr>
+<td>HTMG1095A</td>
+<td>8890</td>
+<td>Distinguished Speaker S V 行業領袖演講系列（五）</td>
+<td>0.00</td>
+<td>- DR WAN Chun Cheong</td>
+<td>10</td>
+<td>5</td>
+<td>LEC</td>
+<td>A</td>
+<td>E</td>
+<td>Fr 09:30AM - 11:15AM</td>
+<td>CYT_LT1</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Sch of Hotel &amp; Tourism Mgt</td>
+<tr>
+<td>HTMG1096-</td>
+<td>8242</td>
+<td>Distinguished Speaker S VI 行業領袖演講系列（六）</td>
+<td>1.00</td>
+<td>- DR WAN Chun Cheong</td>
+<td>80</td>
+<td>9</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Fr 09:30AM - 11:15AM</td>
+<td>CYT_LT1</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Sch of Hotel &amp; Tourism Mgt</td>
+<tr>
+<td>HTMG2070-</td>
+<td>6175</td>
+<td>Food and Beverage Management 餐務管理</td>
+<td>3.00</td>
+<td>- Ms. CHEUNG Pui Gentiana</td>
+<td>80</td>
+<td>4</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Tu 02:30PM - 05:15PM</td>
+<td>CYT_LT8</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Sch of Hotel &amp; Tourism Mgt</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>80</td>
+<td>4</td>
+<td>LAB</td>
+<td>-L01</td>
+<td>E</td>
+<td>Tu 05:30PM - 06:15PM</td>
+<td>CYT_LT8</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Sch of Hotel &amp; Tourism Mgt</td>
+<tr>
+<td>HTMG2091A</td>
+<td>8889</td>
+<td>Distinguished Speaker S III 行業領袖演講系列 (三)</td>
+<td>0.00</td>
+<td>- DR WAN Chun Cheong</td>
+<td>10</td>
+<td>9</td>
+<td>LEC</td>
+<td>A</td>
+<td>E</td>
+<td>Fr 09:30AM - 11:15AM</td>
+<td>CYT_LT1</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Sch of Hotel &amp; Tourism Mgt</td>
+<tr>
+<td>HTMG2092-</td>
+<td>6010</td>
+<td>Distinguished Speaker S IV 行業領袖演講系列 (四)</td>
+<td>1.00</td>
+<td>- DR WAN Chun Cheong</td>
+<td>80</td>
+<td>5</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Fr 09:30AM - 11:15AM</td>
+<td>CYT_LT1</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Sch of Hotel &amp; Tourism Mgt</td>
+<tr>
+<td>HTMG2900A</td>
+<td>8896</td>
+<td>Summer Internship I 暑期行業體驗計劃（一）</td>
+<td>1.00</td>
+<td>- DR Stefan William COSENTINO</td>
+<td>10</td>
+<td>7</td>
+<td>PRA</td>
+<td>AP01</td>
+<td>E</td>
+<td>Fr 08:30AM - 09:15AM</td>
+<td>TBA</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Sch of Hotel &amp; Tourism Mgt</td>
+<tr>
+<td>HTMG3040-</td>
+<td>4029</td>
+<td>Service Bus & Hospitality Law 服務業及酒店業法律</td>
+<td>3.00</td>
+<td>- Mrs Anne Rosamunde CARVER</td>
+<td>80</td>
+<td>25</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Th 02:30PM - 05:15PM</td>
+<td>CYT_LT6</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Sch of Hotel &amp; Tourism Mgt</td>
+<tr>
+<td>HTMG3060-</td>
+<td>4855</td>
+<td>Service & Hosp Quality Mgt 服務及酒店業質量管理</td>
+<td>3.00</td>
+<td>- Professor YOUNG Wai Tsing Stephen</td>
+<td>80</td>
+<td>19</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Tu 10:30AM - 01:15PM</td>
+<td>CYT_LT6</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Sch of Hotel &amp; Tourism Mgt</td>
+<tr>
+<td>HTMG3080-</td>
+<td>4856</td>
+<td>Hosp Facilities Plan & Design 酒店物業設施策劃及設計</td>
+<td>3.00</td>
+<td>- Professor WANG Yu Long Denis</td>
+<td>80</td>
+<td>5</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Th 02:30PM - 05:15PM</td>
+<td>CYT_LT8</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Sch of Hotel &amp; Tourism Mgt</td>
+<tr>
+<td>HTMG3091A</td>
+<td>8888</td>
+<td>Distinguished Speaker Series V 行業領袖演講系列（五）</td>
+<td>0.00</td>
+<td>- DR WAN Chun Cheong</td>
+<td>10</td>
+<td>9</td>
+<td>LEC</td>
+<td>A</td>
+<td>E</td>
+<td>Fr 09:30AM - 11:15AM</td>
+<td>CYT_LT1</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Sch of Hotel &amp; Tourism Mgt</td>
+<tr>
+<td>HTMG3092-</td>
+<td>5230</td>
+<td>Distinguished Speaker S VI 行業領袖演講系列（六）</td>
+<td>1.00</td>
+<td>- DR WAN Chun Cheong</td>
+<td>80</td>
+<td>33</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Fr 09:30AM - 11:15AM</td>
+<td>CYT_LT1</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Sch of Hotel &amp; Tourism Mgt</td>
+<tr>
+<td>HTMG3503-</td>
+<td>5270</td>
+<td>Hospitality Sales Force Mgt 酒店及相關行業銷售人員管理</td>
+<td>3.00</td>
+<td>- DR Stefan William COSENTINO</td>
+<td>55</td>
+<td>38</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>We 03:30PM - 06:15PM</td>
+<td>CYT_LT8</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Sch of Hotel &amp; Tourism Mgt</td>
+<tr>
+<td>HTMG3504-</td>
+<td>5195</td>
+<td>Fin Mgt & Cost Con Hosp Org 酒店及相關行業財務管理及成本控制</td>
+<td>3.00</td>
+<td>- Mr. LEE Siu Po</td>
+<td>55</td>
+<td>35</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Mo 08:30AM - 11:15AM</td>
+<td>CYT_LT8</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Sch of Hotel &amp; Tourism Mgt</td>
+<tr>
+<td>HTMG3519-</td>
+<td>8438</td>
+<td>Airline and Airport Management 航空與機場業務管理</td>
+<td>3.00</td>
+<td>- Mr. LEE Siu Po</td>
+<td>55</td>
+<td>5</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>We 09:30AM - 12:15PM</td>
+<td>CYT_LT1</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Sch of Hotel &amp; Tourism Mgt</td>
+<tr>
+<td>HTMG3520-</td>
+<td>5174</td>
+<td>Shopping Mall Invest & Mgnt 商場投資與管理</td>
+<td>3.00</td>
+<td>- Dr. LIUSMAN Ervi</td>
+<td>55</td>
+<td>37</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>We 12:30PM - 03:15PM</td>
+<td>CYT_LT8</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Sch of Hotel &amp; Tourism Mgt</td>
+<tr>
+<td>HTMG4170-</td>
+<td>4857</td>
+<td>Hr Strategy in Hospitality 酒店及旅遊業人力資源策略</td>
+<td>3.00</td>
+<td>- Dr. TIAN Jie Jenny</td>
+<td>55</td>
+<td>20</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Tu 02:30PM - 05:15PM</td>
+<td>CYT_LT6</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Sch of Hotel &amp; Tourism Mgt</td>
+<tr>
+<td>HTMG4200-</td>
+<td>5228</td>
+<td>SBM for Hospitality Business 酒店及旅遊業策略品牌管理</td>
+<td>3.00</td>
+<td>- Professor WAN Chun Ying</td>
+<td>45</td>
+<td>5</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Th 10:30AM - 01:15PM</td>
+<td>CYT_LT8</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>Sch of Hotel &amp; Tourism Mgt</td>
+<tr>
+<td>HTMG4220-</td>
+<td>5123</td>
+<td>Advanced F&B Management 專業餐飲服務管理</td>
+<td>3.00</td>
+<td>- Ms. CHEUNG Pui Gentiana</td>
+<td>55</td>
+<td>52</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Mo 11:30AM - 02:15PM</td>
+<td>CYT_LT8</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Sch of Hotel &amp; Tourism Mgt</td>
+<tr>
+<td>HTMG4511-</td>
+<td>6013</td>
+<td>Cruise Line Management 郵輪管理</td>
+<td>1.00</td>
+<td>- DR Stefan William COSENTINO</td>
+<td>50</td>
+<td>18</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Mo 02:30PM - 05:15PM</td>
+<td>CYT_LT8</td>
+<td>09/03/2015 - 30/03/2015</td>
+<td></td>
+<td></td>
+<td>Sch of Hotel &amp; Tourism Mgt</td>
+<tr>
+<td>HTMG4531-</td>
+<td>8436</td>
+<td>High-speed Rail and Tourism 高速鐵路與旅遊</td>
+<td>1.00</td>
+<td>- Professor LI Yun Tai</td>
+<td>50</td>
+<td>24</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Mo 02:30PM - 05:15PM</td>
+<td>CYT_LT8</td>
+<td>05/01/2015 - 26/01/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Sch of Hotel &amp; Tourism Mgt</td>
+<tr>
+<td>HTMG4532-</td>
+<td>8429</td>
+<td>Brand Mgnt in Hospitality 酒店旅遊業的品牌管理</td>
+<td>1.00</td>
+<td>- Ms. Debora CHATWIN</td>
+<td>50</td>
+<td>25</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Mo 02:30PM - 05:15PM</td>
+<td>CYT_LT8</td>
+<td>02/02/2015 - 16/02/2015</td>
+<td></td>
+<td></td>
+<td>Sch of Hotel &amp; Tourism Mgt</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Mo 02:30PM - 05:15PM</td>
+<td>CYT_LT8</td>
+<td>02/03/2015 - 02/03/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>HTMG4900-</td>
+<td>4427</td>
+<td>F & I: Theory Con for H Ind 實習:酒店及旅遊業的理論建構</td>
+<td>3.00</td>
+<td>- Professor WAN Chun Ying</td>
+<td>80</td>
+<td>12</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Tu 10:30AM - 01:15PM</td>
+<td>CYT_LT8</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Sch of Hotel &amp; Tourism Mgt</td>
+</table></body></html>

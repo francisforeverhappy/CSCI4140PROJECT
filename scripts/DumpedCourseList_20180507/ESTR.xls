@@ -1,0 +1,804 @@
+<html dir='ltr' lang='en'>
+<!-- Copyright (c) 2000, 2007, Oracle. All rights reserved. -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><body><table border='1' cellpadding='3' cellspacing='0'>
+<tr>
+<th>Class Code</th><th>Class Nbr</th><th>Course Title</th><th>Units</th><th>Teaching Staff</th><th>Quota(s)</th><th>Vacancy</th><th>Course Component</th><th>Section Code</th><th>Language</th><th>Period</th><th>Room</th><th>Meeting Date</th><th>Add Consent</th><th>Drop Consent</th><th>Course Offering Dept</th></tr>
+<tr>
+<td>ESTR1002B</td>
+<td>8818</td>
+<td>Problem Solving By Programming 應用程式設計</td>
+<td>3.00</td>
+<td>- Dr WONG Tsz Yeung</td>
+<td>19</td>
+<td>9</td>
+<td>LEC</td>
+<td>B</td>
+<td>E</td>
+<td>We 01:30PM - 03:15PM</td>
+<td>LHC_101</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Fac Office of Engineering</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>19</td>
+<td>9</td>
+<td>LAB</td>
+<td>BL01</td>
+<td>E</td>
+<td>We 03:30PM - 05:15PM</td>
+<td>SHB_210</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Fac Office of Engineering</td>
+<tr>
+<td>ESTR1004-</td>
+<td>8823</td>
+<td>L Algebra & V Calculus for Eng 線性代數與向量微積分的工程應用</td>
+<td>3.00</td>
+<td>- Professor YAM Yeung</td>
+<td>25</td>
+<td>10</td>
+<td>LEC</td>
+<td>-</td>
+<td></td>
+<td>We 09:30AM - 11:15AM</td>
+<td>ELB_305</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Fac Office of Engineering</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 04:30PM - 05:15PM</td>
+<td>ERB_405</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>25</td>
+<td>10</td>
+<td>TUT</td>
+<td>-T01</td>
+<td>E</td>
+<td>Fr 09:30AM - 11:15AM</td>
+<td>LSB_LT6</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Fac Office of Engineering</td>
+<tr>
+<td>ESTR1004A</td>
+<td>9100</td>
+<td>L Algebra & V Calculus for Eng 線性代數與向量微積分的工程應用</td>
+<td>3.00</td>
+<td>- Professor Sidharth JAGGI</td>
+<td>10</td>
+<td>9</td>
+<td>LEC</td>
+<td>A</td>
+<td>E</td>
+<td>Mo 09:30AM - 11:15AM</td>
+<td>TBA</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Fac Office of Engineering</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Tu 02:30PM - 03:15PM</td>
+<td>TBA</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>10</td>
+<td>9</td>
+<td>TUT</td>
+<td>AT01</td>
+<td>E</td>
+<td>Fr 09:30AM - 11:15AM</td>
+<td>TBA</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td></td>
+<td>Fac Office of Engineering</td>
+<tr>
+<td>ESTR2002A</td>
+<td>8849</td>
+<td>Probability & Statis for Engnr 概率與统計的工程應用</td>
+<td>3.00</td>
+<td>- Professor GAO Xuefeng</td>
+<td>30</td>
+<td>20</td>
+<td>LEC</td>
+<td>A</td>
+<td>E</td>
+<td>Mo 09:30AM - 11:15AM</td>
+<td>ERB_407</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Fac Office of Engineering</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Tu 02:30PM - 03:15PM</td>
+<td>ERB_407</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>30</td>
+<td>20</td>
+<td>TUT</td>
+<td>AT01</td>
+<td>E</td>
+<td>Mo 11:30AM - 12:15PM</td>
+<td>ERB_407</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Fac Office of Engineering</td>
+<tr>
+<td>ESTR2002B</td>
+<td>8825</td>
+<td>Probability & Statis for Engnr 概率與统計的工程應用</td>
+<td>3.00</td>
+<td>- Professor WONG Wing Shing</td>
+<td>20</td>
+<td>13</td>
+<td>LEC</td>
+<td>B</td>
+<td>E</td>
+<td>TBA</td>
+<td>TBA</td>
+<td>06/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Fac Office of Engineering</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>20</td>
+<td>13</td>
+<td>TUT</td>
+<td>BT01</td>
+<td>E</td>
+<td>TBA</td>
+<td>TBA</td>
+<td>07/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Fac Office of Engineering</td>
+<tr>
+<td>ESTR2006-</td>
+<td>8847</td>
+<td>Engineering Physics II 工程物理（二）</td>
+<td>3.00</td>
+<td>- Professor SUN Xiankai
+- Professor ZHAO Ni</td>
+<td>30</td>
+<td>20</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Tu 03:30PM - 05:15PM</td>
+<td>LHC_103</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Fac Office of Engineering</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 02:30PM - 03:15PM</td>
+<td>SWH_2</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>30</td>
+<td>20</td>
+<td>TUT</td>
+<td>-T01</td>
+<td>E</td>
+<td>Th 03:30PM - 04:15PM</td>
+<td>SWH_2</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Fac Office of Engineering</td>
+<tr>
+<td>ESTR2500-</td>
+<td>8839</td>
+<td>Engineering Economics 工程經濟學</td>
+<td>3.00</td>
+<td>- Dr FUNG Pui Cheong Gabriel</td>
+<td>30</td>
+<td>26</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Tu 03:30PM - 06:15PM</td>
+<td>TBA</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Fac Office of Engineering</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>30</td>
+<td>26</td>
+<td>TUT</td>
+<td>-T01</td>
+<td>E</td>
+<td>TBA</td>
+<td>TBA</td>
+<td>06/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Fac Office of Engineering</td>
+<tr>
+<td>ESTR3100-</td>
+<td>9018</td>
+<td>Rapid Prototyping of Dig Sys 數字系統之快速原型技術</td>
+<td>3.00</td>
+<td>- Professor WONG Kin Hong</td>
+<td>30</td>
+<td>28</td>
+<td>LEC</td>
+<td>-</td>
+<td>C&amp;E</td>
+<td>Mo 04:30PM - 06:15PM</td>
+<td>TBA</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Fac Office of Engineering</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>30</td>
+<td>28</td>
+<td>LAB</td>
+<td>-L01</td>
+<td>C&amp;E</td>
+<td>Tu 05:30PM - 06:15PM</td>
+<td>TBA</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Fac Office of Engineering</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>30</td>
+<td>28</td>
+<td>TUT</td>
+<td>-T01</td>
+<td>C&amp;E</td>
+<td>Tu 06:30PM - 07:15PM</td>
+<td>TBA</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Fac Office of Engineering</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>30</td>
+<td>30</td>
+<td>TUT</td>
+<td>-T02</td>
+<td>C&amp;E</td>
+<td>TBA</td>
+<td>TBA</td>
+<td>08/01/2015 - 17/04/2015</td>
+<td></td>
+<td></td>
+<td>Fac Office of Engineering</td>
+<tr>
+<td>ESTR3104-</td>
+<td>9084</td>
+<td>Design & Analysis of Algo 算法設計及分析</td>
+<td>3.00</td>
+<td>- Professor ZHANG Shengyu</td>
+<td>30</td>
+<td>29</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Tu 02:30PM - 05:15PM</td>
+<td>TBA</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Fac Office of Engineering</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>30</td>
+<td>29</td>
+<td>TUT</td>
+<td>-T01</td>
+<td>E</td>
+<td>Tu 05:30PM - 06:15PM</td>
+<td>TBA</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Fac Office of Engineering</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>We 07:30PM - 08:15PM</td>
+<td>TBA</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>30</td>
+<td>30</td>
+<td>TUT</td>
+<td>-T02</td>
+<td>E</td>
+<td>We 07:30PM - 08:15PM</td>
+<td>TBA</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Fac Office of Engineering</td>
+<tr>
+<td>ESTR3106-</td>
+<td>8829</td>
+<td>Principles of Programming Lang 程序設計語言原理</td>
+<td>3.00</td>
+<td>- Professor LEE Ho Man</td>
+<td>30</td>
+<td>25</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Mo 02:30PM - 04:15PM</td>
+<td>TBA</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Fac Office of Engineering</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Tu 02:30PM - 03:15PM</td>
+<td>TBA</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>30</td>
+<td>25</td>
+<td>TUT</td>
+<td>-T01</td>
+<td>E</td>
+<td>TBA</td>
+<td>TBA</td>
+<td>07/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Fac Office of Engineering</td>
+<tr>
+<td>ESTR3200-</td>
+<td>8831</td>
+<td>Circuits and Devices II 電子電路與器件（二）</td>
+<td>3.00</td>
+<td>- Professor PUN Kong Pang</td>
+<td>10</td>
+<td>7</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>We 03:30PM - 05:15PM</td>
+<td>TBA</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Fac Office of Engineering</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 03:30PM - 04:15PM</td>
+<td>TBA</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>10</td>
+<td>7</td>
+<td>TUT</td>
+<td>-T01</td>
+<td>E</td>
+<td>TBA</td>
+<td>TBA</td>
+<td>06/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Fac Office of Engineering</td>
+<tr>
+<td>ESTR3506-</td>
+<td>8843</td>
+<td>Fundamentals in Info Syst 訊息系統工程概念</td>
+<td>3.00</td>
+<td>- Professor YU Jeffrey Xu</td>
+<td>30</td>
+<td>28</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>TBA</td>
+<td>TBA</td>
+<td>07/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Fac Office of Engineering</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 02:30PM - 05:15PM</td>
+<td>TBA</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>30</td>
+<td>28</td>
+<td>TUT</td>
+<td>-T01</td>
+<td>E</td>
+<td>TBA</td>
+<td>TBA</td>
+<td>07/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Fac Office of Engineering</td>
+<tr>
+<td>ESTR3508-</td>
+<td>8855</td>
+<td>Stochastic Models 隨機模型</td>
+<td>3.00</td>
+<td>- Professor KUO Yong Hong</td>
+<td>10</td>
+<td>8</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Tu 02:30PM - 05:15PM</td>
+<td>TBA</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Fac Office of Engineering</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>10</td>
+<td>8</td>
+<td>TUT</td>
+<td>-T01</td>
+<td>E</td>
+<td>TBA</td>
+<td>TBA</td>
+<td>05/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Fac Office of Engineering</td>
+</table></body></html>

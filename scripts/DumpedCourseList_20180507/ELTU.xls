@@ -1,0 +1,8466 @@
+<html dir='ltr' lang='en'>
+<!-- Copyright (c) 2000, 2007, Oracle. All rights reserved. -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><body><table border='1' cellpadding='3' cellspacing='0'>
+<tr>
+<th>Class Code</th><th>Class Nbr</th><th>Course Title</th><th>Units</th><th>Teaching Staff</th><th>Quota(s)</th><th>Vacancy</th><th>Course Component</th><th>Section Code</th><th>Language</th><th>Period</th><th>Room</th><th>Meeting Date</th><th>Add Consent</th><th>Drop Consent</th><th>Course Offering Dept</th></tr>
+<tr>
+<td>ELTU1001AA</td>
+<td>6020</td>
+<td>Foundation Eng for Uni Studies 大學基礎英語</td>
+<td>4.00</td>
+<td>- Dr. DAI Binbin</td>
+<td>20</td>
+<td>0</td>
+<td>CLW</td>
+<td>AAC1</td>
+<td>E</td>
+<td>Mo 10:30AM - 12:15PM</td>
+<td>WMY_404</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>We 10:30AM - 12:15PM</td>
+<td>YIA_408</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU1001AB</td>
+<td>6021</td>
+<td>Foundation Eng for Uni Studies 大學基礎英語</td>
+<td>4.00</td>
+<td>- Mr Kenneth Paul GRIMES</td>
+<td>20</td>
+<td>3</td>
+<td>CLW</td>
+<td>ABC1</td>
+<td>E</td>
+<td>Mo 10:30AM - 12:15PM</td>
+<td>WMY_504</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>We 10:30AM - 12:15PM</td>
+<td>YIA_401</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU1001AC</td>
+<td>6022</td>
+<td>Foundation Eng for Uni Studies 大學基礎英語</td>
+<td>4.00</td>
+<td>- Ms CHAN Mei Kee</td>
+<td>20</td>
+<td>4</td>
+<td>CLW</td>
+<td>ACC1</td>
+<td>E</td>
+<td>Mo 10:30AM - 12:15PM</td>
+<td>WMY_502</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>We 10:30AM - 12:15PM</td>
+<td>YIA_404</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU1001AD</td>
+<td>6023</td>
+<td>Foundation Eng for Uni Studies 大學基礎英語</td>
+<td>4.00</td>
+<td>- Mr YEUNG Ping Hei</td>
+<td>20</td>
+<td>3</td>
+<td>CLW</td>
+<td>ADC1</td>
+<td>E</td>
+<td>Mo 10:30AM - 12:15PM</td>
+<td>AIT_G06</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>We 10:30AM - 12:15PM</td>
+<td>YIA_406</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU1001AF</td>
+<td>6024</td>
+<td>Foundation Eng for Uni Studies 大學基礎英語</td>
+<td>4.00</td>
+<td>- Dr. LIU Ngar Fun</td>
+<td>20</td>
+<td>2</td>
+<td>CLW</td>
+<td>AFC1</td>
+<td>E</td>
+<td>Mo 10:30AM - 12:15PM</td>
+<td>WMY_402</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>We 10:30AM - 12:15PM</td>
+<td>YIA_409</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU1001AJ</td>
+<td>6026</td>
+<td>Foundation Eng for Uni Studies 大學基礎英語</td>
+<td>4.00</td>
+<td>- Dr. DAI Binbin</td>
+<td>20</td>
+<td>1</td>
+<td>CLW</td>
+<td>AJC1</td>
+<td>E</td>
+<td>Mo 12:30PM - 02:15PM</td>
+<td>WMY_404</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>We 12:30PM - 02:15PM</td>
+<td>YIA_408</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU1001AK</td>
+<td>6027</td>
+<td>Foundation Eng for Uni Studies 大學基礎英語</td>
+<td>4.00</td>
+<td>- Ms LEE Miranda Kwok Yee</td>
+<td>20</td>
+<td>3</td>
+<td>CLW</td>
+<td>AKC1</td>
+<td>E</td>
+<td>Mo 12:30PM - 02:15PM</td>
+<td>YIA_411</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>We 12:30PM - 02:15PM</td>
+<td>YIA_409</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU1001AL</td>
+<td>6028</td>
+<td>Foundation Eng for Uni Studies 大學基礎英語</td>
+<td>4.00</td>
+<td>- Ms CHAN Mei Kee</td>
+<td>20</td>
+<td>1</td>
+<td>CLW</td>
+<td>ALC1</td>
+<td>E</td>
+<td>Mo 12:30PM - 02:15PM</td>
+<td>WMY_502</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>We 12:30PM - 02:15PM</td>
+<td>YIA_404</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU1001AM</td>
+<td>6029</td>
+<td>Foundation Eng for Uni Studies 大學基礎英語</td>
+<td>4.00</td>
+<td>- Mr YEUNG Ping Hei</td>
+<td>20</td>
+<td>2</td>
+<td>CLW</td>
+<td>AMC1</td>
+<td>E</td>
+<td>Mo 12:30PM - 02:15PM</td>
+<td>AIT_G06</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>We 12:30PM - 02:15PM</td>
+<td>YIA_401</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU1001AS</td>
+<td>6088</td>
+<td>Foundation Eng for Uni Studies 大學基礎英語</td>
+<td>4.00</td>
+<td>- Ms LEE Miranda Kwok Yee</td>
+<td>20</td>
+<td>4</td>
+<td>CLW</td>
+<td>ASC1</td>
+<td>E</td>
+<td>Mo 02:30PM - 04:15PM</td>
+<td>YIA_411</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>We 02:30PM - 04:15PM</td>
+<td>YIA_409</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU1001AT</td>
+<td>6089</td>
+<td>Foundation Eng for Uni Studies 大學基礎英語</td>
+<td>4.00</td>
+<td>- Ms. LAM Tsui Shan</td>
+<td>20</td>
+<td>3</td>
+<td>CLW</td>
+<td>ATC1</td>
+<td>E</td>
+<td>Mo 02:30PM - 04:15PM</td>
+<td>YIA_408</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>We 02:30PM - 04:15PM</td>
+<td>YIA_408</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU1001AU</td>
+<td>6090</td>
+<td>Foundation Eng for Uni Studies 大學基礎英語</td>
+<td>4.00</td>
+<td>- Mr CHEUNG Colin Clifford</td>
+<td>20</td>
+<td>2</td>
+<td>CLW</td>
+<td>AUC1</td>
+<td>E</td>
+<td>Mo 02:30PM - 04:15PM</td>
+<td>WMY_306</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>We 02:30PM - 04:15PM</td>
+<td>YIA_410</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU1001AV</td>
+<td>6091</td>
+<td>Foundation Eng for Uni Studies 大學基礎英語</td>
+<td>4.00</td>
+<td>- MS Lindsey Suzanne GRUBER</td>
+<td>20</td>
+<td>2</td>
+<td>CLW</td>
+<td>AVC1</td>
+<td>E</td>
+<td>Mo 02:30PM - 04:15PM</td>
+<td>YIA_405</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>We 02:30PM - 04:15PM</td>
+<td>WMY_401</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU1001BB</td>
+<td>6095</td>
+<td>Foundation Eng for Uni Studies 大學基礎英語</td>
+<td>4.00</td>
+<td>- Mr Kenneth Paul GRIMES</td>
+<td>20</td>
+<td>2</td>
+<td>CLW</td>
+<td>BBC1</td>
+<td>E</td>
+<td>Mo 04:30PM - 06:15PM</td>
+<td>WMY_504</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>We 04:30PM - 06:15PM</td>
+<td>YIA_411</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU1001BC</td>
+<td>6096</td>
+<td>Foundation Eng for Uni Studies 大學基礎英語</td>
+<td>4.00</td>
+<td>- Ms LUI Yin Ling</td>
+<td>20</td>
+<td>1</td>
+<td>CLW</td>
+<td>BCC1</td>
+<td>E</td>
+<td>Mo 04:30PM - 06:15PM</td>
+<td>YIA_506</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>We 04:30PM - 06:15PM</td>
+<td>YIA_401</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU1001BD</td>
+<td>6097</td>
+<td>Foundation Eng for Uni Studies 大學基礎英語</td>
+<td>4.00</td>
+<td>- MR Philip James FREESTONE</td>
+<td>20</td>
+<td>2</td>
+<td>CLW</td>
+<td>BDC1</td>
+<td>E</td>
+<td>Mo 04:30PM - 06:15PM</td>
+<td>WMY_506</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>We 04:30PM - 06:15PM</td>
+<td>YIA_404</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU1001BE</td>
+<td>6098</td>
+<td>Foundation Eng for Uni Studies 大學基礎英語</td>
+<td>4.00</td>
+<td>- Ms MAN Ming Yu</td>
+<td>20</td>
+<td>2</td>
+<td>CLW</td>
+<td>BEC1</td>
+<td>E</td>
+<td>Mo 04:30PM - 06:15PM</td>
+<td>YIA_509</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>We 04:30PM - 06:15PM</td>
+<td>YIA_406</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU1001CA</td>
+<td>4777</td>
+<td>Foundation Eng for Uni Studies 大學基礎英語</td>
+<td>4.00</td>
+<td>- Ms HO Mai Fung</td>
+<td>20</td>
+<td>2</td>
+<td>CLW</td>
+<td>CAC1</td>
+<td>E</td>
+<td>Tu 08:30AM - 10:15AM</td>
+<td>WMY_404</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 10:30AM - 12:15PM</td>
+<td>YIA_406</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU1001CB</td>
+<td>4778</td>
+<td>Foundation Eng for Uni Studies 大學基礎英語</td>
+<td>4.00</td>
+<td>- Miss LOK Joyce Sze Him</td>
+<td>20</td>
+<td>2</td>
+<td>CLW</td>
+<td>CBC1</td>
+<td>E</td>
+<td>Tu 08:30AM - 10:15AM</td>
+<td>WMY_301</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 10:30AM - 12:15PM</td>
+<td>WMY_502</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU1001CC</td>
+<td>4779</td>
+<td>Foundation Eng for Uni Studies 大學基礎英語</td>
+<td>4.00</td>
+<td>- Ms. LEUNG Kit Chi Ella</td>
+<td>20</td>
+<td>2</td>
+<td>CLW</td>
+<td>CCC1</td>
+<td>E</td>
+<td>Tu 08:30AM - 10:15AM</td>
+<td>WMY_502</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 10:30AM - 12:15PM</td>
+<td>WMY_404</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU1001CD</td>
+<td>4780</td>
+<td>Foundation Eng for Uni Studies 大學基礎英語</td>
+<td>4.00</td>
+<td>- MS Lindsey Suzanne GRUBER</td>
+<td>20</td>
+<td>2</td>
+<td>CLW</td>
+<td>CDC1</td>
+<td>E</td>
+<td>Tu 08:30AM - 10:15AM</td>
+<td>WMY_405</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 10:30AM - 12:15PM</td>
+<td>WMY_405</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU1001CE</td>
+<td>4781</td>
+<td>Foundation Eng for Uni Studies 大學基礎英語</td>
+<td>4.00</td>
+<td>- Mr SEE Mike Noi Fei</td>
+<td>20</td>
+<td>3</td>
+<td>CLW</td>
+<td>CEC1</td>
+<td>E</td>
+<td>Tu 08:30AM - 10:15AM</td>
+<td>WMY_504</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 10:30AM - 12:15PM</td>
+<td>WMY_401</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU1001CF</td>
+<td>4782</td>
+<td>Foundation Eng for Uni Studies 大學基礎英語</td>
+<td>4.00</td>
+<td>- Miss Meedy NUGRAHA</td>
+<td>20</td>
+<td>3</td>
+<td>CLW</td>
+<td>CFC1</td>
+<td>E</td>
+<td>Tu 08:30AM - 10:15AM</td>
+<td>WMY_401</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 10:30AM - 12:15PM</td>
+<td>WMY_501</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU1001CG</td>
+<td>4783</td>
+<td>Foundation Eng for Uni Studies 大學基礎英語</td>
+<td>4.00</td>
+<td>- Ms WONG Ka Sin</td>
+<td>20</td>
+<td>2</td>
+<td>CLW</td>
+<td>CGC1</td>
+<td>E</td>
+<td>Tu 08:30AM - 10:15AM</td>
+<td>YIA_502</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 10:30AM - 12:15PM</td>
+<td>WMY_504</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU1001CH</td>
+<td>8450</td>
+<td>Foundation Eng for Uni Studies 大學基礎英語</td>
+<td>4.00</td>
+<td>- Mr GOH Thian Huat</td>
+<td>20</td>
+<td>2</td>
+<td>CLW</td>
+<td>CHC1</td>
+<td>E</td>
+<td>Tu 08:30AM - 10:15AM</td>
+<td>WMY_304</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 10:30AM - 12:15PM</td>
+<td>AIT_G05</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU1001CK</td>
+<td>4818</td>
+<td>Foundation Eng for Uni Studies 大學基礎英語</td>
+<td>4.00</td>
+<td>- Ms WONG Ka Sin</td>
+<td>20</td>
+<td>1</td>
+<td>CLW</td>
+<td>CKC1</td>
+<td>E</td>
+<td>Tu 10:30AM - 12:15PM</td>
+<td>YIA_502</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 08:30AM - 10:15AM</td>
+<td>WMY_504</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU1001CL</td>
+<td>4819</td>
+<td>Foundation Eng for Uni Studies 大學基礎英語</td>
+<td>4.00</td>
+<td>- Miss CHUNG Hiu Yui</td>
+<td>20</td>
+<td>2</td>
+<td>CLW</td>
+<td>CLC1</td>
+<td>E</td>
+<td>Tu 10:30AM - 12:15PM</td>
+<td>YIA_406</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 08:30AM - 10:15AM</td>
+<td>WMY_302</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU1001CM</td>
+<td>4820</td>
+<td>Foundation Eng for Uni Studies 大學基礎英語</td>
+<td>4.00</td>
+<td>- Miss Meedy NUGRAHA</td>
+<td>20</td>
+<td>1</td>
+<td>CLW</td>
+<td>CMC1</td>
+<td>E</td>
+<td>Tu 10:30AM - 12:15PM</td>
+<td>WMY_401</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 08:30AM - 10:15AM</td>
+<td>WMY_501</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU1001CN</td>
+<td>4821</td>
+<td>Foundation Eng for Uni Studies 大學基礎英語</td>
+<td>4.00</td>
+<td>- Dr. LAI Ching Ching</td>
+<td>20</td>
+<td>2</td>
+<td>CLW</td>
+<td>CNC1</td>
+<td>E</td>
+<td>Tu 10:30AM - 12:15PM</td>
+<td>YIA_401</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 08:30AM - 10:15AM</td>
+<td>LSK_204</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU1001CO</td>
+<td>4822</td>
+<td>Foundation Eng for Uni Studies 大學基礎英語</td>
+<td>4.00</td>
+<td>- Mr Paul Andrew CROOK</td>
+<td>20</td>
+<td>2</td>
+<td>CLW</td>
+<td>COC1</td>
+<td>E</td>
+<td>Tu 10:30AM - 12:15PM</td>
+<td>WMY_402</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 08:30AM - 10:15AM</td>
+<td>WMY_402</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU1001CP</td>
+<td>4823</td>
+<td>Foundation Eng for Uni Studies 大學基礎英語</td>
+<td>4.00</td>
+<td>- Dr NG Elaine</td>
+<td>20</td>
+<td>4</td>
+<td>CLW</td>
+<td>CPC1</td>
+<td>E</td>
+<td>Tu 10:30AM - 12:15PM</td>
+<td>WMY_405</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 08:30AM - 10:15AM</td>
+<td>YIA_402</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU1001CQ</td>
+<td>4824</td>
+<td>Foundation Eng for Uni Studies 大學基礎英語</td>
+<td>4.00</td>
+<td>- Mr. HO Chi Ho</td>
+<td>20</td>
+<td>2</td>
+<td>CLW</td>
+<td>CQC1</td>
+<td>E</td>
+<td>Tu 10:30AM - 12:15PM</td>
+<td>AIT_G06</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 08:30AM - 10:15AM</td>
+<td>YIA_503</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU1001CT</td>
+<td>8449</td>
+<td>Foundation Eng for Uni Studies 大學基礎英語</td>
+<td>4.00</td>
+<td>- Ms MAN Ming Yu</td>
+<td>20</td>
+<td>0</td>
+<td>CLW</td>
+<td>CTC1</td>
+<td>E</td>
+<td>Tu 12:30PM - 02:15PM</td>
+<td>WMY_302</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 12:30PM - 02:15PM</td>
+<td>WMY_406</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU1001CU</td>
+<td>4828</td>
+<td>Foundation Eng for Uni Studies 大學基礎英語</td>
+<td>4.00</td>
+<td>- Dr. SZETO Ka Sinn</td>
+<td>20</td>
+<td>1</td>
+<td>CLW</td>
+<td>CUC1</td>
+<td>E</td>
+<td>Tu 12:30PM - 02:15PM</td>
+<td>WMY_404</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 12:30PM - 02:15PM</td>
+<td>WMY_408</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU1001CV</td>
+<td>4829</td>
+<td>Foundation Eng for Uni Studies 大學基礎英語</td>
+<td>4.00</td>
+<td>- Miss LOK Joyce Sze Him</td>
+<td>20</td>
+<td>1</td>
+<td>CLW</td>
+<td>CVC1</td>
+<td>E</td>
+<td>Tu 12:30PM - 02:15PM</td>
+<td>WMY_502</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 12:30PM - 02:15PM</td>
+<td>WMY_502</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU1001CW</td>
+<td>4830</td>
+<td>Foundation Eng for Uni Studies 大學基礎英語</td>
+<td>4.00</td>
+<td>- Dr. LAI Ching Ching</td>
+<td>20</td>
+<td>1</td>
+<td>CLW</td>
+<td>CWC1</td>
+<td>E</td>
+<td>Tu 12:30PM - 02:15PM</td>
+<td>YIA_401</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 12:30PM - 02:15PM</td>
+<td>UCC_208</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU1001CX</td>
+<td>3712</td>
+<td>Foundation Eng for Uni Studies 大學基礎英語</td>
+<td>4.00</td>
+<td>- Ms. NG Kwan Yee Sarah</td>
+<td>20</td>
+<td>1</td>
+<td>CLW</td>
+<td>CXC1</td>
+<td>E</td>
+<td>Tu 12:30PM - 02:15PM</td>
+<td>AIT_212</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 12:30PM - 02:15PM</td>
+<td>WMY_506</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU1001CZ</td>
+<td>8448</td>
+<td>Foundation Eng for Uni Studies 大學基礎英語</td>
+<td>4.00</td>
+<td>- Mr CHEUNG Colin Clifford</td>
+<td>20</td>
+<td>2</td>
+<td>CLW</td>
+<td>CZC1</td>
+<td>E</td>
+<td>Tu 10:30AM - 12:15PM</td>
+<td>YIA_404</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 08:30AM - 10:15AM</td>
+<td>YIA_501</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU1001EB</td>
+<td>7100</td>
+<td>Foundation Eng for Uni Studies 大學基礎英語</td>
+<td>4.00</td>
+<td>- Dr MA Kuen Fong Beatrice</td>
+<td>20</td>
+<td>0</td>
+<td>CLW</td>
+<td>EBC1</td>
+<td>E</td>
+<td>Tu 02:30PM - 04:15PM</td>
+<td>WMY_502</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 02:30PM - 04:15PM</td>
+<td>YIA_509</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU1001EC</td>
+<td>7101</td>
+<td>Foundation Eng for Uni Studies 大學基礎英語</td>
+<td>4.00</td>
+<td>- Ms. CHEUNG Yuet Ying</td>
+<td>20</td>
+<td>1</td>
+<td>CLW</td>
+<td>ECC1</td>
+<td>E</td>
+<td>Tu 02:30PM - 04:15PM</td>
+<td>WMY_504</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 02:30PM - 04:15PM</td>
+<td>WMY_504</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU1001ED</td>
+<td>7102</td>
+<td>Foundation Eng for Uni Studies 大學基礎英語</td>
+<td>4.00</td>
+<td>- Miss CHUNG Hiu Yui</td>
+<td>20</td>
+<td>1</td>
+<td>CLW</td>
+<td>EDC1</td>
+<td>E</td>
+<td>Tu 02:30PM - 04:15PM</td>
+<td>WMY_405</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 02:30PM - 04:15PM</td>
+<td>YIA_401</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU1001EE</td>
+<td>7103</td>
+<td>Foundation Eng for Uni Studies 大學基礎英語</td>
+<td>4.00</td>
+<td>- Mr GOH Thian Huat</td>
+<td>20</td>
+<td>0</td>
+<td>CLW</td>
+<td>EEC1</td>
+<td>E</td>
+<td>Tu 02:30PM - 04:15PM</td>
+<td>WMY_402</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 02:30PM - 04:15PM</td>
+<td>YIA_507</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU1001EF</td>
+<td>7104</td>
+<td>Foundation Eng for Uni Studies 大學基礎英語</td>
+<td>4.00</td>
+<td>- Dr. LIU Ngar Fun</td>
+<td>20</td>
+<td>2</td>
+<td>CLW</td>
+<td>EFC1</td>
+<td>E</td>
+<td>Tu 02:30PM - 04:15PM</td>
+<td>YIA_411</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 02:30PM - 04:15PM</td>
+<td>WMY_502</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU1001EH</td>
+<td>7106</td>
+<td>Foundation Eng for Uni Studies 大學基礎英語</td>
+<td>4.00</td>
+<td>- Dr MA Kuen Fong Beatrice</td>
+<td>20</td>
+<td>2</td>
+<td>CLW</td>
+<td>EHC1</td>
+<td>E</td>
+<td>Tu 04:30PM - 06:15PM</td>
+<td>WMY_501</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 04:30PM - 06:15PM</td>
+<td>YIA_509</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU1001EI</td>
+<td>7107</td>
+<td>Foundation Eng for Uni Studies 大學基礎英語</td>
+<td>4.00</td>
+<td>- Dr. SZETO Ka Sinn</td>
+<td>20</td>
+<td>2</td>
+<td>CLW</td>
+<td>EIC1</td>
+<td>E</td>
+<td>Tu 04:30PM - 06:15PM</td>
+<td>WMY_503</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 04:30PM - 06:15PM</td>
+<td>WMY_503</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU1001EK</td>
+<td>7109</td>
+<td>Foundation Eng for Uni Studies 大學基礎英語</td>
+<td>4.00</td>
+<td>- Ms. LAM Tsui Shan</td>
+<td>20</td>
+<td>0</td>
+<td>CLW</td>
+<td>EKC1</td>
+<td>E</td>
+<td>Tu 04:30PM - 06:15PM</td>
+<td>YIA_508</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 04:30PM - 06:15PM</td>
+<td>WMY_501</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU1001ES</td>
+<td>7119</td>
+<td>Foundation Eng for Uni Studies 大學基礎英語</td>
+<td>4.00</td>
+<td>- Dr NG Elaine</td>
+<td>20</td>
+<td>1</td>
+<td>CLW</td>
+<td>ESC1</td>
+<td>E</td>
+<td>Tu 12:30PM - 02:15PM</td>
+<td>WMY_405</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 12:30PM - 02:15PM</td>
+<td>WMY_405</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU1001ET</td>
+<td>7120</td>
+<td>Foundation Eng for Uni Studies 大學基礎英語</td>
+<td>4.00</td>
+<td>- Mr Paul Andrew CROOK</td>
+<td>20</td>
+<td>1</td>
+<td>CLW</td>
+<td>ETC1</td>
+<td>E</td>
+<td>Tu 12:30PM - 02:15PM</td>
+<td>WMY_402</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 12:30PM - 02:15PM</td>
+<td>WMY_402</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU1002AG</td>
+<td>8401</td>
+<td>English Com for Uni Studies</td>
+<td>4.00</td>
+<td>- Dr Maris Stella CONNELLY</td>
+<td>20</td>
+<td>0</td>
+<td>CLW</td>
+<td>AGC1</td>
+<td>E</td>
+<td>Mo 10:30AM - 12:15PM</td>
+<td>AIT_G02</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>We 10:30AM - 12:15PM</td>
+<td>YIA_407</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU1002AH</td>
+<td>8405</td>
+<td>English Com for Uni Studies</td>
+<td>4.00</td>
+<td>- Dr NG Kwai Fun</td>
+<td>20</td>
+<td>2</td>
+<td>CLW</td>
+<td>AHC1</td>
+<td>E</td>
+<td>Mo 10:30AM - 12:15PM</td>
+<td>YIA_409</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>We 10:30AM - 12:15PM</td>
+<td>WMY_302</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU1002AI</td>
+<td>8378</td>
+<td>English Com for Uni Studies</td>
+<td>4.00</td>
+<td>- DR Mark Richard HILL</td>
+<td>20</td>
+<td>2</td>
+<td>CLW</td>
+<td>AIC1</td>
+<td>E</td>
+<td>Mo 10:30AM - 12:15PM</td>
+<td>YIA_406</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>We 10:30AM - 12:15PM</td>
+<td>YIA_410</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU1002AO</td>
+<td>8402</td>
+<td>English Com for Uni Studies</td>
+<td>4.00</td>
+<td>- Dr WAN Alina</td>
+<td>20</td>
+<td>1</td>
+<td>CLW</td>
+<td>AOC1</td>
+<td>E</td>
+<td>Mo 12:30PM - 02:15PM</td>
+<td>YIA_504</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>We 12:30PM - 02:15PM</td>
+<td>YIA_406</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU1002AP</td>
+<td>8404</td>
+<td>English Com for Uni Studies</td>
+<td>4.00</td>
+<td>- Miss WONG Wing Che</td>
+<td>20</td>
+<td>1</td>
+<td>CLW</td>
+<td>APC1</td>
+<td>E</td>
+<td>Mo 12:30PM - 02:15PM</td>
+<td>YIA_401</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>We 12:30PM - 02:15PM</td>
+<td>WMY_407</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU1002AQ</td>
+<td>8400</td>
+<td>English Com for Uni Studies</td>
+<td>4.00</td>
+<td>- Mr Rickey LU</td>
+<td>20</td>
+<td>1</td>
+<td>CLW</td>
+<td>AQC1</td>
+<td>E</td>
+<td>Mo 12:30PM - 02:15PM</td>
+<td>YIA_501</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>We 12:30PM - 02:15PM</td>
+<td>WMY_501</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU1002AX</td>
+<td>8418</td>
+<td>English Com for Uni Studies</td>
+<td>4.00</td>
+<td>- Dr WAN Alina</td>
+<td>20</td>
+<td>2</td>
+<td>CLW</td>
+<td>AXC1</td>
+<td>E</td>
+<td>Mo 02:30PM - 04:15PM</td>
+<td>YIA_504</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>We 02:30PM - 04:15PM</td>
+<td>YIA_406</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU1002AY</td>
+<td>8420</td>
+<td>English Com for Uni Studies</td>
+<td>4.00</td>
+<td>- MR Piers Justin Alban VOKINS</td>
+<td>20</td>
+<td>3</td>
+<td>CLW</td>
+<td>AYC1</td>
+<td>E</td>
+<td>Mo 02:30PM - 04:15PM</td>
+<td>YIA_406</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>We 02:30PM - 04:15PM</td>
+<td>YIA_508</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU1002AZ</td>
+<td>8406</td>
+<td>English Com for Uni Studies</td>
+<td>4.00</td>
+<td>- DR Mark Richard HILL</td>
+<td>20</td>
+<td>3</td>
+<td>CLW</td>
+<td>AZC1</td>
+<td>E</td>
+<td>Mo 02:30PM - 04:15PM</td>
+<td>YIA_409</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>We 02:30PM - 04:15PM</td>
+<td>YIA_501</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU1002BG</td>
+<td>8419</td>
+<td>English Com for Uni Studies</td>
+<td>4.00</td>
+<td>- Mr ZHAO Luming</td>
+<td>20</td>
+<td>1</td>
+<td>CLW</td>
+<td>BGC1</td>
+<td>E</td>
+<td>Mo 04:30PM - 06:15PM</td>
+<td>YIA_511</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>We 04:30PM - 06:15PM</td>
+<td>YIA_407</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU1002BI</td>
+<td>8413</td>
+<td>English Com for Uni Studies</td>
+<td>4.00</td>
+<td>- Ms. TAM Po Yee</td>
+<td>20</td>
+<td>3</td>
+<td>CLW</td>
+<td>BIC1</td>
+<td>E</td>
+<td>Mo 04:30PM - 06:15PM</td>
+<td>YIA_507</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>We 04:30PM - 06:15PM</td>
+<td>YIA_409</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU1002CJ</td>
+<td>8396</td>
+<td>English Com for Uni Studies</td>
+<td>4.00</td>
+<td>- Dr. DAVIS Christelle Thea Duffield</td>
+<td>20</td>
+<td>0</td>
+<td>CLW</td>
+<td>CJC1</td>
+<td>E</td>
+<td>Tu 08:30AM - 10:15AM</td>
+<td>WMY_402</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 10:30AM - 12:15PM</td>
+<td>WMY_503</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU1002CR</td>
+<td>8397</td>
+<td>English Com for Uni Studies</td>
+<td>4.00</td>
+<td>- Mr Richard GOSS</td>
+<td>20</td>
+<td>2</td>
+<td>CLW</td>
+<td>CRC1</td>
+<td>E</td>
+<td>Tu 10:30AM - 12:15PM</td>
+<td>AIT_212</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 08:30AM - 10:15AM</td>
+<td>WMY_404</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU1002CY</td>
+<td>8403</td>
+<td>English Com for Uni Studies</td>
+<td>4.00</td>
+<td>- Dr. DAVIS Christelle Thea Duffield</td>
+<td>20</td>
+<td>2</td>
+<td>CLW</td>
+<td>CYC1</td>
+<td>E</td>
+<td>Tu 12:30PM - 02:15PM</td>
+<td>AIT_G06</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 12:30PM - 02:15PM</td>
+<td>WMY_503</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU1002EO</td>
+<td>8410</td>
+<td>English Com for Uni Studies</td>
+<td>4.00</td>
+<td>- Miss WONG Wing Che</td>
+<td>20</td>
+<td>1</td>
+<td>CLW</td>
+<td>EOC1</td>
+<td>E</td>
+<td>Tu 04:30PM - 06:15PM</td>
+<td>WMY_302</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 04:30PM - 06:15PM</td>
+<td>YIA_404</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU1002EP</td>
+<td>8417</td>
+<td>English Com for Uni Studies</td>
+<td>4.00</td>
+<td>- MR Piers Justin Alban VOKINS</td>
+<td>20</td>
+<td>3</td>
+<td>CLW</td>
+<td>EPC1</td>
+<td>E</td>
+<td>Tu 04:30PM - 06:15PM</td>
+<td>YIA_401</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 04:30PM - 06:15PM</td>
+<td>WMY_302</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU1002ER</td>
+<td>8423</td>
+<td>English Com for Uni Studies</td>
+<td>4.00</td>
+<td>- Mr ZHAO Luming</td>
+<td>20</td>
+<td>6</td>
+<td>CLW</td>
+<td>ERC1</td>
+<td>E</td>
+<td>Tu 12:30PM - 02:15PM</td>
+<td>AIT_G05</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 12:30PM - 02:15PM</td>
+<td>AIT_G02</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU1002EY</td>
+<td>8411</td>
+<td>English Com for Uni Studies</td>
+<td>4.00</td>
+<td>- Mr Rickey LU</td>
+<td>20</td>
+<td>0</td>
+<td>CLW</td>
+<td>EYC1</td>
+<td>E</td>
+<td>Tu 02:30PM - 04:15PM</td>
+<td>WMY_404</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 02:30PM - 04:15PM</td>
+<td>WMY_405</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU1002EZ</td>
+<td>8407</td>
+<td>English Com for Uni Studies</td>
+<td>4.00</td>
+<td>- Mr Richard GOSS</td>
+<td>20</td>
+<td>1</td>
+<td>CLW</td>
+<td>EZC1</td>
+<td>E</td>
+<td>Tu 02:30PM - 04:15PM</td>
+<td>YIA_404</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 02:30PM - 04:15PM</td>
+<td>YIA_406</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU1100A</td>
+<td>8505</td>
+<td>Eng Enhance for Bus Studies 進修─商管英語</td>
+<td>3.00</td>
+<td>- Ms YAN Po Sheung Emily</td>
+<td>20</td>
+<td>1</td>
+<td>CLW</td>
+<td>AC01</td>
+<td>E</td>
+<td>We 08:30AM - 11:15AM</td>
+<td>LDS_214</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU1100C</td>
+<td>8506</td>
+<td>Eng Enhance for Bus Studies 進修─商管英語</td>
+<td>3.00</td>
+<td>- Ms YAN Po Sheung Emily</td>
+<td>19</td>
+<td>9</td>
+<td>CLW</td>
+<td>CC01</td>
+<td>E</td>
+<td>Fr 08:30AM - 11:15AM</td>
+<td>YIA_408</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td></td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU1106A</td>
+<td>8432</td>
+<td>Grammar for University Studies 大學英語文法</td>
+<td>3.00</td>
+<td>- MR HUEN Pak Hang</td>
+<td>20</td>
+<td>1</td>
+<td>CLW</td>
+<td>AC01</td>
+<td>E</td>
+<td>Tu 12:30PM - 01:15PM</td>
+<td>UCC_206</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Fr 09:30AM - 11:15AM</td>
+<td>LSK_308</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU1106F</td>
+<td>7000</td>
+<td>Grammar for University Studies 大學英語文法</td>
+<td>3.00</td>
+<td>- MR HUEN Pak Hang</td>
+<td>20</td>
+<td>0</td>
+<td>CLW</td>
+<td>FC01</td>
+<td>E</td>
+<td>Mo 02:30PM - 04:15PM</td>
+<td>WMY_407</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>We 01:30PM - 02:15PM</td>
+<td>LDS_214</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU1106G</td>
+<td>8435</td>
+<td>Grammar for University Studies 大學英語文法</td>
+<td>3.00</td>
+<td>- Ms CHU Lai Ha Maggie</td>
+<td>20</td>
+<td>2</td>
+<td>CLW</td>
+<td>GC01</td>
+<td>E</td>
+<td>Tu 01:30PM - 02:15PM</td>
+<td>UCC_206</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 02:30PM - 04:15PM</td>
+<td>UCC_208</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU1106H</td>
+<td>4090</td>
+<td>Grammar for University Studies 大學英語文法</td>
+<td>3.00</td>
+<td>- Ms CHU Lai Ha Maggie</td>
+<td>20</td>
+<td>3</td>
+<td>CLW</td>
+<td>HC01</td>
+<td>E</td>
+<td>Tu 02:30PM - 04:15PM</td>
+<td>UCA_111</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 04:30PM - 05:15PM</td>
+<td>UCC_208</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU1107A</td>
+<td>4813</td>
+<td>Eng Impr Strat for Lis & Spk 英語聆聽與會話策略</td>
+<td>3.00</td>
+<td>- Ms CHOW Wai Yin Connie</td>
+<td>20</td>
+<td>0</td>
+<td>CLW</td>
+<td>AC01</td>
+<td>E</td>
+<td>We 12:30PM - 01:15PM</td>
+<td>LSK_202</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Fr 09:30AM - 11:15AM</td>
+<td>YIA_407</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU1107C</td>
+<td>8500</td>
+<td>Eng Impr Strat for Lis & Spk 英語聆聽與會話策略</td>
+<td>3.00</td>
+<td>- Ms. CHEUNG Yuet Ying</td>
+<td>20</td>
+<td>0</td>
+<td>CLW</td>
+<td>CC01</td>
+<td>E</td>
+<td>Mo 10:30AM - 12:15PM</td>
+<td>MMW_704</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 12:30PM - 01:15PM</td>
+<td>WMY_504</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU1107F</td>
+<td>8452</td>
+<td>Eng Impr Strat for Lis & Spk 英語聆聽與會話策略</td>
+<td>3.00</td>
+<td>- Ms. CHEUNG Yuet Ying</td>
+<td>20</td>
+<td>1</td>
+<td>CLW</td>
+<td>FC01</td>
+<td>E</td>
+<td>Tu 10:30AM - 12:15PM</td>
+<td>WMY_502</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 01:30PM - 02:15PM</td>
+<td>WMY_504</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU1107G</td>
+<td>8433</td>
+<td>Eng Impr Strat for Lis & Spk 英語聆聽與會話策略</td>
+<td>3.00</td>
+<td>- Ms CHOW Wai Yin Connie</td>
+<td>20</td>
+<td>1</td>
+<td>CLW</td>
+<td>GC01</td>
+<td>E</td>
+<td>Mo 04:30PM - 06:15PM</td>
+<td>LSK_202</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>We 11:30AM - 12:15PM</td>
+<td>LSK_202</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU1108A</td>
+<td>8883</td>
+<td>Eng Impr Strat for Read & Wri 英語閱讀與寫作策略</td>
+<td>3.00</td>
+<td>- Ms CHEONG May Lyn</td>
+<td>20</td>
+<td>0</td>
+<td>CLW</td>
+<td>AC01</td>
+<td>E</td>
+<td>Tu 08:30AM - 10:15AM</td>
+<td>LSK_202</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 12:30PM - 01:15PM</td>
+<td>LSK_210</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU1108D</td>
+<td>7094</td>
+<td>Eng Impr Strat for Read & Wri 英語閱讀與寫作策略</td>
+<td>3.00</td>
+<td>- Ms CHEONG May Lyn</td>
+<td>20</td>
+<td>0</td>
+<td>CLW</td>
+<td>DC01</td>
+<td>E</td>
+<td>Tu 01:30PM - 02:15PM</td>
+<td>LSK_204</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 10:30AM - 12:15PM</td>
+<td>LSK_202</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU1108G</td>
+<td>7095</td>
+<td>Eng Impr Strat for Read & Wri 英語閱讀與寫作策略</td>
+<td>3.00</td>
+<td>- Ms CHEONG May Lyn</td>
+<td>20</td>
+<td>0</td>
+<td>CLW</td>
+<td>GC01</td>
+<td>E</td>
+<td>Tu 12:30PM - 01:15PM</td>
+<td>LSK_204</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 02:30PM - 04:15PM</td>
+<td>LSB_G35</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU1108I</td>
+<td>4092</td>
+<td>Eng Impr Strat for Read & Wri 英語閱讀與寫作策略</td>
+<td>3.00</td>
+<td>- Ms. NG Kwan Yee Sarah</td>
+<td>20</td>
+<td>0</td>
+<td>CLW</td>
+<td>IC01</td>
+<td>E</td>
+<td>Mo 01:30PM - 02:15PM</td>
+<td>LSK_204</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>We 02:30PM - 04:15PM</td>
+<td>LSK_210</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU1108J</td>
+<td>7002</td>
+<td>Eng Impr Strat for Read & Wri 英語閱讀與寫作策略</td>
+<td>3.00</td>
+<td>- Ms. NG Kwan Yee Sarah</td>
+<td>20</td>
+<td>0</td>
+<td>CLW</td>
+<td>JC01</td>
+<td>E</td>
+<td>Mo 02:30PM - 04:15PM</td>
+<td>LSK_204</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>We 01:30PM - 02:15PM</td>
+<td>LSK_204</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU1111C</td>
+<td>7097</td>
+<td>Technical Communications 科技傳意</td>
+<td>3.00</td>
+<td>- Ms LI Yee Lin</td>
+<td>20</td>
+<td>6</td>
+<td>CLW</td>
+<td>CC01</td>
+<td>E</td>
+<td>Tu 08:30AM - 10:15AM</td>
+<td>LDS_214</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 05:30PM - 06:15PM</td>
+<td>LSK_204</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU1111F</td>
+<td>7003</td>
+<td>Technical Communications 科技傳意</td>
+<td>3.00</td>
+<td>- Ms LI Yee Lin</td>
+<td>20</td>
+<td>0</td>
+<td>CLW</td>
+<td>FC01</td>
+<td>E</td>
+<td>Mo 02:30PM - 04:15PM</td>
+<td>LSK_208</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>We 04:30PM - 05:15PM</td>
+<td>LDS_218</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU1111G</td>
+<td>7098</td>
+<td>Technical Communications 科技傳意</td>
+<td>3.00</td>
+<td>- Ms. NG Kwan Yee Sarah</td>
+<td>20</td>
+<td>5</td>
+<td>CLW</td>
+<td>GC01</td>
+<td>E</td>
+<td>Mo 09:30AM - 11:15AM</td>
+<td>LSK_204</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>We 05:30PM - 06:15PM</td>
+<td>LDS_218</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU2003A</td>
+<td>8021</td>
+<td>English Through Pop. Culture</td>
+<td>2.00</td>
+<td>- MR Philip James FREESTONE</td>
+<td>20</td>
+<td>3</td>
+<td>CLW</td>
+<td>AC01</td>
+<td>E</td>
+<td>Tu 12:30PM - 02:15PM</td>
+<td>LSK_201</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU2003B</td>
+<td>8017</td>
+<td>English Through Pop. Culture</td>
+<td>2.00</td>
+<td>- MR Philip James FREESTONE</td>
+<td>20</td>
+<td>7</td>
+<td>CLW</td>
+<td>BC01</td>
+<td>E</td>
+<td>Mo 09:30AM - 11:15AM</td>
+<td>LSK_201</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU2011AA</td>
+<td>6813</td>
+<td>English for ATS Stds I</td>
+<td>3.00</td>
+<td>- Ms. TAM Po Yee</td>
+<td>20</td>
+<td>1</td>
+<td>CLW</td>
+<td>AAC1</td>
+<td>E</td>
+<td>Mo 10:30AM - 01:15PM</td>
+<td>LHC_106</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU2011AB</td>
+<td>6814</td>
+<td>English for ATS Stds I</td>
+<td>3.00</td>
+<td>- MR HUEN Pak Hang</td>
+<td>20</td>
+<td>1</td>
+<td>CLW</td>
+<td>ABC1</td>
+<td>E</td>
+<td>Mo 10:30AM - 01:15PM</td>
+<td>LSK_212</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU2011AC</td>
+<td>6815</td>
+<td>English for ATS Stds I</td>
+<td>3.00</td>
+<td>- Mr ZHAO Luming</td>
+<td>20</td>
+<td>4</td>
+<td>CLW</td>
+<td>ACC1</td>
+<td>E</td>
+<td>Mo 10:30AM - 01:15PM</td>
+<td>LHC_101</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU2011AD</td>
+<td>6816</td>
+<td>English for ATS Stds I</td>
+<td>3.00</td>
+<td>- Ms LI Yee Lin</td>
+<td>20</td>
+<td>1</td>
+<td>CLW</td>
+<td>ADC1</td>
+<td>E</td>
+<td>Mo 10:30AM - 01:15PM</td>
+<td>ELB_303</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU2011AE</td>
+<td>6817</td>
+<td>English for ATS Stds I</td>
+<td>3.00</td>
+<td>- Mr SEE Mike Noi Fei</td>
+<td>20</td>
+<td>2</td>
+<td>CLW</td>
+<td>AEC1</td>
+<td>E</td>
+<td>Mo 10:30AM - 01:15PM</td>
+<td>LSK_202</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU2011AF</td>
+<td>6818</td>
+<td>English for ATS Stds I</td>
+<td>3.00</td>
+<td>- Dr. LAI Ching Ching</td>
+<td>20</td>
+<td>2</td>
+<td>CLW</td>
+<td>AFC1</td>
+<td>E</td>
+<td>Mo 10:30AM - 01:15PM</td>
+<td>ERB_408</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU2011AG</td>
+<td>6819</td>
+<td>English for ATS Stds I</td>
+<td>3.00</td>
+<td>- Miss Meedy NUGRAHA</td>
+<td>20</td>
+<td>3</td>
+<td>CLW</td>
+<td>AGC1</td>
+<td>E</td>
+<td>Mo 10:30AM - 01:15PM</td>
+<td>MMW_710</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU2011AH</td>
+<td>6820</td>
+<td>English for ATS Stds I</td>
+<td>3.00</td>
+<td>- Mr Richard GOSS</td>
+<td>20</td>
+<td>1</td>
+<td>CLW</td>
+<td>AHC1</td>
+<td>E</td>
+<td>Mo 10:30AM - 01:15PM</td>
+<td>UCA_111</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU2011AI</td>
+<td>6821</td>
+<td>English for ATS Stds I</td>
+<td>3.00</td>
+<td>- Ms MAN Ming Yu</td>
+<td>20</td>
+<td>1</td>
+<td>CLW</td>
+<td>AIC1</td>
+<td>E</td>
+<td>Mo 10:30AM - 01:15PM</td>
+<td>UCA_105</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU2011AJ</td>
+<td>6822</td>
+<td>English for ATS Stds I</td>
+<td>3.00</td>
+<td>- Ms CHOW Wai Yin Connie</td>
+<td>20</td>
+<td>1</td>
+<td>CLW</td>
+<td>AJC1</td>
+<td>E</td>
+<td>Mo 10:30AM - 01:15PM</td>
+<td>MMW_715</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU2011AK</td>
+<td>6859</td>
+<td>English for ATS Stds I</td>
+<td>3.00</td>
+<td>- Mr. HO Chi Ho</td>
+<td>20</td>
+<td>2</td>
+<td>CLW</td>
+<td>AKC1</td>
+<td>E</td>
+<td>We 10:30AM - 01:15PM</td>
+<td>UCA_111</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU2011AL</td>
+<td>6860</td>
+<td>English for ATS Stds I</td>
+<td>3.00</td>
+<td>- MR HUEN Pak Hang</td>
+<td>20</td>
+<td>2</td>
+<td>CLW</td>
+<td>ALC1</td>
+<td>E</td>
+<td>We 10:30AM - 01:15PM</td>
+<td>LSK_203</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU2011AM</td>
+<td>6861</td>
+<td>English for ATS Stds I</td>
+<td>3.00</td>
+<td>- Mr ZHAO Luming</td>
+<td>20</td>
+<td>0</td>
+<td>CLW</td>
+<td>AMC1</td>
+<td>E</td>
+<td>We 10:30AM - 01:15PM</td>
+<td>LHC_G06</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU2011AN</td>
+<td>6862</td>
+<td>English for ATS Stds I</td>
+<td>3.00</td>
+<td>- Dr NG Elaine</td>
+<td>20</td>
+<td>0</td>
+<td>CLW</td>
+<td>ANC1</td>
+<td>E</td>
+<td>We 10:30AM - 01:15PM</td>
+<td>YIA_501</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU2011AO</td>
+<td>6863</td>
+<td>English for ATS Stds I</td>
+<td>3.00</td>
+<td>- Mr SEE Mike Noi Fei</td>
+<td>20</td>
+<td>1</td>
+<td>CLW</td>
+<td>AOC1</td>
+<td>E</td>
+<td>We 10:30AM - 01:15PM</td>
+<td>LDS_218</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU2011AP</td>
+<td>6864</td>
+<td>English for ATS Stds I</td>
+<td>3.00</td>
+<td>- Ms LI Yee Lin</td>
+<td>20</td>
+<td>1</td>
+<td>CLW</td>
+<td>APC1</td>
+<td>E</td>
+<td>We 10:30AM - 01:15PM</td>
+<td>UCA_102</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU2011AQ</td>
+<td>6865</td>
+<td>English for ATS Stds I</td>
+<td>3.00</td>
+<td>- Ms MAN Ming Yu</td>
+<td>20</td>
+<td>2</td>
+<td>CLW</td>
+<td>AQC1</td>
+<td>E</td>
+<td>We 10:30AM - 01:15PM</td>
+<td>MMW_715</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU2011AR</td>
+<td>6866</td>
+<td>English for ATS Stds I</td>
+<td>3.00</td>
+<td>- Dr. LAI Ching Ching</td>
+<td>20</td>
+<td>2</td>
+<td>CLW</td>
+<td>ARC1</td>
+<td>E</td>
+<td>We 10:30AM - 01:15PM</td>
+<td>UCC_206</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU2011AS</td>
+<td>6867</td>
+<td>English for ATS Stds I</td>
+<td>3.00</td>
+<td>- Miss Meedy NUGRAHA</td>
+<td>20</td>
+<td>3</td>
+<td>CLW</td>
+<td>ASC1</td>
+<td>E</td>
+<td>We 10:30AM - 01:15PM</td>
+<td>UCC_207</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU2011AT</td>
+<td>6868</td>
+<td>English for ATS Stds I</td>
+<td>3.00</td>
+<td>- Ms. TAM Po Yee</td>
+<td>20</td>
+<td>2</td>
+<td>CLW</td>
+<td>ATC1</td>
+<td>E</td>
+<td>We 10:30AM - 01:15PM</td>
+<td>UCC_208</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU2011AU</td>
+<td>3936</td>
+<td>English for ATS Stds I</td>
+<td>3.00</td>
+<td>- Mr Richard GOSS</td>
+<td>20</td>
+<td>0</td>
+<td>CLW</td>
+<td>AUC1</td>
+<td>E</td>
+<td>We 10:30AM - 01:15PM</td>
+<td>MMW_706</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU2012AA</td>
+<td>6844</td>
+<td>Business Comm. I</td>
+<td>3.00</td>
+<td>- Miss CHUNG Hiu Yui</td>
+<td>20</td>
+<td>4</td>
+<td>CLW</td>
+<td>AAC1</td>
+<td>E</td>
+<td>Mo 02:30PM - 05:15PM</td>
+<td>YIA_510</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU2012AB</td>
+<td>6894</td>
+<td>Business Comm. I</td>
+<td>3.00</td>
+<td>- Miss LOK Joyce Sze Him</td>
+<td>20</td>
+<td>1</td>
+<td>CLW</td>
+<td>ABC1</td>
+<td>E</td>
+<td>Mo 02:30PM - 05:15PM</td>
+<td>WMY_404</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU2012AC</td>
+<td>6893</td>
+<td>Business Comm. I</td>
+<td>3.00</td>
+<td>- Mr Paul Andrew CROOK</td>
+<td>20</td>
+<td>2</td>
+<td>CLW</td>
+<td>ACC1</td>
+<td>E</td>
+<td>Mo 02:30PM - 05:15PM</td>
+<td>WMY_405</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU2012AD</td>
+<td>6892</td>
+<td>Business Comm. I</td>
+<td>3.00</td>
+<td>- Mr GOH Thian Huat</td>
+<td>20</td>
+<td>2</td>
+<td>CLW</td>
+<td>ADC1</td>
+<td>E</td>
+<td>Mo 02:30PM - 05:15PM</td>
+<td>YIA_410</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU2012AE</td>
+<td>6848</td>
+<td>Business Comm. I</td>
+<td>3.00</td>
+<td>- Ms HO Mai Fung</td>
+<td>20</td>
+<td>1</td>
+<td>CLW</td>
+<td>AEC1</td>
+<td>E</td>
+<td>Mo 02:30PM - 05:15PM</td>
+<td>LSB_C4</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU2012AF</td>
+<td>6847</td>
+<td>Business Comm. I</td>
+<td>3.00</td>
+<td>- Ms LI Cho Yee Joe</td>
+<td>20</td>
+<td>0</td>
+<td>CLW</td>
+<td>AFC1</td>
+<td>E</td>
+<td>Mo 02:30PM - 05:15PM</td>
+<td>YIA_404</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU2012AG</td>
+<td>6846</td>
+<td>Business Comm. I</td>
+<td>3.00</td>
+<td>- Dr. DAVIS Christelle Thea Duffield</td>
+<td>20</td>
+<td>2</td>
+<td>CLW</td>
+<td>AGC1</td>
+<td>E</td>
+<td>Mo 02:30PM - 05:15PM</td>
+<td>AIT_212</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU2012AH</td>
+<td>6845</td>
+<td>Business Comm. I</td>
+<td>3.00</td>
+<td>- Dr. SZETO Ka Sinn</td>
+<td>20</td>
+<td>1</td>
+<td>CLW</td>
+<td>AHC1</td>
+<td>E</td>
+<td>Mo 02:30PM - 05:15PM</td>
+<td>WMY_401</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU2012AI</td>
+<td>6895</td>
+<td>Business Comm. I</td>
+<td>3.00</td>
+<td>- Dr NG Kwai Fun</td>
+<td>20</td>
+<td>0</td>
+<td>CLW</td>
+<td>AIC1</td>
+<td>E</td>
+<td>Mo 02:30PM - 05:15PM</td>
+<td>UCC_C5</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU2012AJ</td>
+<td>6901</td>
+<td>Business Comm. I</td>
+<td>3.00</td>
+<td>- Ms HO Mai Fung</td>
+<td>20</td>
+<td>2</td>
+<td>CLW</td>
+<td>AJC1</td>
+<td>E</td>
+<td>Tu 02:30PM - 05:15PM</td>
+<td>YIA_506</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU2012AK</td>
+<td>6900</td>
+<td>Business Comm. I</td>
+<td>3.00</td>
+<td>- DR Mark Richard HILL</td>
+<td>20</td>
+<td>2</td>
+<td>CLW</td>
+<td>AKC1</td>
+<td>E</td>
+<td>Tu 02:30PM - 05:15PM</td>
+<td>UCA_105</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU2012AL</td>
+<td>6899</td>
+<td>Business Comm. I</td>
+<td>3.00</td>
+<td>- Dr. DAI Binbin</td>
+<td>20</td>
+<td>2</td>
+<td>CLW</td>
+<td>ALC1</td>
+<td>E</td>
+<td>Tu 02:30PM - 05:15PM</td>
+<td>YIA_409</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU2012AO</td>
+<td>6896</td>
+<td>Business Comm. I</td>
+<td>3.00</td>
+<td>- MS Lindsey Suzanne GRUBER</td>
+<td>20</td>
+<td>1</td>
+<td>CLW</td>
+<td>AOC1</td>
+<td>E</td>
+<td>Tu 02:30PM - 05:15PM</td>
+<td>CYT_211</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU2012AP</td>
+<td>6906</td>
+<td>Business Comm. I</td>
+<td>3.00</td>
+<td>- Mr WONG Chun Shing</td>
+<td>20</td>
+<td>1</td>
+<td>CLW</td>
+<td>APC1</td>
+<td>E</td>
+<td>Tu 02:30PM - 05:15PM</td>
+<td>CYT_212</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU2012AQ</td>
+<td>6905</td>
+<td>Business Comm. I</td>
+<td>3.00</td>
+<td>- MR Michael TOM</td>
+<td>20</td>
+<td>1</td>
+<td>CLW</td>
+<td>AQC1</td>
+<td>E</td>
+<td>Tu 02:30PM - 05:15PM</td>
+<td>YIA_408</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU2012AR</td>
+<td>6904</td>
+<td>Business Comm. I</td>
+<td>3.00</td>
+<td>- Ms LI Cho Yee Joe</td>
+<td>20</td>
+<td>2</td>
+<td>CLW</td>
+<td>ARC1</td>
+<td>E</td>
+<td>Tu 02:30PM - 05:15PM</td>
+<td>YIA_406</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU2012AS</td>
+<td>6903</td>
+<td>Business Comm. I</td>
+<td>3.00</td>
+<td>- Dr WAN Alina</td>
+<td>20</td>
+<td>2</td>
+<td>CLW</td>
+<td>ASC1</td>
+<td>E</td>
+<td>Tu 02:30PM - 05:15PM</td>
+<td>FYB_106</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU2012AT</td>
+<td>6902</td>
+<td>Business Comm. I</td>
+<td>3.00</td>
+<td>- DR Damian James FITZPATRICK</td>
+<td>20</td>
+<td>1</td>
+<td>CLW</td>
+<td>ATC1</td>
+<td>E</td>
+<td>Tu 02:30PM - 05:15PM</td>
+<td>CYT_LT4</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU2012AV</td>
+<td>6908</td>
+<td>Business Comm. I</td>
+<td>3.00</td>
+<td>- Dr. SZETO Ka Sinn</td>
+<td>20</td>
+<td>1</td>
+<td>CLW</td>
+<td>AVC1</td>
+<td>E</td>
+<td>We 02:30PM - 05:15PM</td>
+<td>LSB_C3</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU2012AW</td>
+<td>6898</td>
+<td>Business Comm. I</td>
+<td>3.00</td>
+<td>- Dr. DAVIS Christelle Thea Duffield</td>
+<td>20</td>
+<td>0</td>
+<td>CLW</td>
+<td>AWC1</td>
+<td>E</td>
+<td>We 02:30PM - 05:15PM</td>
+<td>YIA_509</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU2012AX</td>
+<td>6897</td>
+<td>Business Comm. I</td>
+<td>3.00</td>
+<td>- Mr Paul Andrew CROOK</td>
+<td>20</td>
+<td>2</td>
+<td>CLW</td>
+<td>AXC1</td>
+<td>E</td>
+<td>We 02:30PM - 05:15PM</td>
+<td>YIA_507</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU2012AY</td>
+<td>4149</td>
+<td>Business Comm. I</td>
+<td>3.00</td>
+<td>- Mr GOH Thian Huat</td>
+<td>20</td>
+<td>1</td>
+<td>CLW</td>
+<td>AYC1</td>
+<td>E</td>
+<td>We 02:30PM - 05:15PM</td>
+<td>YIA_511</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU2012AZ</td>
+<td>4148</td>
+<td>Business Comm. I</td>
+<td>3.00</td>
+<td>- Dr TANG Hau Hing</td>
+<td>20</td>
+<td>1</td>
+<td>CLW</td>
+<td>AZC1</td>
+<td>E</td>
+<td>We 02:30PM - 05:15PM</td>
+<td>WMY_404</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU2012BA</td>
+<td>4147</td>
+<td>Business Comm. I</td>
+<td>3.00</td>
+<td>- Mr FUNG Kwok Kin</td>
+<td>20</td>
+<td>1</td>
+<td>CLW</td>
+<td>BAC1</td>
+<td>E</td>
+<td>We 02:30PM - 05:15PM</td>
+<td>YIA_504</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU2012BB</td>
+<td>4146</td>
+<td>Business Comm. I</td>
+<td>3.00</td>
+<td>- Miss LOK Joyce Sze Him</td>
+<td>20</td>
+<td>1</td>
+<td>CLW</td>
+<td>BBC1</td>
+<td>E</td>
+<td>We 02:30PM - 05:15PM</td>
+<td>WMY_405</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU2012BC</td>
+<td>4145</td>
+<td>Business Comm. I</td>
+<td>3.00</td>
+<td>- Ms WONG Ka Sin</td>
+<td>20</td>
+<td>1</td>
+<td>CLW</td>
+<td>BCC1</td>
+<td>E</td>
+<td>We 02:30PM - 05:15PM</td>
+<td>WMY_504</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU2012BD</td>
+<td>4144</td>
+<td>Business Comm. I</td>
+<td>3.00</td>
+<td>- Miss CHUNG Hiu Yui</td>
+<td>20</td>
+<td>1</td>
+<td>CLW</td>
+<td>BDC1</td>
+<td>E</td>
+<td>We 02:30PM - 05:15PM</td>
+<td>WMY_503</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU2012BF</td>
+<td>4142</td>
+<td>Business Comm. I</td>
+<td>3.00</td>
+<td>- Dr NG Kwai Fun</td>
+<td>20</td>
+<td>3</td>
+<td>CLW</td>
+<td>BFC1</td>
+<td>E</td>
+<td>Th 02:30PM - 05:15PM</td>
+<td>YIA_411</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU2012BG</td>
+<td>4141</td>
+<td>Business Comm. I</td>
+<td>3.00</td>
+<td>- Ms Jacqueline Marie White MILITELLO</td>
+<td>20</td>
+<td>1</td>
+<td>CLW</td>
+<td>BGC1</td>
+<td>E</td>
+<td>Th 02:30PM - 05:15PM</td>
+<td>WMY_401</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU2012BH</td>
+<td>4140</td>
+<td>Business Comm. I</td>
+<td>3.00</td>
+<td>- DR Damian James FITZPATRICK</td>
+<td>20</td>
+<td>2</td>
+<td>CLW</td>
+<td>BHC1</td>
+<td>E</td>
+<td>Th 02:30PM - 05:15PM</td>
+<td>YIA_504</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU2012BI</td>
+<td>4139</td>
+<td>Business Comm. I</td>
+<td>3.00</td>
+<td>- Dr WAN Alina</td>
+<td>20</td>
+<td>2</td>
+<td>CLW</td>
+<td>BIC1</td>
+<td>E</td>
+<td>Th 02:30PM - 05:15PM</td>
+<td>LSB_C5</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU2012BJ</td>
+<td>4138</td>
+<td>Business Comm. I</td>
+<td>3.00</td>
+<td>- MR Michael TOM</td>
+<td>20</td>
+<td>2</td>
+<td>CLW</td>
+<td>BJC1</td>
+<td>E</td>
+<td>Th 02:30PM - 05:15PM</td>
+<td>ELB_305</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU2012BK</td>
+<td>4137</td>
+<td>Business Comm. I</td>
+<td>3.00</td>
+<td>- DR Mark Richard HILL</td>
+<td>20</td>
+<td>1</td>
+<td>CLW</td>
+<td>BKC1</td>
+<td>E</td>
+<td>Th 02:30PM - 05:15PM</td>
+<td>UCA_104</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU2012BL</td>
+<td>4136</td>
+<td>Business Comm. I</td>
+<td>3.00</td>
+<td>- Mr Pradip Kumar NATH</td>
+<td>20</td>
+<td>1</td>
+<td>CLW</td>
+<td>BLC1</td>
+<td>E</td>
+<td>Th 02:30PM - 05:15PM</td>
+<td>WMY_404</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU2012BN</td>
+<td>4134</td>
+<td>Business Comm. I</td>
+<td>3.00</td>
+<td>- Dr TANG Hau Hing</td>
+<td>20</td>
+<td>2</td>
+<td>CLW</td>
+<td>BNC1</td>
+<td>E</td>
+<td>Th 02:30PM - 05:15PM</td>
+<td>YIA_410</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU2012BO</td>
+<td>4120</td>
+<td>Business Comm. I</td>
+<td>3.00</td>
+<td>- Dr. DAI Binbin</td>
+<td>20</td>
+<td>0</td>
+<td>CLW</td>
+<td>BOC1</td>
+<td>E</td>
+<td>Th 02:30PM - 05:15PM</td>
+<td>YIA_409</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU2012BP</td>
+<td>8851</td>
+<td>Business Comm. I</td>
+<td>3.00</td>
+<td>- Ms WONG Ka Sin</td>
+<td>20</td>
+<td>1</td>
+<td>CLW</td>
+<td>BPC1</td>
+<td>E</td>
+<td>Mo 02:30PM - 05:15PM</td>
+<td>CYT_LT4</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU2014AA</td>
+<td>6826</td>
+<td>English for ERG Stds I</td>
+<td>3.00</td>
+<td>- Miss MA Yuk Yi Anna</td>
+<td>20</td>
+<td>0</td>
+<td>CLW</td>
+<td>AAC1</td>
+<td>E</td>
+<td>Tu 08:30AM - 11:15AM</td>
+<td>MMW_702</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU2014AB</td>
+<td>6827</td>
+<td>English for ERG Stds I</td>
+<td>3.00</td>
+<td>- Mr Kenneth Paul GRIMES</td>
+<td>20</td>
+<td>0</td>
+<td>CLW</td>
+<td>ABC1</td>
+<td>E</td>
+<td>Tu 08:30AM - 11:15AM</td>
+<td>YIA_408</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU2014AC</td>
+<td>6828</td>
+<td>English for ERG Stds I</td>
+<td>3.00</td>
+<td>- MR Piers Justin Alban VOKINS</td>
+<td>20</td>
+<td>2</td>
+<td>CLW</td>
+<td>ACC1</td>
+<td>E</td>
+<td>Tu 08:30AM - 11:15AM</td>
+<td>LSK_515</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU2014AE</td>
+<td>6829</td>
+<td>English for ERG Stds I</td>
+<td>3.00</td>
+<td>- Mr LI Kwan Wing Eddy</td>
+<td>20</td>
+<td>4</td>
+<td>CLW</td>
+<td>AEC1</td>
+<td>E</td>
+<td>Tu 08:30AM - 11:15AM</td>
+<td>YIA_507</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU2014AF</td>
+<td>6830</td>
+<td>English for ERG Stds I</td>
+<td>3.00</td>
+<td>- Ms LEE Miranda Kwok Yee</td>
+<td>20</td>
+<td>4</td>
+<td>CLW</td>
+<td>AFC1</td>
+<td>E</td>
+<td>Tu 08:30AM - 11:15AM</td>
+<td>ERB_713</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU2014AG</td>
+<td>6831</td>
+<td>English for ERG Stds I</td>
+<td>3.00</td>
+<td>- MR Philip James FREESTONE</td>
+<td>20</td>
+<td>4</td>
+<td>CLW</td>
+<td>AGC1</td>
+<td>E</td>
+<td>Tu 08:30AM - 11:15AM</td>
+<td>ERB_703</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU2014AH</td>
+<td>6854</td>
+<td>English for ERG Stds I</td>
+<td>3.00</td>
+<td>- Dr Maris Stella CONNELLY</td>
+<td>20</td>
+<td>1</td>
+<td>CLW</td>
+<td>AHC1</td>
+<td>E</td>
+<td>Tu 11:30AM - 02:15PM</td>
+<td>LHC_G01</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU2014AI</td>
+<td>6855</td>
+<td>English for ERG Stds I</td>
+<td>3.00</td>
+<td>- Ms CHIU Wing Yin Adeline</td>
+<td>20</td>
+<td>3</td>
+<td>CLW</td>
+<td>AIC1</td>
+<td>E</td>
+<td>Tu 11:30AM - 02:15PM</td>
+<td>WMY_503</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU2014AJ</td>
+<td>6856</td>
+<td>English for ERG Stds I</td>
+<td>3.00</td>
+<td>- Miss WONG Wing Che</td>
+<td>20</td>
+<td>0</td>
+<td>CLW</td>
+<td>AJC1</td>
+<td>E</td>
+<td>Tu 11:30AM - 02:15PM</td>
+<td>YIA_501</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU2014AK</td>
+<td>6857</td>
+<td>English for ERG Stds I</td>
+<td>3.00</td>
+<td>- Ms CHAN Mei Kee</td>
+<td>20</td>
+<td>1</td>
+<td>CLW</td>
+<td>AKC1</td>
+<td>E</td>
+<td>Tu 11:30AM - 02:15PM</td>
+<td>LHC_G06</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU2014AL</td>
+<td>6858</td>
+<td>English for ERG Stds I</td>
+<td>3.00</td>
+<td>- Ms. LAM Tsui Shan</td>
+<td>20</td>
+<td>2</td>
+<td>CLW</td>
+<td>ALC1</td>
+<td>E</td>
+<td>Tu 11:30AM - 02:15PM</td>
+<td>LSK_515</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU2014AM</td>
+<td>6327</td>
+<td>English for ERG Stds I</td>
+<td>3.00</td>
+<td>- Ms LUI Yin Ling</td>
+<td>20</td>
+<td>2</td>
+<td>CLW</td>
+<td>AMC1</td>
+<td>E</td>
+<td>Tu 11:30AM - 02:15PM</td>
+<td>UCC_208</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU2014AN</td>
+<td>6326</td>
+<td>English for ERG Stds I</td>
+<td>3.00</td>
+<td>- Mr YEUNG Ping Hei</td>
+<td>20</td>
+<td>1</td>
+<td>CLW</td>
+<td>ANC1</td>
+<td>E</td>
+<td>Tu 11:30AM - 02:15PM</td>
+<td>LSB_G35</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU2014AO</td>
+<td>6871</td>
+<td>English for ERG Stds I</td>
+<td>3.00</td>
+<td>- Dr Maris Stella CONNELLY</td>
+<td>20</td>
+<td>3</td>
+<td>CLW</td>
+<td>AOC1</td>
+<td>E</td>
+<td>Th 08:30AM - 11:15AM</td>
+<td>LHC_G06</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU2014AP</td>
+<td>6872</td>
+<td>English for ERG Stds I</td>
+<td>3.00</td>
+<td>- Ms LUI Yin Ling</td>
+<td>20</td>
+<td>3</td>
+<td>CLW</td>
+<td>APC1</td>
+<td>E</td>
+<td>Th 08:30AM - 11:15AM</td>
+<td>AIT_G02</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU2014AQ</td>
+<td>6873</td>
+<td>English for ERG Stds I</td>
+<td>3.00</td>
+<td>- Ms CHIU Wing Yin Adeline</td>
+<td>20</td>
+<td>3</td>
+<td>CLW</td>
+<td>AQC1</td>
+<td>E</td>
+<td>Th 08:30AM - 11:15AM</td>
+<td>ERB_408</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU2014AR</td>
+<td>6874</td>
+<td>English for ERG Stds I</td>
+<td>3.00</td>
+<td>- Ms CHAN Mei Kee</td>
+<td>20</td>
+<td>6</td>
+<td>CLW</td>
+<td>ARC1</td>
+<td>E</td>
+<td>Th 08:30AM - 11:15AM</td>
+<td>YIA_409</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU2014AS</td>
+<td>6875</td>
+<td>English for ERG Stds I</td>
+<td>3.00</td>
+<td>- Ms. LAM Tsui Shan</td>
+<td>20</td>
+<td>3</td>
+<td>CLW</td>
+<td>ASC1</td>
+<td>E</td>
+<td>Th 08:30AM - 11:15AM</td>
+<td>LSK_514</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU2014AT</td>
+<td>6876</td>
+<td>English for ERG Stds I</td>
+<td>3.00</td>
+<td>- Miss WONG Wing Che</td>
+<td>20</td>
+<td>4</td>
+<td>CLW</td>
+<td>ATC1</td>
+<td>E</td>
+<td>Th 08:30AM - 11:15AM</td>
+<td>WMY_403</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU2014AU</td>
+<td>6877</td>
+<td>English for ERG Stds I</td>
+<td>3.00</td>
+<td>- Mr Rickey LU</td>
+<td>20</td>
+<td>0</td>
+<td>CLW</td>
+<td>AUC1</td>
+<td>E</td>
+<td>Th 08:30AM - 11:15AM</td>
+<td>BMS_2</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU2014AV</td>
+<td>6878</td>
+<td>English for ERG Stds I</td>
+<td>3.00</td>
+<td>- Mr CHEUNG Colin Clifford</td>
+<td>20</td>
+<td>2</td>
+<td>CLW</td>
+<td>AVC1</td>
+<td>E</td>
+<td>Th 11:30AM - 02:15PM</td>
+<td>ERB_402</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU2014AW</td>
+<td>6879</td>
+<td>English for ERG Stds I</td>
+<td>3.00</td>
+<td>- Miss MA Yuk Yi Anna</td>
+<td>20</td>
+<td>2</td>
+<td>CLW</td>
+<td>AWC1</td>
+<td>E</td>
+<td>Th 11:30AM - 02:15PM</td>
+<td>ERB_406</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU2014AX</td>
+<td>6880</td>
+<td>English for ERG Stds I</td>
+<td>3.00</td>
+<td>- Mr YEUNG Ping Hei</td>
+<td>20</td>
+<td>3</td>
+<td>CLW</td>
+<td>AXC1</td>
+<td>E</td>
+<td>Th 11:30AM - 02:15PM</td>
+<td>YIA_410</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU2014AY</td>
+<td>6881</td>
+<td>English for ERG Stds I</td>
+<td>3.00</td>
+<td>- Mr Kenneth Paul GRIMES</td>
+<td>20</td>
+<td>0</td>
+<td>CLW</td>
+<td>AYC1</td>
+<td>E</td>
+<td>Th 11:30AM - 02:15PM</td>
+<td>LHC_G01</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU2014AZ</td>
+<td>6882</td>
+<td>English for ERG Stds I</td>
+<td>3.00</td>
+<td>- Ms LEE Miranda Kwok Yee</td>
+<td>20</td>
+<td>1</td>
+<td>CLW</td>
+<td>AZC1</td>
+<td>E</td>
+<td>Th 11:30AM - 02:15PM</td>
+<td>LHC_G03</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU2014BA</td>
+<td>6940</td>
+<td>English for ERG Stds I</td>
+<td>3.00</td>
+<td>- Mr LI Kwan Wing Eddy</td>
+<td>20</td>
+<td>1</td>
+<td>CLW</td>
+<td>BAC1</td>
+<td>E</td>
+<td>Th 11:30AM - 02:15PM</td>
+<td>UCA_104</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU2014BB</td>
+<td>6941</td>
+<td>English for ERG Stds I</td>
+<td>3.00</td>
+<td>- MR Philip James FREESTONE</td>
+<td>20</td>
+<td>2</td>
+<td>CLW</td>
+<td>BBC1</td>
+<td>E</td>
+<td>Th 11:30AM - 02:15PM</td>
+<td>UCC_C5</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU2014BC</td>
+<td>6948</td>
+<td>English for ERG Stds I</td>
+<td>3.00</td>
+<td>- Mr Rickey LU</td>
+<td>20</td>
+<td>2</td>
+<td>CLW</td>
+<td>BCC1</td>
+<td>E</td>
+<td>Tu 08:30AM - 11:15AM</td>
+<td>LHC_G04</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU2014BE</td>
+<td>8446</td>
+<td>English for ERG Stds I</td>
+<td>3.00</td>
+<td>- MR Piers Justin Alban VOKINS</td>
+<td>20</td>
+<td>0</td>
+<td>CLW</td>
+<td>BEC1</td>
+<td>E</td>
+<td>Th 11:30AM - 02:15PM</td>
+<td>WMY_305</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU2402A</td>
+<td>6992</td>
+<td>Academic Writing I 大學英文寫作（一）</td>
+<td>3.00</td>
+<td>- Ms. TAM Po Yee</td>
+<td>20</td>
+<td>0</td>
+<td>CLW</td>
+<td>AC01</td>
+<td>E</td>
+<td>Tu 02:30PM - 04:15PM</td>
+<td>ELB_306</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 04:30PM - 05:15PM</td>
+<td>UCA_105</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU2402B</td>
+<td>7114</td>
+<td>Academic Writing I 大學英文寫作（一）</td>
+<td>3.00</td>
+<td>- Mr Brian Richard OLSEN</td>
+<td>20</td>
+<td>0</td>
+<td>CLW</td>
+<td>BC01</td>
+<td>E</td>
+<td>Tu 10:30AM - 12:15PM</td>
+<td>YIA_402</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 01:30PM - 02:15PM</td>
+<td>SB_239</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU2402D</td>
+<td>8882</td>
+<td>Academic Writing I 大學英文寫作（一）</td>
+<td>3.00</td>
+<td>- Ms. TAM Po Yee</td>
+<td>19</td>
+<td>0</td>
+<td>CLW</td>
+<td>DC01</td>
+<td>E</td>
+<td>Tu 01:30PM - 02:15PM</td>
+<td>ELB_306</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 10:30AM - 12:15PM</td>
+<td>LSK_201</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU2402I</td>
+<td>6885</td>
+<td>Academic Writing I 大學英文寫作（一）</td>
+<td>3.00</td>
+<td>- Mr Brian Richard OLSEN</td>
+<td>20</td>
+<td>0</td>
+<td>CLW</td>
+<td>IC01</td>
+<td>E</td>
+<td>Mo 02:30PM - 04:15PM</td>
+<td>LHC_G01</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>We 01:30PM - 02:15PM</td>
+<td>LSK_206</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU2403A</td>
+<td>7115</td>
+<td>Lang Awareness for Teachers 3 提升英語教師語文意識（三）</td>
+<td>3.00</td>
+<td>- MS Lindsey Suzanne GRUBER</td>
+<td>12</td>
+<td>1</td>
+<td>CLW</td>
+<td>AC01</td>
+<td>E</td>
+<td>Mo 10:30AM - 12:15PM</td>
+<td>YIA_408</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>We 01:30PM - 02:15PM</td>
+<td>WMY_401</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU2403B</td>
+<td>6176</td>
+<td>Lang Awareness for Teachers 3 提升英語教師語文意識（三）</td>
+<td>3.00</td>
+<td>- MS Lindsey Suzanne GRUBER</td>
+<td>12</td>
+<td>1</td>
+<td>CLW</td>
+<td>BC01</td>
+<td>E</td>
+<td>Tu 01:30PM - 02:15PM</td>
+<td>CYT_211</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 08:30AM - 10:15AM</td>
+<td>WMY_405</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU2407C</td>
+<td>8431</td>
+<td>English Through Creative Wrt</td>
+<td>2.00</td>
+<td>- MR HUEN Pak Hang</td>
+<td>20</td>
+<td>12</td>
+<td>CLW</td>
+<td>CC01</td>
+<td>E</td>
+<td>Tu 02:30PM - 04:15PM</td>
+<td>SB_UG06</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU2455C</td>
+<td>6887</td>
+<td>Exp Writing (ARTS/EDU/LAW/SSC) 論說文寫作（文、教育、法律、社會科學）</td>
+<td>3.00</td>
+<td>- Miss MA Yuk Yi Anna</td>
+<td>20</td>
+<td>3</td>
+<td>CLW</td>
+<td>CC01</td>
+<td>E</td>
+<td>Mo 11:30AM - 12:15PM</td>
+<td>YIA_506</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>We 04:30PM - 06:15PM</td>
+<td>TBA</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU2456B</td>
+<td>7116</td>
+<td>Expository Writ'g (Erg/Med/Sci 論說文寫作（工程學院、醫學院、理學院）</td>
+<td>3.00</td>
+<td>- Mr. Matt PEARCE</td>
+<td>20</td>
+<td>0</td>
+<td>CLW</td>
+<td>BC01</td>
+<td>E</td>
+<td>Mo 02:30PM - 04:15PM</td>
+<td>LSK_212</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>We 01:30PM - 02:15PM</td>
+<td>LSK_201</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU2456C</td>
+<td>7117</td>
+<td>Expository Writ'g (Erg/Med/Sci 論說文寫作（工程學院、醫學院、理學院）</td>
+<td>3.00</td>
+<td>- Ms LEE Miranda Kwok Yee</td>
+<td>20</td>
+<td>4</td>
+<td>CLW</td>
+<td>CC01</td>
+<td>E</td>
+<td>Tu 02:30PM - 04:15PM</td>
+<td>TBA</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 04:30PM - 05:15PM</td>
+<td>TBA</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU2456D</td>
+<td>6989</td>
+<td>Expository Writ'g (Erg/Med/Sci 論說文寫作（工程學院、醫學院、理學院）</td>
+<td>3.00</td>
+<td>- Mr. Matt PEARCE</td>
+<td>20</td>
+<td>0</td>
+<td>CLW</td>
+<td>DC01</td>
+<td>E</td>
+<td>Mo 09:30AM - 11:15AM</td>
+<td>LSK_514</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>We 04:30PM - 05:15PM</td>
+<td>LSK_304</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU2500C</td>
+<td>7144</td>
+<td>Improving Pronunciation 英語語音進階</td>
+<td>3.00</td>
+<td>- Mr. Matt PEARCE</td>
+<td>20</td>
+<td>0</td>
+<td>CLW</td>
+<td>CC01</td>
+<td>E</td>
+<td>Mo 01:30PM - 02:15PM</td>
+<td>LSK_212</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>We 02:30PM - 04:15PM</td>
+<td>LSK_212</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU2501A</td>
+<td>8451</td>
+<td>Effective Oral Communication I 口語傳意技巧(一)</td>
+<td>3.00</td>
+<td>- Mr LI Kwan Wing Eddy</td>
+<td>20</td>
+<td>0</td>
+<td>CLW</td>
+<td>AC01</td>
+<td>E</td>
+<td>Tu 02:30PM - 04:15PM</td>
+<td>LSB_G36</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 04:30PM - 05:15PM</td>
+<td>LSK_206</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU2501B</td>
+<td>8892</td>
+<td>Effective Oral Communication I 口語傳意技巧(一)</td>
+<td>3.00</td>
+<td>- Mr SEE Mike Noi Fei</td>
+<td>20</td>
+<td>0</td>
+<td>CLW</td>
+<td>BC01</td>
+<td>E</td>
+<td>Mo 01:30PM - 02:15PM</td>
+<td>LSK_202</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>We 02:30PM - 04:15PM</td>
+<td>LHC_G03</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU2501J</td>
+<td>8485</td>
+<td>Effective Oral Communication I 口語傳意技巧(一)</td>
+<td>3.00</td>
+<td>- Mr LI Kwan Wing Eddy</td>
+<td>20</td>
+<td>3</td>
+<td>CLW</td>
+<td>JC01</td>
+<td>E</td>
+<td>Mo 09:30AM - 11:15AM</td>
+<td>AIT_212</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>We 01:30PM - 02:15PM</td>
+<td>UCA_103</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU3011AA</td>
+<td>4119</td>
+<td>English for ATS Stds II</td>
+<td>2.00</td>
+<td>- Mr ZHAO Luming</td>
+<td>20</td>
+<td>1</td>
+<td>CLW</td>
+<td>AAC1</td>
+<td>E</td>
+<td>Tu 02:30PM - 04:15PM</td>
+<td>AIT_G05</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU3011AB</td>
+<td>4118</td>
+<td>English for ATS Stds II</td>
+<td>2.00</td>
+<td>- Ms CHOW Wai Yin Connie</td>
+<td>20</td>
+<td>1</td>
+<td>CLW</td>
+<td>ABC1</td>
+<td>E</td>
+<td>Tu 02:30PM - 04:15PM</td>
+<td>LHC_G03</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU3011AC</td>
+<td>4117</td>
+<td>English for ATS Stds II</td>
+<td>2.00</td>
+<td>- Mr. HO Chi Ho</td>
+<td>20</td>
+<td>3</td>
+<td>CLW</td>
+<td>ACC1</td>
+<td>E</td>
+<td>Tu 02:30PM - 04:15PM</td>
+<td>LHC_G06</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU3011AD</td>
+<td>4116</td>
+<td>English for ATS Stds II</td>
+<td>2.00</td>
+<td>- Ms LI Yee Lin</td>
+<td>20</td>
+<td>1</td>
+<td>CLW</td>
+<td>ADC1</td>
+<td>E</td>
+<td>Tu 02:30PM - 04:15PM</td>
+<td>LSB_G35</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU3011AE</td>
+<td>4115</td>
+<td>English for ATS Stds II</td>
+<td>2.00</td>
+<td>- Miss Meedy NUGRAHA</td>
+<td>20</td>
+<td>0</td>
+<td>CLW</td>
+<td>AEC1</td>
+<td>E</td>
+<td>Tu 02:30PM - 04:15PM</td>
+<td>LDS_214</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU3011AF</td>
+<td>4114</td>
+<td>English for ATS Stds II</td>
+<td>2.00</td>
+<td>- Ms MAN Ming Yu</td>
+<td>20</td>
+<td>1</td>
+<td>CLW</td>
+<td>AFC1</td>
+<td>E</td>
+<td>Tu 02:30PM - 04:15PM</td>
+<td>WMY_302</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU3011AG</td>
+<td>4152</td>
+<td>English for ATS Stds II</td>
+<td>2.00</td>
+<td>- Dr. LAI Ching Ching</td>
+<td>20</td>
+<td>3</td>
+<td>CLW</td>
+<td>AGC1</td>
+<td>E</td>
+<td>Tu 04:30PM - 06:15PM</td>
+<td>WMY_401</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU3011AH</td>
+<td>4113</td>
+<td>English for ATS Stds II</td>
+<td>2.00</td>
+<td>- Dr NG Elaine</td>
+<td>20</td>
+<td>1</td>
+<td>CLW</td>
+<td>AHC1</td>
+<td>E</td>
+<td>Tu 04:30PM - 06:15PM</td>
+<td>LDS_218</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU3011AI</td>
+<td>4112</td>
+<td>English for ATS Stds II</td>
+<td>2.00</td>
+<td>- Mr Richard GOSS</td>
+<td>20</td>
+<td>1</td>
+<td>CLW</td>
+<td>AIC1</td>
+<td>E</td>
+<td>Tu 04:30PM - 06:15PM</td>
+<td>YIA_404</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU3011AJ</td>
+<td>4111</td>
+<td>English for ATS Stds II</td>
+<td>2.00</td>
+<td>- Mr. HO Chi Ho</td>
+<td>20</td>
+<td>0</td>
+<td>CLW</td>
+<td>AJC1</td>
+<td>E</td>
+<td>Tu 04:30PM - 06:15PM</td>
+<td>LHC_G01</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU3011AK</td>
+<td>4110</td>
+<td>English for ATS Stds II</td>
+<td>2.00</td>
+<td>- Ms CHOW Wai Yin Connie</td>
+<td>20</td>
+<td>1</td>
+<td>CLW</td>
+<td>AKC1</td>
+<td>E</td>
+<td>Tu 04:30PM - 06:15PM</td>
+<td>LHC_G03</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU3011AL</td>
+<td>4109</td>
+<td>English for ATS Stds II</td>
+<td>2.00</td>
+<td>- Mr ZHAO Luming</td>
+<td>20</td>
+<td>3</td>
+<td>CLW</td>
+<td>ALC1</td>
+<td>E</td>
+<td>Th 02:30PM - 04:15PM</td>
+<td>AIT_G05</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU3011AM</td>
+<td>4108</td>
+<td>English for ATS Stds II</td>
+<td>2.00</td>
+<td>- Ms CHOW Wai Yin Connie</td>
+<td>20</td>
+<td>5</td>
+<td>CLW</td>
+<td>AMC1</td>
+<td>E</td>
+<td>Th 02:30PM - 04:15PM</td>
+<td>LSK_204</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU3011AN</td>
+<td>4143</td>
+<td>English for ATS Stds II</td>
+<td>2.00</td>
+<td>- Ms LI Yee Lin</td>
+<td>20</td>
+<td>4</td>
+<td>CLW</td>
+<td>ANC1</td>
+<td>E</td>
+<td>Th 02:30PM - 04:15PM</td>
+<td>LSB_G34</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU3011AO</td>
+<td>4050</td>
+<td>English for ATS Stds II</td>
+<td>2.00</td>
+<td>- Ms MAN Mei Ping
+- Ms MAN Ming Yu</td>
+<td>20</td>
+<td>3</td>
+<td>CLW</td>
+<td>AOC1</td>
+<td>E</td>
+<td>Th 02:30PM - 04:15PM</td>
+<td>WMY_402</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU3011AR</td>
+<td>4047</td>
+<td>English for ATS Stds II</td>
+<td>2.00</td>
+<td>- Dr. LAI Ching Ching</td>
+<td>20</td>
+<td>4</td>
+<td>CLW</td>
+<td>ARC1</td>
+<td>E</td>
+<td>Th 04:30PM - 06:15PM</td>
+<td>YIA_507</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU3011AS</td>
+<td>4046</td>
+<td>English for ATS Stds II</td>
+<td>2.00</td>
+<td>- Mr Richard GOSS</td>
+<td>20</td>
+<td>8</td>
+<td>CLW</td>
+<td>ASC1</td>
+<td>E</td>
+<td>Th 04:30PM - 06:15PM</td>
+<td>YIA_408</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU3011AT</td>
+<td>4045</td>
+<td>English for ATS Stds II</td>
+<td>2.00</td>
+<td>- Miss Meedy NUGRAHA</td>
+<td>20</td>
+<td>5</td>
+<td>CLW</td>
+<td>ATC1</td>
+<td>E</td>
+<td>Th 04:30PM - 06:15PM</td>
+<td>LSK_210</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU3011AU</td>
+<td>3978</td>
+<td>English for ATS Stds II</td>
+<td>2.00</td>
+<td>- MR HUEN Pak Hang</td>
+<td>20</td>
+<td>5</td>
+<td>CLW</td>
+<td>AUC1</td>
+<td>E</td>
+<td>Th 04:30PM - 06:15PM</td>
+<td>LSB_G36</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU3012AA</td>
+<td>3977</td>
+<td>Business Comm. II</td>
+<td>2.00</td>
+<td>- Ms Jacqueline Marie White MILITELLO</td>
+<td>20</td>
+<td>6</td>
+<td>CLW</td>
+<td>AAC1</td>
+<td>E</td>
+<td>Mo 08:30AM - 10:15AM</td>
+<td>YIA_404</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU3012AB</td>
+<td>3976</td>
+<td>Business Comm. II</td>
+<td>2.00</td>
+<td>- Mr Paul Andrew CROOK</td>
+<td>20</td>
+<td>5</td>
+<td>CLW</td>
+<td>ABC1</td>
+<td>E</td>
+<td>Mo 08:30AM - 10:15AM</td>
+<td>YIA_401</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU3012AC</td>
+<td>3975</td>
+<td>Business Comm. II</td>
+<td>2.00</td>
+<td>- DR Mark Richard HILL</td>
+<td>20</td>
+<td>7</td>
+<td>CLW</td>
+<td>ACC1</td>
+<td>E</td>
+<td>Mo 08:30AM - 10:15AM</td>
+<td>YIA_406</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU3012AE</td>
+<td>3974</td>
+<td>Business Comm. II</td>
+<td>2.00</td>
+<td>- Dr WAN Alina</td>
+<td>20</td>
+<td>5</td>
+<td>CLW</td>
+<td>AEC1</td>
+<td>E</td>
+<td>Mo 08:30AM - 10:15AM</td>
+<td>WMY_302</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU3012AF</td>
+<td>3973</td>
+<td>Business Comm. II</td>
+<td>2.00</td>
+<td>- Dr. DAVIS Christelle Thea Duffield</td>
+<td>20</td>
+<td>4</td>
+<td>CLW</td>
+<td>AFC1</td>
+<td>E</td>
+<td>Mo 10:30AM - 12:15PM</td>
+<td>YIA_401</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU3012AG</td>
+<td>3972</td>
+<td>Business Comm. II</td>
+<td>2.00</td>
+<td>- Miss LOK Joyce Sze Him</td>
+<td>20</td>
+<td>0</td>
+<td>CLW</td>
+<td>AGC1</td>
+<td>E</td>
+<td>Mo 10:30AM - 12:15PM</td>
+<td>WMY_401</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU3012AH</td>
+<td>4083</td>
+<td>Business Comm. II</td>
+<td>2.00</td>
+<td>- Ms Jacqueline Marie White MILITELLO</td>
+<td>20</td>
+<td>3</td>
+<td>CLW</td>
+<td>AHC1</td>
+<td>E</td>
+<td>Mo 10:30AM - 12:15PM</td>
+<td>YIA_404</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU3012AJ</td>
+<td>4075</td>
+<td>Business Comm. II</td>
+<td>2.00</td>
+<td>- MR Michael TOM</td>
+<td>20</td>
+<td>5</td>
+<td>CLW</td>
+<td>AJC1</td>
+<td>E</td>
+<td>Mo 10:30AM - 12:15PM</td>
+<td>WMY_302</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU3012AK</td>
+<td>4074</td>
+<td>Business Comm. II</td>
+<td>2.00</td>
+<td>- Dr. DAI Binbin</td>
+<td>20</td>
+<td>6</td>
+<td>CLW</td>
+<td>AKC1</td>
+<td>E</td>
+<td>Tu 10:30AM - 12:15PM</td>
+<td>YIA_407</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU3012AL</td>
+<td>4081</td>
+<td>Business Comm. II</td>
+<td>2.00</td>
+<td>- Dr. SZETO Ka Sinn</td>
+<td>20</td>
+<td>5</td>
+<td>CLW</td>
+<td>ALC1</td>
+<td>E</td>
+<td>Tu 10:30AM - 12:15PM</td>
+<td>WMY_404</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU3012AM</td>
+<td>4073</td>
+<td>Business Comm. II</td>
+<td>2.00</td>
+<td>- MR Michael TOM</td>
+<td>20</td>
+<td>1</td>
+<td>CLW</td>
+<td>AMC1</td>
+<td>E</td>
+<td>Tu 10:30AM - 12:15PM</td>
+<td>YIA_410</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU3012AO</td>
+<td>6430</td>
+<td>Business Comm. II</td>
+<td>2.00</td>
+<td>- Mr GOH Thian Huat</td>
+<td>20</td>
+<td>1</td>
+<td>CLW</td>
+<td>AOC1</td>
+<td>E</td>
+<td>Tu 12:30PM - 02:15PM</td>
+<td>WMY_401</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU3012AP</td>
+<td>6404</td>
+<td>Business Comm. II</td>
+<td>2.00</td>
+<td>- Mr FUNG Kwok Kin</td>
+<td>20</td>
+<td>4</td>
+<td>CLW</td>
+<td>APC1</td>
+<td>E</td>
+<td>Tu 12:30PM - 02:15PM</td>
+<td>WMY_305</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU3012AQ</td>
+<td>4084</td>
+<td>Business Comm. II</td>
+<td>2.00</td>
+<td>- Dr NG Kwai Fun</td>
+<td>20</td>
+<td>3</td>
+<td>CLW</td>
+<td>AQC1</td>
+<td>E</td>
+<td>Tu 12:30PM - 02:15PM</td>
+<td>AIT_G02</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU3012AV</td>
+<td>3694</td>
+<td>Business Comm. II</td>
+<td>2.00</td>
+<td>- MR Michael TOM</td>
+<td>20</td>
+<td>7</td>
+<td>CLW</td>
+<td>AVC1</td>
+<td>E</td>
+<td>We 08:30AM - 10:15AM</td>
+<td>YIA_404</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU3012AW</td>
+<td>6568</td>
+<td>Business Comm. II</td>
+<td>2.00</td>
+<td>- Dr NG Kwai Fun</td>
+<td>20</td>
+<td>5</td>
+<td>CLW</td>
+<td>AWC1</td>
+<td>E</td>
+<td>We 08:30AM - 10:15AM</td>
+<td>WMY_302</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU3012AX</td>
+<td>6567</td>
+<td>Business Comm. II</td>
+<td>2.00</td>
+<td>- Miss LOK Joyce Sze Him</td>
+<td>20</td>
+<td>6</td>
+<td>CLW</td>
+<td>AXC1</td>
+<td>E</td>
+<td>We 08:30AM - 10:15AM</td>
+<td>YIA_406</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU3012AY</td>
+<td>6566</td>
+<td>Business Comm. II</td>
+<td>2.00</td>
+<td>- Dr. SZETO Ka Sinn</td>
+<td>20</td>
+<td>7</td>
+<td>CLW</td>
+<td>AYC1</td>
+<td>E</td>
+<td>We 10:30AM - 12:15PM</td>
+<td>AIT_G05</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU3012BA</td>
+<td>6960</td>
+<td>Business Comm. II</td>
+<td>2.00</td>
+<td>- Mr Paul Andrew CROOK</td>
+<td>20</td>
+<td>6</td>
+<td>CLW</td>
+<td>BAC1</td>
+<td>E</td>
+<td>We 10:30AM - 12:15PM</td>
+<td>YIA_411</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU3012BB</td>
+<td>6959</td>
+<td>Business Comm. II</td>
+<td>2.00</td>
+<td>- Miss CHUNG Hiu Yui</td>
+<td>20</td>
+<td>6</td>
+<td>CLW</td>
+<td>BBC1</td>
+<td>E</td>
+<td>We 10:30AM - 12:15PM</td>
+<td>WMY_404</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU3012BC</td>
+<td>6918</td>
+<td>Business Comm. II</td>
+<td>2.00</td>
+<td>- Mr GOH Thian Huat</td>
+<td>20</td>
+<td>4</td>
+<td>CLW</td>
+<td>BCC1</td>
+<td>E</td>
+<td>We 10:30AM - 12:15PM</td>
+<td>WMY_405</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU3012BD</td>
+<td>6917</td>
+<td>Business Comm. II</td>
+<td>2.00</td>
+<td>- Dr. DAI Binbin</td>
+<td>20</td>
+<td>2</td>
+<td>CLW</td>
+<td>BDC1</td>
+<td>E</td>
+<td>Th 10:30AM - 12:15PM</td>
+<td>YIA_401</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU3012BE</td>
+<td>6916</td>
+<td>Business Comm. II</td>
+<td>2.00</td>
+<td>- Dr WAN Alina</td>
+<td>20</td>
+<td>1</td>
+<td>CLW</td>
+<td>BEC1</td>
+<td>E</td>
+<td>Th 10:30AM - 12:15PM</td>
+<td>LSK_206</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU3012BF</td>
+<td>6915</td>
+<td>Business Comm. II</td>
+<td>2.00</td>
+<td>- Dr NG Kwai Fun</td>
+<td>20</td>
+<td>1</td>
+<td>CLW</td>
+<td>BFC1</td>
+<td>E</td>
+<td>Th 10:30AM - 12:15PM</td>
+<td>YIA_404</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU3012BG</td>
+<td>6914</td>
+<td>Business Comm. II</td>
+<td>2.00</td>
+<td>- DR Mark Richard HILL</td>
+<td>20</td>
+<td>2</td>
+<td>CLW</td>
+<td>BGC1</td>
+<td>E</td>
+<td>Th 10:30AM - 12:15PM</td>
+<td>WMY_302</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU3012BI</td>
+<td>6911</td>
+<td>Business Comm. II</td>
+<td>2.00</td>
+<td>- Miss CHUNG Hiu Yui</td>
+<td>20</td>
+<td>1</td>
+<td>CLW</td>
+<td>BIC1</td>
+<td>E</td>
+<td>Th 12:30PM - 02:15PM</td>
+<td>YIA_404</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU3012BJ</td>
+<td>6910</td>
+<td>Business Comm. II</td>
+<td>2.00</td>
+<td>- Ms HO Mai Fung</td>
+<td>20</td>
+<td>2</td>
+<td>CLW</td>
+<td>BJC1</td>
+<td>E</td>
+<td>Th 12:30PM - 02:15PM</td>
+<td>YIA_406</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU3014AA</td>
+<td>4153</td>
+<td>English for ERG Stds II</td>
+<td>2.00</td>
+<td>- Mr LI Kwan Wing Eddy</td>
+<td>20</td>
+<td>0</td>
+<td>CLW</td>
+<td>AAC1</td>
+<td>E</td>
+<td>Mo 12:30PM - 02:15PM</td>
+<td>WMY_405</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU3014AB</td>
+<td>3676</td>
+<td>English for ERG Stds II</td>
+<td>2.00</td>
+<td>- MR Piers Justin Alban VOKINS</td>
+<td>20</td>
+<td>0</td>
+<td>CLW</td>
+<td>ABC1</td>
+<td>E</td>
+<td>Mo 12:30PM - 02:15PM</td>
+<td>YIA_406</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU3014AC</td>
+<td>3675</td>
+<td>English for ERG Stds II</td>
+<td>2.00</td>
+<td>- Dr Maris Stella CONNELLY</td>
+<td>20</td>
+<td>0</td>
+<td>CLW</td>
+<td>ACC1</td>
+<td>E</td>
+<td>Mo 12:30PM - 02:15PM</td>
+<td>AIT_G02</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU3014AD</td>
+<td>3674</td>
+<td>English for ERG Stds II</td>
+<td>2.00</td>
+<td>- Ms. LAM Tsui Shan</td>
+<td>20</td>
+<td>0</td>
+<td>CLW</td>
+<td>ADC1</td>
+<td>E</td>
+<td>Mo 12:30PM - 02:15PM</td>
+<td>YIA_408</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU3014AE</td>
+<td>3673</td>
+<td>English for ERG Stds II</td>
+<td>2.00</td>
+<td>- Miss MA Yuk Yi Anna</td>
+<td>20</td>
+<td>0</td>
+<td>CLW</td>
+<td>AEC1</td>
+<td>E</td>
+<td>Mo 12:30PM - 02:15PM</td>
+<td>YIA_506</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU3014AF</td>
+<td>3672</td>
+<td>English for ERG Stds II</td>
+<td>2.00</td>
+<td>- MR Philip James FREESTONE</td>
+<td>20</td>
+<td>4</td>
+<td>CLW</td>
+<td>AFC1</td>
+<td>E</td>
+<td>Mo 02:30PM - 04:15PM</td>
+<td>WMY_506</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU3014AG</td>
+<td>3671</td>
+<td>English for ERG Stds II</td>
+<td>2.00</td>
+<td>- Miss MA Yuk Yi Anna</td>
+<td>20</td>
+<td>7</td>
+<td>CLW</td>
+<td>AGC1</td>
+<td>E</td>
+<td>Mo 02:30PM - 04:15PM</td>
+<td>YIA_506</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU3014AH</td>
+<td>3670</td>
+<td>English for ERG Stds II</td>
+<td>2.00</td>
+<td>- Mr Kenneth Paul GRIMES</td>
+<td>20</td>
+<td>4</td>
+<td>CLW</td>
+<td>AHC1</td>
+<td>E</td>
+<td>Mo 02:30PM - 04:15PM</td>
+<td>WMY_507</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU3014AI</td>
+<td>3669</td>
+<td>English for ERG Stds II</td>
+<td>2.00</td>
+<td>- Miss WONG Wing Che</td>
+<td>20</td>
+<td>2</td>
+<td>CLW</td>
+<td>AIC1</td>
+<td>E</td>
+<td>Mo 02:30PM - 04:15PM</td>
+<td>YIA_401</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU3014AK</td>
+<td>4155</td>
+<td>English for ERG Stds II</td>
+<td>2.00</td>
+<td>- Mr CHEUNG Colin Clifford</td>
+<td>20</td>
+<td>4</td>
+<td>CLW</td>
+<td>AKC1</td>
+<td>E</td>
+<td>Mo 04:30PM - 06:15PM</td>
+<td>WMY_306</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU3014AL</td>
+<td>4154</td>
+<td>English for ERG Stds II</td>
+<td>2.00</td>
+<td>- Ms CHAN Mei Kee</td>
+<td>20</td>
+<td>6</td>
+<td>CLW</td>
+<td>ALC1</td>
+<td>E</td>
+<td>Mo 04:30PM - 06:15PM</td>
+<td>LDS_218</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU3014AM</td>
+<td>3679</td>
+<td>English for ERG Stds II</td>
+<td>2.00</td>
+<td>- Mr Rickey LU</td>
+<td>20</td>
+<td>1</td>
+<td>CLW</td>
+<td>AMC1</td>
+<td>E</td>
+<td>Mo 04:30PM - 06:15PM</td>
+<td>LHC_G01</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU3014AN</td>
+<td>3678</td>
+<td>English for ERG Stds II</td>
+<td>2.00</td>
+<td>- Ms CHIU Wing Yin Adeline</td>
+<td>20</td>
+<td>2</td>
+<td>CLW</td>
+<td>ANC1</td>
+<td>E</td>
+<td>Mo 04:30PM - 06:15PM</td>
+<td>LSK_304</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU3014AO</td>
+<td>3677</td>
+<td>English for ERG Stds II</td>
+<td>2.00</td>
+<td>- Miss MA Yuk Yi Anna</td>
+<td>20</td>
+<td>0</td>
+<td>CLW</td>
+<td>AOC1</td>
+<td>E</td>
+<td>We 12:30PM - 02:15PM</td>
+<td>LHC_G01</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU3014AP</td>
+<td>3683</td>
+<td>English for ERG Stds II</td>
+<td>2.00</td>
+<td>- Dr Maris Stella CONNELLY</td>
+<td>20</td>
+<td>0</td>
+<td>CLW</td>
+<td>APC1</td>
+<td>E</td>
+<td>We 12:30PM - 02:15PM</td>
+<td>YIA_407</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU3014AQ</td>
+<td>3682</td>
+<td>English for ERG Stds II</td>
+<td>2.00</td>
+<td>- Ms. LAM Tsui Shan</td>
+<td>20</td>
+<td>2</td>
+<td>CLW</td>
+<td>AQC1</td>
+<td>E</td>
+<td>We 12:30PM - 02:15PM</td>
+<td>YIA_403</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU3014AR</td>
+<td>3681</td>
+<td>English for ERG Stds II</td>
+<td>2.00</td>
+<td>- MR Piers Justin Alban VOKINS</td>
+<td>20</td>
+<td>5</td>
+<td>CLW</td>
+<td>ARC1</td>
+<td>E</td>
+<td>We 12:30PM - 02:15PM</td>
+<td>YIA_511</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU3014AS</td>
+<td>3680</td>
+<td>English for ERG Stds II</td>
+<td>2.00</td>
+<td>- Mr CHEUNG Colin Clifford</td>
+<td>20</td>
+<td>6</td>
+<td>CLW</td>
+<td>ASC1</td>
+<td>E</td>
+<td>We 12:30PM - 02:15PM</td>
+<td>YIA_410</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU3014AT</td>
+<td>3685</td>
+<td>English for ERG Stds II</td>
+<td>2.00</td>
+<td>- Ms LUI Yin Ling</td>
+<td>20</td>
+<td>4</td>
+<td>CLW</td>
+<td>ATC1</td>
+<td>E</td>
+<td>We 02:30PM - 04:15PM</td>
+<td>YIA_401</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU3014AU</td>
+<td>3684</td>
+<td>English for ERG Stds II</td>
+<td>2.00</td>
+<td>- MR Philip James FREESTONE</td>
+<td>20</td>
+<td>5</td>
+<td>CLW</td>
+<td>AUC1</td>
+<td>E</td>
+<td>We 02:30PM - 04:15PM</td>
+<td>YIA_404</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU3014AV</td>
+<td>3688</td>
+<td>English for ERG Stds II</td>
+<td>2.00</td>
+<td>- Miss WONG Wing Che</td>
+<td>20</td>
+<td>5</td>
+<td>CLW</td>
+<td>AVC1</td>
+<td>E</td>
+<td>We 02:30PM - 04:15PM</td>
+<td>WMY_402</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU3014AW</td>
+<td>3687</td>
+<td>English for ERG Stds II</td>
+<td>2.00</td>
+<td>- Mr Kenneth Paul GRIMES</td>
+<td>20</td>
+<td>0</td>
+<td>CLW</td>
+<td>AWC1</td>
+<td>E</td>
+<td>We 02:30PM - 04:15PM</td>
+<td>YIA_411</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU3014AX</td>
+<td>3686</td>
+<td>English for ERG Stds II</td>
+<td>2.00</td>
+<td>- Mr LI Kwan Wing Eddy</td>
+<td>20</td>
+<td>2</td>
+<td>CLW</td>
+<td>AXC1</td>
+<td>E</td>
+<td>We 04:30PM - 06:15PM</td>
+<td>LSK_202</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU3014AY</td>
+<td>3691</td>
+<td>English for ERG Stds II</td>
+<td>2.00</td>
+<td>- Mr YEUNG Ping Hei</td>
+<td>20</td>
+<td>1</td>
+<td>CLW</td>
+<td>AYC1</td>
+<td>E</td>
+<td>We 04:30PM - 06:15PM</td>
+<td>LSK_206</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU3014AZ</td>
+<td>3690</td>
+<td>English for ERG Stds II</td>
+<td>2.00</td>
+<td>- Dr Maris Stella CONNELLY</td>
+<td>20</td>
+<td>5</td>
+<td>CLW</td>
+<td>AZC1</td>
+<td>E</td>
+<td>We 04:30PM - 06:15PM</td>
+<td>YIA_408</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU3014BA</td>
+<td>3689</td>
+<td>English for ERG Stds II</td>
+<td>2.00</td>
+<td>- Ms CHAN Mei Kee</td>
+<td>20</td>
+<td>3</td>
+<td>CLW</td>
+<td>BAC1</td>
+<td>E</td>
+<td>We 04:30PM - 06:15PM</td>
+<td>LSK_308</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU3014BB</td>
+<td>8445</td>
+<td>English for ERG Studs II</td>
+<td>2.00</td>
+<td>- Mr Rickey LU</td>
+<td>20</td>
+<td>1</td>
+<td>CLW</td>
+<td>BBC1</td>
+<td>E</td>
+<td>We 02:30PM - 04:15PM</td>
+<td>WMY_501</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU3016AA</td>
+<td>6145</td>
+<td>English For MED II (EXC MBChB)</td>
+<td>2.00</td>
+<td>- Dr MA Kuen Fong Beatrice</td>
+<td>20</td>
+<td>9</td>
+<td>CLW</td>
+<td>AAC1</td>
+<td>E</td>
+<td>We 10:30AM - 12:15PM</td>
+<td>UCC_110</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU3016AB</td>
+<td>8904</td>
+<td>English For MED II (EXC MBChB)</td>
+<td>2.00</td>
+<td>- Mr FUNG Kwok Kin</td>
+<td>20</td>
+<td>9</td>
+<td>CLW</td>
+<td>ABC1</td>
+<td>E</td>
+<td>We 10:30AM - 12:15PM</td>
+<td>WMY_504</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU3017AA</td>
+<td>3693</td>
+<td>English for MBChB Programme</td>
+<td>2.00</td>
+<td>- Miss MA Yuk Yi Anna</td>
+<td>20</td>
+<td>0</td>
+<td>CLW</td>
+<td>AAC1</td>
+<td>E</td>
+<td>Fr 09:30AM - 11:15AM</td>
+<td>LSK_206</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU3017AB</td>
+<td>3692</td>
+<td>English for MBChB Programme</td>
+<td>2.00</td>
+<td>- Dr MA Kuen Fong Beatrice</td>
+<td>20</td>
+<td>1</td>
+<td>CLW</td>
+<td>ABC1</td>
+<td>E</td>
+<td>Fr 09:30AM - 11:15AM</td>
+<td>WMY_401</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU3017AC</td>
+<td>3952</td>
+<td>English for MBChB Programme</td>
+<td>2.00</td>
+<td>- Ms LUI Yin Ling</td>
+<td>20</td>
+<td>1</td>
+<td>CLW</td>
+<td>ACC1</td>
+<td>E</td>
+<td>Fr 09:30AM - 11:15AM</td>
+<td>LSK_204</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU3017AD</td>
+<td>3951</td>
+<td>English for MBChB Programme</td>
+<td>2.00</td>
+<td>- Dr NG Kwai Fun</td>
+<td>20</td>
+<td>1</td>
+<td>CLW</td>
+<td>ADC1</td>
+<td>E</td>
+<td>Fr 09:30AM - 11:15AM</td>
+<td>LDS_214</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU3017AE</td>
+<td>3950</td>
+<td>English for MBChB Programme</td>
+<td>2.00</td>
+<td>- Dr Maris Stella CONNELLY</td>
+<td>20</td>
+<td>1</td>
+<td>CLW</td>
+<td>AEC1</td>
+<td>E</td>
+<td>Fr 09:30AM - 11:15AM</td>
+<td>YIA_508</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>ELTU3102B</td>
+<td>8430</td>
+<td>Eng Thru Nature & the Environ 環保學英語</td>
+<td>3.00</td>
+<td>- Mr Richard William LEWTHWAITE</td>
+<td>20</td>
+<td>5</td>
+<td>CLW</td>
+<td>BC01</td>
+<td>E</td>
+<td>Mo 01:30PM - 02:15PM</td>
+<td>LSK_302</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 12:30PM - 02:15PM</td>
+<td>YIA_408</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU3104B</td>
+<td>8501</td>
+<td>English Through Film 電影英語</td>
+<td>3.00</td>
+<td>- Mr Richard William LEWTHWAITE</td>
+<td>20</td>
+<td>5</td>
+<td>CLW</td>
+<td>BC01</td>
+<td>E</td>
+<td>Mo 12:30PM - 01:15PM</td>
+<td>LSK_204</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 02:30PM - 04:15PM</td>
+<td>YIA_408</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU3110A</td>
+<td>7146</td>
+<td>Bus Comm (for Stud of Fac of B 商業英語(工商管理學院學生修讀）</td>
+<td>3.00</td>
+<td>- Dr TANG Hau Hing</td>
+<td>19</td>
+<td>0</td>
+<td>CLW</td>
+<td>AC01</td>
+<td>E</td>
+<td>Tu 08:30AM - 10:15AM</td>
+<td>WMY_302</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 12:30PM - 01:15PM</td>
+<td>LSK_202</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU3110B</td>
+<td>6325</td>
+<td>Bus Comm (for Stud of Fac of B 商業英語(工商管理學院學生修讀）</td>
+<td>3.00</td>
+<td>- DR Damian James FITZPATRICK</td>
+<td>20</td>
+<td>7</td>
+<td>CLW</td>
+<td>BC01</td>
+<td>E</td>
+<td>Mo 12:30PM - 01:15PM</td>
+<td>WMY_302</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 08:30AM - 10:15AM</td>
+<td>YIA_408</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU3110C</td>
+<td>7147</td>
+<td>Bus Comm (for Stud of Fac of B 商業英語(工商管理學院學生修讀）</td>
+<td>3.00</td>
+<td>- Ms TAM Chau Wa Pat</td>
+<td>20</td>
+<td>2</td>
+<td>CLW</td>
+<td>CC01</td>
+<td>E</td>
+<td>Tu 08:30AM - 10:15AM</td>
+<td>WMY_305</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 12:30PM - 01:15PM</td>
+<td>WMY_301</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU3110D</td>
+<td>7180</td>
+<td>Bus Comm (for Stud of Fac of B 商業英語(工商管理學院學生修讀）</td>
+<td>3.00</td>
+<td>- MR Michael TOM</td>
+<td>20</td>
+<td>4</td>
+<td>CLW</td>
+<td>DC01</td>
+<td>E</td>
+<td>Mo 02:30PM - 04:15PM</td>
+<td>YIA_501</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>We 01:30PM - 02:15PM</td>
+<td>LSK_306</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU3110E</td>
+<td>7181</td>
+<td>Bus Comm (for Stud of Fac of B 商業英語(工商管理學院學生修讀）</td>
+<td>3.00</td>
+<td>- Mr Brian Richard OLSEN</td>
+<td>20</td>
+<td>5</td>
+<td>CLW</td>
+<td>EC01</td>
+<td>E</td>
+<td>Mo 01:30PM - 02:15PM</td>
+<td>LHC_G01</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>We 02:30PM - 04:15PM</td>
+<td>LSK_202</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU3110F</td>
+<td>6324</td>
+<td>Bus Comm (for Stud of Fac of B 商業英語(工商管理學院學生修讀）</td>
+<td>3.00</td>
+<td>- Ms CHIU Wing Yin Adeline</td>
+<td>20</td>
+<td>2</td>
+<td>CLW</td>
+<td>FC01</td>
+<td>E</td>
+<td>Mo 01:30PM - 02:15PM</td>
+<td>WMY_302</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>We 02:30PM - 04:15PM</td>
+<td>LSK_515</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU3110G</td>
+<td>7182</td>
+<td>Bus Comm (for Stud of Fac of B 商業英語(工商管理學院學生修讀）</td>
+<td>3.00</td>
+<td>- Mr WONG Chun Shing</td>
+<td>20</td>
+<td>4</td>
+<td>CLW</td>
+<td>GC01</td>
+<td>E</td>
+<td>Mo 01:30PM - 02:15PM</td>
+<td>YIA_404</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>We 02:30PM - 04:15PM</td>
+<td>YIA_407</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU3110H</td>
+<td>3735</td>
+<td>Bus Comm (for Stud of Fac of B 商業英語(工商管理學院學生修讀）</td>
+<td>3.00</td>
+<td>- Dr TANG Hau Hing</td>
+<td>20</td>
+<td>4</td>
+<td>CLW</td>
+<td>HC01</td>
+<td>E</td>
+<td>Mo 04:30PM - 06:15PM</td>
+<td>WMY_406</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>We 11:30AM - 12:15PM</td>
+<td>WMY_401</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU3110I</td>
+<td>7183</td>
+<td>Bus Comm (for Stud of Fac of B 商業英語(工商管理學院學生修讀）</td>
+<td>3.00</td>
+<td>- Mr. Matt PEARCE</td>
+<td>20</td>
+<td>0</td>
+<td>CLW</td>
+<td>IC01</td>
+<td>E</td>
+<td>Tu 05:30PM - 06:15PM</td>
+<td>YIA_510</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 02:30PM - 04:15PM</td>
+<td>LHC_G03</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU3110J</td>
+<td>8384</td>
+<td>Bus Comm (for Stud of Fac of B 商業英語(工商管理學院學生修讀）</td>
+<td>3.00</td>
+<td>- Mr. Matt PEARCE</td>
+<td>20</td>
+<td>3</td>
+<td>CLW</td>
+<td>JC01</td>
+<td>E</td>
+<td>Tu 02:30PM - 04:15PM</td>
+<td>YIA_410</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 05:30PM - 06:15PM</td>
+<td>WMY_401</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU3110K</td>
+<td>3882</td>
+<td>Bus Comm (for Stud of Fac of B 商業英語(工商管理學院學生修讀）</td>
+<td>3.00</td>
+<td>- MR Michael TOM</td>
+<td>20</td>
+<td>10</td>
+<td>CLW</td>
+<td>KC01</td>
+<td>E</td>
+<td>Mo 04:30PM - 06:15PM</td>
+<td>YIA_501</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>We 11:30AM - 12:15PM</td>
+<td>LSK_208</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU3110L</td>
+<td>7184</td>
+<td>Bus Comm (for Stud of Fac of B 商業英語(工商管理學院學生修讀）</td>
+<td>3.00</td>
+<td>- Mr WONG Chun Shing</td>
+<td>20</td>
+<td>5</td>
+<td>CLW</td>
+<td>LC01</td>
+<td>E</td>
+<td>Tu 05:30PM - 06:15PM</td>
+<td>CYT_212</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 02:30PM - 04:15PM</td>
+<td>YIA_502</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU3110M</td>
+<td>7185</td>
+<td>Bus Comm (for Stud of Fac of B 商業英語(工商管理學院學生修讀）</td>
+<td>3.00</td>
+<td>- Mr FUNG Kwok Kin</td>
+<td>20</td>
+<td>0</td>
+<td>CLW</td>
+<td>MC01</td>
+<td>E</td>
+<td>Mo 02:30PM - 04:15PM</td>
+<td>LSK_202</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>We 01:30PM - 02:15PM</td>
+<td>YIA_503</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU3110N</td>
+<td>7186</td>
+<td>Bus Comm (for Stud of Fac of B 商業英語(工商管理學院學生修讀）</td>
+<td>3.00</td>
+<td>- Mr WONG Chun Shing</td>
+<td>20</td>
+<td>0</td>
+<td>CLW</td>
+<td>NC01</td>
+<td>E</td>
+<td>Mo 12:30PM - 01:15PM</td>
+<td>YIA_404</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 08:30AM - 10:15AM</td>
+<td>WMY_502</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU3110Q</td>
+<td>3737</td>
+<td>Bus Comm (for Stud of Fac of B 商業英語(工商管理學院學生修讀）</td>
+<td>3.00</td>
+<td>- DR Damian James FITZPATRICK</td>
+<td>20</td>
+<td>0</td>
+<td>CLW</td>
+<td>QC01</td>
+<td>E</td>
+<td>Mo 02:30PM - 04:15PM</td>
+<td>WMY_305</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>We 01:30PM - 02:15PM</td>
+<td>WMY_402</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU3110R</td>
+<td>6991</td>
+<td>Bus Comm (for Stud of Fac of B 商業英語(工商管理學院學生修讀）</td>
+<td>3.00</td>
+<td>- Dr TANG Hau Hing</td>
+<td>20</td>
+<td>5</td>
+<td>CLW</td>
+<td>RC01</td>
+<td>E</td>
+<td>Tu 02:30PM - 04:15PM</td>
+<td>YIA_501</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 05:30PM - 06:15PM</td>
+<td>YIA_410</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU3110S</td>
+<td>6953</td>
+<td>Bus Comm (for Stud of Fac of B 商業英語(工商管理學院學生修讀）</td>
+<td>3.00</td>
+<td>- Ms TAM Chau Wa Pat</td>
+<td>20</td>
+<td>2</td>
+<td>CLW</td>
+<td>SC01</td>
+<td>E</td>
+<td>Tu 12:30PM - 01:15PM</td>
+<td>YIA_406</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Fr 09:30AM - 11:15AM</td>
+<td>YIA_406</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU3110U</td>
+<td>6952</td>
+<td>Bus Comm (for Stud of Fac of B 商業英語(工商管理學院學生修讀）</td>
+<td>3.00</td>
+<td>- Mr FUNG Kwok Kin</td>
+<td>20</td>
+<td>0</td>
+<td>CLW</td>
+<td>UC01</td>
+<td>E</td>
+<td>Tu 08:30AM - 10:15AM</td>
+<td>WMY_506</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 12:30PM - 01:15PM</td>
+<td>LSK_302</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU3110V</td>
+<td>6319</td>
+<td>Bus Comm (for Stud of Fac of B 商業英語(工商管理學院學生修讀）</td>
+<td>3.00</td>
+<td>- Mr Brian Richard OLSEN</td>
+<td>20</td>
+<td>0</td>
+<td>CLW</td>
+<td>VC01</td>
+<td>E</td>
+<td>Tu 02:30PM - 04:15PM</td>
+<td>LSK_202</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 05:30PM - 06:15PM</td>
+<td>YIA_409</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU3110W</td>
+<td>8383</td>
+<td>Bus Comm (for Stud of Fac of B 商業英語(工商管理學院學生修讀）</td>
+<td>3.00</td>
+<td>- Mr FUNG Kwok Kin</td>
+<td>20</td>
+<td>2</td>
+<td>CLW</td>
+<td>WC01</td>
+<td>E</td>
+<td>Mo 12:30PM - 01:15PM</td>
+<td>YIA_407</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 08:30AM - 10:15AM</td>
+<td>WMY_304</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU3110Y</td>
+<td>8382</td>
+<td>Bus Comm (for Stud of Fac of B 商業英語(工商管理學院學生修讀）</td>
+<td>3.00</td>
+<td>- Ms CHIU Wing Yin Adeline</td>
+<td>20</td>
+<td>5</td>
+<td>CLW</td>
+<td>YC01</td>
+<td>E</td>
+<td>Tu 05:30PM - 06:15PM</td>
+<td>LSK_206</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 02:30PM - 04:15PM</td>
+<td>UCA_105</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU3501D</td>
+<td>8462</td>
+<td>Effective Oral Comm II 口語傳意技巧(二)</td>
+<td>3.00</td>
+<td>- Ms. LEUNG Kit Chi Ella</td>
+<td>20</td>
+<td>1</td>
+<td>CLW</td>
+<td>DC01</td>
+<td>E</td>
+<td>Mo 02:30PM - 04:15PM</td>
+<td>WMY_406</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>We 01:30PM - 02:15PM</td>
+<td>LSK_202</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU3501F</td>
+<td>8469</td>
+<td>Effective Oral Comm II 口語傳意技巧(二)</td>
+<td>3.00</td>
+<td>- Ms. LEUNG Kit Chi Ella</td>
+<td>20</td>
+<td>0</td>
+<td>CLW</td>
+<td>FC01</td>
+<td>E</td>
+<td>Tu 01:30PM - 02:15PM</td>
+<td>LSK_208</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 08:30AM - 10:15AM</td>
+<td>WMY_401</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>ELTU3501G</td>
+<td>8468</td>
+<td>Effective Oral Comm II 口語傳意技巧(二)</td>
+<td>3.00</td>
+<td>- Dr. LIU Ngar Fun</td>
+<td>20</td>
+<td>11</td>
+<td>CLW</td>
+<td>GC01</td>
+<td>E</td>
+<td>Tu 12:30PM - 01:15PM</td>
+<td>UCC_111</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>English Language Teaching Unit</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Fr 09:30AM - 11:15AM</td>
+<td>LSK_202</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+</table></body></html>

@@ -17,7 +17,7 @@ def browse_scheduler():
     payload = {
         'ICType':'Panel',
         'ICAction':'DERIVED_SSS_SCT_SSR_PB_GO',
-        'SSR_DUMMY_RECV1$sels$0' : '1'
+        'SSR_DUMMY_RECV1$sels$0' : '0'
     }
     r = cusis.session.post(URL,data=payload)
     #print r.text
@@ -27,6 +27,7 @@ def printlist():
     URL = "https://cusis.cuhk.edu.hk/psc/csprd/EMPLOYEE/HRMS/c/SA_LEARNER_SERVICES.SSR_SSENRL_LIST.GBL"
     payload = {'ICType':'Panel','ICAction':'DERIVED_REGFRM1_SA_LINK_PRINTER'}
     r = cusis.session.post(URL,data=payload)
+    print r.text
     course_info = re.findall(r"<table cellspacing='0' (.+?)</table>", r.text, re.DOTALL)
     course_name = re.findall(r"<td class='PAGROUPDIVIDER' align='left'>(.+?)</td>", r.text)
     course_num = len(course_name)
@@ -54,6 +55,7 @@ def dumplist(tofile):
     URL = "https://cusis.cuhk.edu.hk/psc/csprd/EMPLOYEE/HRMS/c/SA_LEARNER_SERVICES.SSR_SSENRL_LIST.GBL"
     payload = {'ICType':'Panel','ICAction':'DERIVED_REGFRM1_SA_LINK_PRINTER'}
     r = cusis.session.post(URL,data=payload)
+    print r.text
     course_info = re.findall(r"<table cellspacing='0' (.+?)</table>", r.text, re.DOTALL)
     course_name = re.findall(r"<td class='PAGROUPDIVIDER' align='left'>(.+?)</td>", r.text)
     course_num = len(course_name)

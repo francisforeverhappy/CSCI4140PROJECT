@@ -24,23 +24,27 @@ def period2daytime(date):
 		"07:15PM" : 11, "08:15PM" : 12,
 		"09:15PM" : 13
 	}
-	start = start_timeslot_dict[date[3:10]]
-	end = end_timeslot_dict[date[13:20]]
-	return [day, start, end]
+	try:
+		start = start_timeslot_dict[date[3:10]]
+		end = end_timeslot_dict[date[13:20]]
+		return [day, start, end]
+	except Exception:
+		return [None, None, None]
 
 def main():
 	client = MongoClient()
 	client = MongoClient('localhost', 27017)
+	client.drop_database('csci4140_db')
 	db = client.csci4140_db
-	files = glob.glob('./DumpedCourseList_20180506/*.xls')
+	files = glob.glob('./DumpedCourseList_20180507/*.xls')
 	for path in files:
 		df_list = pd.read_html(path, header =0, flavor = 'bs4')
 		dataframe = df_list[0]
-		section_id, course_id, section, course  = None
+		section_id, course_id, section, course = None, None, None, None
 		for index, df in dataframe.iterrows():
 			[day, start, end] = period2daytime(df['Period'])
-			if df['Course Component'] == '':
-				section["meetinInfo"].append({
+			if str(df['Course Component']).strip() == 'nan':
+				section["meetingInfo"].append({
 					"daysTime": {
 						"day": day,
 						"timeSlot": {
@@ -50,14 +54,19 @@ def main():
 					}
 				})
 				continue
-			if df['Class Code'] == '':
+			if str(df['Class Code']) == 'nan':
 				section_id = db.Section.insert_one(section).inserted_id
 				if section['courseComponent'] == 'LEC':
-					course['lectures'] = {"$type" : section_id, "$ref" : "Section"}
+					course['lectures'] = {"type" : section_id, "ref" : "Section"}
 				elif section['courseComponent'] == 'TUT':
-					course['tutorials'].append({"$type" : section_id, "$ref" : "Section"})
+					course['tutorials'].append({"type" : section_id, "ref" : "Section"})
 				elif section['courseComponent'] == 'LAB':
-					course['lectures'].append({"$type" : section_id, "$ref" : "Section"})
+					course['labs'].append({"type" : section_id, "ref" : "Section"})
+				try: 
+					if df['Class Code'][-1] == '-':
+						df['Class Code'] = df['Class Code'][:-1]
+				except Exception:
+					pass
 				section = {
 					"courseCode": df['Class Code'],
 					"courseComponent": df['Course Component'],
@@ -86,14 +95,18 @@ def main():
 			if section != None:
 				section_id = db.Section.insert_one(section).inserted_id
 				if section['courseComponent'] == 'LEC':
-					course['lectures'] = {"$type" : section_id, "$ref" : "Section"}
+					course['lectures'] = {"type" : section_id, "ref" : "Section"}
 				elif section['courseComponent'] == 'TUT':
-					course['tutorials'].append({"$type" : section_id, "$ref" : "Section"})
+					course['tutorials'].append({"type" : section_id, "ref" : "Section"})
 				elif section['courseComponent'] == 'LAB':
-					course['lectures'].append({"$type" : section_id, "$ref" : "Section"})
+					course['labs'].append({"type" : section_id, "ref" : "Section"})
 			if course != None:
 				course_id = db.Course.insert_one(course).inserted_id
-
+			try: 
+				if df['Class Code'][-1] == '-':
+					df['Class Code'] = df['Class Code'][:-1]
+			except Exception:
+				pass
 			course = {
 				"courseCode": df['Class Code'],
 				"courseName": df['Course Title'] ,
@@ -103,7 +116,7 @@ def main():
 
 				"classDetails": {
 					"session": "",
-					"units": df['units'],
+					"units": df['Units'],
 					"career": "Undergraduate",
 					"grading": "graded"
 				},

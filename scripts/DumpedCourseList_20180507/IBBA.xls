@@ -1,0 +1,193 @@
+<html dir='ltr' lang='en'>
+<!-- Copyright (c) 2000, 2007, Oracle. All rights reserved. -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><body><table border='1' cellpadding='3' cellspacing='0'>
+<tr>
+<th>Class Code</th><th>Class Nbr</th><th>Course Title</th><th>Units</th><th>Teaching Staff</th><th>Quota(s)</th><th>Vacancy</th><th>Course Component</th><th>Section Code</th><th>Language</th><th>Period</th><th>Room</th><th>Meeting Date</th><th>Add Consent</th><th>Drop Consent</th><th>Course Offering Dept</th></tr>
+<tr>
+<td>IBBA3010K</td>
+<td>7925</td>
+<td>Issues in Business 企業問題研討</td>
+<td>2.00</td>
+<td>- Mr. HA Lin Tat</td>
+<td>18</td>
+<td>2</td>
+<td>PRJ</td>
+<td>KJ01</td>
+<td>C&amp;E</td>
+<td>Th 02:30PM - 04:15PM</td>
+<td>HYS_303</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>Integrated BBA Pgm Comm</td>
+<tr>
+<td>IBBA3010L</td>
+<td>7926</td>
+<td>Issues in Business 企業問題研討</td>
+<td>2.00</td>
+<td>- Dr. AU YEUNG Chau Kin</td>
+<td>18</td>
+<td>0</td>
+<td>PRJ</td>
+<td>LJ01</td>
+<td>E</td>
+<td>Th 10:30AM - 12:15PM</td>
+<td>ELB_306</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>Integrated BBA Pgm Comm</td>
+<tr>
+<td>IBBA3010M</td>
+<td>7927</td>
+<td>Issues in Business 企業問題研討</td>
+<td>2.00</td>
+<td>- MS SUN Yixia</td>
+<td>18</td>
+<td>0</td>
+<td>PRJ</td>
+<td>MJ01</td>
+<td>E</td>
+<td>Mo 09:30AM - 11:15AM</td>
+<td>ELB_306</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Integrated BBA Pgm Comm</td>
+<tr>
+<td>IBBA3010N</td>
+<td>7928</td>
+<td>Issues in Business 企業問題研討</td>
+<td>2.00</td>
+<td>- Dr KEUNG Yiu Ling Elena</td>
+<td>18</td>
+<td>8</td>
+<td>PRJ</td>
+<td>NJ01</td>
+<td>E</td>
+<td>Tu 04:30PM - 06:15PM</td>
+<td>FYB_401</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Integrated BBA Pgm Comm</td>
+<tr>
+<td>IBBA3010Q</td>
+<td>7929</td>
+<td>Issues in Business 企業問題研討</td>
+<td>2.00</td>
+<td>- Mr. CHIU Chi Ming Jimmy</td>
+<td>18</td>
+<td>0</td>
+<td>PRJ</td>
+<td>QJ01</td>
+<td>C&amp;E</td>
+<td>We 09:30AM - 11:15AM</td>
+<td>CKB_122</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Integrated BBA Pgm Comm</td>
+<tr>
+<td>IBBA3010R</td>
+<td>7930</td>
+<td>Issues in Business 企業問題研討</td>
+<td>2.00</td>
+<td>- Dr. CHAK Man Kuen</td>
+<td>18</td>
+<td>0</td>
+<td>PRJ</td>
+<td>RJ01</td>
+<td>C&amp;E</td>
+<td>Th 04:30PM - 06:15PM</td>
+<td>YIA_406</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>Integrated BBA Pgm Comm</td>
+<tr>
+<td>IBBA3010S</td>
+<td>7931</td>
+<td>Issues in Business 企業問題研討</td>
+<td>2.00</td>
+<td>- Dr. CHAK Man Kuen</td>
+<td>18</td>
+<td>0</td>
+<td>PRJ</td>
+<td>SJ01</td>
+<td>C&amp;E</td>
+<td>Tu 02:30PM - 04:15PM</td>
+<td>YIA_401</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Integrated BBA Pgm Comm</td>
+<tr>
+<td>IBBA3010T</td>
+<td>4031</td>
+<td>Issues in Business 企業問題研討</td>
+<td>2.00</td>
+<td>- Miss KWAN Man Ching</td>
+<td>18</td>
+<td>0</td>
+<td>PRJ</td>
+<td>TJ01</td>
+<td>E</td>
+<td>Mo 04:30PM - 06:15PM</td>
+<td>AIT_G05</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Integrated BBA Pgm Comm</td>
+<tr>
+<td>IBBA3010U</td>
+<td>4032</td>
+<td>Issues in Business 企業問題研討</td>
+<td>2.00</td>
+<td>- Professor HUANG Junfei</td>
+<td>18</td>
+<td>0</td>
+<td>PRJ</td>
+<td>UJ01</td>
+<td>E</td>
+<td>Mo 02:30PM - 04:15PM</td>
+<td>AIT_G06</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Integrated BBA Pgm Comm</td>
+<tr>
+<td>IBBA3010V</td>
+<td>6061</td>
+<td>Issues in Business 企業問題研討</td>
+<td>2.00</td>
+<td>- Professor Ehsan BOLANDIFAR</td>
+<td>18</td>
+<td>5</td>
+<td>PRJ</td>
+<td>VJ01</td>
+<td>E</td>
+<td>We 02:30PM - 04:15PM</td>
+<td>WMY_302</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Integrated BBA Pgm Comm</td>
+<tr>
+<td>IBBA4010A</td>
+<td>7953</td>
+<td>Issues in Asian Business 亞洲企業問題研討</td>
+<td>3.00</td>
+<td>- Dr. LAI Hon Weng</td>
+<td>36</td>
+<td>3</td>
+<td>PRJ</td>
+<td>AJ01</td>
+<td>E</td>
+<td>TBA</td>
+<td>TBA</td>
+<td>05/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Integrated BBA Pgm Comm</td>
+</table></body></html>

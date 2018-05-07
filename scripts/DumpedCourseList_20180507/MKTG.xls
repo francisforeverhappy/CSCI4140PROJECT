@@ -1,0 +1,346 @@
+<html dir='ltr' lang='en'>
+<!-- Copyright (c) 2000, 2007, Oracle. All rights reserved. -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><body><table border='1' cellpadding='3' cellspacing='0'>
+<tr>
+<th>Class Code</th><th>Class Nbr</th><th>Course Title</th><th>Units</th><th>Teaching Staff</th><th>Quota(s)</th><th>Vacancy</th><th>Course Component</th><th>Section Code</th><th>Language</th><th>Period</th><th>Room</th><th>Meeting Date</th><th>Add Consent</th><th>Drop Consent</th><th>Course Offering Dept</th></tr>
+<tr>
+<td>MKTG2010L</td>
+<td>7870</td>
+<td>Marketing Management 市場管理</td>
+<td>3.00</td>
+<td>- Professor ZHANG Meng</td>
+<td>55</td>
+<td>17</td>
+<td>LEC</td>
+<td>L</td>
+<td>E</td>
+<td>Tu 10:30AM - 01:15PM</td>
+<td>CYT_LT5</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Marketing</td>
+<tr>
+<td>MKTG2010M</td>
+<td>5769</td>
+<td>Marketing Management 市場管理</td>
+<td>3.00</td>
+<td>- Professor SHEN Luxi</td>
+<td>55</td>
+<td>14</td>
+<td>LEC</td>
+<td>M</td>
+<td>E</td>
+<td>We 09:30AM - 12:15PM</td>
+<td>WMY_508</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Marketing</td>
+<tr>
+<td>MKTG2010N</td>
+<td>7869</td>
+<td>Marketing Management 市場管理</td>
+<td>3.00</td>
+<td>- Dr. LEE Kenneth Justin</td>
+<td>55</td>
+<td>16</td>
+<td>LEC</td>
+<td>N</td>
+<td>E</td>
+<td>Tu 09:30AM - 12:15PM</td>
+<td>FYB_UG02</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Marketing</td>
+<tr>
+<td>MKTG2010P</td>
+<td>6413</td>
+<td>Marketing Management 市場管理</td>
+<td>3.00</td>
+<td>- Dr. MAK Sau Wa</td>
+<td>55</td>
+<td>4</td>
+<td>LEC</td>
+<td>P</td>
+<td>E</td>
+<td>Fr 08:30AM - 11:15AM</td>
+<td>WMY_408</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Marketing</td>
+<tr>
+<td>MKTG2010Q</td>
+<td>4094</td>
+<td>Marketing Management 市場管理</td>
+<td>3.00</td>
+<td>- Professor SHEN Luxi</td>
+<td>55</td>
+<td>9</td>
+<td>LEC</td>
+<td>Q</td>
+<td>E</td>
+<td>Th 09:30AM - 12:15PM</td>
+<td>WMY_303</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Marketing</td>
+<tr>
+<td>MKTG2010R</td>
+<td>7872</td>
+<td>Marketing Management 市場管理</td>
+<td>3.00</td>
+<td>- Dr. LEE Kenneth Justin</td>
+<td>55</td>
+<td>5</td>
+<td>LEC</td>
+<td>R</td>
+<td>E</td>
+<td>Th 09:30AM - 12:15PM</td>
+<td>WMY_506</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Marketing</td>
+<tr>
+<td>MKTG2010S</td>
+<td>7871</td>
+<td>Marketing Management 市場管理</td>
+<td>3.00</td>
+<td>- Professor ZHANG Meng</td>
+<td>55</td>
+<td>15</td>
+<td>LEC</td>
+<td>S</td>
+<td>E</td>
+<td>Th 02:30PM - 05:15PM</td>
+<td>CYT_LT1</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Marketing</td>
+<tr>
+<td>MKTG3010D</td>
+<td>4355</td>
+<td>Marketing Research 市場研究</td>
+<td>3.00</td>
+<td>- Professor TSE Ching Biu</td>
+<td>50</td>
+<td>0</td>
+<td>LEC</td>
+<td>D</td>
+<td>E</td>
+<td>Mo 02:30PM - 05:15PM</td>
+<td>WMY_304</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Marketing</td>
+<tr>
+<td>MKTG3020C</td>
+<td>7986</td>
+<td>Consumer Behaviour 消費者行為</td>
+<td>3.00</td>
+<td>- Professor KWONG Yuk Yee Jessica</td>
+<td>50</td>
+<td>3</td>
+<td>LEC</td>
+<td>C</td>
+<td>E</td>
+<td>Tu 09:30AM - 12:15PM</td>
+<td>CKB_UG03</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Marketing</td>
+<tr>
+<td>MKTG3030B</td>
+<td>5615</td>
+<td>Integrated Mkt Communication 整合營銷傳播</td>
+<td>3.00</td>
+<td>- Professor GAO Leilei</td>
+<td>50</td>
+<td>2</td>
+<td>LEC</td>
+<td>B</td>
+<td>E</td>
+<td>We 09:30AM - 12:15PM</td>
+<td>CYT_LT8</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Marketing</td>
+<tr>
+<td>MKTG3030C</td>
+<td>7873</td>
+<td>Integrated Mkt Communication 整合營銷傳播</td>
+<td>3.00</td>
+<td>- Professor GAO Leilei</td>
+<td>50</td>
+<td>9</td>
+<td>LEC</td>
+<td>C</td>
+<td>E</td>
+<td>We 02:30PM - 05:15PM</td>
+<td>WMY_508</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Marketing</td>
+<tr>
+<td>MKTG3050-</td>
+<td>5692</td>
+<td>Global Marketing Management 環球營銷管理</td>
+<td>3.00</td>
+<td>- Professor YU Hung Hsua Julie</td>
+<td>50</td>
+<td>29</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Th 09:30AM - 12:15PM</td>
+<td>CYT_LT5</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Marketing</td>
+<tr>
+<td>MKTG4030-</td>
+<td>7874</td>
+<td>Service Marketing 服務市場學</td>
+<td>3.00</td>
+<td>- Professor ZHANG Meng</td>
+<td>50</td>
+<td>24</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Fr 08:30AM - 11:15AM</td>
+<td>WMY_406</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Marketing</td>
+<tr>
+<td>MKTG4040B</td>
+<td>6838</td>
+<td>Strategic Marketing 策略市場學</td>
+<td>3.00</td>
+<td>- Professor SHEN Hao</td>
+<td>50</td>
+<td>0</td>
+<td>LEC</td>
+<td>B</td>
+<td>E</td>
+<td>Tu 02:30PM - 05:15PM</td>
+<td>ELB_405</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Marketing</td>
+<tr>
+<td>MKTG4040C</td>
+<td>6839</td>
+<td>Strategic Marketing 策略市場學</td>
+<td>3.00</td>
+<td>- Professor SHEN Hao</td>
+<td>50</td>
+<td>1</td>
+<td>LEC</td>
+<td>C</td>
+<td>E</td>
+<td>Th 10:30AM - 01:15PM</td>
+<td>FYB_UG01</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Marketing</td>
+<tr>
+<td>MKTG4070C</td>
+<td>7875</td>
+<td>Marketing in China 中國市場營銷</td>
+<td>3.00</td>
+<td>- Professor DAI Xianchi</td>
+<td>50</td>
+<td>6</td>
+<td>LEC</td>
+<td>C</td>
+<td>E</td>
+<td>Tu 10:30AM - 01:15PM</td>
+<td>ELB_403</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Marketing</td>
+<tr>
+<td>MKTG4070D</td>
+<td>4356</td>
+<td>Marketing in China 中國市場營銷</td>
+<td>3.00</td>
+<td>- Professor DAI Xianchi</td>
+<td>50</td>
+<td>5</td>
+<td>LEC</td>
+<td>D</td>
+<td>E</td>
+<td>Tu 02:30PM - 05:15PM</td>
+<td>CYT_201</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Marketing</td>
+<tr>
+<td>MKTG4080-</td>
+<td>4095</td>
+<td>Internet Marketing 電腦網絡巿場營銷</td>
+<td>3.00</td>
+<td>- Professor LAU Kin Nam</td>
+<td>50</td>
+<td>8</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>We 03:30PM - 06:15PM</td>
+<td>WMY_408</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Marketing</td>
+<tr>
+<td>MKTG4120-</td>
+<td>4086</td>
+<td>Quantitative Marketing 數量巿場學</td>
+<td>3.00</td>
+<td>- Professor GUO Liang</td>
+<td>50</td>
+<td>32</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Fr 02:30PM - 05:15PM</td>
+<td>WMY_403</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Marketing</td>
+<tr>
+<td>MKTG4140-</td>
+<td>8335</td>
+<td>Global Business Services 全球企業諮詢服務</td>
+<td>3.00</td>
+<td>- Professor SO Lai Man</td>
+<td>50</td>
+<td>24</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Mo 03:30PM - 06:15PM</td>
+<td>ELB_203</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Dept of Marketing</td>
+</table></body></html>

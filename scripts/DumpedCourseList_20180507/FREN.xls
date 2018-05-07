@@ -1,0 +1,632 @@
+<html dir='ltr' lang='en'>
+<!-- Copyright (c) 2000, 2007, Oracle. All rights reserved. -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><body><table border='1' cellpadding='3' cellspacing='0'>
+<tr>
+<th>Class Code</th><th>Class Nbr</th><th>Course Title</th><th>Units</th><th>Teaching Staff</th><th>Quota(s)</th><th>Vacancy</th><th>Course Component</th><th>Section Code</th><th>Language</th><th>Period</th><th>Room</th><th>Meeting Date</th><th>Add Consent</th><th>Drop Consent</th><th>Course Offering Dept</th></tr>
+<tr>
+<td>FREN1000T</td>
+<td>4677</td>
+<td>French I 法語（一）</td>
+<td>3.00</td>
+<td>- Mr Raphael Ange Francois A. CHIARELLI</td>
+<td>24</td>
+<td>0</td>
+<td>CLW</td>
+<td>TC01</td>
+<td>F&amp;E</td>
+<td>Tu 10:30AM - 12:15PM</td>
+<td>UCA_102</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Linguistics &amp; Mod Lang</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 01:30PM - 02:15PM</td>
+<td>ERB_804</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>FREN1000U</td>
+<td>7748</td>
+<td>French I 法語（一）</td>
+<td>3.00</td>
+<td>- Mr Raphael Ange Francois A. CHIARELLI</td>
+<td>24</td>
+<td>1</td>
+<td>CLW</td>
+<td>UC01</td>
+<td>F&amp;E</td>
+<td>We 08:30AM - 11:15AM</td>
+<td>LSK_202</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Linguistics &amp; Mod Lang</td>
+<tr>
+<td>FREN1000V</td>
+<td>8043</td>
+<td>French I 法語（一）</td>
+<td>3.00</td>
+<td>- Ms Laurence Julie Marie CASANOVA</td>
+<td>24</td>
+<td>0</td>
+<td>CLW</td>
+<td>VC01</td>
+<td>F&amp;E</td>
+<td>Th 02:30PM - 05:15PM</td>
+<td>ELB_207</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Linguistics &amp; Mod Lang</td>
+<tr>
+<td>FREN1000W</td>
+<td>4393</td>
+<td>French I 法語（一）</td>
+<td>3.00</td>
+<td>- Mr Raphael Ange Francois A. CHIARELLI</td>
+<td>24</td>
+<td>4</td>
+<td>CLW</td>
+<td>WC01</td>
+<td>F&amp;E</td>
+<td>Tu 01:30PM - 02:15PM</td>
+<td>ERB_402</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Linguistics &amp; Mod Lang</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 10:30AM - 12:15PM</td>
+<td>LSB_C4</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>FREN1000X</td>
+<td>6883</td>
+<td>French I 法語（一）</td>
+<td>3.00</td>
+<td>- Mrs Anahi G. FRAUENFELDER NGUYEN TANG</td>
+<td>24</td>
+<td>2</td>
+<td>CLW</td>
+<td>XC01</td>
+<td>F&amp;E</td>
+<td>Mo 02:30PM - 04:15PM</td>
+<td>ERB_402</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Linguistics &amp; Mod Lang</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>We 01:30PM - 02:15PM</td>
+<td>LHC_106</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>FREN1000Y</td>
+<td>5954</td>
+<td>French I 法語（一）</td>
+<td>3.00</td>
+<td>- Mrs Anahi G. FRAUENFELDER NGUYEN TANG</td>
+<td>24</td>
+<td>5</td>
+<td>CLW</td>
+<td>YC01</td>
+<td>F&amp;E</td>
+<td>Mo 01:30PM - 02:15PM</td>
+<td>ERB_402</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Linguistics &amp; Mod Lang</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>We 02:30PM - 04:15PM</td>
+<td>ERB_713</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>FREN2000A</td>
+<td>7747</td>
+<td>French II 法語（二）</td>
+<td>3.00</td>
+<td>- Ms Guillemette FIOT</td>
+<td>24</td>
+<td>1</td>
+<td>CLW</td>
+<td>AC01</td>
+<td>F&amp;E</td>
+<td>Tu 10:30AM - 01:15PM</td>
+<td>ERB_401</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Linguistics &amp; Mod Lang</td>
+<tr>
+<td>FREN2000B</td>
+<td>7745</td>
+<td>French II 法語（二）</td>
+<td>3.00</td>
+<td>- Mr Benjamin Malcom Thomas GAUDET</td>
+<td>24</td>
+<td>2</td>
+<td>CLW</td>
+<td>BC01</td>
+<td>F&amp;E</td>
+<td>We 08:30AM - 11:15AM</td>
+<td>LSK_204</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Linguistics &amp; Mod Lang</td>
+<tr>
+<td>FREN2000C</td>
+<td>5065</td>
+<td>French II 法語（二）</td>
+<td>3.00</td>
+<td>- Mr Raphael Ange Francois A. CHIARELLI</td>
+<td>24</td>
+<td>0</td>
+<td>CLW</td>
+<td>CC01</td>
+<td>F&amp;E</td>
+<td>Th 02:30PM - 05:15PM</td>
+<td>ERB_401</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Linguistics &amp; Mod Lang</td>
+<tr>
+<td>FREN2000D</td>
+<td>7779</td>
+<td>French II 法語（二）</td>
+<td>3.00</td>
+<td>- Mrs Anahi G. FRAUENFELDER NGUYEN TANG</td>
+<td>24</td>
+<td>0</td>
+<td>CLW</td>
+<td>DC01</td>
+<td>F&amp;E</td>
+<td>Tu 02:30PM - 05:15PM</td>
+<td>ERB_402</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Linguistics &amp; Mod Lang</td>
+<tr>
+<td>FREN2000E</td>
+<td>7746</td>
+<td>French II 法語（二）</td>
+<td>3.00</td>
+<td>- Mr Jean-Luc REY</td>
+<td>24</td>
+<td>0</td>
+<td>CLW</td>
+<td>EC01</td>
+<td>F&amp;E</td>
+<td>Mo 08:30AM - 11:15AM</td>
+<td>ERB_712</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Linguistics &amp; Mod Lang</td>
+<tr>
+<td>FREN2000F</td>
+<td>7780</td>
+<td>French II 法語（二）</td>
+<td>3.00</td>
+<td>- Mr Benjamin Malcom Thomas GAUDET</td>
+<td>24</td>
+<td>6</td>
+<td>CLW</td>
+<td>FC01</td>
+<td>F&amp;E</td>
+<td>Mo 02:30PM - 04:15PM</td>
+<td>ERB_706</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Linguistics &amp; Mod Lang</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>We 01:30PM - 02:15PM</td>
+<td>UCA_102</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>FREN2000G</td>
+<td>6842</td>
+<td>French II 法語（二）</td>
+<td>3.00</td>
+<td>- Mr Serge Yves Andre GALIN</td>
+<td>24</td>
+<td>1</td>
+<td>CLW</td>
+<td>GC01</td>
+<td>F&amp;E</td>
+<td>Fr 08:30AM - 11:15AM</td>
+<td>LSB_G34</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Linguistics &amp; Mod Lang</td>
+<tr>
+<td>FREN2100-</td>
+<td>8013</td>
+<td>Exploring French Literature 法國文學探索</td>
+<td>3.00</td>
+<td>- Mrs Anahi G. FRAUENFELDER NGUYEN TANG</td>
+<td>24</td>
+<td>0</td>
+<td>CLW</td>
+<td>-C01</td>
+<td>E</td>
+<td>Tu 10:30AM - 01:15PM</td>
+<td>UCC_110</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Linguistics &amp; Mod Lang</td>
+<tr>
+<td>FREN3000A</td>
+<td>6057</td>
+<td>French IV 法語（四）</td>
+<td>3.00</td>
+<td>- Mr Benjamin Malcom Thomas GAUDET</td>
+<td>24</td>
+<td>13</td>
+<td>CLW</td>
+<td>AC01</td>
+<td>F&amp;E</td>
+<td>Tu 10:30AM - 01:15PM</td>
+<td>BMS_1</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Linguistics &amp; Mod Lang</td>
+<tr>
+<td>FREN3000B</td>
+<td>6058</td>
+<td>French IV 法語（四）</td>
+<td>3.00</td>
+<td>- Mr Benjamin Malcom Thomas GAUDET</td>
+<td>24</td>
+<td>7</td>
+<td>CLW</td>
+<td>BC01</td>
+<td>F&amp;E</td>
+<td>Mo 01:30PM - 02:15PM</td>
+<td>ERB_706</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Linguistics &amp; Mod Lang</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>We 02:30PM - 04:15PM</td>
+<td>UCA_102</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>FREN3000C</td>
+<td>5953</td>
+<td>French IV 法語（四）</td>
+<td>3.00</td>
+<td>- Mrs. Hyon Sou KUNEGEL</td>
+<td>24</td>
+<td>1</td>
+<td>CLW</td>
+<td>CC01</td>
+<td>F&amp;E</td>
+<td>Tu 01:30PM - 02:15PM</td>
+<td>LSB_C1</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Linguistics &amp; Mod Lang</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 10:30AM - 12:15PM</td>
+<td>LSK_204</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>FREN3000D</td>
+<td>8012</td>
+<td>French IV 法語（四）</td>
+<td>3.00</td>
+<td>- Mrs. Hyon Sou KUNEGEL</td>
+<td>24</td>
+<td>5</td>
+<td>CLW</td>
+<td>DC01</td>
+<td>F&amp;E</td>
+<td>Mo 02:30PM - 04:15PM</td>
+<td>LSB_C3</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Linguistics &amp; Mod Lang</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>We 01:30PM - 02:15PM</td>
+<td>LHC_G03</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>FREN3000E</td>
+<td>8014</td>
+<td>French IV 法語（四）</td>
+<td>3.00</td>
+<td>- Mrs. Hyon Sou KUNEGEL</td>
+<td>24</td>
+<td>1</td>
+<td>CLW</td>
+<td>EC01</td>
+<td>F&amp;E</td>
+<td>We 08:30AM - 11:15AM</td>
+<td>MMW_704</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Linguistics &amp; Mod Lang</td>
+<tr>
+<td>FREN3002A</td>
+<td>7783</td>
+<td>French VI 法語（六）</td>
+<td>3.00</td>
+<td>- Mr Jean-Luc REY</td>
+<td>24</td>
+<td>9</td>
+<td>CLW</td>
+<td>AC01</td>
+<td>F&amp;E</td>
+<td>Th 02:30PM - 05:15PM</td>
+<td>CKB_122</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Linguistics &amp; Mod Lang</td>
+<tr>
+<td>FREN3002B</td>
+<td>7784</td>
+<td>French VI 法語（六）</td>
+<td>3.00</td>
+<td>- Mr Raphael Ange Francois A. CHIARELLI</td>
+<td>24</td>
+<td>0</td>
+<td>CLW</td>
+<td>BC01</td>
+<td>F&amp;E</td>
+<td>Fr 08:30AM - 11:15AM</td>
+<td>ERB_402</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Linguistics &amp; Mod Lang</td>
+<tr>
+<td>FREN3021-</td>
+<td>7537</td>
+<td>French Conversation I 法語會話（一）</td>
+<td>3.00</td>
+<td>- Mrs. Hyon Sou KUNEGEL</td>
+<td>24</td>
+<td>3</td>
+<td>CLW</td>
+<td>-C01</td>
+<td>F&amp;E</td>
+<td>Tu 10:30AM - 12:15PM</td>
+<td>ERB_407</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Linguistics &amp; Mod Lang</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 01:30PM - 02:15PM</td>
+<td>LSK_514</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+</table></body></html>

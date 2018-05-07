@@ -1,0 +1,2086 @@
+<html dir='ltr' lang='en'>
+<!-- Copyright (c) 2000, 2007, Oracle. All rights reserved. -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><body><table border='1' cellpadding='3' cellspacing='0'>
+<tr>
+<th>Class Code</th><th>Class Nbr</th><th>Course Title</th><th>Units</th><th>Teaching Staff</th><th>Quota(s)</th><th>Vacancy</th><th>Course Component</th><th>Section Code</th><th>Language</th><th>Period</th><th>Room</th><th>Meeting Date</th><th>Add Consent</th><th>Drop Consent</th><th>Course Offering Dept</th></tr>
+<tr>
+<td>JASP1050-</td>
+<td>7992</td>
+<td>Field Research Methods 實地考察研究方法</td>
+<td>3.00</td>
+<td>- Professor Lynne Yukie NAKANO</td>
+<td>30</td>
+<td>1</td>
+<td>LEC</td>
+<td>-</td>
+<td>E</td>
+<td>Tu 02:30PM - 04:15PM</td>
+<td>LSK_206</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Dept of Japanese Studies</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>30</td>
+<td>15</td>
+<td>TUT</td>
+<td>-T01</td>
+<td>E</td>
+<td>Th 02:30PM - 03:15PM</td>
+<td>LSK_210</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Dept of Japanese Studies</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>30</td>
+<td>16</td>
+<td>TUT</td>
+<td>-T02</td>
+<td>E</td>
+<td>Th 03:30PM - 04:15PM</td>
+<td>LSK_210</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Dept of Japanese Studies</td>
+<tr>
+<td>JASP1090B</td>
+<td>4288</td>
+<td>Understanding Japan 透視日本</td>
+<td>3.00</td>
+<td>- Professor GAGNE Nana Okura</td>
+<td>30</td>
+<td>0</td>
+<td>LEC</td>
+<td>B</td>
+<td>E</td>
+<td>Tu 10:30AM - 12:15PM</td>
+<td>LDS_214</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Dept of Japanese Studies</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>30</td>
+<td>0</td>
+<td>TUT</td>
+<td>BT01</td>
+<td>E</td>
+<td>Th 10:30AM - 12:15PM</td>
+<td>UCC_201</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Dept of Japanese Studies</td>
+<tr>
+<td>JASP1090C</td>
+<td>4752</td>
+<td>Understanding Japan 透視日本</td>
+<td>3.00</td>
+<td>- Dr. CHEUNG Ching Yuen</td>
+<td>80</td>
+<td>36</td>
+<td>LEC</td>
+<td>C</td>
+<td>C&amp;E</td>
+<td>We 09:30AM - 11:15AM</td>
+<td>LHC_104</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Japanese Studies</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>80</td>
+<td>36</td>
+<td>TUT</td>
+<td>CT01</td>
+<td>C&amp;E</td>
+<td>We 11:30AM - 12:15PM</td>
+<td>LHC_104</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Japanese Studies</td>
+<tr>
+<td>JASP1100B</td>
+<td>8123</td>
+<td>Jap Culture & Society 日本文化與社會</td>
+<td>3.00</td>
+<td>- Mr IP Kin Ho</td>
+<td>25</td>
+<td>0</td>
+<td>LEC</td>
+<td>B</td>
+<td>C</td>
+<td>We 10:30AM - 01:15PM</td>
+<td>MMW_703</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Japanese Studies</td>
+<tr>
+<td>JASP1120C</td>
+<td>6749</td>
+<td>Understanding Jas Lang & Cult 日本語言文化面面觀</td>
+<td>3.00</td>
+<td>- Professor HO Chi Ming</td>
+<td>25</td>
+<td>3</td>
+<td>LEC</td>
+<td>C</td>
+<td>C</td>
+<td>Mo 09:30AM - 12:15PM</td>
+<td>UCC_C2</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Japanese Studies</td>
+<tr>
+<td>JASP1120D</td>
+<td>6750</td>
+<td>Understanding Jas Lang & Cult 日本語言文化面面觀</td>
+<td>3.00</td>
+<td>- Professor LEE Wood Hung</td>
+<td>25</td>
+<td>8</td>
+<td>LEC</td>
+<td>D</td>
+<td>C</td>
+<td>Th 02:30PM - 05:15PM</td>
+<td>KKB_101</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Japanese Studies</td>
+<tr>
+<td>JASP1160C</td>
+<td>7993</td>
+<td>Jas Pop Cul in Cul Global 日本流行文化與文化全球化</td>
+<td>3.00</td>
+<td>- Mr. LAU Ching</td>
+<td>40</td>
+<td>11</td>
+<td>LEC</td>
+<td>C</td>
+<td>C</td>
+<td>Th 02:30PM - 05:15PM</td>
+<td>LSK_LT1</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Japanese Studies</td>
+<tr>
+<td>JASP1160D</td>
+<td>6677</td>
+<td>Jas Pop Cul in Cul Global 日本流行文化與文化全球化</td>
+<td>3.00</td>
+<td>- Professor NG Wai Ming</td>
+<td>30</td>
+<td>1</td>
+<td>LEC</td>
+<td>D</td>
+<td>C</td>
+<td>Tu 11:30AM - 02:15PM</td>
+<td>LSK_LT2</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Japanese Studies</td>
+<tr>
+<td>JASP1170-</td>
+<td>6890</td>
+<td>The Japanese Environment 日本的環境：破壞與保護</td>
+<td>3.00</td>
+<td>- Dr. CHEUNG Ching Yuen</td>
+<td>25</td>
+<td>15</td>
+<td>LEC</td>
+<td>-</td>
+<td></td>
+<td>Tu 02:30PM - 05:15PM</td>
+<td>LSK_LT1</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Japanese Studies</td>
+<tr>
+<td>JASP1460A</td>
+<td>3995</td>
+<td>New Practical Japanese II 新實用日語（二）</td>
+<td>3.00</td>
+<td>- Ms SAWADA Michiko</td>
+<td>22</td>
+<td>3</td>
+<td>LEC</td>
+<td>A</td>
+<td>J&amp;E</td>
+<td>Mo 09:30AM - 11:15AM</td>
+<td>UCA_103</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Japanese Studies</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>We 01:30PM - 03:15PM</td>
+<td>UCC_111</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>JASP1460B</td>
+<td>3996</td>
+<td>New Practical Japanese II 新實用日語（二）</td>
+<td>3.00</td>
+<td>- Ms SAWADA Michiko</td>
+<td>22</td>
+<td>0</td>
+<td>LEC</td>
+<td>B</td>
+<td>J&amp;E</td>
+<td>Mo 11:30AM - 01:15PM</td>
+<td>UCA_103</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Japanese Studies</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 09:30AM - 11:15AM</td>
+<td>UCC_111</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>JASP1460C</td>
+<td>3997</td>
+<td>New Practical Japanese II 新實用日語（二）</td>
+<td>3.00</td>
+<td>- Miss CHAN Suk Yi</td>
+<td>22</td>
+<td>0</td>
+<td>LEC</td>
+<td>C</td>
+<td>J&amp;C</td>
+<td>Mo 10:30AM - 12:15PM</td>
+<td>LDS_214</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Japanese Studies</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>We 11:30AM - 01:15PM</td>
+<td>LDS_214</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>JASP1460D</td>
+<td>3998</td>
+<td>New Practical Japanese II 新實用日語（二）</td>
+<td>3.00</td>
+<td>- Miss CHAN Suk Yi</td>
+<td>22</td>
+<td>1</td>
+<td>LEC</td>
+<td>D</td>
+<td>J&amp;C</td>
+<td>We 09:30AM - 11:15AM</td>
+<td>UCC_201</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Japanese Studies</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Fr 09:30AM - 11:15AM</td>
+<td>UCC_110</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>JASP1460E</td>
+<td>3999</td>
+<td>New Practical Japanese II 新實用日語（二）</td>
+<td>3.00</td>
+<td>- Mr KUZUMOTO Takahiro</td>
+<td>22</td>
+<td>3</td>
+<td>LEC</td>
+<td>E</td>
+<td>J&amp;P</td>
+<td>Mo 02:30PM - 04:15PM</td>
+<td>LSK_301</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Japanese Studies</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>We 12:30PM - 02:15PM</td>
+<td>LSK_210</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>JASP1460F</td>
+<td>4000</td>
+<td>New Practical Japanese II 新實用日語（二）</td>
+<td>3.00</td>
+<td>- Mr KUZUMOTO Takahiro</td>
+<td>22</td>
+<td>2</td>
+<td>LEC</td>
+<td>F</td>
+<td>J&amp;P</td>
+<td>Mo 04:30PM - 06:15PM</td>
+<td>UCA_103</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Japanese Studies</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>We 02:30PM - 04:15PM</td>
+<td>UCC_110</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>JASP1460G</td>
+<td>4001</td>
+<td>New Practical Japanese II 新實用日語（二）</td>
+<td>3.00</td>
+<td>- Mr CHEN Charles Chun Junior</td>
+<td>22</td>
+<td>3</td>
+<td>LEC</td>
+<td>G</td>
+<td>J&amp;C</td>
+<td>Mo 12:30PM - 02:15PM</td>
+<td>LSK_206</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Japanese Studies</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>We 08:30AM - 10:15AM</td>
+<td>UCA_103</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>JASP1460H</td>
+<td>4002</td>
+<td>New Practical Japanese II 新實用日語（二）</td>
+<td>3.00</td>
+<td>- Mr CHEN Charles Chun Junior</td>
+<td>22</td>
+<td>3</td>
+<td>LEC</td>
+<td>H</td>
+<td>J&amp;C</td>
+<td>Mo 02:30PM - 04:15PM</td>
+<td>UCA_103</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Japanese Studies</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>We 10:30AM - 12:15PM</td>
+<td>LSK_212</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>JASP1460I</td>
+<td>4003</td>
+<td>New Practical Japanese II 新實用日語（二）</td>
+<td>3.00</td>
+<td>- Mr CHAU Wang Yeung</td>
+<td>22</td>
+<td>6</td>
+<td>LEC</td>
+<td>I</td>
+<td>J&amp;C</td>
+<td>Tu 08:30AM - 10:15AM</td>
+<td>UCC_114</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Japanese Studies</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 02:30PM - 04:15PM</td>
+<td>UCC_114</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>JASP1460J</td>
+<td>3722</td>
+<td>New Practical Japanese II 新實用日語（二）</td>
+<td>3.00</td>
+<td>- Mr KOIDE Masao</td>
+<td>22</td>
+<td>3</td>
+<td>LEC</td>
+<td>J</td>
+<td>J&amp;E</td>
+<td>Tu 10:30AM - 12:15PM</td>
+<td>LSK_206</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Japanese Studies</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 12:30PM - 02:15PM</td>
+<td>LSK_212</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>JASP1460K</td>
+<td>4004</td>
+<td>New Practical Japanese II 新實用日語（二）</td>
+<td>3.00</td>
+<td>- Mr KOIDE Masao</td>
+<td>22</td>
+<td>13</td>
+<td>LEC</td>
+<td>K</td>
+<td>J&amp;E</td>
+<td>Tu 02:30PM - 04:15PM</td>
+<td>UCA_103</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Japanese Studies</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 08:30AM - 10:15AM</td>
+<td>UCC_110</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>JASP1460L</td>
+<td>8000</td>
+<td>New Practical Japanese II 新實用日語（二）</td>
+<td>3.00</td>
+<td>- Professor GODA Miho</td>
+<td>22</td>
+<td>2</td>
+<td>LEC</td>
+<td>L</td>
+<td>J&amp;P</td>
+<td>Tu 02:30PM - 04:15PM</td>
+<td>UCC_114</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Japanese Studies</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 12:30PM - 02:15PM</td>
+<td>UCC_201</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>JASP1460M</td>
+<td>4159</td>
+<td>New Practical Japanese II 新實用日語（二）</td>
+<td>3.00</td>
+<td>- Professor GODA Miho</td>
+<td>22</td>
+<td>5</td>
+<td>LEC</td>
+<td>M</td>
+<td>J&amp;P</td>
+<td>Tu 04:30PM - 06:15PM</td>
+<td>UCA_103</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Japanese Studies</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 10:30AM - 12:15PM</td>
+<td>UCC_110</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>JASP1460N</td>
+<td>4160</td>
+<td>New Practical Japanese II 新實用日語（二）</td>
+<td>3.00</td>
+<td>- Miss HASHIDA Wakae</td>
+<td>22</td>
+<td>4</td>
+<td>LEC</td>
+<td>N</td>
+<td>J&amp;E</td>
+<td>Tu 10:30AM - 12:15PM</td>
+<td>LSK_212</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Japanese Studies</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 02:30PM - 04:15PM</td>
+<td>UCA_103</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>JASP1460O</td>
+<td>4161</td>
+<td>New Practical Japanese II 新實用日語（二）</td>
+<td>3.00</td>
+<td>- Miss HASHIDA Wakae</td>
+<td>22</td>
+<td>1</td>
+<td>LEC</td>
+<td>O</td>
+<td>J&amp;E</td>
+<td>Tu 12:30PM - 02:15PM</td>
+<td>LSK_212</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Japanese Studies</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 04:30PM - 06:15PM</td>
+<td>UCA_103</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>JASP1480A</td>
+<td>4803</td>
+<td>New Comprehensive Japanese II 新綜合日語（二）</td>
+<td>3.00</td>
+<td>- Ms. CHOI Wing Sum</td>
+<td>15</td>
+<td>6</td>
+<td>LEC</td>
+<td>A</td>
+<td>J&amp;C</td>
+<td>Mo 10:30AM - 12:15PM</td>
+<td>LSK_304</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Dept of Japanese Studies</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>We 10:30AM - 12:15PM</td>
+<td>LSK_201</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>15</td>
+<td>6</td>
+<td>TUT</td>
+<td>AT01</td>
+<td>J&amp;C</td>
+<td>Th 09:30AM - 10:15AM</td>
+<td>UCA_102</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Dept of Japanese Studies</td>
+<tr>
+<td>JASP1480B</td>
+<td>4806</td>
+<td>New Comprehensive Japanese II 新綜合日語（二）</td>
+<td>3.00</td>
+<td>- Ms. FONG Wan</td>
+<td>15</td>
+<td>5</td>
+<td>LEC</td>
+<td>B</td>
+<td>J&amp;C</td>
+<td>Mo 10:30AM - 12:15PM</td>
+<td>LSK_206</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Dept of Japanese Studies</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>We 10:30AM - 12:15PM</td>
+<td>LSK_206</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>15</td>
+<td>5</td>
+<td>TUT</td>
+<td>BT01</td>
+<td>J&amp;C</td>
+<td>Th 09:30AM - 10:15AM</td>
+<td>UCC_206</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Dept of Japanese Studies</td>
+<tr>
+<td>JASP1490-</td>
+<td>4088</td>
+<td>Japanese Pronunciation I 日語發音基礎（一）</td>
+<td>1.00</td>
+<td>- Professor NOMURA Kazuyuki</td>
+<td>20</td>
+<td>0</td>
+<td>WKS</td>
+<td>-W01</td>
+<td>J</td>
+<td>We 04:30PM - 05:15PM</td>
+<td>UCC_206</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Japanese Studies</td>
+<tr>
+<td>JASP2460A</td>
+<td>4104</td>
+<td>New Practical Japanese IV 新實用日語（四）</td>
+<td>3.00</td>
+<td>- Ms HAYASHI Atsuko</td>
+<td>22</td>
+<td>0</td>
+<td>LEC</td>
+<td>A</td>
+<td>J&amp;C</td>
+<td>Tu 12:30PM - 02:15PM</td>
+<td>UCA_103</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Japanese Studies</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 10:30AM - 12:15PM</td>
+<td>UCA_103</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>JASP2460C</td>
+<td>4106</td>
+<td>New Practical Japanese IV 新實用日語（四）</td>
+<td>3.00</td>
+<td>- Ms KONG Sung Tak</td>
+<td>22</td>
+<td>4</td>
+<td>LEC</td>
+<td>C</td>
+<td>J&amp;C</td>
+<td>Mo 02:30PM - 04:15PM</td>
+<td>UCC_110</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Japanese Studies</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>We 02:30PM - 04:15PM</td>
+<td>UCC_114</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>JASP2460D</td>
+<td>4107</td>
+<td>New Practical Japanese IV 新實用日語（四）</td>
+<td>3.00</td>
+<td>- Mr CHEN Bicheng</td>
+<td>22</td>
+<td>0</td>
+<td>LEC</td>
+<td>D</td>
+<td>J&amp;P</td>
+<td>Mo 12:30PM - 02:15PM</td>
+<td>UCC_110</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Japanese Studies</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>We 12:30PM - 02:15PM</td>
+<td>UCC_114</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>JASP2460E</td>
+<td>3957</td>
+<td>New Practical Japanese IV 新實用日語（四）</td>
+<td>3.00</td>
+<td>- Ms KOIKE Shinobu</td>
+<td>22</td>
+<td>3</td>
+<td>LEC</td>
+<td>E</td>
+<td>J&amp;E</td>
+<td>Tu 02:30PM - 04:15PM</td>
+<td>LSK_304</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Japanese Studies</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 02:30PM - 04:15PM</td>
+<td>LSK_206</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>JASP2460F</td>
+<td>6788</td>
+<td>New Practical Japanese IV 新實用日語（四）</td>
+<td>3.00</td>
+<td>- Ms HAYASHI Atsuko</td>
+<td>22</td>
+<td>0</td>
+<td>LEC</td>
+<td>F</td>
+<td>J&amp;C</td>
+<td>Tu 10:30AM - 12:15PM</td>
+<td>LSK_202</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Japanese Studies</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 12:30PM - 02:15PM</td>
+<td>UCC_114</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>JASP2460G</td>
+<td>3903</td>
+<td>New Practical Japanese IV 新實用日語（四）</td>
+<td>3.00</td>
+<td>- Ms KONG Sung Tak</td>
+<td>22</td>
+<td>9</td>
+<td>LEC</td>
+<td>G</td>
+<td>J&amp;C</td>
+<td>Mo 04:30PM - 06:15PM</td>
+<td>LSK_212</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Japanese Studies</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>We 04:30PM - 06:15PM</td>
+<td>UCC_201</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>JASP2480A</td>
+<td>7990</td>
+<td>New Comprehensive Japanese IV 新綜合日本語IV</td>
+<td>5.00</td>
+<td>- Ms. UEDA Sanae</td>
+<td>15</td>
+<td>7</td>
+<td>LEC</td>
+<td>A</td>
+<td>J</td>
+<td>Mo 02:30PM - 04:15PM</td>
+<td>LSK_206</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Dept of Japanese Studies</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>We 04:30PM - 06:15PM</td>
+<td>LSK_212</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Fr 09:30AM - 11:15AM</td>
+<td>UCA_103</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>15</td>
+<td>7</td>
+<td>TUT</td>
+<td>AT02</td>
+<td>J&amp;C</td>
+<td>Th 01:30PM - 02:15PM</td>
+<td>LSK_202</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Dept of Japanese Studies</td>
+<tr>
+<td>JASP2480B</td>
+<td>7991</td>
+<td>New Comprehensive Japanese IV 新綜合日本語IV</td>
+<td>5.00</td>
+<td>- Ms. INOUE Yumi</td>
+<td>15</td>
+<td>7</td>
+<td>LEC</td>
+<td>B</td>
+<td>J</td>
+<td>Mo 02:30PM - 04:15PM</td>
+<td>UCC_114</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Dept of Japanese Studies</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>We 04:30PM - 06:15PM</td>
+<td>UCC_114</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Fr 09:30AM - 11:15AM</td>
+<td>UCC_114</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>15</td>
+<td>7</td>
+<td>TUT</td>
+<td>BT02</td>
+<td>J&amp;C</td>
+<td>Th 01:30PM - 02:15PM</td>
+<td>LSK_204</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Dept of Japanese Studies</td>
+<tr>
+<td>JASP2490-</td>
+<td>4089</td>
+<td>Japanese Pronunciation II 日語發音基礎（二）</td>
+<td>1.00</td>
+<td>- Ms HAYASHI Atsuko</td>
+<td>20</td>
+<td>5</td>
+<td>WKS</td>
+<td>-W01</td>
+<td>J&amp;C</td>
+<td>We 03:30PM - 04:15PM</td>
+<td>LSK_302</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Japanese Studies</td>
+<tr>
+<td>JASP2520-</td>
+<td>8296</td>
+<td>Gender and Sexuality in Japan 日本的性別與性議題</td>
+<td>3.00</td>
+<td>- Professor Isaac Thomas GAGNE</td>
+<td>60</td>
+<td>54</td>
+<td>LEC</td>
+<td>-</td>
+<td></td>
+<td>Mo 10:30AM - 12:15PM</td>
+<td>LSK_302</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Japanese Studies</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>We 01:30PM - 02:15PM</td>
+<td>UCA_104</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>JASP2550B</td>
+<td>4756</td>
+<td>Jap. Ethnic and Cul. Identity 日本文化及民族性格的形成</td>
+<td>3.00</td>
+<td>- Professor LEE Wood Hung</td>
+<td>60</td>
+<td>1</td>
+<td>LEC</td>
+<td>B</td>
+<td>C</td>
+<td>We 01:30PM - 04:15PM</td>
+<td>KKB_101</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Japanese Studies</td>
+<tr>
+<td>JASP2900-</td>
+<td>7362</td>
+<td>Japan and Hong Kong 日本與香港</td>
+<td>3.00</td>
+<td>- Mr. LAU Ching</td>
+<td>60</td>
+<td>25</td>
+<td>LEC</td>
+<td>-</td>
+<td>C</td>
+<td>Mo 02:30PM - 04:15PM</td>
+<td>MMW_703</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Japanese Studies</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>We 12:30PM - 01:15PM</td>
+<td>UCC_C2</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>JASP3320A</td>
+<td>7555</td>
+<td>Spoken Japanese 日語口語</td>
+<td>3.00</td>
+<td>- Ms. INOUE Yumi</td>
+<td>20</td>
+<td>2</td>
+<td>LEC</td>
+<td>A</td>
+<td></td>
+<td>Mo 09:30AM - 11:15AM</td>
+<td>UCC_206</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Japanese Studies</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>We 01:30PM - 02:15PM</td>
+<td>UCC_208</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>JASP3320B</td>
+<td>3844</td>
+<td>Spoken Japanese 日語口語</td>
+<td>3.00</td>
+<td>- Ms TAKAI Miwa</td>
+<td>20</td>
+<td>0</td>
+<td>LEC</td>
+<td>B</td>
+<td>J</td>
+<td>Mo 11:30AM - 12:15PM</td>
+<td>UCA_102</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Japanese Studies</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>We 10:30AM - 12:15PM</td>
+<td>LSK_301</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>JASP3340B</td>
+<td>7529</td>
+<td>Jap Improvement Strategies 日語能力提升對策 - 詞彙、文法、聽解、讀解</td>
+<td>3.00</td>
+<td>- Ms. CHOI Wing Sum</td>
+<td>20</td>
+<td>0</td>
+<td>CLW</td>
+<td>BC01</td>
+<td>J&amp;C</td>
+<td>Mo 04:30PM - 06:15PM</td>
+<td>UCC_114</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Japanese Studies</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 04:30PM - 06:15PM</td>
+<td>UCC_110</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>JASP3470-</td>
+<td>4458</td>
+<td>Jas Youth Cultures in Asia 日本青少年文化在亞洲</td>
+<td>3.00</td>
+<td>- Mr IP Kin Ho</td>
+<td>60</td>
+<td>30</td>
+<td>LEC</td>
+<td>-</td>
+<td>C</td>
+<td>Tu 10:30AM - 01:15PM</td>
+<td>LSK_LT1</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Japanese Studies</td>
+<tr>
+<td>JASP3600-</td>
+<td>4753</td>
+<td>Inter Jap. thr List. & Reading 從「聽」和「讀」學習中級日語</td>
+<td>3.00</td>
+<td>- Ms. CHOI Wing Sum</td>
+<td>20</td>
+<td>0</td>
+<td>LEC</td>
+<td>-</td>
+<td>J&amp;C</td>
+<td>Tu 12:30PM - 02:15PM</td>
+<td>UCA_104</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Japanese Studies</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 12:30PM - 01:15PM</td>
+<td>LSK_304</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>JASP3700-</td>
+<td>6016</td>
+<td>Japanese Language and Society 日本語言與社會</td>
+<td>3.00</td>
+<td>- Professor HO Chi Ming</td>
+<td>60</td>
+<td>55</td>
+<td>LEC</td>
+<td>-</td>
+<td>J&amp;C</td>
+<td>We 10:30AM - 01:15PM</td>
+<td>KKB_101</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Japanese Studies</td>
+<tr>
+<td>JASP4100-</td>
+<td>6668</td>
+<td>Japanese Dialectology 日語方言學</td>
+<td>3.00</td>
+<td>- Ms. UEDA Sanae</td>
+<td>30</td>
+<td>11</td>
+<td>LEC</td>
+<td>-</td>
+<td>J&amp;E</td>
+<td>Th 02:30PM - 05:15PM</td>
+<td>UCC_201</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Japanese Studies</td>
+<tr>
+<td>JASP4180-</td>
+<td>7582</td>
+<td>Advanced Business Japanese II 高級商業日語（二）</td>
+<td>3.00</td>
+<td>- Ms. INOUE Yumi</td>
+<td>20</td>
+<td>11</td>
+<td>LEC</td>
+<td>-</td>
+<td>J&amp;E</td>
+<td>Tu 10:30AM - 12:15PM</td>
+<td>LSK_304</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Japanese Studies</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 10:30AM - 11:15AM</td>
+<td>UCC_206</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>JASP4350-</td>
+<td>7583</td>
+<td>Advanced Jap-Chi Translation 高級日中翻譯</td>
+<td>3.00</td>
+<td>- Ms. FONG Wan</td>
+<td>20</td>
+<td>2</td>
+<td>LEC</td>
+<td>-</td>
+<td>J&amp;C</td>
+<td>Tu 12:30PM - 02:15PM</td>
+<td>LSK_302</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Japanese Studies</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>Th 12:30PM - 01:15PM</td>
+<td>UCC_207</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>JASP4520-</td>
+<td>7584</td>
+<td>Adv Jas Writing for the Pro 高級專業日語寫作</td>
+<td>3.00</td>
+<td>- Ms. UEDA Sanae</td>
+<td>20</td>
+<td>12</td>
+<td>LEC</td>
+<td>-</td>
+<td>J&amp;E</td>
+<td>Mo 09:30AM - 11:15AM</td>
+<td>UCC_114</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td></td>
+<td>Dept of Japanese Studies</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>We 01:30PM - 02:15PM</td>
+<td>UCC_110</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<tr>
+<td>JASP4601-</td>
+<td>8948</td>
+<td>Field Research-Based Project I 實地考察研究指導（一）</td>
+<td>3.00</td>
+<td>- Professor Jeremy Avrum YELLEN</td>
+<td>1</td>
+<td>0</td>
+<td>PRJ</td>
+<td>-J01</td>
+<td>E</td>
+<td>TBA</td>
+<td>TBA</td>
+<td>05/01/2015 - 14/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Dept of Japanese Studies</td>
+<tr>
+<td>JASP4602-</td>
+<td>4150</td>
+<td>Field Research-Based Proj II 實用考察研究指導（二）</td>
+<td>3.00</td>
+<td>- Professor Jeremy Avrum YELLEN
+- Professor Lynne Yukie NAKANO</td>
+<td>40</td>
+<td>12</td>
+<td>PRJ</td>
+<td>-J01</td>
+<td>E</td>
+<td>TBA</td>
+<td>TBA</td>
+<td>06/01/2015 - 15/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Dept of Japanese Studies</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>TBA</td>
+<td>TBA</td>
+<td>07/01/2015 - 16/04/2015</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>&nbsp;
+</td>
+</table></body></html>

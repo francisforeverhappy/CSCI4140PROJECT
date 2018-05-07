@@ -7,10 +7,11 @@ const express = require('express'),
     mongoose = require('mongoose'),
     session = require('express-session'),
     bodyParser = require('body-parser'),
-    cookieParser = require('cookie-parser'),
+    // cookieParser = require('cookie-parser'),
     flash = require('connect-flash');
     
 const indexRoute = require('./routes/index');
+
 const dbPath = 'mongodb://localhost/csci4140_db';
 mongoose.connect(dbPath);
 const db = mongoose.connection;
@@ -23,7 +24,7 @@ app.use(flash());
 
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
-app.use(cookieParser());
+// app.use(cookieParser());
 app.use(session({
     secret: 'csci4140',
     resave: false,

@@ -1,0 +1,2989 @@
+<html dir='ltr' lang='en'>
+<!-- Copyright (c) 2000, 2007, Oracle. All rights reserved. -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><body><table border='1' cellpadding='3' cellspacing='0'>
+<tr>
+<th>Class Code</th><th>Class Nbr</th><th>Course Title</th><th>Units</th><th>Teaching Staff</th><th>Quota(s)</th><th>Vacancy</th><th>Course Component</th><th>Section Code</th><th>Language</th><th>Period</th><th>Room</th><th>Meeting Date</th><th>Add Consent</th><th>Drop Consent</th><th>Course Offering Dept</th></tr>
+<tr>
+<td>UGFN1000AA</td>
+<td>8491</td>
+<td>In Dialogue With Nature 與自然對話</td>
+<td>3.00</td>
+<td>- Dr CHEUNG Hang Cheong
+- Dr NG Ka Leung</td>
+<td>25</td>
+<td>2</td>
+<td>LEC</td>
+<td>AA</td>
+<td>C</td>
+<td>Fr 01:30PM - 02:15PM</td>
+<td>LSK_LT5</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>25</td>
+<td>2</td>
+<td>TUT</td>
+<td>AAT1</td>
+<td>C</td>
+<td>Mo 02:30PM - 04:15PM</td>
+<td>WMY_502</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>UGFN1000AB</td>
+<td>8520</td>
+<td>In Dialogue With Nature 與自然對話</td>
+<td>3.00</td>
+<td>- Dr CHEUNG Hang Cheong
+- Dr NG Ka Leung</td>
+<td>25</td>
+<td>0</td>
+<td>LEC</td>
+<td>AB</td>
+<td>C</td>
+<td>Fr 01:30PM - 02:15PM</td>
+<td>LSK_LT5</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>25</td>
+<td>0</td>
+<td>TUT</td>
+<td>ABT1</td>
+<td>C</td>
+<td>Mo 04:30PM - 06:15PM</td>
+<td>WMY_501</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>UGFN1000AC</td>
+<td>8518</td>
+<td>In Dialogue With Nature 與自然對話</td>
+<td>3.00</td>
+<td>- Dr CHEUNG Hang Cheong
+- Dr NG Ka Leung</td>
+<td>25</td>
+<td>0</td>
+<td>LEC</td>
+<td>AC</td>
+<td>C</td>
+<td>Fr 01:30PM - 02:15PM</td>
+<td>LSK_LT5</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>25</td>
+<td>0</td>
+<td>TUT</td>
+<td>ACT1</td>
+<td>C</td>
+<td>Tu 09:30AM - 11:15AM</td>
+<td>UCC_201</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>UGFN1000AD</td>
+<td>8516</td>
+<td>In Dialogue With Nature 與自然對話</td>
+<td>3.00</td>
+<td>- Dr CHEUNG Hang Cheong
+- Dr NG Ka Leung</td>
+<td>25</td>
+<td>1</td>
+<td>LEC</td>
+<td>AD</td>
+<td>C</td>
+<td>Fr 01:30PM - 02:15PM</td>
+<td>LSK_LT5</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>25</td>
+<td>1</td>
+<td>TUT</td>
+<td>ADT1</td>
+<td>C</td>
+<td>Tu 11:30AM - 01:15PM</td>
+<td>UCC_201</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>UGFN1000AE</td>
+<td>8514</td>
+<td>In Dialogue With Nature 與自然對話</td>
+<td>3.00</td>
+<td>- Dr CHEUNG Hang Cheong
+- Dr NG Ka Leung</td>
+<td>25</td>
+<td>0</td>
+<td>LEC</td>
+<td>AE</td>
+<td>C</td>
+<td>Fr 01:30PM - 02:15PM</td>
+<td>LSK_LT5</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>25</td>
+<td>0</td>
+<td>TUT</td>
+<td>AET1</td>
+<td>C</td>
+<td>We 10:30AM - 12:15PM</td>
+<td>AIT_G06</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>UGFN1000AF</td>
+<td>8512</td>
+<td>In Dialogue With Nature 與自然對話</td>
+<td>3.00</td>
+<td>- Dr CHEUNG Hang Cheong
+- Dr NG Ka Leung</td>
+<td>25</td>
+<td>1</td>
+<td>LEC</td>
+<td>AF</td>
+<td>C</td>
+<td>Fr 01:30PM - 02:15PM</td>
+<td>LSK_LT5</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>25</td>
+<td>1</td>
+<td>TUT</td>
+<td>AFT1</td>
+<td>C</td>
+<td>We 04:30PM - 06:15PM</td>
+<td>SB_239</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>UGFN1000AG</td>
+<td>8510</td>
+<td>In Dialogue With Nature 與自然對話</td>
+<td>3.00</td>
+<td>- Dr CHEUNG Hang Cheong</td>
+<td>25</td>
+<td>0</td>
+<td>LEC</td>
+<td>AG</td>
+<td>C</td>
+<td>Fr 01:30PM - 02:15PM</td>
+<td>LSK_LT5</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>25</td>
+<td>0</td>
+<td>TUT</td>
+<td>AGT1</td>
+<td>C</td>
+<td>Mo 02:30PM - 04:15PM</td>
+<td>WMY_504</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>UGFN1000AH</td>
+<td>8508</td>
+<td>In Dialogue With Nature 與自然對話</td>
+<td>3.00</td>
+<td>- Dr CHEUNG Hang Cheong
+- Dr NG Ka Leung</td>
+<td>25</td>
+<td>0</td>
+<td>LEC</td>
+<td>AH</td>
+<td>C</td>
+<td>Fr 01:30PM - 02:15PM</td>
+<td>LSK_LT5</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>25</td>
+<td>0</td>
+<td>TUT</td>
+<td>AHT1</td>
+<td>C</td>
+<td>Mo 04:30PM - 06:15PM</td>
+<td>WMY_503</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>UGFN1000AI</td>
+<td>8791</td>
+<td>In Dialogue With Nature 與自然對話</td>
+<td>3.00</td>
+<td>- Dr CHEUNG Hang Cheong
+- Dr NG Ka Leung</td>
+<td>25</td>
+<td>0</td>
+<td>LEC</td>
+<td>AI</td>
+<td>C</td>
+<td>Fr 01:30PM - 02:15PM</td>
+<td>LSK_LT5</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>25</td>
+<td>0</td>
+<td>TUT</td>
+<td>AIT1</td>
+<td>C</td>
+<td>Tu 12:30PM - 02:15PM</td>
+<td>CKB_706C</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>UGFN1000AJ</td>
+<td>8789</td>
+<td>In Dialogue With Nature 與自然對話</td>
+<td>3.00</td>
+<td>- Dr CHEUNG Hang Cheong
+- Dr NG Ka Leung</td>
+<td>25</td>
+<td>0</td>
+<td>LEC</td>
+<td>AJ</td>
+<td>C</td>
+<td>Fr 01:30PM - 02:15PM</td>
+<td>LSK_LT5</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>25</td>
+<td>0</td>
+<td>TUT</td>
+<td>AJT1</td>
+<td>C</td>
+<td>Tu 02:30PM - 04:15PM</td>
+<td>CKB_706C</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>UGFN1000AK</td>
+<td>8787</td>
+<td>In Dialogue With Nature 與自然對話</td>
+<td>3.00</td>
+<td>- Dr CHEUNG Hang Cheong
+- Dr NG Ka Leung</td>
+<td>25</td>
+<td>0</td>
+<td>LEC</td>
+<td>AK</td>
+<td>C</td>
+<td>Fr 01:30PM - 02:15PM</td>
+<td>LSK_LT5</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>25</td>
+<td>0</td>
+<td>TUT</td>
+<td>AKT1</td>
+<td>C</td>
+<td>We 12:30PM - 02:15PM</td>
+<td>AIT_G05</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>UGFN1000AL</td>
+<td>8785</td>
+<td>In Dialogue With Nature 與自然對話</td>
+<td>3.00</td>
+<td>- Dr CHEUNG Hang Cheong
+- Dr NG Ka Leung</td>
+<td>25</td>
+<td>0</td>
+<td>LEC</td>
+<td>AL</td>
+<td>C</td>
+<td>Fr 01:30PM - 02:15PM</td>
+<td>LSK_LT5</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>25</td>
+<td>0</td>
+<td>TUT</td>
+<td>ALT1</td>
+<td>C</td>
+<td>We 02:30PM - 04:15PM</td>
+<td>AIT_G05</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>UGFN1000EA</td>
+<td>8783</td>
+<td>In Dialogue With Nature 與自然對話</td>
+<td>3.00</td>
+<td>- Dr. Klaus John Charles COLANERO</td>
+<td>25</td>
+<td>3</td>
+<td>LEC</td>
+<td>EA</td>
+<td>E</td>
+<td>Fr 02:30PM - 03:15PM</td>
+<td>YIA_LT8</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>25</td>
+<td>3</td>
+<td>TUT</td>
+<td>EAT1</td>
+<td>E</td>
+<td>Mo 10:30AM - 12:15PM</td>
+<td>FYB_401</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>UGFN1000EB</td>
+<td>8781</td>
+<td>In Dialogue With Nature 與自然對話</td>
+<td>3.00</td>
+<td>- Dr. Klaus John Charles COLANERO</td>
+<td>25</td>
+<td>3</td>
+<td>LEC</td>
+<td>EB</td>
+<td>E</td>
+<td>Fr 02:30PM - 03:15PM</td>
+<td>YIA_LT8</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>25</td>
+<td>3</td>
+<td>TUT</td>
+<td>EBT1</td>
+<td>E</td>
+<td>Mo 02:30PM - 04:15PM</td>
+<td>ELB_202</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>UGFN1000EC</td>
+<td>8779</td>
+<td>In Dialogue With Nature 與自然對話</td>
+<td>3.00</td>
+<td>- Dr. Klaus John Charles COLANERO</td>
+<td>25</td>
+<td>0</td>
+<td>LEC</td>
+<td>EC</td>
+<td>E</td>
+<td>Fr 02:30PM - 03:15PM</td>
+<td>YIA_LT8</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>25</td>
+<td>0</td>
+<td>TUT</td>
+<td>ECT1</td>
+<td>E</td>
+<td>Tu 10:30AM - 12:15PM</td>
+<td>YIA_511</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>UGFN1000ED</td>
+<td>8777</td>
+<td>In Dialogue With Nature 與自然對話</td>
+<td>3.00</td>
+<td>- Dr. Klaus John Charles COLANERO</td>
+<td>25</td>
+<td>1</td>
+<td>LEC</td>
+<td>ED</td>
+<td>E</td>
+<td>Fr 02:30PM - 03:15PM</td>
+<td>YIA_LT8</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>25</td>
+<td>1</td>
+<td>TUT</td>
+<td>EDT1</td>
+<td>E</td>
+<td>Tu 02:30PM - 04:15PM</td>
+<td>WMY_503</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>UGFN1000FA</td>
+<td>8775</td>
+<td>In Dialogue With Nature 與自然對話</td>
+<td>3.00</td>
+<td>- Dr KIANG Kai Ming</td>
+<td>25</td>
+<td>7</td>
+<td>LEC</td>
+<td>FA</td>
+<td>E</td>
+<td>Fr 01:30PM - 02:15PM</td>
+<td>SWH_1</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>25</td>
+<td>7</td>
+<td>TUT</td>
+<td>FAT1</td>
+<td>E</td>
+<td>We 12:30PM - 02:15PM</td>
+<td>YIA_506</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>UGFN1000FB</td>
+<td>8773</td>
+<td>In Dialogue With Nature 與自然對話</td>
+<td>3.00</td>
+<td>- Dr KIANG Kai Ming</td>
+<td>25</td>
+<td>8</td>
+<td>LEC</td>
+<td>FB</td>
+<td>E</td>
+<td>Fr 01:30PM - 02:15PM</td>
+<td>SWH_1</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>25</td>
+<td>8</td>
+<td>TUT</td>
+<td>FBT1</td>
+<td>E</td>
+<td>We 04:30PM - 06:15PM</td>
+<td>YIA_508</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>UGFN1000FC</td>
+<td>8771</td>
+<td>In Dialogue With Nature 與自然對話</td>
+<td>3.00</td>
+<td>- Dr KIANG Kai Ming</td>
+<td>25</td>
+<td>9</td>
+<td>LEC</td>
+<td>FC</td>
+<td>E</td>
+<td>Fr 01:30PM - 02:15PM</td>
+<td>SWH_1</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>25</td>
+<td>9</td>
+<td>TUT</td>
+<td>FCT1</td>
+<td>E</td>
+<td>Th 09:30AM - 11:15AM</td>
+<td>FYB_603</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>UGFN1000FD</td>
+<td>8769</td>
+<td>In Dialogue With Nature 與自然對話</td>
+<td>3.00</td>
+<td>- Dr KIANG Kai Ming</td>
+<td>25</td>
+<td>0</td>
+<td>LEC</td>
+<td>FD</td>
+<td>E</td>
+<td>Fr 01:30PM - 02:15PM</td>
+<td>SWH_1</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>25</td>
+<td>0</td>
+<td>TUT</td>
+<td>FDT1</td>
+<td>E</td>
+<td>Th 01:30PM - 03:15PM</td>
+<td>FYB_401</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>UGFN1000HA</td>
+<td>8767</td>
+<td>In Dialogue With Nature 與自然對話</td>
+<td>3.00</td>
+<td>- Dr. WONG Wing Hung</td>
+<td>25</td>
+<td>2</td>
+<td>LEC</td>
+<td>HA</td>
+<td>C</td>
+<td>Fr 02:30PM - 03:15PM</td>
+<td>ELB_202</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>25</td>
+<td>2</td>
+<td>TUT</td>
+<td>HAT1</td>
+<td>C</td>
+<td>Th 08:30AM - 10:15AM</td>
+<td>YIA_401</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>UGFN1000HB</td>
+<td>8765</td>
+<td>In Dialogue With Nature 與自然對話</td>
+<td>3.00</td>
+<td>- Dr. WONG Wing Hung</td>
+<td>25</td>
+<td>0</td>
+<td>LEC</td>
+<td>HB</td>
+<td>C</td>
+<td>Fr 02:30PM - 03:15PM</td>
+<td>ELB_202</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>25</td>
+<td>0</td>
+<td>TUT</td>
+<td>HBT1</td>
+<td>C</td>
+<td>Th 11:30AM - 01:15PM</td>
+<td>YIA_409</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>UGFN1000JA</td>
+<td>8763</td>
+<td>In Dialogue With Nature 與自然對話</td>
+<td>3.00</td>
+<td>- Dr YANG Jie</td>
+<td>25</td>
+<td>1</td>
+<td>LEC</td>
+<td>JA</td>
+<td>C</td>
+<td>Fr 02:30PM - 03:15PM</td>
+<td>YIA_405</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>25</td>
+<td>1</td>
+<td>TUT</td>
+<td>JAT1</td>
+<td>C</td>
+<td>Tu 12:30PM - 02:15PM</td>
+<td>YIA_409</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>UGFN1000JB</td>
+<td>8740</td>
+<td>In Dialogue With Nature 與自然對話</td>
+<td>3.00</td>
+<td>- Dr YANG Jie</td>
+<td>25</td>
+<td>4</td>
+<td>LEC</td>
+<td>JB</td>
+<td>C</td>
+<td>Fr 02:30PM - 03:15PM</td>
+<td>YIA_405</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>25</td>
+<td>4</td>
+<td>TUT</td>
+<td>JBT1</td>
+<td>C</td>
+<td>Tu 04:30PM - 06:15PM</td>
+<td>YIA_411</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>UGFN1000JC</td>
+<td>8738</td>
+<td>In Dialogue With Nature 與自然對話</td>
+<td>3.00</td>
+<td>- Dr YANG Jie</td>
+<td>25</td>
+<td>8</td>
+<td>LEC</td>
+<td>JC</td>
+<td>C</td>
+<td>Fr 02:30PM - 03:15PM</td>
+<td>YIA_405</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>25</td>
+<td>8</td>
+<td>TUT</td>
+<td>JCT1</td>
+<td>C</td>
+<td>We 11:30AM - 01:15PM</td>
+<td>YIA_509</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>UGFN1000KA</td>
+<td>8736</td>
+<td>In Dialogue With Nature 與自然對話</td>
+<td>3.00</td>
+<td>- Dr KIANG Kai Ming</td>
+<td>25</td>
+<td>0</td>
+<td>LEC</td>
+<td>KA</td>
+<td>C</td>
+<td>Fr 02:30PM - 03:15PM</td>
+<td>SWH_1</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>25</td>
+<td>0</td>
+<td>TUT</td>
+<td>KAT1</td>
+<td>C</td>
+<td>Tu 10:30AM - 12:15PM</td>
+<td>UCA_111</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>UGFN1000KB</td>
+<td>8734</td>
+<td>In Dialogue With Nature 與自然對話</td>
+<td>3.00</td>
+<td>- Dr KIANG Kai Ming</td>
+<td>25</td>
+<td>0</td>
+<td>LEC</td>
+<td>KB</td>
+<td>C</td>
+<td>Fr 02:30PM - 03:15PM</td>
+<td>SWH_1</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>25</td>
+<td>0</td>
+<td>TUT</td>
+<td>KBT1</td>
+<td>C</td>
+<td>Tu 02:30PM - 04:15PM</td>
+<td>LSB_C1</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>UGFN1000LA</td>
+<td>8732</td>
+<td>In Dialogue With Nature 與自然對話</td>
+<td>3.00</td>
+<td>- Dr LI Ming</td>
+<td>25</td>
+<td>1</td>
+<td>LEC</td>
+<td>LA</td>
+<td>C</td>
+<td>Fr 02:30PM - 03:15PM</td>
+<td>LSK_LT1</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>25</td>
+<td>1</td>
+<td>TUT</td>
+<td>LAT1</td>
+<td>C</td>
+<td>Tu 12:30PM - 02:15PM</td>
+<td>YIA_410</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>UGFN1000LB</td>
+<td>8730</td>
+<td>In Dialogue With Nature 與自然對話</td>
+<td>3.00</td>
+<td>- Dr LI Ming</td>
+<td>25</td>
+<td>2</td>
+<td>LEC</td>
+<td>LB</td>
+<td>C</td>
+<td>Fr 02:30PM - 03:15PM</td>
+<td>LSK_LT1</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>25</td>
+<td>2</td>
+<td>TUT</td>
+<td>LBT1</td>
+<td>C</td>
+<td>Tu 04:30PM - 06:15PM</td>
+<td>YIA_504</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>UGFN1000LC</td>
+<td>8728</td>
+<td>In Dialogue With Nature 與自然對話</td>
+<td>3.00</td>
+<td>- Dr LI Ming</td>
+<td>25</td>
+<td>1</td>
+<td>LEC</td>
+<td>LC</td>
+<td>C</td>
+<td>Fr 02:30PM - 03:15PM</td>
+<td>LSK_LT1</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>25</td>
+<td>1</td>
+<td>TUT</td>
+<td>LCT1</td>
+<td>C</td>
+<td>We 10:30AM - 12:15PM</td>
+<td>FYB_106</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>UGFN1000LD</td>
+<td>8726</td>
+<td>In Dialogue With Nature 與自然對話</td>
+<td>3.00</td>
+<td>- Dr LI Ming</td>
+<td>25</td>
+<td>0</td>
+<td>LEC</td>
+<td>LD</td>
+<td>C</td>
+<td>Fr 02:30PM - 03:15PM</td>
+<td>LSK_LT1</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>25</td>
+<td>0</td>
+<td>TUT</td>
+<td>LDT1</td>
+<td>C</td>
+<td>We 02:30PM - 04:15PM</td>
+<td>YIA_506</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>UGFN1000LE</td>
+<td>8724</td>
+<td>In Dialogue With Nature 與自然對話</td>
+<td>3.00</td>
+<td>- Dr LI Ming</td>
+<td>25</td>
+<td>0</td>
+<td>LEC</td>
+<td>LE</td>
+<td>C</td>
+<td>Fr 02:30PM - 03:15PM</td>
+<td>LSK_LT1</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>25</td>
+<td>0</td>
+<td>TUT</td>
+<td>LET1</td>
+<td>C</td>
+<td>Th 10:30AM - 12:15PM</td>
+<td>ELB_305</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>UGFN1000LF</td>
+<td>8722</td>
+<td>In Dialogue With Nature 與自然對話</td>
+<td>3.00</td>
+<td>- Dr LI Ming</td>
+<td>25</td>
+<td>0</td>
+<td>LEC</td>
+<td>LF</td>
+<td>C</td>
+<td>Fr 02:30PM - 03:15PM</td>
+<td>LSK_LT1</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>25</td>
+<td>0</td>
+<td>TUT</td>
+<td>LFT1</td>
+<td>C</td>
+<td>Th 01:30PM - 03:15PM</td>
+<td>FYB_405</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>UGFN1000MA</td>
+<td>8720</td>
+<td>In Dialogue With Nature 與自然對話</td>
+<td>3.00</td>
+<td>- Dr. PANG Kam Moon</td>
+<td>25</td>
+<td>2</td>
+<td>LEC</td>
+<td>MA</td>
+<td>C</td>
+<td>Fr 02:30PM - 03:15PM</td>
+<td>LSK_LT4</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>25</td>
+<td>2</td>
+<td>TUT</td>
+<td>MAT1</td>
+<td>C</td>
+<td>We 08:30AM - 10:15AM</td>
+<td>YIA_408</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>UGFN1000MB</td>
+<td>8718</td>
+<td>In Dialogue With Nature 與自然對話</td>
+<td>3.00</td>
+<td>- Dr. PANG Kam Moon</td>
+<td>25</td>
+<td>0</td>
+<td>LEC</td>
+<td>MB</td>
+<td>C</td>
+<td>Fr 02:30PM - 03:15PM</td>
+<td>LSK_LT4</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>25</td>
+<td>0</td>
+<td>TUT</td>
+<td>MBT1</td>
+<td>C</td>
+<td>We 12:30PM - 02:15PM</td>
+<td>YIA_507</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>UGFN1000MC</td>
+<td>8716</td>
+<td>In Dialogue With Nature 與自然對話</td>
+<td>3.00</td>
+<td>- Dr. PANG Kam Moon</td>
+<td>25</td>
+<td>1</td>
+<td>LEC</td>
+<td>MC</td>
+<td>C</td>
+<td>Fr 02:30PM - 03:15PM</td>
+<td>LSK_LT4</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>25</td>
+<td>1</td>
+<td>TUT</td>
+<td>MCT1</td>
+<td>C</td>
+<td>We 05:30PM - 07:15PM</td>
+<td>YIA_509</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>UGFN1000MD</td>
+<td>8714</td>
+<td>In Dialogue With Nature 與自然對話</td>
+<td>3.00</td>
+<td>- Dr. PANG Kam Moon</td>
+<td>25</td>
+<td>0</td>
+<td>LEC</td>
+<td>MD</td>
+<td>C</td>
+<td>Fr 02:30PM - 03:15PM</td>
+<td>LSK_LT4</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>25</td>
+<td>0</td>
+<td>TUT</td>
+<td>MDT1</td>
+<td>C</td>
+<td>Th 09:30AM - 11:15AM</td>
+<td>UCA_104</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>UGFN1000ME</td>
+<td>8712</td>
+<td>In Dialogue With Nature 與自然對話</td>
+<td>3.00</td>
+<td>- Dr. PANG Kam Moon</td>
+<td>25</td>
+<td>1</td>
+<td>LEC</td>
+<td>ME</td>
+<td>C</td>
+<td>Fr 02:30PM - 03:15PM</td>
+<td>LSK_LT4</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>25</td>
+<td>1</td>
+<td>TUT</td>
+<td>MET1</td>
+<td>C</td>
+<td>Th 01:30PM - 03:15PM</td>
+<td>YIA_503</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>UGFN1000MF</td>
+<td>8680</td>
+<td>In Dialogue With Nature 與自然對話</td>
+<td>3.00</td>
+<td>- Dr. PANG Kam Moon</td>
+<td>25</td>
+<td>9</td>
+<td>LEC</td>
+<td>MF</td>
+<td>C</td>
+<td>Fr 02:30PM - 03:15PM</td>
+<td>LSK_LT4</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>25</td>
+<td>9</td>
+<td>TUT</td>
+<td>MFT1</td>
+<td>C</td>
+<td>Fr 08:30AM - 10:15AM</td>
+<td>YIA_404</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>UGFN1000NA</td>
+<td>8678</td>
+<td>In Dialogue With Nature 與自然對話</td>
+<td>3.00</td>
+<td>- Dr LEE Ka Yan Karen</td>
+<td>25</td>
+<td>0</td>
+<td>LEC</td>
+<td>NA</td>
+<td>C</td>
+<td>Th 02:30PM - 03:15PM</td>
+<td>YIA_501</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>25</td>
+<td>0</td>
+<td>TUT</td>
+<td>NAT1</td>
+<td>C</td>
+<td>Th 12:30PM - 02:15PM</td>
+<td>YIA_501</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>UGFN1000PA</td>
+<td>8490</td>
+<td>In Dialogue With Nature 與自然對話</td>
+<td>3.00</td>
+<td>- Dr YANG Jie
+- Dr. WU Jun</td>
+<td>25</td>
+<td>4</td>
+<td>LEC</td>
+<td>PA</td>
+<td>P</td>
+<td>Fr 01:30PM - 02:15PM</td>
+<td>YIA_LT3</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>25</td>
+<td>4</td>
+<td>TUT</td>
+<td>PAT1</td>
+<td>P</td>
+<td>Mo 10:30AM - 12:15PM</td>
+<td>CKB_108</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>UGFN1000PB</td>
+<td>8675</td>
+<td>In Dialogue With Nature 與自然對話</td>
+<td>3.00</td>
+<td>- Dr YANG Jie
+- Dr. WU Jun</td>
+<td>25</td>
+<td>3</td>
+<td>LEC</td>
+<td>PB</td>
+<td>P</td>
+<td>Fr 01:30PM - 02:15PM</td>
+<td>YIA_LT3</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>25</td>
+<td>3</td>
+<td>TUT</td>
+<td>PBT1</td>
+<td>P</td>
+<td>Mo 02:30PM - 04:15PM</td>
+<td>AIT_G04</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>UGFN1000PC</td>
+<td>8673</td>
+<td>In Dialogue With Nature 與自然對話</td>
+<td>3.00</td>
+<td>- Dr YANG Jie
+- Dr. WU Jun</td>
+<td>25</td>
+<td>2</td>
+<td>LEC</td>
+<td>PC</td>
+<td>P</td>
+<td>Fr 01:30PM - 02:15PM</td>
+<td>YIA_LT3</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>25</td>
+<td>2</td>
+<td>TUT</td>
+<td>PCT1</td>
+<td>P</td>
+<td>Tu 08:30AM - 10:15AM</td>
+<td>YIA_406</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>UGFN1000PD</td>
+<td>8671</td>
+<td>In Dialogue With Nature 與自然對話</td>
+<td>3.00</td>
+<td>- Dr YANG Jie
+- Dr. WU Jun</td>
+<td>25</td>
+<td>9</td>
+<td>LEC</td>
+<td>PD</td>
+<td>P</td>
+<td>Fr 01:30PM - 02:15PM</td>
+<td>YIA_LT3</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>25</td>
+<td>9</td>
+<td>TUT</td>
+<td>PDT1</td>
+<td>P</td>
+<td>Tu 12:30PM - 02:15PM</td>
+<td>YIA_411</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>UGFN1000PE</td>
+<td>8669</td>
+<td>In Dialogue With Nature 與自然對話</td>
+<td>3.00</td>
+<td>- Dr YANG Jie
+- Dr. WU Jun</td>
+<td>25</td>
+<td>0</td>
+<td>LEC</td>
+<td>PE</td>
+<td>P</td>
+<td>Fr 01:30PM - 02:15PM</td>
+<td>YIA_LT3</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>25</td>
+<td>0</td>
+<td>TUT</td>
+<td>PET1</td>
+<td>P</td>
+<td>We 10:30AM - 12:15PM</td>
+<td>FYB_405</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>UGFN1000PF</td>
+<td>8667</td>
+<td>In Dialogue With Nature 與自然對話</td>
+<td>3.00</td>
+<td>- Dr YANG Jie
+- Dr. WU Jun</td>
+<td>25</td>
+<td>6</td>
+<td>LEC</td>
+<td>PF</td>
+<td>P</td>
+<td>Fr 01:30PM - 02:15PM</td>
+<td>YIA_LT3</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>25</td>
+<td>6</td>
+<td>TUT</td>
+<td>PFT1</td>
+<td>P</td>
+<td>We 02:30PM - 04:15PM</td>
+<td>YIA_510</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>UGFN1000PG</td>
+<td>8665</td>
+<td>In Dialogue With Nature 與自然對話</td>
+<td>3.00</td>
+<td>- Dr YANG Jie
+- Dr. WU Jun</td>
+<td>25</td>
+<td>13</td>
+<td>LEC</td>
+<td>PG</td>
+<td>P</td>
+<td>Fr 01:30PM - 02:15PM</td>
+<td>YIA_LT3</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>25</td>
+<td>13</td>
+<td>TUT</td>
+<td>PGT1</td>
+<td>P</td>
+<td>Th 09:30AM - 11:15AM</td>
+<td>UCC_C5</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>UGFN1000PH</td>
+<td>8663</td>
+<td>In Dialogue With Nature 與自然對話</td>
+<td>3.00</td>
+<td>- Dr YANG Jie
+- Dr. WU Jun</td>
+<td>25</td>
+<td>5</td>
+<td>LEC</td>
+<td>PH</td>
+<td>P</td>
+<td>Fr 01:30PM - 02:15PM</td>
+<td>YIA_LT3</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>25</td>
+<td>5</td>
+<td>TUT</td>
+<td>PHT1</td>
+<td>P</td>
+<td>Th 12:30PM - 02:15PM</td>
+<td>ELB_308</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>UGFN1000SA</td>
+<td>8661</td>
+<td>In Dialogue With Nature 與自然對話</td>
+<td>3.00</td>
+<td>- Dr HOI Wan Heng</td>
+<td>25</td>
+<td>0</td>
+<td>LEC</td>
+<td>SA</td>
+<td>C</td>
+<td>Fr 02:30PM - 03:15PM</td>
+<td>ELB_LT2</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>25</td>
+<td>0</td>
+<td>TUT</td>
+<td>SAT1</td>
+<td>C</td>
+<td>Mo 10:30AM - 12:15PM</td>
+<td>CKB_123</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>UGFN1000SB</td>
+<td>8654</td>
+<td>In Dialogue With Nature 與自然對話</td>
+<td>3.00</td>
+<td>- Dr HOI Wan Heng</td>
+<td>25</td>
+<td>0</td>
+<td>LEC</td>
+<td>SB</td>
+<td>C</td>
+<td>Fr 02:30PM - 03:15PM</td>
+<td>ELB_LT2</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>25</td>
+<td>0</td>
+<td>TUT</td>
+<td>SBT1</td>
+<td>C</td>
+<td>Mo 02:30PM - 04:15PM</td>
+<td>FYB_UG01</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>UGFN1000SC</td>
+<td>8623</td>
+<td>In Dialogue With Nature 與自然對話</td>
+<td>3.00</td>
+<td>- Dr HOI Wan Heng</td>
+<td>25</td>
+<td>1</td>
+<td>LEC</td>
+<td>SC</td>
+<td>C</td>
+<td>Fr 02:30PM - 03:15PM</td>
+<td>ELB_LT2</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>25</td>
+<td>1</td>
+<td>TUT</td>
+<td>SCT1</td>
+<td>C</td>
+<td>We 10:30AM - 12:15PM</td>
+<td>SB_UG07</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>UGFN1000SD</td>
+<td>8621</td>
+<td>In Dialogue With Nature 與自然對話</td>
+<td>3.00</td>
+<td>- Dr HOI Wan Heng</td>
+<td>25</td>
+<td>0</td>
+<td>LEC</td>
+<td>SD</td>
+<td>C</td>
+<td>Fr 02:30PM - 03:15PM</td>
+<td>ELB_LT2</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>25</td>
+<td>0</td>
+<td>TUT</td>
+<td>SDT1</td>
+<td>C</td>
+<td>We 02:30PM - 04:15PM</td>
+<td>AIT_G06</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>UGFN1000SE</td>
+<td>8619</td>
+<td>In Dialogue With Nature 與自然對話</td>
+<td>3.00</td>
+<td>- Dr HOI Wan Heng</td>
+<td>25</td>
+<td>0</td>
+<td>LEC</td>
+<td>SE</td>
+<td>C</td>
+<td>Fr 02:30PM - 03:15PM</td>
+<td>ELB_LT2</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>25</td>
+<td>0</td>
+<td>TUT</td>
+<td>SET1</td>
+<td>C</td>
+<td>Th 09:30AM - 11:15AM</td>
+<td>MMW_704</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>UGFN1000SF</td>
+<td>8617</td>
+<td>In Dialogue With Nature 與自然對話</td>
+<td>3.00</td>
+<td>- Dr HOI Wan Heng</td>
+<td>25</td>
+<td>1</td>
+<td>LEC</td>
+<td>SF</td>
+<td>C</td>
+<td>Fr 02:30PM - 03:15PM</td>
+<td>ELB_LT2</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>25</td>
+<td>1</td>
+<td>TUT</td>
+<td>SFT1</td>
+<td>C</td>
+<td>Th 01:30PM - 03:15PM</td>
+<td>CYT_201</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>UGFN1000TA</td>
+<td>8615</td>
+<td>In Dialogue With Nature 與自然對話</td>
+<td>3.00</td>
+<td>- Dr. LAM To Kam</td>
+<td>25</td>
+<td>1</td>
+<td>LEC</td>
+<td>TA</td>
+<td>C</td>
+<td>Fr 01:30PM - 02:15PM</td>
+<td>LSK_LT3</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>25</td>
+<td>1</td>
+<td>TUT</td>
+<td>TAT1</td>
+<td>C</td>
+<td>Mo 10:30AM - 12:15PM</td>
+<td>YIA_501</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>UGFN1000TB</td>
+<td>8613</td>
+<td>In Dialogue With Nature 與自然對話</td>
+<td>3.00</td>
+<td>- Dr. LAM To Kam</td>
+<td>25</td>
+<td>1</td>
+<td>LEC</td>
+<td>TB</td>
+<td>C</td>
+<td>Fr 01:30PM - 02:15PM</td>
+<td>LSK_LT3</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>25</td>
+<td>1</td>
+<td>TUT</td>
+<td>TBT1</td>
+<td>C</td>
+<td>Mo 02:30PM - 04:15PM</td>
+<td>ELB_403</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>UGFN1000TC</td>
+<td>8611</td>
+<td>In Dialogue With Nature 與自然對話</td>
+<td>3.00</td>
+<td>- Dr. LAM To Kam</td>
+<td>25</td>
+<td>0</td>
+<td>LEC</td>
+<td>TC</td>
+<td>C</td>
+<td>Fr 01:30PM - 02:15PM</td>
+<td>LSK_LT3</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>25</td>
+<td>0</td>
+<td>TUT</td>
+<td>TCT1</td>
+<td>C</td>
+<td>Tu 11:30AM - 01:15PM</td>
+<td>YIA_504</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>UGFN1000TD</td>
+<td>8609</td>
+<td>In Dialogue With Nature 與自然對話</td>
+<td>3.00</td>
+<td>- Dr. LAM To Kam</td>
+<td>25</td>
+<td>0</td>
+<td>LEC</td>
+<td>TD</td>
+<td>C</td>
+<td>Fr 01:30PM - 02:15PM</td>
+<td>LSK_LT3</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>25</td>
+<td>0</td>
+<td>TUT</td>
+<td>TDT1</td>
+<td>C</td>
+<td>Tu 02:30PM - 04:15PM</td>
+<td>WMY_501</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>UGFN1000TE</td>
+<td>8607</td>
+<td>In Dialogue With Nature 與自然對話</td>
+<td>3.00</td>
+<td>- Dr. LAM To Kam</td>
+<td>25</td>
+<td>1</td>
+<td>LEC</td>
+<td>TE</td>
+<td>C</td>
+<td>Fr 01:30PM - 02:15PM</td>
+<td>LSK_LT3</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>25</td>
+<td>1</td>
+<td>TUT</td>
+<td>TET1</td>
+<td>C</td>
+<td>We 12:30PM - 02:15PM</td>
+<td>YIA_502</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>UGFN1000TF</td>
+<td>8605</td>
+<td>In Dialogue With Nature 與自然對話</td>
+<td>3.00</td>
+<td>- Dr. LAM To Kam</td>
+<td>25</td>
+<td>1</td>
+<td>LEC</td>
+<td>TF</td>
+<td>C</td>
+<td>Fr 01:30PM - 02:15PM</td>
+<td>LSK_LT3</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>25</td>
+<td>1</td>
+<td>TUT</td>
+<td>TFT1</td>
+<td>C</td>
+<td>We 04:30PM - 06:15PM</td>
+<td>SB_UG07</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>UGFN1000WA</td>
+<td>8603</td>
+<td>In Dialogue With Nature 與自然對話</td>
+<td>3.00</td>
+<td>- Dr. LAI Chi Wai</td>
+<td>25</td>
+<td>18</td>
+<td>LEC</td>
+<td>WA</td>
+<td>C</td>
+<td>Fr 02:30PM - 03:15PM</td>
+<td>ELB_LT3</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>25</td>
+<td>18</td>
+<td>TUT</td>
+<td>WAT1</td>
+<td>C</td>
+<td>Mo 10:30AM - 12:15PM</td>
+<td>FYB_106</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>UGFN1000WB</td>
+<td>8601</td>
+<td>In Dialogue With Nature 與自然對話</td>
+<td>3.00</td>
+<td>- Dr. LAI Chi Wai</td>
+<td>25</td>
+<td>2</td>
+<td>LEC</td>
+<td>WB</td>
+<td>C</td>
+<td>Fr 02:30PM - 03:15PM</td>
+<td>ELB_LT3</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>25</td>
+<td>2</td>
+<td>TUT</td>
+<td>WBT1</td>
+<td>C</td>
+<td>Mo 04:30PM - 06:15PM</td>
+<td>AIT_G06</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>UGFN1000WC</td>
+<td>8599</td>
+<td>In Dialogue With Nature 與自然對話</td>
+<td>3.00</td>
+<td>- Dr. LAI Chi Wai</td>
+<td>25</td>
+<td>14</td>
+<td>LEC</td>
+<td>WC</td>
+<td>C</td>
+<td>Fr 02:30PM - 03:15PM</td>
+<td>ELB_LT3</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>25</td>
+<td>14</td>
+<td>TUT</td>
+<td>WCT1</td>
+<td>C</td>
+<td>We 09:30AM - 11:15AM</td>
+<td>FYB_401</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>UGFN1000WD</td>
+<td>8597</td>
+<td>In Dialogue With Nature 與自然對話</td>
+<td>3.00</td>
+<td>- Dr. LAI Chi Wai</td>
+<td>25</td>
+<td>0</td>
+<td>LEC</td>
+<td>WD</td>
+<td>C</td>
+<td>Fr 02:30PM - 03:15PM</td>
+<td>ELB_LT3</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>25</td>
+<td>0</td>
+<td>TUT</td>
+<td>WDT1</td>
+<td>C</td>
+<td>We 12:30PM - 02:15PM</td>
+<td>YIA_510</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>UGFN1000WE</td>
+<td>8595</td>
+<td>In Dialogue With Nature 與自然對話</td>
+<td>3.00</td>
+<td>- Dr. LAI Chi Wai</td>
+<td>25</td>
+<td>5</td>
+<td>LEC</td>
+<td>WE</td>
+<td>C</td>
+<td>Fr 02:30PM - 03:15PM</td>
+<td>ELB_LT3</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>25</td>
+<td>5</td>
+<td>TUT</td>
+<td>WET1</td>
+<td>C</td>
+<td>Th 10:30AM - 12:15PM</td>
+<td>FYB_405</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>UGFN1000WF</td>
+<td>8593</td>
+<td>In Dialogue With Nature 與自然對話</td>
+<td>3.00</td>
+<td>- Dr. LAI Chi Wai</td>
+<td>25</td>
+<td>0</td>
+<td>LEC</td>
+<td>WF</td>
+<td>C</td>
+<td>Fr 02:30PM - 03:15PM</td>
+<td>ELB_LT3</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>25</td>
+<td>0</td>
+<td>TUT</td>
+<td>WFT1</td>
+<td>C</td>
+<td>Th 01:30PM - 03:15PM</td>
+<td>HYS_501</td>
+<td>08/01/2015 - 16/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>UGFN1000YA</td>
+<td>8591</td>
+<td>In Dialogue With Nature 與自然對話</td>
+<td>3.00</td>
+<td>- Dr. YIP Lo Ming</td>
+<td>25</td>
+<td>7</td>
+<td>LEC</td>
+<td>YA</td>
+<td>C</td>
+<td>Fr 01:30PM - 02:15PM</td>
+<td>YIA_LT6</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>25</td>
+<td>7</td>
+<td>TUT</td>
+<td>YAT1</td>
+<td>C</td>
+<td>Mo 08:30AM - 10:15AM</td>
+<td>YIA_411</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>UGFN1000YB</td>
+<td>8589</td>
+<td>In Dialogue With Nature 與自然對話</td>
+<td>3.00</td>
+<td>- Dr. YIP Lo Ming</td>
+<td>25</td>
+<td>5</td>
+<td>LEC</td>
+<td>YB</td>
+<td>C</td>
+<td>Fr 01:30PM - 02:15PM</td>
+<td>YIA_LT6</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>25</td>
+<td>5</td>
+<td>TUT</td>
+<td>YBT1</td>
+<td>C</td>
+<td>Mo 10:30AM - 12:15PM</td>
+<td>YIA_411</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>UGFN1000YC</td>
+<td>8587</td>
+<td>In Dialogue With Nature 與自然對話</td>
+<td>3.00</td>
+<td>- Dr. YIP Lo Ming</td>
+<td>25</td>
+<td>4</td>
+<td>LEC</td>
+<td>YC</td>
+<td>C</td>
+<td>Fr 01:30PM - 02:15PM</td>
+<td>YIA_LT6</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>25</td>
+<td>4</td>
+<td>TUT</td>
+<td>YCT1</td>
+<td>C</td>
+<td>Tu 08:30AM - 10:15AM</td>
+<td>YIA_511</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>UGFN1000YD</td>
+<td>8585</td>
+<td>In Dialogue With Nature 與自然對話</td>
+<td>3.00</td>
+<td>- Dr. YIP Lo Ming</td>
+<td>25</td>
+<td>0</td>
+<td>LEC</td>
+<td>YD</td>
+<td>C</td>
+<td>Fr 01:30PM - 02:15PM</td>
+<td>YIA_LT6</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>25</td>
+<td>0</td>
+<td>TUT</td>
+<td>YDT1</td>
+<td>C</td>
+<td>Tu 11:30AM - 01:15PM</td>
+<td>YIA_508</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>UGFN1000YE</td>
+<td>8583</td>
+<td>In Dialogue With Nature 與自然對話</td>
+<td>3.00</td>
+<td>- Dr. YIP Lo Ming</td>
+<td>25</td>
+<td>10</td>
+<td>LEC</td>
+<td>YE</td>
+<td>C</td>
+<td>Fr 01:30PM - 02:15PM</td>
+<td>YIA_LT6</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>25</td>
+<td>10</td>
+<td>TUT</td>
+<td>YET1</td>
+<td>C</td>
+<td>We 08:30AM - 10:15AM</td>
+<td>YIA_409</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>UGFN1000YF</td>
+<td>8581</td>
+<td>In Dialogue With Nature 與自然對話</td>
+<td>3.00</td>
+<td>- Dr. YIP Lo Ming</td>
+<td>25</td>
+<td>1</td>
+<td>LEC</td>
+<td>YF</td>
+<td>C</td>
+<td>Fr 01:30PM - 02:15PM</td>
+<td>YIA_LT6</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>25</td>
+<td>1</td>
+<td>TUT</td>
+<td>YFT1</td>
+<td>C</td>
+<td>We 11:30AM - 01:15PM</td>
+<td>CKB_122</td>
+<td>07/01/2015 - 15/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>UGFN1000ZA</td>
+<td>8579</td>
+<td>In Dialogue With Nature 與自然對話</td>
+<td>3.00</td>
+<td>- Dr SZETO Wai Man</td>
+<td>25</td>
+<td>0</td>
+<td>LEC</td>
+<td>ZA</td>
+<td>C</td>
+<td>Fr 01:30PM - 02:15PM</td>
+<td>LSB_LT5</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>25</td>
+<td>0</td>
+<td>TUT</td>
+<td>ZAT1</td>
+<td>C</td>
+<td>Mo 10:30AM - 12:15PM</td>
+<td>FYB_405</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>UGFN1000ZB</td>
+<td>8577</td>
+<td>In Dialogue With Nature 與自然對話</td>
+<td>3.00</td>
+<td>- Dr SZETO Wai Man</td>
+<td>25</td>
+<td>0</td>
+<td>LEC</td>
+<td>ZB</td>
+<td>C</td>
+<td>Fr 01:30PM - 02:15PM</td>
+<td>LSB_LT5</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>25</td>
+<td>0</td>
+<td>TUT</td>
+<td>ZBT1</td>
+<td>C</td>
+<td>Mo 02:30PM - 04:15PM</td>
+<td>YIA_407</td>
+<td>05/01/2015 - 13/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>UGFN1000ZC</td>
+<td>8575</td>
+<td>In Dialogue With Nature 與自然對話</td>
+<td>3.00</td>
+<td>- Dr SZETO Wai Man</td>
+<td>25</td>
+<td>0</td>
+<td>LEC</td>
+<td>ZC</td>
+<td>C</td>
+<td>Fr 01:30PM - 02:15PM</td>
+<td>LSB_LT5</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>25</td>
+<td>0</td>
+<td>TUT</td>
+<td>ZCT1</td>
+<td>C</td>
+<td>Tu 12:30PM - 02:15PM</td>
+<td>YIA_407</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>UGFN1000ZD</td>
+<td>8573</td>
+<td>In Dialogue With Nature 與自然對話</td>
+<td>3.00</td>
+<td>- Dr SZETO Wai Man</td>
+<td>25</td>
+<td>0</td>
+<td>LEC</td>
+<td>ZD</td>
+<td>C</td>
+<td>Fr 01:30PM - 02:15PM</td>
+<td>LSB_LT5</td>
+<td>09/01/2015 - 17/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+<tr>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>&nbsp;
+</td>
+<td>25</td>
+<td>0</td>
+<td>TUT</td>
+<td>ZDT1</td>
+<td>C</td>
+<td>Tu 04:30PM - 06:15PM</td>
+<td>YIA_507</td>
+<td>06/01/2015 - 14/04/2015</td>
+<td></td>
+<td>Yes</td>
+<td>Office of University GE</td>
+</table></body></html>
