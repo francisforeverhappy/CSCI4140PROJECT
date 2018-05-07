@@ -1,0 +1,141 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.nav{
+	position: fixed;
+	width: 100%;
+  top: 0;
+  left: 0;
+  height: 3rem;
+  z-index: 10;
+  background-color: linen
+}
+
+.logo{
+	margin: auto auto auto 1rem;
+}
+
+.nav button{
+  -webkit-appearance: none;
+  border: none;
+  background-color: transparent;
+	outline: none;
+}
+
+.day {
+	width: -webkit-fill-available;
+	flex-direction: column;
+	display: flex;
+  border-left: 1px solid #ced4da;
+}
+
+.day:first-child {
+  border-left: none;
+}
+
+.day:first-child .schedule{
+  display: block;
+}
+
+.label {
+	text-align: middle;
+}
+
+.day-label {
+	height: 2rem;
+}
+
+.class-container{
+	min-width: 4rem;
+	position: relative;
+	display: flex;
+	width: -webkit-fill-available;
+}
+.class-item{
+	background-color: lightcoral;
+	border-radius: 0px;
+	top:1px;
+	height: 96%;
+	width: 96%;
+	box-shadow: 2px 2px 2px lightcoral;
+	position: absolute;
+}
+
+.table {
+	flex-direction: row;
+	display: flex;
+	border: 1px solid #ced4da;
+	border-radius: 4px;
+	overflow: scroll;
+}
+
+.time-label{
+	height: 10%;
+}
+
+.schedule{
+	background: linear-gradient(180deg,mistyrose 50%, transparent 0);
+	background-size: 20%;
+	height: 32rem;
+	position: relative;
+  display: grid;
+  grid-template-rows: repeat(10,3.2rem);
+}
+
+.input-box{
+  width: 100%;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.input-box input{
+	border:none;
+	width: 90%;
+	outline: none;
+}
+
+.input-box i{
+	color: lightcoral;
+}
+
+.login-input{
+	width: 75%;
+  margin: 1rem auto;
+}
+
+.modal-header{
+	background-color: linen;
+	border: none;
+}
+
+.modal-header .close{
+	padding: 0;
+	margin: auto 0rem;
+}
+.modal-body{
+	padding: 0rem 1rem;
+}
+
+.modal-footer{
+	padding: 0.5rem 1rem 1rem;
+	border: none;
+}
+
+.btn-cute{
+	background-color: lightcoral;
+  margin: 0 1rem 0.2rem;
+	color: white;
+}
