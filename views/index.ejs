@@ -76,13 +76,9 @@
 			    </div>
 			    <div class="select-list">
 			    	<div class="select-item">
-		    			<div class="select-item-color"><i class="ion-record"></i></div>
-		    			<div class="select-item-info">
-		    				<div class="select-item-head">
-			    				<div class="select-item-title">CSCI4140 Open Sourse Software Development</div>
-			    			</div>
+			    		<div class="select-item-tooltip">
 			    			<div class="select-item-lec"> 
-			    				<div>LEC</div>
+			    				<div style="margin-right: 7px">LEC</div>
 			    				<div>
 			    					<div class="select-item-lec-sec"> 
 						    			<span><i class="ion-ios-clock-outline"></i>Mon: 9:30 - 11:30</span>
@@ -94,15 +90,29 @@
 					    			</div>
 			    				</div>
 				    		</div>
-				    		<div class="select-item-tut"> TUT
+				    		<div class="select-item-tut">TUT
 				    			<span><i class="ion-ios-clock-outline"></i>Thu: 13:30 - 14:30</span>
 				    			<span><i class="ion-ios-location-outline"></i>LSB C1</span>
 				    		</div>
-		    			</div>
-		    			<div class="select-item-btn">
-		    				<i class="ion-ios-trash-outline"></i>
-			    			<i class="ion-ios-eye"></i>
-		    			</div>
+			    		</div>
+			    		<div class="select-item-show">
+			    			<div class="select-item-color"><i class="ion-record"></i></div>
+		    				<div class="select-item-title">CSCI4140 Open Sourse Software Development</div>
+			    			<div class="select-item-btn">
+			    				<i class="ion-ios-trash-outline"></i>
+				    			<i class="ion-ios-eye"></i>
+			    			</div>
+			    		</div>
+			    	</div>
+			    	<div class="select-item">
+			    		<div class="select-item-show">
+			    			<div class="select-item-color"><i class="ion-record"></i></div>
+		    				<div class="select-item-title">CSCI4140 Open Sourse Software Development</div>
+			    			<div class="select-item-btn">
+			    				<i class="ion-ios-trash-outline"></i>
+				    			<i class="ion-ios-eye"></i>
+			    			</div>
+			    		</div>
 			    	</div>
 			    </div>
 			  </div>
@@ -163,6 +173,12 @@
 </html>
 
 <script>
+	$(".select-item-title").hover(function(){
+    $(".select-item-tooltip").show();
+  	},function(){
+    $(".select-item-tooltip").hide();
+  });
+
 	function addClassItem(code, name, venue, day, start, end){
 		var newDiv = document.createElement("div");
 		var newItem = document.createElement("div");
@@ -186,7 +202,7 @@
 				data: JSON.stringify({"key": keyword}),
 				url: '/search',
 	  			type: 'POST',
-	  			success: function(result) {	
+	  			success: function(result) {
 	  			  console.log(result);
 	  			}
 			});
