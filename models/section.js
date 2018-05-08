@@ -18,7 +18,7 @@ var sectionSchema = mongoose.Schema({
             timeSlot: {
                 start: Number,
                 end: Number
-            },
+            }
         },
         room: String,
         instructor: String, // professor

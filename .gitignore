@@ -1,0 +1,4 @@
+*.json
+*.pdf
+node_modules*
+scripts*

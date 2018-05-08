@@ -1,6 +1,5 @@
 const express = require('express'),
     router = express.Router(),
-    mongoose = require('mongoose'),
     spawn = require('child_process').spawn;
 
 const Course = require('../models/course'),
@@ -14,48 +13,6 @@ router.get('/', (req, res) => {
     res.render('index', {sid: req.session.sid});
 });
 
-
-// search
-router.post('/search', middleware.asyncMiddleware(async (req, res) => {
-    let courseInfo = req.body.key;
-    let regex = new RegExp(courseInfo, 'i');
-    console.log('get ' + courseInfo);
-    let courses = await Course.find({$or: [{courseCode: {$regex: regex}}, {courseName: {$regex: regex}}]}, 'courseCode courseName classDetails.units sectionCode').limit(100);
-    courses.forEach((course) => {
-        console.log(course);
-    });
-    res.send({sid: req.session.sid, courses: courses});  
-}));
-
-router.post('/detail', middleware.asyncMiddleware(async (req, res) => {
-    let courseMessage = 'courseCode courseName sectionCode semester classDetails.units classDetails.grading lectures tutorials labs';
-    let sectionMessage = 'status meetingInfo';
-    let courseId = mongoose.Types.ObjectId(req.body.courseId);
-    let course = await Course.findById(courseId, courseMessage);
-    let lec_id = course.lectures;
-    [course.lec, course.tutList, course.labList] = await Promise.all([Section.findById(lec_id, sectionMessage),
-        Section.find({'_id': {$in: course.tutorials}}, sectionMessage),
-        Section.find({'_id': {$in: course.labs}}, sectionMessage)]);
-    res.send({sid: req.session.sid, course: course});
-}));
-
-router.get('/course/:courseCode', middleware.asyncMiddleware(async (req, res) => {
-    let courseCode = req.params.courseCode;
-    console.log('get ' + courseCode);
-    
-    let [course, comments] = await Promise.all([Course.findOne({courseCode: courseCode}), Comment.find({courseCode: courseCode})]);
-    let lec_id = course.lectures;
-    course.lec = null;
-    course.tutList = [];
-    course.labList = [];
-    [course.lec, course.tutList, course.labList] = await Promise.all([Section.findById(lec_id),
-        Section.find({'_id': {$in: course.tutorials}}),
-        Section.find({'_id': {$in: course.labs}})]);
-    console.log(course);
-    return res.render('course', {sid: req.session.sid, course: course, comments: comments});
-}));
-
-
 router.get('/test/:courseCode', middleware.asyncMiddleware(async (req, res) => {
     let courseCode = req.params.courseCode;
     console.log('get ' + courseCode);
@@ -66,67 +23,6 @@ router.get('/test/:courseCode', middleware.asyncMiddleware(async (req, res) => {
     return res.render('course', {sid: req.session.sid, course: course});
 }));
 
-// login needed
-// comment
-router.post('/createComment', middleware.checkLogin, (req, res) => {
-    let courseCode = req.body.courseCode,
-        text = req.body.text,
-        rating = req.body.rating,
-        sid = req.session.sid;
-    let newComment = new Comment({courseCode: courseCode, text: text, rating: rating, sid: sid});
-    newComment.save((err, result) => {
-        console.log(result);
-    });
-});
-
-//  doing
-router.post('/editComment', middleware.checkLogin, (req, res) => {
-    let courseCode = req.body.courseCode,
-        text = req.body.text,
-        rating = req.body.rating,
-        sid = req.session.sid;
-    Comment.findOneAndUpdate({courseCode: courseCode, sid: sid}, {text: text, rating: rating}, {new: true}, (err, doc, res) => {
-        if (err) {
-            return console.log(err.message);
-        }
-        console.log(res);
-        return console.log(doc);
-    });
-});
-
-router.post('/deleteComment', middleware.checkLogin, (req, res) => {
-    let courseCode = req.body.courseCode,
-        sid = req.session.sid;
-    Comment.findOneAndRemove({courseCode: courseCode, sid: sid}, (err, res) => {
-        if (err) {
-            return console.log(err.message);
-        }
-        return console.log(res);
-    }); 
-});
-
-
-router.get('/getWait', middleware.checkLogin, middleware.asyncMiddleware(async (req, res) => {
-    console.log('get /getWait');
-    // TBI
-}));
-
-router.get('/import', middleware.checkLogin, middleware.asyncMiddleware(async (req, res) => {
-    console.log('get /import');
-    let sid = req.session.sid,
-        pwd = support.decrypt(sid, req.session.pwd);
-    let pythonProcess = spawn('python', ['support/py/import.py', sid, pwd]);
-    pythonProcess.stdout.on('data', async (data) => {
-        let courseNumbers = data.toString().trim().split(',').map(Number); 
-        console.log(courseNumbers);
-        let sections = await Section.find({courseNumber: {$in: courseNumbers}});
-        sections.map(async section => {
-            section.course = await Course.findById(section.courseInfo);
-        });
-        res.send({sid: sid, sections: sections})
-    });
-    // TBI
-}));
 
 
 // login

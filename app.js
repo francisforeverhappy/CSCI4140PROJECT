@@ -10,7 +10,10 @@ const express = require('express'),
     // cookieParser = require('cookie-parser'),
     flash = require('connect-flash');
     
-const indexRoute = require('./routes/index');
+const indexRoute = require('./routes/index'),
+    commentRoute = require('./routes/comment'),
+    searchRoute = require('./routes/search'),
+    protectedRoute = require('./routes/protected');
 
 const dbPath = 'mongodb://localhost/csci4140_db';
 mongoose.connect(dbPath);
@@ -32,6 +35,9 @@ app.use(session({
 }));
 
 app.use("/", indexRoute);
+app.use("/comment", commentRoute);
+app.use("/search", searchRoute);
+app.use("/protected", protectedRoute);
 
 app.listen(3000, () => {
     console.log('CUTE server has started');
