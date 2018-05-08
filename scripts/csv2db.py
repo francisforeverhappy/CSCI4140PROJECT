@@ -2,7 +2,8 @@ from pymongo import MongoClient
 import realtime_extractor
 import datetime
 import os
-import glob
+import json
+import glob, re
 import pandas as pd
 
 def period2daytime(date):
@@ -37,13 +38,14 @@ def main():
 	client = MongoClient('localhost', 27017)
 	client.drop_database('csci4140_db')
 	db = client.csci4140_db
-	files = glob.glob('./DumpedCourseList_20180507/*.xls')
+	files = glob.glob('./DumpedCourseList_20180508/*.xls')
 	with open('info_dict.json') as f:
 		add_info = json.load(f)
 	for path in files:
 		df_list = pd.read_html(path, header =0, flavor = 'bs4')
 		dataframe = df_list[0]
 		section_id, course_id, section, course, addinforow = None, None, None, None, None
+		classcode = 0
 		coursenbr = -1
 		for index, df in dataframe.iterrows():
 			[day, start, end] = period2daytime(df['Period'])
@@ -61,18 +63,13 @@ def main():
 			if str(df['Class Code']) == 'nan':
 				section_id = db.Section.insert_one(section).inserted_id
 				if section['courseComponent'] == 'LEC':
-					course['lectures'] = {"type" : section_id, "ref" : "Section"}
+					course['lectures'] = section_id
 				elif section['courseComponent'] == 'TUT':
-					course['tutorials'].append({"type" : section_id, "ref" : "Section"})
+					course['tutorials'].append(section_id)
 				elif section['courseComponent'] == 'LAB':
-					course['labs'].append({"type" : section_id, "ref" : "Section"})
-				try:
-					if df['Class Code'][-1] == '-':
-						df['Class Code'] = df['Class Code'][:-1]
-				except Exception:
-					pass
+					course['labs'].append(section_id)
 				section = {
-					"courseCode": df['Class Code'],
+					"courseCode": classcode,
 					"courseComponent": df['Course Component'],
 					"status": "open",
 					"meetingInfo": [
@@ -90,31 +87,30 @@ def main():
 						"classCapacity": int(df['Quota(s)']),
 						"enrollTotal": int(df['Quota(s)']) - int(df['Vacancy']),
 						"availSeats": int(df['Vacancy']),
-						"waitListCapacity": addinforow[now],
-						"waitListTotal": addinforow[wltotal],
+						"waitListCapacity": int(addinforow['wlnow']),
+						"waitListTotal": int(addinforow['wltotal']),
 						"updatedTime": datetime.datetime.utcnow()
 					}
 				}
 				continue
-			coursenbr =int(df['Class Nbr'])
+			coursenbr = str(int(df['Class Nbr']))
 			addinforow = add_info[coursenbr]
 			if section != None:
 				section_id = db.Section.insert_one(section).inserted_id
 				if section['courseComponent'] == 'LEC':
-					course['lectures'] = {"type" : section_id, "ref" : "Section"}
+					course['lectures'] = section_id
 				elif section['courseComponent'] == 'TUT':
-					course['tutorials'].append({"type" : section_id, "ref" : "Section"})
+					course['tutorials'].append(section_id)
 				elif section['courseComponent'] == 'LAB':
-					course['labs'].append({"type" : section_id, "ref" : "Section"})
+					course['labs'].append(section_id)
 			if course != None:
 				course_id = db.Course.insert_one(course).inserted_id
 			try:
-				if df['Class Code'][-1] == '-':
-					df['Class Code'] = df['Class Code'][:-1]
-			except Exception:
-				pass
+				classcode = re.match(r"[a-zA-Z]+[0-9]+", df['Class Code']).group(0)
+			except Exception as e:
+				print(e)
 			course = {
-				"courseCode": df['Class Code'],
+				"courseCode": classcode,
 				"courseName": df['Course Title'] ,
 				"sectionCode": df['Section Code'],
 				"semester": addinforow['semester'],
@@ -135,7 +131,7 @@ def main():
 				"labs" : []
 			}
 			section = {
-				"courseCode": df['Class Code'],
+				"courseCode": classcode,
 				"courseComponent": df['Course Component'],
 				"status": addinforow['status'],
 
@@ -154,11 +150,10 @@ def main():
 					"classCapacity": int(df['Quota(s)']),
 					"enrollTotal": int(df['Quota(s)']) - int(df['Vacancy']),
 					"availSeats": int(df['Vacancy']),
-					"waitListCapacity": addinforow[wltotal],
-					"waitListTotal": addinforow[wlnow],
+					"waitListCapacity": int(addinforow['wltotal']),
+					"waitListTotal": int(addinforow['wlnow']),
 					"updatedTime": datetime.datetime.utcnow()
 				}
 			}
 if __name__ == "__main__":
 	main()
-	update()
