@@ -8,26 +8,7 @@ var sectionSchema = mongoose.Schema({
         ref: 'Course'
     },
 
-    // courseCode: String, // include the section code
-    // courseName: String,
-    // sectionCode: String,
-    // semester: String,
-    // description: String,
-    
-    // classDetails: {
     status: String, // not same
-        // session: String,
-    //     units: Number,
-    //     career: String,
-        // grading: String
-    // },
-    
-    // enrollmentInfo: {
-    //     dropConsent: String,
-    //     enrollReq: String,
-    //     classAttr: String
-    // },
-    
     // different info
     courseNumber: Number, // unique
     courseComponent: String,
@@ -37,7 +18,7 @@ var sectionSchema = mongoose.Schema({
             timeSlot: {
                 start: Number,
                 end: Number
-            },
+            }
         },
         room: String,
         instructor: String, // professor
