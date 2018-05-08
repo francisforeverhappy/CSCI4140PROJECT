@@ -1,6 +1,6 @@
 const express = require('express'),
     router = express.Router(),
-    store = require('store'),    
+    // async = require('async'),
     spawn = require('child_process').spawn;
 
 const Course = require('../models/course'),
@@ -15,53 +15,37 @@ router.get('/', (req, res) => {
 });
 
 
-router.post('/search', (req, res) => {
+router.post('/search', middleware.asyncMiddleware(async (req, res) => {
     // on the original page
-    let regex = new RegExp(escapeRegex(req.body.courseInfo), 'gi');
-    Course.find({$or: [{courseCode: regex}, {courseName: regex}]}, (err, courses) => {
-        if (err) {
-            return console.error(err);
-        } else {
-            if (courses.length < 1) {
-                message = 'No match';
-            }
-        }
-        res.render('index', {sid: req.session.sid, courses: courses});
+    let courseInfo = req.body.courseInfo;
+    let regex = new RegExp(courseInfo, 'i');
+    console.log('get ' + courseInfo);
+    console.log(regex);
+    let courses = await Course.find({$or: [{courseCode: {$regex: regex}}, {courseName: {$regex: regex}}]});
+    console.log(courses);
+    courses.forEach((course) => {
+        console.log(course.courseName);
+        console.log(course.courseCode);
     });
-});
+    res.render('index', {sid: req.session.sid, courses: courses});    
+}));
 
-router.get('/test', (req, res) => {
-    Course.find({}, (err, courses) => {
-        if (err) {
-            return console.error('courseSession find error');
-        }
-        if (courses.length > 0) {
-            courses.forEach((course) => {
-                console.log(course.courseCode);
-            }) 
-        } else {
-            console.log('no such course')
-        }
-    });
-});
-
-router.get('/search/:courseCode', (req, res) => {
-    // new page
+router.get('/search/:courseCode', middleware.asyncMiddleware(async (req, res) => {
     let courseCode = req.params.courseCode;
     console.log('get ' + courseCode);
-    let regex = new RegExp(courseCode, 'gi');
-    Course.findOne({courseCode: courseCode}, (err, course) => {
-        if (err) {
-            return console.error('courseSession find error');
-        }
-        if (!course) {
-            console.log('no such course')
-            return res.render('index', {sid: req.session.sid, course: course});
-        }  
-        console.log(course.courseName);
-        return res.render('index', {sid: req.session.sid, course: course})
-    });
-});
+    let regex = new RegExp(courseCode, 'i');
+    
+    let course = await Course.findOne({courseCode: {$regex: regex}});
+    let lec_id = course.lectures;
+    course.lec = null;
+    course.tutList = [];
+    course.labList = [];
+    [course.lec, course.tutList, course.labList] = await Promise.all([Section.findById(lec_id)],
+        Section.find({'_id': {$in: course.tutorials}}),
+        Section.find({'_id': {$in: course.labs}}));
+    console.log(course);
+    return res.render('course', {sid: req.session.sid, course: course});
+}));
 
 router.get('/getWait', (req, res) => {
     console.log('get /getWait');
@@ -70,17 +54,28 @@ router.get('/getWait', (req, res) => {
         return res.redirect('/');
     }
     // TBI
-
 });
 
-router.get('/import', (req, res) => {
+router.get('/import', middleware.asyncMiddleware(async (req, res) => {
     console.log('get /import');
     if (!('sid' in req.session)) {
         console.log('import without loggin');
         return res.redirect('/');
     }
+    let sid = req.session.sid,
+        pwd = support.decrypt(sid, req.session.pwd);
+    let pythonProcess = spawn('python', ['support/py/import.py', sid, pwd]);
+    pythonProcess.stdout.on('data', async (data) => {
+        let courseNumbers = data.toString().trim().split(',').map(Number); 
+        console.log(courseNumbers);
+        let sections = await Section.find({courseNumber: {$in: courseNumbers}});
+        sections.map(async section => {
+            section.course = await Course.findById(section.courseInfo);
+        });
+        res.render('index', {sid: sid, sections: sections})
+    });
     // TBI
-});
+}));
 
 router.post('/login', (req, res, next) => {
     console.log('post /login')

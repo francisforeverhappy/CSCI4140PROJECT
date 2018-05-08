@@ -1,6 +1,10 @@
 const spawn = require('child_process').spawn;
 
 module.exports = {
+    asyncMiddleware:  fn => (req, res, next) => {
+            Promise.resolve(fn(req, res, next))
+            .catch(next);
+    },
     checkLogin: (req, res, next) => {
         if ('sid' in req.session) {
             console.log('isLoggedIn is ture');
