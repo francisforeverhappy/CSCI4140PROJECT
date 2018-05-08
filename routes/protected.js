@@ -30,3 +30,5 @@ router.get('/import', middleware.checkLogin, middleware.asyncMiddleware(async (r
     });
     // TBI
 }));
+
+module.exports = router;

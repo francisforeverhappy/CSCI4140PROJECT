@@ -54,3 +54,5 @@ router.post('/delete', middleware.checkLogin, (req, res) => {
         return res.send({success: true});
     }); 
 });
+
+module.exports = router;

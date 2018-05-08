@@ -13,7 +13,7 @@ const express = require('express'),
 const indexRoute = require('./routes/index'),
     commentRoute = require('./routes/comment'),
     searchRoute = require('./routes/search'),
-    protectedRoute = require('./routes/protected'),
+    protectedRoute = require('./routes/protected');
 
 const dbPath = 'mongodb://localhost/csci4140_db';
 mongoose.connect(dbPath);

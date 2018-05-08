@@ -49,3 +49,5 @@ router.get('/:courseCode', middleware.asyncMiddleware(async (req, res) => {
     console.log(course);
     return res.render('course', {sid: req.session.sid, course: course, comments: comments});
 }));
+
+module.exports = router;
