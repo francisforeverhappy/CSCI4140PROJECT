@@ -7,14 +7,11 @@ module.exports = {
     },
     checkLogin: (req, res, next) => {
         if ('sid' in req.session) {
-            console.log('isLoggedIn is ture');
-            req.isLoggedIn = true;
+            console.log('user has logged in is ture');
+            return next();
         } 
-        else {
-            console.log('isLoggedIn is false');
-            req.isLoggedIn = false;
-        }
-        return next();        
+        console.log('user has NOT logged in');
+        return res.redirect('/');        
     },
     import: (sid, password) => {
         let pythonProcess = spawn('python', ['support/py/import.py', sid, password]);
