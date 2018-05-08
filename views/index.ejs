@@ -10,7 +10,6 @@
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
   </head>
   <body>
-
   	<nav class="nav">
   		<a class="logo">CUTE</a>
   		<% if(sid == undefined){ %>
@@ -18,68 +17,116 @@
 		  			<span aria-hidden="true"><i class="ion-log-in"></i></span>  Login
 		  		</button>
       <% } else { %>
-		      <button class="nav-button" id="student-id">
-		  			<span aria-hidden="true"><i class="ion-ios-person"></i></span> <%= sid %>
-		  		</button>
-          <button class="nav-button" onclick="window.location.href='/logout'">
-		  			<span aria-hidden="true"><i class="ion-log-out"></i></span>  Logout
-					</button>
+      		<div class="dropdown">
+			      <button type="button" class="nav-button" id="student-id">
+			  			<span aria-hidden="true"><i class="ion-ios-person"></i></span> <%= sid %>
+			  		</button>
+			  		<div class="dropdown-list" aria-labelledby="student-id">
+			  			<a href="#"><span aria-hidden="true"><i class="ion-ios-compose-outline"></i></span>  My Comment</a><br>
+			  			<a href="#"><span aria-hidden="true"><i class="ion-ios-download-outline"></i></span>  Import Timetable</a><br>
+			  			<a href="/logout"><span aria-hidden="true"><i class="ion-log-out" ></i></span>  Logout</a>
+			  		</div>
+			  	</div>
       <% } %>
   	</nav>
 
-    <h1>Timetable</h1>
     <div class="container">
     	<div class="row">
     		<div class="col-md-8">
 	    		<div class="table">
-			    	<li class="day">
-			    		<div class="day-label">day</div>
-			    		<div class="schedule">
-			    			<div class="time-label"> 8:30 </div>
-			    			<div class="time-label"> 8:30 </div>
-			    			<div class="time-label"> 8:30 </div>
-			    			<div class="time-label"> 8:30 </div>
-			    			<div class="time-label"> 8:30 </div>
-			    			<div class="time-label"> 8:30 </div>
-			    			<div class="time-label"> 8:30 </div>
-			    			<div class="time-label"> 8:30 </div>
-			    			<div class="time-label"> 8:30 </div>
-			    			<div class="time-label"> 8:30 </div>
-			    		</div>
-			    	</li>
-			    	<li class="day">
-			    		<div class="day-label">Mon</div>
-			    		<div class="schedule"></div>
-			    	</li>
-			    	<li class="day">
-			    		<div class="day-label">Tue</div>
-			    		<div class="schedule"></div>
-			    	</li>
-			    	<li class="day">
-			    		<div class="day-label">Wed</div>
-			    		<div class="schedule"></div>
-			    	</li>
-			    	<li class="day">
-			    		<div class="day-label">Thu</div>
-			    		<div class="schedule"></div>
-			    	</li>
-			    	<li class="day">
-			    		<div class="day-label">Fri</div>
-			    		<div class="schedule"></div>
-			    	</li>
-			    	<li class="day">
-			    		<div class="day-label">Sat</div>
-			    		<div class="schedule"></div>
-			    	</li>
+	    			<div class="time">
+	    				<span class="space"></span>
+	    				<span class="time-label">8:30</span>
+	    				<span class="time-label">9:30</span>
+	    				<span class="time-label">10:30</span>
+	    				<span class="time-label">11:30</span>
+	    				<span class="time-label">12:30</span>
+	    				<span class="time-label">13:30</span>
+	    				<span class="time-label">14:30</span>
+	    				<span class="time-label">15:30</span>
+	    				<span class="time-label">16:30</span>
+	    				<span class="time-label">17:30</span>
+	    			</div>
+	    			<div class="main-table">
+				    	<li class="day">
+				    		<div class="day-label">Mon</div>
+				    		<div class="schedule"></div>
+				    	</li>
+				    	<li class="day">
+				    		<div class="day-label">Tue</div>
+				    		<div class="schedule"></div>
+				    	</li>
+				    	<li class="day">
+				    		<div class="day-label">Wed</div>
+				    		<div class="schedule"></div>
+				    	</li>
+				    	<li class="day">
+				    		<div class="day-label">Thu</div>
+				    		<div class="schedule"></div>
+				    	</li>
+				    	<li class="day">
+				    		<div class="day-label">Fri</div>
+				    		<div class="schedule"></div>
+				    	</li>
+				    	<li class="day">
+				    		<div class="day-label">Sat</div>
+				    		<div class="schedule"></div>
+				    	</li>
+				    </div>
+			    </div>
+			    <div class="select-list">
+			    	<div class="select-item">
+		    			<div class="select-item-color"><i class="ion-record"></i></div>
+		    			<div class="select-item-info">
+		    				<div class="select-item-head">
+			    				<div class="select-item-title">CSCI4140 Open Sourse Software Development</div>
+			    			</div>
+			    			<div class="select-item-lec"> 
+			    				<div>LEC</div>
+			    				<div>
+			    					<div class="select-item-lec-sec"> 
+						    			<span><i class="ion-ios-clock-outline"></i>Mon: 9:30 - 11:30</span>
+						    			<span><i class="ion-ios-location-outline"></i>Med G18</span>
+					    			</div>
+					    			<div class="select-item-lec-sec"> 
+						    			<span><i class="ion-ios-clock-outline"></i>Thu: 12:30 - 13:30</span>
+						    			<span><i class="ion-ios-location-outline"></i>LSB LT2</span>
+					    			</div>
+			    				</div>
+				    		</div>
+				    		<div class="select-item-tut"> TUT
+				    			<span><i class="ion-ios-clock-outline"></i>Thu: 13:30 - 14:30</span>
+				    			<span><i class="ion-ios-location-outline"></i>LSB C1</span>
+				    		</div>
+		    			</div>
+		    			<div class="select-item-btn">
+		    				<i class="ion-ios-trash-outline"></i>
+			    			<i class="ion-ios-eye"></i>
+		    			</div>
+			    	</div>
 			    </div>
 			  </div>
 			  <div class="col-md-4">
-    			<form action="#" method="GET" class="form">
-    				<div class="search-bar input-box">
-	    				<input type="text" name="search" placeholder="Search">
-	    				<i class="ion-ios-search" id="search-btn"></i>
-    				</div>
-    			</form>
+			  	<div class="search">
+	    			<form action="#" method="GET" class="form">
+	    				<div class="search-bar input-box">
+		    				<input type="text" name="search" placeholder="Search" id="search-input">
+		    				<i class="ion-ios-search"></i>
+	    				</div>
+	    			</form>
+	    		</div>
+	    		<div class="search-list">
+	    			<div class="search-item">
+	    				<div class="search-item-info">
+	    					<span>CSCI4140</span> <br>
+	    					Open Sourse Software Development
+	    					<span> - 3 Units </span>
+	    				</div>
+	    				<a class="search-item-btn">
+	    					<i class="ion-information-circled"></i>
+	    				</a>
+	    			</div>
+	    		</div>
 	    	</div>
     	</div>
     </div>
@@ -89,7 +136,7 @@
 		  <div class="modal-dialog" role="document">
 		    <div class="modal-content">
 		      <div class="modal-header">
-		        <h5 class="modal-title" id="loginModalLabel">Login</h5>
+		        <h5 class="modal-title" id="loginModalLabel">Login with CWEM</h5>
 		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
 		          <span aria-hidden="true"><i class="ion-ios-close-outline"></i></span>
 		        </button>
@@ -102,7 +149,7 @@
 	    				</div>
 	    				<div class="login-input input-box">
 		    				<i class="ion-ios-keypad-outline" ></i>
-		    				<input type="password" name="pwd" placeholder="password">
+		    				<input type="password" name="pwd" placeholder="Your CWEM Password">
 	    				</div>
 		        </form>
 		      </div>
@@ -116,7 +163,7 @@
 </html>
 
 <script>
-	function addClassItem(day, start, end){
+	function addClassItem(code, name, venue, day, start, end){
 		var newDiv = document.createElement("div");
 		var newItem = document.createElement("div");
 		$(newItem).addClass("class-item");
@@ -127,4 +174,24 @@
 		$(newDiv).append(newItem);
 		console.log($(".schedule").eq(day).append(newDiv));
 	}
+
+	function addClassList(code, name, unit){
+	}
+
+	$('#search-input').on("keyup", function(){
+		var keyword = $(this).val();
+		if(keyword.length > 0){
+			$.ajax({
+				contentType: 'application/json',
+				data: JSON.stringify({"key": keyword}),
+				url: '/search',
+	  			type: 'POST',
+	  			success: function(result) {	
+	  			  console.log(result);
+	  			}
+			});
+		}
+	});
 </script>
+
+

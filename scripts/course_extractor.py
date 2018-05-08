@@ -11,7 +11,7 @@ def search_panel():
 
 def search(subject):
 	URL = "https://cusis.cuhk.edu.hk/psc/csprd/EMPLOYEE/HRMS/c/CU_SCR_MENU.CU_TMSR801.GBL"
-	semester_code = '1845' 	#You should find semester code in Cusis system and put it here yourself. (2014-15 sem 1 => 1835)
+	semester_code = '2010' 	#You should find semester code in Cusis system and put it here yourself. (2014-15 sem 1 => 1835)
 	payload = {
 		'ICType':'Panel',
 		'ICAction':'CU_RC_TMSR801_SSR_PB_CLASS_SRCH',

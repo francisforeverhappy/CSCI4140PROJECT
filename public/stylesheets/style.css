@@ -7,6 +7,18 @@ a {
   color: #00B7FF;
 }
 
+@media (min-width: 576px){
+  .container {
+      max-width: 600px;
+  }
+}
+@media (min-width: 768px){
+  .container {
+      max-width: 1200px;
+  }
+}
+
+
 .nav{
 	position: fixed;
 	width: 100%;
@@ -22,10 +34,52 @@ a {
 }
 
 .nav button{
+	height: inherit;
   -webkit-appearance: none;
   border: none;
   background-color: transparent;
 	outline: none;
+}
+
+.nav button:hover{
+  color: lightcoral;
+}
+
+.dropdown{
+	margin: auto 5px auto;
+	height: 3rem;
+}
+.dropdown:hover .dropdown-list {
+    display: block;
+}
+.dropdown:hover #student-id {
+    color: lightcoral;
+}
+
+.dropdown-list{
+    position: absolute;
+    top: 3rem;
+    left: -3.5rem;
+    z-index: 1000;
+     display: none; 
+    float: left;
+    padding: 0.75rem 1rem;
+    margin: .125rem 0 0;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: .25rem;
+    width: 11rem;
+}
+
+.dropdown-list a{
+    line-height: 1.5rem;
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: right;
 }
 
 .day {
@@ -67,22 +121,41 @@ a {
 	position: absolute;
 }
 
-.table {
+
+.main-table {
 	flex-direction: row;
 	display: flex;
 	border: 1px solid #ced4da;
 	border-radius: 4px;
 	overflow: scroll;
+  width: -webkit-fill-available;
+}
+
+.table{
+  flex-direction: row;
+  display: flex;
+  color: grey;
+}
+
+.time{
+  flex-direction: column;
+  display: flex;
+  margin: 0 0.25rem;
 }
 
 .time-label{
-	height: 10%;
+	height: calc(10% - 4px);
+  text-align: center;
+}
+
+.space{
+  height: calc(2rem - 5px);
 }
 
 .schedule{
 	background: linear-gradient(180deg,mistyrose 50%, transparent 0);
 	background-size: 20%;
-	height: 32rem;
+	height: 28rem;
 	position: relative;
   display: grid;
   grid-template-rows: repeat(10,3.2rem);
@@ -139,3 +212,53 @@ a {
   margin: 0 1rem 0.2rem;
 	color: white;
 }
+
+.search-list{
+  height: 27.5rem;
+  overflow: scroll;
+}
+
+.search-item{
+  display: flex;
+  padding: 0.5rem 0.8rem;
+  border: 1px solid mistyrose;
+  border-radius: 4px;
+}
+
+.search-item-info{
+  width: 90%
+}
+
+.search-item-info span{
+  color: lightcoral;
+  font-size: 0.75rem;
+}
+
+.search-item-btn{
+  margin: 0 0 0 auto;
+}
+
+.select-item{
+  display: flex;
+}
+
+.select-item-color{
+  width: 7%;
+}
+
+.select-item-color i{
+  font-size: 1.2rem;
+  color: lightcoral;
+}
+
+.select-item-btn{
+  width: 10%;
+  margin: 0 0 0 auto;
+}
+
+.select-item-btn i{
+  font-size: 1.2rem;
+  margin: auto
+}
+
+.
