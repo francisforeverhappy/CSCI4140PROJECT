@@ -12,6 +12,7 @@
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
         crossorigin="anonymous"></script>
+    <script type="text/javascript" src="/javascripts/course.js"></script>
 </head>
 
 <body>
@@ -45,8 +46,66 @@
                     <div class="row">
                         <div class="col-md-9">
                             <div id="Details">
-
+                                <header class="course-header">
+                                    <a class="link link--kukuri" href="#" data-letters=<%= course.courseCode %>><%= course.courseCode %></a>
+                                    <h2>
+                                        <%= course.courseName %>
+                                    </h2>
+                                    <p>
+                                        <% if(course.classDetails.units != '1'){ %>
+                                            <span class="beauty-font">
+                                                <%= course.classDetails.units %> units
+                                            </span>
+                                        <% }else{ %>
+                                            <span class="beauty-font">
+                                                <%= course.classDetails.units %> unit
+                                            </span>
+                                        <% } %>
+                                    </p>
+                                </header>
+                                <section>
+                                    <div class="row">
+                                        <div class="col-sm-8">
+                                            <% if(course.description != ''){ %>
+                                                <span></span>
+                                            <% }else{ %>
+                                                <span class="beauty-font">
+                                                    <%= course.description %>
+                                                </span>
+                                            <% } %>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div>
+                                                <h2>Course Details</h2>
+                                            </div>
+                                            <div class="course-detail">
+                                                <h4>Career: </h4>
+                                                <p><%= course.classDetails.career %></p>
+                                                <h4>Grading: </h4>
+                                                <p>
+                                                    <%= course.classDetails.grading %>
+                                                </p>
+                                                <h4>Class components: </h4>
+                                                <p>
+                                                    <%= course.classDetails.units %>
+                                                </p>
+                                            </div>
+                                        </div>    
+                                    </div>
+                                </section>
                             </div>
+                            <section id="MeetingInfo">
+                                <h2 class="courseinfo-border">Meeting Information</h2>
+                            </section>
+                            <section id="EnrollmentInfo">
+                                <h2 class="courseinfo-border">Enrollment Information</h2>
+                            </section>
+                            <section id="AvailablityInfo">
+                                <h2 class="courseinfo-border">Class Availablity</h2>
+                            </section>
+                            <section id="Comments">
+                                <h2 class="courseinfo-border">Comments</h2>
+                            </section>
                         </div>
                         <aside class="col-md-3">
 
