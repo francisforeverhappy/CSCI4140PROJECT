@@ -1,4 +1,5 @@
 from pymongo import MongoClient
+import realtime_extractor
 import datetime
 import os
 import glob
@@ -37,10 +38,13 @@ def main():
 	client.drop_database('csci4140_db')
 	db = client.csci4140_db
 	files = glob.glob('./DumpedCourseList_20180507/*.xls')
+	with open('info_dict.json') as f:
+		add_info = json.load(f)
 	for path in files:
 		df_list = pd.read_html(path, header =0, flavor = 'bs4')
 		dataframe = df_list[0]
-		section_id, course_id, section, course = None, None, None, None
+		section_id, course_id, section, course, addinforow = None, None, None, None, None
+		coursenbr = -1
 		for index, df in dataframe.iterrows():
 			[day, start, end] = period2daytime(df['Period'])
 			if str(df['Course Component']).strip() == 'nan':
@@ -62,7 +66,7 @@ def main():
 					course['tutorials'].append({"type" : section_id, "ref" : "Section"})
 				elif section['courseComponent'] == 'LAB':
 					course['labs'].append({"type" : section_id, "ref" : "Section"})
-				try: 
+				try:
 					if df['Class Code'][-1] == '-':
 						df['Class Code'] = df['Class Code'][:-1]
 				except Exception:
@@ -86,12 +90,14 @@ def main():
 						"classCapacity": int(df['Quota(s)']),
 						"enrollTotal": int(df['Quota(s)']) - int(df['Vacancy']),
 						"availSeats": int(df['Vacancy']),
-						"waitListCapacity": 99,
-						"waitListTotal": 999,
+						"waitListCapacity": addinforow[now],
+						"waitListTotal": addinforow[wltotal],
 						"updatedTime": datetime.datetime.utcnow()
 					}
 				}
 				continue
+			coursenbr =int(df['Class Nbr'])
+			addinforow = add_info[coursenbr]
 			if section != None:
 				section_id = db.Section.insert_one(section).inserted_id
 				if section['courseComponent'] == 'LEC':
@@ -102,7 +108,7 @@ def main():
 					course['labs'].append({"type" : section_id, "ref" : "Section"})
 			if course != None:
 				course_id = db.Course.insert_one(course).inserted_id
-			try: 
+			try:
 				if df['Class Code'][-1] == '-':
 					df['Class Code'] = df['Class Code'][:-1]
 			except Exception:
@@ -111,19 +117,18 @@ def main():
 				"courseCode": df['Class Code'],
 				"courseName": df['Course Title'] ,
 				"sectionCode": df['Section Code'],
-				"semester": "",
-				"description": "",
+				"semester": addinforow['semester'],
+				"description": addinforow['description'],
 
 				"classDetails": {
-					"session": "",
 					"units": df['Units'],
-					"career": "Undergraduate",
-					"grading": "graded"
+					"career": addinforow['career'],
+					"grading": addinforow['grading']
 				},
 				"enrollmentInfo" : {
-					"dropConsent" : df['Drop Consent'] ,
-					"enrollReq" : df['Add Consent'],
-					"classAttr" : ""
+					"dropConsent" : addinforow['dropcons'] ,
+					"enrollReq" : addinforow['addcons'],
+					"classAttr" : df['Language']
 				},
 				"lectures" : None,
 				"tutorials" : [],
@@ -132,7 +137,7 @@ def main():
 			section = {
 				"courseCode": df['Class Code'],
 				"courseComponent": df['Course Component'],
-				"status": "open",
+				"status": addinforow['status'],
 
 				"meetingInfo": [
 					{
@@ -149,10 +154,11 @@ def main():
 					"classCapacity": int(df['Quota(s)']),
 					"enrollTotal": int(df['Quota(s)']) - int(df['Vacancy']),
 					"availSeats": int(df['Vacancy']),
-					"waitListCapacity": 99,
-					"waitListTotal": 999,
+					"waitListCapacity": addinforow[wltotal],
+					"waitListTotal": addinforow[wlnow],
 					"updatedTime": datetime.datetime.utcnow()
 				}
 			}
 if __name__ == "__main__":
 	main()
+	update()
