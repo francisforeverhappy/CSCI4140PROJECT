@@ -20,14 +20,13 @@ router.post('/search', middleware.asyncMiddleware(async (req, res) => {
     let courseInfo = req.body.key;
     let regex = new RegExp(courseInfo, 'i');
     console.log('get ' + courseInfo);
-    let courses = await Course.find({$or: [{courseCode: {$regex: regex}}, {courseName: {$regex: regex}}]}, 'courseCode courseName classDetails.units sectionCode');
+    let courses = await Course.find({$or: [{courseCode: {$regex: regex}}, {courseName: {$regex: regex}}]}, 'courseCode courseName classDetails.units sectionCode').limit(100);
     courses.forEach((course) => {
         console.log(course);
     });
     res.send({sid: req.session.sid, courses: courses});  
 }));
 
-//  doing
 router.post('/detail', middleware.asyncMiddleware(async (req, res) => {
     let courseMessage = 'courseCode courseName sectionCode semester classDetails.units classDetails.grading lectures tutorials labs';
     let sectionMessage = 'status meetingInfo';
@@ -80,13 +79,31 @@ router.post('/createComment', middleware.checkLogin, (req, res) => {
     });
 });
 
-router.post('/editComment', middleware.checkLogin, middleware.asyncMiddleware(async (req, res) => {
-    
-}));
+//  doing
+router.post('/editComment', middleware.checkLogin, (req, res) => {
+    let courseCode = req.body.courseCode,
+        text = req.body.text,
+        rating = req.body.rating,
+        sid = req.session.sid;
+    Comment.findOneAndUpdate({courseCode: courseCode, sid: sid}, {text: text, rating: rating}, {new: true}, (err, doc, res) => {
+        if (err) {
+            return console.log(err.message);
+        }
+        console.log(res);
+        return console.log(doc);
+    });
+});
 
-router.post('/deleteComment', middleware.checkLogin, middleware.asyncMiddleware(async (req, res) => {
-    
-}));
+router.post('/deleteComment', middleware.checkLogin, (req, res) => {
+    let courseCode = req.body.courseCode,
+        sid = req.session.sid;
+    Comment.findOneAndRemove({courseCode: courseCode, sid: sid}, (err, res) => {
+        if (err) {
+            return console.log(err.message);
+        }
+        return console.log(res);
+    }); 
+});
 
 
 router.get('/getWait', middleware.checkLogin, middleware.asyncMiddleware(async (req, res) => {
