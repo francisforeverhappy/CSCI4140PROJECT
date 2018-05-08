@@ -59,6 +59,7 @@ def dumpinfo(tofile, info):
         r = cusis.session.post(URL, data=payload)
 
 
+
 def dumplist(tofile):
     URL = "https://cusis.cuhk.edu.hk/psc/csprd/EMPLOYEE/HRMS/c/CU_SCR_MENU.CU_TMSR801.GBL"
     payload = {'ICType':'Panel','ICAction':'CLASS_LIST$hexcel$0'}

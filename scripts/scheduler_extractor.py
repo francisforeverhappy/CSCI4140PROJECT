@@ -36,18 +36,17 @@ def printlist():
     for entry in course_info:
         l = re.findall(r"(?:<span  class=.+?>(.+?)</span>|<td align='CENTER'  class='PSLEVEL3GRIDROW' >(.+?)</td>)", entry, re.DOTALL)
         flat_list = [item for sublist in l for item in sublist]
-        item = filter(None, flat_list)
+        item = [x for x in filter(None, flat_list)]
         if len(item) == 4:
             new_entry = True
             i += 1
         else:
-            for i in range(len(item)/7):
+            for i in range(len(item)//7):
                 if item[7*i] != "&nbsp;":
                     code_list.append(item[7*i])
                 for col in item[7*i : 7*(i+1)]:
                     if col == "&nbsp;":
                         col = ""
-
     print (','.join(code_list))
 
 

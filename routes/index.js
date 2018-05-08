@@ -1,6 +1,6 @@
 const express = require('express'),
     router = express.Router(),
-    store = require('store'),    
+    mongoose = require('mongoose'),
     spawn = require('child_process').spawn;
 
 const Course = require('../models/course'),
@@ -15,73 +15,121 @@ router.get('/', (req, res) => {
 });
 
 
-router.post('/search', (req, res) => {
-    // on the original page
-    let regex = new RegExp(escapeRegex(req.body.courseInfo), 'gi');
-    Course.find({$or: [{courseCode: regex}, {courseName: regex}]}, (err, courses) => {
-        if (err) {
-            return console.error(err);
-        } else {
-            if (courses.length < 1) {
-                message = 'No match';
-            }
-        }
-        res.render('index', {sid: req.session.sid, courses: courses});
+// search
+router.post('/search', middleware.asyncMiddleware(async (req, res) => {
+    let courseInfo = req.body.key;
+    let regex = new RegExp(courseInfo, 'i');
+    console.log('get ' + courseInfo);
+    let courses = await Course.find({$or: [{courseCode: {$regex: regex}}, {courseName: {$regex: regex}}]}, 'courseCode courseName classDetails.units sectionCode').limit(100);
+    courses.forEach((course) => {
+        console.log(course);
     });
-});
+    res.send({sid: req.session.sid, courses: courses});  
+}));
 
-router.get('/test', (req, res) => {
-    Course.find({}, (err, courses) => {
-        if (err) {
-            return console.error('courseSession find error');
-        }
-        if (courses.length > 0) {
-            courses.forEach((course) => {
-                console.log(course.courseCode);
-            }) 
-        } else {
-            console.log('no such course')
-        }
-    });
-});
+router.post('/detail', middleware.asyncMiddleware(async (req, res) => {
+    let courseMessage = 'courseCode courseName sectionCode semester classDetails.units classDetails.grading lectures tutorials labs';
+    let sectionMessage = 'status meetingInfo';
+    let courseId = mongoose.Types.ObjectId(req.body.courseId);
+    let course = await Course.findById(courseId, courseMessage);
+    let lec_id = course.lectures;
+    [course.lec, course.tutList, course.labList] = await Promise.all([Section.findById(lec_id, sectionMessage),
+        Section.find({'_id': {$in: course.tutorials}}, sectionMessage),
+        Section.find({'_id': {$in: course.labs}}, sectionMessage)]);
+    res.send({sid: req.session.sid, course: course});
+}));
 
-router.get('/search/:courseCode', (req, res) => {
-    // new page
+router.get('/course/:courseCode', middleware.asyncMiddleware(async (req, res) => {
     let courseCode = req.params.courseCode;
     console.log('get ' + courseCode);
-    let regex = new RegExp(courseCode, 'gi');
-    Course.findOne({courseCode: courseCode}, (err, course) => {
-        if (err) {
-            return console.error('courseSession find error');
-        }
-        if (!course) {
-            console.log('no such course')
-            return res.render('index', {sid: req.session.sid, course: course});
-        }  
-        console.log(course.courseName);
-        return res.render('index', {sid: req.session.sid, course: course})
+    
+    let [course, comments] = await Promise.all([Course.findOne({courseCode: courseCode}), Comment.find({courseCode: courseCode})]);
+    let lec_id = course.lectures;
+    course.lec = null;
+    course.tutList = [];
+    course.labList = [];
+    [course.lec, course.tutList, course.labList] = await Promise.all([Section.findById(lec_id),
+        Section.find({'_id': {$in: course.tutorials}}),
+        Section.find({'_id': {$in: course.labs}})]);
+    console.log(course);
+    return res.render('course', {sid: req.session.sid, course: course, comments: comments});
+}));
+
+
+router.get('/test/:courseCode', middleware.asyncMiddleware(async (req, res) => {
+    let courseCode = req.params.courseCode;
+    console.log('get ' + courseCode);
+    let regex = new RegExp(courseCode, 'i');
+    
+    let course = await Course.findOne({courseCode: {$regex: regex}});
+    console.log(course);
+    return res.render('course', {sid: req.session.sid, course: course});
+}));
+
+// login needed
+// comment
+router.post('/createComment', middleware.checkLogin, (req, res) => {
+    let courseCode = req.body.courseCode,
+        text = req.body.text,
+        rating = req.body.rating,
+        sid = req.session.sid;
+    let newComment = new Comment({courseCode: courseCode, text: text, rating: rating, sid: sid});
+    newComment.save((err, result) => {
+        console.log(result);
     });
 });
 
-router.get('/getWait', (req, res) => {
+//  doing
+router.post('/editComment', middleware.checkLogin, (req, res) => {
+    let courseCode = req.body.courseCode,
+        text = req.body.text,
+        rating = req.body.rating,
+        sid = req.session.sid;
+    Comment.findOneAndUpdate({courseCode: courseCode, sid: sid}, {text: text, rating: rating}, {new: true}, (err, doc, res) => {
+        if (err) {
+            return console.log(err.message);
+        }
+        console.log(res);
+        return console.log(doc);
+    });
+});
+
+router.post('/deleteComment', middleware.checkLogin, (req, res) => {
+    let courseCode = req.body.courseCode,
+        sid = req.session.sid;
+    Comment.findOneAndRemove({courseCode: courseCode, sid: sid}, (err, res) => {
+        if (err) {
+            return console.log(err.message);
+        }
+        return console.log(res);
+    }); 
+});
+
+
+router.get('/getWait', middleware.checkLogin, middleware.asyncMiddleware(async (req, res) => {
     console.log('get /getWait');
-    if (!('sid' in req.session)) {
-        console.log('getWaite without loggin');
-        return res.redirect('/');
-    }
     // TBI
+}));
 
-});
-
-router.get('/import', (req, res) => {
+router.get('/import', middleware.checkLogin, middleware.asyncMiddleware(async (req, res) => {
     console.log('get /import');
-    if (!('sid' in req.session)) {
-        console.log('import without loggin');
-        return res.redirect('/');
-    }
+    let sid = req.session.sid,
+        pwd = support.decrypt(sid, req.session.pwd);
+    let pythonProcess = spawn('python', ['support/py/import.py', sid, pwd]);
+    pythonProcess.stdout.on('data', async (data) => {
+        let courseNumbers = data.toString().trim().split(',').map(Number); 
+        console.log(courseNumbers);
+        let sections = await Section.find({courseNumber: {$in: courseNumbers}});
+        sections.map(async section => {
+            section.course = await Course.findById(section.courseInfo);
+        });
+        res.send({sid: sid, sections: sections})
+    });
     // TBI
-});
+}));
 
+
+// login
 router.post('/login', (req, res, next) => {
     console.log('post /login')
     let sid = req.body.sid,
@@ -101,17 +149,12 @@ router.post('/login', (req, res, next) => {
     });
 });
 
-router.get('/logout', (req, res) => {
+router.get('/logout', middleware.checkLogin, (req, res) => {
     console.log('get /logout');
-    if ('sid' in req.session) {
-        console.log(req.session.sid + ' ' + req.session.pwd);
-        support.destroyCredential(req.session.sid);
-        req.session.destroy(() => {
-            console.log('user logged out');
-        });
-    } else {
-        console.log("user haven't logged in");
-    }
+    support.destroyCredential(req.session.sid);
+    req.session.destroy(() => {
+        console.log('user logged out');
+    });
     res.redirect('/');
 });
 
