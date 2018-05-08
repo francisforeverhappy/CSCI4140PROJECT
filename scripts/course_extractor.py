@@ -11,7 +11,7 @@ def search_panel():
 
 def search(subject):
 	URL = "https://cusis.cuhk.edu.hk/psc/csprd/EMPLOYEE/HRMS/c/CU_SCR_MENU.CU_TMSR801.GBL"
-	semester_code = '1845' 	#You should find semester code in Cusis system and put it here yourself. (2014-15 sem 1 => 1835)
+	semester_code = '2010' 	#You should find semester code in Cusis system and put it here yourself. (2014-15 sem 1 => 1835)
 	payload = {
 		'ICType':'Panel',
 		'ICAction':'CU_RC_TMSR801_SSR_PB_CLASS_SRCH',
@@ -30,16 +30,16 @@ def dumplist(tofile):
 	if m:
 		redirectURL = m.group(1)
 	else:
-		print '[Err] The redirect URL could not be found in html code.'
+		print('[Err] The redirect URL could not be found in html code.')
 		exit(0)
 	r = cusis.session.get(redirectURL)
 	if r.ok:
 		with open(tofile,'wb') as f:
 			for chunk in r.iter_content():
 				f.write(chunk)
-			print 'Course lists are in', tofile, 'now.'
+			print('Course lists are in', tofile, 'now.')
 	else:
-		print '[Err] Download link error.'
+		print('[Err] Download link error.')
 
 def dodump(subject):
 	search_panel()
@@ -54,7 +54,7 @@ def main():
 	with open('FacList.txt','r') as f:
 		for line in f.readlines():
 			subject = line.split()[0]
-			print 'Dumping',subject,'......'
+			print('Dumping',subject,'......')
 			dodump(subject)
 
 if __name__ == '__main__':

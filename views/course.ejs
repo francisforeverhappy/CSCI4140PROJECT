@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CUTE</title>
+    <link rel='stylesheet' href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+    <link rel='stylesheet' href='/stylesheets/style.css'>
+    <link rel='stylesheet' href='/stylesheets/course.css'>
+    <script type="text/javascript" src="/javascripts/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <nav class="nav">
+        <a class="logo">CUTE</a>
+        <% if(sid == undefined){ %>
+            <button class="nav-button" data-toggle="modal" data-target="#loginModal">
+                <span aria-hidden="true">
+                    <i class="ion-log-in"></i>
+                </span> Login
+            </button>
+            <% } else { %>
+                <button class="nav-button" id="student-id">
+                    <span aria-hidden="true">
+                        <i class="ion-ios-person"></i>
+                    </span>
+                    <%= sid %>
+                </button>
+                <button class="nav-button" onclick="window.location.href='/logout'">
+                    <span aria-hidden="true">
+                        <i class="ion-log-out"></i>
+                    </span> Logout
+                </button>
+                <% } %>
+    </nav>
+    <div class = "main-container">
+        <main class="main-content">
+            <div class="course-page">
+                <div class="page-container">
+                    <div class="row">
+                        <div class="col-md-9">
+                            <div id="Details">
+
+                            </div>
+                        </div>
+                        <aside class="col-md-3">
+
+                        </aside>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="loginModalLabel">Login</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">
+                            <i class="ion-ios-close-outline"></i>
+                        </span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form method="POST" action="/login" id="login-form">
+                        <div class="login-input input-box">
+                            <i class="ion-ios-person-outline"></i>
+                            <input type="text" name="sid" placeholder="11550xxxxx">
+                        </div>
+                        <div class="login-input input-box">
+                            <i class="ion-ios-keypad-outline"></i>
+                            <input type="password" name="pwd" placeholder="password">
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" form="login-form" value="Submit" class="btn btn-cute">Login</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

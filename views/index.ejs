@@ -17,6 +17,7 @@
 		  			<span aria-hidden="true"><i class="ion-log-in"></i></span>  Login
 		  		</button>
       <% } else { %>
+<<<<<<< HEAD
       		<div class="dropdown">
 			      <button type="button" class="nav-button" id="student-id">
 			  			<span aria-hidden="true"><i class="ion-ios-person"></i></span> <%= sid %>
@@ -27,6 +28,14 @@
 			  			<a href="/logout"><span aria-hidden="true"><i class="ion-log-out" ></i></span>  Logout</a>
 			  		</div>
 			  	</div>
+=======
+		      <button class="nav-button" id="student-id">
+		  			<span aria-hidden="true"><i class="ion-ios-person"></i></span> <%= sid %>
+		  		</button>
+          <button class="nav-button" onclick="window.location.href='/logout'">
+		  			<span aria-hidden="true"><i class="ion-log-out"></i></span>  Logout
+					</button>
+>>>>>>> 8ea0fbd29c7ef60fcabcf84e9dbbd0e92e1612b4
       <% } %>
   	</nav>
 
@@ -150,7 +159,11 @@
 	    				</div>
 	    				<div class="login-input input-box">
 		    				<i class="ion-ios-keypad-outline" ></i>
+<<<<<<< HEAD
 		    				<input type="password" name="pwd" placeholder="Your CWEM Password">
+=======
+		    				<input type="password" name="pwd" placeholder="password">
+>>>>>>> 8ea0fbd29c7ef60fcabcf84e9dbbd0e92e1612b4
 	    				</div>
 		        </form>
 		      </div>

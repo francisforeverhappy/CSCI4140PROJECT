@@ -34,10 +34,10 @@ var sectionSchema = mongoose.Schema({
     meetingInfo: [{
         daysTime: {
             day: Number,
-            timeSlot: [{
+            timeSlot: {
                 start: Number,
                 end: Number
-            }],
+            },
         },
         room: String,
         instructor: String, // professor
@@ -56,4 +56,4 @@ var sectionSchema = mongoose.Schema({
     }
 });
 
-module.exports = mongoose.model('Section', sectionSchema);
+module.exports = mongoose.model('Section', sectionSchema, 'Section');

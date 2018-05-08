@@ -1,6 +1,4 @@
 import requests
-from cookielib import CookieJar
-
 
 class Cusis:
 
@@ -14,7 +12,7 @@ class Cusis:
 		"""Login into cusis, return True if successful."""
 
 		URL = 'https://cusis.cuhk.edu.hk/psp/csprd/?cmd=login'
-		payload = {'userid':'1155092206','pwd':'h8m##ac2'}
+		payload = {'userid':'','pwd':''}
 
 		self.session.headers.update(self.useragent)
 		r = self.session.post(URL, data=payload, allow_redirects=False, verify=False)
@@ -24,14 +22,14 @@ class Cusis:
 			return True
 		else:
 			return False
-
+	
 	def logout(self):
 		"""Logout, no return."""
 
 		URL = 'https://cusis.cuhk.edu.hk/psp/csprd/EMPLOYEE/HRMS/?cmd=logout'
 
 		if self.login_status == False:
-			print '[Warning] Please login before calling logout function.'
+			pass		# print '[Warning] Please login before calling logout function.'
 		else:
 			self.session.get(URL)
 
@@ -43,10 +41,10 @@ class Cusis:
 		r = self.session.get(URL, allow_redirects=False)
 		if r.status_code == 200:
 			self.login_status = True
-			print 'login sucessfully'
+			# print 'login sucessfully'
 			return True
 		else:
 			self.login_status = False
-			print 'login fails'
+			# print 'login fails'
 			return False
 
