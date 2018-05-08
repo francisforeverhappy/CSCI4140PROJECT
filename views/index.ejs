@@ -74,46 +74,7 @@
 				    	</li>
 				    </div>
 			    </div>
-			    <div class="select-list">
-			    	<div class="select-item">
-			    		<div class="select-item-tooltip">
-			    			<div class="select-item-lec"> 
-			    				<div style="margin-right: 7px">LEC</div>
-			    				<div>
-			    					<div class="select-item-lec-sec"> 
-						    			<span><i class="ion-ios-clock-outline"></i> Mon: 9:30 - 11:30</span>
-						    			<span><i class="ion-ios-location-outline"></i> Med G18</span>
-					    			</div>
-					    			<div class="select-item-lec-sec"> 
-						    			<span><i class="ion-ios-clock-outline"></i> Thu: 12:30 - 13:30</span>
-						    			<span><i class="ion-ios-location-outline"></i> LSB LT2</span>
-					    			</div>
-			    				</div>
-				    		</div>
-				    		<div class="select-item-tut">TUT
-				    			<span><i class="ion-ios-clock-outline"></i> Thu: 13:30 - 14:30</span>
-				    			<span><i class="ion-ios-location-outline"></i> LSB C1</span>
-				    		</div>
-			    		</div>
-			    		<div class="select-item-show">
-			    			<div class="select-item-color"><i class="ion-record"></i></div>
-		    				<div class="select-item-title">CSCI4140 Open Sourse Software Development</div>
-			    			<div class="select-item-btn">
-			    				<i class="ion-ios-trash-outline"></i>
-				    			<i class="ion-ios-eye"></i>
-			    			</div>
-			    		</div>
-			    	</div>
-			    	<div class="select-item">
-			    		<div class="select-item-show">
-			    			<div class="select-item-color"><i class="ion-record"></i></div>
-		    				<div class="select-item-title">CSCI4140 Open Sourse Software Development</div>
-			    			<div class="select-item-btn">
-			    				<i class="ion-ios-trash-outline"></i>
-				    			<i class="ion-ios-eye"></i>
-			    			</div>
-			    		</div>
-			    	</div>
+			    <div class="select-list" id="select-list">
 			    </div>
 			  </div>
 			  <div class="col-md-4">
@@ -160,14 +121,53 @@
 		  </div>
 		</div>
 
+		<template id="class-item-tmpl">
+			<div class="class-item">
+				<div class="class-info">
+				</div>
+			</div>
+		</template>
+
 		<template id="search-item-tmpl">
-			<button class="search-item">
+			<div class="search-item">
 				<div class="search-item-info">
 				</div>
 				<a class="search-item-btn">
 					<i class="ion-information-circled"></i>
 				</a>
 			</div>
+		</template>
+
+		<template id="select-item-tmpl">
+			<div class="select-item">
+    		<div class="select-item-tooltip">
+    			<div class="select-item-lec"> 
+    				<div style="margin-right: 7px">LEC</div>
+    				<div>
+    					<div class="select-item-lec-sec"> 
+			    			<span><i class="ion-ios-clock-outline"></i> Mon: 9:30 - 11:30</span>
+			    			<span><i class="ion-ios-location-outline"></i> Med G18</span>
+		    			</div>
+		    			<div class="select-item-lec-sec"> 
+			    			<span><i class="ion-ios-clock-outline"></i> Thu: 12:30 - 13:30</span>
+			    			<span><i class="ion-ios-location-outline"></i> LSB LT2</span>
+		    			</div>
+    				</div>
+	    		</div>
+	    		<div class="select-item-tut">TUT
+	    			<span><i class="ion-ios-clock-outline"></i> Thu: 13:30 - 14:30</span>
+	    			<span><i class="ion-ios-location-outline"></i> LSB C1</span>
+	    		</div>
+    		</div>
+    		<div class="select-item-show">
+    			<div class="select-item-color"><i class="ion-record"></i></div>
+  				<div class="select-item-title">CSCI4140 Open Sourse Software Development</div>
+    			<div class="select-item-btn">
+    				<i class="ion-ios-trash-outline"></i>
+	    			<i class="ion-ios-eye"></i>
+    			</div>
+    		</div>
+    	</div>
 		</template>
   </body>
 </html>
