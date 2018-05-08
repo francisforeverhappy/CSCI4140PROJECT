@@ -12,7 +12,6 @@
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
         crossorigin="anonymous"></script>
-    <script type="text/javascript" src="/javascripts/course.js"></script>
 </head>
 
 <body>
@@ -61,18 +60,15 @@
                                                 <%= course.classDetails.units %> unit
                                             </span>
                                         <% } %>
+                                        <span class="beauty-font"> ● <%= course.semester %></span>
                                     </p>
                                 </header>
                                 <section>
                                     <div class="row">
                                         <div class="col-sm-8">
-                                            <% if(course.description != ''){ %>
-                                                <span></span>
-                                            <% }else{ %>
-                                                <span class="beauty-font">
-                                                    <%= course.description %>
-                                                </span>
-                                            <% } %>
+                                            <span class="beauty-font">
+                                                <%- course.description %>
+                                            </span>
                                         </div>
                                         <div class="col-sm-4">
                                             <div>
@@ -87,7 +83,7 @@
                                                 </p>
                                                 <h4>Class components: </h4>
                                                 <p>
-                                                    <%= course.classDetails.units %>
+                                                    <%= course %>
                                                 </p>
                                             </div>
                                         </div>    
@@ -96,6 +92,32 @@
                             </div>
                             <section id="MeetingInfo">
                                 <h2 class="courseinfo-border">Meeting Information</h2>
+                                <div class="row">
+                                    <% if(course.lec){ %>
+                                        <div class="col-sm-4">
+                                            <h3>Lecture</h3>
+                                            <p>
+                                                <%= course.lec.meetingInfo %>
+                                            </p>
+                                        </div>
+                                    <% } %>
+                                    <% if(course.tutList.length>0){ %>
+                                        <div class="col-sm-4">
+                                            <h3>Tutorials</h3>
+                                            <p>
+                                                <%= course.tutList %>
+                                            </p>
+                                        </div>
+                                    <% } %>
+                                    <% if(course.labList.length>0){ %>
+                                        <div class="col-sm-4">
+                                            <h3>Labs</h3>
+                                            <p>
+                                                <%= course.labList %>
+                                            </p>
+                                        </div>
+                                    <% } %>
+                                </div>
                             </section>
                             <section id="EnrollmentInfo">
                                 <h2 class="courseinfo-border">Enrollment Information</h2>
@@ -108,7 +130,27 @@
                             </section>
                         </div>
                         <aside class="col-md-3">
-
+                            <div class="info-nav scrollable">
+                                <nav class="aside-nav">
+                                    <ul>
+                                        <li class='red_sign'>
+                                            <a id="nav-details" href="#Details">&nbsp  Details</a>
+                                        </li>
+                                        <li class>
+                                            <a id="nav-meeting" href="#MeetingInfo">&nbsp  Meeting Information</a>
+                                        </li>
+                                        <li class>
+                                            <a id="nav-enrollment" href="#EnrollmentInfo">&nbsp  Enrollment Information</a>
+                                        </li>
+                                        <li class>
+                                            <a id="nav-availablity" href="#AvailablityInfo">&nbsp  Class Availablity</a>
+                                        </li>
+                                        <li class>
+                                            <a id="nav-comments" href="#Comments">&nbsp Comments</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
                         </aside>
                     </div>
                 </div>
@@ -148,3 +190,4 @@
     </div>
 </body>
 </html>
+<script type="text/javascript" src="/javascripts/course.js"></script>

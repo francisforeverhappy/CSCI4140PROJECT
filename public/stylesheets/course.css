@@ -1,5 +1,10 @@
 /* For course page */
-/* main */
+/* main h2 section*/
+body{
+    font-size: 1rem;
+    font-weight: 400;
+    line-weight: 1.5;
+}
 main{
     display: block;
 }
@@ -9,8 +14,21 @@ h2{
     text-shadow : rgba(255,255,255,0.5) 0 5px 6px, rgba(255,255,255,0.2) 1px 3px 3px;
     -webkit-background-clip : text;
 }
-p{
-    padding: 0;
+section{
+    padding-top: 45px;
+}
+ul li{
+    list-style-type: none;
+    font-size: 1.5rem;
+}
+li{
+    padding-top: 5px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
 }
 /* main content */
 .main-container{
@@ -24,6 +42,9 @@ p{
     body{
         padding-left:50px;
     }
+}
+#Details{
+    padding-top: 45px;
 }
 .course-page{
     width: 100%;
@@ -114,4 +135,24 @@ p{
     border-bottom: solid 1px #888888;
     display: block;
     box-sizing: border-box;
+}
+/* aside */
+.scrollable{
+    overflow: auto;
+}
+.info-nav{
+    position:sticky;
+    top: 4rem;
+    overscroll-behavior: contain;
+    max-height: calc(100vh - 4rem);
+}
+.aside-nav a{
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    border-left: solid 0.3rem #424242;
+}
+.red_sign a{
+    font-weight: bold;
+    color: #ff5138;
+    border-color:#ff5138;
 }
