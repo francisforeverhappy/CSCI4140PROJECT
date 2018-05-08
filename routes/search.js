@@ -25,7 +25,7 @@ router.post('/', middleware.asyncMiddleware(async (req, res) => {
 router.post('/detail', middleware.asyncMiddleware(async (req, res) => {
     let courseMessage = 'courseCode courseName sectionCode semester classDetails.units classDetails.grading lectures tutorials labs';
     let sectionMessage = 'status meetingInfo';
-    let courseId = mongoose.Types.ObjectId(req.body.courseId);
+    let courseId = mongoose.Types.ObjectId(req.body.key);
     let course = await Course.findById(courseId, courseMessage);
     let lec_id = course.lectures;
     [course.lec, course.tutList, course.labList] = await Promise.all([Section.findById(lec_id, sectionMessage),
@@ -37,7 +37,6 @@ router.post('/detail', middleware.asyncMiddleware(async (req, res) => {
 router.get('/:courseCode', middleware.asyncMiddleware(async (req, res) => {
     let courseCode = req.params.courseCode;
     console.log('get ' + courseCode);
-    
     let [course, comments] = await Promise.all([Course.findOne({courseCode: courseCode}), Comment.find({courseCode: courseCode})]);
     let lec_id = course.lectures;
     course.lec = null;
