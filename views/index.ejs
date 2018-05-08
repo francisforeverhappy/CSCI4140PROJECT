@@ -81,18 +81,18 @@
 			    				<div style="margin-right: 7px">LEC</div>
 			    				<div>
 			    					<div class="select-item-lec-sec"> 
-						    			<span><i class="ion-ios-clock-outline"></i>Mon: 9:30 - 11:30</span>
-						    			<span><i class="ion-ios-location-outline"></i>Med G18</span>
+						    			<span><i class="ion-ios-clock-outline"></i> Mon: 9:30 - 11:30</span>
+						    			<span><i class="ion-ios-location-outline"></i> Med G18</span>
 					    			</div>
 					    			<div class="select-item-lec-sec"> 
-						    			<span><i class="ion-ios-clock-outline"></i>Thu: 12:30 - 13:30</span>
-						    			<span><i class="ion-ios-location-outline"></i>LSB LT2</span>
+						    			<span><i class="ion-ios-clock-outline"></i> Thu: 12:30 - 13:30</span>
+						    			<span><i class="ion-ios-location-outline"></i> LSB LT2</span>
 					    			</div>
 			    				</div>
 				    		</div>
 				    		<div class="select-item-tut">TUT
-				    			<span><i class="ion-ios-clock-outline"></i>Thu: 13:30 - 14:30</span>
-				    			<span><i class="ion-ios-location-outline"></i>LSB C1</span>
+				    			<span><i class="ion-ios-clock-outline"></i> Thu: 13:30 - 14:30</span>
+				    			<span><i class="ion-ios-location-outline"></i> LSB C1</span>
 				    		</div>
 			    		</div>
 			    		<div class="select-item-show">
@@ -125,17 +125,7 @@
 	    				</div>
 	    			</form>
 	    		</div>
-	    		<div class="search-list">
-	    			<div class="search-item">
-	    				<div class="search-item-info">
-	    					<span>CSCI4140</span> <br>
-	    					Open Sourse Software Development
-	    					<span> - 3 Units </span>
-	    				</div>
-	    				<a class="search-item-btn">
-	    					<i class="ion-information-circled"></i>
-	    				</a>
-	    			</div>
+	    		<div class="search-list" id="search-list">
 	    		</div>
 	    	</div>
     	</div>
@@ -169,45 +159,20 @@
 		    </div>
 		  </div>
 		</div>
+
+		<template id="search-item-tmpl">
+			<button class="search-item">
+				<div class="search-item-info">
+				</div>
+				<a class="search-item-btn">
+					<i class="ion-information-circled"></i>
+				</a>
+			</div>
+		</template>
   </body>
 </html>
 
-<script>
-	$(".select-item-title").hover(function(){
-    $(".select-item-tooltip").show();
-  	},function(){
-    $(".select-item-tooltip").hide();
-  });
-
-	function addClassItem(code, name, venue, day, start, end){
-		var newDiv = document.createElement("div");
-		var newItem = document.createElement("div");
-		$(newItem).addClass("class-item");
-		$(newDiv).addClass("class-container").css({
-			"grid-row-start": start,
-		    "grid-row-end": end,
-		});
-		$(newDiv).append(newItem);
-		console.log($(".schedule").eq(day).append(newDiv));
-	}
-
-	function addClassList(code, name, unit){
-	}
-
-	$('#search-input').on("keyup", function(){
-		var keyword = $(this).val();
-		if(keyword.length > 0){
-			$.ajax({
-				contentType: 'application/json',
-				data: JSON.stringify({"key": keyword}),
-				url: '/search',
-	  			type: 'POST',
-	  			success: function(result) {
-	  			  console.log(result);
-	  			}
-			});
-		}
-	});
+<script src="/javascripts/index.js">
 </script>
 
 
