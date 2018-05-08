@@ -225,6 +225,10 @@ a {
   border-radius: 4px;
 }
 
+.search-item:hover {
+  background-color: linen;
+}
+
 .search-item-info{
   width: 90%
 }
@@ -289,4 +293,8 @@ a {
 
 .select-item-tooltip span{
   text-indent: 1rem;
+}
+
+template{
+  display: none;
 }
