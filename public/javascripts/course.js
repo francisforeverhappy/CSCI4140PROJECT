@@ -2,10 +2,6 @@
 var url = document.URL;
 console.log(url);
 
-// function Removeclass() {
-//     console.log(this);
-// }
-// document.getElementById('nav-meeting').addEventListener("click",Removeclass);
 // aside nav function
 $('#nav-details,#nav-meeting,#nav-enrollment,#nav-availablity,#nav-comments').on('click',function(e){
     //console.log(this);
@@ -16,3 +12,21 @@ $('#nav-details,#nav-meeting,#nav-enrollment,#nav-availablity,#nav-comments').on
     $('#nav-comments').parent().removeClass('red_sign');
     $(this).parent().addClass('red_sign');
 });
+
+//comments top or recent
+function sortcomments($data,$status){
+    if($status!='200'){
+        console.log("failure");
+    }
+    else{
+
+    }
+}
+$(".comments-sort-list").children().on('click', function (e) {
+    $(this).siblings().removeClass("selected");
+    $(this).addClass("selected");
+    console.log(this);
+    console.log($(this).attr('title'));
+    $.get($(this).attr('title'),sortcomments);
+});
+

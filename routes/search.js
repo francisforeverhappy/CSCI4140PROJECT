@@ -53,7 +53,6 @@ router.get('/:courseCode', middleware.asyncMiddleware(async (req, res) => {
     [course.lectures, course.tutorials, course.labs] = await Promise.all([Section.findById(lec_id),
         Section.find({'_id': {$in: course.tutorials}}),
         Section.find({'_id': {$in: course.labs}})]);
-    console.log(course);
     return res.render('course', {sid: req.session.sid, course: course, comments: comments});
 }));
 

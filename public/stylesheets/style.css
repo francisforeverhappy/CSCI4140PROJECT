@@ -1,5 +1,5 @@
 body {
-  padding: 50px;
+  padding: 50px 20px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
@@ -14,7 +14,7 @@ a {
 }
 @media (min-width: 768px){
   .container {
-      max-width: 1200px;
+      max-width: 1080px;
   }
 }
 
@@ -106,16 +106,15 @@ a {
 	position: relative;
 	display: flex;
 	width: -webkit-fill-available;
+  height: 99%;
+  background-color: lightcoral;
+  border-radius: 8px;
+  padding: 0.25rem;
 }
 .class-info{
-	background-color: lightcoral;
-	border-radius: 0px;
 	/*top:1px;*/
-	height: 99%;
-	width: 100%;
 	position: absolute;
   font-size: 1px;
-  padding: 0.15rem;
   color: linen;
 }
 
@@ -152,11 +151,11 @@ a {
 
 .schedule{
 	background: linear-gradient(180deg,mistyrose 50%, transparent 0);
-	background-size: 20%;
-	height: 28rem;
+	background-size: 20.1%;
+	height: 30rem;
 	position: relative;
   display: grid;
-  grid-template-rows: repeat(10,2.8rem);
+  grid-template-rows: repeat(10,3rem);
 }
 
 .input-box{
@@ -222,10 +221,6 @@ a {
   border: 1px solid mistyrose;
   border-radius: 4px;
   width: -webkit-fill-available;
-}
-
-.search-item:hover {
-  background-color: linen;
 }
 
 .search-item-info{
@@ -298,4 +293,8 @@ template{
 
 .flex{
   display: flex;
+}
+
+.clickable:hover{
+  background-color: linen;
 }
