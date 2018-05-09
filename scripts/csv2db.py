@@ -6,8 +6,18 @@ import json
 import glob, re
 import pandas as pd
 
+day2num = {
+	'TB': -1,
+	'Mo': 0,
+	'Tu': 1,
+	'We': 2,
+	'Th': 3,
+	'Fr': 4,
+	'Sa': 5,
+	'Su': 6
+}
 def period2daytime(date):
-	day = date[0:2]
+	day = day2num[date[0:2]]
 	start_timeslot_dict = {
 		"08:30AM" : 1, "09:30AM" : 2,
 		"10:30AM" : 3, "11:30AM" : 4,
@@ -18,13 +28,13 @@ def period2daytime(date):
 		"08:30PM" : 13
 	}
 	end_timeslot_dict = {
-		"09:15AM" : 1, "10:15AM" : 2,
-		"11:15AM" : 3, "12:15PM" : 4,
-		"01:15PM" : 5, "02:15PM" : 6,
-		"03:15PM" : 7, "04:15PM" : 8,
-		"05:15PM" : 9,"06:15PM" : 10,
-		"07:15PM" : 11, "08:15PM" : 12,
-		"09:15PM" : 13
+		"09:15AM" : 2, "10:15AM" : 3,
+		"11:15AM" : 4, "12:15PM" : 5,
+		"01:15PM" : 6, "02:15PM" : 7,
+		"03:15PM" : 8, "04:15PM" : 9,
+		"05:15PM" : 10,"06:15PM" : 11,
+		"07:15PM" : 12, "08:15PM" : 13,
+		"09:15PM" : 14
 	}
 	try:
 		start = start_timeslot_dict[date[3:10]]
@@ -49,6 +59,7 @@ def main():
 		coursenbr = -1
 		for index, df in dataframe.iterrows():
 			[day, start, end] = period2daytime(df['Period'])
+			
 			if str(df['Course Component']).strip() == 'nan':
 				section["meetingInfo"].append({
 					"daysTime": {
@@ -56,6 +67,11 @@ def main():
 						"timeSlot": {
 							"start" : start,
 							"end" : end
+						},
+						"room" : df['Room'],
+						"meetingDates": {
+							"startDate": datetime.datetime.strptime(df['Meeting Date'].split(" - ")[0], "%d/%m/%Y"),
+							"endDate": datetime.datetime.strptime(df['Meeting Date'].split(" - ")[1], "%d/%m/%Y")
 						}
 					}
 				})
@@ -80,7 +96,12 @@ def main():
 									"start" : start,
 									"end" : end
 								}
-							}
+							},
+							"room" : df['Room'],
+							"meetingDates": {
+            					"startDate": datetime.datetime.strptime(df['Meeting Date'].split(" - ")[0], "%d/%m/%Y"),
+            					"endDate": datetime.datetime.strptime(df['Meeting Date'].split(" - ")[1], "%d/%m/%Y")
+        					}
 						}
 					],
 					"classAvail" : {
@@ -109,9 +130,13 @@ def main():
 				classcode = re.match(r"[a-zA-Z]+[0-9]+", df['Class Code']).group(0)
 			except Exception as e:
 				print(e)
+			if df['Section Code'] == '-':
+				df['Section Code'] = ''
+			
+			df['Teaching Staff'] = ', '.join(df["Teaching Staff"][2:].split(' - '))
 			course = {
 				"courseCode": classcode,
-				"courseName": df['Course Title'] ,
+				"courseName": df['Course Title'],
 				"sectionCode": df['Section Code'],
 				"semester": addinforow['semester'],
 				"description": addinforow['description'],
@@ -126,6 +151,7 @@ def main():
 					"enrollReq" : addinforow['addcons'],
 					"classAttr" : df['Language']
 				},
+				"instructor" : df["Teaching Staff"],
 				"lectures" : None,
 				"tutorials" : [],
 				"labs" : []
@@ -143,6 +169,11 @@ def main():
 								"start" : start,
 								"end" : end
 							}
+						},
+						"room" : df['Room'],
+						"meetingDates": {
+							"startDate": datetime.datetime.strptime(df['Meeting Date'].split(" - ")[0], "%d/%m/%Y"),
+							"endDate": datetime.datetime.strptime(df['Meeting Date'].split(" - ")[1], "%d/%m/%Y")
 						}
 					}
 				],

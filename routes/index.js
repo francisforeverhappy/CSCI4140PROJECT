@@ -13,14 +13,11 @@ router.get('/', (req, res) => {
     res.render('index', {sid: req.session.sid});
 });
 
-router.get('/test/:courseCode', middleware.asyncMiddleware(async (req, res) => {
-    let courseCode = req.params.courseCode;
-    console.log('get ' + courseCode);
-    let regex = new RegExp(courseCode, 'i');
-    
-    let course = await Course.findOne({courseCode: {$regex: regex}});
+
+router.get('/test', middleware.asyncMiddleware(async (req, res) => {
+    let course = await Course.findOne({});
     console.log(course);
-    return res.render('course', {sid: req.session.sid, course: course});
+    // return res.render('course', {sid: req.session.sid, course: course});
 }));
 
 

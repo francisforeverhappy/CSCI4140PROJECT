@@ -8,9 +8,9 @@ var courseSchema = mongoose.Schema({
     sectionCode: String,
     semester: String,
     description: String,
+    instructor: String, // professor    
     classDetails: {
         // status: String, // different
-        session: String,
         units: Number,
         career: String,
         grading: String
