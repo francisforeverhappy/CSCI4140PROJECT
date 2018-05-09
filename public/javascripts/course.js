@@ -14,47 +14,36 @@ $('#nav-details,#nav-meeting,#nav-enrollment,#nav-availablity,#nav-comments').on
 });
 
 //comments top or recent
-function sortcomments($data,$status){
-    if($status!='200'){
-        console.log("failure");
-    }
-    else{
+// function sortcomments($data,$status){
+//     if($status!='200'){
+//         console.log("failure");
+//     }
+//     else{
 
-    }
-}
-$(".comments-sort-list").children().on('click', function (e) {
-    $(this).siblings().removeClass("selected");
-    $(this).addClass("selected");
-    console.log(this);
-    console.log($(this).attr('title'));
-    $.get($(this).attr('title'),sortcomments);
-});
-
-// console.log(courseInfo);
-// // var lec_meeting_time = courseInfo.lectures.meetingInfo;
-// for (var i = 0; i < courseInfo.lectures.meetingInfo.length; i++){
-//     var what_day = courseInfo.lectures.meetingInfo[i].daystime.day;
-//     switch (what_day) {
-//         case 0:
-//             courseInfo.lectures.meetingInfo[i].daystime.day = "Sunday";
-//             break;
-//         case 1:
-//             courseInfo.lectures.meetingInfo[i].daystime.day = "Monday";
-//             break;
-//         case 2:
-//             courseInfo.lectures.meetingInfo[i].daystime.day = "Tuesday";
-//             break;
-//         case 3:
-//             courseInfo.lectures.meetingInfo[i].daystime.day = "Wednesday";
-//             break;
-//         case 4:
-//             courseInfo.lectures.meetingInfo[i].daystime.day = "Thursday";
-//             break;
-//         case 5:
-//             courseInfo.lectures.meetingInfo[i].daystime.day = "Friday";
-//             break;
-//         case 6:
-//             courseInfo.lectures.meetingInfo[i].daystime.day = "Saturday";
-//             break;
 //     }
 // }
+// $(".comments-sort-list").children().on('click', function (e) {
+//     $(this).siblings().removeClass("selected");
+//     $(this).addClass("selected");
+//     $.get($(this).attr('title'),sortcomments);
+// });
+
+// refresh waiting list
+$('#refresh-waitingList').on("click", function () {
+    var courseId= $('#courseId').text();
+    console.log(courseId);
+    if (courseId.length > 0) {
+        $.ajax({
+            contentType: 'application/json',
+            data: JSON.stringify({ "key": courseId }),
+            url: '/protected/getWait',
+            type: 'POST',
+            success: function (result) {
+                // receive data
+                console.log(result);
+            }
+        });
+    } else {
+        console.log("refresh failure");
+    }
+});
