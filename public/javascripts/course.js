@@ -30,3 +30,31 @@ $(".comments-sort-list").children().on('click', function (e) {
     $.get($(this).attr('title'),sortcomments);
 });
 
+// console.log(courseInfo);
+// // var lec_meeting_time = courseInfo.lectures.meetingInfo;
+// for (var i = 0; i < courseInfo.lectures.meetingInfo.length; i++){
+//     var what_day = courseInfo.lectures.meetingInfo[i].daystime.day;
+//     switch (what_day) {
+//         case 0:
+//             courseInfo.lectures.meetingInfo[i].daystime.day = "Sunday";
+//             break;
+//         case 1:
+//             courseInfo.lectures.meetingInfo[i].daystime.day = "Monday";
+//             break;
+//         case 2:
+//             courseInfo.lectures.meetingInfo[i].daystime.day = "Tuesday";
+//             break;
+//         case 3:
+//             courseInfo.lectures.meetingInfo[i].daystime.day = "Wednesday";
+//             break;
+//         case 4:
+//             courseInfo.lectures.meetingInfo[i].daystime.day = "Thursday";
+//             break;
+//         case 5:
+//             courseInfo.lectures.meetingInfo[i].daystime.day = "Friday";
+//             break;
+//         case 6:
+//             courseInfo.lectures.meetingInfo[i].daystime.day = "Saturday";
+//             break;
+//     }
+// }
