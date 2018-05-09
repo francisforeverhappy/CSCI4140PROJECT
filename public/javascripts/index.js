@@ -1,6 +1,14 @@
 var pending = false;
 var selectedCourse = {};
 
+var dayMap = {
+	0: "Mon",
+	1: "Tue",
+	2: "Wed",
+ 	3: "Thu",
+ 	4: "Fri",
+  5: "Sat" };
+
 // string format 
 String.prototype.format = function() {
   a = this;
@@ -10,36 +18,85 @@ String.prototype.format = function() {
   return a
 }
 
-function optClassHandler(e){
-	var id = $(e.currentTarget).attr("data-id");
-	var type = $(e.currentTarget).attr("data-type");
-	var courseCode = selectedCourse[i].courseCode;
-	var courseName = selectedCourse[i].courseName;
-
-	if(type == "TUT"){
-		$(e.currentTarget).remove();
-		for(var i in result.course.tutorials){
-	  	var timeSlot = result.course.tutorials[i].meetingInfo[0].daysTime.timeSlot;
-		  addOptClassItem(courseCode, courseName, id, "TUT", "CCHH", 5, timeSlot);
-	  }
-	}else{
-
+$("body").on("click",function(){
+	if(pending){
+		$('[data-select=false]').remove();
+		pending = false;
 	}
-	console.log(selectedCourse[id]);
+});
+
+function optClassHandler(e){
+	e.stopPropagation();
+	if(pending){
+		$('[data-select=false]').remove();
+		pending = false;
+	}else{
+		var id = $(e.currentTarget).attr("data-id");
+		var type = $(e.currentTarget).attr("data-type");
+		var courseCode = selectedCourse[id].course.courseCode;
+		var courseName = selectedCourse[id].course.courseName;
+
+		if(type == "TUT"){
+			for(var i in selectedCourse[id].course.tutorials){
+				if(i != selectedCourse[id].TUT){
+					for(var j in selectedCourse[id].course.tutorials[i].meetingInfo){
+				  	var daysTime = selectedCourse[id].course.tutorials[i].meetingInfo[j].daysTime;
+				  	var venue = selectedCourse[id].course.tutorials[i].meetingInfo[j].room;
+					  addOptClassItem(courseCode, courseName, id, i, "TUT", venue, daysTime.day, daysTime.timeSlot);
+					}
+				}
+		  }
+		}else{
+			for(var i in selectedCourse[id].course.labs){
+				if(i != selectedCourse[id].LAB){
+					for(var j in selectedCourse[id].course.labs[i].meetingInfo){
+				  	var daysTime = selectedCourse[id].course.labs[i].meetingInfo[j].daysTime;
+				  	var venue = selectedCourse[id].course.labs[i].meetingInfo[j].room;
+					  addOptClassItem(courseCode, courseName, id, i, "LAB", venue, daysTime.day, daysTime.timeSlot);
+					}
+				}
+		  }
+		}
+		console.log(selectedCourse[id]);
+		pending = true;
+	}
 }
 
 function optClassSelectHandler(e){
+	e.stopPropagation();
+	var id = $(e.currentTarget).attr("data-id");
+	var gid = $(e.currentTarget).attr("data-gid");
+	var type = $(e.currentTarget).attr("data-type");
+	if($(e.currentTarget).data("select") != true){
+		$('[data-select=true][data-id='+id+'][data-type='+type+']').remove();
+		$('[data-select=false][data-gid='+gid+']').attr("data-select", true);
+		$('[data-select=false]').remove();
 
+		$(e.currentTarget).off("click");
+		$(e.currentTarget).on("click",optClassHandler);
+		selectedCourse[id][type] = gid;
+		pending = false;
+
+		//change information in select list
+		for(var i in selectedCourse[id].course.tutorials[gid].meetingInfo){
+			var daysTime = selectedCourse[id].course.tutorials[gid].meetingInfo[i].daysTime
+			var venue = selectedCourse[id].course.tutorials[gid].meetingInfo[i].room
+			$('[data-id='+id+']').find('.select-item-'+type.toLowerCase()+'-sec span').eq(2*i).html("<i class='ion-ios-clock-outline'></i> {0}: {1}:30 - {2}:30".format(dayMap[daysTime.day], daysTime.timeSlot.start+7 , daysTime.timeSlot.end+7));
+			$('[data-id='+id+']').find('.select-item-'+type.toLowerCase()+'-sec span').eq(2*i+1).html("<i class='ion-ios-location-outline'></i> {0}".format(venue));
+		}
+	}
 }
 
 // add optional class item
-function addOptClassItem(code, name, id, type, venue, day, timeslot){
+function addOptClassItem(code, name, id, gid, type, venue, day, timeslot){
+	console.log(gid);
 	if(timeslot.start != null && timeslot.end != null){
 		var tmpl = $('#class-item-tmpl').contents().clone();
 		$(tmpl).attr("data-id", id);
 		$(tmpl).attr("data-type", type);
+		$(tmpl).attr("data-gid", gid);
 		$(tmpl).attr("data-select", false);
-		$(tmpl).children(".class-info").html(code+'<br>'+type+'<br>'+venue);
+		$(tmpl).children(".class-info").html(code+'<br>'+type+gid+'<br>'+venue);
 		$(tmpl).css({
 			"grid-row-start": timeslot.start.toString(),
 		  "grid-row-end": timeslot.end.toString(),
@@ -51,13 +108,14 @@ function addOptClassItem(code, name, id, type, venue, day, timeslot){
 	}
 }
 // add class item
-function addClassItem(code, name, id, type, venue, day, timeslot, opt){
+function addClassItem(code, name, id, gid, type, venue, day, timeslot, opt){
 	if(timeslot.start != null && timeslot.end != null){
 		var tmpl = $('#class-item-tmpl').contents().clone();
 		$(tmpl).attr("data-id", id);
 		$(tmpl).attr("data-type", type);
+		$(tmpl).attr("data-gid", gid);
 		$(tmpl).attr("data-select", true);
-		$(tmpl).children(".class-info").html(code+'<br>'+type+'<br>'+venue);
+		$(tmpl).children(".class-info").html(code+'<br>'+type+gid+'<br>'+venue);
 		$(tmpl).css({
 			"grid-row-start": timeslot.start.toString(),
 		  "grid-row-end": timeslot.end.toString(),
@@ -111,7 +169,7 @@ function searchClickHandler(e){
 			  var courseCode = result.course.courseCode + result.course.sectionCode
 			  var courseName = result.course.courseName
 			  var id = result.course._id;
-			  selectedCourse[id] = {"course": result.course, "tut": null, "lab": null};
+			  selectedCourse[id] = {"course": result.course, "TUT": null, "LAB": null};
 
 			  // disable click
 				$(e.currentTarget).off('click').css("background-color",'linen');
@@ -138,11 +196,12 @@ function searchClickHandler(e){
 					var lec_tmpl = $('#select-item-lec-tmpl').contents().clone();
 
 			  	for(var i in result.course.lectures.meetingInfo){
-				  	var timeSlot = result.course.lectures.meetingInfo[i].daysTime.timeSlot;
-					  addClassItem(courseCode, courseName, id, "LEC", "CCHH", i, timeSlot);
+				  	var daysTime = result.course.lectures.meetingInfo[i].daysTime;
+				  	var venue = result.course.lectures.meetingInfo[i].room;
+					  addClassItem(courseCode, courseName, id, i, "LEC", venue, daysTime.day, daysTime.timeSlot, false);
 
 					  var sec_tmpl = $('#select-item-sec-tmpl').contents().clone();
-					  $(sec_tmpl).html('<span><i class="ion-ios-clock-outline"></i> {0}: {1}:30 - {2}:30</span><span><i class="ion-ios-location-outline"></i> {3}</span>'.format(i, timeSlot.start+7 , timeSlot.end+7, "CCHH"));
+					  $(sec_tmpl).html('<span><i class="ion-ios-clock-outline"></i> {0}: {1}:30 - {2}:30</span><span><i class="ion-ios-location-outline"></i> {3}</span>'.format(dayMap[daysTime.day], daysTime.timeSlot.start+7 , daysTime.timeSlot.end+7, venue));
 					  $(lec_tmpl).children('.select-item-lec-sec').append(sec_tmpl);
 				  }
 
@@ -157,16 +216,17 @@ function searchClickHandler(e){
 					}
 					var tut_tmpl = $('#select-item-tut-tmpl').contents().clone();
 			  	for(var i in result.course.tutorials[0].meetingInfo){
-				  	var timeSlot = result.course.tutorials[0].meetingInfo[i].daysTime.timeSlot;
-					  addClassItem(courseCode, courseName, id, "TUT", "CCHH", 3, timeSlot, tut_opt);
+				  	var daysTime = result.course.tutorials[0].meetingInfo[i].daysTime;
+				  	var venue = result.course.tutorials[0].meetingInfo[i].room;
+					  addClassItem(courseCode, courseName, id, i, "TUT", venue, daysTime.day, daysTime.timeSlot, tut_opt);
 
 					  var sec_tmpl = $('#select-item-sec-tmpl').contents().clone();
-					  $(sec_tmpl).html('<span><i class="ion-ios-clock-outline"></i> {0}: {1}:30 - {2}:30</span><span><i class="ion-ios-location-outline"></i> {3}</span>'.format(3, timeSlot.start+7 , timeSlot.end+7, "CCHH"));
+					  $(sec_tmpl).html('<span><i class="ion-ios-clock-outline"></i> {0}: {1}:30 - {2}:30</span><span><i class="ion-ios-location-outline"></i> {3}</span>'.format(dayMap[daysTime.day], daysTime.timeSlot.start+7 , daysTime.timeSlot.end+7, venue));
 					  $(tut_tmpl).children('.select-item-tut-sec').append(sec_tmpl);
 				  }
 
 					$(tmpl).children('.select-item-tooltip').append(tut_tmpl);
-					selectedCourse[id].tut = 0;
+					selectedCourse[id].TUT = 0;
 			  }
 
 				//add lab info
@@ -178,11 +238,12 @@ function searchClickHandler(e){
 					var lab_tmpl = $('#select-item-lab-tmpl').contents().clone();
 
 			  	for(var i in result.course.labs[0].meetingInfo){
-				  	var timeSlot = result.course.labs[0].meetingInfo[i].daysTime.timeSlot;
-					  addClassItem(courseCode, courseName, id, "LAB", "CCHH", 4, timeSlot, lab_opt);
+				  	var daysTime = result.course.labs[0].meetingInfo[i].daysTime;
+				  	var venue = result.course.labs[0].meetingInfo[i].room;
+					  addClassItem(courseCode, courseName, id, i, "LAB", venue, daysTime.day, daysTime.timeSlot, lab_opt);
 
 					  var sec_tmpl = $('#select-item-sec-tmpl').contents().clone();
-					  $(sec_tmpl).html('<span><i class="ion-ios-clock-outline"></i> {0}: {1}:30 - {2}:30</span><span><i class="ion-ios-location-outline"></i> {3}</span>'.format(4, timeSlot.start+7 , timeSlot.end+7, "CCHH"));
+					  $(sec_tmpl).html('<span><i class="ion-ios-clock-outline"></i> {0}: {1}:30 - {2}:30</span><span><i class="ion-ios-location-outline"></i> {3}</span>'.format(dayMap[daysTime.day], daysTime.timeSlot.start+7 , daysTime.timeSlot.end+7, venue));
 					  $(lab_tmpl).children('.select-item-lab-sec').append(sec_tmpl);
 				  }
 

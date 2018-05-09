@@ -18,6 +18,10 @@ a {
   }
 }
 
+[data-select=false] {
+  opacity: 0.5;
+}
+
 
 .nav{
 	position: fixed;
@@ -99,6 +103,8 @@ a {
 
 .day-label {
 	height: 2rem;
+  margin: auto;
+  padding: 8px;
 }
 
 .class-item{
@@ -282,7 +288,6 @@ a {
   left: 80%;
 }
 
-
 .select-item-tooltip span{
   text-indent: 1rem;
 }
@@ -298,3 +303,4 @@ template{
 .clickable:hover{
   background-color: linen;
 }
+
