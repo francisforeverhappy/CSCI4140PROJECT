@@ -31,7 +31,7 @@ router.post('/detail', middleware.asyncMiddleware(async (req, res) => {
     [course.lectures, course.tutorials, course.labs] = await Promise.all([Section.findById(lec_id, sectionMessage),
         Section.find({'_id': {$in: course.tutorials}}, sectionMessage),
         Section.find({'_id': {$in: course.labs}}, sectionMessage)]);
-    console.log(course)
+    console.log(course.lectures.meetingInfo[0])
     res.send({sid: req.session.sid, course: course});
 }));
 

@@ -6,6 +6,7 @@ var commentSchema = mongoose.Schema({
         type: mongoose.Schema.Types.ObjectId,
         ref: 'Course'
     },
+    courseCode: String,
     text: String,
     rating: Number,
     sid: String
