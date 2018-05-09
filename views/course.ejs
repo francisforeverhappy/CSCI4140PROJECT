@@ -8,17 +8,14 @@
         crossorigin="anonymous">
     <link rel='stylesheet' href='/stylesheets/style.css'>
     <link rel='stylesheet' href='/stylesheets/course.css'>
+    <link rel="stylesheet" href="/stylesheets/font-awesome.min.css">
+    <link rel="stylesheet" href="/stylesheets/util.css">
+    <link rel="stylesheet" href="/stylesheets/meetingtable.css">
     <script type="text/javascript" src="/javascripts/jquery-3.3.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
         crossorigin="anonymous"></script>
-    <link rel="stylesheet" type="text/html" href="stylesheets/font-awesome.min.css">
-    <!-- <link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
-    <link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
-    <link rel="stylesheet" type="text/css" href="vendor/perfect-scrollbar/perfect-scrollbar.css"> -->
-    <link rel="stylesheet" type="text/html" href="stylesheets/util.css">
-    <link rel="stylesheet" type="text/html" href="stylesheets/table.css">
 </head>
 
 <body>
@@ -119,11 +116,10 @@
                                                     <table>
                                                         <thead>
                                                             <tr class="row100 head">
-                                                                <th class="cell100 column1">Class name</th>
-                                                                <th class="cell100 column2">Type</th>
-                                                                <th class="cell100 column3">Hours</th>
-                                                                <th class="cell100 column4">Trainer</th>
-                                                                <th class="cell100 column5">Spots</th>
+                                                                <th class="cell100 column1">Days & Times</th>
+                                                                <th class="cell100 column2">Room</th>
+                                                                <th class="cell100 column3">Instructor</th>
+                                                                <th class="cell100 column4">Meeting Dates</th>
                                                             </tr>
                                                         </thead>
                                                     </table>
@@ -133,51 +129,25 @@
                                                     <table>
                                                         <tbody>
                                                             <tr class="row100 body">
-                                                                <td class="cell100 column1">Like a butterfly</td>
-                                                                <td class="cell100 column2">Boxing</td>
-                                                                <td class="cell100 column3">9:00 AM - 11:00 AM</td>
-                                                                <td class="cell100 column4">Aaron Chapman</td>
-                                                                <td class="cell100 column5">10</td>
-                                                            </tr>
-                                            
-                                                            <tr class="row100 body">
-                                                                <td class="cell100 column1">Mind & Body</td>
-                                                                <td class="cell100 column2">Yoga</td>
-                                                                <td class="cell100 column3">8:00 AM - 9:00 AM</td>
-                                                                <td class="cell100 column4">Adam Stewart</td>
-                                                                <td class="cell100 column5">15</td>
+                                                                <td class="cell100 column1"><%= course.lectures.meetingInfo[0].daysTime.day %> <%= course.lectures.meetingInfo[0].daysTime.timeSlot %></td>
+                                                                <td class="cell100 column2"><%= course.lectures.meetingInfo[0].room %></td>
+                                                                <td class="cell100 column3"><%= course.instructor %></td>
+                                                                <td class="cell100 column4"><%= course.lectures.meetingInfo[0].meetingDates.startDate %>-<%= course.lectures.meetingInfo[0].meetingDates.endDate %></td>
                                                             </tr>
                                                         </tbody>
                                                     </table>
                                                 </div>
-                                            </div>
                                         </div>
                                     <% } %>
                                     <% if(course.tutorials.length>0){ %>
                                         <div class>
                                             <h3>Tutorials</h3>
-                                            <table class="altrowstable" id="alternatecolor">
-                                                <tr>
-                                                    <th>Tutorials Section</th>
-                                                    <th>Days & Times</th>
-                                                    <th>Room</th>
-                                                    <th>Instructor</th>
-                                                    <th>Meeting Dates</th>
-                                                </tr>
-                                                <tr>
-                                                    <td>Text 1A</td>
-                                                    <td>Text 1B</td>
-                                                    <td>Text 1C</td>
-                                                    <td>Text 1C</td>
-                                                    <td>Text 1C</td>
-                                                </tr>
-                                            </table>
                                             <div class="table100 ver2 m-b-110">
                                                 <div class="table100-head">
                                                     <table>
                                                         <thead>
                                                             <tr class="row100 head">
-                                                                <th class="cell100 column1">Class name</th>
+                                                                <th class="cell100 column1">Hello</th>
                                                                 <th class="cell100 column2">Type</th>
                                                                 <th class="cell100 column3">Hours</th>
                                                                 <th class="cell100 column4">Trainer</th>
@@ -196,14 +166,6 @@
                                                                 <td class="cell100 column3">9:00 AM - 11:00 AM</td>
                                                                 <td class="cell100 column4">Aaron Chapman</td>
                                                                 <td class="cell100 column5">10</td>
-                                                            </tr>
-                                            
-                                                            <tr class="row100 body">
-                                                                <td class="cell100 column1">Mind & Body</td>
-                                                                <td class="cell100 column2">Yoga</td>
-                                                                <td class="cell100 column3">8:00 AM - 9:00 AM</td>
-                                                                <td class="cell100 column4">Adam Stewart</td>
-                                                                <td class="cell100 column5">15</td>
                                                             </tr>
                                                         </tbody>
                                                     </table>
