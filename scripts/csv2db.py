@@ -68,11 +68,11 @@ def main():
 							"start" : start,
 							"end" : end
 						},
-						"room" : df['Room'],
-						"meetingDates": {
-							"startDate": datetime.datetime.strptime(df['Meeting Date'].split(" - ")[0], "%d/%m/%Y"),
-							"endDate": datetime.datetime.strptime(df['Meeting Date'].split(" - ")[1], "%d/%m/%Y")
-						}
+					},
+					"room" : df['Room'],
+					"meetingDates": {
+						"startDate": datetime.datetime.strptime(df['Meeting Date'].split(" - ")[0], "%d/%m/%Y"),
+						"endDate": datetime.datetime.strptime(df['Meeting Date'].split(" - ")[1], "%d/%m/%Y")
 					}
 				})
 				continue
