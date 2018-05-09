@@ -160,6 +160,36 @@ a:hover{
     border-color:#ff5138;
 }
 
+/* meeting time table */
+table.altrowstable {  
+    font-family: verdana,arial,sans-serif;  
+    font-size:15px;  
+    color:#333333;  
+    border-width: 1px;
+    border-style: solid;
+    border-color: #a9c6c9;  
+    border-collapse: collapse;
+     
+}  
+table.altrowstable th {  
+    border-width: 1px;  
+    padding: 10px;  
+    border-style: solid;  
+    border-color: #a9c6c9;  
+}  
+table.altrowstable td {  
+    border-width: 1px;  
+    padding: 10px;  
+    border-style: solid;  
+    border-color: #a9c6c9;  
+}  
+.oddrowcolor{  
+    background-color:#0df388;  
+}  
+.evenrowcolor{  
+    background-color:#0aa0f7;  
+} 
+
 /* comments */
 .comments_border{
     margin-left: 15px;
