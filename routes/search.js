@@ -37,7 +37,6 @@ router.post('/detail', middleware.asyncMiddleware(async (req, res) => {
 router.get('/:courseCode', middleware.asyncMiddleware(async (req, res) => {
     let courseCode = req.params.courseCode;
     console.log('get ' + courseCode);
-    
     let [course, comments] = await Promise.all([Course.findOne({courseCode: courseCode}), Comment.find({courseCode: courseCode})]);
     let lec_id = course.lectures;
     course.lec = null;
@@ -46,7 +45,7 @@ router.get('/:courseCode', middleware.asyncMiddleware(async (req, res) => {
     [course.lec, course.tutList, course.labList] = await Promise.all([Section.findById(lec_id),
         Section.find({'_id': {$in: course.tutorials}}),
         Section.find({'_id': {$in: course.labs}})]);
-    console.log(course);
+    // console.log(course.tutList);
     return res.render('course', {sid: req.session.sid, course: course, comments: comments});
 }));
 

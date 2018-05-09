@@ -1,7 +1,34 @@
 /* For course page */
-/* main */
+/* main h2 section*/
+body{
+    font-size: 1rem;
+    font-weight: 400;
+    line-weight: 1.5;
+}
 main{
     display: block;
+}
+h2{
+    color: transparent;
+    background-color : red;
+    text-shadow : rgba(255,255,255,0.5) 0 5px 6px, rgba(255,255,255,0.2) 1px 3px 3px;
+    -webkit-background-clip : text;
+}
+section{
+    padding-top: 45px;
+}
+ul li{
+    list-style-type: none;
+    font-size: 1.5rem;
+}
+li{
+    padding-top: 5px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
 }
 /* main content */
 .main-container{
@@ -16,6 +43,9 @@ main{
         padding-left:50px;
     }
 }
+#Details{
+    padding-top: 45px;
+}
 .course-page{
     width: 100%;
     padding-left: 15px;
@@ -23,5 +53,106 @@ main{
     margin-left: auto;
     margin-right: auto;
 }
+.course-header{
+    padding-bottom: 1rem;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    margin-bottom: 1rem;
+    border-bottom: solid 1px #888888;
+    display: block;
+    box-sizing: border-box;
+}
 
+.link {
+  outline: none;
+  text-decoration: none;
+  position: relative;
+  font-size: 3em;
+  line-height: 1;
+  color: #9e9ba4;
+  display: inline-block;
+  padding-top: 15px;
+} 
+.link--kukuri {
+  text-transform: uppercase;
+  font-weight: 300;
+  overflow: hidden;
+  line-height: 0.75;
+  color: #b2b0a9;
+}
+ 
+.link--kukuri:hover {
+  color: #b2b0a9;
+}
+ 
+.link--kukuri::after {
+  content: '';
+  position: absolute;
+  height: 16px;
+  width: 100%;
+  top: 50%;
+  margin-top: -8px;
+  right: 0;
+  background: #F9F9F9;
+  transform: translate3d(-100%,0,0);
+  transition: transform 0.4s;
+  transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+}
+ 
+.link--kukuri:hover::after {
+  transform: translate3d(100%,0,0);
+}
+ 
+.link--kukuri::before {
+  content: attr(data-letters);
+  position: absolute;
+  z-index: 2;
+  overflow: hidden;
+  color: #424242;
+  white-space: nowrap;
+  width: 0%;
+  transition: width 0.4s 0.3s;
+}
+ 
+.link--kukuri:hover::before {
+  width: 100%;
+}
 
+.beauty-font{
+    color: #7c795d;
+    font-family: 'Source Sans Pro', sans-serif; 
+    font-size: 24px; 
+    font-weight: 400; 
+    line-height: 32px; 
+    margin: 0 0 24px;
+}
+
+.courseinfo-border{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+    border-bottom: solid 1px #888888;
+    display: block;
+    box-sizing: border-box;
+}
+/* aside */
+.scrollable{
+    overflow: auto;
+}
+.info-nav{
+    position:sticky;
+    top: 4rem;
+    overscroll-behavior: contain;
+    max-height: calc(100vh - 4rem);
+}
+.aside-nav a{
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    border-left: solid 0.3rem #424242;
+}
+.red_sign a{
+    font-weight: bold;
+    color: #ff5138;
+    border-color:#ff5138;
+}

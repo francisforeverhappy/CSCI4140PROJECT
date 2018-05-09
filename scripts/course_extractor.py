@@ -1,7 +1,8 @@
 import cusiscommon
 import re,os,json
 from time import strftime
-
+import urllib3
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 add_info = {}
 
 def search_panel():
@@ -27,7 +28,7 @@ def search(subject):
 def dumpinfo(tofile, info):
     URL = "https://cusis.cuhk.edu.hk/psc/csprd/EMPLOYEE/HRMS/c/CU_SCR_MENU.CU_TMSR801.GBL"
     for i in info:
-        print i
+        # print i
         payload = {'ICType':'Panel','ICAction':i}
         r = cusis.session.post(URL, data=payload)
         m0 = re.findall(r"<span  class='SSSKEYTEXT' >(.+?)</span>", r.text)
@@ -38,22 +39,25 @@ def dumpinfo(tofile, info):
         m2 = re.findall(r"<span  class='PSEDITBOX_DISPONLY' >(.+?)</span>", r.text)
         status = m2[1]
         coursenbr = m2[2]
-        career = m2[8]
         wltotal = m2[-2]
         wlnow = m2[-4]
         dropcons = "No"
         addcons = "No"
+        index = 0
         match = re.search('Add Consent', r.text)
         if match:
+            index += 1
             addcons = m2[-7]
         match = re.search('Drop Consent', r.text)
         if match:
+            index += 1
             dropcons = m2[-6]
-        grading = m2[-9]
+        grading = m2[-7-index]
+        career = m2[-9-index]
         ele = {'semester' : sem, 'status' : status, 'description' : description, 'regrequirement' : regrequire,
         'career' : career, 'wltotal' : wltotal, 'wlnow' : wlnow, 'dropcons' : dropcons, 'addcons' : addcons,
         'grading' : grading}
-        print ele
+        # print ele
         add_info[int(coursenbr)] = ele
         payload = {'ICType':'Panel','ICAction':'CLASS_SRCH_WRK2_SSR_PB_CLOSE$85$'}
         r = cusis.session.post(URL, data=payload)
@@ -68,14 +72,14 @@ def dumplist(tofile):
     if m:
         redirectURL = m.group(1)
     else:
-        print('[Err] The redirect URL could not be found in html code.')
+        # print('[Err] The redirect URL could not be found in html code.')
         exit(0)
     r = cusis.session.get(redirectURL)
     if r.ok:
         with open(tofile,'wb') as f:
             for chunk in r.iter_content():
                 f.write(chunk)
-            print('Course lists are in', tofile, 'now.')
+            # print('Course lists are in', tofile, 'now.')
     else:
         print('[Err] Download link error.')
 
@@ -86,7 +90,7 @@ def dodump(subject):
     if not os.path.exists(dir):
         os.makedirs(dir)
     fullpath = os.path.join('DumpedCourseList_'+strftime('%Y%m%d'),subject+'.xls')
-    #dumplist(fullpath)
+    dumplist(fullpath)
     dumpinfo(fullpath, info)
 
 

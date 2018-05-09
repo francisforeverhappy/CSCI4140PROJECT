@@ -1,4 +1,5 @@
 *.json
 *.pdf
 node_modules*
-scripts*
+*Dumped*
+*.pyc
