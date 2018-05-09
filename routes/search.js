@@ -1,6 +1,8 @@
 const express = require('express'),
     router = express.Router(),
     mongoose = require('mongoose'),
+    groupArray = require('group-array'),
+    flatten = require('flat'),
     spawn = require('child_process').spawn;
 
 const Course = require('../models/course'),
@@ -26,12 +28,17 @@ router.post('/detail', middleware.asyncMiddleware(async (req, res) => {
     let courseMessage = 'courseCode courseName sectionCode semester classDetails.units classDetails.grading lectures tutorials labs';
     let sectionMessage = 'status meetingInfo';
     let courseId = mongoose.Types.ObjectId(req.body.key);
-    let course = await Course.findById(courseId, courseMessage);
+    let course = await Course.findById(courseId, courseMessage).lean();
     let lec_id = course.lectures;
-    [course.lectures, course.tutorials, course.labs] = await Promise.all([Section.findById(lec_id, sectionMessage),
-        Section.find({'_id': {$in: course.tutorials}}, sectionMessage),
-        Section.find({'_id': {$in: course.labs}}, sectionMessage)]);
-    console.log(course.lectures.meetingInfo[0])
+    [course.lectures, course.tutorials, course.labs] = await Promise.all([Section.findById(lec_id, sectionMessage).lean(),
+        Section.find({'_id': {$in: course.tutorials}}, sectionMessage).lean(),
+        Section.find({'_id': {$in: course.labs}}, sectionMessage).lean()]);
+    for (let i = 0; i < course.tutorials.length; i++) {
+        let tutorial = course.tutorials[i];
+        let info = tutorial.meetingInfo;
+        let newInfo = groupArray(info, 'daysTime.day', 'daysTime.timeSlot.start', 'daysTime.timeSlot.end', 'room');        
+        course.tutorials[i].meetingInfo = flatten(newInfo, {maxDepth: 4});
+    }
     res.send({sid: req.session.sid, course: course});
 }));
 
