@@ -1,5 +1,7 @@
-*.json
+package-lock.json
+package.json
 *.pdf
 node_modules*
 *Dumped*
 *.pyc
+.vscode*

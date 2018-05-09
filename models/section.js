@@ -21,7 +21,6 @@ var sectionSchema = mongoose.Schema({
             }
         },
         room: String,
-        instructor: String, // professor
         meetingDates: {
             startDate: Date,
             endDate: Date

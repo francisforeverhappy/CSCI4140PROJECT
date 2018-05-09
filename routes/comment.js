@@ -12,7 +12,7 @@ const Course = require('../models/course'),
 // comment
 router.get('/', middleware.checkLogin, middleware.asyncMiddleware(async (req, res) => {
     let comments = await Comment.find({sid: req.session.sid});
-    res.render('comment', {comments: comments});
+    res.render('comment', {sid: req.session.sid, comments: comments});
 }));
 
 router.post('/create', middleware.checkLogin, (req, res) => {
@@ -28,11 +28,10 @@ router.post('/create', middleware.checkLogin, (req, res) => {
 });
 
 router.post('/edit', middleware.checkLogin, (req, res) => {
-    let courseCode = req.body.courseCode,
+    let commentId = req.body.key,
         text = req.body.text,
-        rating = req.body.rating,
-        sid = req.session.sid;
-    Comment.findOneAndUpdate({courseCode: courseCode, sid: sid}, {text: text, rating: rating}, {new: true}, (err, doc, res) => {
+        rating = req.body.rating;
+    Comment.findByIdAndUpdate(commentId, {text: text, rating: rating}, {new: true}, (err, doc, res) => {
         if (err) {
             console.log(err.message);
             res.send({success: false});
@@ -43,9 +42,8 @@ router.post('/edit', middleware.checkLogin, (req, res) => {
 });
 
 router.post('/delete', middleware.checkLogin, (req, res) => {
-    let courseCode = req.body.courseCode,
-        sid = req.session.sid;
-    Comment.findOneAndRemove({courseCode: courseCode, sid: sid}, (err, res) => {
+    let commentId = req.body.key;
+    Comment.findByIdAndRemove(commentId, (err, res) => {
         if (err) {
             console.log(err.message);
             return res.send({success: false});
