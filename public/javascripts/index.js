@@ -41,7 +41,7 @@ function addSearchItem(code, name, id, units){
 
 function addSelectItem(code, name, unit){
 	var tmpl = $('#select-item-tmpl').contents().clone();
-	
+
 }
 
 function searchClickHandler(event){
@@ -55,7 +55,7 @@ function searchClickHandler(event){
 			success: function(result) {
 				// receive data
 			  console.log(result);
-			  var courseCode = result.course.courseCode
+			  var courseCode = result.course.courseCode + result.course.sectionCode
 			  var courseName = result.course.courseName
 			  var id = result.course._id;
 			  addClassItem(courseCode, courseName, id, "CCHH", 1, "1", "2");
@@ -82,7 +82,7 @@ $('#search-input').on("keyup", function(){
   			  $(list).children().remove();
   			  // add search list items
   			  for (var key in courses){
-  			  	var courseCode = courses[key].courseCode;
+  			  	var courseCode = courses[key].courseCode + courses[key].sectionCode;
   			  	var courseName = courses[key].courseName;
   			  	var units = courses[key].classDetails.units;
   			  	var id = courses[key]._id;
