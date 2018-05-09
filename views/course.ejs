@@ -93,27 +93,27 @@
                             <section id="MeetingInfo">
                                 <h2 class="courseinfo-border">Meeting Information</h2>
                                 <div class="row">
-                                    <% if(course.lec){ %>
+                                    <% if(course.lectures){ %>
                                         <div class="col-sm-4">
                                             <h3>Lecture</h3>
                                             <p>
-                                                <%= course.lec.meetingInfo %>
+                                                <%= course.lectures %>
                                             </p>
                                         </div>
                                     <% } %>
-                                    <% if(course.tutList.length>0){ %>
+                                    <% if(course.tutorials.length>0){ %>
                                         <div class="col-sm-4">
                                             <h3>Tutorials</h3>
                                             <p>
-                                                <%= course.tutList %>
+                                                <%= course.tutorials %>
                                             </p>
                                         </div>
                                     <% } %>
-                                    <% if(course.labList.length>0){ %>
+                                    <% if(course.labs.length>0){ %>
                                         <div class="col-sm-4">
                                             <h3>Labs</h3>
                                             <p>
-                                                <%= course.labList %>
+                                                <%= course.labs %>
                                             </p>
                                         </div>
                                     <% } %>
@@ -126,7 +126,38 @@
                                 <h2 class="courseinfo-border">Class Availablity</h2>
                             </section>
                             <section id="Comments">
-                                <h2 class="courseinfo-border">Comments</h2>
+                                <div class="courseinfo-border">
+                                    <span class="h2-span">Comments</span>
+                                    <span class="comments-sort-list">
+                                        <a data-value="1" class="selected" title="Top" href="javascript:void(0);">Top</a>
+                                        <a data-value="2" title="Recent" href="javascript:void(0);">Recent</a>
+                                    </span>c
+                                </div>
+                                <div class="comments_border">
+                                    <div class="comments-list">
+                                        <div class="thread">
+                                            <div class="comment-item" id>
+                                                <div class="comment-conten">4140 is very very cool !!!</div>
+                                                <div class="comment-mode">
+                                                    <div class="comment-control">
+                                                        <span class="num-votes">100 votes</span>
+                                                        <div class="comment-vote">
+                                                            <div class="vote-for triangle-up"></div>
+                                                            <div class="vote-for triangle-down"></div>
+                                                        </div>
+                                                        <div class="separator"> ● </div>
+                                                        <a href="javascript:void(0)" class="toggle-replies show-replies">Comment</a>
+                                                    </div>
+                                                    <div class="time-section">
+                                                        <span class="comment-time">2018-05-01</span>
+                                                        <div class="separator"> ● </div>
+                                                        <span class="comment-section">CSCI2100A</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </section>
                         </div>
                         <aside class="col-md-3">
