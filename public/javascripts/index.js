@@ -5,29 +5,30 @@ $(".select-item-title").hover(function(){
 	$(".select-item-tooltip").hide();
 });
 
-// function addClassItem(code, name, id, venue, day, start, end){
-// 	var tmpl = $('#class-item-tmpl').contents().clone();
-// 	$(tmpl).attr("id", id);
-// 	$(tmpl).children(".class-info").html(code+'<br>'+venue);
-// 	$(tmpl).children(".class-item").css({
-// 		"grid-row-start": start,
-// 	  "grid-row-end": end,
-// 	});
-// 	$(".schedule").eq(day).append(tmpl);
-// }
-
-// add class item to timetable
-function addClassItem(day, start, end){
-	var newDiv = document.createElement("div");
-	var newItem = document.createElement("div");
-	$(newItem).addClass("class-info");
-	$(newDiv).addClass("class-item").css({
+function addClassItem(code, name, id, venue, day, start, end){
+	var tmpl = $('#class-item-tmpl').contents().clone();
+	$(tmpl).attr("id", id);
+	$(tmpl).children(".class-info").html(code+'<br>'+venue);
+	$(tmpl).css({
 		"grid-row-start": start,
-	    "grid-row-end": end,
+	  "grid-row-end": end,
 	});
-	$(newDiv).append(newItem);
-	console.log($(".schedule").eq(day).append(newDiv));
+	$(".schedule").eq(day).append(tmpl);
 }
+
+// // add class item to timetable
+// function testaddClassItem(day, start, end){
+// 	var newDiv = document.createElement("div");
+// 	var newItem = document.createElement("div");
+// 	$(newItem).addClass("class-info");
+// 	$(newItem).html("heyhey<br>yoyo");
+// 	$(newDiv).addClass("class-item").css({
+// 		"grid-row-start": start,
+// 	    "grid-row-end": end,
+// 	});
+// 	$(newDiv).append(newItem);
+// 	console.log($(".schedule").eq(day).append(newDiv));
+// }
 
 function addSearchItem(code, name, id, units){
 	var tmpl = $('#search-item-tmpl').contents().clone();
@@ -39,6 +40,8 @@ function addSearchItem(code, name, id, units){
 }
 
 function addSelectItem(code, name, unit){
+	var tmpl = $('#select-item-tmpl').contents().clone();
+	
 }
 
 function searchClickHandler(event){
@@ -52,9 +55,10 @@ function searchClickHandler(event){
 			success: function(result) {
 				// receive data
 			  console.log(result);
-			  var courseCode = result.course.classDetails.courseCode
-			  var courseName = result.course.classDetails.courseName
-			  addClassItem(courseCode, courseName, "CCHH", 1, 1, 2);
+			  var courseCode = result.course.courseCode
+			  var courseName = result.course.courseName
+			  var id = result.course._id;
+			  addClassItem(courseCode, courseName, id, "CCHH", 1, "1", "2");
 			}
 	});
 }
