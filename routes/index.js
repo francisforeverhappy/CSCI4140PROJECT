@@ -15,9 +15,15 @@ router.get('/', (req, res) => {
 
 
 router.get('/test', middleware.asyncMiddleware(async (req, res) => {
-    let course = await Course.findOne({});
-    console.log(course);
-    // return res.render('course', {sid: req.session.sid, course: course});
+    let courses = await Course.find({'tutorials.1': {'$exists': true}});
+    let tutIds = [];
+    courses.forEach(async (course) => {
+        let section = await Section.findOne({'_id':  course.tutorials[0], 'courseComponent': 'TUT', 'meetingInfo.1': {'$exists': true}});    
+        if (section != undefined) {
+            console.log(course.courseCode);
+        }
+    });
+    console.log('done');
 }));
 
 

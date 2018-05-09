@@ -2,11 +2,15 @@
 <html>
 <head>
     <title>CUTE</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel='stylesheet' href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
         crossorigin="anonymous">
     <link rel='stylesheet' href='/stylesheets/style.css'>
     <link rel='stylesheet' href='/stylesheets/course.css'>
+    <link rel="stylesheet" href="/stylesheets/font-awesome.min.css">
+    <link rel="stylesheet" href="/stylesheets/util.css">
+    <link rel="stylesheet" href="/stylesheets/meetingtable.css">
     <script type="text/javascript" src="/javascripts/jquery-3.3.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
         crossorigin="anonymous"></script>
@@ -81,6 +85,14 @@
                                                 <p>
                                                     <%= course.classDetails.grading %>
                                                 </p>
+                                                <h4>Lecture Status: </h4>
+                                                <p>
+                                                    <%= course.lectures.status %>
+                                                </p>
+                                                <h4>Section Code: </h4>
+                                                <p>
+                                                    <%= course.sectionCode %>
+                                                </p>
                                                 <h4>Class components: </h4>
                                                 <p>
                                                     <%= course %>
@@ -93,40 +105,190 @@
                             <section id="MeetingInfo">
                                 <h2 class="courseinfo-border">Meeting Information</h2>
                                 <div class="row">
-                                    <% if(course.lec){ %>
-                                        <div class="col-sm-4">
+                                    <% if(course.lectures){ %>
+                                        <div>
                                             <h3>Lecture</h3>
                                             <p>
-                                                <%= course.lec.meetingInfo %>
+                                                <%= course.lectures.meetingInfo %>
                                             </p>
+                                            <div class="table100 ver2 m-b-110">
+                                                <div class="table100-head">
+                                                    <table>
+                                                        <thead>
+                                                            <tr class="row100 head">
+                                                                <th class="cell100 column1">Days & Times</th>
+                                                                <th class="cell100 column2">Room</th>
+                                                                <th class="cell100 column3">Instructor</th>
+                                                                <th class="cell100 column4">Meeting Dates</th>
+                                                            </tr>
+                                                        </thead>
+                                                    </table>
+                                                </div>
+                                            
+                                                <div class="table100-body js-pscroll">
+                                                    <table>
+                                                        <tbody>
+                                                            <% for(var i=0;i<course.lectures.meetingInfo.length;i++){ %>
+                                                            <tr class="row100 body">
+                                                                <td class="cell100 column1"><%= course.lectures.meetingInfo[i].daysTime.day %> <%= course.lectures.meetingInfo[0].daysTime.timeSlot %></td>
+                                                                <td class="cell100 column2"><%= course.lectures.meetingInfo[i].room %></td>
+                                                                <td class="cell100 column3"><%= course.instructor %></td>
+                                                                <td class="cell100 column4"><%= course.lectures.meetingInfo[i].meetingDates.startDate %>-<%= course.lectures.meetingInfo[0].meetingDates.endDate %></td>
+                                                            </tr>
+                                                            <% } %>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
                                         </div>
                                     <% } %>
-                                    <% if(course.tutList.length>0){ %>
-                                        <div class="col-sm-4">
+                                    <% if(course.tutorials.length>0){ %>
+                                        <div class>
                                             <h3>Tutorials</h3>
                                             <p>
-                                                <%= course.tutList %>
+                                                <%= course.tutorials[0].meetingInfo %>
                                             </p>
+                                            <p>
+                                                <%= course.tutorials[1].meetingInfo %>
+                                            </p>
+                                            <div class="table100 ver2 m-b-110">
+                                                <div class="table100-head">
+                                                    <table>
+                                                        <thead>
+                                                            <tr class="row100 head">
+                                                                <th class="cell100 column1">Tutorials Section</th>
+                                                                <th class="cell100 column2">Days & Times</th>
+                                                                <th class="cell100 column3">Room</th>
+                                                                <th class="cell100 column4">Instructor</th>
+                                                                <th class="cell100 column5">Meeting Dates</th>
+                                                            </tr>
+                                                        </thead>
+                                                    </table>
+                                                </div>
+                                            
+                                                <div class="table100-body js-pscroll">
+                                                    <table>
+                                                        <tbody>
+                                                            <% for(var i=0;i<course.tutorials.length;i++){ %>
+                                                            <tr class="row100 body">
+                                                                <td class="cell100 column1">TUT SECTION</td>
+                                                                <td class="cell100 column2"><%= course.tutorials[i].meetingInfo[0].daysTime.day %> <%= course.tutorials[i].meetingInfo[0].daysTime.timeSlot %></td>
+                                                                <td class="cell100 column3"><%= course.tutorials[i].meetingInfo[0].room %></td>
+                                                                <td class="cell100 column4"><%= course.instructor %></td>
+                                                                <td class="cell100 column5"><%= course.tutorials[i].meetingInfo[0].meetingDates.startDate %>-
+                                                                    <%= course.tutorials[i].meetingInfo[0].meetingDates.endDate %></td>
+                                                            </tr>
+                                                            <% } %>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
                                         </div>
                                     <% } %>
-                                    <% if(course.labList.length>0){ %>
-                                        <div class="col-sm-4">
+                                    <% if(course.labs.length>0){ %>
+                                        <div class>
                                             <h3>Labs</h3>
                                             <p>
-                                                <%= course.labList %>
+                                                <%= course.labs %>
                                             </p>
+                                            <div class="table100 ver2 m-b-110">
+                                                <div class="table100-head">
+                                                    <table>
+                                                        <thead>
+                                                            <tr class="row100 head">
+                                                                <th class="cell100 column1">Labs Section</th>
+                                                                <th class="cell100 column2">Days & Times</th>
+                                                                <th class="cell100 column3">Room</th>
+                                                                <th class="cell100 column4">Instructor</th>
+                                                                <th class="cell100 column5">Meeting Dates</th>
+                                                            </tr>
+                                                        </thead>
+                                                    </table>
+                                                </div>
+                                            
+                                                <div class="table100-body js-pscroll">
+                                                    <table>
+                                                        <tbody>
+                                                            <% for(var i=0;i<course.labs.length;i++){ %>
+                                                                <tr class="row100 body">
+                                                                    <td class="cell100 column1">LAB SECTION</td>
+                                                                    <td class="cell100 column2">
+                                                                        <%= course.labs[i].meetingInfo[0].daysTime.day %>
+                                                                            <%= course.labs[i].meetingInfo[0].daysTime.timeSlot %>
+                                                                    </td>
+                                                                    <td class="cell100 column3">
+                                                                        <%= course.labs[i].meetingInfo[0].room %>
+                                                                    </td>
+                                                                    <td class="cell100 column4">
+                                                                        <%= course.instructor %>
+                                                                    </td>
+                                                                    <td class="cell100 column5">
+                                                                        <%= course.labs[i].meetingInfo[0].meetingDates.startDate %>-
+                                                                            <%= course.labs[i].meetingInfo[0].meetingDates.endDate %>
+                                                                    </td>
+                                                                </tr>
+                                                                <% } %>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
                                         </div>
                                     <% } %>
                                 </div>
                             </section>
                             <section id="EnrollmentInfo">
                                 <h2 class="courseinfo-border">Enrollment Information</h2>
+                                <p><%= course.enrollmentInfo %></p>
                             </section>
                             <section id="AvailablityInfo">
                                 <h2 class="courseinfo-border">Class Availablity</h2>
+                                <h3>Lectures</h3>
+                                <p>
+                                    <%= course.lectures.classAvail %>
+                                </p>
+                                <% if(course.tutorials.length>0){ %>
+                                <h3>Tutorials</h3>
+                                <% for(var i=0;i<course.tutorials.length;i++){ %>
+                                <p>
+                                    <%= course.tutorials[i].classAvail %>
+                                </p>
+                                <% } %>
+                                <% } %>
+                                <% if(course.labs.length>0){ %>
+                                    <h3>Labs</h3>
+                                    <% for(var i=0;i<course.labs.length;i++){ %>
+                                        <p>
+                                            <%= course.labs[i].classAvail %>
+                                        </p>
+                                    <% } %>
+                                <% } %>
                             </section>
                             <section id="Comments">
-                                <h2 class="courseinfo-border">Comments</h2>
+                                <div class="courseinfo-border">
+                                    <span class="h2-span">Comments</span>
+                                    <span class="comments-sort-list">
+                                        <a data-value="1" class="selected" title="Top" href="javascript:void(0);">Top</a>
+                                        <a data-value="2" title="Recent" href="javascript:void(0);">Recent</a>
+                                    </span>
+                                </div>
+                                <div class="comments_border">
+                                    <div class="comments-list">
+                                        <div class="thread">
+                                            <div class="comment-item" id>
+                                                <div class="comment-conten">4140 is very very cool !!!</div>
+                                                <div class="comment-mode">
+                                                    <div class="comment-control">
+                                                        
+                                                    </div>
+                                                    <div class="time-section">
+                                                        <span class="comment-time">2018-05-01</span>
+                                                        <div class="separator"> ● </div>
+                                                        <span class="comment-section">CSCI2100A</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </section>
                         </div>
                         <aside class="col-md-3">

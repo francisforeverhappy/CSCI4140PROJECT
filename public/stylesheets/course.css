@@ -3,16 +3,17 @@
 body{
     font-size: 1rem;
     font-weight: 400;
-    line-weight: 1.5;
+}
+span{
+    vertical-align: baseline;
 }
 main{
     display: block;
 }
 h2{
-    color: transparent;
-    background-color : red;
+    color: red;
+    background-color : white;
     text-shadow : rgba(255,255,255,0.5) 0 5px 6px, rgba(255,255,255,0.2) 1px 3px 3px;
-    -webkit-background-clip : text;
 }
 section{
     padding-top: 45px;
@@ -155,4 +156,122 @@ a:hover{
     font-weight: bold;
     color: #ff5138;
     border-color:#ff5138;
+}
+
+/* meeting time table */
+table.altrowstable {  
+    font-family: verdana,arial,sans-serif;  
+    font-size:15px;  
+    color:#333333;  
+    border-width: 1px;
+    border-style: solid;
+    border-color: #a9c6c9;  
+    border-collapse: collapse;
+     
+}  
+table.altrowstable th {  
+    border-width: 1px;  
+    padding: 10px;  
+    border-style: solid;  
+    border-color: #a9c6c9;  
+}  
+table.altrowstable td {  
+    border-width: 1px;  
+    padding: 10px;  
+    border-style: solid;  
+    border-color: #a9c6c9;  
+}  
+.oddrowcolor{  
+    background-color:#0df388;  
+}  
+.evenrowcolor{  
+    background-color:#0aa0f7;  
+} 
+
+/* comments */
+.comments_border{
+    margin-left: 15px;
+    margin-right: 15px;
+    box-sizing: content-box;
+    font-size:15px;
+    font-weight:normal;
+}
+.h2-span{
+    font-size:2rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    color: red;
+    background-color : transparent;
+    text-shadow : rgba(255,255,255,0.5) 0 5px 6px, rgba(255,255,255,0.2) 1px 3px 3px;
+}
+.comments-sort-list{
+    padding-top:20px;
+    position: absolute;
+    right:20px;
+}
+.comments-sort-list a{
+    margin-left: 10px;
+    color: #21242c!important;
+    text-decoration: none;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: bold;
+}
+.comments-sort-list a.selected{
+    color: #0d923f!important;
+}
+.comments-list{
+    overflow: hidden;
+    margin: 0;
+    padding-left:5px;
+    padding-right:5px;
+}
+.comment-mode{
+    display: block;
+    height: 25px;
+    font-size: 15px;
+    font-weight:bold;
+    line-height:20px;
+    overflow: hidden;
+}
+.comment-control{
+    float:left;
+    padding-right: 10px;
+    -webkit-font-smoothing: antialiased!important;
+}
+.comment-vote{
+    display: inline-block;
+    margin-left: 4px;
+}
+.triangle-up{
+    width: 0; 
+    height: 0; 
+    border-left: 10px solid transparent; 
+    border-right: 10px solid transparent; 
+    border-bottom: 10px solid black; 
+}
+.vote-for{
+    cursor:pointer;
+    display:inline-block;
+}
+.triangle-down { 
+    width: 0; 
+    height: 0; 
+    border-left: 10px solid transparent; 
+    border-right: 10px solid transparent; 
+    border-top: 10px solid black;
+} 
+.separator{
+    color:#d6d8da!important;
+    content:"\2022";
+    padding-left:2px;
+    padding-right:2px;
+    display: inline-block;
+}
+.time-section{
+    float:right;
+    text-align: right;
+    right:0;
 }
