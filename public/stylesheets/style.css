@@ -113,7 +113,6 @@ a {
 	/*top:1px;*/
 	height: 99%;
 	width: 100%;
-	box-shadow: 2px 2px 2px lightcoral;
 	position: absolute;
   font-size: 1px;
   padding: 0.15rem;
@@ -247,13 +246,13 @@ a {
   padding: 0.25rem;
   border: 1px solid lightcoral;
   border-radius: 2rem;
-  height: 2.5rem;
+  height: 3rem;
   margin-left: 0.25rem;
 }
 
 .select-item-color{
   width: 7%;
-  margin: -7px 7px 0px 1px;
+  margin: -3px 7px 0px 1px;
 }
 
 .select-item-color i{
@@ -263,7 +262,7 @@ a {
 
 .select-item-btn{
   width: 13%;
-  margin: 0 0 0 auto;
+  margin: auto 0 auto auto;
 }
 
 .select-item-btn i{
@@ -273,6 +272,7 @@ a {
 
 .select-item-title{
   margin: auto 0;
+  width: 80%;
 }
 
 .select-item-tooltip{
