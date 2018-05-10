@@ -152,7 +152,7 @@ function addSearchItem(code, name, id, units){
 	$(tmpl).attr("id", id);
 	$(tmpl).on("click", searchClickHandler);
 	$(tmpl).children(".search-item-info").html('<span>'+ code +'</span><br>'+ name +'<br><span> '+ units +' Units </span>');
-	$(tmpl).children(".search-item-btn").attr("href", "/course/"+id);
+	$(tmpl).children(".search-item-btn").attr("href", "/search/"+id);
 	$('#search-list').append(tmpl);
 }
 
@@ -205,6 +205,7 @@ function selectCourse(course, select){
 	$(tmpl).attr("data-id", id);
 	$(tmpl).find('i.delete-btn').attr("data-id", id);
 	$(tmpl).find('i.hide-btn').attr("data-id", id);
+	$(tmpl).find('a.select-item-info').attr("href", "/search/" + id);
 
 	// add delete and hide handler
 	$(tmpl).find('i.delete-btn').on("click", deleteItemHandler);
