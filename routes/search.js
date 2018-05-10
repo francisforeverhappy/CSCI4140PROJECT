@@ -52,7 +52,7 @@ router.get('/:courseId', middleware.asyncMiddleware(async (req, res) => {
     course.lec = null;
     course.tutList = [];
     course.labList = [];
-    [course.lectures, course.tutorials, course.labs, course.comments, course.ratings] = await Promise.all([Section.findById(coures.lectures).lean(),
+    [course.lectures, course.tutorials, course.labs, course.comments, course.ratings] = await Promise.all([Section.findById(course.lectures).lean(),
         Section.find({'_id': {$in: course.tutorials}}).lean(),
         Section.find({'_id': {$in: course.labs}}).lean(),
         Comment.find({courseCode: course.courseCode}),
