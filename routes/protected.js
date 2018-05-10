@@ -1,6 +1,8 @@
 const express = require('express'),
     router = express.Router(),
-    spawn = require('child_process').spawn;
+    spawn = require('child_process').spawn,
+    groupArray = require('group-array'),
+    flatten = require('flat');
 
 const Course = require('../models/course'),
     Section = require('../models/section'),
@@ -23,7 +25,7 @@ router.post('/getWait', middleware.asyncMiddleware(async (req, res) => {
     let pythonProcess = spawn('python', ['support/py/getWait.py', sid, pwd, term, course.courseCode]);
     pythonProcess.stdout.on('data', async (data) => {
         let obj = JSON.parse(data.toString());
-        let sections = await Promise.all(obj.map((section) => { 
+        let sections = await Promise.all(obj.map(async (section) => { 
             let conditions = {
                 'courseCode': section['courseCode'], 
                 'sectionCode': section['sectionCode']
@@ -41,8 +43,8 @@ router.post('/getWait', middleware.asyncMiddleware(async (req, res) => {
             let options = {
                 new: true
             };
-    
-            return Section.findOneAndUpdate(conditions, update, options);
+            let sectionb = await Section.findOneAndUpdate(conditions, update, options);
+            return sectionb;
         }));
     
         [course.lectures, course.tutorials, course.labs] = await Promise.all([Section.findById(lec_id).lean(),
@@ -53,6 +55,15 @@ router.post('/getWait', middleware.asyncMiddleware(async (req, res) => {
     });
 }));
 
+function groupSection(el) {
+    if (!el) {
+        return null;
+    }
+    let info = el.meetingInfo;
+    let newInfo = groupArray(info, 'daysTime.day', 'daysTime.timeSlot.start', 'daysTime.timeSlot.end', 'room');        
+    el.meetingInfo = flatten(newInfo, {maxDepth: 4});
+    return el;
+}
 // ??semester??
 router.get('/import', middleware.checkLogin, middleware.asyncMiddleware(async (req, res) => {
     console.log('get /import');
@@ -69,32 +80,55 @@ router.get('/import', middleware.checkLogin, middleware.asyncMiddleware(async (r
         let courses = courseArray.map(async (courseInfo) => {
             let courseCode = courseInfo['courseCode'];
             let course = await Course.findOne({courseCode: courseCode, semester: semester}).lean();
-            // console.log('course');
-            // console.log(course);
-            let lectures = null;
-            let tutorials = [];
-            let labs = [];
-            courseInfo['info'].forEach((section) => {
+            course.lec = null;
+            course.tut = [];
+            course.lab = [];
+            for (let i = 0; i < courseInfo['info'].length; i++) {
+                section = courseInfo['info'][i];
                 let courseComponent = section['courseComponent'];
                 let sectionCode = section['sectionCode'];
                 if (courseComponent == 'LEC') {
-                    lectures = Section.findById(course.lectures);
+                    course.lec = await Section.findById(course.lectures).lean();
                 } else if (courseComponent == 'TUT') {
-                    tutorials.push(Section.findOne({_id: {$in: course.tutorials}, sectionCode: courseInfo['TUT']}));
+                    let regex = new RegExp(sectionCode, 'i');
+                    let tut = await Section.findOne({_id: {$in: course.tutorials}, sectionCode: {$regex: regex}}).catch((error) => {
+                        console.log('tutorials promise');
+                        console.log(error.message);
+                    });
+                    course.tut.push(tut);
+                    if (!tut) {
+                        console.log(course.tutorials);
+                        console.log(sectionCode);
+                        console.log(course.courseCode);
+                    }
                 } else if (courseComponent == 'LAB') {
-                    labs.push(Section.findOne({_id: {$in: course.labs}, sectionCode: courseInfo['LAB']}));
+                    let regex = new RegExp(sectionCode, 'i');
+                    let lab = await Section.findOne({_id: {$in: course.labs}, sectionCode: {$regex: regex}}).catch((err) => {
+                        console.log('tutorials promise');
+                    });
+                    course.lab.push(lab);
+                    if (!lab) {
+                        console.log(sectionCode);
+                        console.log(course.courseCode);
+                    }
                 }
-            });
-            course.lecture = await lectures;
-            course.tutorials = await Promise.all(tutorials);
-            course.labs = await Promise.all(labs);
+            }
+            course.lectures = await course.lec;
+            course.tutorials = await Promise.all(course.tut);
+            course.labs = await Promise.all(course.lab);
+            console.log(course);
             return course;
         }); 
         courses = await Promise.all(courses).catch((error)=> {
             console.log(error.message);
+        
         });
         courses.forEach((course) => {
-            console.log(course.courseCode);
+            if (course.lectures) {
+                course.lectures.meetingInfo = flatten(groupArray(course.lectures.meetingInfo, 'daysTime.day', 'daysTime.timeSlot.start', 'daysTime.timeSlot.end', 'room'), {maxDepth: 4});
+            }
+            course.tutorials = course.tutorials.map(groupSection);
+            course.labs = course.labs.map(groupSection);    
         });
         return res.send({sid: req.session.sid, courses: courses});
     });

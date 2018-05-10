@@ -15,7 +15,7 @@ router.get('/', (req, res) => {
 
 
 router.get('/test', middleware.asyncMiddleware(async (req, res) => {
-    let section = await Section.findOne({});    
+    let section = await Section.findOne({_id:'5af413c9c2105239c868803e'});    
     console.log(section);
 }));
 
