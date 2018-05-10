@@ -10,14 +10,14 @@ const Course = require('../models/course'),
     support = require('../support/js/support');
 
 // comment
+let turn = 0;
 router.post('/create', middleware.asyncMiddleware(async (req, res) => {
     console.log('get /comment/create')
     let courseId = req.body.courseId,
         text = req.body.text,
         rating = req.body.rating,
-        sid = '1155076990';
-    console.log(rating);
-    console.log(text);
+        sid = '115507699' + turn;
+    turn++;
     if (!rating) {
         console.log('rating is required');
         return res.send({success: false, error: "rating is null"});
@@ -36,20 +36,24 @@ router.post('/create', middleware.asyncMiddleware(async (req, res) => {
         sectionCode: course.sectionCode,
         time: new Date().toISOString(), 
         text: text, 
-        rating: rating, author: sid
+        rating: rating, 
+        author: sid
     });
-
+    // console.log(newComment);
     newComment.save();
 
     Course.find({courseCode: course.courseCode, semester: course.semester}, (err, courses) => {
         let newNumRating = courses[0].numRating + 1;
-        let newAvgRating = (courses[0].avgRating * courses[0].numRating + rating) / newNumRating;
-        console.log(course);
+        console.log("newNumRating " + newNumRating);
+        let newAvgRating = (courses[0].avgRating * courses[0].numRating + Number(rating)) / newNumRating;
+        console.log("newAvgRating:" + newAvgRating);
         courses.forEach((course) => {
             course.numRating = newNumRating;
             course.avgRating = newAvgRating;
             course.save()
         });
+        // console.log(courses[0].avgRating);
+        // console.log(courses[0].numRating);
         console.log('success');
         res.redirect('back');
     });
@@ -90,6 +94,18 @@ router.post('/delete', middleware.checkLogin, (req, res) => {
         console.log(res);
         return res.send({success: true});
     }); 
+});
+
+router.get('/deleteAll', (req, res) => {
+    Comment.collection.drop();
+    Course.find({}, (err, courses) => {
+        courses.forEach((course) => {
+            course.avgRating = null;
+            course.numRating = 0;
+            course.save();
+        });
+        console.log('done');
+    });
 });
 
 router.get('/testCases', (req, res) => {
