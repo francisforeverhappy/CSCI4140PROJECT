@@ -196,7 +196,7 @@ function searchClickHandler(e){
 	});
 }
 
-function selectCourse(course, select){
+function selectCourse(course, select, isGrouped){
   var courseCode = course.courseCode + course.sectionCode
   var courseName = course.courseName
   var id = course._id;
@@ -289,28 +289,28 @@ $('#search-input').on("keyup", function(){
 			contentType: 'application/json',
 			data: JSON.stringify({"key": keyword}),
 			url: '/search',
-  			type: 'POST',
-  			success: function(result) {
-  				// receive data
-  			  // console.log(result);
-  			  var courses = result.courses;
-  			  var list = $('#search-list');
+			type: 'POST',
+			success: function(result) {
+				// receive data
+			  // console.log(result);
+			  var courses = result.courses;
+			  var list = $('#search-list');
 
-  			  // clean search list items
-  			  $(list).children().remove();
-  			  // add search list items
-  			  for (var key in courses){
-  			  	var courseCode = courses[key].courseCode + courses[key].sectionCode;
-  			  	var courseName = courses[key].courseName;
-  			  	var units = courses[key].classDetails.units;
-  			  	var id = courses[key]._id;
-  			  	addSearchItem(courseCode, courseName, id, units)
-  			  }
+			  // clean search list items
+			  $(list).children().remove();
+			  // add search list items
+			  for (var key in courses){
+			  	var courseCode = courses[key].courseCode + courses[key].sectionCode;
+			  	var courseName = courses[key].courseName;
+			  	var units = courses[key].classDetails.units;
+			  	var id = courses[key]._id;
+			  	addSearchItem(courseCode, courseName, id, units)
+			  }
 
-  			  for (var id in selectedCourse){
-						$('#'+id).off('click').css("background-color",'linen');
-  			  }
-  			}
+			  for (var id in selectedCourse){
+					$('#'+id).off('click').css("background-color",'linen');
+			  }
+			}
 		});
 	}else{
 		$('#search-list').children().remove();
@@ -324,13 +324,40 @@ $("#export-btn").on("click", function(){
 
 //import handler
 $("#import-btn").on("click", function(){
+	$('#loading').show();
 	$.ajax({
 		contentType: 'application/json',
 		url: '/protected/import',
-			type: 'GET',
-			success: function(result) {
-				// receive data
-			  console.log(result);
-			}
+		type: 'GET',
+		success: function(result) {
+			// receive data
+		  console.log(result);
+		  $(".delete-btn").click();
+
+		  result.courses.forEach(function(course){
+		  	var id = course._id;
+		  	console.log(id)
+			  selectedCourse[id] = {"course": course, "select": {"TUT": 0, "LAB": 0}};
+				selectCourse(selectedCourse[id].course, selectedCourse[id].select);
+		  });
+		}
+	});
+	$('#loading').hide();
+});
+
+$("#login-btn").on("click", function(){
+	var sid = $("#sid-input").value();
+	var pwd = $("#pwd-input").value();
+	$.ajax({
+		contentType: 'application/json',
+		url: '/login',
+		type: 'POST',
+		data: JSON.stringify({"sid": sid, "pwd": pwd}),
+		success: function(result) {
+			// receive data
+		  if(!result.success){
+		  	$("#login-warning").show().delay(5000).fadeOut();
+		  }
+		}
 	});
 });
