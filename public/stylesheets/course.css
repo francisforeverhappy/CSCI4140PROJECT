@@ -261,7 +261,7 @@ table.altrowstable td {
     display:inline-block;
 }
 .triangle-down { 
-    width: 0; 
+    width: 0;
     height: 0; 
     border-left: 10px solid transparent; 
     border-right: 10px solid transparent; 

@@ -50,7 +50,6 @@ $('#refresh-waitingList').on("click", function () {
 
 //update rating
 var rating=3;
-console.log($('#rating').val());
 $('#rating1,#rating2,#rating3,#rating4,#rating5').on('click',function(){
     $('#rating').val($(this).val());
 });
