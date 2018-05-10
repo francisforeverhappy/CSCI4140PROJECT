@@ -19,8 +19,7 @@ router.post('/create', middleware.checkLogin, middleware.asyncMiddleware(async (
         console.log('rating is required');
         return res.send({success: false, error: "rating is null"});
     }
-    
-    let courseCode = await Course.findById(courseId);
+    let course = await Course.findById(courseId);
     let oldComment = await Comment.findOne({couresCode: course.courseCode, author: sid});
     if (oldComment) {
         return res.send({success: false, error: "comment already exists"});
@@ -38,6 +37,9 @@ router.post('/create', middleware.checkLogin, middleware.asyncMiddleware(async (
     newComment.save((err, result) => {
         console.log(result);
         res.send({success: true, comment: newComment});
+    });
+    Course.find({courseCode: course.courseCode, semester: course.semester}, (err, res) => {
+        // res.
     });
 }));
 

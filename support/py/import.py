@@ -55,12 +55,12 @@ def printlist():
             print('"courseCode": "' + courseCode, end='"')
             continue
         course_info = re.findall(r"<table cellspacing='0' (.+?)</table>", course_name[i], re.DOTALL)
-
         l = re.findall(r"(?:<span  class=.+?>(.+?)</span>|<td align='CENTER'  class='PSLEVEL3GRIDROW' >(.+?)</td>)", course_info[1], re.DOTALL)
         flat_list = [item for sublist in l for item in sublist]
         item = [x for x in filter(None, flat_list)]
         # print(item)
         firstTime = True
+        print('"info":[', end='')
         for i in range(len(item)//7):
             if item[7*i] != "&nbsp;":
                 if not firstTime: 
@@ -71,9 +71,9 @@ def printlist():
                 if component in componentDir:
                     component = componentDir[component]
                 section = item[7*i+1][38:-8][1:]
-                print('"' + component, end='":')
-                print('"' + section, end='"')
-        print('}', end='')
+                print('{"courseComponent":"' + component, end='",')
+                print('"sectionCode":"' + section, end='"}')
+        print(']}', end='')
     print(']', end='')
 
 def main():

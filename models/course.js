@@ -35,7 +35,17 @@ var courseSchema = mongoose.Schema({
     labs: [{
         type: mongoose.Schema.Types.ObjectId,
         ref: "Section"
-    }]
+    }],
+
+    avgRating: {
+        type: Number,
+        default: null
+    },
+
+    numRating: {
+        type: Number,
+        default: 0
+    }
 });
 
 module.exports = mongoose.model('Course', courseSchema, 'Course');

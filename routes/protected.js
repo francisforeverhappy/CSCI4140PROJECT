@@ -50,34 +50,40 @@ router.post('/getWait', middleware.checkLogin, middleware.asyncMiddleware(async 
 }));
 
 // ??semester??
-router.get('/import', middleware.asyncMiddleware(async (req, res) => {
+router.get('/import', middleware.checkLogin, middleware.asyncMiddleware(async (req, res) => {
     console.log('get /import');
-    // let sid = req.session.sid,
-    //     pwd = support.decrypt(sid, req.session.pwd);
-    const components = ['LEC', 'LAB', 'TUT'];
+    let sid = req.session.sid,
+        pwd = support.decrypt(sid, req.session.pwd);
+    // hardcoded
     const semester = '2017-18 Term 2';
-    let pythonProcess = spawn('python', ['support/py/import.py', '1155076990', 'zxcv$4321']);
+    let pythonProcess = spawn('python', ['support/py/import.py', sid, pwd]);
 
     pythonProcess.stdout.on('data', async (data) => {
         let courseArray = JSON.parse(data.toString());
-        let courses = courseArray.map(async (courseinfo) => {
+        let courses = courseArray.map(async (courseInfo) => {
             let courseCode = courseInfo['courseCode'];
             let course = await Course.findOne({courseCode: courseCode, semester: semester}).lean();
             let lectures = null;
             let tutorials = [];
             let labs = [];
-            for (key in courseInfo) {
-                if (key == 'LEC') {
+            courseInfo['info'].forEach((section) => {
+                let courseComponent = section['courseComponent'];
+                let sectionCode = section['sectionCode'];
+                if (courseComponent == 'LEC') {
                     lectures = Section.findById(course.lectures);
-                } else if (key == 'TUT') {
+                } else if (courseComponent == 'TUT') {
                     tutorials.push(Section.findOne({_id: {$in: course.tutorials}, sectionCode: courseInfo['TUT']}));
-                } else if (key == 'LAB') {
+                } else if (courseComponent == 'LAB') {
                     labs.push(Section.findOne({_id: {$in: course.labs}, sectionCode: courseInfo['LAB']}));
                 }
-            }
-            course.lectures = await lectures;
-            // course.
+            });
+            course.lectures = lectures;
+            course.tutorials = Promise.all(tutorials);
+            course.labs = Promise.all(labs);
+            return course;
         }); 
+        courses = await Promise.all(courses);
+        return res.send({sid: req.session.sid, courses: courses});
     });
     // TBI
 }));
