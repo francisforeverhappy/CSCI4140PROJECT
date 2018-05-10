@@ -2,7 +2,8 @@
 <html>
 <head>
     <title>CUTE</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <link rel='stylesheet' href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
         crossorigin="anonymous">
@@ -332,6 +333,34 @@
                                         </div>
                                     </div>
                                 </div>
+                            </section>
+                            <section id="LeaveAComment" class="comment-respond">
+                                <h2 class="comment-reply-title">Leave a Comment</h2>
+                                <form action="/comment/create" method="post" id="commentform" class="comment-form" novalidate>
+                                    <label>Your comment * For users who have logged in and taken <%= course.courseCode %></label>
+                                    <p class="comment-form-comment">
+                                        <span name="courseId" value=<%= course._id %>></span>
+                                        <textarea id="write-comment" name="text" col="60" row="8" required></textarea>
+                                    </p>
+                                    <p>
+                                        <span class="rating">
+                                            <span>Rating: </span>
+                                            <input id="rating5" type="radio" name="rating" value="5">
+                                            <label for="rating5">5</label>
+                                            <input id="rating4" type="radio" name="rating" value="4">
+                                            <label for="rating4">4</label>
+                                            <input id="rating3" type="radio" name="rating" value="3">
+                                            <label for="rating3">3</label>
+                                            <input id="rating2" type="radio" name="rating" value="2" checked>
+                                            <label for="rating2">2</label>
+                                            <input id="rating1" type="radio" name="rating" value="1">
+                                            <label for="rating1">1</label>
+                                        </span>
+                                    </p>
+                                    <p class="comment-submit">
+                                        <input name="submit" type="submit" id="submit" class="submit" value="Send a Comment">
+                                    </p>
+                                </form>
                             </section>
                         </div>
                         <aside class="col-md-3">
