@@ -38,8 +38,14 @@ router.post('/create', middleware.checkLogin, middleware.asyncMiddleware(async (
         console.log(result);
         res.send({success: true, comment: newComment});
     });
-    Course.find({courseCode: course.courseCode, semester: course.semester}, (err, res) => {
-        // res.
+    Course.find({courseCode: course.courseCode, semester: course.semester}, (err, courses) => {
+        let newNumRating = courses[0].numRating + 1;
+        let newAvgRating = (courses[0].avgRating * courses[0].numRating + rating) / newNumRating;
+        courses.forEach((course) => {
+            course.numRating = newNumRating;
+            course.avgRating = newAvgRating;
+            course.save()
+        });
     });
 }));
 
@@ -47,6 +53,7 @@ router.post('/edit', middleware.checkLogin, (req, res) => {
     let commentId = req.body.key,
         text = req.body.text,
         rating = req.body.rating;
+    
     Comment.findByIdAndUpdate(commentId, {time: new Date().toISOString(), text: text, rating: rating}, {new: true}, (err, doc, res) => {
         if (err) {
             console.log(err.message);
@@ -56,6 +63,15 @@ router.post('/edit', middleware.checkLogin, (req, res) => {
         return res.send({success: true});
     });
 
+    Course.find({courseCode: course.courseCode, semester: course.semester}, (err, courses) => {
+        let newNumRating = courses[0].numRating + 1;
+        let newAvgRating = (courses[0].avgRating * courses[0].numRating + rating) / newNumRating;
+        courses.forEach((course) => {
+            course.numRating = newNumRating;
+            course.avgRating = newAvgRating;
+            course.save();
+        });
+    });
 });
 
 router.post('/delete', middleware.checkLogin, (req, res) => {

@@ -50,19 +50,23 @@ router.post('/getWait', middleware.checkLogin, middleware.asyncMiddleware(async 
 }));
 
 // ??semester??
-router.get('/import', middleware.checkLogin, middleware.asyncMiddleware(async (req, res) => {
+router.get('/import', middleware.asyncMiddleware(async (req, res) => {
     console.log('get /import');
-    let sid = req.session.sid,
-        pwd = support.decrypt(sid, req.session.pwd);
+    // let sid = req.session.sid,
+    //     pwd = support.decrypt(sid, req.session.pwd);
     // hardcoded
     const semester = '2017-18 Term 2';
-    let pythonProcess = spawn('python', ['support/py/import.py', sid, pwd]);
+    let pythonProcess = spawn('python', ['support/py/import.py', '1155076990', '']);
 
     pythonProcess.stdout.on('data', async (data) => {
         let courseArray = JSON.parse(data.toString());
+        console.log('courseArray');
+        console.log(courseArray);
         let courses = courseArray.map(async (courseInfo) => {
             let courseCode = courseInfo['courseCode'];
             let course = await Course.findOne({courseCode: courseCode, semester: semester}).lean();
+            // console.log('course');
+            // console.log(course);
             let lectures = null;
             let tutorials = [];
             let labs = [];
@@ -77,15 +81,17 @@ router.get('/import', middleware.checkLogin, middleware.asyncMiddleware(async (r
                     labs.push(Section.findOne({_id: {$in: course.labs}, sectionCode: courseInfo['LAB']}));
                 }
             });
-            course.lectures = lectures;
+            course.lec = lectures;
             course.tutorials = Promise.all(tutorials);
             course.labs = Promise.all(labs);
             return course;
         }); 
-        courses = await Promise.all(courses);
+        courses = await Promise.all(courses).catch((error)=> {
+            console.log(error.message);
+        });
+        console.log(courses);
         return res.send({sid: req.session.sid, courses: courses});
     });
-    // TBI
 }));
 
 module.exports = router;
