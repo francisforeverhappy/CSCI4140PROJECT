@@ -30,7 +30,7 @@ router.post('/create', middleware.checkLogin, middleware.asyncMiddleware(async (
         courseCode: course.courseCode, 
         semester: course.semester, 
         sectionCode: course.sectionCode,
-        time: Date().toISOString(), 
+        time: new Date().toISOString(), 
         text: text, 
         rating: rating, author: sid
     });

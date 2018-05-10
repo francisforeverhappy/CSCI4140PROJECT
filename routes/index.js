@@ -37,8 +37,7 @@ router.post('/login', (req, res, next) => {
         } else {
             console.log('login fail');
         }
-        res.redirect('/');
-        // res.send({sid: req.session.sid});
+        res.redirect('back');
     });
 });
 
@@ -48,7 +47,7 @@ router.get('/logout', middleware.checkLogin, (req, res) => {
     req.session.destroy(() => {
         console.log('user logged out');
     });
-    res.redirect('/');
+    res.redirect('back');
 });
 
 module.exports = router;

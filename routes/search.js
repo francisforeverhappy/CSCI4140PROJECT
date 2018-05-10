@@ -45,6 +45,7 @@ router.post('/detail', middleware.asyncMiddleware(async (req, res) => {
 router.get('/:courseId', middleware.asyncMiddleware(async (req, res) => {
     let courseId = req.params.courseId;
     let course = await Course.findById(courseId).lean();
+    console.log('get /:courseId');
     [course.lectures, course.tutorials, course.labs, course.comments, course.ratings] = await Promise.all([Section.findById(course.lectures).lean(),
         Section.find({'_id': {$in: course.tutorials}}).lean(),
         Section.find({'_id': {$in: course.labs}}).lean(),
