@@ -316,27 +316,34 @@
                                 </div>
                                 <div class="comments_border">
                                     <div class="comments-list">
+                                        <% console.log(course.comments); %>
+                                        <% for(var i=0; i < course.comments.length; i++){ %>
                                         <div class="thread">
                                             <div class="comment-item" id>
-                                                <div class="comment-conten">4140 is very very cool !!!</div>
+                                                <div class="comment-conten"><%= course.comments[i].text %></div>
                                                 <div class="comment-mode">
                                                     <div class="comment-control">
-                                                        
+                                                        <span><%= course.comments[i].semester %></span>
+                                                        <div class="separator"> ● </div>
+                                                        <span>
+                                                            <%= course.comments[i].rating %>
+                                                        </span>
                                                     </div>
                                                     <div class="time-section">
-                                                        <span class="comment-time">2018-05-01</span>
+                                                        <span class="comment-time"><%= course.comments[i].time %></span>
                                                         <div class="separator"> ● </div>
-                                                        <span class="comment-section">CSCI2100A</span>
+                                                        <span class="comment-section"><%= course.comments[i].courseCode %></span>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
+                                        <% } %>
                                     </div>
                                 </div>
                             </section>
-                            <section id="LeaveAComment" class="comment-respond">
+                            <section id="respond" class="comment-respond">
                                 <h2 class="comment-reply-title">Leave a Comment</h2>
-                                <form action="/comment/create" method="post" id="commentform" class="comment-form" novalidate>
+                                <span class="comment-form">
                                     <label>Your comment * For users who have logged in and taken <%= course.courseCode %></label>
                                     <p class="comment-form-comment">
                                         <input name="courseId" value=<%= course._id %> style="display: none;"></input>
@@ -355,12 +362,13 @@
                                             <label for="rating2">2</label>
                                             <input id="rating1" type="radio" name="rating" value="1">
                                             <label for="rating1">1</label>
+                                            <input id="rating" style="display: none;" value="3">
                                         </span>
                                     </p>
                                     <p class="comment-submit">
                                         <input name="submit" type="submit" id="submit" class="submit" value="Send a Comment">
                                     </p>
-                                </form>
+                                </span>
                             </section>
                         </div>
                         <aside class="col-md-3">
