@@ -13,8 +13,8 @@ const Course = require('../models/course'),
 // login needed
 router.post('/getWait', middleware.asyncMiddleware(async (req, res) => {
     console.log('get /getWait');
-    let sid = req.session.sid,
-        pwd = support.decrypt(sid, req.session.pwd);
+    // let sid = req.session.sid,
+    //     pwd = support.decrypt(sid, req.session.pwd);
     const semDir = {
         '2017-18 Term 1': 1,
         '2017-18 Term 2': 2
@@ -22,8 +22,9 @@ router.post('/getWait', middleware.asyncMiddleware(async (req, res) => {
 
     let course = await Course.findById(req.body.courseId);
     let term = semDir[course.semester]
-    let pythonProcess = spawn('python', ['support/py/getWait.py', sid, pwd, term, course.courseCode]);
+    let pythonProcess = spawn('python', ['support/py/getWait.py', '1155076990', 'zxcv$4321', term, course.courseCode]);
     pythonProcess.stdout.on('data', async (data) => {
+        // console.log(data.toString())
         let obj = JSON.parse(data.toString());
         let sections = await Promise.all(obj.map(async (section) => { 
             let conditions = {
@@ -43,15 +44,14 @@ router.post('/getWait', middleware.asyncMiddleware(async (req, res) => {
             let options = {
                 new: true
             };
-            let sectionb = await Section.findOneAndUpdate(conditions, update, options);
+            let sectionb = await Section.findOneAndUpdate(conditions, update, options).catch((error) => {
+                console.log(error);
+            });
+            console.log('section')
             return sectionb;
         }));
-    
-        [course.lectures, course.tutorials, course.labs] = await Promise.all([Section.findById(lec_id).lean(),
-            Section.find({'_id': {$in: course.tutorials}}).lean(),
-            Section.find({'_id': {$in: course.labs}}).lean()
-        ]);
-        return res.send({sid: req.session.sid, course: course});
+        console.log('back');
+        return res.redirect('back');
     });
 }));
 
@@ -107,7 +107,6 @@ router.get('/import', middleware.checkLogin, middleware.asyncMiddleware(async (r
                         console.log('tutorials promise');
                     });
                     course.lab.push(lab);
-                    console.log(lab.meetingInfo[0]);
                     if (!lab) {
                         console.log(sectionCode);
                         console.log(course.courseCode);
@@ -117,6 +116,9 @@ router.get('/import', middleware.checkLogin, middleware.asyncMiddleware(async (r
             course.lectures = await course.lec;
             course.tutorials = await Promise.all(course.tut);
             course.labs = await Promise.all(course.lab);
+            delete course.lec;
+            delete course.tut;
+            delete course.lab;
             return course;
         }); 
         courses = await Promise.all(courses).catch((error)=> {
