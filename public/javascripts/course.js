@@ -35,7 +35,7 @@ $('#refresh-waitingList').on("click", function () {
     if (courseId.length > 0) {
         $.ajax({
             contentType: 'application/json',
-            data: JSON.stringify({ "key": courseId }),
+            data: JSON.stringify({ "courseId": courseId }),
             url: '/protected/getWait',
             type: 'POST',
             success: function (result) {

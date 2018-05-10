@@ -15,7 +15,7 @@ router.get('/', (req, res) => {
 
 
 router.get('/test', middleware.asyncMiddleware(async (req, res) => {
-    let section = await Course.findOne({});    
+    let section = await Section.findOne({});    
     console.log(section);
 }));
 
