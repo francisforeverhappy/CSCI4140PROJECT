@@ -22,8 +22,6 @@ router.post('/getWait', middleware.checkLogin, middleware.asyncMiddleware(async 
     let pythonProcess = spawn('python', ['support/py/getWait.py', sid, pwd, term, course.courseCode]);
     pythonProcess.stdout.on('data', async (data) => {
         let obj = JSON.parse(data.toString());
-        console.log(nd);
-        console.log(obj);        
         let sections = await Promise.all(obj.map((section) => { 
             let conditions = {
                 'courseCode': section['courseCode'], 
@@ -43,7 +41,6 @@ router.post('/getWait', middleware.checkLogin, middleware.asyncMiddleware(async 
             };
             return Section.findOneAndUpdate(conditions, update, options);
         }));
-        console.log(sections);
         [course.lectures, course.tutorials, course.labs] = await Promise.all([Section.findById(lec_id).lean(),
             Section.find({'_id': {$in: course.tutorials}}).lean(),
             Section.find({'_id': {$in: course.labs}}).lean()
@@ -52,19 +49,35 @@ router.post('/getWait', middleware.checkLogin, middleware.asyncMiddleware(async 
     });
 }));
 
-router.get('/import', middleware.checkLogin, middleware.asyncMiddleware(async (req, res) => {
+// ??semester??
+router.get('/import', middleware.asyncMiddleware(async (req, res) => {
     console.log('get /import');
-    let sid = req.session.sid,
-        pwd = support.decrypt(sid, req.session.pwd);
-    let pythonProcess = spawn('python', ['support/py/import.py', sid, pwd]);
+    // let sid = req.session.sid,
+    //     pwd = support.decrypt(sid, req.session.pwd);
+    const components = ['LEC', 'LAB', 'TUT'];
+    const semester = '2017-18 Term 2';
+    let pythonProcess = spawn('python', ['support/py/import.py', '1155076990', 'zxcv$4321']);
+
     pythonProcess.stdout.on('data', async (data) => {
-        let courseNumbers = data.toString().trim().split(',').map(Number); 
-        console.log(courseNumbers);
-        let sections = await Section.find({courseNumber: {$in: courseNumbers}});
-        sections.map(async section => {
-            section.course = await Course.findById(section.courseInfo);
-        });
-        res.send({sid: sid, sections: sections})
+        let courseArray = JSON.parse(data.toString());
+        let courses = courseArray.map(async (courseinfo) => {
+            let courseCode = courseInfo['courseCode'];
+            let course = await Course.findOne({courseCode: courseCode, semester: semester}).lean();
+            let lectures = null;
+            let tutorials = [];
+            let labs = [];
+            for (key in courseInfo) {
+                if (key == 'LEC') {
+                    lectures = Section.findById(course.lectures);
+                } else if (key == 'TUT') {
+                    tutorials.push(Section.findOne({_id: {$in: course.tutorials}, sectionCode: courseInfo['TUT']}));
+                } else if (key == 'LAB') {
+                    labs.push(Section.findOne({_id: {$in: course.labs}, sectionCode: courseInfo['LAB']}));
+                }
+            }
+            course.lectures = await lectures;
+            // course.
+        }); 
     });
     // TBI
 }));

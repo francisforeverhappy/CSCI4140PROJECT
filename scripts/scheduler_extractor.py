@@ -1,3 +1,4 @@
+from __future__ import print_function
 import cusiscommon
 import re,os,sys
 from bs4 import BeautifulSoup
@@ -29,29 +30,47 @@ def printlist():
     payload = {'ICType':'Panel','ICAction':'DERIVED_REGFRM1_SA_LINK_PRINTER'}
     r = cusis.session.post(URL,data=payload)
     course_info = re.findall(r"<table cellspacing='0' (.+?)</table>", r.text, re.DOTALL)
-    course_name = re.findall(r"<td class='PAGROUPDIVIDER' align='left'>(.+?)</td>", r.text)
-    course_num = len(course_name)
+    course_name = re.split(r"<td class='PAGROUPDIVIDER' align='left'>(.+?)</td>", r.text)
     i = 0
     new_entry = True
     code_list = []
+    course_name = course_name[1:]
+    course_num = len(course_name)
+    print("{", end='')
+    first = True
+    for i in range(0, course_num):
+        if i % 2 == 0: 
+            if first:
+                first = False
+            else:
+                print(',', end='')
+            # print("{", end='')
+            courseName = ''.join(course_name[i].split(' ')[0:2])
+            print('"' + courseName, end='":')
+            continue
+        print("{", end='')
+        course_info = re.findall(r"<table cellspacing='0' (.+?)</table>", course_name[i], re.DOTALL)
 
-    for entry in course_info:        
-        l = re.findall(r"(?:<span  class=.+?>(.+?)</span>|<td align='CENTER'  class='PSLEVEL3GRIDROW' >(.+?)</td>)", entry, re.DOTALL)
+        l = re.findall(r"(?:<span  class=.+?>(.+?)</span>|<td align='CENTER'  class='PSLEVEL3GRIDROW' >(.+?)</td>)", course_info[1], re.DOTALL)
         flat_list = [item for sublist in l for item in sublist]
         item = [x for x in filter(None, flat_list)]
-        if len(item) == 4:
-            new_entry = True
-            i += 1
-        else:
-            for i in range(len(item)//7):
-                if item[7*i] != "&nbsp;":
-                    code_list.append(item[7*i])
-    
-                for col in item[7*i : 7*(i+1)]:
-                    if col == "&nbsp;":
-                        col = ""
-    print(', '.join(course_name))
-    print (','.join(code_list))
+        # print(item)
+        firstTime = True
+        for i in range(len(item)//7):
+            if item[7*i] != "&nbsp;":
+                if not firstTime: 
+                    print(',', end='')
+                else:
+                    firstTime = False
+                component = item[7*i+2]
+                section = item[7*i+1][38:-8][1:]
+                print('"' + component, end='":')
+                print('"' + section, end='"')
+        print('}', end='')
+    print('}', end='')
+
+    # print(', '.join(course_name))
+    # print (','.join(code_list))
 
 
 def dumplist(tofile):

@@ -87,6 +87,7 @@ def main():
 					course['labs'].append(section_id)
 				section = {
 					"courseCode": classcode,
+					"semester": addinforow['semester'],
 					"sectionCode": df['Section Code'],
 					"courseComponent": df['Course Component'],
 					"status": "open",
@@ -160,6 +161,7 @@ def main():
 			}
 			section = {
 				"courseCode": classcode,
+				"semester": addinforow['semester'],
 				"sectionCode": df['Section Code'],
 				"courseComponent": df['Course Component'],
 				"status": addinforow['status'],
