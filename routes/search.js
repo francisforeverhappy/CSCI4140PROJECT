@@ -16,11 +16,7 @@ const Course = require('../models/course'),
 router.post('/', middleware.asyncMiddleware(async (req, res) => {
     let courseInfo = req.body.key;
     let regex = new RegExp(courseInfo, 'i');
-    // console.log('get ' + courseInfo);
     let courses = await Course.find({$or: [{courseCode: {$regex: regex}}, {courseName: {$regex: regex}}]}, 'courseCode courseName classDetails.units sectionCode').limit(100);
-    // courses.forEach((course) => {
-        // console.log(course);
-    // });
     res.send({sid: req.session.sid, courses: courses});  
 }));
 
