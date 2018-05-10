@@ -47,8 +47,37 @@ $('#refresh-waitingList').on("click", function () {
         console.log("refresh failure");
     }
 });
+
+//update rating
 var rating=3;
 console.log($('#rating').val());
 $('#rating1,#rating2,#rating3,#rating4,#rating5').on('click',function(){
     $('#rating').val($(this).val());
+});
+
+//submit comments
+$('#submit').on("click", function () {
+    var courseId = $('#courseId').text();
+    var text = $('#write-comment').val();
+    var rating = $('#rating').val();
+    console.log(text);
+    if (text != '') {
+        $.ajax({
+            contentType: 'application/json',
+            data: JSON.stringify({ "courseId": courseId , "text":text, "rating":rating}),
+            url: '/comment/create',
+            type: 'POST',
+            success: function (result) {
+                // receive data
+                if(result.success == "false"){
+                    alert(result.error);
+                }
+                else{
+                    location.reload();
+                }
+            }
+        });
+    } else {
+        alert("Comments cannot be empty! Thanks.")
+    }
 });

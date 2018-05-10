@@ -279,14 +279,14 @@ table.altrowstable td {
     text-align: right;
     right:0;
 }
-.comments_border .scroll_cmt_frm{
+.scroll_cmt_frm{
     float: right;
     right:10px;
     margin-top: -20px;
 }
 .comment-respond{
-    margin-top:60px;
-    padding: 30px;
+    margin-top:50px;
+    padding: 50px;
 }
 .comment-reply-title{
     font-size: 24px;
@@ -337,6 +337,6 @@ textarea{
   transition: opacity 0.2s linear;
 }
 
-.rating > label:hover:before,  
-.rating > label:hover ~ label:before,  
+.rating > label:hover:before,
+.rating > label:hover ~ label:before, 
 .rating:not(:hover) > :checked ~ label:before { opacity: 1; }
