@@ -2,14 +2,16 @@ var mongoose = require('mongoose');
 
 var commentSchema = mongoose.Schema({
     _id: mongoose.Schema.Types.ObjectId,
-    courseInfo: {
-        type: mongoose.Schema.Types.ObjectId,
-        ref: 'Course'
-    },
     courseCode: String,
+    sectionCode: String,
+    semester: String,
+    time: String,
     text: String,
-    rating: Number,
-    sid: String
+    author: String,
+    rating: {
+        type: Number,
+        required: true
+    }
 });
 
 module.exports = mongoose.model('Comment', commentSchema);

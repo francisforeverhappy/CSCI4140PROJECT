@@ -24,6 +24,13 @@ router.post('/', middleware.asyncMiddleware(async (req, res) => {
     res.send({sid: req.session.sid, courses: courses});  
 }));
 
+function groupSection(el) {
+    let info = el.meetingInfo;
+    let newInfo = groupArray(info, 'daysTime.day', 'daysTime.timeSlot.start', 'daysTime.timeSlot.end', 'room');        
+    el.meetingInfo = flatten(newInfo, {maxDepth: 4});
+    return el;
+}
+
 router.post('/detail', middleware.asyncMiddleware(async (req, res) => {
     let courseMessage = 'courseCode courseName sectionCode semester classDetails.units classDetails.grading lectures tutorials labs';
     let sectionMessage = 'status meetingInfo';
@@ -33,27 +40,40 @@ router.post('/detail', middleware.asyncMiddleware(async (req, res) => {
     [course.lectures, course.tutorials, course.labs] = await Promise.all([Section.findById(lec_id, sectionMessage).lean(),
         Section.find({'_id': {$in: course.tutorials}}, sectionMessage).lean(),
         Section.find({'_id': {$in: course.labs}}, sectionMessage).lean()]);
-    for (let i = 0; i < course.tutorials.length; i++) {
-        let tutorial = course.tutorials[i];
-        let info = tutorial.meetingInfo;
-        let newInfo = groupArray(info, 'daysTime.day', 'daysTime.timeSlot.start', 'daysTime.timeSlot.end', 'room');        
-        course.tutorials[i].meetingInfo = flatten(newInfo, {maxDepth: 4});
-    }
+    course.lectures.meetingInfo = flatten(groupArray(course.lectures.meetingInfo, 'daysTime.day', 'daysTime.timeSlot.start', 'daysTime.timeSlot.end', 'room'), {maxDepth: 4});
+    course.tutorials = course.tutorials.map(groupSection);
+    course.labs = course.labs.map(groupSection);
     res.send({sid: req.session.sid, course: course});
 }));
 
-router.get('/:courseCode', middleware.asyncMiddleware(async (req, res) => {
-    let courseCode = req.params.courseCode;
-    console.log('get ' + courseCode);
-    let [course, comments] = await Promise.all([Course.findOne({courseCode: courseCode}), Comment.find({courseCode: courseCode})]);
-    let lec_id = course.lectures;
+router.get('/:courseId', middleware.asyncMiddleware(async (req, res) => {
+    let courseId = req.params.courseId;
+    let course = await Course.findById(courseId).lean();
     course.lec = null;
     course.tutList = [];
     course.labList = [];
-    [course.lectures, course.tutorials, course.labs] = await Promise.all([Section.findById(lec_id),
-        Section.find({'_id': {$in: course.tutorials}}),
-        Section.find({'_id': {$in: course.labs}})]);
-    return res.render('course', {sid: req.session.sid, course: course, comments: comments});
+    [course.lectures, course.tutorials, course.labs, course.comments, course.ratings] = await Promise.all([Section.findById(coures.lectures).lean(),
+        Section.find({'_id': {$in: course.tutorials}}).lean(),
+        Section.find({'_id': {$in: course.labs}}).lean(),
+        Comment.find({courseCode: course.courseCode}),
+        Comment.aggregate([
+            {
+                $match: {
+                    courseCode: course.courseCode
+                }
+            }, 
+            {
+                $group: {
+                    _id: null,
+                    avgRating: {$avg: "$rating"},
+                    numRating: {$sum: 1}
+                }
+            }
+        ])
+    ]);
+    console.log(course.ratings);
+    
+    return res.render('course', {sid: req.session.sid, course: course});
 }));
 
 module.exports = router;

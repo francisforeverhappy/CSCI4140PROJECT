@@ -15,6 +15,8 @@ const indexRoute = require('./routes/index'),
     searchRoute = require('./routes/search'),
     protectedRoute = require('./routes/protected');
 
+process.env.TZ = 'Hongkong';
+
 const dbPath = 'mongodb://localhost/csci4140_db';
 mongoose.connect(dbPath);
 const db = mongoose.connection;

@@ -1,7 +1,11 @@
-import cusiscommon
+from __future__ import print_function
+import login
 import re,os,sys,warnings,argparse
 from io import StringIO, BytesIO
 from time import strftime
+import urllib3
+
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 
 def browse_panel():
@@ -45,6 +49,8 @@ def browse_course(subject, code, term):
 	item = set(re.findall(r'DERIVED_CLSRCH_SSR_CLASSNAME_LONG\$[0-9]+', r.text))
 	item = sorted(item)
 	#print item
+	print('[', end='')
+	turn = 0
 	for i in item:
 		payload = {'ICType':'Panel','ICAction': 'CLASS_SRCH_WRK2_SSR_PB_BACK$86$'}
 		r = cusis.session.post(URL,data=payload)
@@ -53,9 +59,14 @@ def browse_course(subject, code, term):
 		info = re.findall(r"<span  class='PSEDITBOX_DISPONLY' >([0-9]*?)</span>", r.text)
 		name = re.findall(r"<span  class='PALEVEL0SECONDARY' >(.+?)</span>", r.text)
 		name = name[0].replace("&nbsp;", "")
-		print 'Course Name: ' + name + ' \ntotal seats: ' + info[1] + ' enrolled num: ' + info[3] + ' available seats: ' + info[5] + ' waiting list: ' + info[4] + '\n'
-		#print name
-	#print item
+		nameList = name.strip().split(' - ')
+		courseCode = ''.join(nameList[0].split(' '))
+		sectionCode = nameList[1].split(' ')[0]
+		if turn != 0:
+			print(',', end='')
+		print('{"courseName": "' + name + '", "classCapacity": ' + info[1] + ', "enrollTotal": ' + info[3] + ', "availSeats": ' + info[5] + ', "waitListTotal": ' + info[4] + ', "courseCode": "' + courseCode + '", "sectionCode": "' + sectionCode, end='"}')
+		turn += 1
+	print(']', end='')
 	return r.status_code
 
 
@@ -66,25 +77,15 @@ def main(subject, code, term):
 	#dumplist("a.xls")
 
 if __name__ == '__main__':
-	if not sys.warnoptions:
-		warnings.simplefilter("ignore")
-	parser = argparse.ArgumentParser()
-	parser.add_argument('-t', '--term')
-	parser.add_argument('-c', '--code')
-	try:
-		args = parser.parse_args(sys.argv[1:])
-	except Exception as e:
-		print e
-		print 'Usage ./realtime_extractor.py -t <term> -c <code>'
-
 	semcode_dict = {'1' : 2000, '2' : 2010, 's' : 2045 }
-	semcode = semcode_dict[args.term]
-	match = re.match(r"([a-z]+)([0-9]+[a-z]*)", args.code, re.I)
+	semcode = semcode_dict[sys.argv[3]]
+	match = re.match(r"([a-z]+)([0-9]+[a-z]*)", sys.argv[4], re.I)
 	if match:
 		items = match.groups()
-		cusis = cusiscommon.Cusis()
-		s = cusis.login()
+		cusis = login.Cusis()
+		s = cusis.login(sys.argv[1], sys.argv[2])
 		if s:
 			main(items[0], items[1], semcode)
 		else:
-			print "[WARNING] Login Fail"
+			print("[WARNING] Login Fail")
+	sys.stdout.flush()

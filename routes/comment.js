@@ -10,35 +10,50 @@ const Course = require('../models/course'),
     support = require('../support/js/support');
 
 // comment
-router.get('/', middleware.checkLogin, middleware.asyncMiddleware(async (req, res) => {
-    let comments = await Comment.find({sid: req.session.sid});
-    res.render('comment', {sid: req.session.sid, comments: comments});
-}));
-
-router.post('/create', middleware.checkLogin, (req, res) => {
-    let courseCode = req.body.courseCode,
+router.post('/create', middleware.checkLogin, middleware.asyncMiddleware(async (req, res) => {
+    let courseId = req.body.courseId,
         text = req.body.text,
         rating = req.body.rating,
         sid = req.session.sid;
-    let newComment = new Comment({courseCode: courseCode, text: text, rating: rating, sid: sid});
+    if (!rating) {
+        console.log('rating is required');
+        return res.send({success: false, error: "rating is null"});
+    }
+    
+    let courseCode = await Course.findById(courseId);
+    let oldComment = await Comment.findOne({couresCode: course.courseCode, author: sid});
+    if (oldComment) {
+        return res.send({success: false, error: "comment already exists"});
+    }
+
+    let newComment = new Comment({
+        _id: mongoose.Types.ObjectId(),
+        courseCode: course.courseCode, 
+        semester: course.semester, 
+        sectionCode: course.sectionCode,
+        time: Date().toISOString(), 
+        text: text, 
+        rating: rating, author: sid
+    });
     newComment.save((err, result) => {
         console.log(result);
-        return res.send({success: true});    
+        res.send({success: true, comment: newComment});
     });
-});
+}));
 
 router.post('/edit', middleware.checkLogin, (req, res) => {
     let commentId = req.body.key,
         text = req.body.text,
         rating = req.body.rating;
-    Comment.findByIdAndUpdate(commentId, {text: text, rating: rating}, {new: true}, (err, doc, res) => {
+    Comment.findByIdAndUpdate(commentId, {time: new Date().toISOString(), text: text, rating: rating}, {new: true}, (err, doc, res) => {
         if (err) {
             console.log(err.message);
-            res.send({success: false});
+            return res.send({success: false});
         }
         console.log(doc);
         return res.send({success: true});
     });
+
 });
 
 router.post('/delete', middleware.checkLogin, (req, res) => {
@@ -51,6 +66,41 @@ router.post('/delete', middleware.checkLogin, (req, res) => {
         console.log(res);
         return res.send({success: true});
     }); 
+});
+
+router.get('/testCases', (req, res) => {
+    Comment.collection.drop();
+    for (let i = 0; i < 100; i++) {
+        Course.count().exec(function (err, count) {
+            // Get a random entry
+            let random = Math.floor(Math.random() * count)
+            let tmpMessage = 'comment: ' + i;
+            // Again query all users but only fetch one offset by our random #
+            Course.findOne().skip(random)
+                .exec((err, course) => {
+                    let commentObj = {
+                        _id: mongoose.Types.ObjectId(),
+                        courseCode: course.courseCode,
+                        semester: course.semester,
+                        sectionCode: course.sectionCode,
+                        time: new Date().toISOString(),
+                        text: tmpMessage,
+                        author: "1155076990",
+                        rating: Math.floor(Math.random() * 5 + 1)
+                    }
+
+                    let newComment = new Comment(commentObj);
+                    newComment.save();
+                    console.log('save ' +tmpMessage);
+                });
+            });
+    }
+});
+
+router.get('/test', (req, res) => {
+    Comment.find({}, (err, res) => {
+        console.log(res);
+    });
 });
 
 module.exports = router;
