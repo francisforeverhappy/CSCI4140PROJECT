@@ -64,6 +64,8 @@ def browse_course(subject, code, term):
 		sectionCode = nameList[1].split(' ')[0]
 		if turn != 0:
 			print(',', end='')
+		if sectionCode and sectionCode[0] == '-':
+			sectionCode = sectionCode[1:]
 		print('{"courseName": "' + name + '", "classCapacity": ' + info[1] + ', "enrollTotal": ' + info[3] + ', "availSeats": ' + info[5] + ', "waitListTotal": ' + info[4] + ', "courseCode": "' + courseCode + '", "sectionCode": "' + sectionCode, end='"}')
 		turn += 1
 	print(']', end='')

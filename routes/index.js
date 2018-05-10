@@ -34,11 +34,11 @@ router.post('/login', (req, res, next) => {
             req.session.sid = sid;
             req.session.pwd = encryptedPwd;
             console.log('login success');
+            res.redirect('back');        
         } else {
             console.log('login fail');
+            res.send({success: false})
         }
-        res.redirect('/');
-        // res.send({sid: req.session.sid});
     });
 });
 
@@ -48,7 +48,7 @@ router.get('/logout', middleware.checkLogin, (req, res) => {
     req.session.destroy(() => {
         console.log('user logged out');
     });
-    res.redirect('/');
+    res.redirect('back');
 });
 
 module.exports = router;
