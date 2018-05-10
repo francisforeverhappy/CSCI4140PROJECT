@@ -46,24 +46,10 @@ router.get('/:courseId', middleware.asyncMiddleware(async (req, res) => {
     let courseId = req.params.courseId;
     let course = await Course.findById(courseId).lean();
     console.log('get /:courseId');
-    [course.lectures, course.tutorials, course.labs, course.comments, course.ratings] = await Promise.all([Section.findById(course.lectures).lean(),
+    [course.lectures, course.tutorials, course.labs, course.comments] = await Promise.all([Section.findById(course.lectures).lean(),
         Section.find({'_id': {$in: course.tutorials}}).lean(),
         Section.find({'_id': {$in: course.labs}}).lean(),
-        Comment.find({courseCode: course.courseCode}),
-        Comment.aggregate([
-            {
-                $match: {
-                    courseCode: course.courseCode
-                }
-            }, 
-            {
-                $group: {
-                    _id: null,
-                    avgRating: {$avg: "$rating"},
-                    numRating: {$sum: 1}
-                }
-            }
-        ])
+        Comment.find({courseCode: course.courseCode})
     ]);
     return res.render('course', {sid: req.session.sid, course: course});
 }));

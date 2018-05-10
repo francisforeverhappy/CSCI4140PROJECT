@@ -10,11 +10,11 @@ const Course = require('../models/course'),
     support = require('../support/js/support');
 
 // comment
-router.post('/create', middleware.checkLogin, middleware.asyncMiddleware(async (req, res) => {
+router.post('/create', middleware.asyncMiddleware(async (req, res) => {
     let courseId = req.body.courseId,
         text = req.body.text,
         rating = req.body.rating,
-        sid = req.session.sid;
+        sid = '1155076990';
     if (!rating) {
         console.log('rating is required');
         return res.send({success: false, error: "rating is null"});
@@ -34,10 +34,12 @@ router.post('/create', middleware.checkLogin, middleware.asyncMiddleware(async (
         text: text, 
         rating: rating, author: sid
     });
+
     newComment.save((err, result) => {
         console.log(result);
         res.send({success: true, comment: newComment});
     });
+
     Course.find({courseCode: course.courseCode, semester: course.semester}, (err, courses) => {
         let newNumRating = courses[0].numRating + 1;
         let newAvgRating = (courses[0].avgRating * courses[0].numRating + rating) / newNumRating;
@@ -46,6 +48,7 @@ router.post('/create', middleware.checkLogin, middleware.asyncMiddleware(async (
             course.avgRating = newAvgRating;
             course.save()
         });
+        res.redirect('back');
     });
 }));
 
