@@ -30,9 +30,11 @@ componentDir = {
     'Tutorial': 'TUT',
     'Laboratory': 'LAB'
 }
+
+# DERIVED_SSS_SCT_SSR_PB_GO
 def printlist():
-    URL = "https://cusis.cuhk.edu.hk/psc/csprd/EMPLOYEE/HRMS/c/SA_LEARNER_SERVICES.SSR_SSENRL_LIST.GBL"
-    payload = {'ICType':'Panel','ICAction':'DERIVED_REGFRM1_SA_LINK_PRINTER', 'STRM' : '2010'}
+    URL = "https://cusis.cuhk.edu.hk/psc/csprd/EMPLOYEE/HRMS/c/SA_LEARNER_SERVICES.SSR_SSENRL_LIST.GBL?STRM=2010"
+    payload = {'ICType':'Panel','ICAction':'DERIVED_REGFRM1_SA_LINK_PRINTER'}
     r = cusis.session.post(URL,data=payload)
     course_info = re.findall(r"<table cellspacing='0' (.+?)</table>", r.text, re.DOTALL)
     course_name = re.split(r"<td class='PAGROUPDIVIDER' align='left'>(.+?)</td>", r.text)

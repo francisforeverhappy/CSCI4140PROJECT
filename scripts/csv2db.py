@@ -85,6 +85,12 @@ def main():
 					course['tutorials'].append(section_id)
 				elif section['courseComponent'] == 'LAB':
 					course['labs'].append(section_id)
+				
+				if str(df['Section Code']) == 'nan':
+					df['Section Code'] = None
+				elif df['Section Code'] != '' and df['Section Code'][0] == '-':
+					df['Section Code'] = df['Section Code'][1:]
+			
 				section = {
 					"courseCode": classcode,
 					"semester": addinforow['semester'],
@@ -159,6 +165,11 @@ def main():
 				"tutorials" : [],
 				"labs" : []
 			}
+			
+			if str(df['Section Code']) == 'nan':
+				df['Section Code'] = None
+			elif df['Section Code'] != '' and df['Section Code'][0] == '-':
+				df['Section Code'] = df['Section Code'][1:]
 			section = {
 				"courseCode": classcode,
 				"semester": addinforow['semester'],
