@@ -25,7 +25,7 @@ router.post('/getWait', middleware.asyncMiddleware(async (req, res) => {
     let pythonProcess = spawn('python', ['support/py/getWait.py', sid, pwd, term, course.courseCode]);
     pythonProcess.stdout.on('data', async (data) => {
         let obj = JSON.parse(data.toString());
-        let sections = await Promise.all(obj.map((section) => { 
+        let sections = await Promise.all(obj.map(async (section) => { 
             let conditions = {
                 'courseCode': section['courseCode'], 
                 'sectionCode': section['sectionCode']
@@ -43,7 +43,8 @@ router.post('/getWait', middleware.asyncMiddleware(async (req, res) => {
             let options = {
                 new: true
             };
-            return Section.findOneAndUpdate(conditions, update, options);
+            let sectionb = await Section.findOneAndUpdate(conditions, update, options);
+            return sectionb;
         }));
     
         [course.lectures, course.tutorials, course.labs] = await Promise.all([Section.findById(lec_id).lean(),
