@@ -31,7 +31,8 @@ function exportToCal(info){
         let name = course.courseName;
 
         if(course.lectures != null){
-            course.lectures.meetingInfo.forEach(function(record){
+            for(var i in course.lectures.meetingInfo){
+                let record = course.lectures.meetingInfo[i][0];
                 let starttime = record.meetingDates.startDate.slice(0,11) + timeMap[record.daysTime.timeSlot.start] + ":30:00";
                 let endtime = record.meetingDates.startDate.slice(0,11) + timeMap[record.daysTime.timeSlot.end] + ":15:00";
                 let rrule = {
@@ -39,7 +40,7 @@ function exportToCal(info){
                     "until" : getNextDate(record.meetingDates.endDate)
                 };
                 cal.addEvent(title, name, record.room, starttime, endtime, rrule);
-            });
+            };
         }
 
         if(course.tutorials.length > 0){
@@ -56,7 +57,8 @@ function exportToCal(info){
         }
 
         if(course.labs.length > 0){
-            course.labs[select.LAB].meetingInfo.forEach(function(record){
+            for(var i in course.labs[select.LAB].meetingInfo){
+                let record = course.labs[select.LAB].meetingInfo[i][0];
                 let starttime = record.meetingDates.startDate.slice(0,11) + timeMap[record.daysTime.timeSlot.start] + ":30:00";
                 let endtime = record.meetingDates.startDate.slice(0,11) + timeMap[record.daysTime.timeSlot.end] + ":15:00";
                 let rrule = {
@@ -64,7 +66,7 @@ function exportToCal(info){
                     until : getNextDate(record.meetingDates.endDate)
                 };
                 cal.addEvent(title, name, record.room, starttime, endtime, rrule);
-            });
+            };
         }
     }
     cal.download("CUTE Timetable");

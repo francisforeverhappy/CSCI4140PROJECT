@@ -14,18 +14,17 @@
   	<nav class="nav">
   		<a class="logo">CUTE</a>
   		<% if(sid == undefined){ %>
-		  		<button class="nav-button" data-toggle="modal" data-target="#loginModal">
+		  		<button class="clickable-btn" data-toggle="modal" data-target="#loginModal">
 		  			<span aria-hidden="true"><i class="ion-log-in"></i></span>  Login
 		  		</button>
       <% } else { %>
       		<div class="dropdown">
-			      <button type="button" class="nav-button" id="student-id">
+			      <button type="button" class="clickable-btn" id="student-id">
 			  			<span aria-hidden="true"><i class="ion-ios-person"></i></span> <%= sid %>
 			  		</button>
 			  		<div class="dropdown-list" aria-labelledby="student-id">
-			  			<a href="/comment"><span aria-hidden="true"><i class="ion-ios-compose-outline"></i></span>  My Comment</a><br>
-			  			<a href="/protected/import"><span aria-hidden="true"><i class="ion-ios-download-outline"></i></span>  Import Timetable</a><br>
-			  			<a href="/logout"><span aria-hidden="true"><i class="ion-log-out" ></i></span>  Logout</a>
+			  			<a href="#" class="clickable-btn" id="import-btn"><span aria-hidden="true"><i class="ion-ios-download-outline"></i></span>  Import Timetable</a><br>
+			  			<a href="/logout" class="clickable-btn"><span aria-hidden="true"><i class="ion-log-out" ></i></span>  Logout</a>
 			  		</div>
 			  	</div>
       <% } %>
@@ -78,6 +77,9 @@
 				    	</li>
 				    </div>
 			    </div>
+			    <div class="loading" id="loading">
+		  			<div class="loading-box"><i class="ion-ios-loop"></i></div>
+			    </div>
 			    <div class="select-list" id="select-list">
 			    </div>
 			  </div>
@@ -108,19 +110,20 @@
 		        </button>
 		      </div>
 		      <div class="modal-body">
-		        <form method="POST" action="/login" id="login-form">
+		        <!-- <form method="POST" action="/login" id="login-form"> -->
+		        	<div id="login-warning">Login fail! Please try it again.</div>
 		        	<div class="login-input input-box">
 		    				<i class="ion-ios-person-outline" ></i>
-		    				<input type="text" name="sid" placeholder="11550xxxxx">
+		    				<input id="sid-input" type="text" name="sid" placeholder="11550xxxxx">
 	    				</div>
 	    				<div class="login-input input-box">
 		    				<i class="ion-ios-keypad-outline" ></i>
-		    				<input type="password" name="pwd" placeholder="Your CWEM Password">
+		    				<input id="pwd-input" type="password" name="pwd" placeholder="Your CWEM Password">
 	    				</div>
-		        </form>
+		        <!-- </form> -->
 		      </div>
 		      <div class="modal-footer">
-		        <button type="submit" form="login-form" value="Submit" class="btn btn-cute">Login</button>
+		        <button type="submit" id="login-btn" class="btn btn-cute">Login</button>
 		      </div>
 		    </div>
 		  </div>
@@ -154,8 +157,8 @@
     			<a target="_blank" class="select-item-info"><i class="ion-information-circled"></i></a>
   				<div class="select-item-title"></div>
     			<div class="select-item-btn">
-    				<i class="ion-ios-trash-outline delete-btn"></i>
-	    			<i class="ion-ios-eye hide-btn"></i>
+    				<i class="ion-ios-trash-outline delete-btn clickable-btn"></i>
+	    			<i class="ion-ios-eye hide-btn clickable-btn"></i>
     			</div>
     		</div>
     	</div>

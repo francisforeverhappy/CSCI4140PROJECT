@@ -19,6 +19,7 @@ $(document).ready(function() {
   for(var id in selectedCourse){
   	selectCourse(selectedCourse[id].course, selectedCourse[id].select);
   }
+  // localStorage.removeItem("timetable");
 });
 
 $(window).on("unload",function() {
@@ -67,8 +68,8 @@ function optClassHandler(e){
 			for(var i in selectedCourse[id].course.labs){
 				if(i != selectedCourse[id].select.LAB){
 					for(var j in selectedCourse[id].course.labs[i].meetingInfo){
-				  	var daysTime = selectedCourse[id].course.labs[i].meetingInfo[j].daysTime;
-				  	var venue = selectedCourse[id].course.labs[i].meetingInfo[j].room;
+				  	var daysTime = selectedCourse[id].course.labs[i].meetingInfo[j][0].daysTime;
+				  	var venue = selectedCourse[id].course.labs[i].meetingInfo[j][0].room;
 					  addOptClassItem(courseCode, courseName, id, i, "LAB", venue, daysTime.day, daysTime.timeSlot);
 					}
 				}
@@ -195,7 +196,7 @@ function searchClickHandler(e){
 	});
 }
 
-function selectCourse(course, select){
+function selectCourse(course, select, isGrouped){
   var courseCode = course.courseCode + course.sectionCode
   var courseName = course.courseName
   var id = course._id;
@@ -223,9 +224,9 @@ function selectCourse(course, select){
 		var lec_tmpl = $('#select-item-lec-tmpl').contents().clone();
 
   	for(var i in course.lectures.meetingInfo){
-	  	var daysTime = course.lectures.meetingInfo[i].daysTime;
-	  	var venue = course.lectures.meetingInfo[i].room;
-		  addClassItem(courseCode, courseName, id, i, "LEC", venue, daysTime.day, daysTime.timeSlot, false);
+	  	var daysTime = course.lectures.meetingInfo[i][0].daysTime;
+	  	var venue = course.lectures.meetingInfo[i][0].room;
+		  addClassItem(courseCode, courseName, id, 0, "LEC", venue, daysTime.day, daysTime.timeSlot, false);
 
 		  var sec_tmpl = $('#select-item-sec-tmpl').contents().clone();
 		  $(sec_tmpl).html('<span><i class="ion-ios-clock-outline"></i> {0}: {1}:30 - {2}:30</span><span><i class="ion-ios-location-outline"></i> {3}</span>'.format(dayMap[daysTime.day], daysTime.timeSlot.start+7 , daysTime.timeSlot.end+7, venue));
@@ -263,10 +264,10 @@ function selectCourse(course, select){
 		}
 		var lab_tmpl = $('#select-item-lab-tmpl').contents().clone();
 
-  	for(var i in course.labs[select.TUT].meetingInfo){
-	  	var daysTime = course.labs[select.TUT].meetingInfo[i].daysTime;
-	  	var venue = course.labs[select.TUT].meetingInfo[i].room;
-		  addClassItem(courseCode, courseName, id, select.TUT, "LAB", venue, daysTime.day, daysTime.timeSlot, lab_opt);
+  	for(var i in course.labs[select.LAB].meetingInfo){
+	  	var daysTime = course.labs[select.LAB].meetingInfo[i][0].daysTime;
+	  	var venue = course.labs[select.LAB].meetingInfo[i][0].room;
+		  addClassItem(courseCode, courseName, id, select.LAB, "LAB", venue, daysTime.day, daysTime.timeSlot, lab_opt);
 
 		  var sec_tmpl = $('#select-item-sec-tmpl').contents().clone();
 		  $(sec_tmpl).html('<span><i class="ion-ios-clock-outline"></i> {0}: {1}:30 - {2}:30</span><span><i class="ion-ios-location-outline"></i> {3}</span>'.format(dayMap[daysTime.day], daysTime.timeSlot.start+7 , daysTime.timeSlot.end+7, venue));
@@ -288,28 +289,28 @@ $('#search-input').on("keyup", function(){
 			contentType: 'application/json',
 			data: JSON.stringify({"key": keyword}),
 			url: '/search',
-  			type: 'POST',
-  			success: function(result) {
-  				// receive data
-  			  // console.log(result);
-  			  var courses = result.courses;
-  			  var list = $('#search-list');
+			type: 'POST',
+			success: function(result) {
+				// receive data
+			  // console.log(result);
+			  var courses = result.courses;
+			  var list = $('#search-list');
 
-  			  // clean search list items
-  			  $(list).children().remove();
-  			  // add search list items
-  			  for (var key in courses){
-  			  	var courseCode = courses[key].courseCode + courses[key].sectionCode;
-  			  	var courseName = courses[key].courseName;
-  			  	var units = courses[key].classDetails.units;
-  			  	var id = courses[key]._id;
-  			  	addSearchItem(courseCode, courseName, id, units)
-  			  }
+			  // clean search list items
+			  $(list).children().remove();
+			  // add search list items
+			  for (var key in courses){
+			  	var courseCode = courses[key].courseCode + courses[key].sectionCode;
+			  	var courseName = courses[key].courseName;
+			  	var units = courses[key].classDetails.units;
+			  	var id = courses[key]._id;
+			  	addSearchItem(courseCode, courseName, id, units)
+			  }
 
-  			  for (var id in selectedCourse){
-						$('#'+id).off('click').css("background-color",'linen');
-  			  }
-  			}
+			  for (var id in selectedCourse){
+					$('#'+id).off('click').css("background-color",'linen');
+			  }
+			}
 		});
 	}else{
 		$('#search-list').children().remove();
@@ -319,4 +320,44 @@ $('#search-input').on("keyup", function(){
 //export handler
 $("#export-btn").on("click", function(){
 	exportToCal(selectedCourse);
+});
+
+//import handler
+$("#import-btn").on("click", function(){
+	$('#loading').show();
+	$.ajax({
+		contentType: 'application/json',
+		url: '/protected/import',
+		type: 'GET',
+		success: function(result) {
+			// receive data
+		  console.log(result);
+		  $(".delete-btn").click();
+
+		  result.courses.forEach(function(course){
+		  	var id = course._id;
+		  	console.log(id)
+			  selectedCourse[id] = {"course": course, "select": {"TUT": 0, "LAB": 0}};
+				selectCourse(selectedCourse[id].course, selectedCourse[id].select);
+		  });
+		}
+	});
+	$('#loading').hide();
+});
+
+$("#login-btn").on("click", function(){
+	var sid = $("#sid-input").value();
+	var pwd = $("#pwd-input").value();
+	$.ajax({
+		contentType: 'application/json',
+		url: '/login',
+		type: 'POST',
+		data: JSON.stringify({"sid": sid, "pwd": pwd}),
+		success: function(result) {
+			// receive data
+		  if(!result.success){
+		  	$("#login-warning").show().delay(5000).fadeOut();
+		  }
+		}
+	});
 });
