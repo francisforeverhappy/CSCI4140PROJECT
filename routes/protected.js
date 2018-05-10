@@ -24,7 +24,6 @@ router.post('/getWait', middleware.checkLogin, middleware.asyncMiddleware(async 
     let term = semDir[course.semester]
     let pythonProcess = spawn('python', ['support/py/getWait.py', sid, pwd, term, course.courseCode]);
     pythonProcess.stdout.on('data', async (data) => {
-        // console.log(data.toString())
         let obj = JSON.parse(data.toString());
         let sections = await Promise.all(obj.map(async (section) => { 
             let conditions = {
@@ -51,7 +50,7 @@ router.post('/getWait', middleware.checkLogin, middleware.asyncMiddleware(async 
             return sectionb;
         }));
         console.log('back');
-        return res.redirect('back');
+        return res.send({success: true});
     });
 }));
 

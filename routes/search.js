@@ -51,6 +51,7 @@ router.get('/:courseId', middleware.asyncMiddleware(async (req, res) => {
         Section.find({'_id': {$in: course.labs}}).lean(),
         Comment.find({courseCode: course.courseCode})
     ]);
+    
     return res.render('course', {sid: req.session.sid, course: course});
 }));
 
