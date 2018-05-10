@@ -302,6 +302,15 @@ table.altrowstable td {
     resize: none;
     border-width: 0px;
 }
+.edit-form{
+    display:none;
+}
+#edit-comment{
+    width: 800px;
+    height: 135px;
+    resize: none;
+    border-width: 0px;
+}
 textarea{
     border-radius: 8px;
 }

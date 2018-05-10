@@ -128,7 +128,9 @@
                                                                 <% switch (course.lectures.meetingInfo[i].daysTime.day) { case 0: course.lectures.meetingInfo[i].daysTime.day = "Monday"; break;case 1: course.lectures.meetingInfo[i].daysTime.day = "Tuesday"; break; case 2: course.lectures.meetingInfo[i].daysTime.day= "Wednesday"; break; case 3: course.lectures.meetingInfo[i].daysTime.day = "Thursday"; break; case 4: course.lectures.meetingInfo[i].daysTime.day= "Friday"; break; case 5: course.lectures.meetingInfo[i].daysTime.day = "Saturday"; break; } %>
                                                                 <% switch (course.lectures.meetingInfo[i].daysTime.timeSlot.start) { case 1: course.lectures.meetingInfo[i].daysTime.timeSlot.start = "8:30"; break;case 2: course.lectures.meetingInfo[i].daysTime.timeSlot.start = "9:30"; break; case 3: course.lectures.meetingInfo[i].daysTime.timeSlot.start= "10:30"; break; case 4: course.lectures.meetingInfo[i].daysTime.timeSlot.start = "11:30"; break; case 5: course.lectures.meetingInfo[i].daysTime.timeSlot.start= "12:30"; break; case 6: course.lectures.meetingInfo[i].daysTime.timeSlot.start = "13:30"; break; case 7: course.lectures.meetingInfo[i].daysTime.timeSlot.start = "14:30"; break;case 8: course.lectures.meetingInfo[i].daysTime.timeSlot.start= "15:30"; break; case 9: course.lectures.meetingInfo[i].daysTime.timeSlot.start= "16:30"; break; case 10: course.lectures.meetingInfo[i].daysTime.timeSlot.start= "17:30"; break; case 11: course.lectures.meetingInfo[i].daysTime.timeSlot.start= "18:30"; break; case 12: course.lectures.meetingInfo[i].daysTime.timeSlot.start= "19:30"; break;case 13: course.lectures.meetingInfo[i].daysTime.timeSlot.start= "20:30"; break;case 14: course.lectures.meetingInfo[i].daysTime.timeSlot.start= "21:30"; break;} %>
                                                                 <% switch (course.lectures.meetingInfo[i].daysTime.timeSlot.end) { case 1: course.lectures.meetingInfo[i].daysTime.timeSlot.end = "8:45"; break;case 2: course.lectures.meetingInfo[i].daysTime.timeSlot.end = "9:45"; break; case 3: course.lectures.meetingInfo[i].daysTime.timeSlot.end= "10:45"; break; case 4: course.lectures.meetingInfo[i].daysTime.timeSlot.end = "11:45"; break; case 5: course.lectures.meetingInfo[i].daysTime.timeSlot.end= "12:45"; break; case 6: course.lectures.meetingInfo[i].daysTime.timeSlot.end = "13:45"; break; case 7: course.lectures.meetingInfo[i].daysTime.timeSlot.end = "14:45"; break;case 8: course.lectures.meetingInfo[i].daysTime.timeSlot.end= "15:45"; break; case 9: course.lectures.meetingInfo[i].daysTime.timeSlot.end= "16:45"; break; case 10: course.lectures.meetingInfo[i].daysTime.timeSlot.end= "17:45"; break; case 11: course.lectures.meetingInfo[i].daysTime.timeSlot.end= "18:45"; break; case 12: course.lectures.meetingInfo[i].daysTime.timeSlot.end= "19:45"; break;case 13: course.lectures.meetingInfo[i].daysTime.timeSlot.end= "20:45"; break;case 14: course.lectures.meetingInfo[i].daysTime.timeSlot.end= "21:45"; break;} %>
-                                                                <td class="cell100 column1"><%= course.lectures.meetingInfo[i].daysTime.day %> <%= course.lectures.meetingInfo[i].daysTime.timeSlot.start %>-<%= course.lectures.meetingInfo[i].daysTime.timeSlot.end %></td>
+                                                                <% course.lectures.meetingInfo[i].meetingDates.startDate = [(course.lectures.meetingInfo[i].meetingDates.startDate.getDate()),(course.lectures.meetingInfo[i].meetingDates.startDate.getMonth()+1),course.lectures.meetingInfo[i].meetingDates.startDate.getFullYear()].join('/'); %>
+                                                                <% course.lectures.meetingInfo[i].meetingDates.endDate = [(course.lectures.meetingInfo[i].meetingDates.endDate.getDate()),(course.lectures.meetingInfo[i].meetingDates.endDate.getMonth()+1),course.lectures.meetingInfo[i].meetingDates.endDate.getFullYear()].join('/'); %>
+                                                                <td class="cell100 column1"><%= course.lectures.meetingInfo[i].daysTime.day %> <%= course.lectures.meetingInfo[i].daysTime.timeSlot.start %> - <%= course.lectures.meetingInfo[i].daysTime.timeSlot.end %></td>
                                                                 <td class="cell100 column2"><%= course.lectures.meetingInfo[i].room %></td>
                                                                 <td class="cell100 column3"><%= course.instructor %></td>
                                                                 <td class="cell100 column4"><%= course.lectures.meetingInfo[i].meetingDates.startDate %>-<%= course.lectures.meetingInfo[0].meetingDates.endDate %></td>
@@ -166,11 +168,13 @@
                                                                 <% switch (course.tutorials[i].meetingInfo[0].daysTime.day) { case 0: course.tutorials[i].meetingInfo[0].daysTime.day = "Monday"; break;case 1: course.tutorials[i].meetingInfo[0].daysTime.day = "Tuesday"; break; case 2: course.tutorials[i].meetingInfo[0].daysTime.day= "Wednesday"; break; case 3: course.tutorials[i].meetingInfo[0].daysTime.day = "Thursday"; break; case 4: course.tutorials[i].meetingInfo[0].daysTime.day= "Friday"; break; case 5: course.tutorials[i].meetingInfo[0].daysTime.day = "Saturday"; break; } %>
                                                                 <% switch (course.tutorials[i].meetingInfo[0].daysTime.timeSlot.start) { case 1: course.tutorials[i].meetingInfo[0].daysTime.timeSlot.start = "8:30"; break;case 2: course.tutorials[i].meetingInfo[0].daysTime.timeSlot.start = "9:30"; break; case 3: course.tutorials[i].meetingInfo[0].daysTime.timeSlot.start= "10:30"; break; case 4: course.tutorials[i].meetingInfo[0].daysTime.timeSlot.start = "11:30"; break; case 5: course.tutorials[i].meetingInfo[0].daysTime.timeSlot.start= "12:30"; break; case 6: course.tutorials[i].meetingInfo[0].daysTime.timeSlot.start = "13:30"; break; case 7: course.tutorials[i].meetingInfo[0].daysTime.timeSlot.start = "14:30"; break;case 8: course.tutorials[i].meetingInfo[0].daysTime.timeSlot.start= "15:30"; break; case 9: course.tutorials[i].meetingInfo[0].daysTime.timeSlot.start= "16:30"; break; case 10: course.tutorials[i].meetingInfo[0].daysTime.timeSlot.start= "17:30"; break; case 11: course.tutorials[i].meetingInfo[0].daysTime.timeSlot.start= "18:30"; break; case 12: course.tutorials[i].meetingInfo[0].daysTime.timeSlot.start= "19:30"; break;case 13: course.tutorials[i].meetingInfo[0].daysTime.timeSlot.start= "20:30"; break;case 14: course.tutorials[i].meetingInfo[0].daysTime.timeSlot.start= "21:30"; break;} %>
                                                                 <% switch (course.tutorials[i].meetingInfo[0].daysTime.timeSlot.end) { case 1: course.tutorials[i].meetingInfo[0].daysTime.timeSlot.end = "8:45"; break;case 2: course.tutorials[i].meetingInfo[0].daysTime.timeSlot.end = "9:45"; break; case 3: course.tutorials[i].meetingInfo[0].daysTime.timeSlot.end= "10:45"; break; case 4: course.tutorials[i].meetingInfo[0].daysTime.timeSlot.end = "11:45"; break; case 5: course.tutorials[i].meetingInfo[0].daysTime.timeSlot.end= "12:45"; break; case 6: course.tutorials[i].meetingInfo[0].daysTime.timeSlot.end = "13:45"; break; case 7: course.tutorials[i].meetingInfo[0].daysTime.timeSlot.end = "14:45"; break;case 8: course.tutorials[i].meetingInfo[0].daysTime.timeSlot.end= "15:45"; break; case 9: course.tutorials[i].meetingInfo[0].daysTime.timeSlot.end= "16:45"; break; case 10: course.tutorials[i].meetingInfo[0].daysTime.timeSlot.end= "17:45"; break; case 11: course.tutorials[i].meetingInfo[0].daysTime.timeSlot.end= "18:45"; break; case 12: course.tutorials[i].meetingInfo[0].daysTime.timeSlot.end= "19:45"; break;case 13: course.tutorials[i].meetingInfo[0].daysTime.timeSlot.end= "20:45"; break;case 14: course.tutorials[i].meetingInfo[0].daysTime.timeSlot.end= "21:45"; break;} %>
-                                                                <td class="cell100 column2"><%= course.tutorials[i].meetingInfo[0].daysTime.day %> <%= course.tutorials[i].meetingInfo[0].daysTime.timeSlot.start %>-
+                                                                <% course.tutorials[i].meetingInfo[0].meetingDates.startDate = [(course.tutorials[i].meetingInfo[0].meetingDates.startDate.getDate()),(course.tutorials[i].meetingInfo[0].meetingDates.startDate.getMonth()+1),course.tutorials[i].meetingInfo[0].meetingDates.startDate.getFullYear()].join('/'); %>
+                                                                <% course.tutorials[i].meetingInfo[0].meetingDates.endDate = [(course.tutorials[i].meetingInfo[0].meetingDates.endDate.getDate()),(course.tutorials[i].meetingInfo[0].meetingDates.endDate.getMonth()+1),course.tutorials[i].meetingInfo[0].meetingDates.endDate.getFullYear()].join('/'); %>
+                                                                <td class="cell100 column2"><%= course.tutorials[i].meetingInfo[0].daysTime.day %> <%= course.tutorials[i].meetingInfo[0].daysTime.timeSlot.start %> -
                                                                     <%= course.tutorials[i].meetingInfo[0].daysTime.timeSlot.end %></td>
                                                                 <td class="cell100 column3"><%= course.tutorials[i].meetingInfo[0].room %></td>
                                                                 <td class="cell100 column4"><%= course.instructor %></td>
-                                                                <td class="cell100 column5"><%= course.tutorials[i].meetingInfo[0].meetingDates.startDate %>-
+                                                                <td class="cell100 column5"><%= course.tutorials[i].meetingInfo[0].meetingDates.startDate %> -
                                                                     <%= course.tutorials[i].meetingInfo[0].meetingDates.endDate %></td>
                                                             </tr>
                                                             <% } %>
@@ -207,9 +211,11 @@
                                                                     <% switch (course.labs[i].meetingInfo[0].daysTime.day) { case 0: course.labs[i].meetingInfo[0].daysTime.day = "Monday"; break;case 1: course.labs[i].meetingInfo[0].daysTime.day = "Tuesday"; break; case 2: course.labs[i].meetingInfo[0].daysTime.day= "Wednesday"; break; case 3: course.labs[i].meetingInfo[0].daysTime.day = "Thursday"; break; case 4: course.labs[i].meetingInfo[0].daysTime.day= "Friday"; break; case 5: course.labs[i].meetingInfo[0].daysTime.day = "Saturday"; break; } %>
                                                                     <% switch (course.labs[i].meetingInfo[0].daysTime.timeSlot.start) { case 1: course.labs[i].meetingInfo[0].daysTime.timeSlot.start = "8:30"; break;case 2: course.labs[i].meetingInfo[0].daysTime.timeSlot.start = "9:30"; break; case 3: course.labs[i].meetingInfo[0].daysTime.timeSlot.start= "10:30"; break; case 4: course.labs[i].meetingInfo[0].daysTime.timeSlot.start = "11:30"; break; case 5: course.labs[i].meetingInfo[0].daysTime.timeSlot.start= "12:30"; break; case 6: course.labs[i].meetingInfo[0].daysTime.timeSlot.start = "13:30"; break; case 7: course.labs[i].meetingInfo[0].daysTime.timeSlot.start = "14:30"; break;case 8: course.labs[i].meetingInfo[0].daysTime.timeSlot.start= "15:30"; break; case 9: course.labs[i].meetingInfo[0].daysTime.timeSlot.start= "16:30"; break; case 10: course.labs[i].meetingInfo[0].daysTime.timeSlot.start= "17:30"; break; case 11: course.labs[i].meetingInfo[0].daysTime.timeSlot.start= "18:30"; break; case 12: course.labs[i].meetingInfo[0].daysTime.timeSlot.start= "19:30"; break;case 13: course.labs[i].meetingInfo[0].daysTime.timeSlot.start= "20:30"; break;case 14: course.labs[i].meetingInfo[0].daysTime.timeSlot.start= "21:30"; break;} %>
                                                                     <% switch (course.labs[i].meetingInfo[0].daysTime.timeSlot.end) { case 1: course.labs[i].meetingInfo[0].daysTime.timeSlot.end = "8:45"; break;case 2: course.labs[i].meetingInfo[0].daysTime.timeSlot.end = "9:45"; break; case 3: course.labs[i].meetingInfo[0].daysTime.timeSlot.end= "10:45"; break; case 4: course.labs[i].meetingInfo[0].daysTime.timeSlot.end = "11:45"; break; case 5: course.labs[i].meetingInfo[0].daysTime.timeSlot.end= "12:45"; break; case 6: course.labs[i].meetingInfo[0].daysTime.timeSlot.end = "13:45"; break; case 7: course.labs[i].meetingInfo[0].daysTime.timeSlot.end = "14:45"; break;case 8: course.labs[i].meetingInfo[0].daysTime.timeSlot.end= "15:45"; break; case 9: course.labs[i].meetingInfo[0].daysTime.timeSlot.end= "16:45"; break; case 10: course.labs[i].meetingInfo[0].daysTime.timeSlot.end= "17:45"; break; case 11: course.labs[i].meetingInfo[0].daysTime.timeSlot.end= "18:45"; break; case 12: course.labs[i].meetingInfo[0].daysTime.timeSlot.end= "19:45"; break;case 13: course.labs[i].meetingInfo[0].daysTime.timeSlot.end= "20:45"; break;case 14: course.labs[i].meetingInfo[0].daysTime.timeSlot.end= "21:45"; break;} %>
+                                                                    <% course.labs[i].meetingInfo[0].meetingDates.startDate = [(course.labs[i].meetingInfo[0].meetingDates.startDate.getDate()),(course.labs[i].meetingInfo[0].meetingDates.startDate.getMonth()+1),course.labs[i].meetingInfo[0].meetingDates.startDate.getFullYear()].join('/'); %>
+                                                                    <% course.labs[i].meetingInfo[0].meetingDates.endDate = [(course.labs[i].meetingInfo[0].meetingDates.endDate.getDate()),(course.labs[i].meetingInfo[0].meetingDates.endDate.getMonth()+1),course.labs[i].meetingInfo[0].meetingDates.endDate.getFullYear()].join('/'); %>
                                                                     <td class="cell100 column2">
                                                                         <%= course.labs[i].meetingInfo[0].daysTime.day %>
-                                                                            <%= course.labs[i].meetingInfo[0].daysTime.timeSlot.start %>-
+                                                                            <%= course.labs[i].meetingInfo[0].daysTime.timeSlot.start %> -
                                                                                 <%= course.labs[i].meetingInfo[0].daysTime.timeSlot.end %>
                                                                     </td>
                                                                     <td class="cell100 column3">
@@ -219,7 +225,7 @@
                                                                         <%= course.instructor %>
                                                                     </td>
                                                                     <td class="cell100 column5">
-                                                                        <%= course.labs[i].meetingInfo[0].meetingDates.startDate %>-
+                                                                        <%= course.labs[i].meetingInfo[0].meetingDates.startDate %> -
                                                                             <%= course.labs[i].meetingInfo[0].meetingDates.endDate %>
                                                                     </td>
                                                                 </tr>
@@ -247,6 +253,7 @@
                                     <span class="comments-sort-list">
                                         <span id="courseId" style="display: none;"><%= course._id %></span>
                                         <span>Last Updated: </span>
+                                        <% course.lectures.classAvail.updatedTime = [(course.lectures.classAvail.updatedTime.getDate()),(course.lectures.classAvail.updatedTime.getMonth()+1),course.lectures.classAvail.updatedTime.getFullYear()].join('/')+'  '+[(course.lectures.classAvail.updatedTime.getHours()),(course.lectures.classAvail.updatedTime.getMinutes()),course.lectures.classAvail.updatedTime.getSeconds()].join(':'); %>
                                         <span><%= course.lectures.classAvail.updatedTime %></span>
                                         <% if (sid != undefined){ %>
                                         <button class="btn btn-cute" id="refresh-waitingList">refresh</button>
@@ -318,38 +325,74 @@
                             </section>
                             <section id="Comments">
                                 <div class="courseinfo-border">
-                                    <a href="#respond" class="scroll_cmt_frm scroller">
+                                    <h2>Comments</h2>
+                                    <% if(sid != undefined){ %>
+                                    <a href="#respond" class="scroll_cmt_frm scroller" id="add-comment">
                                         Add Comment
                                     </a>
-                                    <h2>Comments</h2>
+                                    <% } %>
                                 </div>
                                 <div class="comments_border">
                                     <div class="comments-list">
                                         <% for(var i=0; i < course.comments.length; i++){ %>
                                         <div class="thread" id=<%= course.comments[i].author %>>
-                                            <div class="comment-item">
-                                                <% if(sid == course.comments[i].author){ %><% } %>
-                                                    <h3>My Comment</h3>
+                                            <span class="comment-form edit-form">
+                                                <p class="comment-form-comment">
+                                                    <input id="comment-id" value=<%= course.comments[i]._id %> style="display: none;">
+                                                    <textarea id="edit-comment" name="text" col="60" row="8" required></textarea>
+                                                </p>
+                                                <p>
+                                                    <span class="rating">
+                                                        <span>Rating: </span>
+                                                        <input id="rating5" type="radio" name="rating" value="5">
+                                                        <label for="rating5">5</label>
+                                                        <input id="rating4" type="radio" name="rating" value="4">
+                                                        <label for="rating4">4</label>
+                                                        <input id="rating3" type="radio" name="rating" value="3" checked>
+                                                        <label for="rating3">3</label>
+                                                        <input id="rating2" type="radio" name="rating" value="2">
+                                                        <label for="rating2">2</label>
+                                                        <input id="rating1" type="radio" name="rating" value="1">
+                                                        <label for="rating1">1</label>
+                                                        <input id="edit-rating" style="display: none;" value="3">
+                                                    </span>
+                                                </p>
+                                                <p class="comment-submit">
+                                                    <input name="submit" type="submit" id="edit-submit" class="submit" value="Edit a Comment">
+                                                </p>
+                                            </span>
+                                            <div class="comment-item former">
+                                                <% if(sid == course.comments[i].author){ %>
+                                                    <% var commented = '1'; %>
+                                                    <span>My Comment</span>
                                                     <span class="comment-submit">
+                                                        <input id="AuthorId" value=<%= course.comments[i].author %> style="display: none;">
                                                         <input id="CommentId" value=<%= course.comments[i]._id %> style="display: none;">
                                                         <input name="edit" type="submit" id="edit" class="edit" value="Edit">
                                                     </span>
                                                     <span class="comment-submit">
                                                         <input name="Delete" type="submit" id="Delete" class="Delete" value="Delete">
                                                     </span>
-                                                <div class="comment-conten"><%= course.comments[i].text %></div>
+                                                <% } %>
+                                                <div class="comment-content"><%= course.comments[i].text %></div>
                                                 <div class="comment-mode">
                                                     <div class="comment-control">
-                                                        <span><%= course.comments[i].semester %></span>
-                                                        <div class="separator"> ● </div>
+                                                        <span>Rating: </span>
                                                         <span>
                                                             <%= course.comments[i].rating %>
+                                                        </span>
+                                                        <div class="separator"> ● </div>
+                                                        <span>
+                                                            <%= course.comments[i].semester %>
+                                                        </span>
+                                                        <div class="separator"> ● </div>
+                                                        <span>Section: </span>
+                                                        <span class="comment-section">
+                                                            <%= course.comments[i].sectionCode %>
                                                         </span>
                                                     </div>
                                                     <div class="time-section">
                                                         <span class="comment-time"><%= course.comments[i].time %></span>
-                                                        <div class="separator"> ● </div>
-                                                        <span class="comment-section"><%= course.comments[i].courseCode %></span>
                                                     </div>
                                                 </div>
                                             </div>
@@ -358,10 +401,11 @@
                                     </div>
                                 </div>
                             </section>
+                            <% if(sid != undefined && commented != 1){ %>
                             <section id="respond" class="comment-respond">
                                 <h2 class="comment-reply-title">Leave a Comment</h2>
                                 <span class="comment-form">
-                                    <label>Your comment * For users who have logged in and taken <%= course.courseCode %></label>
+                                    <label>Your comment * For users who have taken <%= course.courseCode %></label>
                                     <p class="comment-form-comment">
                                         <input name="courseId" value=<%= course._id %> style="display: none;"></input>
                                         <textarea id="write-comment" name="text" col="60" row="8" required></textarea>
@@ -387,6 +431,7 @@
                                     </p>
                                 </span>
                             </section>
+                            <% } %>
                         </div>
                         <aside class="col-md-3">
                             <div class="info-nav scrollable">

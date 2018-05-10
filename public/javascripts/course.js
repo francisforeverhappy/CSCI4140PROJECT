@@ -1,6 +1,7 @@
-//log url
-var url = document.URL;
-console.log(url);
+//hide "add comment"
+if($('#respond').length==0){
+    $('#add-comment').attr('hidden',true);
+}
 
 // aside nav function
 $('#nav-details,#nav-meeting,#nav-enrollment,#nav-availablity,#nav-comments').on('click',function(e){
@@ -12,21 +13,6 @@ $('#nav-details,#nav-meeting,#nav-enrollment,#nav-availablity,#nav-comments').on
     $('#nav-comments').parent().removeClass('red_sign');
     $(this).parent().addClass('red_sign');
 });
-
-//comments top or recent
-// function sortcomments($data,$status){
-//     if($status!='200'){
-//         console.log("failure");
-//     }
-//     else{
-
-//     }
-// }
-// $(".comments-sort-list").children().on('click', function (e) {
-//     $(this).siblings().removeClass("selected");
-//     $(this).addClass("selected");
-//     $.get($(this).attr('title'),sortcomments);
-// });
 
 // refresh waiting list
 $('#refresh-waitingList').on("click", function () {
@@ -40,7 +26,12 @@ $('#refresh-waitingList').on("click", function () {
             type: 'POST',
             success: function (result) {
                 // receive data
-                console.log(result);
+                if (result.success == "false") {
+                    alert(result.error);
+                }
+                else {
+                    location.reload();
+                }
             }
         });
     } else {
@@ -80,12 +71,21 @@ $('#submit').on("click", function () {
         alert("Comments cannot be empty! Thanks.");
     }
 });
-//Edit comment
+var previous_text;
+//Edit
 $('#edit').on("click", function () {
-    var commentId = $('#CommentId').val();
-    var text = 'Hello! RZli';
+    //console.log($('#CommentId').val());
+    var authorId = $('#AuthorId').val();
+    previous_text = $('#' + authorId).children('.former').children('.comment-content').text();
+    $('#'+authorId).children('.former').remove();
+    $('#' + authorId).children('.edit-form').css("display","block");
+});
+//Edit submit comment
+$('#edit-submit').on("click", function () {
+    var commentId = $('#comment-id').val();
+    var text = $('#edit-comment').val();
     var rating = $('#rating').val();
-    console.log(text);
+    //console.log(commentId);
     if (text != '') {
         $.ajax({
             contentType: 'application/json',
