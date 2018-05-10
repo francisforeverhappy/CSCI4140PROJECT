@@ -34,7 +34,7 @@ router.post('/login', (req, res, next) => {
             req.session.sid = sid;
             req.session.pwd = encryptedPwd;
             console.log('login success');
-            return res.redirect('back');        
+            return res.send({success: true});    
         } else {
             console.log('login fail');
             return res.send({success: false})

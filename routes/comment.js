@@ -11,12 +11,12 @@ const Course = require('../models/course'),
 
 // comment
 let turn = 0;
-router.post('/create', middleware.asyncMiddleware(async (req, res) => {
+router.post('/create', middleware.checkLogin, middleware.asyncMiddleware(async (req, res) => {
     console.log('get /comment/create')
     let courseId = req.body.courseId,
         text = req.body.text,
         rating = req.body.rating,
-        sid = '115507699' + turn;
+        sid = req.session.sid;
     turn++;
     if (!rating) {
         console.log('rating is required');
@@ -39,60 +39,81 @@ router.post('/create', middleware.asyncMiddleware(async (req, res) => {
         rating: rating, 
         author: sid
     });
-    // console.log(newComment);
     newComment.save();
 
-    Course.find({courseCode: course.courseCode, semester: course.semester}, (err, courses) => {
+    Course.find({courseCode: course.courseCode}, (err, courses) => {
         let newNumRating = courses[0].numRating + 1;
-        console.log("newNumRating " + newNumRating);
         let newAvgRating = (courses[0].avgRating * courses[0].numRating + Number(rating)) / newNumRating;
-        console.log("newAvgRating:" + newAvgRating);
         courses.forEach((course) => {
             course.numRating = newNumRating;
             course.avgRating = newAvgRating;
             course.save()
         });
-        // console.log(courses[0].avgRating);
-        // console.log(courses[0].numRating);
         console.log('success');
         res.redirect('back');
     });
 }));
 
-router.post('/edit', middleware.checkLogin, (req, res) => {
-    let commentId = req.body.key,
+router.post('/edit', (req, res) => {
+    let commentId = req.body.commentId,
         text = req.body.text,
         rating = req.body.rating;
-    
-    Comment.findByIdAndUpdate(commentId, {time: new Date().toISOString(), text: text, rating: rating}, {new: true}, (err, doc, res) => {
+    console.log('post /comment/edit');
+    if (!rating) {
+        console.log('edit fail');
+        return res.send({success: false});
+    }
+    Comment.findByIdAndUpdate(commentId, {time: new Date().toISOString(), text: text, rating: rating}, {new: false}, (err, comment, resp) => {
         if (err) {
             console.log(err.message);
             return res.send({success: false});
         }
-        console.log(doc);
-    });
-
-    Course.find({courseCode: course.courseCode, semester: course.semester}, (err, courses) => {
-        let newNumRating = courses[0].numRating + 1;
-        let newAvgRating = (courses[0].avgRating * courses[0].numRating + rating) / newNumRating;
-        courses.forEach((course) => {
-            course.numRating = newNumRating;
-            course.avgRating = newAvgRating;
-            course.save();
+        if (!comment) {
+            res.send({success:false});
+            return console.log()
+        }
+        let oldRating = comment.rating;
+        Course.find({courseCode: comment.courseCode}, (err, courses) => {
+            let numRating = courses[0].numRating;
+            let newAvgRating = (courses[0].avgRating * numRating - Number(oldRating) + Number(rating)) / Number(numRating);
+            courses.forEach((course) => {
+                course.avgRating = newAvgRating;
+                course.save();
+            });
+            res.redirect('back');
         });
-        res.redirect('back');
     });
 });
 
-router.post('/delete', middleware.checkLogin, (req, res) => {
-    let commentId = req.body.key;
-    Comment.findByIdAndRemove(commentId, (err, res) => {
+router.post('/delete', (req, res) => {
+    let commentId = req.body.commentId;
+    console.log('post /comment/delete');
+
+    Comment.findById(commentId, (err, comment) => {
         if (err) {
             console.log(err.message);
             return res.send({success: false});
         }
-        console.log(res);
-        return res.send({success: true});
+        if (!comment) {
+            res.send({success: false});
+            return console.log('no this comment');
+        }
+        let oldRating = comment.rating;
+        Course.find({courseCode: comment.courseCode}, (err, courses) => {
+            let newNumRating = courses[0].numRating - 1;
+            let newAvgRating = null;
+            if (Number(newNumRating) > 0) {
+                newAvgRating = (courses[0].avgRating * courses[0].numRating - Number(oldRating)) / Number(newNumRating);
+            }
+            courses.forEach((course) => {
+                course.numRating = newNumRating;
+                course.avgRating = newAvgRating;
+                course.save();
+            });
+            comment.remove();
+            console.log('done');
+            res.redirect('back');
+        });
     }); 
 });
 

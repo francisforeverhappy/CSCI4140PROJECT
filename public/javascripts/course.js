@@ -55,7 +55,7 @@ $('#rating1,#rating2,#rating3,#rating4,#rating5').on('click',function(){
     $('#rating').val($(this).val());
 });
 
-//submit comments
+//submit comment
 $('#submit').on("click", function () {
     var courseId = $('#courseId').text();
     var text = $('#write-comment').val();
@@ -78,6 +78,51 @@ $('#submit').on("click", function () {
             }
         });
     } else {
-        alert("Comments cannot be empty! Thanks.")
+        alert("Comments cannot be empty! Thanks.");
     }
+});
+//Edit comment
+$('#edit').on("click", function () {
+    var commentId = $('#CommentId').val();
+    var text = 'Hello! RZli';
+    var rating = $('#rating').val();
+    console.log(text);
+    if (text != '') {
+        $.ajax({
+            contentType: 'application/json',
+            data: JSON.stringify({ "commentId": commentId, "text": text, "rating": rating }),
+            url: '/comment/edit',
+            type: 'POST',
+            success: function (result) {
+                // receive data
+                if (result.success == "false") {
+                    alert(result.error);
+                }
+                else {
+                    location.reload();
+                }
+            }
+        });
+    } else {
+        alert("Comments cannot be empty! Thanks.");
+    }
+});
+//Delete comment
+$('#Delete').on("click", function () {
+    var commentId = $('#CommentId').val();
+    $.ajax({
+        contentType: 'application/json',
+        data: JSON.stringify({ "commentId": commentId }),
+        url: '/comment/delete',
+        type: 'POST',
+        success: function (result) {
+            // receive data
+            if (result.success == "false") {
+                alert(result.error);
+            }
+            else {
+                location.reload();
+            }
+        }
+    });
 });
