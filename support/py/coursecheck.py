@@ -8,12 +8,13 @@ import urllib3
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 def browse_history(coursecode):
-    URL = "https://cusis.cuhk.edu.hk/psp/csprd/EMPLOYEE/HRMS/c/SA_LEARNER_SERVICES_2.SSS_MY_CRSEHIST.GBL"
+    URL = "https://cusis.cuhk.edu.hk/psc/csprd/EMPLOYEE/HRMS/c/SA_LEARNER_SERVICES_2.SSS_MY_CRSEHIST.GBL"
     payload = {
         'ICType':'Panel',
     }
     r = cusis.session.post(URL,data=payload)
     l = re.findall(r"<span  class='PSEDITBOX_DISPONLY' >([A-Z]+ [0-9]+)</span>",r.text)
+    l = [x.replace(" ","") for x in l]
     if coursecode in l:
         print (True)
     else:
