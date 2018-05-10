@@ -240,17 +240,57 @@
                                 <p><%= course.enrollmentInfo %></p>
                             </section>
                             <section id="AvailablityInfo">
-                                <h2 class="courseinfo-border">Class Availablity</h2>
+                                <div class="courseinfo-border">
+                                    <span class="h2-span">Class Availablity</span>
+                                    <span class="comments-sort-list">
+                                        <span id="courseId" style="display: none;"><%= course._id %></span>
+                                        <span>Last Updated: </span>
+                                        <span><%= course.lectures.classAvail.updatedTime %></span>
+                                        <button class="btn btn-cute" id="refresh-waitingList">refresh</button>
+                                    </span>
+                                </div>
                                 <h3>Lectures</h3>
                                 <p>
                                     <%= course.lectures.classAvail %>
                                 </p>
+                                <div class="row">
+                                    <div class="col-sm-4">
+                                        <h4 class="courseinfo-border">Quota</h4>
+                                        <span>
+                                            <%= course.lectures.classAvail.enrollTotal %> /
+                                                <%= course.lectures.classAvail.classCapacity %>
+                                        </span>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <h4 class="courseinfo-border">Waiting List</h4>
+                                        <span>
+                                            <%= course.lectures.classAvail.waitListTotal %> /
+                                                <%= course.lectures.classAvail.waitListCapacity %>
+                                        </span>
+                                    </div>
+                                </div>
                                 <% if(course.tutorials.length>0){ %>
                                 <h3>Tutorials</h3>
                                 <% for(var i=0;i<course.tutorials.length;i++){ %>
                                 <p>
                                     <%= course.tutorials[i].classAvail %>
                                 </p>
+                                <div class="row">
+                                    <div class="col-sm-4">
+                                        <h4 class="courseinfo-border">Quota</h4>
+                                        <span>
+                                            <%= course.tutorials[i].classAvail.enrollTotal %> /
+                                                <%= course.tutorials[i].classAvail.classCapacity %>
+                                        </span>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <h4 class="courseinfo-border">Waiting List</h4>
+                                        <span>
+                                            <%= course.tutorials[i].classAvail.waitListTotal %> /
+                                                <%= course.tutorials[i].classAvail.waitListCapacity %>
+                                        </span>
+                                    </div>
+                                </div>
                                 <% } %>
                                 <% } %>
                                 <% if(course.labs.length>0){ %>
@@ -259,16 +299,31 @@
                                         <p>
                                             <%= course.labs[i].classAvail %>
                                         </p>
+                                        <div class="row">
+                                            <div class="col-sm-4">
+                                                <h4 class="courseinfo-border">Quota</h4>
+                                                <span>
+                                                    <%= course.labs[i].classAvail.enrollTotal %> /
+                                                        <%= course.labs[i].classAvail.classCapacity %>
+                                                </span>
+                                            </div>
+                                            <div class="col-sm-4">
+                                                <h4 class="courseinfo-border">Waiting List</h4>
+                                                <span>
+                                                    <%= course.labs[i].classAvail.waitListTotal %> /
+                                                        <%= course.labs[i].classAvail.waitListCapacity %>
+                                                </span>
+                                            </div>
+                                        </div>
                                     <% } %>
                                 <% } %>
                             </section>
                             <section id="Comments">
                                 <div class="courseinfo-border">
-                                    <span class="h2-span">Comments</span>
-                                    <span class="comments-sort-list">
-                                        <a data-value="1" class="selected" title="Top" href="javascript:void(0);">Top</a>
-                                        <a data-value="2" title="Recent" href="javascript:void(0);">Recent</a>
-                                    </span>
+                                    <a href="#respond" class="scroll_cmt_frm scroller">
+                                        Add Comment
+                                    </a>
+                                    <h2>Comments</h2>
                                 </div>
                                 <div class="comments_border">
                                     <div class="comments-list">

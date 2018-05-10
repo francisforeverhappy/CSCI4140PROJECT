@@ -186,7 +186,10 @@ table.altrowstable td {
 }  
 .evenrowcolor{  
     background-color:#0aa0f7;  
-} 
+}
+
+/* Enrollment Info */
+
 
 /* comments */
 .comments_border{
@@ -206,9 +209,10 @@ table.altrowstable td {
     text-shadow : rgba(255,255,255,0.5) 0 5px 6px, rgba(255,255,255,0.2) 1px 3px 3px;
 }
 .comments-sort-list{
-    padding-top:20px;
+    padding-top:5px;
     position: absolute;
     right:20px;
+    padding-bottom:5px;
 }
 .comments-sort-list a{
     margin-left: 10px;
@@ -274,4 +278,9 @@ table.altrowstable td {
     float:right;
     text-align: right;
     right:0;
+}
+.comments_border .scroll_cmt_frm{
+    float: right;
+    right:10px;
+    margin-top: -20px;
 }
