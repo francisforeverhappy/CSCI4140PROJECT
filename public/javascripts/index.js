@@ -117,7 +117,6 @@ function optClassSelectHandler(e){
 
 // add optional class item
 function addOptClassItem(code, name, id, gid, type, venue, day, timeslot){
-	console.log(gid);
 	if(timeslot.start != null && timeslot.end != null){
 		var tmpl = $('#class-item-tmpl').contents().clone();
 		$(tmpl).attr("data-id", id);
@@ -365,7 +364,10 @@ $("#login-btn").on("click", function(){
 		data: JSON.stringify({"sid": sid, "pwd": pwd}),
 		success: function(result) {
 			// receive data
-		  if(!result.success){
+			console.log(result);
+		  if(result.success){
+		  	window.location.reload();
+		  }else{
 		  	$("#login-warning").show().delay(5000).fadeOut();
 		  }
 		}
