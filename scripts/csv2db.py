@@ -60,7 +60,7 @@ def main():
 
 		for index, df in dataframe.iterrows():
 			[day, start, end] = period2daytime(df['Period'])
-			
+
 			if str(df['Course Component']).strip() == 'nan':
 				section["meetingInfo"].append({
 					"daysTime": {
@@ -85,12 +85,12 @@ def main():
 					course['tutorials'].append(section_id)
 				elif section['courseComponent'] == 'LAB':
 					course['labs'].append(section_id)
-				
+
 				if str(df['Section Code']) == 'nan':
 					df['Section Code'] = None
 				elif df['Section Code'] != '' and df['Section Code'][0] == '-':
 					df['Section Code'] = df['Section Code'][1:]
-			
+
 				section = {
 					"courseCode": classcode,
 					"semester": addinforow['semester'],
@@ -141,7 +141,7 @@ def main():
 				print(e)
 			if df['Section Code'] == '-':
 				df['Section Code'] = ''
-			
+
 			df['Teaching Staff'] = ', '.join(df["Teaching Staff"][2:].split(' - '))
 			course = {
 				"courseCode": classcode,
@@ -165,7 +165,7 @@ def main():
 				"tutorials" : [],
 				"labs" : []
 			}
-			
+
 			if str(df['Section Code']) == 'nan':
 				df['Section Code'] = None
 			elif df['Section Code'] != '' and df['Section Code'][0] == '-':
@@ -197,8 +197,8 @@ def main():
 					"classCapacity": int(df['Quota(s)']),
 					"enrollTotal": int(df['Quota(s)']) - int(df['Vacancy']),
 					"availSeats": int(df['Vacancy']),
-					"waitListCapacity": int(addinforow['wltotal']),
-					"waitListTotal": int(addinforow['wlnow']),
+					"waitListCapacity": int(addinforow['wlnow']),
+					"waitListTotal": int(addinforow['wltotal']),
 					"updatedTime": datetime.datetime.utcnow()
 				}
 			}
