@@ -68,8 +68,8 @@ function optClassHandler(e){
 			for(var i in selectedCourse[id].course.labs){
 				if(i != selectedCourse[id].select.LAB){
 					for(var j in selectedCourse[id].course.labs[i].meetingInfo){
-				  	var daysTime = selectedCourse[id].course.labs[i].meetingInfo[j].daysTime;
-				  	var venue = selectedCourse[id].course.labs[i].meetingInfo[j].room;
+				  	var daysTime = selectedCourse[id].course.labs[i].meetingInfo[j][0].daysTime;
+				  	var venue = selectedCourse[id].course.labs[i].meetingInfo[j][0].room;
 					  addOptClassItem(courseCode, courseName, id, i, "LAB", venue, daysTime.day, daysTime.timeSlot);
 					}
 				}
