@@ -9,9 +9,47 @@ const Course = require('../models/course'),
     support = require('../support/js/support');
 
 // login needed
-router.get('/getWait', middleware.checkLogin, middleware.asyncMiddleware(async (req, res) => {
+router.post('/getWait', middleware.checkLogin, middleware.asyncMiddleware(async (req, res) => {
     console.log('get /getWait');
-    // TBI
+    let sid = req.session.sid,
+        pwd = support.decrypt(sid, req.session.pwd);
+    const semDir = {
+        '2017-18 Term 1': 1,
+        '2017-18 Term 2': 2
+    };
+    let course = await Course.findById(req.body.courseId);
+    let term = semDir[course.semester]
+    let pythonProcess = spawn('python', ['support/py/getWait.py', sid, pwd, term, course.courseCode]);
+    pythonProcess.stdout.on('data', async (data) => {
+        let obj = JSON.parse(data.toString());
+        console.log(nd);
+        console.log(obj);        
+        let sections = await Promise.all(obj.map((section) => { 
+            let conditions = {
+                'courseCode': section['courseCode'], 
+                'sectionCode': section['sectionCode']
+            };
+            let update = {
+                $set: {
+                    'classAvail.availSeats': section['availSeats'], 
+                    'classAvail.enrollTotal': section['enrollTotal'], 
+                    'classAvail.availSeats': section['availSeats'], 
+                    'classAvail.waitListTotal': section['waitListTotal'],
+                    'classAvail.updatedTime': new Date().toISOString()
+                }
+            };
+            let options = {
+                new: true
+            };
+            return Section.findOneAndUpdate(conditions, update, options);
+        }));
+        console.log(sections);
+        [course.lectures, course.tutorials, course.labs] = await Promise.all([Section.findById(lec_id).lean(),
+            Section.find({'_id': {$in: course.tutorials}}).lean(),
+            Section.find({'_id': {$in: course.labs}}).lean()
+        ]);
+        return res.send({sid: req.session.sid, course: course});
+    });
 }));
 
 router.get('/import', middleware.checkLogin, middleware.asyncMiddleware(async (req, res) => {

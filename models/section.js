@@ -12,6 +12,8 @@ var sectionSchema = mongoose.Schema({
     // different info
     courseNumber: Number, // unique
     courseComponent: String,
+    courseCode: String,
+    sectionCode: String,
     meetingInfo: [{
         daysTime: {
             day: Number,

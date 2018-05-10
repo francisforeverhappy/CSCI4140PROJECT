@@ -3,7 +3,8 @@ import re,os,sys
 from bs4 import BeautifulSoup
 from io import StringIO, BytesIO
 from time import strftime
-
+import urllib3
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 def browse_panel():
     URL = "https://cusis.cuhk.edu.hk/psc/csprd/EMPLOYEE/HRMS/c/SA_LEARNER_SERVICES.SSR_SSENRL_LIST.GBL"
@@ -33,7 +34,8 @@ def printlist():
     i = 0
     new_entry = True
     code_list = []
-    for entry in course_info:
+
+    for entry in course_info:        
         l = re.findall(r"(?:<span  class=.+?>(.+?)</span>|<td align='CENTER'  class='PSLEVEL3GRIDROW' >(.+?)</td>)", entry, re.DOTALL)
         flat_list = [item for sublist in l for item in sublist]
         item = [x for x in filter(None, flat_list)]
@@ -44,9 +46,11 @@ def printlist():
             for i in range(len(item)//7):
                 if item[7*i] != "&nbsp;":
                     code_list.append(item[7*i])
+    
                 for col in item[7*i : 7*(i+1)]:
                     if col == "&nbsp;":
                         col = ""
+    print(', '.join(course_name))
     print (','.join(code_list))
 
 

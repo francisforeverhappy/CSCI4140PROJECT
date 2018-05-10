@@ -96,33 +96,6 @@ def dumplist(tofile):
                             col = ""
                         f.write("<td>" + col + "</td>\n")
 
-
-    # with open(tofile,'wb') as f:
-
-    #   for chunk in r.iter_content():
-    #       f.write(chunk)
-    #   print 'Course lists are in', tofile, 'now.'
-    # else:
-    #   print '[Err] The redirect URL could not be found in html code.'
-    #   exit(0)
-    # r = cusis.session.get(redirectURL)
-    # if r.ok:
-    #   with open(tofile,'wb') as f:
-    #       for chunk in r.iter_content():
-    #           f.write(chunk)
-    #       print 'Course lists are in', tofile, 'now.'
-    # else:
-    #   print '[Err] Download link error.'
-
-    # if r.ok:
-    #   with open(tofile,'wb') as f:
-    #       for chunk in r.iter_content():
-    #           f.write(chunk)
-    #       print 'Course lists are in', tofile, 'now.'
-    # else:
-    #   print '[Err] Download link error.'
-
-
 def main():
     browse_panel()
     browse_scheduler()

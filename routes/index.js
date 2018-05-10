@@ -15,15 +15,8 @@ router.get('/', (req, res) => {
 
 
 router.get('/test', middleware.asyncMiddleware(async (req, res) => {
-    let courses = await Course.find({'tutorials.1': {'$exists': true}});
-    let tutIds = [];
-    courses.forEach(async (course) => {
-        let section = await Section.findOne({'_id':  course.tutorials[0], 'courseComponent': 'TUT', 'meetingInfo.1': {'$exists': true}});    
-        if (section != undefined) {
-            console.log(course.courseCode);
-        }
-    });
-    console.log('done');
+    let section = await Section.findOne({});    
+    console.log(section);
 }));
 
 

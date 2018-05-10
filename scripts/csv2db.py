@@ -57,6 +57,7 @@ def main():
 		section_id, course_id, section, course, addinforow = None, None, None, None, None
 		classcode = 0
 		coursenbr = -1
+
 		for index, df in dataframe.iterrows():
 			[day, start, end] = period2daytime(df['Period'])
 			
@@ -86,6 +87,7 @@ def main():
 					course['labs'].append(section_id)
 				section = {
 					"courseCode": classcode,
+					"sectionCode": df['Section Code'],
 					"courseComponent": df['Course Component'],
 					"status": "open",
 					"meetingInfo": [
@@ -158,6 +160,7 @@ def main():
 			}
 			section = {
 				"courseCode": classcode,
+				"sectionCode": df['Section Code'],
 				"courseComponent": df['Course Component'],
 				"status": addinforow['status'],
 
