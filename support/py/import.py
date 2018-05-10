@@ -11,15 +11,19 @@ def browse_panel():
     URL = "https://cusis.cuhk.edu.hk/psc/csprd/EMPLOYEE/HRMS/c/SA_LEARNER_SERVICES.SSR_SSENRL_LIST.GBL"
     payload = {'ICType':'Panel'}
     r = cusis.session.post(URL, data=payload)
-    return r.status_code
+    texts = r.text.split("2017-18 Term 2")
+    l = re.findall("radio", texts[0])
+    index = len(l) - 1
+
+    return index
 
 
-def browse_scheduler():
+def browse_scheduler(index):
     URL = "https://cusis.cuhk.edu.hk/psc/csprd/EMPLOYEE/HRMS/c/SA_LEARNER_SERVICES.SSR_SSENRL_LIST.GBL"
     payload = {
         'ICType':'Panel',
         'ICAction':'DERIVED_SSS_SCT_SSR_PB_GO',
-        'SSR_DUMMY_RECV1$sels$0' : '0'
+        'SSR_DUMMY_RECV1$sels$0' : str(index)
     }
     r = cusis.session.post(URL,data=payload)
     #print r.text
@@ -51,7 +55,7 @@ def printlist():
         else:
             print(',', end='')
         # print("{", end='')
-        if i % 2 == 0: 
+        if i % 2 == 0:
             print("{", end='')
             courseCode = ''.join(course_name[i].split(' ')[0:2])
             print('"courseCode": "' + courseCode, end='"')
@@ -65,7 +69,7 @@ def printlist():
         print('"info":[', end='')
         for i in range(len(item)//7):
             if item[7*i] != "&nbsp;":
-                if not firstTime: 
+                if not firstTime:
                     print(',', end='')
                 else:
                     firstTime = False
@@ -79,8 +83,8 @@ def printlist():
     print(']', end='')
 
 def main():
-    browse_panel()
-    browse_scheduler()
+    index = browse_panel()
+    browse_scheduler(index)
     printlist()
 
 if __name__ == '__main__':

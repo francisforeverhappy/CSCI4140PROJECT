@@ -95,7 +95,6 @@
                                                     <%= course.sectionCode %>
                                                 </p>
                                                 <% } %>
-                                                <% console.log(course) %>
                                             </div>
                                         </div>    
                                     </div>
@@ -241,7 +240,9 @@
                                         <span id="courseId" style="display: none;"><%= course._id %></span>
                                         <span>Last Updated: </span>
                                         <span><%= course.lectures.classAvail.updatedTime %></span>
+                                        <% if (sid != undefined){ %>
                                         <button class="btn btn-cute" id="refresh-waitingList">refresh</button>
+                                        <% } %>
                                     </span>
                                 </div>
                                 <h3>Lectures</h3>
@@ -339,7 +340,7 @@
                                 <form action="/comment/create" method="post" id="commentform" class="comment-form" novalidate>
                                     <label>Your comment * For users who have logged in and taken <%= course.courseCode %></label>
                                     <p class="comment-form-comment">
-                                        <span name="courseId" value=<%= course._id %>></span>
+                                        <input name="courseId" value=<%= course._id %> style="display: none;"></input>
                                         <textarea id="write-comment" name="text" col="60" row="8" required></textarea>
                                     </p>
                                     <p>
@@ -349,12 +350,13 @@
                                             <label for="rating5">5</label>
                                             <input id="rating4" type="radio" name="rating" value="4">
                                             <label for="rating4">4</label>
-                                            <input id="rating3" type="radio" name="rating" value="3">
+                                            <input id="rating3" type="radio" name="rating" value="3" checked>
                                             <label for="rating3">3</label>
-                                            <input id="rating2" type="radio" name="rating" value="2" checked>
+                                            <input id="rating2" type="radio" name="rating" value="2">
                                             <label for="rating2">2</label>
                                             <input id="rating1" type="radio" name="rating" value="1">
                                             <label for="rating1">1</label>
+                                            <input id="rating" name="rating" value="3">
                                         </span>
                                     </p>
                                     <p class="comment-submit">
