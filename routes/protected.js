@@ -9,14 +9,15 @@ const Course = require('../models/course'),
     support = require('../support/js/support');
 
 // login needed
-router.post('/getWait', middleware.checkLogin, middleware.asyncMiddleware(async (req, res) => {
+router.post('/getWait', middleware.asyncMiddleware(async (req, res) => {
     console.log('get /getWait');
-    let sid = req.session.sid,
-        pwd = support.decrypt(sid, req.session.pwd);
+    // let sid = req.session.sid,
+    //     pwd = support.decrypt(sid, req.session.pwd);
     const semDir = {
         '2017-18 Term 1': 1,
         '2017-18 Term 2': 2
     };
+
     let course = await Course.findById(req.body.courseId);
     let term = semDir[course.semester]
     let pythonProcess = spawn('python', ['support/py/getWait.py', sid, pwd, term, course.courseCode]);
@@ -36,11 +37,14 @@ router.post('/getWait', middleware.checkLogin, middleware.asyncMiddleware(async 
                     'classAvail.updatedTime': new Date().toISOString()
                 }
             };
+    
             let options = {
                 new: true
             };
+    
             return Section.findOneAndUpdate(conditions, update, options);
         }));
+    
         [course.lectures, course.tutorials, course.labs] = await Promise.all([Section.findById(lec_id).lean(),
             Section.find({'_id': {$in: course.tutorials}}).lean(),
             Section.find({'_id': {$in: course.labs}}).lean()
@@ -60,9 +64,13 @@ router.get('/import', middleware.checkLogin, middleware.asyncMiddleware(async (r
 
     pythonProcess.stdout.on('data', async (data) => {
         let courseArray = JSON.parse(data.toString());
+        console.log('courseArray');
+        console.log(courseArray);
         let courses = courseArray.map(async (courseInfo) => {
             let courseCode = courseInfo['courseCode'];
             let course = await Course.findOne({courseCode: courseCode, semester: semester}).lean();
+            // console.log('course');
+            // console.log(course);
             let lectures = null;
             let tutorials = [];
             let labs = [];
@@ -77,15 +85,19 @@ router.get('/import', middleware.checkLogin, middleware.asyncMiddleware(async (r
                     labs.push(Section.findOne({_id: {$in: course.labs}, sectionCode: courseInfo['LAB']}));
                 }
             });
-            course.lectures = lectures;
-            course.tutorials = Promise.all(tutorials);
-            course.labs = Promise.all(labs);
+            course.lecture = await lectures;
+            course.tutorials = await Promise.all(tutorials);
+            course.labs = await Promise.all(labs);
             return course;
         }); 
-        courses = await Promise.all(courses);
+        courses = await Promise.all(courses).catch((error)=> {
+            console.log(error.message);
+        });
+        courses.forEach((course) => {
+            console.log(course.courseCode);
+        });
         return res.send({sid: req.session.sid, courses: courses});
     });
-    // TBI
 }));
 
 module.exports = router;
