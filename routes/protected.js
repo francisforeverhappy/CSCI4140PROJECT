@@ -11,10 +11,10 @@ const Course = require('../models/course'),
     support = require('../support/js/support');
 
 // login needed
-router.post('/getWait', middleware.asyncMiddleware(async (req, res) => {
+router.post('/getWait', middleware.checkLogin, middleware.asyncMiddleware(async (req, res) => {
     console.log('get /getWait');
-    // let sid = req.session.sid,
-    //     pwd = support.decrypt(sid, req.session.pwd);
+    let sid = req.session.sid,
+        pwd = support.decrypt(sid, req.session.pwd);
     const semDir = {
         '2017-18 Term 1': 1,
         '2017-18 Term 2': 2
@@ -22,7 +22,7 @@ router.post('/getWait', middleware.asyncMiddleware(async (req, res) => {
 
     let course = await Course.findById(req.body.courseId);
     let term = semDir[course.semester]
-    let pythonProcess = spawn('python', ['support/py/getWait.py', '1155076990', 'zxcv$4321', term, course.courseCode]);
+    let pythonProcess = spawn('python', ['support/py/getWait.py', sid, pwd, term, course.courseCode]);
     pythonProcess.stdout.on('data', async (data) => {
         // console.log(data.toString())
         let obj = JSON.parse(data.toString());
