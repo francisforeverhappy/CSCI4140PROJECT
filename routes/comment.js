@@ -10,18 +10,22 @@ const Course = require('../models/course'),
     support = require('../support/js/support');
 
 // comment
-router.post('/create', middleware.checkLogin, middleware.asyncMiddleware(async (req, res) => {
+router.post('/create', middleware.asyncMiddleware(async (req, res) => {
+    console.log('get /comment/create')
     let courseId = req.body.courseId,
         text = req.body.text,
         rating = req.body.rating,
-        sid = req.session.sid;
+        sid = '1155076990';
+    console.log(rating);
+    console.log(text);
     if (!rating) {
         console.log('rating is required');
         return res.send({success: false, error: "rating is null"});
     }
     let course = await Course.findById(courseId);
-    let oldComment = await Comment.findOne({couresCode: course.courseCode, author: sid});
+    let oldComment = await Comment.findOne({courseCode: course.courseCode, author: sid});
     if (oldComment) {
+        console.log('exist');
         return res.send({success: false, error: "comment already exists"});
     }
 
@@ -34,18 +38,20 @@ router.post('/create', middleware.checkLogin, middleware.asyncMiddleware(async (
         text: text, 
         rating: rating, author: sid
     });
-    newComment.save((err, result) => {
-        console.log(result);
-        res.send({success: true, comment: newComment});
-    });
+
+    newComment.save();
+
     Course.find({courseCode: course.courseCode, semester: course.semester}, (err, courses) => {
         let newNumRating = courses[0].numRating + 1;
         let newAvgRating = (courses[0].avgRating * courses[0].numRating + rating) / newNumRating;
+        console.log(course);
         courses.forEach((course) => {
             course.numRating = newNumRating;
             course.avgRating = newAvgRating;
             course.save()
         });
+        console.log('success');
+        res.redirect('back');
     });
 }));
 
@@ -60,7 +66,6 @@ router.post('/edit', middleware.checkLogin, (req, res) => {
             return res.send({success: false});
         }
         console.log(doc);
-        return res.send({success: true});
     });
 
     Course.find({courseCode: course.courseCode, semester: course.semester}, (err, courses) => {
@@ -71,6 +76,7 @@ router.post('/edit', middleware.checkLogin, (req, res) => {
             course.avgRating = newAvgRating;
             course.save();
         });
+        res.redirect('back');
     });
 });
 
@@ -109,7 +115,7 @@ router.get('/testCases', (req, res) => {
 
                     let newComment = new Comment(commentObj);
                     newComment.save();
-                    console.log('save ' +tmpMessage);
+                    console.log('save ' + tmpMessage);
                 });
             });
     }
