@@ -96,12 +96,22 @@ function optClassSelectHandler(e){
 		pending = false;
 
 		//change information in select list
-		for(var i in selectedCourse[id].course.tutorials[gid].meetingInfo){
-			var daysTime = selectedCourse[id].course.tutorials[gid].meetingInfo[i][0].daysTime
-			var venue = selectedCourse[id].course.tutorials[gid].meetingInfo[i][0].room
-			$('[data-id='+id+']').find('.select-item-'+type.toLowerCase()+'-sec span').eq(2*i).html("<i class='ion-ios-clock-outline'></i> {0}: {1}:30 - {2}:30".format(dayMap[daysTime.day], daysTime.timeSlot.start+7 , daysTime.timeSlot.end+7));
-			$('[data-id='+id+']').find('.select-item-'+type.toLowerCase()+'-sec span').eq(2*i+1).html("<i class='ion-ios-location-outline'></i> {0}".format(venue));
+		if(type == "TUT"){
+			for(var i in selectedCourse[id].course.tutorials[gid].meetingInfo){
+				var daysTime = selectedCourse[id].course.tutorials[gid].meetingInfo[i][0].daysTime
+				var venue = selectedCourse[id].course.tutorials[gid].meetingInfo[i][0].room
+				$('[data-id='+id+']').find('.select-item-'+type.toLowerCase()+'-sec span').eq(2*i).html("<i class='ion-ios-clock-outline'></i> {0}: {1}:30 - {2}:30".format(dayMap[daysTime.day], daysTime.timeSlot.start+7 , daysTime.timeSlot.end+7));
+				$('[data-id='+id+']').find('.select-item-'+type.toLowerCase()+'-sec span').eq(2*i+1).html("<i class='ion-ios-location-outline'></i> {0}".format(venue));
+			}
+		}else{
+			for(var i in selectedCourse[id].course.labs[gid].meetingInfo){
+				var daysTime = selectedCourse[id].course.labs[gid].meetingInfo[i][0].daysTime
+				var venue = selectedCourse[id].course.labs[gid].meetingInfo[i][0].room
+				$('[data-id='+id+']').find('.select-item-'+type.toLowerCase()+'-sec span').eq(2*i).html("<i class='ion-ios-clock-outline'></i> {0}: {1}:30 - {2}:30".format(dayMap[daysTime.day], daysTime.timeSlot.start+7 , daysTime.timeSlot.end+7));
+				$('[data-id='+id+']').find('.select-item-'+type.toLowerCase()+'-sec span').eq(2*i+1).html("<i class='ion-ios-location-outline'></i> {0}".format(venue));
+			}
 		}
+		
 	}
 }
 
@@ -346,8 +356,8 @@ $("#import-btn").on("click", function(){
 });
 
 $("#login-btn").on("click", function(){
-	var sid = $("#sid-input").value();
-	var pwd = $("#pwd-input").value();
+	var sid = $("#sid-input").val();
+	var pwd = $("#pwd-input").val();
 	$.ajax({
 		contentType: 'application/json',
 		url: '/login',
