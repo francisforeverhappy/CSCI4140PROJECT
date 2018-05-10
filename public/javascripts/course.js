@@ -55,7 +55,7 @@ $('#rating1,#rating2,#rating3,#rating4,#rating5').on('click',function(){
     $('#rating').val($(this).val());
 });
 
-//submit comments
+//submit comment
 $('#submit').on("click", function () {
     var courseId = $('#courseId').text();
     var text = $('#write-comment').val();
@@ -81,7 +81,7 @@ $('#submit').on("click", function () {
         alert("Comments cannot be empty! Thanks.");
     }
 });
-//Edit comments
+//Edit comment
 $('#edit').on("click", function () {
     var commentId = $('#CommentId').val();
     var text = 'Hello! RZli';
@@ -107,7 +107,7 @@ $('#edit').on("click", function () {
         alert("Comments cannot be empty! Thanks.");
     }
 });
-//Delete comments
+//Delete comment
 $('#Delete').on("click", function () {
     var commentId = $('#CommentId').val();
     $.ajax({
