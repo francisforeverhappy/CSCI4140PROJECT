@@ -314,3 +314,8 @@ $('#search-input').on("keyup", function(){
 		$('#search-list').children().remove();
 	}
 });
+
+//export handler
+$("#export-btn").on("click", function(){
+	exportToCal(selectedCourse);
+});

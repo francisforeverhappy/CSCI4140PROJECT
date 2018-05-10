@@ -292,6 +292,22 @@ a {
   text-indent: 1rem;
 }
 
+.export button{
+  border: 1px solid lightcoral;
+  width: -webkit-fill-available;
+  height: 2.5rem;
+  border-radius: 4px;
+  color: lightcoral;
+  margin: 0.25rem 0;
+  font-size: 14px;
+  outline: none
+}
+
+.export button i{
+  font-size: 1.1rem;
+}
+
+
 template{
   display: none;
 }
