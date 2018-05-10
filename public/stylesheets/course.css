@@ -284,3 +284,59 @@ table.altrowstable td {
     right:10px;
     margin-top: -20px;
 }
+.comment-respond{
+    margin-top:60px;
+    padding: 30px;
+}
+.comment-reply-title{
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+.comment-respond p{
+    margin-bottom: 25px;
+    position: relative;
+}
+.comment-respond #write-comment{
+    width: 800px;
+    height: 135px;
+    resize: none;
+    border-width: 0px;
+}
+textarea{
+    border-radius: 8px;
+}
+.rating {
+  overflow: hidden;
+  vertical-align: bottom;
+  display: inline-block;
+  width: auto;
+  height: 30px;
+}
+
+.rating > input {
+  opacity: 0;
+  margin-right: -100%;
+}
+
+.rating > label {
+  position: relative;
+  display: block;
+  float: right;
+  background: url('../img/star-off-big.png');
+  background-size: 30px 30px;
+}
+
+.rating > label:before {
+  display: block;
+  opacity: 0;
+  content: '';
+  width: 30px;
+  height: 30px;
+  background: url('../img/star-on-big.png');
+  background-size: 30px 30px;
+  transition: opacity 0.2s linear;
+}
+
+.rating > label:hover:before,  
+.rating > label:hover ~ label:before,  
+.rating:not(:hover) > :checked ~ label:before { opacity: 1; }

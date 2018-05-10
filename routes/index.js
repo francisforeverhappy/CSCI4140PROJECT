@@ -15,8 +15,8 @@ router.get('/', (req, res) => {
 
 
 router.get('/test', middleware.asyncMiddleware(async (req, res) => {
-    let section = await Section.findOne({_id:'5af413c9c2105239c868803e'});    
-    console.log(section);
+    let section = await Section.findOne({'courseComponent': "LAB", courseCode: 'CSCI3150'});
+    console.log(section.meetingInfo[0]);
 }));
 
 
@@ -38,6 +38,7 @@ router.post('/login', (req, res, next) => {
             console.log('login fail');
         }
         res.redirect('/');
+        // res.send({sid: req.session.sid});
     });
 });
 

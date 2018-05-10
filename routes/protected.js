@@ -13,8 +13,8 @@ const Course = require('../models/course'),
 // login needed
 router.post('/getWait', middleware.asyncMiddleware(async (req, res) => {
     console.log('get /getWait');
-    // let sid = req.session.sid,
-    //     pwd = support.decrypt(sid, req.session.pwd);
+    let sid = req.session.sid,
+        pwd = support.decrypt(sid, req.session.pwd);
     const semDir = {
         '2017-18 Term 1': 1,
         '2017-18 Term 2': 2
@@ -75,8 +75,6 @@ router.get('/import', middleware.checkLogin, middleware.asyncMiddleware(async (r
 
     pythonProcess.stdout.on('data', async (data) => {
         let courseArray = JSON.parse(data.toString());
-        console.log('courseArray');
-        console.log(courseArray);
         let courses = courseArray.map(async (courseInfo) => {
             let courseCode = courseInfo['courseCode'];
             let course = await Course.findOne({courseCode: courseCode, semester: semester}).lean();
@@ -88,10 +86,12 @@ router.get('/import', middleware.checkLogin, middleware.asyncMiddleware(async (r
                 let courseComponent = section['courseComponent'];
                 let sectionCode = section['sectionCode'];
                 if (courseComponent == 'LEC') {
-                    course.lec = await Section.findById(course.lectures).lean();
+                    course.lec = await Section.findById(course.lectures).lean().catch((error) => {
+                        console.log(error.message);
+                    });
                 } else if (courseComponent == 'TUT') {
                     let regex = new RegExp(sectionCode, 'i');
-                    let tut = await Section.findOne({_id: {$in: course.tutorials}, sectionCode: {$regex: regex}}).catch((error) => {
+                    let tut = await Section.findOne({_id: {$in: course.tutorials}, sectionCode: {$regex: regex}}).lean().catch((error) => {
                         console.log('tutorials promise');
                         console.log(error.message);
                     });
@@ -103,10 +103,11 @@ router.get('/import', middleware.checkLogin, middleware.asyncMiddleware(async (r
                     }
                 } else if (courseComponent == 'LAB') {
                     let regex = new RegExp(sectionCode, 'i');
-                    let lab = await Section.findOne({_id: {$in: course.labs}, sectionCode: {$regex: regex}}).catch((err) => {
+                    let lab = await Section.findOne({_id: {$in: course.labs}, sectionCode: {$regex: regex}}).lean().catch((err) => {
                         console.log('tutorials promise');
                     });
                     course.lab.push(lab);
+                    console.log(lab.meetingInfo[0]);
                     if (!lab) {
                         console.log(sectionCode);
                         console.log(course.courseCode);
@@ -116,19 +117,17 @@ router.get('/import', middleware.checkLogin, middleware.asyncMiddleware(async (r
             course.lectures = await course.lec;
             course.tutorials = await Promise.all(course.tut);
             course.labs = await Promise.all(course.lab);
-            console.log(course);
             return course;
         }); 
         courses = await Promise.all(courses).catch((error)=> {
             console.log(error.message);
-        
         });
         courses.forEach((course) => {
             if (course.lectures) {
                 course.lectures.meetingInfo = flatten(groupArray(course.lectures.meetingInfo, 'daysTime.day', 'daysTime.timeSlot.start', 'daysTime.timeSlot.end', 'room'), {maxDepth: 4});
             }
             course.tutorials = course.tutorials.map(groupSection);
-            course.labs = course.labs.map(groupSection);    
+            course.labs = course.labs.map(groupSection);
         });
         return res.send({sid: req.session.sid, courses: courses});
     });
