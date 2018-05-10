@@ -318,8 +318,17 @@
                                     <div class="comments-list">
                                         <% console.log(course.comments); %>
                                         <% for(var i=0; i < course.comments.length; i++){ %>
-                                        <div class="thread">
-                                            <div class="comment-item" id>
+                                        <div class="thread" id=<%= course.comments[i].author %>>
+                                            <div class="comment-item">
+                                                <% if(sid == course.comments[i].author){ %><% } %>
+                                                    <h3>My Comment</h3>
+                                                    <p class="comment-submit">
+                                                        <input id="CommentId" value=<%= course.comments[i]._id %> style="display: none;">
+                                                        <input name="edit" type="submit" id="edit" class="edit" value="Edit">
+                                                    </p>
+                                                    <p class="comment-submit">
+                                                        <input name="Delete" type="submit" id="Delete" class="Delete" value="Delete">
+                                                    </p>
                                                 <div class="comment-conten"><%= course.comments[i].text %></div>
                                                 <div class="comment-mode">
                                                     <div class="comment-control">
