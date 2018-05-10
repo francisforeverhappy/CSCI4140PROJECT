@@ -19,6 +19,7 @@ $(document).ready(function() {
   for(var id in selectedCourse){
   	selectCourse(selectedCourse[id].course, selectedCourse[id].select);
   }
+  // localStorage.removeItem("timetable");
 });
 
 $(window).on("unload",function() {
@@ -223,9 +224,9 @@ function selectCourse(course, select){
 		var lec_tmpl = $('#select-item-lec-tmpl').contents().clone();
 
   	for(var i in course.lectures.meetingInfo){
-	  	var daysTime = course.lectures.meetingInfo[i].daysTime;
-	  	var venue = course.lectures.meetingInfo[i].room;
-		  addClassItem(courseCode, courseName, id, i, "LEC", venue, daysTime.day, daysTime.timeSlot, false);
+	  	var daysTime = course.lectures.meetingInfo[i][0].daysTime;
+	  	var venue = course.lectures.meetingInfo[i][0].room;
+		  addClassItem(courseCode, courseName, id, 0, "LEC", venue, daysTime.day, daysTime.timeSlot, false);
 
 		  var sec_tmpl = $('#select-item-sec-tmpl').contents().clone();
 		  $(sec_tmpl).html('<span><i class="ion-ios-clock-outline"></i> {0}: {1}:30 - {2}:30</span><span><i class="ion-ios-location-outline"></i> {3}</span>'.format(dayMap[daysTime.day], daysTime.timeSlot.start+7 , daysTime.timeSlot.end+7, venue));
@@ -263,10 +264,10 @@ function selectCourse(course, select){
 		}
 		var lab_tmpl = $('#select-item-lab-tmpl').contents().clone();
 
-  	for(var i in course.labs[select.TUT].meetingInfo){
-	  	var daysTime = course.labs[select.TUT].meetingInfo[i].daysTime;
-	  	var venue = course.labs[select.TUT].meetingInfo[i].room;
-		  addClassItem(courseCode, courseName, id, select.TUT, "LAB", venue, daysTime.day, daysTime.timeSlot, lab_opt);
+  	for(var i in course.labs[select.LAB].meetingInfo){
+	  	var daysTime = course.labs[select.LAB].meetingInfo[i][0].daysTime;
+	  	var venue = course.labs[select.LAB].meetingInfo[i][0].room;
+		  addClassItem(courseCode, courseName, id, select.LAB, "LAB", venue, daysTime.day, daysTime.timeSlot, lab_opt);
 
 		  var sec_tmpl = $('#select-item-sec-tmpl').contents().clone();
 		  $(sec_tmpl).html('<span><i class="ion-ios-clock-outline"></i> {0}: {1}:30 - {2}:30</span><span><i class="ion-ios-location-outline"></i> {3}</span>'.format(dayMap[daysTime.day], daysTime.timeSlot.start+7 , daysTime.timeSlot.end+7, venue));
@@ -319,4 +320,17 @@ $('#search-input').on("keyup", function(){
 //export handler
 $("#export-btn").on("click", function(){
 	exportToCal(selectedCourse);
+});
+
+//import handler
+$("#import-btn").on("click", function(){
+	$.ajax({
+		contentType: 'application/json',
+		url: '/protected/import',
+			type: 'GET',
+			success: function(result) {
+				// receive data
+			  console.log(result);
+			}
+	});
 });
