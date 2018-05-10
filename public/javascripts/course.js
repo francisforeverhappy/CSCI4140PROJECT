@@ -47,3 +47,8 @@ $('#refresh-waitingList').on("click", function () {
         console.log("refresh failure");
     }
 });
+var rating=3;
+console.log($('#rating').value);
+$('#rating1,#rating2,#rating3,#rating4,#rating5').mouseenter(function(){
+    // $('#rating5').
+});
