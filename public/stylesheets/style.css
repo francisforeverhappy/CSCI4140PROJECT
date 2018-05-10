@@ -91,10 +91,11 @@ a {
 	flex-direction: column;
 	display: flex;
   border-left: 1px solid #ced4da;
+  height: 41rem;
 }
 
 .day:first-child {
-  border-left: none;
+  /*border-left: none;*/
 }
 
 .label {
@@ -128,9 +129,6 @@ a {
 .main-table {
 	flex-direction: row;
 	display: flex;
-	border: 1px solid #ced4da;
-	border-radius: 4px;
-	overflow: scroll;
   width: -webkit-fill-available;
 }
 
@@ -138,6 +136,10 @@ a {
   flex-direction: row;
   display: flex;
   color: grey;
+  overflow: scroll;
+  height: 32rem;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
 }
 
 .time{
@@ -147,21 +149,21 @@ a {
 }
 
 .time-label{
-	height: calc(10% - 4px);
   text-align: center;
+  margin: 15.5px auto;
 }
 
 .space{
-  height: calc(2rem - 5px);
+  margin: 4.5px 0;
 }
 
 .schedule{
 	background: linear-gradient(180deg,mistyrose 50%, transparent 0);
-	background-size: 20.1%;
-	height: 30rem;
+	background-size: 15.5%;
+	height: 39rem;
 	position: relative;
   display: grid;
-  grid-template-rows: repeat(10,3rem);
+  grid-template-rows: repeat(13,3rem);
 }
 
 .input-box{
@@ -251,14 +253,13 @@ a {
   margin-left: 0.25rem;
 }
 
-.select-item-color{
+.select-item-info{
   width: 7%;
-  margin: -3px 7px 0px 1px;
+  margin: 4.5px -1px 0px 8px;
 }
 
-.select-item-color i{
-  font-size: 2.3rem;
-  color: lightcoral;
+.select-item-info i{
+  font-size: 1.5rem;
 }
 
 .select-item-btn{

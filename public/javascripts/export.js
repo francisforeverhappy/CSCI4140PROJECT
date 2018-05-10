@@ -67,6 +67,5 @@ function exportToCal(info){
             });
         }
     }
-    console.log(cal.calendar());
     cal.download("CUTE Timetable");
 }
