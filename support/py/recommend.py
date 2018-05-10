@@ -18,7 +18,6 @@ def browse_history():
     r = cusis.session.post(URL,data=payload)
     l = re.findall(r"<span  class='PSEDITBOX_DISPONLY' >([A-Z]+ [0-9]+)</span>",r.text)
     l = [x.split(" ")[0] for x in l]
-    l = ["CSCI","UGEA"]
     counts = Counter(l).items()
     client = MongoClient()
     client = MongoClient('localhost', 27017)
