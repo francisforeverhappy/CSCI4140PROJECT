@@ -22,7 +22,7 @@ var courseSchema = mongoose.Schema({
         classAttr: String
     },
 
-    componentDict: {}, // the raw object storing courseComponents
+    componentDict: {}, 
 
     avgRating: {
         type: Number,
