@@ -117,6 +117,7 @@ router.get('/import', middleware.checkLogin, middleware.asyncMiddleware(async (r
             return course;
         }); 
         courses = await Promise.all(courses);
+        console.log('import done with courses ' + courses.length);
         return res.send({sid: req.session.sid, courses: courses});
     });
 }));
