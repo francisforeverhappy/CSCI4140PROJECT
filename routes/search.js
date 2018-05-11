@@ -50,11 +50,25 @@ router.get('/:courseId', middleware.asyncMiddleware(async (req, res) => {
         course.componentDict[component] = await Section.find({'_id': {$in: course.componentDict[component]}}).lean();
     }
 
-    course.comments = await Comment.find({courseCode: course.courseCode}).lean();
+    course.comments = await Comment.find({courseCode: course.courseCode}, null, {sort: {numVotes: -1, time: -1}}).lean();
     course.comments = course.comments.map((comment) => {
         comment.time = new Date(comment.time).toLocaleString();
         return comment;
     });
+    secCode = String(course.sectionCode);
+
+    preSecCode = secCode.slice(0, -1) + String.fromCharCode(secCode.charCodeAt(secCode.length - 1) - 1);
+    previous = await Course.findOne({courseCode: course.courseCode, semester: course.semester, sectionCode: preSecCode}, '_id');
+    aftrSecCode = secCode.slice(0, -1) + String.fromCharCode(secCode.charCodeAt(secCode.length - 1) + 1);
+    after = await Course.findOne({courseCode: course.courseCode, semester: course.semester, sectionCode: aftrSecCode}, '_id');
+    
+    if (previous) {
+        course.previous = previous._id;
+    }
+
+    if (after) {
+        course.after = after._id;
+    }
     return res.render('course', {sid: req.session.sid, course: course});
 
 }));

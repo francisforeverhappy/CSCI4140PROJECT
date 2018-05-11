@@ -24,10 +24,59 @@ function checkCourse(sid, pwd, courseCode) {
     });
 }
 
-router.post('/create', middleware.checkLogin, middleware.asyncMiddleware(async (req, res) => {
-    console.log('post /comment/create')
+router.post('/vote', middleware.checkLogin, middleware.asyncMiddleware(async (req, res) => {
+    console.log('post /comment/vote')
     let sid = req.session.sid,
-        pwd = support.decrypt(sid, req.session.pwd);
+        commentId = req.body.commentId;
+    let comment = await Comment.findById(commentId);
+
+    if (!comment) {
+        console.log('comment does not exist');
+        return res.send({success: false, error: 'comment does not exist'});
+    }
+
+    if (comment.voters.indexOf(sid) != -1) {
+        console.log('already voted');
+        return res.send({success: false, error: 'already voted'});
+    }
+
+    comment.voters.push(sid);
+    comment.numVotes++;
+    comment.save();
+    return res.send({success: true});
+}));
+
+router.post('/devote', middleware.checkLogin, middleware.asyncMiddleware(async (req, res) => {
+    console.log('post /comment/devote')
+    let sid = req.session.sid,
+        commentId = req.body.commentId;
+
+        let comment = await Comment.findById(commentId);
+
+    if (!comment) {
+        console.log('comment does not exist');
+        return res.send({success: false, error: 'comment does not exist'});
+    }
+    let index = comment.voters.indexOf(sid);
+
+    if (index == -1) {
+        console.log('did not vote');
+        return res.send({success: false, error: 'the user have not voted'});
+    }
+    
+    comment.voters.splice(index, 1);
+    comment.numVotes--;
+    comment.save();
+
+    return res.send({success: true});    
+}));
+
+router.post('/create', middleware.asyncMiddleware(async (req, res) => {
+    console.log('post /comment/create')
+    // let sid = req.session.sid,
+    //     pwd = support.decrypt(sid, req.session.pwd);
+    // debug
+    let sid = new Date().toString();
 
     let courseId = req.body.courseId,
         text = req.body.text,
@@ -35,10 +84,10 @@ router.post('/create', middleware.checkLogin, middleware.asyncMiddleware(async (
 
     let course = await Course.findById(courseId);
         
-    if (!checkCourse(sid, pwd, courseCode)) {
-        console.log("course didn't take");
-        return res.send({success: false, error: "course didn't take"});
-    }
+    // if (!checkCourse(sid, pwd, courseCode)) {
+    //     console.log("course didn't take");
+    //     return res.send({success: false, error: "course didn't take"});
+    // }
 
     if (!rating) {
         console.log('rating is required');
@@ -59,7 +108,9 @@ router.post('/create', middleware.checkLogin, middleware.asyncMiddleware(async (
         time: new Date().toISOString(), 
         text: text, 
         rating: rating, 
-        author: sid
+        author: sid,
+        voters:[],
+        numVotes: 0
     });
     newComment.save();
 
@@ -72,7 +123,7 @@ router.post('/create', middleware.checkLogin, middleware.asyncMiddleware(async (
             course.save()
         });
         console.log('success');
-        return res.redirect('back');
+        return res.send({success: true});
     });
 }));
 
@@ -104,7 +155,7 @@ router.post('/edit', (req, res) => {
                 course.avgRating = newAvgRating;
                 course.save();
             });
-            return res.redirect('back');
+            return res.send({success: true});
         });
     });
 });
@@ -136,7 +187,7 @@ router.post('/delete', (req, res) => {
             });
             comment.remove();
             console.log('done');
-            res.redirect('back');
+            res.send({success: true});
         });
     }); 
 });
