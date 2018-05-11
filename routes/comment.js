@@ -10,19 +10,41 @@ const Course = require('../models/course'),
     support = require('../support/js/support');
 
 // comment
-let turn = 0;
+function checkCourse(sid, pwd, courseCode) {
+    let pythonProcess = spawn('python', ['support/py/login.py', sid, pwd]);
+    pythonProcess.stdout.on('data', (data) => {
+        let result = data.toString().trim(); 
+        if (result == 'True') {
+            console.log('courseCoursesuccess');
+            return true;
+        } else {
+            console.log('checkCoures fail');
+            return false;
+        }
+    });
+}
+
 router.post('/create', middleware.checkLogin, middleware.asyncMiddleware(async (req, res) => {
-    console.log('get /comment/create')
+    console.log('post /comment/create')
+    let sid = req.session.sid,
+        pwd = support.decrypt(sid, req.session.pwd);
+
     let courseId = req.body.courseId,
         text = req.body.text,
-        rating = req.body.rating,
-        sid = req.session.sid;
-    turn++;
+        rating = req.body.rating;
+
+    let course = await Course.findById(courseId);
+        
+    if (!checkCourse(sid, pwd, courseCode)) {
+        console.log("course didn't take");
+        return res.send({success: false, error: "course didn't take"});
+    }
+
     if (!rating) {
         console.log('rating is required');
         return res.send({success: false, error: "rating is null"});
     }
-    let course = await Course.findById(courseId);
+
     let oldComment = await Comment.findOne({courseCode: course.courseCode, author: sid});
     if (oldComment) {
         console.log('exist');
@@ -50,7 +72,7 @@ router.post('/create', middleware.checkLogin, middleware.asyncMiddleware(async (
             course.save()
         });
         console.log('success');
-        res.redirect('back');
+        return res.redirect('back');
     });
 }));
 
@@ -58,19 +80,21 @@ router.post('/edit', (req, res) => {
     let commentId = req.body.commentId,
         text = req.body.text,
         rating = req.body.rating;
+    
     console.log('post /comment/edit');
     if (!rating) {
-        console.log('edit fail');
-        return res.send({success: false});
+        console.log('rating is null');
+        return res.send({success: false, error: "rating is required"});
     }
+    
     Comment.findByIdAndUpdate(commentId, {time: new Date().toISOString(), text: text, rating: rating}, {new: false}, (err, comment, resp) => {
         if (err) {
             console.log(err.message);
             return res.send({success: false});
         }
         if (!comment) {
-            res.send({success:false});
-            return console.log()
+            console.log('there is no original comment');
+            return res.send({success:false, error: "comment has been deleted"});            
         }
         let oldRating = comment.rating;
         Course.find({courseCode: comment.courseCode}, (err, courses) => {
@@ -80,7 +104,7 @@ router.post('/edit', (req, res) => {
                 course.avgRating = newAvgRating;
                 course.save();
             });
-            res.redirect('back');
+            return res.redirect('back');
         });
     });
 });

@@ -12,7 +12,7 @@ const Course = require('../models/course'),
 
 // login needed
 router.post('/getWait', middleware.checkLogin, middleware.asyncMiddleware(async (req, res) => {
-    console.log('get /getWait');
+    console.log('post /protected/getWait');
     let sid = req.session.sid,
         pwd = support.decrypt(sid, req.session.pwd);
     const semDir = {
@@ -67,7 +67,7 @@ function groupSection(el) {
 }
 // ??semester??
 router.get('/import', middleware.checkLogin, middleware.asyncMiddleware(async (req, res) => {
-    console.log('get /import');
+    console.log('get /protected/import');
     let sid = req.session.sid,
         pwd = support.decrypt(sid, req.session.pwd);
     // hardcoded
