@@ -1,10 +1,37 @@
+:root {
+    --main-color-1 : #E7F0F9;
+    --main-color-2 : #73A5DC;
+    --main-color-3 : #005BBF;
+    --main-color-4 : #003A7A;
+    --main-color-5 : #002246;
+    --2th-color-1: #FBECEC;
+    --2th-color-2: #D84A41;
+    --2th-color-3: #D5382E;
+    --2th-color-4: #9B2922;
+    --2th-color-5: #4E1511;
+    --grey-1: #E2E2E3;
+    --grey-2: #717273;
+    --grey-3: #50453B;
+    --grey-4: #404041;
+    --grey-5: #121313;
+    --nav-bg-color: #E7F0F9;
+    --main-color: #005BBF;
+    --main-bg-color: #FFF;
+    --second-bg-color: #E7F0F9;
+    --assist-color: #D5382E;
+    --warn-color: #D5382E;
+}
+
 body {
   padding: 50px 20px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  background-color: var(--main-bg-color);
+  color: var(--main-color-4);
 }
 
 a {
-  color: #00B7FF;
+  color: var(--assist-color);
 }
 
 @media (min-width: 576px){
@@ -34,13 +61,13 @@ a {
   left: 0;
   height: 3rem;
   z-index: 10;
-  background-color: linen
+  background-color: var(--nav-bg-color)
 }
 
 a.logo{
 	margin: auto auto auto 1rem;
   text-decoration: none;
-  color: #21252F;
+  color: var(--gery-2);
 }
 
 .nav button{
@@ -52,7 +79,11 @@ a.logo{
 }
 
 .clickable-btn:hover{
-  color: lightcoral;
+  color: var(--2th-color-3);
+}
+
+#import-btn i{
+  font-size: 17px;
 }
 
 .dropdown{
@@ -61,9 +92,6 @@ a.logo{
 }
 .dropdown:hover .dropdown-list {
     display: block;
-}
-.dropdown:hover #student-id {
-    color: lightcoral;
 }
 
 .dropdown-list{
@@ -75,9 +103,9 @@ a.logo{
     float: left;
     padding: 0.75rem 1rem;
     margin: .125rem 0 0;
-    color: #212529;
+    color: var(--gery-2);
     text-align: left;
-    background-color: #fff;
+    background-color: var(--main-bg-color);
     background-clip: padding-box;
     border: 1px solid rgba(0,0,0,.15);
     border-radius: .25rem;
@@ -119,16 +147,19 @@ a.logo{
 	position: relative;
 	display: flex;
 	width: -webkit-fill-available;
-  height: 99%;
-  background-color: lightcoral;
-  border-radius: 8px;
-  padding: 0.25rem;
+  height: 97%;
+  background-color: var(--2th-color-2);
+  border-radius: 5px;
+  border-bottom: 2px solid var(--2th-color-4);
+  border-right: 1px solid var(--2th-color-4);
+  padding: 3px;
+  line-height: 14px;
+  color: var(--main-color-1);
 }
 .class-info{
 	/*top:1px;*/
 	position: absolute;
   font-size: 10px;
-  color: linen;
 }
 
 
@@ -141,10 +172,10 @@ a.logo{
 .table{
   flex-direction: row;
   display: flex;
-  color: grey;
+  color: var(--gery-1);
   overflow: scroll;
   height: 32rem;
-  border: 1px solid #ced4da;
+  border: 1px solid var(--gery-0);
   border-radius: 4px;
 }
 
@@ -164,7 +195,7 @@ a.logo{
 }
 
 .schedule{
-	background: linear-gradient(180deg,mistyrose 50%, transparent 0);
+	background: linear-gradient(180deg,var(--second-bg-color) 50%, transparent 0);
 	background-size: 15.5%;
 	height: 39rem;
 	position: relative;
@@ -174,7 +205,7 @@ a.logo{
 
 .loading{
   height: 32rem;
-  background: white;
+  background: var(--main-bg-color);
   position: relative;
   top: -33rem;
   opacity: 0.75;
@@ -196,10 +227,10 @@ a.logo{
   padding: .375rem .75rem;
   font-size: 1rem;
   line-height: 1.5;
-  color: #495057;
-  background-color: #fff;
+  color: var(--gery-2);
+  background-color: var(--main-bg-color);
   background-clip: padding-box;
-  border: 1px solid #ced4da;
+  border: 1px solid var(--main-color-3);
   border-radius: .25rem;
   transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
@@ -208,10 +239,11 @@ a.logo{
 	border:none;
 	width: 90%;
 	outline: none;
+  color: var(--grey-2);
 }
 
 .input-box i{
-	color: lightcoral;
+	color: var(--main-color);
 }
 
 .login-input{
@@ -224,15 +256,15 @@ a.logo{
   padding: 0.4rem;
   text-align: center;
   border-radius: 4px;
-  background-color: indianred;
+  background-color: var(--warn-color);
   width: 75%;
-  color: linen;
+  color: var(--second-bg-color);
   display: none;
   font-size: small;
 }
 
 .modal-header{
-	background-color: linen;
+	background-color: var(--second-bg-color);
 	border: none;
 }
 
@@ -250,9 +282,9 @@ a.logo{
 }
 
 .btn-cute{
-	background-color: lightcoral;
+	background-color: var(--main-color);
   margin: 0 1rem 0.2rem;
-	color: white;
+	color: var(--main-bg-color);
 }
 
 .search-list{
@@ -263,7 +295,7 @@ a.logo{
 .search-item{
   display: flex;
   padding: 0.5rem 0.8rem;
-  border: 1px solid mistyrose;
+  border: 1px solid var(--second-bg-color);
   border-radius: 4px;
   width: -webkit-fill-available;
 }
@@ -273,7 +305,7 @@ a.logo{
 }
 
 .search-item-info span{
-  color: lightcoral;
+  color: var(--main-color);
   font-size: 0.75rem;
 }
 
@@ -284,7 +316,7 @@ a.logo{
 .select-item-show{
   display: flex;
   padding: 0.25rem;
-  border: 1px solid lightcoral;
+  border: 1px solid var(--main-color);
   border-radius: 2rem;
   height: 3rem;
   margin-left: 0.25rem;
@@ -292,7 +324,7 @@ a.logo{
 
 .select-item-info{
   width: 7%;
-  margin: 4.5px -1px 0px 8px;
+  margin: 0.5px -1px 0px 8px;
 }
 
 .select-item-info i{
@@ -316,7 +348,7 @@ a.logo{
 
 .select-item-tooltip{
   display: none;
-  background-color: white;
+  background-color: var(--main-bg-color);
   opacity: 0.8;
   width: 70%;
   position: absolute;
@@ -331,20 +363,24 @@ a.logo{
 }
 
 .export button{
-  border: 1px solid lightcoral;
+  border: 1px solid var(--main-color);
   width: -webkit-fill-available;
   height: 2.5rem;
   border-radius: 4px;
-  color: lightcoral;
+  color: var(--main-color);
   margin: 0.25rem 0;
   font-size: 14px;
   outline: none
 }
 
 .export button i{
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
+.clickable:hover {
+  background-color: var(--2th-color-4);
+  color: var(--2th-color-1);
+}
 
 template{
   display: none;
@@ -354,8 +390,13 @@ template{
   display: flex;
 }
 
-.clickable:hover{
-  background-color: linen;
+.search-item:hover{
+  background-color: var(--main-color-1);
+}
+
+#export-btn:hover{
+  background-color: var(--main-color-3);
+  color: var(--grey-1);
 }
 
 .hidden{
@@ -369,6 +410,6 @@ template{
 }
 
 .col-md-8{
-  height: -webkit-fill-available;
+  /*height: -webkit-fill-available;*/
 }
 
