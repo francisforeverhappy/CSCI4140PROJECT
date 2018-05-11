@@ -310,7 +310,7 @@
                                                 <div class="comment-mode">
                                                     <div class="comment-control">
                                                         <div class="praise">
-                                                            <% console.log(course.comments[i].voters) %>
+                                                            <% console.log(course.comments[i].voters); %>
                                                             <input class="CommentId" value=<%= course.comments[i]._id %> style="display: none;">
                                                             <span class="img-praise">
                                                                 <% if( course.comments[i].numVotes>0 && course.comments[i].voters.indexOf(sid)>=0){ %>
