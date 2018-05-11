@@ -11,6 +11,7 @@
     <link rel='stylesheet' href='/stylesheets/course.css'>
     <link rel="stylesheet" href="/stylesheets/util.css">
     <link rel="stylesheet" href="/stylesheets/meetingtable.css">
+    <link rel="stylesheet" href="/stylesheets/like.css">
     <script type="text/javascript" src="/javascripts/jquery-3.3.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
         crossorigin="anonymous"></script>
@@ -20,25 +21,33 @@
 
 <body>
     <nav class="nav">
-        <a class="logo">CUTE</a>
+        <a href="/" class="logo">CUTE</a>
         <% if(sid == undefined){ %>
-            <button class="nav-button" data-toggle="modal" data-target="#loginModal">
+            <button class="clickable-btn" data-toggle="modal" data-target="#loginModal">
                 <span aria-hidden="true">
                     <i class="ion-log-in"></i>
                 </span> Login
             </button>
             <% } else { %>
-                <button class="nav-button" id="student-id">
-                    <span aria-hidden="true">
-                        <i class="ion-ios-person"></i>
-                    </span>
-                    <%= sid %>
-                </button>
-                <button class="nav-button" onclick="window.location.href='/logout'">
-                    <span aria-hidden="true">
-                        <i class="ion-log-out"></i>
-                    </span> Logout
-                </button>
+                <div class="dropdown">
+                    <button type="button" class="clickable-btn" id="student-id">
+                        <span aria-hidden="true">
+                            <i class="ion-ios-person"></i>
+                        </span>
+                        <%= sid %>
+                    </button>
+                    <div class="dropdown-list" aria-labelledby="student-id">
+                        <a href="#" class="clickable-btn" id="import-btn">
+                            <span aria-hidden="true">
+                                <i class="ion-ios-download-outline"></i>
+                            </span> Import Timetable</a>
+                        <br>
+                        <a href="/logout" class="clickable-btn">
+                            <span aria-hidden="true">
+                                <i class="ion-log-out"></i>
+                            </span> Logout</a>
+                    </div>
+                </div>
                 <% } %>
     </nav>
     <div class = "main-container">
@@ -301,14 +310,18 @@
                                                 <div class="comment-mode">
                                                     <div class="comment-control">
                                                         <div class="praise">
-                                                            <span id="praise">
-                                                                <img src="/img/unlike.png" id="praise-img" />
+                                                            <% console.log(course.comments[i].voters) %>
+                                                            <input class="CommentId" value=<%= course.comments[i]._id %> style="display: none;">
+                                                            <span class="img-praise">
+                                                                <% if( course.comments[i].numVotes>0 && course.comments[i].voters.indexOf(sid)>=0){ %>
+                                                                    <img src="/img/like.png" class="praise-img" />
+                                                                <% }else{ %>
+                                                                    <img src="/img/unlike.png" class="praise-img"/>
+                                                                <% } %>
                                                             </span>
-                                                            <span id="praise-txt">145</span>
-                                                            <span id="add-num">
-                                                                <em>+1</em>
-                                                            </span>
+                                                            <span class="praise-txt"><%= course.comments[i].numVotes %></span>
                                                         </div>
+                                                        <div class="rating-info">
                                                         <span>Rating: </span>
                                                         <span>
                                                             <%= course.comments[i].rating %>
@@ -322,6 +335,7 @@
                                                         <span class="comment-section">
                                                             <%= course.comments[i].sectionCode %>
                                                         </span>
+                                                        </div>
                                                     </div>
                                                     <div class="time-section">
                                                         <span class="comment-time"><%= course.comments[i].time %></span>

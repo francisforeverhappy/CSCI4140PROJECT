@@ -1,3 +1,9 @@
+<% if(% true %) { %>
+    <img src="/img/like.png" class="praise-img" id="comment-" +<%=c ourse.comments[i]._id %> />
+    <% } %>
+        <% else { %>
+            <img src="/img/unlike.png" class="praise-img" id="comment-" +<%=c ourse.comments[i]._id %> />
+            <% } %>
 <% if(course.componentDict.LAB.length>0){ %>
     <h3>Labs</h3>
     <% for(var i=0;i<course.componentDict.LAB.length;i++){ %>

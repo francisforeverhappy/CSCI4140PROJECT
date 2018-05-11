@@ -1,22 +1,28 @@
 .praise{
- width:40px;
+ width:80px;
  height:40px;
- margin: 50px auto;
  cursor: pointer;
  font-size: 12px;
- text-align:center;
  position: relative;
+ margin-right:0;
+ display: inline;
 }
-#praise{
+.rating-info{
+ display: inline;
+}
+.img-praise{
+ float:left;
+ left:0;
  display:block;
  width:40px;
  height:40px;
  margin:0 auto;
 }
-#praise-txt{
+.praise-txt{
+ vertical-align: baseline;
  height:25px;
  line-height:25px;
- display: block;
+ display: inline;
 }
 .praise img{
  width:40px;
@@ -30,11 +36,11 @@
  -webkit-animation: myfirst 0.5s;  
  -o-animation: myfirst 0.5s;  
 }
-#add-num{
+.add-num{
  display:none;
 }
-#add-num .add-animation{
- color: #000;
+.add-num .add-animation{
+ color: .000;
  position:absolute;
  top:-15px;
  left: 10px;
@@ -48,7 +54,7 @@
  -o-animation: mypraise 0.5s ;  
  font-style:normal;
 }
-.praise .hover , #add-num .add-animation.hover , #praise-txt.hover{
+.praise .hover , .add-num .add-animation.hover , .praise-txt.hover{
  color: #EB4F38;
 }
 @keyframes myfirst
