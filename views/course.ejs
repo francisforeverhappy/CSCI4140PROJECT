@@ -289,6 +289,7 @@
                                     <div class="comments-list">
                                         <% for(var i=0; i < course.comments.length; i++){ %>
                                         <div class="thread" id=<%= course.comments[i].author %>>
+                                            <% if( sid == course.comments[i].author){ %>
                                             <span class="comment-form edit-form">
                                                 <p class="comment-form-comment">
                                                     <input id="comment-id" value=<%= course.comments[i]._id %> style="display: none;">
@@ -314,6 +315,7 @@
                                                     <input name="submit" type="submit" id="edit-submit" class="submit" value="Edit a Comment">
                                                 </p>
                                             </span>
+                                            <% } %>
                                             <div class="comment-item former">
                                                 <% if(sid == course.comments[i].author){ %>
                                                     <% var commented = '1'; %>
