@@ -49,7 +49,7 @@ $('#rating1,#rating2,#rating3,#rating4,#rating5').on('click',function(){
 $('#submit').on("click", function () {
     var courseId = $('#courseId').text();
     var text = $('#write-comment').val();
-    var rating = $('#edit-rating').val();
+    var rating = $('#rating').val();
     console.log(text);
     if (text != '') {
         $.ajax({
@@ -77,16 +77,15 @@ $('#edit').on("click", function () {
     //console.log($('#CommentId').val());
     var authorId = $('#AuthorId').val();
     previous_text = $('#' + authorId).children('.former').children('.comment-content').text();
-    $('#' + authorId).children('.former').remove();
+    $('#'+authorId).children('.former').remove();
     $('#' + authorId).children('.edit-form').css("display","block");
 });
 //Edit submit comment
 $('#edit-submit').on("click", function () {
     var commentId = $('#comment-id').val();
     var text = $('#edit-comment').val();
-    var rating = $('#rating').val();
+    var rating = $('#edit-rating').val();
     //console.log(commentId);
-    console.log(rating);
     if (text != '') {
         $.ajax({
             contentType: 'application/json',
