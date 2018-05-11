@@ -19,7 +19,6 @@
 </head>
 
 <body>
-
     <nav class="nav">
         <a class="logo">CUTE</a>
         <% if(sid == undefined){ %>
@@ -85,9 +84,9 @@
                                                 <p>
                                                     <%= course.classDetails.grading %>
                                                 </p>
-                                                <h4>Lecture Status: </h4>
+                                                <h4>lecture Status: </h4>
                                                 <p>
-                                                    <%= course.lectures.status %>
+                                                    <%= course.componentDict.LEC[0].status %>
                                                 </p>
                                                 <% if(course.sectionCode.length> 0){ %>
                                                 <h4>Section Code: </h4>
@@ -103,9 +102,9 @@
                             <section id="MeetingInfo">
                                 <h2 class="courseinfo-border">Meeting Information</h2>
                                 <div class="row">
-                                    <% if(course.lectures._id){ %>
+                                    <% if(course.componentDict.LEC[0]._id){ %>
                                         <div>
-                                            <h3>Lecture</h3>
+                                            <h3>lecture</h3>
                                             <div class="table100 ver2 m-b-110">
                                                 <div class="table100-head">
                                                     <table>
@@ -123,17 +122,17 @@
                                                 <div class="table100-body js-pscroll">
                                                     <table>
                                                         <tbody>
-                                                            <% for(var i=0;i<course.lectures.meetingInfo.length;i++){ %>
+                                                            <% for(var i=0;i<course.componentDict.LEC[0].meetingInfo.length;i++){ %>
                                                             <tr class="row100 body">
-                                                                <% switch (course.lectures.meetingInfo[i].daysTime.day) { case 0: course.lectures.meetingInfo[i].daysTime.day = "Monday"; break;case 1: course.lectures.meetingInfo[i].daysTime.day = "Tuesday"; break; case 2: course.lectures.meetingInfo[i].daysTime.day= "Wednesday"; break; case 3: course.lectures.meetingInfo[i].daysTime.day = "Thursday"; break; case 4: course.lectures.meetingInfo[i].daysTime.day= "Friday"; break; case 5: course.lectures.meetingInfo[i].daysTime.day = "Saturday"; break; } %>
-                                                                <% switch (course.lectures.meetingInfo[i].daysTime.timeSlot.start) { case 1: course.lectures.meetingInfo[i].daysTime.timeSlot.start = "8:30"; break;case 2: course.lectures.meetingInfo[i].daysTime.timeSlot.start = "9:30"; break; case 3: course.lectures.meetingInfo[i].daysTime.timeSlot.start= "10:30"; break; case 4: course.lectures.meetingInfo[i].daysTime.timeSlot.start = "11:30"; break; case 5: course.lectures.meetingInfo[i].daysTime.timeSlot.start= "12:30"; break; case 6: course.lectures.meetingInfo[i].daysTime.timeSlot.start = "13:30"; break; case 7: course.lectures.meetingInfo[i].daysTime.timeSlot.start = "14:30"; break;case 8: course.lectures.meetingInfo[i].daysTime.timeSlot.start= "15:30"; break; case 9: course.lectures.meetingInfo[i].daysTime.timeSlot.start= "16:30"; break; case 10: course.lectures.meetingInfo[i].daysTime.timeSlot.start= "17:30"; break; case 11: course.lectures.meetingInfo[i].daysTime.timeSlot.start= "18:30"; break; case 12: course.lectures.meetingInfo[i].daysTime.timeSlot.start= "19:30"; break;case 13: course.lectures.meetingInfo[i].daysTime.timeSlot.start= "20:30"; break;case 14: course.lectures.meetingInfo[i].daysTime.timeSlot.start= "21:30"; break;} %>
-                                                                <% switch (course.lectures.meetingInfo[i].daysTime.timeSlot.end) { case 1: course.lectures.meetingInfo[i].daysTime.timeSlot.end = "8:45"; break;case 2: course.lectures.meetingInfo[i].daysTime.timeSlot.end = "9:45"; break; case 3: course.lectures.meetingInfo[i].daysTime.timeSlot.end= "10:45"; break; case 4: course.lectures.meetingInfo[i].daysTime.timeSlot.end = "11:45"; break; case 5: course.lectures.meetingInfo[i].daysTime.timeSlot.end= "12:45"; break; case 6: course.lectures.meetingInfo[i].daysTime.timeSlot.end = "13:45"; break; case 7: course.lectures.meetingInfo[i].daysTime.timeSlot.end = "14:45"; break;case 8: course.lectures.meetingInfo[i].daysTime.timeSlot.end= "15:45"; break; case 9: course.lectures.meetingInfo[i].daysTime.timeSlot.end= "16:45"; break; case 10: course.lectures.meetingInfo[i].daysTime.timeSlot.end= "17:45"; break; case 11: course.lectures.meetingInfo[i].daysTime.timeSlot.end= "18:45"; break; case 12: course.lectures.meetingInfo[i].daysTime.timeSlot.end= "19:45"; break;case 13: course.lectures.meetingInfo[i].daysTime.timeSlot.end= "20:45"; break;case 14: course.lectures.meetingInfo[i].daysTime.timeSlot.end= "21:45"; break;} %>
-                                                                <% course.lectures.meetingInfo[i].meetingDates.startDate = [(course.lectures.meetingInfo[i].meetingDates.startDate.getDate()),(course.lectures.meetingInfo[i].meetingDates.startDate.getMonth()+1),course.lectures.meetingInfo[i].meetingDates.startDate.getFullYear()].join('/'); %>
-                                                                <% course.lectures.meetingInfo[i].meetingDates.endDate = [(course.lectures.meetingInfo[i].meetingDates.endDate.getDate()),(course.lectures.meetingInfo[i].meetingDates.endDate.getMonth()+1),course.lectures.meetingInfo[i].meetingDates.endDate.getFullYear()].join('/'); %>
-                                                                <td class="cell100 column1"><%= course.lectures.meetingInfo[i].daysTime.day %> <%= course.lectures.meetingInfo[i].daysTime.timeSlot.start %> - <%= course.lectures.meetingInfo[i].daysTime.timeSlot.end %></td>
-                                                                <td class="cell100 column2"><%= course.lectures.meetingInfo[i].room %></td>
+                                                                <% switch (course.componentDict.LEC[0].meetingInfo[i].daysTime.day) { case 0: course.componentDict.LEC[0].meetingInfo[i].daysTime.day = "Monday"; break;case 1: course.componentDict.LEC[0].meetingInfo[i].daysTime.day = "Tuesday"; break; case 2: course.componentDict.LEC[0].meetingInfo[i].daysTime.day= "Wednesday"; break; case 3: course.componentDict.LEC[0].meetingInfo[i].daysTime.day = "Thursday"; break; case 4: course.componentDict.LEC[0].meetingInfo[i].daysTime.day= "Friday"; break; case 5: course.componentDict.LEC[0].meetingInfo[i].daysTime.day = "Saturday"; break; } %>
+                                                                <% switch (course.componentDict.LEC[0].meetingInfo[i].daysTime.timeSlot.start) { case 1: course.componentDict.LEC[0].meetingInfo[i].daysTime.timeSlot.start = "8:30"; break;case 2: course.componentDict.LEC[0].meetingInfo[i].daysTime.timeSlot.start = "9:30"; break; case 3: course.componentDict.LEC[0].meetingInfo[i].daysTime.timeSlot.start= "10:30"; break; case 4: course.componentDict.LEC[0].meetingInfo[i].daysTime.timeSlot.start = "11:30"; break; case 5: course.componentDict.LEC[0].meetingInfo[i].daysTime.timeSlot.start= "12:30"; break; case 6: course.componentDict.LEC[0].meetingInfo[i].daysTime.timeSlot.start = "13:30"; break; case 7: course.componentDict.LEC[0].meetingInfo[i].daysTime.timeSlot.start = "14:30"; break;case 8: course.componentDict.LEC[0].meetingInfo[i].daysTime.timeSlot.start= "15:30"; break; case 9: course.componentDict.LEC[0].meetingInfo[i].daysTime.timeSlot.start= "16:30"; break; case 10: course.componentDict.LEC[0].meetingInfo[i].daysTime.timeSlot.start= "17:30"; break; case 11: course.componentDict.LEC[0].meetingInfo[i].daysTime.timeSlot.start= "18:30"; break; case 12: course.componentDict.LEC[0].meetingInfo[i].daysTime.timeSlot.start= "19:30"; break;case 13: course.componentDict.LEC[0].meetingInfo[i].daysTime.timeSlot.start= "20:30"; break;case 14: course.componentDict.LEC[0].meetingInfo[i].daysTime.timeSlot.start= "21:30"; break;} %>
+                                                                <% switch (course.componentDict.LEC[0].meetingInfo[i].daysTime.timeSlot.end) { case 1: course.componentDict.LEC[0].meetingInfo[i].daysTime.timeSlot.end = "8:45"; break;case 2: course.componentDict.LEC[0].meetingInfo[i].daysTime.timeSlot.end = "9:45"; break; case 3: course.componentDict.LEC[0].meetingInfo[i].daysTime.timeSlot.end= "10:45"; break; case 4: course.componentDict.LEC[0].meetingInfo[i].daysTime.timeSlot.end = "11:45"; break; case 5: course.componentDict.LEC[0].meetingInfo[i].daysTime.timeSlot.end= "12:45"; break; case 6: course.componentDict.LEC[0].meetingInfo[i].daysTime.timeSlot.end = "13:45"; break; case 7: course.componentDict.LEC[0].meetingInfo[i].daysTime.timeSlot.end = "14:45"; break;case 8: course.componentDict.LEC[0].meetingInfo[i].daysTime.timeSlot.end= "15:45"; break; case 9: course.componentDict.LEC[0].meetingInfo[i].daysTime.timeSlot.end= "16:45"; break; case 10: course.componentDict.LEC[0].meetingInfo[i].daysTime.timeSlot.end= "17:45"; break; case 11: course.componentDict.LEC[0].meetingInfo[i].daysTime.timeSlot.end= "18:45"; break; case 12: course.componentDict.LEC[0].meetingInfo[i].daysTime.timeSlot.end= "19:45"; break;case 13: course.componentDict.LEC[0].meetingInfo[i].daysTime.timeSlot.end= "20:45"; break;case 14: course.componentDict.LEC[0].meetingInfo[i].daysTime.timeSlot.end= "21:45"; break;} %>
+                                                                <% course.componentDict.LEC[0].meetingInfo[i].meetingDates.startDate = [(course.componentDict.LEC[0].meetingInfo[i].meetingDates.startDate.getDate()),(course.componentDict.LEC[0].meetingInfo[i].meetingDates.startDate.getMonth()+1),course.componentDict.LEC[0].meetingInfo[i].meetingDates.startDate.getFullYear()].join('/'); %>
+                                                                <% course.componentDict.LEC[0].meetingInfo[i].meetingDates.endDate = [(course.componentDict.LEC[0].meetingInfo[i].meetingDates.endDate.getDate()),(course.componentDict.LEC[0].meetingInfo[i].meetingDates.endDate.getMonth()+1),course.componentDict.LEC[0].meetingInfo[i].meetingDates.endDate.getFullYear()].join('/'); %>
+                                                                <td class="cell100 column1"><%= course.componentDict.LEC[0].meetingInfo[i].daysTime.day %> <%= course.componentDict.LEC[0].meetingInfo[i].daysTime.timeSlot.start %> - <%= course.componentDict.LEC[0].meetingInfo[i].daysTime.timeSlot.end %></td>
+                                                                <td class="cell100 column2"><%= course.componentDict.LEC[0].meetingInfo[i].room %></td>
                                                                 <td class="cell100 column3"><%= course.instructor %></td>
-                                                                <td class="cell100 column4"><%= course.lectures.meetingInfo[i].meetingDates.startDate %>-<%= course.lectures.meetingInfo[0].meetingDates.endDate %></td>
+                                                                <td class="cell100 column4"><%= course.componentDict.LEC[0].meetingInfo[i].meetingDates.startDate %>-<%= course.componentDict.LEC[0].meetingInfo[0].meetingDates.endDate %></td>
                                                             </tr>
                                                             <% } %>
                                                         </tbody>
@@ -141,7 +140,7 @@
                                                 </div>
                                         </div>
                                     <% } %>
-                                    <% if(course.tutorials.length>0){ %>
+                                    <% if(course.componentDict.TUT.length>0){ %>
                                         <div class>
                                             <h3>Tutorials</h3>
                                             <div class="table100 ver2 m-b-110">
@@ -162,74 +161,22 @@
                                                 <div class="table100-body js-pscroll">
                                                     <table>
                                                         <tbody>
-                                                            <% for(var i=0;i<course.tutorials.length;i++){ %>
+                                                            <% for(var i=0;i<course.componentDict.TUT.length;i++){ %>
                                                             <tr class="row100 body">
-                                                                <td class="cell100 column1"><%= course.tutorials[i].sectionCode %></td>
-                                                                <% switch (course.tutorials[i].meetingInfo[0].daysTime.day) { case 0: course.tutorials[i].meetingInfo[0].daysTime.day = "Monday"; break;case 1: course.tutorials[i].meetingInfo[0].daysTime.day = "Tuesday"; break; case 2: course.tutorials[i].meetingInfo[0].daysTime.day= "Wednesday"; break; case 3: course.tutorials[i].meetingInfo[0].daysTime.day = "Thursday"; break; case 4: course.tutorials[i].meetingInfo[0].daysTime.day= "Friday"; break; case 5: course.tutorials[i].meetingInfo[0].daysTime.day = "Saturday"; break; } %>
-                                                                <% switch (course.tutorials[i].meetingInfo[0].daysTime.timeSlot.start) { case 1: course.tutorials[i].meetingInfo[0].daysTime.timeSlot.start = "8:30"; break;case 2: course.tutorials[i].meetingInfo[0].daysTime.timeSlot.start = "9:30"; break; case 3: course.tutorials[i].meetingInfo[0].daysTime.timeSlot.start= "10:30"; break; case 4: course.tutorials[i].meetingInfo[0].daysTime.timeSlot.start = "11:30"; break; case 5: course.tutorials[i].meetingInfo[0].daysTime.timeSlot.start= "12:30"; break; case 6: course.tutorials[i].meetingInfo[0].daysTime.timeSlot.start = "13:30"; break; case 7: course.tutorials[i].meetingInfo[0].daysTime.timeSlot.start = "14:30"; break;case 8: course.tutorials[i].meetingInfo[0].daysTime.timeSlot.start= "15:30"; break; case 9: course.tutorials[i].meetingInfo[0].daysTime.timeSlot.start= "16:30"; break; case 10: course.tutorials[i].meetingInfo[0].daysTime.timeSlot.start= "17:30"; break; case 11: course.tutorials[i].meetingInfo[0].daysTime.timeSlot.start= "18:30"; break; case 12: course.tutorials[i].meetingInfo[0].daysTime.timeSlot.start= "19:30"; break;case 13: course.tutorials[i].meetingInfo[0].daysTime.timeSlot.start= "20:30"; break;case 14: course.tutorials[i].meetingInfo[0].daysTime.timeSlot.start= "21:30"; break;} %>
-                                                                <% switch (course.tutorials[i].meetingInfo[0].daysTime.timeSlot.end) { case 1: course.tutorials[i].meetingInfo[0].daysTime.timeSlot.end = "8:45"; break;case 2: course.tutorials[i].meetingInfo[0].daysTime.timeSlot.end = "9:45"; break; case 3: course.tutorials[i].meetingInfo[0].daysTime.timeSlot.end= "10:45"; break; case 4: course.tutorials[i].meetingInfo[0].daysTime.timeSlot.end = "11:45"; break; case 5: course.tutorials[i].meetingInfo[0].daysTime.timeSlot.end= "12:45"; break; case 6: course.tutorials[i].meetingInfo[0].daysTime.timeSlot.end = "13:45"; break; case 7: course.tutorials[i].meetingInfo[0].daysTime.timeSlot.end = "14:45"; break;case 8: course.tutorials[i].meetingInfo[0].daysTime.timeSlot.end= "15:45"; break; case 9: course.tutorials[i].meetingInfo[0].daysTime.timeSlot.end= "16:45"; break; case 10: course.tutorials[i].meetingInfo[0].daysTime.timeSlot.end= "17:45"; break; case 11: course.tutorials[i].meetingInfo[0].daysTime.timeSlot.end= "18:45"; break; case 12: course.tutorials[i].meetingInfo[0].daysTime.timeSlot.end= "19:45"; break;case 13: course.tutorials[i].meetingInfo[0].daysTime.timeSlot.end= "20:45"; break;case 14: course.tutorials[i].meetingInfo[0].daysTime.timeSlot.end= "21:45"; break;} %>
-                                                                <% course.tutorials[i].meetingInfo[0].meetingDates.startDate = [(course.tutorials[i].meetingInfo[0].meetingDates.startDate.getDate()),(course.tutorials[i].meetingInfo[0].meetingDates.startDate.getMonth()+1),course.tutorials[i].meetingInfo[0].meetingDates.startDate.getFullYear()].join('/'); %>
-                                                                <% course.tutorials[i].meetingInfo[0].meetingDates.endDate = [(course.tutorials[i].meetingInfo[0].meetingDates.endDate.getDate()),(course.tutorials[i].meetingInfo[0].meetingDates.endDate.getMonth()+1),course.tutorials[i].meetingInfo[0].meetingDates.endDate.getFullYear()].join('/'); %>
-                                                                <td class="cell100 column2"><%= course.tutorials[i].meetingInfo[0].daysTime.day %> <%= course.tutorials[i].meetingInfo[0].daysTime.timeSlot.start %> -
-                                                                    <%= course.tutorials[i].meetingInfo[0].daysTime.timeSlot.end %></td>
-                                                                <td class="cell100 column3"><%= course.tutorials[i].meetingInfo[0].room %></td>
+                                                                <td class="cell100 column1"><%= course.componentDict.TUT[i].sectionCode %></td>
+                                                                <% switch (course.componentDict.TUT[i].meetingInfo[0].daysTime.day) { case 0: course.componentDict.TUT[i].meetingInfo[0].daysTime.day = "Monday"; break;case 1: course.componentDict.TUT[i].meetingInfo[0].daysTime.day = "Tuesday"; break; case 2: course.componentDict.TUT[i].meetingInfo[0].daysTime.day= "Wednesday"; break; case 3: course.componentDict.TUT[i].meetingInfo[0].daysTime.day = "Thursday"; break; case 4: course.componentDict.TUT[i].meetingInfo[0].daysTime.day= "Friday"; break; case 5: course.componentDict.TUT[i].meetingInfo[0].daysTime.day = "Saturday"; break; } %>
+                                                                <% switch (course.componentDict.TUT[i].meetingInfo[0].daysTime.timeSlot.start) { case 1: course.componentDict.TUT[i].meetingInfo[0].daysTime.timeSlot.start = "8:30"; break;case 2: course.componentDict.TUT[i].meetingInfo[0].daysTime.timeSlot.start = "9:30"; break; case 3: course.componentDict.TUT[i].meetingInfo[0].daysTime.timeSlot.start= "10:30"; break; case 4: course.componentDict.TUT[i].meetingInfo[0].daysTime.timeSlot.start = "11:30"; break; case 5: course.componentDict.TUT[i].meetingInfo[0].daysTime.timeSlot.start= "12:30"; break; case 6: course.componentDict.TUT[i].meetingInfo[0].daysTime.timeSlot.start = "13:30"; break; case 7: course.componentDict.TUT[i].meetingInfo[0].daysTime.timeSlot.start = "14:30"; break;case 8: course.componentDict.TUT[i].meetingInfo[0].daysTime.timeSlot.start= "15:30"; break; case 9: course.componentDict.TUT[i].meetingInfo[0].daysTime.timeSlot.start= "16:30"; break; case 10: course.componentDict.TUT[i].meetingInfo[0].daysTime.timeSlot.start= "17:30"; break; case 11: course.componentDict.TUT[i].meetingInfo[0].daysTime.timeSlot.start= "18:30"; break; case 12: course.componentDict.TUT[i].meetingInfo[0].daysTime.timeSlot.start= "19:30"; break;case 13: course.componentDict.TUT[i].meetingInfo[0].daysTime.timeSlot.start= "20:30"; break;case 14: course.componentDict.TUT[i].meetingInfo[0].daysTime.timeSlot.start= "21:30"; break;} %>
+                                                                <% switch (course.componentDict.TUT[i].meetingInfo[0].daysTime.timeSlot.end) { case 1: course.componentDict.TUT[i].meetingInfo[0].daysTime.timeSlot.end = "8:45"; break;case 2: course.componentDict.TUT[i].meetingInfo[0].daysTime.timeSlot.end = "9:45"; break; case 3: course.componentDict.TUT[i].meetingInfo[0].daysTime.timeSlot.end= "10:45"; break; case 4: course.componentDict.TUT[i].meetingInfo[0].daysTime.timeSlot.end = "11:45"; break; case 5: course.componentDict.TUT[i].meetingInfo[0].daysTime.timeSlot.end= "12:45"; break; case 6: course.componentDict.TUT[i].meetingInfo[0].daysTime.timeSlot.end = "13:45"; break; case 7: course.componentDict.TUT[i].meetingInfo[0].daysTime.timeSlot.end = "14:45"; break;case 8: course.componentDict.TUT[i].meetingInfo[0].daysTime.timeSlot.end= "15:45"; break; case 9: course.componentDict.TUT[i].meetingInfo[0].daysTime.timeSlot.end= "16:45"; break; case 10: course.componentDict.TUT[i].meetingInfo[0].daysTime.timeSlot.end= "17:45"; break; case 11: course.componentDict.TUT[i].meetingInfo[0].daysTime.timeSlot.end= "18:45"; break; case 12: course.componentDict.TUT[i].meetingInfo[0].daysTime.timeSlot.end= "19:45"; break;case 13: course.componentDict.TUT[i].meetingInfo[0].daysTime.timeSlot.end= "20:45"; break;case 14: course.componentDict.TUT[i].meetingInfo[0].daysTime.timeSlot.end= "21:45"; break;} %>
+                                                                <% course.componentDict.TUT[i].meetingInfo[0].meetingDates.startDate = [(course.componentDict.TUT[i].meetingInfo[0].meetingDates.startDate.getDate()),(course.componentDict.TUT[i].meetingInfo[0].meetingDates.startDate.getMonth()+1),course.componentDict.TUT[i].meetingInfo[0].meetingDates.startDate.getFullYear()].join('/'); %>
+                                                                <% course.componentDict.TUT[i].meetingInfo[0].meetingDates.endDate = [(course.componentDict.TUT[i].meetingInfo[0].meetingDates.endDate.getDate()),(course.componentDict.TUT[i].meetingInfo[0].meetingDates.endDate.getMonth()+1),course.componentDict.TUT[i].meetingInfo[0].meetingDates.endDate.getFullYear()].join('/'); %>
+                                                                <td class="cell100 column2"><%= course.componentDict.TUT[i].meetingInfo[0].daysTime.day %> <%= course.componentDict.TUT[i].meetingInfo[0].daysTime.timeSlot.start %> -
+                                                                    <%= course.componentDict.TUT[i].meetingInfo[0].daysTime.timeSlot.end %></td>
+                                                                <td class="cell100 column3"><%= course.componentDict.TUT[i].meetingInfo[0].room %></td>
                                                                 <td class="cell100 column4"><%= course.instructor %></td>
-                                                                <td class="cell100 column5"><%= course.tutorials[i].meetingInfo[0].meetingDates.startDate %> -
-                                                                    <%= course.tutorials[i].meetingInfo[0].meetingDates.endDate %></td>
+                                                                <td class="cell100 column5"><%= course.componentDict.TUT[i].meetingInfo[0].meetingDates.startDate %> -
+                                                                    <%= course.componentDict.TUT[i].meetingInfo[0].meetingDates.endDate %></td>
                                                             </tr>
                                                             <% } %>
-                                                        </tbody>
-                                                    </table>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    <% } %>
-                                    <% if(course.labs.length>0){ %>
-                                        <div class>
-                                            <h3>Labs</h3>
-                                            <div class="table100 ver2 m-b-110">
-                                                <div class="table100-head">
-                                                    <table>
-                                                        <thead>
-                                                            <tr class="row100 head">
-                                                                <th class="cell100 column1">Labs Section</th>
-                                                                <th class="cell100 column2">Days & Times</th>
-                                                                <th class="cell100 column3">Room</th>
-                                                                <th class="cell100 column4">Instructor</th>
-                                                                <th class="cell100 column5">Meeting Dates</th>
-                                                            </tr>
-                                                        </thead>
-                                                    </table>
-                                                </div>
-                                            
-                                                <div class="table100-body js-pscroll">
-                                                    <table>
-                                                        <tbody>
-                                                            <% for(var i=0;i<course.labs.length;i++){ %>
-                                                                <tr class="row100 body">
-                                                                    <td class="cell100 column1"></td>
-                                                                    <% switch (course.labs[i].meetingInfo[0].daysTime.day) { case 0: course.labs[i].meetingInfo[0].daysTime.day = "Monday"; break;case 1: course.labs[i].meetingInfo[0].daysTime.day = "Tuesday"; break; case 2: course.labs[i].meetingInfo[0].daysTime.day= "Wednesday"; break; case 3: course.labs[i].meetingInfo[0].daysTime.day = "Thursday"; break; case 4: course.labs[i].meetingInfo[0].daysTime.day= "Friday"; break; case 5: course.labs[i].meetingInfo[0].daysTime.day = "Saturday"; break; } %>
-                                                                    <% switch (course.labs[i].meetingInfo[0].daysTime.timeSlot.start) { case 1: course.labs[i].meetingInfo[0].daysTime.timeSlot.start = "8:30"; break;case 2: course.labs[i].meetingInfo[0].daysTime.timeSlot.start = "9:30"; break; case 3: course.labs[i].meetingInfo[0].daysTime.timeSlot.start= "10:30"; break; case 4: course.labs[i].meetingInfo[0].daysTime.timeSlot.start = "11:30"; break; case 5: course.labs[i].meetingInfo[0].daysTime.timeSlot.start= "12:30"; break; case 6: course.labs[i].meetingInfo[0].daysTime.timeSlot.start = "13:30"; break; case 7: course.labs[i].meetingInfo[0].daysTime.timeSlot.start = "14:30"; break;case 8: course.labs[i].meetingInfo[0].daysTime.timeSlot.start= "15:30"; break; case 9: course.labs[i].meetingInfo[0].daysTime.timeSlot.start= "16:30"; break; case 10: course.labs[i].meetingInfo[0].daysTime.timeSlot.start= "17:30"; break; case 11: course.labs[i].meetingInfo[0].daysTime.timeSlot.start= "18:30"; break; case 12: course.labs[i].meetingInfo[0].daysTime.timeSlot.start= "19:30"; break;case 13: course.labs[i].meetingInfo[0].daysTime.timeSlot.start= "20:30"; break;case 14: course.labs[i].meetingInfo[0].daysTime.timeSlot.start= "21:30"; break;} %>
-                                                                    <% switch (course.labs[i].meetingInfo[0].daysTime.timeSlot.end) { case 1: course.labs[i].meetingInfo[0].daysTime.timeSlot.end = "8:45"; break;case 2: course.labs[i].meetingInfo[0].daysTime.timeSlot.end = "9:45"; break; case 3: course.labs[i].meetingInfo[0].daysTime.timeSlot.end= "10:45"; break; case 4: course.labs[i].meetingInfo[0].daysTime.timeSlot.end = "11:45"; break; case 5: course.labs[i].meetingInfo[0].daysTime.timeSlot.end= "12:45"; break; case 6: course.labs[i].meetingInfo[0].daysTime.timeSlot.end = "13:45"; break; case 7: course.labs[i].meetingInfo[0].daysTime.timeSlot.end = "14:45"; break;case 8: course.labs[i].meetingInfo[0].daysTime.timeSlot.end= "15:45"; break; case 9: course.labs[i].meetingInfo[0].daysTime.timeSlot.end= "16:45"; break; case 10: course.labs[i].meetingInfo[0].daysTime.timeSlot.end= "17:45"; break; case 11: course.labs[i].meetingInfo[0].daysTime.timeSlot.end= "18:45"; break; case 12: course.labs[i].meetingInfo[0].daysTime.timeSlot.end= "19:45"; break;case 13: course.labs[i].meetingInfo[0].daysTime.timeSlot.end= "20:45"; break;case 14: course.labs[i].meetingInfo[0].daysTime.timeSlot.end= "21:45"; break;} %>
-                                                                    <% course.labs[i].meetingInfo[0].meetingDates.startDate = [(course.labs[i].meetingInfo[0].meetingDates.startDate.getDate()),(course.labs[i].meetingInfo[0].meetingDates.startDate.getMonth()+1),course.labs[i].meetingInfo[0].meetingDates.startDate.getFullYear()].join('/'); %>
-                                                                    <% course.labs[i].meetingInfo[0].meetingDates.endDate = [(course.labs[i].meetingInfo[0].meetingDates.endDate.getDate()),(course.labs[i].meetingInfo[0].meetingDates.endDate.getMonth()+1),course.labs[i].meetingInfo[0].meetingDates.endDate.getFullYear()].join('/'); %>
-                                                                    <td class="cell100 column2">
-                                                                        <%= course.labs[i].meetingInfo[0].daysTime.day %>
-                                                                            <%= course.labs[i].meetingInfo[0].daysTime.timeSlot.start %> -
-                                                                                <%= course.labs[i].meetingInfo[0].daysTime.timeSlot.end %>
-                                                                    </td>
-                                                                    <td class="cell100 column3">
-                                                                        <%= course.labs[i].meetingInfo[0].room %>
-                                                                    </td>
-                                                                    <td class="cell100 column4">
-                                                                        <%= course.instructor %>
-                                                                    </td>
-                                                                    <td class="cell100 column5">
-                                                                        <%= course.labs[i].meetingInfo[0].meetingDates.startDate %> -
-                                                                            <%= course.labs[i].meetingInfo[0].meetingDates.endDate %>
-                                                                    </td>
-                                                                </tr>
-                                                                <% } %>
                                                         </tbody>
                                                     </table>
                                                 </div>
@@ -253,74 +200,50 @@
                                     <span class="comments-sort-list">
                                         <span id="courseId" style="display: none;"><%= course._id %></span>
                                         <span>Last Updated: </span>
-                                        <% course.lectures.classAvail.updatedTime = [(course.lectures.classAvail.updatedTime.getDate()),(course.lectures.classAvail.updatedTime.getMonth()+1),course.lectures.classAvail.updatedTime.getFullYear()].join('/')+'  '+[(course.lectures.classAvail.updatedTime.getHours()),(course.lectures.classAvail.updatedTime.getMinutes()),course.lectures.classAvail.updatedTime.getSeconds()].join(':'); %>
-                                        <span><%= course.lectures.classAvail.updatedTime %></span>
+                                        <% course.componentDict.LEC[0].classAvail.updatedTime = [(course.componentDict.LEC[0].classAvail.updatedTime.getDate()),(course.componentDict.LEC[0].classAvail.updatedTime.getMonth()+1),course.componentDict.LEC[0].classAvail.updatedTime.getFullYear()].join('/')+'  '+[(course.componentDict.LEC[0].classAvail.updatedTime.getHours()),(course.componentDict.LEC[0].classAvail.updatedTime.getMinutes()),course.componentDict.LEC[0].classAvail.updatedTime.getSeconds()].join(':'); %>
+                                        <span><%= course.componentDict.LEC[0].classAvail.updatedTime %></span>
                                         <% if (sid != undefined){ %>
                                         <button class="btn btn-cute" id="refresh-waitingList">refresh</button>
                                         <% } %>
                                     </span>
                                 </div>
-                                <h3>Lectures</h3>
+                                <h3>componentDict.LEC[0]</h3>
                                 <div class="row">
                                     <div class="col-sm-4">
                                         <h4 class="courseinfo-border">Quota</h4>
                                         <span>
-                                            <%= course.lectures.classAvail.enrollTotal %> /
-                                                <%= course.lectures.classAvail.classCapacity %>
+                                            <%= course.componentDict.LEC[0].classAvail.enrollTotal %> /
+                                                <%= course.componentDict.LEC[0].classAvail.classCapacity %>
                                         </span>
                                     </div>
                                     <div class="col-sm-4">
                                         <h4 class="courseinfo-border">Waiting List</h4>
                                         <span>
-                                            <%= course.lectures.classAvail.waitListTotal %> /
-                                                <%= course.lectures.classAvail.waitListCapacity %>
+                                            <%= course.componentDict.LEC[0].classAvail.waitListTotal %> /
+                                                <%= course.componentDict.LEC[0].classAvail.waitListCapacity %>
                                         </span>
                                     </div>
                                 </div>
-                                <% if(course.tutorials.length>0){ %>
+                                <% if(course.componentDict.TUT.length>0){ %>
                                 <h3>Tutorials</h3>
-                                <% for(var i=0;i<course.tutorials.length;i++){ %>
+                                <% for(var i=0;i<course.componentDict.TUT.length;i++){ %>
                                 <div class="row">
                                     <div class="col-sm-4">
                                         <h4 class="courseinfo-border">Quota</h4>
                                         <span>
-                                            <%= course.tutorials[i].classAvail.enrollTotal %> /
-                                                <%= course.tutorials[i].classAvail.classCapacity %>
+                                            <%= course.componentDict.TUT[i].classAvail.enrollTotal %> /
+                                                <%= course.componentDict.TUT[i].classAvail.classCapacity %>
                                         </span>
                                     </div>
                                     <div class="col-sm-4">
                                         <h4 class="courseinfo-border">Waiting List</h4>
                                         <span>
-                                            <%= course.tutorials[i].classAvail.waitListTotal %> /
-                                                <%= course.tutorials[i].classAvail.waitListCapacity %>
+                                            <%= course.componentDict.TUT[i].classAvail.waitListTotal %> /
+                                                <%= course.componentDict.TUT[i].classAvail.waitListCapacity %>
                                         </span>
                                     </div>
                                 </div>
                                 <% } %>
-                                <% } %>
-                                <% if(course.labs.length>0){ %>
-                                    <h3>Labs</h3>
-                                    <% for(var i=0;i<course.labs.length;i++){ %>
-                                        <p>
-                                            <%= course.labs[i].classAvail %>
-                                        </p>
-                                        <div class="row">
-                                            <div class="col-sm-4">
-                                                <h4 class="courseinfo-border">Quota</h4>
-                                                <span>
-                                                    <%= course.labs[i].classAvail.enrollTotal %> /
-                                                        <%= course.labs[i].classAvail.classCapacity %>
-                                                </span>
-                                            </div>
-                                            <div class="col-sm-4">
-                                                <h4 class="courseinfo-border">Waiting List</h4>
-                                                <span>
-                                                    <%= course.labs[i].classAvail.waitListTotal %> /
-                                                        <%= course.labs[i].classAvail.waitListCapacity %>
-                                                </span>
-                                            </div>
-                                        </div>
-                                    <% } %>
                                 <% } %>
                             </section>
                             <section id="Comments">
@@ -377,6 +300,15 @@
                                                 <div class="comment-content"><%= course.comments[i].text %></div>
                                                 <div class="comment-mode">
                                                     <div class="comment-control">
+                                                        <div class="praise">
+                                                            <span id="praise">
+                                                                <img src="/img/unlike.png" id="praise-img" />
+                                                            </span>
+                                                            <span id="praise-txt">145</span>
+                                                            <span id="add-num">
+                                                                <em>+1</em>
+                                                            </span>
+                                                        </div>
                                                         <span>Rating: </span>
                                                         <span>
                                                             <%= course.comments[i].rating %>
