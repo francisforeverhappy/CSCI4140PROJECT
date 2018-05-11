@@ -26,7 +26,7 @@ $('#refresh-waitingList').on("click", function () {
             type: 'POST',
             success: function (result) {
                 // receive data
-                if (result.success == "false") {
+                if (result.success == false) {
                     alert(result.error);
                 }
                 else {
@@ -43,6 +43,8 @@ $('#refresh-waitingList').on("click", function () {
 var rating=3;
 $('#rating1,#rating2,#rating3,#rating4,#rating5').on('click',function(){
     $('#rating').val($(this).val());
+    $('#edit-rating').val($(this).val());
+    console.log($('#edit-rating').val());
 });
 
 //submit comment
@@ -59,7 +61,7 @@ $('#submit').on("click", function () {
             type: 'POST',
             success: function (result) {
                 // receive data
-                if(result.success == "false"){
+                if(result.success == false){
                     alert(result.error);
                 }
                 else{
@@ -94,7 +96,7 @@ $('#edit-submit').on("click", function () {
             type: 'POST',
             success: function (result) {
                 // receive data
-                if (result.success == "false") {
+                if (result.success == false) {
                     alert(result.error);
                 }
                 else {
@@ -116,7 +118,7 @@ $('#Delete').on("click", function () {
         type: 'POST',
         success: function (result) {
             // receive data
-            if (result.success == "false") {
+            if (result.success == false) {
                 alert(result.error);
             }
             else {
@@ -127,26 +129,58 @@ $('#Delete').on("click", function () {
 });
 
 //like and unlike
-$(function () {
-    $("#praise").click(function () {
-        var praise_img = $("#praise-img");
-        var text_box = $("#add-num");
-        var praise_txt = $("#praise-txt");
-        var num = parseInt(praise_txt.text());
-        if (praise_img.attr("src") == ("/img/like.png")) {
-            $(this).html("<img src='/img/unlike.png' id='praise-img' class='animation' />");
-            praise_txt.removeClass("hover");
-            text_box.show().html("<em class='add-animation'>-1</em>");
-            $(".add-animation").removeClass("hover");
-            num -= 1;
-            praise_txt.text(num);
-        } else {
-            $(this).html("<img src='/img/like.png' id='praise-img' class='animation' />");
-            praise_txt.addClass("hover");
-            text_box.show().html("<em class='add-animation'>+1</em>");
-            $(".add-animation").addClass("hover");
-            num += 1;
-            praise_txt.text(num);
-        }
-    });
+$(".img-praise").on('click',function () {
+    var commentId = $(this).siblings('.CommentId').val();
+    var praise_img = $(this).children();
+    var praise_txt = $(this).siblings(".praise-txt");
+    var num = parseInt(praise_txt.text());
+    if (praise_img.attr("src") == ("/img/like.png")) {
+        $.ajax({
+            contentType: 'application/json',
+            data: JSON.stringify({ "commentId": commentId }),
+            url: '/comment/devote',
+            type: 'POST',
+            success: function (result) {
+                // receive data
+                //console.log(result);
+                if (!(result.success)) {
+                    // reload
+                    alert("Please login first. Thank you.");
+                }
+                else if (result.success == false) {
+                    alert(result.error);
+                }
+                else if (result.success == true){
+                    $(".img-praise").html("<img src='/img/unlike.png' class='praise-img' />");
+                    $(".img-praise").siblings(".praise-txt").html(num-1);
+                    // console.log("devote");
+                    // console.log($(".img-praise").html());
+                }
+            }
+        });
+    } else {
+        $.ajax({
+            contentType: 'application/json',
+            data: JSON.stringify({ "commentId": commentId }),
+            url: '/comment/vote',
+            type: 'POST',
+            success: function (result) {
+                // receive data
+                //console.log(result);
+                if (!(result.success)) {
+                    // reload
+                    alert("Please login first. Thank you.");
+                }
+                else if (result.success == false) {
+                    alert(result.error);
+                }
+                else if (result.success == true){
+                    $(".img-praise").html("<img src='/img/like.png' class='praise-img' />");
+                    $(".img-praise").siblings(".praise-txt").html(num + 1);
+                    // console.log("vote");
+                    // console.log($(".img-praise").html());
+                }
+            }
+        });
+    }
 });

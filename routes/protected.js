@@ -24,6 +24,7 @@ router.post('/getWait', middleware.checkLogin, middleware.asyncMiddleware(async 
     let term = semDir[course.semester]
     let pythonProcess = spawn('python', ['support/py/getWait.py', sid, pwd, term, course.courseCode]);
     pythonProcess.stdout.on('data', async (data) => {
+        console.log('data got');
         let obj = JSON.parse(data.toString());
         let sections = await Promise.all(obj.map(async (section) => { 
             let conditions = {
@@ -47,11 +48,8 @@ router.post('/getWait', middleware.checkLogin, middleware.asyncMiddleware(async 
             let sectionb = await Section.findOneAndUpdate(conditions, update, options).catch((error) => {
                 console.log(error);
             });
-            
-            console.log('section')
             return sectionb;
         }));
-        console.log('back');
         return res.send({success: true});
     });
 }));
@@ -80,9 +78,19 @@ router.get('/import', middleware.checkLogin, middleware.asyncMiddleware(async (r
         let courseArray = JSON.parse(data.toString());
         let courses = courseArray.map(async (courseInfo) => {
             let courseCode = courseInfo['courseCode'];
-            let course = await Course.findOne({courseCode: courseCode, semester: semester}, courseMessage).lean();
+            let tmpCourses = await Course.find({courseCode: courseCode, semester: semester}, courseMessage).lean();
+            let course = false;
+            for (let k = 0; k < tmpCourses.length; k++) {
+                if (courseInfo['info'][0]['sectionCode'].indexOf(tmpCourses[k].sectionCode) == 0) {
+                    course = tmpCourses[k];
+                    break;
+                }
+            }
+            if (!course) {
+                console.log(tmpCourses[0].sectionCode);
+                console.log(courseInfo['info'][0]['courseComponent']);
+            }
             for (component in course.componentDict) {
-                
                 let tmp_component = component;
                 let tmp = await Section.find({'_id': {$in: course.componentDict[component]}}, sectionMessage).lean();
                 course.componentDict[tmp_component] = tmp.map(groupSection); 
@@ -94,18 +102,22 @@ router.get('/import', middleware.checkLogin, middleware.asyncMiddleware(async (r
                 let courseComponent = section['courseComponent'];
                 let sectionCode = section['sectionCode'];
                 let regex = new RegExp(sectionCode, 'i');
-
                 for (let j = 0; j < course.componentDict[courseComponent].length; j++) {
                     let sect = course.componentDict[courseComponent][j];
+                    if (courseComponent == 'CLW') {
+                        // console.log(course.componentDict['CLW']);
+                    }
                     if (regex.test(sect.sectionCode)){
                         course.compDictSelected[courseComponent] = j;
                         break;
                     }
+                      
                 }
             }
             return course;
         }); 
         courses = await Promise.all(courses);
+        console.log('import done with courses ' + courses.length);
         return res.send({sid: req.session.sid, courses: courses});
     });
 }));

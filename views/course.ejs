@@ -2,6 +2,7 @@
 <html>
 <head>
     <title>CUTE</title>
+
     <meta name="format-detection" content="telephone=no" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <link rel='stylesheet' href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
@@ -11,6 +12,7 @@
     <link rel='stylesheet' href='/stylesheets/course.css'>
     <link rel="stylesheet" href="/stylesheets/util.css">
     <link rel="stylesheet" href="/stylesheets/meetingtable.css">
+    <link rel="stylesheet" href="/stylesheets/like.css">
     <script type="text/javascript" src="/javascripts/jquery-3.3.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
         crossorigin="anonymous"></script>
@@ -20,25 +22,33 @@
 
 <body>
     <nav class="nav">
-        <a class="logo">CUTE</a>
+        <a href="/" class="logo">CUTE</a>
         <% if(sid == undefined){ %>
-            <button class="nav-button" data-toggle="modal" data-target="#loginModal">
+            <button class="clickable-btn" data-toggle="modal" data-target="#loginModal">
                 <span aria-hidden="true">
                     <i class="ion-log-in"></i>
                 </span> Login
             </button>
             <% } else { %>
-                <button class="nav-button" id="student-id">
-                    <span aria-hidden="true">
-                        <i class="ion-ios-person"></i>
-                    </span>
-                    <%= sid %>
-                </button>
-                <button class="nav-button" onclick="window.location.href='/logout'">
-                    <span aria-hidden="true">
-                        <i class="ion-log-out"></i>
-                    </span> Logout
-                </button>
+                <div class="dropdown">
+                    <button type="button" class="clickable-btn" id="student-id">
+                        <span aria-hidden="true">
+                            <i class="ion-ios-person"></i>
+                        </span>
+                        <%= sid %>
+                    </button>
+                    <div class="dropdown-list" aria-labelledby="student-id">
+                        <a href="#" class="clickable-btn" id="import-btn">
+                            <span aria-hidden="true">
+                                <i class="ion-ios-download-outline"></i>
+                            </span> Import Timetable</a>
+                        <br>
+                        <a href="/logout" class="clickable-btn">
+                            <span aria-hidden="true">
+                                <i class="ion-log-out"></i>
+                            </span> Logout</a>
+                    </div>
+                </div>
                 <% } %>
     </nav>
     <div class = "main-container">
@@ -49,7 +59,27 @@
                         <div class="col-md-9">
                             <div id="Details">
                                 <header class="course-header">
-                                    <a class="link link--kukuri" href="#" data-letters=<%= course.courseCode %>><%= course.courseCode %></a>
+                                    <p>
+                                        <% if('previous' in course){ %>
+                                        <script>
+                                        function previous() {
+                                            id = "<%= course.previous %>"
+                                            window.location.href = String(id);
+                                        }
+                                        </script>
+                                        <button class="button1" style="vertical-align:text-bottom" onclick="previous()"><span>Last</span></button>
+                                        <% } %>
+                                      <a class="link link--kukuri" href="#" data-letters=<%= course.courseCode %>><%= course.courseCode %></a>
+                                        <% if('after' in course){ %>
+                                        <script>
+                                        function after() {
+                                            id = "<%= course.after %>"
+                                            window.location.href = String(id);
+                                        }
+                                        </script>
+                                        <button class="button2" style="vertical-align:text-bottom" onclick="after()"><span>Next</span></button>
+                                        <% } %>
+                                    </p>
                                     <h2>
                                         <%= course.courseName %>
                                     </h2>
@@ -301,14 +331,17 @@
                                                 <div class="comment-mode">
                                                     <div class="comment-control">
                                                         <div class="praise">
-                                                            <span id="praise">
-                                                                <img src="/img/unlike.png" id="praise-img" />
+                                                            <input class="CommentId" value=<%= course.comments[i]._id %> style="display: none;">
+                                                            <span class="img-praise">
+                                                                <% if( course.comments[i].numVotes>0 && course.comments[i].voters.indexOf(sid)>=0){ %>
+                                                                    <img src="/img/like.png" class="praise-img" />
+                                                                <% }else{ %>
+                                                                    <img src="/img/unlike.png" class="praise-img"/>
+                                                                <% } %>
                                                             </span>
-                                                            <span id="praise-txt">145</span>
-                                                            <span id="add-num">
-                                                                <em>+1</em>
-                                                            </span>
+                                                            <span class="praise-txt"><%= course.comments[i].numVotes %></span>
                                                         </div>
+                                                        <div class="rating-info">
                                                         <span>Rating: </span>
                                                         <span>
                                                             <%= course.comments[i].rating %>
@@ -322,6 +355,7 @@
                                                         <span class="comment-section">
                                                             <%= course.comments[i].sectionCode %>
                                                         </span>
+                                                        </div>
                                                     </div>
                                                     <div class="time-section">
                                                         <span class="comment-time"><%= course.comments[i].time %></span>
@@ -393,13 +427,12 @@
             </div>
         </main>
     </div>
-
     <!-- Modal -->
     <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="loginModalLabel">Login</h5>
+                    <h5 class="modal-title" id="loginModalLabel">Login with CWEM</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">
                             <i class="ion-ios-close-outline"></i>
@@ -407,19 +440,20 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    <form method="POST" action="/login" id="login-form">
-                        <div class="login-input input-box">
-                            <i class="ion-ios-person-outline"></i>
-                            <input type="text" name="sid" placeholder="11550xxxxx">
-                        </div>
-                        <div class="login-input input-box">
-                            <i class="ion-ios-keypad-outline"></i>
-                            <input type="password" name="pwd" placeholder="password">
-                        </div>
-                    </form>
+                    <!-- <form method="POST" action="/login" id="login-form"> -->
+                    <div id="login-warning">Login fail! Please try it again.</div>
+                    <div class="login-input input-box">
+                        <i class="ion-ios-person-outline"></i>
+                        <input id="sid-input" type="text" name="sid" placeholder="11550xxxxx">
+                    </div>
+                    <div class="login-input input-box">
+                        <i class="ion-ios-keypad-outline"></i>
+                        <input id="pwd-input" type="password" name="pwd" placeholder="Your CWEM Password">
+                    </div>
+                    <!-- </form> -->
                 </div>
                 <div class="modal-footer">
-                    <button type="submit" form="login-form" value="Submit" class="btn btn-cute">Login</button>
+                    <button type="submit" id="login-btn" class="btn btn-cute">Login</button>
                 </div>
             </div>
         </div>
@@ -427,3 +461,4 @@
 </body>
 </html>
 <script type="text/javascript" src="/javascripts/course.js"></script>
+<script type="text/javascript" src="/javascripts/index.js"></script>

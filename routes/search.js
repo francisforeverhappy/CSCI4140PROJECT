@@ -17,7 +17,7 @@ router.post('/', middleware.asyncMiddleware(async (req, res) => {
     console.log('post /search');
     let courseInfo = req.body.key;
     let regex = new RegExp(courseInfo, 'i');
-    let courses = await Course.find({$or: [{courseCode: {$regex: regex}}, {courseName: {$regex: regex}}]}, 'courseCode courseName classDetails.units sectionCode').limit(100);
+    let courses = await Course.find({$or: [{courseCode: {$regex: regex}}, {courseName: {$regex: regex}}]}, 'courseCode courseName classDetails.units sectionCode', {sort: {avgRating: -1}}).limit(100);
     res.send({sid: req.session.sid, courses: courses});  
 }));
 
@@ -46,6 +46,7 @@ router.get('/:courseId', middleware.asyncMiddleware(async (req, res) => {
     console.log('get /search/:courseId');
     let courseId = req.params.courseId;
     let course = await Course.findById(courseId).lean();
+
     for (component in course.componentDict) {
         course.componentDict[component] = await Section.find({'_id': {$in: course.componentDict[component]}}).lean();
     }
@@ -55,22 +56,21 @@ router.get('/:courseId', middleware.asyncMiddleware(async (req, res) => {
         comment.time = new Date(comment.time).toLocaleString();
         return comment;
     });
-    secCode = String(course.sectionCode);
 
-    preSecCode = secCode.slice(0, -1) + String.fromCharCode(secCode.charCodeAt(secCode.length - 1) - 1);
-    previous = await Course.findOne({courseCode: course.courseCode, semester: course.semester, sectionCode: preSecCode}, '_id');
-    aftrSecCode = secCode.slice(0, -1) + String.fromCharCode(secCode.charCodeAt(secCode.length - 1) + 1);
-    after = await Course.findOne({courseCode: course.courseCode, semester: course.semester, sectionCode: aftrSecCode}, '_id');
-    
-    if (previous) {
-        course.previous = previous._id;
-    }
+    let courses = await Course.find({courseCode: course.courseCode, semester: course.semester}, '_id', {sort: {sectionCode: 1}});
 
-    if (after) {
-        course.after = after._id;
+    for (let i = 0; i < courses.length; i++) {
+        if (String(courses[i]._id) == String(course._id)) {
+            if (i > 0) {
+                course.previous = courses[i-1]._id;
+            }
+            if (i < courses.length - 1) {
+                course.after = courses[i+1]._id;
+            }
+            break;
+        }
     }
     return res.render('course', {sid: req.session.sid, course: course});
-
 }));
 
 module.exports = router;
