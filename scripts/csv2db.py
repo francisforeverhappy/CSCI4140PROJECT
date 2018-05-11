@@ -87,10 +87,10 @@ def main():
 					course['labs'].append(section_id)
 
 				if str(df['Section Code']) == 'nan':
-					df['Section Code'] = None
-				elif df['Section Code'] != '' and df['Section Code'][0] == '-':
+						df['Section Code'] = None
+				elif df['Section Code'] and df['Section Code'] != '' and df['Section Code'][0] == '-':
 					df['Section Code'] = df['Section Code'][1:]
-
+			
 				section = {
 					"courseCode": classcode,
 					"semester": addinforow['semester'],
@@ -143,6 +143,10 @@ def main():
 				df['Section Code'] = ''
 
 			df['Teaching Staff'] = ', '.join(df["Teaching Staff"][2:].split(' - '))
+			if str(df['Section Code']) == 'nan':
+					df['Section Code'] = None
+			elif df['Section Code'] and df['Section Code'] != '' and df['Section Code'][0] == '-':
+				df['Section Code'] = df['Section Code'][1:]
 			course = {
 				"courseCode": classcode,
 				"courseName": df['Course Title'],
@@ -167,8 +171,8 @@ def main():
 			}
 
 			if str(df['Section Code']) == 'nan':
-				df['Section Code'] = None
-			elif df['Section Code'] != '' and df['Section Code'][0] == '-':
+					df['Section Code'] = None
+			elif df['Section Code'] and df['Section Code'] != '' and df['Section Code'][0] == '-':
 				df['Section Code'] = df['Section Code'][1:]
 			section = {
 				"courseCode": classcode,

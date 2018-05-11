@@ -89,7 +89,7 @@ router.get('/import', middleware.checkLogin, middleware.asyncMiddleware(async (r
                 Section.find({'_id': {$in: course.tutorials}}, sectionMessage).lean(),
                 Section.find({'_id': {$in: course.labs}}, sectionMessage).lean()]);
 
-            if (course.lec) {
+            if (course.lectures) {
                 course.lectures.meetingInfo = flatten(groupArray(course.lectures.meetingInfo, 'daysTime.day', 'daysTime.timeSlot.start', 'daysTime.timeSlot.end', 'room'), {maxDepth: 4});
             }
             course.tutorials = course.tutorials.map(groupSection);
