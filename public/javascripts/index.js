@@ -286,7 +286,7 @@ $("#export-btn").on("click", function(){
 //import handler
 $("#import-btn").on("click", function(){
 	$('#loading').show();
-	$.ajax({
+	$.when($.ajax({
 		contentType: 'application/json',
 		url: '/protected/import',
 		type: 'GET',
@@ -302,8 +302,10 @@ $("#import-btn").on("click", function(){
 				selectCourse(selectedCourse[id].course, selectedCourse[id].select);
 		  });
 		}
+	})).done(function(){
+		$('#loading').hide();
+		console.log("here")
 	});
-	$('#loading').hide();
 });
 
 $("#login-btn").on("click", function(){
