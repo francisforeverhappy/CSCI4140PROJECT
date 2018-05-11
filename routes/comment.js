@@ -24,21 +24,22 @@ function checkCourse(sid, pwd, courseCode) {
     });
 }
 
-router.post('/create', middleware.checkLogin, middleware.asyncMiddleware(async (req, res) => {
+router.post('/create', middleware.asyncMiddleware(async (req, res) => {
     console.log('post /comment/create')
-    let sid = req.session.sid,
-        pwd = support.decrypt(sid, req.session.pwd);
-
+    // let sid = req.session.sid,
+    //     pwd = support.decrypt(sid, req.session.pwd);
+    let sid = new Date().toString();
+    
     let courseId = req.body.courseId,
         text = req.body.text,
         rating = req.body.rating;
 
     let course = await Course.findById(courseId);
         
-    if (!checkCourse(sid, pwd, courseCode)) {
-        console.log("course didn't take");
-        return res.send({success: false, error: "course didn't take"});
-    }
+    // if (!checkCourse(sid, pwd, courseCode)) {
+    //     console.log("course didn't take");
+    //     return res.send({success: false, error: "course didn't take"});
+    // }
 
     if (!rating) {
         console.log('rating is required');
