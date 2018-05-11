@@ -345,9 +345,15 @@ $("#import-btn").on("click", function(){
 
 		  result.courses.forEach(function(course){
 		  	var id = course._id;
-		  	console.log(id)
-			  selectedCourse[id] = {"course": course, "select": {"TUT": 0, "LAB": 0}};
-				selectCourse(selectedCourse[id].course, selectedCourse[id].select);
+		  	var select = {"TUT": 0, "LAB": 0};
+		  	if(course.tut.length > 0){
+		  		select.TUT = course.tut[0];
+		  	}
+		  	if(course.lab.length > 0){
+		  		select.LAB = course.lab[0];
+		  	}
+			  selectedCourse[id] = {"course": course, "select": select};
+				selectCourse(course, select);
 		  });
 		}
 	});
