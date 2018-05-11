@@ -2,6 +2,7 @@
 <html>
 <head>
     <title>CUTE</title>
+
     <meta name="format-detection" content="telephone=no" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <link rel='stylesheet' href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
@@ -49,7 +50,27 @@
                         <div class="col-md-9">
                             <div id="Details">
                                 <header class="course-header">
-                                    <a class="link link--kukuri" href="#" data-letters=<%= course.courseCode %>><%= course.courseCode %></a>
+                                    <p>
+                                        <% if('previous' in course){ %>
+                                        <script>
+                                        function previous() {
+                                            id = "<%= course.previous %>"
+                                            window.location.href = String(id);
+                                        }
+                                        </script>
+                                        <button class="button1" style="vertical-align:text-bottom" onclick="previous()"><span>Last</span></button>
+                                        <% } %>
+                                      <a class="link link--kukuri" href="#" data-letters=<%= course.courseCode %>><%= course.courseCode %></a>
+                                        <% if('after' in course){ %>
+                                        <script>
+                                        function after() {
+                                            id = "<%= course.after %>"
+                                            window.location.href = String(id);
+                                        }
+                                        </script>
+                                        <button class="button2" style="vertical-align:text-bottom" onclick="after()"><span>Next</span></button>
+                                        <% } %>
+                                    </p>
                                     <h2>
                                         <%= course.courseName %>
                                     </h2>
