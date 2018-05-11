@@ -331,7 +331,6 @@
                                                 <div class="comment-mode">
                                                     <div class="comment-control">
                                                         <div class="praise">
-                                                            <% console.log(course.comments[i].voters); %>
                                                             <input class="CommentId" value=<%= course.comments[i]._id %> style="display: none;">
                                                             <span class="img-praise">
                                                                 <% if( course.comments[i].numVotes>0 && course.comments[i].voters.indexOf(sid)>=0){ %>
@@ -428,13 +427,12 @@
             </div>
         </main>
     </div>
-
     <!-- Modal -->
     <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="loginModalLabel">Login</h5>
+                    <h5 class="modal-title" id="loginModalLabel">Login with CWEM</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">
                             <i class="ion-ios-close-outline"></i>
@@ -442,19 +440,20 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    <form method="POST" action="/login" id="login-form">
-                        <div class="login-input input-box">
-                            <i class="ion-ios-person-outline"></i>
-                            <input type="text" name="sid" placeholder="11550xxxxx">
-                        </div>
-                        <div class="login-input input-box">
-                            <i class="ion-ios-keypad-outline"></i>
-                            <input type="password" name="pwd" placeholder="password">
-                        </div>
-                    </form>
+                    <!-- <form method="POST" action="/login" id="login-form"> -->
+                    <div id="login-warning">Login fail! Please try it again.</div>
+                    <div class="login-input input-box">
+                        <i class="ion-ios-person-outline"></i>
+                        <input id="sid-input" type="text" name="sid" placeholder="11550xxxxx">
+                    </div>
+                    <div class="login-input input-box">
+                        <i class="ion-ios-keypad-outline"></i>
+                        <input id="pwd-input" type="password" name="pwd" placeholder="Your CWEM Password">
+                    </div>
+                    <!-- </form> -->
                 </div>
                 <div class="modal-footer">
-                    <button type="submit" form="login-form" value="Submit" class="btn btn-cute">Login</button>
+                    <button type="submit" id="login-btn" class="btn btn-cute">Login</button>
                 </div>
             </div>
         </div>
@@ -462,3 +461,4 @@
 </body>
 </html>
 <script type="text/javascript" src="/javascripts/course.js"></script>
+<script type="text/javascript" src="/javascripts/index.js"></script>

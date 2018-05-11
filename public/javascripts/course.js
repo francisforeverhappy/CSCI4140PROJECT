@@ -142,10 +142,15 @@ $(".img-praise").on('click',function () {
             type: 'POST',
             success: function (result) {
                 // receive data
-                if (result.success == false) {
+                //console.log(result);
+                if (!(result.success)) {
+                    // reload
+                    alert("Please login first. Thank you.");
+                }
+                else if (result.success == false) {
                     alert(result.error);
                 }
-                else {
+                else if (result.success == true){
                     $(".img-praise").html("<img src='/img/unlike.png' class='praise-img' />");
                     $(".img-praise").siblings(".praise-txt").html(num-1);
                     // console.log("devote");
@@ -161,10 +166,15 @@ $(".img-praise").on('click',function () {
             type: 'POST',
             success: function (result) {
                 // receive data
-                if (result.success == false) {
+                //console.log(result);
+                if (!(result.success)) {
+                    // reload
+                    alert("Please login first. Thank you.");
+                }
+                else if (result.success == false) {
                     alert(result.error);
                 }
-                else {
+                else if (result.success == true){
                     $(".img-praise").html("<img src='/img/like.png' class='praise-img' />");
                     $(".img-praise").siblings(".praise-txt").html(num + 1);
                     // console.log("vote");
