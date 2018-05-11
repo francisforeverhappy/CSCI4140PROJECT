@@ -209,39 +209,5 @@ router.get('/deleteAll', (req, res) => {
     });
 });
 
-router.get('/testCases', (req, res) => {
-    Comment.collection.drop();
-    for (let i = 0; i < 100; i++) {
-        Course.count().exec(function (err, count) {
-            // Get a random entry
-            let random = Math.floor(Math.random() * count)
-            let tmpMessage = 'comment: ' + i;
-            // Again query all users but only fetch one offset by our random #
-            Course.findOne().skip(random)
-                .exec((err, course) => {
-                    let commentObj = {
-                        _id: mongoose.Types.ObjectId(),
-                        courseCode: course.courseCode,
-                        semester: course.semester,
-                        sectionCode: course.sectionCode,
-                        time: new Date().toISOString(),
-                        text: tmpMessage,
-                        author: "1155076990",
-                        rating: Math.floor(Math.random() * 5 + 1)
-                    }
-
-                    let newComment = new Comment(commentObj);
-                    newComment.save();
-                    console.log('save ' + tmpMessage);
-                });
-            });
-    }
-});
-
-router.get('/test', (req, res) => {
-    Comment.find({}, (err, res) => {
-        console.log(res);
-    });
-});
 
 module.exports = router;
