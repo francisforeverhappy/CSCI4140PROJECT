@@ -32,7 +32,22 @@ def browse_scheduler(index):
 componentDir = {
     'Lecture': 'LEC',
     'Tutorial': 'TUT',
-    'Laboratory': 'LAB'
+    'Laboratory': 'LAB',
+    'Assembly': 'ASB',
+    'Classwork': 'CLW',
+    'Debate': 'NAN',
+    'Discussion': 'DIS',
+    'Exercise': 'EXR',
+    'Field Studies/Field-trip': 'FLD',
+    'Independent Study': 'IND',
+    'Others': 'OTH', 
+    'Practicum': 'PRA',
+    'Project': 'PRJ',
+    'Seminar': 'SEM',
+    'Studio': 'STD',
+    'Thesis Monitoring Course': 'TMC',
+    'Web-enhanced': 'WBL',
+    'Workshop': 'WKS'
 }
 
 # DERIVED_SSS_SCT_SSR_PB_GO

@@ -11,6 +11,12 @@ var commentSchema = mongoose.Schema({
     rating: {
         type: Number,
         required: true
+    },
+
+    voters: [String],
+    numVotes: {
+        type: Number,
+        default: 0
     }
 });
 

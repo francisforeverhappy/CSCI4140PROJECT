@@ -22,20 +22,7 @@ var courseSchema = mongoose.Schema({
         classAttr: String
     },
 
-    lectures: {
-        type: mongoose.Schema.Types.ObjectId,
-        ref: "Section"
-    },
-
-    tutorials: [{
-        type: mongoose.Schema.Types.ObjectId,
-        ref: "Section"
-    }],
-
-    labs: [{
-        type: mongoose.Schema.Types.ObjectId,
-        ref: "Section"
-    }],
+    componentDict: {}, 
 
     avgRating: {
         type: Number,

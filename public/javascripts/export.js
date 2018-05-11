@@ -30,9 +30,10 @@ function exportToCal(info){
         let title = course.courseCode + course.sectionCode;
         let name = course.courseName;
 
-        if(course.lectures != null){
-            for(var i in course.lectures.meetingInfo){
-                let record = course.lectures.meetingInfo[i][0];
+        for(var type in course.componentDict){
+            let component = course.componentDict[type][select[type]];
+            for(var i in component.meetingInfo){
+                let record = component.meetingInfo[i][0];
                 let starttime = record.meetingDates.startDate.slice(0,11) + timeMap[record.daysTime.timeSlot.start] + ":30:00";
                 let endtime = record.meetingDates.startDate.slice(0,11) + timeMap[record.daysTime.timeSlot.end] + ":15:00";
                 let rrule = {
@@ -40,34 +41,10 @@ function exportToCal(info){
                     "until" : getNextDate(record.meetingDates.endDate)
                 };
                 cal.addEvent(title, name, record.room, starttime, endtime, rrule);
-            };
-        }
-
-        if(course.tutorials.length > 0){
-            for(var i in course.tutorials[select.TUT].meetingInfo){
-                let record = course.tutorials[select.TUT].meetingInfo[i][0];
-                let starttime = record.meetingDates.startDate.slice(0,11) + timeMap[record.daysTime.timeSlot.start] + ":30:00";
-                let endtime = record.meetingDates.startDate.slice(0,11) + timeMap[record.daysTime.timeSlot.end] + ":15:00";
-                let rrule = {
-                    freq : "WEEKLY",
-                    until : getNextDate(record.meetingDates.endDate)
-                };
-                cal.addEvent(title, name, record.room, starttime, endtime, rrule);
-            };
-        }
-
-        if(course.labs.length > 0){
-            for(var i in course.labs[select.LAB].meetingInfo){
-                let record = course.labs[select.LAB].meetingInfo[i][0];
-                let starttime = record.meetingDates.startDate.slice(0,11) + timeMap[record.daysTime.timeSlot.start] + ":30:00";
-                let endtime = record.meetingDates.startDate.slice(0,11) + timeMap[record.daysTime.timeSlot.end] + ":15:00";
-                let rrule = {
-                    freq : "WEEKLY",
-                    until : getNextDate(record.meetingDates.endDate)
-                };
-                cal.addEvent(title, name, record.room, starttime, endtime, rrule);
-            };
+            }
         }
     }
+
+    // console.log(cal.calendar());
     cal.download("CUTE Timetable");
 }
