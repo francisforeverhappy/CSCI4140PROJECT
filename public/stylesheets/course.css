@@ -261,7 +261,7 @@ table.altrowstable td {
     display:inline-block;
 }
 .triangle-down { 
-    width: 0; 
+    width: 0;
     height: 0; 
     border-left: 10px solid transparent; 
     border-right: 10px solid transparent; 
@@ -297,6 +297,15 @@ table.altrowstable td {
     position: relative;
 }
 .comment-respond #write-comment{
+    width: 800px;
+    height: 135px;
+    resize: none;
+    border-width: 0px;
+}
+.edit-form{
+    display:none;
+}
+#edit-comment{
     width: 800px;
     height: 135px;
     resize: none;

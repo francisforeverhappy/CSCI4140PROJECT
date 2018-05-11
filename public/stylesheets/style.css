@@ -23,7 +23,7 @@ a {
 @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
 
 [data-select=false] {
-  opacity: 0.5;
+  opacity: 0.7;
 }
 
 
@@ -37,8 +37,10 @@ a {
   background-color: linen
 }
 
-.logo{
+a.logo{
 	margin: auto auto auto 1rem;
+  text-decoration: none;
+  color: #21252F;
 }
 
 .nav button{
@@ -369,3 +371,4 @@ template{
 .col-md-8{
   height: -webkit-fill-available;
 }
+

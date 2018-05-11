@@ -49,8 +49,12 @@ router.get('/:courseId', middleware.asyncMiddleware(async (req, res) => {
     [course.lectures, course.tutorials, course.labs, course.comments] = await Promise.all([Section.findById(course.lectures).lean(),
         Section.find({'_id': {$in: course.tutorials}}).lean(),
         Section.find({'_id': {$in: course.labs}}).lean(),
-        Comment.find({courseCode: course.courseCode})
+        Comment.find({courseCode: course.courseCode}).lean()
     ]);
+    course.comments = course.comments.map((comment) => {
+        comment.time = new Date(comment.time).toLocaleString();
+        return comment;
+    });
     return res.render('course', {sid: req.session.sid, course: course});
 }));
 

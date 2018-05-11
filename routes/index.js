@@ -14,8 +14,8 @@ router.get('/', (req, res) => {
 });
 
 
-router.get('/test', middleware.asyncMiddleware(async (req, res) => {
-    let section = await Course.findOne({courseCode: 'CSCI3100'});
+router.get('/test/:courseCode', middleware.asyncMiddleware(async (req, res) => {
+    let section = await Course.findOne({courseCode: req.params.courseCode});
     console.log(section);
 }));
 
@@ -34,7 +34,7 @@ router.post('/login', (req, res, next) => {
             req.session.sid = sid;
             req.session.pwd = encryptedPwd;
             console.log('login success');
-            return res.redirect('back');        
+            return res.send({success: true});    
         } else {
             console.log('login fail');
             return res.send({success: false})
