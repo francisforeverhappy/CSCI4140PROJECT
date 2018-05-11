@@ -124,7 +124,7 @@ router.post('/create', middleware.checkLogin, middleware.asyncMiddleware(async (
         courses.forEach((course) => {
             course.numRating = newNumRating;
             course.avgRating = newAvgRating;
-            course.save()
+            course.save();
         });
         console.log('success');
         return res.send({success: true});
@@ -196,6 +196,8 @@ router.post('/delete', (req, res) => {
     }); 
 });
 
+
+// test
 router.get('/deleteAll', (req, res) => {
     Comment.collection.drop();
     Course.find({}, (err, courses) => {

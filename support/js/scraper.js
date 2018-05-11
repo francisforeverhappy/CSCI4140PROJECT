@@ -6,16 +6,6 @@ const spawn = require('child_process').spawn,
 let pythonProcess = spawn('python', ['../py/login.py', '1155076990', 'zxcv$4321']);
 require('ssl-root-cas').inject();
 
-// pythonProcess.stdout.on('data', (data) => {
-//     let result = data.toString().trim(); 
-//     if (result == 'True') {
-//         console.log('login success');
-//         scraper();
-//     } else {
-//         console.log('login fail');
-//     }
-// });
-
 req = request.defaults({
 	jar: true,                 // save cookies to jar
 	rejectUnauthorized: false, 
