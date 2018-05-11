@@ -38,7 +38,7 @@ componentDir = {
     'Debate': 'NAN',
     'Discussion': 'DIS',
     'Exercise': 'EXR',
-    'Field Studies/Field-trip': 'FLD',
+    'Field': 'FLD',
     'Independent Study': 'IND',
     'Others': 'OTH', 
     'Practicum': 'PRA',

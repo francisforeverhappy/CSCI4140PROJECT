@@ -20,12 +20,14 @@ router.get('/recommend', middleware.asyncMiddleware(async (req, res) => {
         
         let pythonProcess = spawn('python', ['support/py/recommend.py', sid, pwd]);
         pythonProcess.stdout.on('data', async (data) => {
-            courseCodes = data.toString().trim().split(',');
+            let courseCodes = data.toString().trim().split(',');
+            console.log(courseCodes);
             let courses = courseCodes.map(async (courseCode) => {
                 course = await Course.findOne({courseCode: courseCode}, courseMessage).lean();
                 return course;
             });
             courses = await Promise.all(courses);
+            console.log('good');
             return res.send({sid: req.session.sid, courses: courses});
         });
 
@@ -35,9 +37,9 @@ router.get('/recommend', middleware.asyncMiddleware(async (req, res) => {
     }
 }));
 
-router.get('/test/:courseCode', middleware.asyncMiddleware(async (req, res) => {
-    let section = await Course.findOne({courseCode: 'ELTU3014'});
-    console.log(section);
+router.get('/test', middleware.asyncMiddleware(async (req, res) => {
+    let section = await Course.find({courseCode: new RegExp('ugfn', 'i')});
+    console.log(section.length);
 }));
 
 // login
