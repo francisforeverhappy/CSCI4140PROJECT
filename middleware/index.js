@@ -11,7 +11,7 @@ module.exports = {
             return next();
         } 
         console.log('user has NOT logged in');
-        return res.redirect('/');        
+        return res.send({success: false});        
     },
     import: (sid, password) => {
         let pythonProcess = spawn('python', ['support/py/import.py', sid, password]);
