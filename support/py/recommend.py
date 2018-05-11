@@ -11,22 +11,26 @@ import urllib3
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 def browse_history():
-    URL = "https://cusis.cuhk.edu.hk/psp/csprd/EMPLOYEE/HRMS/c/SA_LEARNER_SERVICES_2.SSS_MY_CRSEHIST.GBL"
+    URL = "https://cusis.cuhk.edu.hk/psc/csprd/EMPLOYEE/HRMS/c/SA_LEARNER_SERVICES_2.SSS_MY_CRSEHIST.GBL"
     payload = {
         'ICType':'Panel',
     }
     r = cusis.session.post(URL,data=payload)
     l = re.findall(r"<span  class='PSEDITBOX_DISPONLY' >([A-Z]+ [0-9]+)</span>",r.text)
+    courhis = [x.replace(" ","") for x in l]
     l = [x.split(" ")[0] for x in l]
-    counts = Counter(l).items()
+    counts = Counter(l)
+    counts = sorted(counts.items(), key=lambda x: counts.get(x[0]), reverse=True)
     client = MongoClient()
     client = MongoClient('localhost', 27017)
     db = client.csci4140_db
-    for t in counts[0:len(counts)//2]:
+    courses = set()
+    for t in list(counts)[0:len(counts)//2]:
         posts = db.Course.find({"courseCode": {'$regex' : t[0]+".*"}}).sort([("avgRating", pymongo.DESCENDING), ("numRating", pymongo.DESCENDING)])
         for p in posts[0:3]:
-            print (p['courseCode'])
-
+            if p['courseCode'] not in courhis:
+                courses.add(p['courseCode'])
+    print (",".join(courses))
 def main():
     browse_history()
 

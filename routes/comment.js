@@ -81,7 +81,6 @@ router.post('/create', middleware.checkLogin, middleware.asyncMiddleware(async (
         pwd = support.decrypt(sid, req.session.pwd);
     // debug
     // let sid = new Date().toString();
-
     let courseId = req.body.courseId,
         text = req.body.text,
         rating = req.body.rating;
@@ -209,5 +208,66 @@ router.get('/deleteAll', (req, res) => {
     });
 });
 
+
+
+function makeid() {
+    var text = "";
+    var possible = "0123456789";
+  
+    for (var i = 0; i < 5; i++)
+      text += possible.charAt(Math.floor(Math.random() * possible.length));
+  
+    return text;
+}
+
+// router.get('/gv')
+router.get('/gc/:courseCode', middleware.asyncMiddleware(async (req, res) => {
+    console.log('get /generate/:courseCode')
+
+    for (let i = 0; i < 20; i++) {
+        let sid = '11550' + makeid();
+        let courseCode = req.params.courseCode;
+
+        let oldComment = await Comment.findOne({courseCode: courseCode, author: sid});      
+        if (oldComment) {
+            i--;
+            continue;
+        }
+
+        let text = sid;
+        let rating = Math.floor(Math.random() * 5 + 1);
+        let course = await Course.findOne({courseCode: courseCode});
+    
+        let newComment = new Comment({
+            _id: mongoose.Types.ObjectId(),
+            courseCode: course.courseCode, 
+            semester: course.semester, 
+            sectionCode: course.sectionCode,
+            time: new Date().toISOString(), 
+            text: text,
+            rating: rating, 
+            author: sid,
+            voters: [],
+            numVotes: 0
+        });
+
+        newComment.save();
+        // console.log(newComment.courseCode)
+        // console.log(newComment.author)
+        // console.log(newComment.text)
+        // console.log(newComment.rating)
+
+        Course.find({courseCode: course.courseCode}, (err, courses) => {
+            let newNumRating = courses[0].numRating + 1;
+            let newAvgRating = (courses[0].avgRating * courses[0].numRating + Number(rating)) / newNumRating;
+            courses.forEach((course) => {
+                course.numRating = newNumRating;
+                course.avgRating = newAvgRating;
+                course.save()
+            });
+        });
+    }
+    console.log('done');
+}));
 
 module.exports = router;

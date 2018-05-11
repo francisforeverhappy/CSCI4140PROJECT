@@ -9,9 +9,9 @@ module.exports = {
         if ('sid' in req.session) {
             console.log('user has logged in is ture');
             return next();
-        } 
+        }
         console.log('user has NOT logged in');
-        return res.redirect('back');        
+        return res.redirect('back');
     },
     import: (sid, password) => {
         let pythonProcess = spawn('python', ['support/py/import.py', sid, password]);
