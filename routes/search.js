@@ -18,7 +18,8 @@ router.post('/', middleware.asyncMiddleware(async (req, res) => {
     let courseInfo = req.body.key;
     let regex = new RegExp(courseInfo, 'i');
     let courses = await Course.find({$or: [{courseCode: {$regex: regex}}, {courseName: {$regex: regex}}]}, 'courseCode courseName classDetails.units sectionCode', {sort: {avgRating: -1}}).limit(100);
-    res.send({sid: req.session.sid, courses: courses});  
+    
+    return res.send({sid: req.session.sid, courses: courses});
 }));
 
 function groupSection(el) {
