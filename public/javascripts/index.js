@@ -182,7 +182,7 @@ function searchClickHandler(e){
 			  }
 			  selectedCourse[id] = {"course": result.course, "select": select};
 			  // disable click
-				$(e.currentTarget).off('click').css("background-color",'linen');
+				$(e.currentTarget).off('click').css("background-color",'var(--main-color-1)');
 
 				// select the course
 				selectCourse(selectedCourse[id].course, selectedCourse[id].select)
@@ -271,7 +271,7 @@ $('#search-input').on("keyup", function(){
 			  }
 
 			  for (var id in selectedCourse){
-					$('#'+id).off('click').css("background-color",'linen');
+					$('#'+id).off('click').css("background-color",'var(--main-color-1)');
 			  }
 			}
 		});
@@ -288,7 +288,7 @@ $("#export-btn").on("click", function(){
 //import handler
 $("#import-btn").on("click", function(){
 	$('#loading').show();
-	$.ajax({
+	$.when($.ajax({
 		contentType: 'application/json',
 		url: '/protected/import',
 		type: 'GET',
@@ -296,7 +296,6 @@ $("#import-btn").on("click", function(){
 			// receive data
 		  console.log(result);
 		  $(".delete-btn").click();
-
 		  result.courses.forEach(function(course){
 		  	var id = course._id;
 		  	console.log(id)
@@ -304,26 +303,7 @@ $("#import-btn").on("click", function(){
 				selectCourse(selectedCourse[id].course, selectedCourse[id].select);
 		  });
 		}
-	});
-	$('#loading').hide();
-});
-
-$("#login-btn").on("click", function(){
-	var sid = $("#sid-input").val();
-	var pwd = $("#pwd-input").val();
-	$.ajax({
-		contentType: 'application/json',
-		url: '/login',
-		type: 'POST',
-		data: JSON.stringify({"sid": sid, "pwd": pwd}),
-		success: function(result) {
-			// receive data
-			console.log(result);
-		  if(result.success){
-		  	window.location.reload();
-		  }else{
-		  	$("#login-warning").show().delay(5000).fadeOut();
-		  }
-		}
+	})).done(function(){
+		$('#loading').hide();
 	});
 });

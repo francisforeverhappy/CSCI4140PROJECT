@@ -129,10 +129,10 @@ $('#Delete').on("click", function () {
 });
 
 //like and unlike
-$(".img-praise").on('click',function () {
-    var commentId = $(this).siblings('.CommentId').val();
-    var praise_img = $(this).children();
-    var praise_txt = $(this).siblings(".praise-txt");
+$(".img-praise").on('click',function (event) {
+    var commentId = $(event.target).parent().siblings('.CommentId').val();
+    var praise_img = $(event.target).parent().children();
+    var praise_txt = $(event.target).parent().siblings(".praise-txt");
     var num = parseInt(praise_txt.text());
     if (praise_img.attr("src") == ("/img/like.png")) {
         $.ajax({
@@ -151,10 +151,12 @@ $(".img-praise").on('click',function () {
                     alert(result.error);
                 }
                 else if (result.success == true){
-                    $(".img-praise").html("<img src='/img/unlike.png' class='praise-img' />");
-                    $(".img-praise").siblings(".praise-txt").html(num-1);
+                    //location.reload();
+                    $(".CommentId[value='"+commentId+"']").siblings('.img-praise').html("<img src='/img/unlike.png' class='praise-img' />");
+                    $(".CommentId[value='"+commentId+"']").siblings('.praise-txt').html(num - 1);
+                    
                     // console.log("devote");
-                    // console.log($(".img-praise").html());
+                    // console.log($(".CommentId[value='" + commentId + "']"));
                 }
             }
         });
@@ -175,10 +177,12 @@ $(".img-praise").on('click',function () {
                     alert(result.error);
                 }
                 else if (result.success == true){
-                    $(".img-praise").html("<img src='/img/like.png' class='praise-img' />");
-                    $(".img-praise").siblings(".praise-txt").html(num + 1);
+                    //location.reload();
+                    $(".CommentId[value='" + commentId + "']").siblings('.img-praise').html("<img src='/img/like.png' class='praise-img' />");
+                    $(".CommentId[value='" + commentId + "']").siblings('.praise-txt').html(num + 1);
+                    
                     // console.log("vote");
-                    // console.log($(".img-praise").html());
+                    // console.log($(".CommentId[value='" + commentId + "']"));
                 }
             }
         });
