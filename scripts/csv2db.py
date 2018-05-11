@@ -79,12 +79,21 @@ def main():
 				continue
 			if str(df['Class Code']) == 'nan':
 				section_id = db.Section.insert_one(section).inserted_id
-				if section['courseComponent'] == 'LEC':
-					course['lectures'] = section_id
-				elif section['courseComponent'] == 'TUT':
-					course['tutorials'].append(section_id)
-				elif section['courseComponent'] == 'LAB':
-					course['labs'].append(section_id)
+				
+				courseComponent = section['courseComponent']
+				
+				if courseComponent and str(courseComponent) != 'nan':
+					if courseComponent in course['componentDict']:
+						course['componentDict'][courseComponent].append(section_id)
+					else:
+						course['componentDict'][courseComponent] = [section_id]
+					
+					# if section['courseComponent'] == 'LEC':
+					# 	course['lectures'] = section_id
+					# elif section['courseComponent'] == 'TUT':
+					# 	course['tutorials'].append(section_id)
+					# elif section['courseComponent'] == 'LAB':
+					# 	course['labs'].append(section_id)
 
 				if str(df['Section Code']) == 'nan':
 						df['Section Code'] = None
@@ -127,12 +136,21 @@ def main():
 			addinforow = add_info[coursenbr]
 			if section != None:
 				section_id = db.Section.insert_one(section).inserted_id
-				if section['courseComponent'] == 'LEC':
-					course['lectures'] = section_id
-				elif section['courseComponent'] == 'TUT':
-					course['tutorials'].append(section_id)
-				elif section['courseComponent'] == 'LAB':
-					course['labs'].append(section_id)
+				courseComponent = section['courseComponent']
+				
+				if courseComponent and str(courseComponent) != 'nan':
+					if courseComponent in course['componentDict']:
+						course['componentDict'][courseComponent].append(section_id)
+					else:
+						course['componentDict'][courseComponent] = [section_id]
+				
+				# if section['courseComponent'] == 'LEC':
+				# 	course['lectures'] = section_id
+				# elif section['courseComponent'] == 'TUT':
+				# 	course['tutorials'].append(section_id)
+				# elif section['courseComponent'] == 'LAB':
+				# 	course['labs'].append(section_id)
+			
 			if course != None:
 				course_id = db.Course.insert_one(course).inserted_id
 			try:
@@ -165,9 +183,10 @@ def main():
 					"classAttr" : df['Language']
 				},
 				"instructor" : df["Teaching Staff"],
-				"lectures" : None,
-				"tutorials" : [],
-				"labs" : []
+				"componentDict": {}
+				# "lectures" : None,
+				# "tutorials" : [],
+				# "labs" : []
 			}
 
 			if str(df['Section Code']) == 'nan':

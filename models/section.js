@@ -2,10 +2,8 @@ var mongoose = require('mongoose');
 
 var sectionSchema = mongoose.Schema({
     _id: mongoose.Schema.Types.ObjectId,
-    // all the same
-    status: String, // not same
-    // different info
-    courseNumber: Number, // unique
+    status: String, 
+    courseNumber: Number,
     courseComponent: String,
     courseCode: String,
     sectionCode: String,

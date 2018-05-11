@@ -10,22 +10,22 @@ var dayMap = {
   5: "Sat" };
 
 // load and save timetable
-$(document).ready(function() {
-	if(localStorage.getItem("timetable") != null){
-	  selectedCourse = JSON.parse(localStorage.getItem("timetable"));
-	  console.log(selectedCourse);
-	}
+// $(document).ready(function() {
+// 	if(localStorage.getItem("timetable") != null){
+// 	  selectedCourse = JSON.parse(localStorage.getItem("timetable"));
+// 	  console.log(selectedCourse);
+// 	}
 
-  for(var id in selectedCourse){
-  	selectCourse(selectedCourse[id].course, selectedCourse[id].select);
-  }
-  // localStorage.removeItem("timetable");
-});
+//   for(var id in selectedCourse){
+//   	selectCourse(selectedCourse[id].course, selectedCourse[id].select);
+//   }
+//   // localStorage.removeItem("timetable");
+// });
 
-$(window).on("unload",function() {
-  localStorage.removeItem("timetable");
-  localStorage.setItem("timetable", JSON.stringify(selectedCourse));
-});
+// $(window).on("unload",function() {
+//   localStorage.removeItem("timetable");
+//   localStorage.setItem("timetable", JSON.stringify(selectedCourse));
+// });
 
 // string format 
 String.prototype.format = function() {
