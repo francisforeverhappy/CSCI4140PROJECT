@@ -225,6 +225,8 @@ function selectCourse(course, select){
 		var comp_tmpl = $('#select-item-comp-tmpl').contents().clone();
 		$(comp_tmpl).find('.select-item-comp-title').html(key);
 		$(comp_tmpl).attr("data-type", key);
+		console.log(key);
+		console.log(select[key]);
 		for(var i in component[select[key]].meetingInfo){
 			var daysTime = component[select[key]].meetingInfo[i][0].daysTime;
 	  	var venue = component[select[key]].meetingInfo[i][0].room;

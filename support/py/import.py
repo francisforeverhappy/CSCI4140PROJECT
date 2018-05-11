@@ -91,7 +91,9 @@ def printlist():
                 component = item[7*i+2]
                 if component in componentDir:
                     component = componentDir[component]
-                section = item[7*i+1][38:-8][1:]
+                section = item[7*i+1][38:-8]
+                if section and section != '' and section[0] == '-':
+                    section = section[1:]
                 print('{"courseComponent":"' + component, end='",')
                 print('"sectionCode":"' + section, end='"}')
         print(']}', end='')
