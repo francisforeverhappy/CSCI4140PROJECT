@@ -1,6 +1,10 @@
 //hide "add comment"
+// put my comment first
 if($('#respond').length==0){
+    //hide "add comment"
     $('#add-comment').attr('hidden',true);
+    // put my comment first
+    $('#CommentId').parent().parent().parent().insertBefore('#firstcomment');
 }
 
 // aside nav function
