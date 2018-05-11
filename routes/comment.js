@@ -11,16 +11,19 @@ const Course = require('../models/course'),
 
 // comment
 function checkCourse(sid, pwd, courseCode) {
-    let pythonProcess = spawn('python', ['support/py/login.py', sid, pwd]);
-    pythonProcess.stdout.on('data', (data) => {
-        let result = data.toString().trim(); 
-        if (result == 'True') {
-            console.log('courseCoursesuccess');
-            return true;
-        } else {
-            console.log('checkCoures fail');
-            return false;
-        }
+    return new Promise((resolve, reject) => {
+        let pythonProcess = spawn('python', ['support/py/coursecheck.py', sid, pwd, courseCode]);
+        pythonProcess.stdout.on('data', (data) => {
+            let result = data.toString().trim(); 
+            if (result == 'True') {
+                console.log(courseCode);
+                console.log('checkCourse success');
+                resolve(true);
+            } else {
+                console.log('checkCoures fail');
+                resolve(false);
+            }
+        });
     });
 }
 
@@ -43,6 +46,7 @@ router.post('/vote', middleware.checkLogin, middleware.asyncMiddleware(async (re
     comment.voters.push(sid);
     comment.numVotes++;
     comment.save();
+
     return res.send({success: true});
 }));
 
@@ -71,23 +75,24 @@ router.post('/devote', middleware.checkLogin, middleware.asyncMiddleware(async (
     return res.send({success: true});    
 }));
 
-router.post('/create', middleware.asyncMiddleware(async (req, res) => {
+router.post('/create', middleware.checkLogin, middleware.asyncMiddleware(async (req, res) => {
     console.log('post /comment/create')
-    // let sid = req.session.sid,
-    //     pwd = support.decrypt(sid, req.session.pwd);
+    let sid = req.session.sid,
+        pwd = support.decrypt(sid, req.session.pwd);
     // debug
-    let sid = new Date().toString();
+    // let sid = new Date().toString();
 
     let courseId = req.body.courseId,
         text = req.body.text,
         rating = req.body.rating;
 
     let course = await Course.findById(courseId);
-        
-    // if (!checkCourse(sid, pwd, courseCode)) {
-    //     console.log("course didn't take");
-    //     return res.send({success: false, error: "course didn't take"});
-    // }
+    console.log(course.courseCode);
+    let checkResult = await checkCourse(sid, pwd, course.courseCode);
+    if (!checkResult) {
+        console.log("course didn't take");
+        return res.send({success: false, error: "course didn't take"});
+    }
 
     if (!rating) {
         console.log('rating is required');
