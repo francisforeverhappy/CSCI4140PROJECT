@@ -19,7 +19,34 @@ $(document).ready(function() {
   for(var id in selectedCourse){
   	selectCourse(selectedCourse[id].course, selectedCourse[id].select);
   }
-  // localStorage.removeItem("timetable");
+
+  $.when($.ajax({
+		contentType: 'application/json',
+		url: '/recommend',
+		type: 'GET',
+		success: function(result) {
+			// receive data
+		  console.log(result);
+		  var courses = result.courses;
+		  var list = $('#recommend-list');
+
+		  // add recommend list items
+		  for (var key in courses){
+		  	var courseCode = courses[key].courseCode + courses[key].sectionCode;
+		  	var courseName = courses[key].courseName;
+		  	var units = courses[key].classDetails.units;
+		  	var id = courses[key]._id;
+		  	addSearchItem(courseCode, courseName, id, units, '#recommend-list')
+		  }
+
+		  for (var id in selectedCourse){
+				$('#'+id).off('click').css("background-color",'var(--main-color-1)');
+		  }
+		}
+	})).done(function(){
+		console.log("recommend load finish");
+	});
+
 });
 
 $(window).on("unload",function() {
@@ -138,13 +165,13 @@ function addClassItem(code, name, id, gid, type, venue, day, timeslot, opt){
 }
 
 // add search item
-function addSearchItem(code, name, id, units){
+function addSearchItem(code, name, id, units, target){
 	var tmpl = $('#search-item-tmpl').contents().clone();
 	$(tmpl).attr("id", id);
 	$(tmpl).on("click", searchClickHandler);
 	$(tmpl).children(".search-item-info").html('<span>'+ code +'</span><br>'+ name +'<br><span> '+ units +' Units </span>');
 	$(tmpl).children(".search-item-btn").attr("href", "/search/"+id);
-	$('#search-list').append(tmpl);
+	$(target).append(tmpl);
 }
 
 // delete item handler
@@ -248,6 +275,7 @@ function selectCourse(course, select){
 $('#search-input').on("keyup", function(){
 	var keyword = $(this).val();
 	if(keyword.length > 0){
+		$('#recommend-list').hide();
 		$.ajax({
 			contentType: 'application/json',
 			data: JSON.stringify({"key": keyword}),
@@ -267,7 +295,7 @@ $('#search-input').on("keyup", function(){
 			  	var courseName = courses[key].courseName;
 			  	var units = courses[key].classDetails.units;
 			  	var id = courses[key]._id;
-			  	addSearchItem(courseCode, courseName, id, units)
+			  	addSearchItem(courseCode, courseName, id, units, '#search-list');
 			  }
 
 			  for (var id in selectedCourse){
@@ -277,6 +305,7 @@ $('#search-input').on("keyup", function(){
 		});
 	}else{
 		$('#search-list').children().remove();
+		$('#recommend-list').show();
 	}
 });
 

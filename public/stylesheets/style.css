@@ -288,8 +288,23 @@ a.logo{
 }
 
 .search-list{
-  height: 27.5rem;
+  height: 32rem;
   overflow: scroll;
+}
+
+.recommend-list{
+  max-height: 32rem;
+  overflow: scroll;
+}
+
+.recommend-title{
+  padding: 0.5rem 0.8rem;
+  border: 1px solid var(--2th-color-3);
+  border-radius: 4px;
+  width: -webkit-fill-available;
+  text-align: center;
+  background-color: var(--2th-color-2);
+  color: var(--grey-1);
 }
 
 .search-item{
