@@ -12,7 +12,7 @@ def browse_history(coursecode):
     payload = {
         'ICType':'Panel',
     }
-    r = cusis.session.post(URL,data=payload)
+    r = cusis.session.post(URL,data=payload, allow_redirects=False)
     l = re.findall(r"<span  class='PSEDITBOX_DISPONLY' >([A-Z]+ [0-9]+)</span>",r.text)
     if coursecode in l:
         print (True)
