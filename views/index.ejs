@@ -54,7 +54,9 @@
 			  </div>
 			  <div class="col-md-4">
 			  	<div class="im-export-btn">
-	    			<button class="clickable" id="import-btn"><span><i class="ion-ios-download-outline"></i></span>  Import</button>
+			  		<% if(sid !== undefined){ %>
+		    			<button class="clickable" id="import-btn"><span><i class="ion-ios-download-outline"></i></span>  Import</button>
+		    		<% } %>
 	    			<button class="clickable" id="export-btn"><span><i class="ion-ios-upload-outline"></i></span>  Download </button>
 			  	</div>
 			  	<div class="search">
@@ -63,12 +65,11 @@
 	    				<i class="ion-ios-search"></i>
     				</div>
 	    		</div>
-			    <div class="recommend-list" id="recommend-list">
-			    	<div class="recommend-title">Recommend
-			    	</div>
-			    </div>
 	    		<div class="search-list" id="search-list">
-	    	</div>
+		    	</div>
+			    <div class="recommend-list" id="recommend-list">
+			    	<div class="recommend-title">Course Recommendation</div>
+			    </div>
     	</div>
     </div>
 

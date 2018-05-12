@@ -289,6 +289,7 @@ $('#search-input').on("keyup", function(){
 
 			  // clean search list items
 			  $(list).children().remove();
+			  $(list).append("<div class='recommend-title'>Search Result</div>");
 			  // add search list items
 			  for (var key in courses){
 			  	var courseCode = courses[key].courseCode + courses[key].sectionCode;
@@ -296,6 +297,10 @@ $('#search-input').on("keyup", function(){
 			  	var units = courses[key].classDetails.units;
 			  	var id = courses[key]._id;
 			  	addSearchItem(courseCode, courseName, id, units, '#search-list');
+			  }
+
+			  if(Object.keys(courses).length == 0){
+				  $(list).append("<div style='padding: 0.3rem 0.8rem;'>No matching course for <strong>"+keyword+"</strong></div>");
 			  }
 
 			  for (var id in selectedCourse){
