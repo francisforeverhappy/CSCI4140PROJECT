@@ -258,6 +258,13 @@ a.logo{
   font-size: 3rem;
 }
 
+.btn-loading-box{
+  -webkit-animation:spin 1.5s linear infinite;
+  -moz-animation:spin 1.5s linear infinite;
+  animation:spin 1.5s linear infinite;
+}
+
+
 .input-box{
   width: 100%;
   padding: .375rem .75rem;
@@ -321,6 +328,7 @@ a.logo{
 	background-color: var(--main-color-3);
   margin: 0 1rem 0.2rem;
 	color: var(--main-bg-color);
+  width: 5rem;
 }
 
 .search-list, .recommend-list{

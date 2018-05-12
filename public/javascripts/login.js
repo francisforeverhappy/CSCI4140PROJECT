@@ -1,7 +1,8 @@
 $("#login-btn").on("click", function(){
 	var sid = $("#sid-input").val();
 	var pwd = $("#pwd-input").val();
-	$.ajax({
+	$(this).html('<div class="btn-loading-box" id="login-loading-box"><i class="ion-ios-loop"></i></div>');
+	$.when($.ajax({
 		contentType: 'application/json',
 		url: '/login',
 		type: 'POST',
@@ -15,5 +16,7 @@ $("#login-btn").on("click", function(){
 		  	$("#login-warning").show().delay(5000).fadeOut();
 		  }
 		}
+	})).done(function(){
+		$(this).html('Login');
 	});
 });
