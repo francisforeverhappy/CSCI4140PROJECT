@@ -1,9 +1,9 @@
 :root {
-    --main-color-1 : #E7F0F9;
-    --main-color-2 : #73A5DC;
-    --main-color-3 : #005BBF;
-    --main-color-4 : #003A7A;
-    --main-color-5 : #002246;
+    --main-color-1: #E7F0F9;
+    --main-color-2: #73A5DC;
+    --main-color-3: #005BBF;
+    --main-color-4: #003A7A;
+    --main-color-5: #002246;
     --2th-color-1: #FBECEC;
     --2th-color-2: #DF6A63;
     --2th-color-3: #D5382E;
@@ -15,27 +15,26 @@
     --grey-4: #404041;
     --grey-5: #121313;
     --main-bg-color: #FFF;
-
     --class-color-0-0: var(--grey-1);
     --class-color-0-1: #BE600E;
     --class-color-0-2: #E87511;
-    --class-color-0-3: #552B07;
-    --class-color-1-0: var(--grey-1);
+    --class-color-0-3: #844209;
+    --class-color-1-0: var(--grey-3);
     --class-color-1-1: #7C8304;
     --class-color-1-2: #AAB305;
-    --class-color-1-3: #3E4202;
+    --class-color-1-3: #545902;
     --class-color-2-0: var(--grey-3);
     --class-color-2-1: #F25348;
     --class-color-2-2: #F2736A;
-    --class-color-2-3: #7A3A36;
+    --class-color-2-3: #7F3C38;
     --class-color-3-0: var(--grey-1);
     --class-color-3-1: #9E2E21;
     --class-color-3-2: #C13828;
-    --class-color-3-3: #47150F;
+    --class-color-3-3: #661D15;
     --class-color-4-0: var(--grey-3);
     --class-color-4-1: #FFBF00;
     --class-color-4-2: #FFD24C;
-    --class-color-4-3: #5D480B;
+    --class-color-4-3: #9B7B1A;
     --class-color-5-0: var(--grey-3);
     --class-color-5-1: #0086AC;
     --class-color-5-2: #00A9D8;
@@ -43,7 +42,7 @@
     --class-color-6-0: var(--grey-1);
     --class-color-6-1: #006B5E;
     --class-color-6-2: #178D7E;
-    --class-color-6-3: #00302A;
+    --class-color-6-3: #093A34;
     --class-color-7-0: var(--grey-1);
     --class-color-7-1: #004399;
     --class-color-7-2: #1760C0;
@@ -82,7 +81,7 @@ b, strong {
 @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
 
 [data-select=false] {
-  opacity: 0.7;
+  opacity: 0.6;
 }
 
 
@@ -224,7 +223,7 @@ a.logo{
 
 .time-label{
   text-align: center;
-  margin: 15.5px auto;
+  margin: 13.5px auto;
 }
 
 .space{
@@ -397,7 +396,7 @@ a.logo{
 .select-item-tooltip{
   display: none;
   background-color: var(--main-bg-color);
-  opacity: 0.5;
+  opacity: 0.9;
   width: 70%;
   position: absolute;
   z-index: 1;
@@ -446,7 +445,11 @@ template{
   display: flex;
 }
 
-.search-item:hover{
+.clickable-tab:hover{
+  background-color: var(--main-color-1);
+}
+
+.unclickable-tab{
   background-color: var(--main-color-1);
 }
 
