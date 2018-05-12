@@ -34,6 +34,12 @@ router.post('/login', (req, res, next) => {
     const courseMessage = 'courseCode courseName classDetails.units sectionCode';
 	let sid = req.body.sid,
         pwd = req.body.pwd;
+    if (!sid) {
+        return res.send({success: false, error: "No SID"});
+    } 
+    if (!pwd) {
+        return res.send({success: false, error: "No password"});
+    }
     let pythonProcess = spawn('python', ['support/py/recommend.py', sid, pwd]);
     pythonProcess.stdout.on('data', async (data) => {
         let dataTuple = data.toString().trim().split('\n');
