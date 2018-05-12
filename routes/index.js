@@ -37,7 +37,8 @@ router.post('/login', (req, res, next) => {
     let pythonProcess = spawn('python', ['support/py/recommend.py', sid, pwd]);
     pythonProcess.stdout.on('data', async (data) => {
         let dataTuple = data.toString().trim().split('\n');
-        let result = dataTuple[0]
+        let result = dataTuple[0].trim();
+        console.log(result);
 		if (result == 'True') {
             let encryptedPwd = support.encrypt(sid, pwd)
             req.session.sid = sid;
@@ -50,7 +51,6 @@ router.post('/login', (req, res, next) => {
 				return course;
 			});
 			courses = await Promise.all(courses);
-			console.log('good');
 			req.session.reccourses = courses;
 			return res.send({success: true});
         } else {
