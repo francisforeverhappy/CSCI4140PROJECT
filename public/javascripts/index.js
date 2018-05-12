@@ -134,20 +134,21 @@ function addOptClassItem(code, name, id, gid, type, venue, day, timeslot, color)
 		$(tmpl).attr("data-gid", gid);
 		$(tmpl).attr("data-color", color);
 		$(tmpl).attr("data-select", false);
-		$(tmpl).children(".class-info").html(code+'<br>'+type+gid+'<br>'+venue);
+		$(tmpl).children(".class-info").html('<strong>'+code+'</strong><br>'+type+gid+'<br>'+venue);
 		$(tmpl).css({
 			"grid-row-start": timeslot.start.toString(),
 		  "grid-row-end": timeslot.end.toString(),
 		  "color": "var(--class-color-"+color+"-0)",
-	    "border-bottom-color": "var(--class-color-"+color+"-3)",
-	    "border-right-color": "var(--class-color-"+color+"-3)",
+	    "border-radius": "8px",
+	    "border-bottom": "2px solid var(--class-color-"+color+"-3)",
+	    "border-right": "2px solid var(--class-color-"+color+"-3)",
 	    "background-color": "var(--class-color-"+color+"-2)"
 		});
 
 		$(tmpl).hover(function(e){
-			$(e.currentTarget).css("background-color","var(--class-color-"+color+"-1");
+			$(e.currentTarget).css("background-color","var(--class-color-"+color+"-1)");
 		},function(e){
-			$(e.currentTarget).css("background-color","var(--class-color-"+color+"-2");
+			$(e.currentTarget).css("background-color","var(--class-color-"+color+"-2)");
 		});
 
 		$(tmpl).on("click", optClassSelectHandler);
@@ -163,24 +164,26 @@ function addClassItem(code, name, id, gid, type, venue, day, timeslot, opt, colo
 		$(tmpl).attr("data-gid", gid);
 		$(tmpl).attr("data-color", color);
 		$(tmpl).attr("data-select", true);
-		$(tmpl).children(".class-info").html('<strong>'+code+'</strong>&ensp;'+type+gid+'<br>'+venue);
+		$(tmpl).children(".class-info").html('<strong>'+code+'</strong><br>'+type+gid+'<br>'+venue);
 		$(tmpl).css({
 			"grid-row-start": timeslot.start.toString(),
 		  "grid-row-end": timeslot.end.toString(),
 		  "color": "var(--class-color-"+color+"-0)",
-	    "border-bottom-color": "var(--class-color-"+color+"-3)",
-	    "border-right-color": "var(--class-color-"+color+"-3)",
-	    "background-color": "var(--class-color-"+color+"-2)"
+	    "background-color": "var(--class-color-"+color+"-2)",
 		});
 
 		
 
 		if(opt){
 			$(tmpl).on("click", optClassHandler);
+			$(tmpl).css({"border-radius": "8px",
+		    "border-bottom": "2px solid var(--class-color-"+color+"-3)",
+		    "border-right": "2px solid var(--class-color-"+color+"-3)",
+			});
 			$(tmpl).hover(function(e){
-				$(e.currentTarget).css("background-color","var(--class-color-"+color+"-1");
+				$(e.currentTarget).css("background-color","var(--class-color-"+color+"-1)");
 			},function(e){
-				$(e.currentTarget).css("background-color","var(--class-color-"+color+"-2");
+				$(e.currentTarget).css("background-color","var(--class-color-"+color+"-2)");
 			});
 		}
 		$(".schedule").eq(day).append(tmpl);
@@ -202,12 +205,8 @@ function deleteItemHandler(e){
 	var id = $(e.currentTarget).attr("data-id");
 	$('[data-id="'+id+'"]').remove();
 	$('#'+id).children(".search-item-info").on("click", searchClickHandler);
-	$('#'+id).css("background-color",'white')
-	$('#'+id).hover(function(e){
-		$(this).css("background-color", "var(--main-color-1)");
-	}, function(e){
-		$(this).css("background-color", "white");
-	});
+	$('#'+id).toggleClass("clickable-tab");
+	$('#'+id).toggleClass("unclickable-tab");
 	delete selectedCourse[id];
   console.log(selectedCourse);
 }
@@ -238,7 +237,7 @@ function searchClickHandler(e){
 			  }
 			  selectedCourse[id] = {"course": result.course, "select": select};
 			  // disable click
-				$(e.currentTarget).off('click').parent().css("background-color",'var(--main-color-1)');
+				$(e.currentTarget).off('click').parent().toggleClass("clickable-tab").toggleClass("unclickable-tab");
 
 				// select the course
 				selectCourse(selectedCourse[id].course, selectedCourse[id].select)
