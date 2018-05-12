@@ -36,6 +36,8 @@ def main():
 
 if __name__ == '__main__':
     cusis = login.Cusis()
-    cusis.login(sys.argv[1], sys.argv[2])
-    main()
+    flag = cusis.login(sys.argv[1], sys.argv[2])
+    print(str(flag))
+    if flag:
+        main()
     sys.stdout.flush()
