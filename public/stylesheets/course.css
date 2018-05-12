@@ -21,7 +21,7 @@ section{
 }
 ul li{
     list-style-type: none;
-    font-size: 1.5rem;
+    font-size: 1.5vw;
 }
 li{
     padding-top: 5px;
@@ -231,6 +231,15 @@ table.altrowstable td {
     background-color : transparent;
     text-shadow : rgba(255,255,255,0.5) 0 5px 6px, rgba(255,255,255,0.2) 1px 3px 3px;
 }
+.h4-span{
+    font-size:1.2rem;
+    font-family: inherit;
+    font-weight: bold;
+    line-height: 1;
+    color: rgb(14, 13, 13);
+    background-color : transparent;
+    text-shadow : rgba(255,255,255,0.5) 0 5px 6px, rgba(255,255,255,0.2) 1px 3px 3px;
+}
 .comments-sort-list{
     padding-top:5px;
     position: absolute;
@@ -250,23 +259,27 @@ table.altrowstable td {
     color: #0d923f!important;
 }
 .comments-list{
-    overflow: hidden;
+    overflow: auto;
     margin: 0;
     padding-left:5px;
     padding-right:5px;
+    max-height: 1000px;
 }
 .comment-mode{
     display: flex;
-    height: 50px;
-    font-size: 15px;
+    height: 25px;
     font-weight:bold;
-    line-height:20px;
+    line-height: 22px;
     overflow: hidden;
 }
 .comment-control{
     float:left;
     left: 0;
     -webkit-font-smoothing: antialiased!important;
+}
+.comment-content{
+    font-size: 1.5rem;
+    color:#0b1920;
 }
 .comment-vote{
     display: inline-block;
@@ -339,6 +352,9 @@ table.altrowstable td {
     height: 135px;
     resize: none;
     border-width: 0px;
+}
+.comment-edit-button{
+    right:0;
 }
 textarea{
     border-radius: 8px;

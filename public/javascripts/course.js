@@ -6,6 +6,10 @@ if($('#respond').length==0){
     // put my comment first
     $('#CommentId').parent().parent().parent().insertBefore('#firstcomment');
 }
+//hide aside
+if ($(window).width()<=1300){
+    $('#aside').hide();
+}
 
 // aside nav function
 $('#nav-details,#nav-meeting,#nav-enrollment,#nav-availablity,#nav-comments').on('click',function(e){
@@ -21,7 +25,7 @@ $('#nav-details,#nav-meeting,#nav-enrollment,#nav-availablity,#nav-comments').on
 // refresh waiting list
 $('#refresh-waitingList').on("click", function () {
     var courseId= $('#courseId').text();
-    console.log(courseId);
+    $("#refresh-waitingList").html('<div class="btn-loading-box" id="refresh-loading-box"><i class="ion-ios-loop"></i></div>');
     if (courseId.length > 0) {
         $.ajax({
             contentType: 'application/json',
@@ -242,3 +246,12 @@ $(".img-praise").on('click',function (event) {
 
 //css test
 //console.log($('.link').attr('data-letters'));
+//window resize
+$(window).resize(function () {
+    var ww = $(window).width();
+    if (ww > 1300) {
+        $('#aside').show();
+    } else if (ww < 1300) {
+        $('#aside').hide();
+    }
+});

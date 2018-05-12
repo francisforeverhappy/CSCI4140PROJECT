@@ -6,6 +6,7 @@
 <link rel="stylesheet" href="/stylesheets/util.css">
 <link rel="stylesheet" href="/stylesheets/meetingtable.css">
 <link rel="stylesheet" href="/stylesheets/like.css">
+<link rel="stylesheet" href="/stylesheets/gh-buttons.css">
 <script type="text/javascript" src="/javascripts/jquery-3.3.1.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
     crossorigin="anonymous"></script>
@@ -248,7 +249,7 @@
                                             <span class="comment-form edit-form">
                                                 <p class="comment-form-comment">
                                                     <input id="comment-id" value=<%= course.comments[i]._id %> style="display: none;">
-                                                    <textarea id="edit-comment form" name="text" col="60" row="8" required></textarea>
+                                                    <textarea id="edit-comment" name="text" col="60" row="8" required></textarea>
                                                 </p>
                                                 <p>
                                                     <span class="rating">
@@ -274,20 +275,24 @@
                                             <div class="comment-item former">
                                                 <% if(sid == course.comments[i].author){ %>
                                                     <% var commented = '1'; %>
-                                                    <span>My Comment</span>
-                                                    <span class="comment-submit">
+                                                    <span class="my-comment-title h4-span">My Comment</span>
+                                                    <span class="comment-submit  p-l-10">
                                                         <input id="AuthorId" value=<%= course.comments[i].author %> style="display: none;">
                                                         <input id="CommentId" value=<%= course.comments[i]._id %> style="display: none;">
-                                                        <input name="edit" type="submit" id="edit" class="edit" value="Edit">
-                                                    </span>
-                                                    <span class="comment-submit">
-                                                        <input name="Delete" type="submit" id="Delete" class="Delete" value="Delete">
+                                                        <ul class="button-group comment-edit-button">
+                                                            <input name="edit" type="submit" id="edit" class="edit button primary pill" value="Edit">
+                                                            <input name="Delete" type="submit" id="Delete" class="Delete button pill" value="Delete">
+                                                        </ul>
                                                     </span>
                                                 <% } %>
                                                 <div class="time-section">
                                                     <span class="comment-time"><%= course.comments[i].time %></span>
                                                 </div>
-                                                <div class="comment-content m-b-8 text-gray"><%= course.comments[i].text %></div>
+                                                <% var display_txt = null; %>
+                                                <% if(course.comments[i].text != null ){ %>
+                                                <% display_txt = course.comments[i].text.replace(/\n/g, "<br />"); %>
+                                                <% } %>
+                                                <div class="comment-content m-b-8 text-gray"><%- display_txt %></div>
                                                 <div class="comment-mode">
                                                     <div class="comment-control">
                                                         <div class="praise">
@@ -299,10 +304,10 @@
                                                                     <img src="/img/unlike.png" class="praise-img"/>
                                                                 <% } %>
                                                             </span>
-                                                            <span>&nbsp &nbsp</span>
-                                                            <span class="praise-txt"><%= course.comments[i].numVotes %></span>
-                                                            <div class="separator"> ● </div>
-                                                            <span>Rating: </span>
+                                                            <span class="praise-txt p-l-5"><%= course.comments[i].numVotes %></span>
+                                                            
+                                                            <div class="separator p-l-10"> ● </div>
+                                                            <span>Rating:  </span>
                                                             <span>
                                                                 <%= course.comments[i].rating %>
                                                             </span>
@@ -317,7 +322,7 @@
                                                                 <span class="comment-section">
                                                                     <%= course.comments[i].sectionCode %>
                                                                 </span>
-                                                                <% } %>
+                                                            <% } %>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -359,7 +364,7 @@
                             </section>
                             <% } %>
                         </div>
-                        <aside class="col-md-3">
+                        <aside id ='aside' class="col-md-3">
                             <div class="info-nav scrollable">
                                 <nav class="aside-nav">
                                     <ul>
