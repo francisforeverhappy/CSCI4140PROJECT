@@ -126,6 +126,53 @@ $('#Delete').on("click", function () {
     });
 });
 
+$(function () {
+    window.onscroll = function() {myFunction()};
+    function myFunction() {
+        if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+            $('#nav-details').parent().removeClass('red_sign');
+            $('#nav-meeting').parent().removeClass('red_sign');
+            $('#nav-enrollment').parent().removeClass('red_sign');
+            $('#nav-availablity').parent().removeClass('red_sign');
+            $('#nav-comments').parent().removeClass('red_sign');
+            $('#nav-details').parent().addClass('red_sign');
+        } 
+        if (document.body.scrollTop > $('#MeetingInfo').offset().top || document.documentElement.scrollTop > $('#MeetingInfo').offset().top) {
+            $('#nav-details').parent().removeClass('red_sign');
+            $('#nav-meeting').parent().removeClass('red_sign');
+            $('#nav-enrollment').parent().removeClass('red_sign');
+            $('#nav-availablity').parent().removeClass('red_sign');
+            $('#nav-comments').parent().removeClass('red_sign');
+            $('#nav-meeting').parent().addClass('red_sign');
+        }
+        if (document.body.scrollTop > $('#EnrollmentInfo').offset().top || document.documentElement.scrollTop >  $('#EnrollmentInfo').offset().top ) {
+            $('#nav-details').parent().removeClass('red_sign');
+            $('#nav-meeting').parent().removeClass('red_sign');
+            $('#nav-enrollment').parent().removeClass('red_sign');
+            $('#nav-availablity').parent().removeClass('red_sign');
+            $('#nav-comments').parent().removeClass('red_sign');
+            $('#nav-enrollment').parent().addClass('red_sign');
+        }
+        if (document.body.scrollTop > $('#AvailablityInfo').offset().top || document.documentElement.scrollTop > $('#AvailablityInfo').offset().top) {
+            $('#nav-details').parent().removeClass('red_sign');
+            $('#nav-meeting').parent().removeClass('red_sign');
+            $('#nav-enrollment').parent().removeClass('red_sign');
+            $('#nav-availablity').parent().removeClass('red_sign');
+            $('#nav-comments').parent().removeClass('red_sign');
+            $('#nav-availablity').parent().addClass('red_sign');
+        }
+        if (document.body.scrollTop > $('#Comments').offset().top || document.documentElement.scrollTop > $('#Comments').offset().top) {
+            $('#nav-details').parent().removeClass('red_sign');
+            $('#nav-meeting').parent().removeClass('red_sign');
+            $('#nav-enrollment').parent().removeClass('red_sign');
+            $('#nav-availablity').parent().removeClass('red_sign');
+            $('#nav-comments').parent().removeClass('red_sign');
+            $('#nav-comments').parent().addClass('red_sign');
+        }
+    }
+
+});
+
 //like and unlike
 $(function () {
     $("#praise").click(function () {
