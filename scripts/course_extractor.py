@@ -37,7 +37,7 @@ def dumpinfo(tofile, info):
         description = m1[-1]
         match = re.search('Requirements', r.text)
         regrequire = m1[-3] if match else ""
-        print regrequire
+        #print regrequire
         m2 = re.findall(r"<span  class='PSEDITBOX_DISPONLY' >(.+?)</span>", r.text)
         status = m2[1]
         coursenbr = m2[2]
@@ -100,7 +100,7 @@ def main():
     with open('FacList.txt','r') as f:
         for line in f.readlines():
             subject = line.split()[0]
-            print('Dumping',subject,'......')
+            #print('Dumping',subject,'......')
             dodump(subject)
     with open('info_dict.json', 'w') as f:
         json.dump(add_info, f)
