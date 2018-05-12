@@ -34,7 +34,16 @@
                                         </script>
                                         <button class="button1" style="vertical-align:text-bottom" onclick="previous()"><span>Last</span></button>
                                         <% } %>
-                                      <a class="link link--kukuri" href="#" data-letters=<%= course.courseCode %>><%= course.courseCode %></a>
+                                        <% if(course.sectionCode != ''){ %>
+                                            <% var slashLetter = course.courseCode+"-"+ course.sectionCode; %>
+                                            <a class="link link--kukuri" href="#" data-letters=<%= slashLetter %>>
+                                                <%= course.courseCode %>-<%= course.sectionCode %>
+                                            </a>
+                                        <% }else{ %>
+                                            <a class="link link--kukuri" href="#" data-letters=<%= course.courseCode %>>
+                                                <%= course.courseCode %>
+                                            </a>
+                                        <% } %>
                                         <% if('after' in course){ %>
                                         <script>
                                         function after() {
@@ -79,12 +88,10 @@
                                                 <p>
                                                     <%= course.classDetails.grading %>
                                                 </p>
-                                                <% if(course.sectionCode.length> 0){ %>
-                                                <h4>Section Code: </h4>
+                                                <h4>Instructor: </h4>
                                                 <p>
-                                                    <%= course.sectionCode %>
+                                                    <%= course.instructor %>
                                                 </p>
-                                                <% } %>
                                             </div>
                                         </div>    
                                     </div>
@@ -94,12 +101,18 @@
                                 <h2 class="courseinfo-border">Meeting Information</h2>
                                 <div class="row">
                                     <% for(var a = 0; a < component.length ;a++){ %>
+                                        
                                         <% for(var b=0; b < course.componentDict[component[a]].length;b++){ %>
                                             <% component_num=component[a]+'['+b+']'; %>
                                             <div>
-                                                <h3><%= componentDir[component[a]] %></h3>
-                                                <h5><%= eval("course.componentDict."+component_num+".sectionCode") %></h5>
-                                                <div class="table100 ver2 m-b-110">
+                                                <p class="oneline m-l-60">
+                                                    <span class="h2-span"><%= componentDir[component[a]] %></span>
+                                                    <span>&nbsp&nbsp</span>
+                                                    <% if(course.componentDict[component[a]].length!=1){ %>
+                                                    <span class="press">Section code: <%= eval("course.componentDict."+component_num+".sectionCode") %></span>
+                                                    <% } %>
+                                                </p>
+                                                <div class="table100 ver2 m-b-40 m-l-50">
                                                     <div class="table100-head">
                                                         <table>
                                                             <thead>
@@ -121,13 +134,18 @@
                                                                 <tr class="row100 body">
                                                                     <% var startDate = [(eval("course.componentDict."+component_num+".meetingInfo"+"["+c+"].meetingDates").startDate.getDate()),(eval("course.componentDict."+component_num+".meetingInfo"+"["+c+"].meetingDates").startDate.getMonth()+1),eval("course.componentDict."+component_num+".meetingInfo"+"["+c+"].meetingDates").startDate.getFullYear()].join('/'); %>
                                                                     <% var endDate =[(eval("course.componentDict."+component_num+".meetingInfo"+"["+c+"].meetingDates").endDate.getDate()),(eval("course.componentDict."+component_num+".meetingInfo"+"["+c+"].meetingDates").endDate.getMonth()+1),eval("course.componentDict."+component_num+".meetingInfo"+"["+c+"].meetingDates").endDate.getFullYear()].join('/'); %>
+                                                                    <% eval("course.componentDict."+component_num+".meetingInfo"+"["+c+"].meetingDates.startDate"+"= startDate"); %>
+                                                                    <% eval("course.componentDict."+component_num+".meetingInfo"+"["+c+"].meetingDates.endDate"+"= endDate"); %>
+                                                                    <% if (component[a] != 'WBL' && component[a] != 'PRJ'){ %>
                                                                     <% switch (eval("course.componentDict."+component_num+".meetingInfo"+"["+c+"].daysTime.day")) { case 0: eval("course.componentDict."+component_num+".meetingInfo"+"["+c+"].daysTime.day"+"=Monday"); break;case 1: eval("course.componentDict."+component_num+".meetingInfo"+"["+c+"].daysTime.day"+"= Tuesday"); break; case 2: eval("course.componentDict."+component_num+".meetingInfo"+"["+c+"].daysTime.day"+"= Wednesday"); break; case 3: eval("course.componentDict."+component_num+".meetingInfo"+"["+c+"].daysTime.day"+"= Thursday"); break; case 4: eval("course.componentDict."+component_num+".meetingInfo"+"["+c+"].daysTime.day"+"=Friday"); break; case 5: eval("course.componentDict."+component_num+".meetingInfo"+"["+c+"].daysTime.day"+ "= Saturday"); break; } %>
                                                                     <% switch (eval("course.componentDict."+component_num+".meetingInfo"+"["+c+"].daysTime.timeSlot.start")) { case 1: eval("course.componentDict."+component_num+".meetingInfo"+"["+c+"].daysTime.timeSlot.start"+"=start1"); break;case 2: eval("course.componentDict."+component_num+".meetingInfo"+"["+c+"].daysTime.timeSlot.start"+"=start2"); break; case 3: eval("course.componentDict."+component_num+".meetingInfo"+"["+c+"].daysTime.timeSlot.start"+"=start3"); break; case 4: eval("course.componentDict."+component_num+".meetingInfo"+"["+c+"].daysTime.timeSlot.start"+"=start4"); break; case 5: eval("course.componentDict."+component_num+".meetingInfo"+"["+c+"].daysTime.timeSlot.start"+"=start5"); break; case 6: eval("course.componentDict."+component_num+".meetingInfo"+"["+c+"].daysTime.timeSlot.start"+"=start6"); break; case 7: eval("course.componentDict."+component_num+".meetingInfo"+"["+c+"].daysTime.timeSlot.start"+"=start7"); break;case 8: eval("course.componentDict."+component_num+".meetingInfo"+"["+c+"].daysTime.timeSlot.start"+"=start8"); break; case 9: eval("course.componentDict."+component_num+".meetingInfo"+"["+c+"].daysTime.timeSlot.start"+"=start9"); break; case 10: eval("course.componentDict."+component_num+".meetingInfo"+"["+c+"].daysTime.timeSlot.start"+"=start10"); break; case 11: eval("course.componentDict."+component_num+".meetingInfo"+"["+c+"].daysTime.timeSlot.start"+"=start11"); break; case 12: eval("course.componentDict."+component_num+".meetingInfo"+"["+c+"].daysTime.timeSlot.start"+"=start12"); break;case 13: eval("course.componentDict."+component_num+".meetingInfo"+"["+c+"].daysTime.timeSlot.start"+"=start13")= "20:30"; break;case 14: eval("course.componentDict."+component_num+".meetingInfo"+"["+c+"].daysTime.timeSlot.start"+"=start14"); break;} %>
                                                                     <% switch (eval("course.componentDict."+component_num+".meetingInfo"+"["+c+"].daysTime.timeSlot.end")) { case 1: eval("course.componentDict."+component_num+".meetingInfo"+"["+c+"].daysTime.timeSlot.end"+"=end1"); break;case 2: eval("course.componentDict."+component_num+".meetingInfo"+"["+c+"].daysTime.timeSlot.end"+"=end2"); break; case 3: eval("course.componentDict."+component_num+".meetingInfo"+"["+c+"].daysTime.timeSlot.end"+"=end3"); break; case 4: eval("course.componentDict."+component_num+".meetingInfo"+"["+c+"].daysTime.timeSlot.end"+"=end4"); break; case 5: eval("course.componentDict."+component_num+".meetingInfo"+"["+c+"].daysTime.timeSlot.end"+"=end5"); break; case 6: eval("course.componentDict."+component_num+".meetingInfo"+"["+c+"].daysTime.timeSlot.end"+"=end6"); break; case 7: eval("course.componentDict."+component_num+".meetingInfo"+"["+c+"].daysTime.timeSlot.end"+"=end7"); break;case 8: eval("course.componentDict."+component_num+".meetingInfo"+"["+c+"].daysTime.timeSlot.end"+"=end8"); break; case 9: eval("course.componentDict."+component_num+".meetingInfo"+"["+c+"].daysTime.timeSlot.end"+"=end9"); break; case 10: eval("course.componentDict."+component_num+".meetingInfo"+"["+c+"].daysTime.timeSlot.end"+"=end10"); break; case 11: eval("course.componentDict."+component_num+".meetingInfo"+"["+c+"].daysTime.timeSlot.end"+"=end11"); break; case 12: eval("course.componentDict."+component_num+".meetingInfo"+"["+c+"].daysTime.timeSlot.end"+"=end12"); break;case 13: eval("course.componentDict."+component_num+".meetingInfo"+"["+c+"].daysTime.timeSlot.end"+"=end13")= "20:30"; break;case 14: eval("course.componentDict."+component_num+".meetingInfo"+"["+c+"].daysTime.timeSlot.end"+"=end14"); break;} %>
-                                                                    <% eval("course.componentDict."+component_num+".meetingInfo"+"["+c+"].meetingDates.startDate"+"= startDate"); %>
-                                                                    <% eval("course.componentDict."+component_num+".meetingInfo"+"["+c+"].meetingDates.endDate"+"= endDate"); %>
                                                                     <td class="cell100 column1"><%= eval("course.componentDict."+component_num+".meetingInfo"+"["+c+"].daysTime.day") %> <%= eval("course.componentDict."+component_num+".meetingInfo"+"["+c+"].daysTime.timeSlot.start") %> - <%= eval("course.componentDict."+component_num+".meetingInfo"+"["+c+"].daysTime.timeSlot.end") %></td>
                                                                     <td class="cell100 column2"><%= eval("course.componentDict."+component_num+".meetingInfo"+"["+c+"].room")%></td>
+                                                                    <% }else{ %>
+                                                                    <td class="cell100 column1">None</td>
+                                                                    <td class="cell100 column2">None</td>
+                                                                    <% } %>
                                                                     <td class="cell100 column3"><%= course.instructor %></td>
                                                                     <td class="cell100 column4"><%= eval("course.componentDict."+component_num+".meetingInfo"+"["+c+"].meetingDates.startDate") %>-<%= eval("course.componentDict."+component_num+".meetingInfo"+"["+c+"].meetingDates.endDate") %></td>
                                                                 </tr>
@@ -138,17 +156,24 @@
                                                 </div>
                                             </div>
                                         <% } %>
+                                        
                                     <% } %>
                                 </div>
                             </section>
                             <section id="EnrollmentInfo">
                                 <h2 class="courseinfo-border">Enrollment Information</h2>
-                                <p>Class Attribute: </p>
-                                <p><%= course.enrollmentInfo.classAttr %></p>
-                                <p>Drop Consent</p>
-                                <p><%= course.enrollmentInfo.dropConsent %></p>
-                                <p>Enroll Requirement: </p>
-                                <p><%= course.enrollmentInfo.enrollReq %></p>
+                                <div class="m-l-50">
+                                    
+                                    <p>Class Attribute: <%= course.enrollmentInfo.classAttr %></p>
+                                    
+                                    <% if(course.enrollmentInfo.dropConsent != ''){ %>
+                                    <p>Drop Consent: <%= course.enrollmentInfo.dropConsent %></p>
+                                    <% } %>
+                                    <% if(course.enrollmentInfo.enrollReq != ''){ %>
+                                    <p>Enroll Requirement: <%= course.enrollmentInfo.enrollReq %></p>
+                                    <% } %>
+                                    
+                                </div>
                             </section>
                             <section id="AvailablityInfo">
                                 <div class="courseinfo-border">
@@ -164,30 +189,38 @@
                                         <% } %>
                                     </span>
                                 </div>
-                                <% for(var a = 0; a < component.length ;a++){ %>
-                                    <% for(var b=0; b < course.componentDict[component[a]].length;b++){ %>
-                                        <h3><%= componentDir[component[a]] %></h3>
-                                        <h5>
-                                            <%= eval("course.componentDict."+component_num+".sectionCode") %>
-                                        </h5>
-                                        <div class="row">
-                                            <div class="col-sm-4">
-                                                <h4 class="courseinfo-border">Quota</h4>
-                                                <span>
-                                                    <%= eval("course.componentDict."+component_num+".classAvail.enrollTotal") %> /
-                                                        <%= eval("course.componentDict."+component_num+".classAvail.classCapacity")%>
-                                                </span>
+                                <div class="m-l-50">
+                                    <% for(var a = 0; a < component.length ;a++){ %>
+                                        <% for(var b=0; b < course.componentDict[component[a]].length;b++){ %>
+                                            <% component_num=component[a]+'['+b+']'; %>
+                                            <p class="oneline m-t-30">
+                                                <span class="h3-span"><%= componentDir[component[a]] %></span>
+                                                <span>&nbsp&nbsp</span>
+                                                <% if(course.componentDict[component[a]].length!=1){ %>
+                                                    <span class="press">Section code:
+                                                        <%= eval("course.componentDict."+component_num+".sectionCode") %>
+                                                    </span>
+                                                <% } %>
+                                            </p>
+                                            <div class="row">
+                                                <div class="col-sm-4">
+                                                    <h4 class="courseinfo-border press">Quota</h4>
+                                                    <span class="avail-num">
+                                                        <%= eval("course.componentDict."+component_num+".classAvail.enrollTotal") %> /
+                                                            <%= eval("course.componentDict."+component_num+".classAvail.classCapacity")%>
+                                                    </span>
+                                                </div>
+                                                <div class="col-sm-4">
+                                                    <h4 class="courseinfo-border press">Waiting List</h4>
+                                                    <span class="avail-num">
+                                                        <%= eval("course.componentDict."+component_num+".classAvail.waitListTotal") %> /
+                                                            <%= eval("course.componentDict."+component_num+".classAvail.waitListCapacity") %>
+                                                    </span>
+                                                </div>
                                             </div>
-                                            <div class="col-sm-4">
-                                                <h4 class="courseinfo-border">Waiting List</h4>
-                                                <span>
-                                                    <%= eval("course.componentDict."+component_num+".classAvail.waitListTotal") %> /
-                                                        <%= eval("course.componentDict."+component_num+".classAvail.waitListCapacity") %>
-                                                </span>
-                                            </div>
-                                        </div>
+                                        <% } %>
                                     <% } %>
-                                <% } %>
+                                </div>
                             </section>
                             <section id="Comments">
                                 <div class="courseinfo-border">

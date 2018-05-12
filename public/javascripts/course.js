@@ -239,3 +239,6 @@ $(".img-praise").on('click',function (event) {
         });
     }
 });
+
+//css test
+//console.log($('.link').attr('data-letters'));
