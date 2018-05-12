@@ -210,7 +210,7 @@ a.logo{
   display: flex;
   color: var(--grey-2);
   overflow: scroll;
-  height: 32rem;
+  height: 33rem;
   border: 1px solid var(--grey-1);
   border-radius: 4px;
 }

@@ -37,11 +37,11 @@ $(document).ready(function() {
 		  	var courseName = courses[key].courseName;
 		  	var units = courses[key].classDetails.units;
 		  	var id = courses[key]._id;
-		  	addSearchItem(courseCode, courseName, id, units, '#recommend-list')
-		  }
-
-		  for (var id in selectedCourse){
-				$('#'+id).off('click').css("background-color",'var(--main-color-1)');
+		  	if(id in selectedCourse){
+			  	addSearchItem(courseCode, courseName, id, units, '#recommend-list', false);
+		  	}else{
+			  	addSearchItem(courseCode, courseName, id, units, '#recommend-list', true);
+		  	}
 		  }
 		}
 	})).done(function(){
@@ -191,10 +191,14 @@ function addClassItem(code, name, id, gid, type, venue, day, timeslot, opt, colo
 }
 
 // add search item
-function addSearchItem(code, name, id, units, target){
+function addSearchItem(code, name, id, units, target, clickable){
 	var tmpl = $('#search-item-tmpl').contents().clone();
 	$(tmpl).attr("id", id);
-	$(tmpl).children(".search-item-info").on("click", searchClickHandler);
+	if(clickable){
+		$(tmpl).children(".search-item-info").on("click", searchClickHandler);
+	}else{
+		$(tmpl).toggleClass("clickable-tab").toggleClass("unclickable-tab");
+	}
 	$(tmpl).children(".search-item-info").html('<span>'+ code +'</span><br>'+ name +'<br><span> '+ units +' Units </span>');
 	$(tmpl).children(".search-item-btn").attr("href", "/search/"+id);
 	$(target).append(tmpl);
@@ -281,6 +285,8 @@ function selectCourse(course, select){
 		var comp_tmpl = $('#select-item-comp-tmpl').contents().clone();
 		$(comp_tmpl).find('.select-item-comp-title').html(key);
 		$(comp_tmpl).attr("data-type", key);
+		// console.log(select[key]);
+		// console.log(key);
 		for(var i in component[select[key]].meetingInfo){
 			var daysTime = component[select[key]].meetingInfo[i][0].daysTime;
 	  	var venue = component[select[key]].meetingInfo[i][0].room;
@@ -323,16 +329,17 @@ $('#search-input').on("keyup", function(){
 			  	var courseName = courses[key].courseName;
 			  	var units = courses[key].classDetails.units;
 			  	var id = courses[key]._id;
-			  	addSearchItem(courseCode, courseName, id, units, '#search-list');
+			  	if(id in selectedCourse){
+				  	addSearchItem(courseCode, courseName, id, units, '#search-list', false);
+			  	}else{
+				  	addSearchItem(courseCode, courseName, id, units, '#search-list', true);
+			  	}
 			  }
 
 			  if(Object.keys(courses).length == 0){
 				  $(list).append("<div style='padding: 0.3rem 0.8rem;'>No matching course for <strong>"+keyword+"</strong></div>");
 			  }
 
-			  for (var id in selectedCourse){
-					$('#'+id).off('click').css("background-color",'var(--main-color-1)');
-			  }
 			}
 		});
 	}else{
