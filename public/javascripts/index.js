@@ -163,7 +163,7 @@ function addClassItem(code, name, id, gid, type, venue, day, timeslot, opt, colo
 		$(tmpl).attr("data-gid", gid);
 		$(tmpl).attr("data-color", color);
 		$(tmpl).attr("data-select", true);
-		$(tmpl).children(".class-info").html(code+'<br>'+type+gid+'<br>'+venue);
+		$(tmpl).children(".class-info").html('<strong>'+code+'</strong>&ensp;'+type+gid+'<br>'+venue);
 		$(tmpl).css({
 			"grid-row-start": timeslot.start.toString(),
 		  "grid-row-end": timeslot.end.toString(),
@@ -250,7 +250,7 @@ function selectCourse(course, select){
   var courseCode = course.courseCode + course.sectionCode
   var courseName = course.courseName
   var id = course._id;
-  var color = (color_num++)%7;
+  var color = (color_num++)%8;
 
 	var tmpl = $('#select-item-tmpl').contents().clone();
 	$(tmpl).find('.select-item-title').html(courseCode+' '+courseName)
@@ -317,7 +317,7 @@ $('#search-input').on("keyup", function(){
 
 			  // clean search list items
 			  $(list).children().remove();
-			  $(list).append("<div class='recommend-title'>Search Result</div>");
+			  $(list).append("<div class='search-title'>Search Result</div>");
 			  // add search list items
 			  for (var key in courses){
 			  	var courseCode = courses[key].courseCode + courses[key].sectionCode;
