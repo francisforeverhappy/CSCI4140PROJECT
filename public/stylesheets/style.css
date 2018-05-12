@@ -210,7 +210,7 @@ a.logo{
   display: flex;
   color: var(--grey-2);
   overflow: scroll;
-  height: 32rem;
+  height: 33rem;
   border: 1px solid var(--grey-1);
   border-radius: 4px;
 }
@@ -257,6 +257,13 @@ a.logo{
   top: calc(50% - 1.5rem);
   font-size: 3rem;
 }
+
+.btn-loading-box{
+  -webkit-animation:spin 1.5s linear infinite;
+  -moz-animation:spin 1.5s linear infinite;
+  animation:spin 1.5s linear infinite;
+}
+
 
 .input-box{
   width: 100%;
@@ -321,6 +328,7 @@ a.logo{
 	background-color: var(--main-color-3);
   margin: 0 1rem 0.2rem;
 	color: var(--main-bg-color);
+  width: 5rem;
 }
 
 .search-list, .recommend-list{
