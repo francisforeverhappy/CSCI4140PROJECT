@@ -8,18 +8,39 @@ const Course = require('../models/course'),
     middleware = require('../middleware'),
     support = require('../support/js/support');
 
-router.get('/', (req, res) => {
-    let isLoggedIn = false;
-    res.render('index', {sid: req.session.sid});
+router.get('/', (req, res) => {    
+    return res.render('index', {sid: req.session.sid});
 });
 
+router.get('/recommend', middleware.asyncMiddleware(async (req, res) => {
+    const courseMessage = 'courseCode courseName classDetails.units sectionCode';
+    if ('sid' in req.session) {
+        let sid = req.session.sid,
+            pwd = support.decrypt(sid, req.session.pwd);
+        
+        let pythonProcess = spawn('python', ['support/py/recommend.py', sid, pwd]);
+        pythonProcess.stdout.on('data', async (data) => {
+            let courseCodes = data.toString().trim().split(',');
+            console.log(courseCodes);
+            let courses = courseCodes.map(async (courseCode) => {
+                course = await Course.findOne({courseCode: courseCode}, courseMessage).lean();
+                return course;
+            });
+            courses = await Promise.all(courses);
+            console.log('good');
+            return res.send({sid: req.session.sid, courses: courses});
+        });
 
-router.get('/test/:courseCode', middleware.asyncMiddleware(async (req, res) => {
-    let section = await Course.findOne({courseCode: 'ELTU3014'});
-    console.log(section);
+    } else {
+        let courses = await Course.find({}, courseMessage, {sort: {avgRating: -1}}).limit(10).lean();
+        return res.send({sid: req.session.sid, courses: courses});
+    }
 }));
 
-
+router.get('/test', middleware.asyncMiddleware(async (req, res) => {
+    let section = await Course.find({courseCode: new RegExp('ugfn', 'i')});
+    console.log(section.length);
+}));
 
 // login
 router.post('/login', (req, res, next) => {

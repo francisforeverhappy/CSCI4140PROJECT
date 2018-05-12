@@ -53,8 +53,9 @@
 			    </div>
 			  </div>
 			  <div class="col-md-4">
-			  	<div class="export">
-	    			<button class="clickable" id="export-btn"><span><i class="ion-ios-download-outline"></i></span>  Download Calendar</button>
+			  	<div class="im-export-btn">
+	    			<button class="clickable" id="import-btn"><span><i class="ion-ios-download-outline"></i></span>  Import</button>
+	    			<button class="clickable" id="export-btn"><span><i class="ion-ios-upload-outline"></i></span>  Download </button>
 			  	</div>
 			  	<div class="search">
     				<div class="search-bar input-box">
@@ -62,41 +63,14 @@
 	    				<i class="ion-ios-search"></i>
     				</div>
 	    		</div>
+			    <div class="recommend-list" id="recommend-list">
+			    	<div class="recommend-title">Recommend
+			    	</div>
+			    </div>
 	    		<div class="search-list" id="search-list">
-	    		</div>
 	    	</div>
     	</div>
     </div>
-
-    <!-- Modal -->
-		<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel" aria-hidden="true">
-		  <div class="modal-dialog" role="document">
-		    <div class="modal-content">
-		      <div class="modal-header">
-		        <h5 class="modal-title" id="loginModalLabel">Login with CWEM</h5>
-		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-		          <span aria-hidden="true"><i class="ion-ios-close-outline"></i></span>
-		        </button>
-		      </div>
-		      <div class="modal-body">
-		        <!-- <form method="POST" action="/login" id="login-form"> -->
-		        	<div id="login-warning">Login fail! Please try it again.</div>
-		        	<div class="login-input input-box">
-		    				<i class="ion-ios-person-outline" ></i>
-		    				<input id="sid-input" type="text" name="sid" placeholder="11550xxxxx">
-	    				</div>
-	    				<div class="login-input input-box">
-		    				<i class="ion-ios-keypad-outline" ></i>
-		    				<input id="pwd-input" type="password" name="pwd" placeholder="Your CWEM Password">
-	    				</div>
-		        <!-- </form> -->
-		      </div>
-		      <div class="modal-footer">
-		        <button type="submit" id="login-btn" class="btn btn-cute">Login</button>
-		      </div>
-		    </div>
-		  </div>
-		</div>
 
 		<template id="class-item-tmpl">
 			<div class="class-item">
@@ -106,7 +80,7 @@
 		</template>
 
 		<template id="search-item-tmpl">
-			<div class="search-item clickable">
+			<div class="search-item">
 				<div class="search-item-info">
 				</div>
 				<a target="_blank" class="search-item-btn">

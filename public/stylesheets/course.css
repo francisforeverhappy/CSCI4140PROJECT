@@ -234,7 +234,7 @@ table.altrowstable td {
 }
 .comment-mode{
     display: block;
-    height: 25px;
+    height: 50px;
     font-size: 15px;
     font-weight:bold;
     line-height:20px;
@@ -242,7 +242,7 @@ table.altrowstable td {
 }
 .comment-control{
     float:left;
-    padding-right: 10px;
+    left: 0;
     -webkit-font-smoothing: antialiased!important;
 }
 .comment-vote{

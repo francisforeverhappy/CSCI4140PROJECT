@@ -81,7 +81,6 @@ router.post('/create', middleware.checkLogin, middleware.asyncMiddleware(async (
         pwd = support.decrypt(sid, req.session.pwd);
     // debug
     // let sid = new Date().toString();
-
     let courseId = req.body.courseId,
         text = req.body.text,
         rating = req.body.rating;
@@ -125,7 +124,7 @@ router.post('/create', middleware.checkLogin, middleware.asyncMiddleware(async (
         courses.forEach((course) => {
             course.numRating = newNumRating;
             course.avgRating = newAvgRating;
-            course.save()
+            course.save();
         });
         console.log('success');
         return res.send({success: true});
@@ -197,6 +196,8 @@ router.post('/delete', (req, res) => {
     }); 
 });
 
+
+// test
 router.get('/deleteAll', (req, res) => {
     Comment.collection.drop();
     Course.find({}, (err, courses) => {
@@ -209,5 +210,98 @@ router.get('/deleteAll', (req, res) => {
     });
 });
 
+
+
+function makeid() {
+    var text = "";
+    var possible = "0123456789";
+  
+    for (var i = 0; i < 5; i++)
+      text += possible.charAt(Math.floor(Math.random() * possible.length));
+  
+    return text;
+}
+
+router.get('/gv/:courseCode', middleware.asyncMiddleware(async (req, res) => {
+    console.log('get /gv/:courseCode')
+    let courseCode = req.params.courseCode;
+    let comments = await Comment.find({courseCode: courseCode});
+    let numComment = comments.length;
+    
+    for (let i = 0; i < 100; i++) {
+        let sid = '11550' + makeid();
+        let random = Math.floor(Math.random() * numComment);
+        let comment = comments[random]
+
+        if (comment.voters.indexOf(sid) != -1) {
+            i--;
+            continue;
+        }
+
+        comment.voters.push(sid);
+        comment.numVotes++;
+        comment.save();   
+    }
+    console.log('done');
+}));
+
+router.get('/dv/:courseCode', middleware.asyncMiddleware(async (req, res) => {
+    console.log('get /dv/:courseCode')
+    let courseCode = req.params.courseCode;
+    let comments = await Comment.find({courseCode: courseCode});
+    comments.forEach((comment) => {
+        comment.voters = [];
+        comment.numVotes = 0;
+        comment.save()
+    });  
+    console.log('done');
+}));
+
+router.get('/gc/:courseCode', middleware.asyncMiddleware(async (req, res) => {
+    console.log('get /gc/:courseCode')
+    let courseCode = req.params.courseCode;
+    let course = await Course.findOne({courseCode: courseCode});
+    let ratingSum = 0;
+    for (let i = 0; i < 20; i++) {
+        let sid = '11550' + makeid();
+        let oldComment = await Comment.findOne({courseCode: courseCode, author: sid});      
+
+        if (oldComment) {
+            i--;
+            continue;
+        }
+
+        let text = sid;
+        let rating = Math.floor(Math.random() * 5 + 1);
+        ratingSum += Number(rating);
+        let newComment = new Comment({
+            _id: mongoose.Types.ObjectId(),
+            courseCode: course.courseCode, 
+            semester: course.semester, 
+            sectionCode: course.sectionCode,
+            time: new Date().toISOString(), 
+            text: text,
+            rating: rating, 
+            author: sid,
+            voters: [],
+            numVotes: 0
+        });
+        newComment.save();
+    }
+
+    Course.find({courseCode: course.courseCode}, (err, courses) => {
+        let newNumRating = courses[0].numRating + 20;
+        let newAvgRating = (courses[0].avgRating * courses[0].numRating + Number(ratingSum)) / newNumRating;
+        courses.forEach((course) => {
+            course.numRating = newNumRating;
+            course.avgRating = newAvgRating;
+            course.save()
+        });
+        console.log("total comment: " + newNumRating);
+        console.log("newAvgRating: " + newAvgRating);
+    });
+
+    console.log('done');
+}));
 
 module.exports = router;

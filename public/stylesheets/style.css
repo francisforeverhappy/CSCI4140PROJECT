@@ -14,12 +14,7 @@
     --grey-3: #50453B;
     --grey-4: #404041;
     --grey-5: #121313;
-    --nav-bg-color: #E7F0F9;
-    --main-color: #005BBF;
     --main-bg-color: #FFF;
-    --second-bg-color: #E7F0F9;
-    --assist-color: #D5382E;
-    --warn-color: #D5382E;
 }
 
 body {
@@ -31,7 +26,7 @@ body {
 }
 
 a {
-  color: var(--assist-color);
+  color: var(--2th-color-3);
 }
 
 @media (min-width: 576px){
@@ -61,13 +56,16 @@ a {
   left: 0;
   height: 3rem;
   z-index: 10;
-  background-color: var(--nav-bg-color)
+  background-color: var(--main-color-1)
+}
+
+.nav a{
+  text-decoration: none;
+  color: inherit;
 }
 
 a.logo{
-	margin: auto auto auto 1rem;
-  text-decoration: none;
-  color: var(--gery-2);
+  margin: auto auto auto 1rem;
 }
 
 .nav button{
@@ -76,6 +74,7 @@ a.logo{
   border: none;
   background-color: transparent;
 	outline: none;
+  color: inherit;
 }
 
 .clickable-btn:hover{
@@ -103,7 +102,7 @@ a.logo{
     float: left;
     padding: 0.75rem 1rem;
     margin: .125rem 0 0;
-    color: var(--gery-2);
+    color: var(--grey-3);
     text-align: left;
     background-color: var(--main-bg-color);
     background-clip: padding-box;
@@ -156,6 +155,7 @@ a.logo{
   line-height: 14px;
   color: var(--main-color-1);
 }
+
 .class-info{
 	/*top:1px;*/
 	position: absolute;
@@ -172,10 +172,10 @@ a.logo{
 .table{
   flex-direction: row;
   display: flex;
-  color: var(--gery-1);
+  color: var(--grey-2);
   overflow: scroll;
   height: 32rem;
-  border: 1px solid var(--gery-0);
+  border: 1px solid var(--grey-1);
   border-radius: 4px;
 }
 
@@ -195,7 +195,7 @@ a.logo{
 }
 
 .schedule{
-	background: linear-gradient(180deg,var(--second-bg-color) 50%, transparent 0);
+	background: linear-gradient(180deg,var(--main-color-1) 50%, transparent 0);
 	background-size: 15.5%;
 	height: 39rem;
 	position: relative;
@@ -227,7 +227,7 @@ a.logo{
   padding: .375rem .75rem;
   font-size: 1rem;
   line-height: 1.5;
-  color: var(--gery-2);
+  color: var(--grey-3);
   background-color: var(--main-bg-color);
   background-clip: padding-box;
   border: 1px solid var(--main-color-3);
@@ -243,7 +243,7 @@ a.logo{
 }
 
 .input-box i{
-	color: var(--main-color);
+	color: var(--main-color-3);
 }
 
 .login-input{
@@ -256,15 +256,15 @@ a.logo{
   padding: 0.4rem;
   text-align: center;
   border-radius: 4px;
-  background-color: var(--warn-color);
+  background-color: var(--2th-color-3);
   width: 75%;
-  color: var(--second-bg-color);
+  color: var(--main-color-1);
   display: none;
   font-size: small;
 }
 
 .modal-header{
-	background-color: var(--second-bg-color);
+	background-color: var(--main-color-1);
 	border: none;
 }
 
@@ -282,20 +282,35 @@ a.logo{
 }
 
 .btn-cute{
-	background-color: var(--main-color);
+	background-color: var(--main-color-3);
   margin: 0 1rem 0.2rem;
 	color: var(--main-bg-color);
 }
 
 .search-list{
-  height: 27.5rem;
+  height: 32rem;
   overflow: scroll;
+}
+
+.recommend-list{
+  max-height: 32rem;
+  overflow: scroll;
+}
+
+.recommend-title{
+  padding: 0.5rem 0.8rem;
+  border: 1px solid var(--2th-color-3);
+  border-radius: 4px;
+  width: -webkit-fill-available;
+  text-align: center;
+  background-color: var(--2th-color-2);
+  color: var(--grey-1);
 }
 
 .search-item{
   display: flex;
   padding: 0.5rem 0.8rem;
-  border: 1px solid var(--second-bg-color);
+  border: 1px solid var(--main-color-1);
   border-radius: 4px;
   width: -webkit-fill-available;
 }
@@ -305,7 +320,7 @@ a.logo{
 }
 
 .search-item-info span{
-  color: var(--main-color);
+  color: var(--main-color-3);
   font-size: 0.75rem;
 }
 
@@ -316,7 +331,7 @@ a.logo{
 .select-item-show{
   display: flex;
   padding: 0.25rem;
-  border: 1px solid var(--main-color);
+  border: 1px solid var(--main-color-3);
   border-radius: 2rem;
   height: 3rem;
   margin-left: 0.25rem;
@@ -362,24 +377,36 @@ a.logo{
   text-indent: 1rem;
 }
 
-.export button{
-  border: 1px solid var(--main-color);
+.im-export-btn{
+  display: flex;
+}
+
+.im-export-btn button{
+  border: 1px solid var(--main-color-3);
   width: -webkit-fill-available;
   height: 2.5rem;
   border-radius: 4px;
-  color: var(--main-color);
+  color: var(--main-color-3);
   margin: 0.25rem 0;
   font-size: 14px;
   outline: none
 }
 
-.export button i{
+.im-export-btn button i{
   font-size: 1rem;
 }
 
+#import-btn{
+  margin-right: 4px;
+}
+
+#export-btn{
+  margin-left: 4px;
+}
+
 .clickable:hover {
-  background-color: var(--2th-color-4);
-  color: var(--2th-color-1);
+  background-color: var(--main-color-3);
+  color: var(--grey-1);
 }
 
 template{
@@ -392,11 +419,6 @@ template{
 
 .search-item:hover{
   background-color: var(--main-color-1);
-}
-
-#export-btn:hover{
-  background-color: var(--main-color-3);
-  color: var(--grey-1);
 }
 
 .hidden{
@@ -412,4 +434,3 @@ template{
 .col-md-8{
   /*height: -webkit-fill-available;*/
 }
-
