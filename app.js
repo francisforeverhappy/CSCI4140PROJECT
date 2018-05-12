@@ -41,6 +41,10 @@ app.use("/comment", commentRoute);
 app.use("/search", searchRoute);
 app.use("/protected", protectedRoute);
 
+app.use(function(req, res, next){
+  res.redirect('/');
+});
+
 app.listen(3000, () => {
     console.log('CUTE server has started');
 });

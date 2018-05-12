@@ -16,7 +16,7 @@ function checkCourse(sid, pwd, courseCode) {
         pythonProcess.stdout.on('data', (data) => {
             let result = data.toString().trim(); 
             if (result == 'True') {
-                console.log(courseCode);
+                // console.log(courseCode);
                 console.log('checkCourse success');
                 resolve(true);
             } else {
@@ -86,7 +86,7 @@ router.post('/create', middleware.checkLogin, middleware.asyncMiddleware(async (
         rating = req.body.rating;
 
     let course = await Course.findById(courseId);
-    console.log(course.courseCode);
+    // console.log(course.courseCode);
     let checkResult = await checkCourse(sid, pwd, course.courseCode);
     if (!checkResult) {
         console.log("course didn't take");

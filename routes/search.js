@@ -44,34 +44,39 @@ router.post('/detail', middleware.asyncMiddleware(async (req, res) => {
 }));
 
 router.get('/:courseId', middleware.asyncMiddleware(async (req, res) => {
-    console.log('get /search/:courseId');
-    let courseId = req.params.courseId;
-    let course = await Course.findById(courseId).lean();
-
-    for (component in course.componentDict) {
-        course.componentDict[component] = await Section.find({'_id': {$in: course.componentDict[component]}}).lean();
-    }
-
-    course.comments = await Comment.find({courseCode: course.courseCode}, null, {sort: {numVotes: -1, time: -1}}).lean();
-    course.comments = course.comments.map((comment) => {
-        comment.time = new Date(comment.time).toLocaleString();
-        return comment;
-    });
-
-    let courses = await Course.find({courseCode: course.courseCode, semester: course.semester}, '_id', {sort: {sectionCode: 1}});
-
-    for (let i = 0; i < courses.length; i++) {
-        if (String(courses[i]._id) == String(course._id)) {
-            if (i > 0) {
-                course.previous = courses[i-1]._id;
-            }
-            if (i < courses.length - 1) {
-                course.after = courses[i+1]._id;
-            }
-            break;
+    try {
+        console.log('get /search/:courseId');
+        let courseId = req.params.courseId;
+        let course = await Course.findById(courseId).lean();
+        
+        for (component in course.componentDict) {
+            course.componentDict[component] = await Section.find({'_id': {$in: course.componentDict[component]}}).lean();
         }
+
+        course.comments = await Comment.find({courseCode: course.courseCode}, null, {sort: {numVotes: -1, time: -1}}).lean();
+        course.comments = course.comments.map((comment) => {
+            comment.time = new Date(comment.time).toLocaleString();
+            return comment;
+        });
+
+        let courses = await Course.find({courseCode: course.courseCode, semester: course.semester}, '_id', {sort: {sectionCode: 1}});
+
+        for (let i = 0; i < courses.length; i++) {
+            if (String(courses[i]._id) == String(course._id)) {
+                if (i > 0) {
+                    course.previous = courses[i-1]._id;
+                }
+                if (i < courses.length - 1) {
+                    course.after = courses[i+1]._id;
+                }
+                break;
+            }
+        }
+        return res.render('course', {sid: req.session.sid, course: course});
+    } catch (err) {
+        console.log(err.message);
+        return res.redirect('/');
     }
-    return res.render('course', {sid: req.session.sid, course: course});
 }));
 
 module.exports = router;

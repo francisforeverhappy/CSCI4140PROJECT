@@ -15,7 +15,7 @@ router.get('/', (req, res) => {
 router.get('/recommend', middleware.asyncMiddleware(async (req, res) => {
     const courseMessage = 'courseCode courseName classDetails.units sectionCode';
 	if ('sid' in req.session) {
-		console.log(req.session.reccourses);
+		// console.log(req.session.reccourses);
 		return res.send({sid: req.session.sid, courses: req.session.reccourses});
     } else {
         let courses = await Course.find({}, courseMessage, {sort: {avgRating: -1}}).limit(10).lean();
@@ -44,14 +44,14 @@ router.post('/login', (req, res, next) => {
     pythonProcess.stdout.on('data', async (data) => {
         let dataTuple = data.toString().trim().split('\n');
         let result = dataTuple[0].trim();
-        console.log(result);
+        // console.log(result);
 		if (result == 'True') {
             let encryptedPwd = support.encrypt(sid, pwd)
             req.session.sid = sid;
             req.session.pwd = encryptedPwd;
             console.log('login success');
 			let courseCodes = dataTuple[1].split(',');
-			console.log(courseCodes);
+			// console.log(courseCodes);
 			let courses = courseCodes.map(async (courseCode) => {
 				course = await Course.findOne({courseCode: courseCode}, courseMessage).lean();
 				return course;
