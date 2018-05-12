@@ -5,7 +5,7 @@
     --main-color-4 : #003A7A;
     --main-color-5 : #002246;
     --2th-color-1: #FBECEC;
-    --2th-color-2: #D84A41;
+    --2th-color-2: #DF6A63;
     --2th-color-3: #D5382E;
     --2th-color-4: #9B2922;
     --2th-color-5: #4E1511;
@@ -15,6 +15,39 @@
     --grey-4: #404041;
     --grey-5: #121313;
     --main-bg-color: #FFF;
+
+    --class-color-0-0: var(--grey-1);
+    --class-color-0-1: #BE600E;
+    --class-color-0-2: #E87511;
+    --class-color-0-3: #552B07;
+    --class-color-1-0: var(--grey-1);
+    --class-color-1-1: #7C8304;
+    --class-color-1-2: #AAB305;
+    --class-color-1-3: #3E4202;
+    --class-color-2-0: var(--grey-3);
+    --class-color-2-1: #F25348;
+    --class-color-2-2: #F2736A;
+    --class-color-2-3: #7A3A36;
+    --class-color-3-0: var(--grey-1);
+    --class-color-3-1: #9E2E21;
+    --class-color-3-2: #C13828;
+    --class-color-3-3: #47150F;
+    --class-color-4-0: var(--grey-3);
+    --class-color-4-1: #FFBF00;
+    --class-color-4-2: #FFD24C;
+    --class-color-4-3: #5D480B;
+    --class-color-5-0: var(--grey-1);
+    --class-color-5-1: #0086AC;
+    --class-color-5-2: #00A3D1;
+    --class-color-5-3: #005973;
+    --class-color-6-0: var(--grey-1);
+    --class-color-6-1: #006B5E;
+    --class-color-6-2: #008272;
+    --class-color-6-3: #00302A;
+    --class-color-7-0: #BE600E;
+    --class-color-7-1: #0086AC;
+    --class-color-7-2: #00A3D1;
+    --class-color-7-3: #005973;
 }
 
 body {
@@ -365,7 +398,7 @@ a.logo{
 .select-item-tooltip{
   display: none;
   background-color: var(--main-bg-color);
-  opacity: 0.8;
+  opacity: 0.5;
   width: 70%;
   position: absolute;
   z-index: 1;
