@@ -36,7 +36,7 @@
     --class-color-4-1: #FFBF00;
     --class-color-4-2: #FFD24C;
     --class-color-4-3: #5D480B;
-    --class-color-5-0: var(--grey-1);
+    --class-color-5-0: var(--grey-3);
     --class-color-5-1: #0086AC;
     --class-color-5-2: #00A9D8;
     --class-color-5-3: #005973;
@@ -185,12 +185,11 @@ a.logo{
 	width: -webkit-fill-available;
   height: calc(100% - 1px);
   background-color: var(--2th-color-2);
-  border-radius: 5px;
-  border-bottom: 2px solid var(--2th-color-4);
-  border-right: 1px solid var(--2th-color-4);
+  border-radius: 2px;
+  /*border-bottom: 2px solid;*/
+  /*border-right: 1px solid;*/
   padding: 3px;
   line-height: 14px;
-  color: var(--main-color-1);
 }
 
 .class-info{

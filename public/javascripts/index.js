@@ -134,13 +134,14 @@ function addOptClassItem(code, name, id, gid, type, venue, day, timeslot, color)
 		$(tmpl).attr("data-gid", gid);
 		$(tmpl).attr("data-color", color);
 		$(tmpl).attr("data-select", false);
-		$(tmpl).children(".class-info").html(code+'<br>'+type+gid+'<br>'+venue);
+		$(tmpl).children(".class-info").html('<strong>'+code+'</strong><br>'+type+gid+'<br>'+venue);
 		$(tmpl).css({
 			"grid-row-start": timeslot.start.toString(),
 		  "grid-row-end": timeslot.end.toString(),
 		  "color": "var(--class-color-"+color+"-0)",
-	    "border-bottom-color": "var(--class-color-"+color+"-3)",
-	    "border-right-color": "var(--class-color-"+color+"-3)",
+	    "border-radius": "8px",
+	    "border-bottom": "2px solid var(--class-color-"+color+"-3)",
+	    "border-right": "2px solid var(--class-color-"+color+"-3)",
 	    "background-color": "var(--class-color-"+color+"-2)"
 		});
 
@@ -163,13 +164,11 @@ function addClassItem(code, name, id, gid, type, venue, day, timeslot, opt, colo
 		$(tmpl).attr("data-gid", gid);
 		$(tmpl).attr("data-color", color);
 		$(tmpl).attr("data-select", true);
-		$(tmpl).children(".class-info").html('<strong>'+code+'</strong>&ensp;'+type+gid+'<br>'+venue);
+		$(tmpl).children(".class-info").html('<strong>'+code+'</strong><br>'+type+gid+'<br>'+venue);
 		$(tmpl).css({
 			"grid-row-start": timeslot.start.toString(),
 		  "grid-row-end": timeslot.end.toString(),
 		  "color": "var(--class-color-"+color+"-0)",
-	    "border-bottom-color": "var(--class-color-"+color+"-3)",
-	    "border-right-color": "var(--class-color-"+color+"-3)",
 	    "background-color": "var(--class-color-"+color+"-2)"
 		});
 
@@ -177,6 +176,10 @@ function addClassItem(code, name, id, gid, type, venue, day, timeslot, opt, colo
 
 		if(opt){
 			$(tmpl).on("click", optClassHandler);
+			$(tmpl).css({"border-radius": "8px",
+		    "border-bottom": "2px solid var(--class-color-"+color+"-3)",
+		    "border-right": "2px solid var(--class-color-"+color+"-3)",
+			});
 			$(tmpl).hover(function(e){
 				$(e.currentTarget).css("background-color","var(--class-color-"+color+"-1");
 			},function(e){
