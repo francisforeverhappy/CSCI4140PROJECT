@@ -163,15 +163,21 @@
                             <section id="EnrollmentInfo">
                                 <h2 class="courseinfo-border">Enrollment Information</h2>
                                 <div class="m-l-50">
-                                    
-                                    <p>Class Attribute: <%= course.enrollmentInfo.classAttr %></p>
-                                    
-                                    <% if(course.enrollmentInfo.dropConsent != ''){ %>
+
+                                    <% if(course.enrollmentInfo.addConsent){ %>
+                                        <p>Add Consent:
+                                            <%= course.enrollmentInfo.addConsent %>
+                                        </p>
+                                        <% } %>
+                                    <% if(course.enrollmentInfo.dropConsent){ %>
                                     <p>Drop Consent: <%= course.enrollmentInfo.dropConsent %></p>
                                     <% } %>
-                                    <% if(course.enrollmentInfo.enrollReq != ''){ %>
+                                    <% if(course.enrollmentInfo.enrollReq){ %>
                                     <p>Enroll Requirement: <%= course.enrollmentInfo.enrollReq %></p>
                                     <% } %>
+                                    <p>Class Attribute:
+                                        <%= course.enrollmentInfo.classAttr %>
+                                    </p>
                                     
                                 </div>
                             </section>
@@ -238,12 +244,12 @@
                                         <% if(i==0){ firstcomment = course.comments[i].author; %>
                                             <input id="firstcomment" value=<%= firstcomment %> style="display: none;">
                                         <% } %>
-                                        <div class="thread" id=<%= course.comments[i].author %>>
+                                        <div class="thread container" id=<%= course.comments[i].author %>>
                                             <% if( sid == course.comments[i].author){ %>
                                             <span class="comment-form edit-form">
                                                 <p class="comment-form-comment">
                                                     <input id="comment-id" value=<%= course.comments[i]._id %> style="display: none;">
-                                                    <textarea id="edit-comment" name="text" col="60" row="8" required></textarea>
+                                                    <textarea id="edit-comment form" name="text" col="60" row="8" required></textarea>
                                                 </p>
                                                 <p>
                                                     <span class="rating">

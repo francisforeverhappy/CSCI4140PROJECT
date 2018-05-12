@@ -12,7 +12,7 @@ class Cusis:
 		"""Login into cusis, return True if successful."""
 
 		URL = 'https://cusis.cuhk.edu.hk/psp/csprd/?cmd=login'
-		payload = {'userid':'1155076990','pwd':''}
+		payload = {'userid':'1155076813','pwd':'a-19960322'}
 
 		self.session.headers.update(self.useragent)
 		r = self.session.post(URL, data=payload, allow_redirects=False, verify=False)
