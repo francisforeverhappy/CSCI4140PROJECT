@@ -48,7 +48,7 @@ def main():
 	client = MongoClient('localhost', 27017)
 	client.drop_database('csci4140_db')
 	db = client.csci4140_db
-	files = glob.glob('./DumpedCourseList_20180508/*.xls')
+	files = glob.glob('./DumpedCourseList_20180512/*.xls')
 	with open('info_dict.json') as f:
 		add_info = json.load(f)
 	for path in files:
@@ -79,15 +79,15 @@ def main():
 				continue
 			if str(df['Class Code']) == 'nan':
 				section_id = db.Section.insert_one(section).inserted_id
-				
+
 				courseComponent = section['courseComponent']
-				
+
 				if courseComponent and str(courseComponent) != 'nan':
 					if courseComponent in course['componentDict']:
 						course['componentDict'][courseComponent].append(section_id)
 					else:
 						course['componentDict'][courseComponent] = [section_id]
-					
+
 					# if section['courseComponent'] == 'LEC':
 					# 	course['lectures'] = section_id
 					# elif section['courseComponent'] == 'TUT':
@@ -99,7 +99,7 @@ def main():
 						df['Section Code'] = None
 				elif df['Section Code'] and df['Section Code'] != '' and df['Section Code'][0] == '-':
 					df['Section Code'] = df['Section Code'][1:]
-			
+
 				section = {
 					"courseCode": classcode,
 					"semester": addinforow['semester'],
@@ -137,20 +137,20 @@ def main():
 			if section != None:
 				section_id = db.Section.insert_one(section).inserted_id
 				courseComponent = section['courseComponent']
-				
+
 				if courseComponent and str(courseComponent) != 'nan':
 					if courseComponent in course['componentDict']:
 						course['componentDict'][courseComponent].append(section_id)
 					else:
 						course['componentDict'][courseComponent] = [section_id]
-				
+
 				# if section['courseComponent'] == 'LEC':
 				# 	course['lectures'] = section_id
 				# elif section['courseComponent'] == 'TUT':
 				# 	course['tutorials'].append(section_id)
 				# elif section['courseComponent'] == 'LAB':
 				# 	course['labs'].append(section_id)
-			
+
 			if course != None:
 				course_id = db.Course.insert_one(course).inserted_id
 			try:
@@ -165,6 +165,7 @@ def main():
 					df['Section Code'] = None
 			elif df['Section Code'] and df['Section Code'] != '' and df['Section Code'][0] == '-':
 				df['Section Code'] = df['Section Code'][1:]
+				print addinforow['regrequirement']
 			course = {
 				"courseCode": classcode,
 				"courseName": df['Course Title'],
@@ -178,8 +179,9 @@ def main():
 					"grading": addinforow['grading']
 				},
 				"enrollmentInfo" : {
-					"dropConsent" : addinforow['dropcons'] ,
-					"enrollReq" : addinforow['addcons'],
+					"addConsent" : addinforow['addcons'],
+					"dropConsent" : addinforow['dropcons'],
+					"enrollReq" : addinforow['regrequirement'],
 					"classAttr" : df['Language']
 				},
 				"instructor" : df["Teaching Staff"],

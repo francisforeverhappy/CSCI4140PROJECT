@@ -35,7 +35,9 @@ def dumpinfo(tofile, info):
         sem =  m0[0].split(' | ')[1]
         m1 = re.findall(r"<span  class='PSLONGEDITBOX' >(.+?)</span>", r.text)
         description = m1[-1]
-        regrequire = m1[-3]
+        match = re.search('Requirements', r.text)
+        regrequire = m1[-3] if match else ""
+        print regrequire
         m2 = re.findall(r"<span  class='PSEDITBOX_DISPONLY' >(.+?)</span>", r.text)
         status = m2[1]
         coursenbr = m2[2]
