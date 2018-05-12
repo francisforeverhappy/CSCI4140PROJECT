@@ -1,28 +1,27 @@
-.praise{
- width:80px;
- height:40px;
- cursor: pointer;
- font-size: 12px;
- position: relative;
- margin-right:0;
- display: inline;
+img{
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
 }
-.rating-info{
- display: inline;
+.praise{
+ display: flex;
+ top:50%;
+ height:20px;
+ line-height:25px;
+ font-size: 1.2rem;
+ vertical-align: middle;
 }
 .img-praise{
  float:left;
  left:0;
  display:block;
- width:40px;
- height:40px;
+ width:22px;
+ height:22px;
  margin:0 auto;
 }
 .praise-txt{
- vertical-align: baseline;
- height:25px;
- line-height:25px;
- display: inline;
+    vertical-align: middle;
 }
 .praise img{
  width:40px;

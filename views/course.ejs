@@ -177,8 +177,7 @@
                                     <% } %>
                                     <p>Class Attribute:
                                         <%= course.enrollmentInfo.classAttr %>
-                                    </p>
-                                    
+                                    </p>                                 
                                 </div>
                             </section>
                             <section id="AvailablityInfo">
@@ -244,7 +243,7 @@
                                         <% if(i==0){ firstcomment = course.comments[i].author; %>
                                             <input id="firstcomment" value=<%= firstcomment %> style="display: none;">
                                         <% } %>
-                                        <div class="thread container" id=<%= course.comments[i].author %>>
+                                        <div class="thread container p-b-15 p-t-15" id=<%= course.comments[i].author %>>
                                             <% if( sid == course.comments[i].author){ %>
                                             <span class="comment-form edit-form">
                                                 <p class="comment-form-comment">
@@ -285,7 +284,10 @@
                                                         <input name="Delete" type="submit" id="Delete" class="Delete" value="Delete">
                                                     </span>
                                                 <% } %>
-                                                <div class="comment-content"><%= course.comments[i].text %></div>
+                                                <div class="time-section">
+                                                    <span class="comment-time"><%= course.comments[i].time %></span>
+                                                </div>
+                                                <div class="comment-content m-b-8 text-gray"><%= course.comments[i].text %></div>
                                                 <div class="comment-mode">
                                                     <div class="comment-control">
                                                         <div class="praise">
@@ -297,26 +299,26 @@
                                                                     <img src="/img/unlike.png" class="praise-img"/>
                                                                 <% } %>
                                                             </span>
+                                                            <span>&nbsp &nbsp</span>
                                                             <span class="praise-txt"><%= course.comments[i].numVotes %></span>
+                                                            <div class="separator"> ● </div>
+                                                            <span>Rating: </span>
+                                                            <span>
+                                                                <%= course.comments[i].rating %>
+                                                            </span>
+                                                            <div class="separator"> ● </div>
+                                                            <span>
+                                                                <%= course.comments[i].semester %>
+                                                            </span>
+                                                            
+                                                            <% if(course.comments[i].sectionCode!=''){ %>
+                                                                <div class="separator"> ● </div>
+                                                                <span>Section: </span>
+                                                                <span class="comment-section">
+                                                                    <%= course.comments[i].sectionCode %>
+                                                                </span>
+                                                                <% } %>
                                                         </div>
-                                                        <div class="rating-info">
-                                                        <span>Rating: </span>
-                                                        <span>
-                                                            <%= course.comments[i].rating %>
-                                                        </span>
-                                                        <div class="separator"> ● </div>
-                                                        <span>
-                                                            <%= course.comments[i].semester %>
-                                                        </span>
-                                                        <div class="separator"> ● </div>
-                                                        <span>Section: </span>
-                                                        <span class="comment-section">
-                                                            <%= course.comments[i].sectionCode %>
-                                                        </span>
-                                                        </div>
-                                                    </div>
-                                                    <div class="time-section">
-                                                        <span class="comment-time"><%= course.comments[i].time %></span>
                                                     </div>
                                                 </div>
                                             </div>

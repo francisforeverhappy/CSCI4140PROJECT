@@ -256,7 +256,7 @@ table.altrowstable td {
     padding-right:5px;
 }
 .comment-mode{
-    display: block;
+    display: flex;
     height: 50px;
     font-size: 15px;
     font-weight:bold;
@@ -271,6 +271,12 @@ table.altrowstable td {
 .comment-vote{
     display: inline-block;
     margin-left: 4px;
+}
+.text-gray{
+    color: #586069;
+}
+.thread{
+    border-bottom: 1px #e1e4e8 solid;
 }
 .triangle-up{
     width: 0; 
