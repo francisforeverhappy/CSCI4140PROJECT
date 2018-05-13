@@ -134,7 +134,7 @@ function addOptClassItem(code, name, id, gid, type, venue, day, timeslot, color)
 		$(tmpl).attr("data-gid", gid);
 		$(tmpl).attr("data-color", color);
 		$(tmpl).attr("data-select", false);
-		$(tmpl).children(".class-info").html('<strong>'+code+'</strong><br>'+type+gid+'<br>'+venue);
+		$(tmpl).children(".class-info").html('<strong>'+code+'</strong><br>'+type+(parseInt(gid)+1)+'<br>'+venue);
 		$(tmpl).css({
 			"grid-row-start": timeslot.start.toString(),
 		  "grid-row-end": timeslot.end.toString(),
@@ -164,7 +164,6 @@ function addClassItem(code, name, id, gid, type, venue, day, timeslot, opt, colo
 		$(tmpl).attr("data-gid", gid);
 		$(tmpl).attr("data-color", color);
 		$(tmpl).attr("data-select", true);
-		$(tmpl).children(".class-info").html('<strong>'+code+'</strong><br>'+type+gid+'<br>'+venue);
 		$(tmpl).css({
 			"grid-row-start": timeslot.start.toString(),
 		  "grid-row-end": timeslot.end.toString(),
@@ -175,6 +174,7 @@ function addClassItem(code, name, id, gid, type, venue, day, timeslot, opt, colo
 		
 
 		if(opt){
+			$(tmpl).children(".class-info").html('<strong>'+code+'</strong><br>'+type+(parseInt(gid)+1)+'<br>'+venue);
 			$(tmpl).on("click", optClassHandler);
 			$(tmpl).css({"border-radius": "8px",
 		    "border-bottom": "2px solid var(--class-color-"+color+"-3)",
@@ -185,6 +185,8 @@ function addClassItem(code, name, id, gid, type, venue, day, timeslot, opt, colo
 			},function(e){
 				$(e.currentTarget).css("background-color","var(--class-color-"+color+"-2)");
 			});
+		}else{
+			$(tmpl).children(".class-info").html('<strong>'+code+'</strong><br>'+type+'<br>'+venue);
 		}
 		$(".schedule").eq(day).append(tmpl);
 	}
