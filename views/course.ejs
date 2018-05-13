@@ -55,9 +55,9 @@
                                         <button class="button2" style="vertical-align:text-bottom" onclick="after()"><span>Next</span></button>
                                         <% } %>
                                     </p>
-                                    <h2>
+                                    <h4>
                                         <%= course.courseName %>
-                                    </h2>
+                                    </h4>
                                     <p>
                                         <% if(course.classDetails.units != '1'){ %>
                                             <span class="beauty-font">
@@ -71,43 +71,38 @@
                                         <span class="beauty-font"> ● <%= course.semester %></span>
                                     </p>
                                 </header>
-                                <section>
-                                    <div class="row">
-                                        <div class="col-sm-8">
-                                            <span class="beauty-font">
-                                                <%- course.description %>
-                                            </span>
-                                        </div>
-                                        <div class="col-sm-4">
-                                            <div>
-                                                <h2>Course Details</h2>
-                                            </div>
-                                            <div class="course-detail">
-                                                <h4>Career: </h4>
-                                                <p><%= course.classDetails.career %></p>
-                                                <h4>Grading: </h4>
-                                                <p>
-                                                    <%= course.classDetails.grading %>
-                                                </p>
-                                                <h4>Instructor: </h4>
-                                                <p>
-                                                    <%= course.instructor %>
-                                                </p>
-                                            </div>
-                                        </div>    
+                                <div class="row">
+                                    <div class="col-sm-8">
+                                        <span class="beauty-font">
+                                            <%- course.description %>
+                                        </span>
                                     </div>
-                                </section>
+                                    <div class="col-sm-4">
+                                        <div class="course-detail">
+                                            <strong>Career: </strong>
+                                            <p><%= course.classDetails.career %></p>
+                                            <strong>Grading: </strong>
+                                            <p>
+                                                <%= course.classDetails.grading %>
+                                            </p>
+                                            <strong>Instructor: </strong>
+                                            <p>
+                                                <%= course.instructor %>
+                                            </p>
+                                        </div>
+                                    </div>    
+                                </div>
                             </div>
                             <section id="MeetingInfo">
-                                <h2 class="courseinfo-border">Meeting Information</h2>
+                                <h4 class="courseinfo-border">Meeting Information</h4>
                                 <div class="row">
                                     <% for(var a = 0; a < component.length ;a++){ %>
                                         
                                         <% for(var b=0; b < course.componentDict[component[a]].length;b++){ %>
                                             <% component_num=component[a]+'['+b+']'; %>
                                             <div>
-                                                <p class="oneline m-l-60">
-                                                    <span class="h2-span"><%= componentDir[component[a]] %></span>
+                                                <p class="oneline m-l-60 m-b-16">
+                                                    <span class="h5-span"><%= componentDir[component[a]] %></span>
                                                     <span>&nbsp&nbsp</span>
                                                     <% if(course.componentDict[component[a]].length!=1){ %>
                                                     <span class="press">Section code: <%= eval("course.componentDict."+component_num+".sectionCode") %></span>
@@ -118,7 +113,7 @@
                                                         <table>
                                                             <thead>
                                                                 <tr class="row100 head">
-                                                                    <th class="cell100 column1">Days & Times</th>
+                                                                    <th class="cell100 column1">Time</th>
                                                                     <th class="cell100 column2">Room</th>
                                                                     <th class="cell100 column3">Instructor</th>
                                                                     <th class="cell100 column4">Meeting Dates</th>
@@ -162,7 +157,7 @@
                                 </div>
                             </section>
                             <section id="EnrollmentInfo">
-                                <h2 class="courseinfo-border">Enrollment Information</h2>
+                                <h4 class="courseinfo-border">Enrollment Information</h4>
                                 <div class="m-l-50">
 
                                     <% if(course.enrollmentInfo.addConsent){ %>
@@ -182,25 +177,24 @@
                                 </div>
                             </section>
                             <section id="AvailablityInfo">
-                                <div class="courseinfo-border">
-                                    <span class="h2-span">Class Availablity</span>
-                                    <span class="comments-sort-list">
+                                <h4 class="courseinfo-border">Class Availablity
+                                    <span class="last-update">
                                         <span id="courseId" style="display: none;"><%= course._id %></span>
                                         <span>Last Updated: </span>
                                         <% var Updated_time = [(eval("course.componentDict."+component_num+".classAvail").updatedTime.getDate()),(eval("course.componentDict."+component_num+".classAvail").updatedTime.getMonth()+1),eval("course.componentDict."+component_num+".classAvail").updatedTime.getFullYear()].join('/')+'  '+[eval("course.componentDict."+component_num+".classAvail").updatedTime.getHours(),(eval("course.componentDict."+component_num+".classAvail").updatedTime.getMinutes()),eval("course.componentDict."+component_num+".classAvail").updatedTime.getSeconds()].join(':'); %>
                                         <%  eval("course.componentDict."+component_num+".classAvail.updatedTime"+"=Updated_time") %>
                                         <span><%= eval("course.componentDict."+component_num+".classAvail.updatedTime") %></span>
                                         <% if (sid != undefined){ %>
-                                        <button class="btn btn-cute" id="refresh-waitingList">refresh</button>
+                                        <button class="btn btn-cute-mini" id="refresh-waitingList">refresh</button>
                                         <% } %>
                                     </span>
-                                </div>
+                                </h4>
                                 <div class="m-l-50">
                                     <% for(var a = 0; a < component.length ;a++){ %>
                                         <% for(var b=0; b < course.componentDict[component[a]].length;b++){ %>
                                             <% component_num=component[a]+'['+b+']'; %>
                                             <p class="oneline m-t-30">
-                                                <span class="h3-span"><%= componentDir[component[a]] %></span>
+                                                <span class="h5-span"><%= componentDir[component[a]] %></span>
                                                 <span>&nbsp&nbsp</span>
                                                 <% if(course.componentDict[component[a]].length!=1){ %>
                                                     <span class="press">Section code:
@@ -229,14 +223,13 @@
                                 </div>
                             </section>
                             <section id="Comments">
-                                <div class="courseinfo-border">
-                                    <h2>Comments</h2>
+                                <h4 class="courseinfo-border">Comments
                                     <% if(sid != undefined){ %>
-                                    <a href="#respond" class="scroll_cmt_frm scroller" id="add-comment">
+                                    <span><a href="#respond" class="scroll_cmt_frm scroller" id="add-comment">
                                         Add Comment
-                                    </a>
+                                    </a></span>
                                     <% } %>
-                                </div>
+                                </h4>
                                 <div class="comments_border">
                                     <div class="comments-list">
                                         <% for(var i=0; i < course.comments.length; i++){ %>
@@ -275,7 +268,7 @@
                                             <div class="comment-item former">
                                                 <% if(sid == course.comments[i].author){ %>
                                                     <% var commented = '1'; %>
-                                                    <span class="my-comment-title h4-span">My Comment</span>
+                                                    <span class="my-comment-title h5-span">My Comment</span>
                                                     <span class="comment-submit  p-l-10">
                                                         <input id="AuthorId" value=<%= course.comments[i].author %> style="display: none;">
                                                         <input id="CommentId" value=<%= course.comments[i]._id %> style="display: none;">
@@ -334,7 +327,7 @@
                             </section>
                             <% if(sid != undefined && commented != 1){ %>
                             <section id="respond" class="comment-respond">
-                                <h2 class="comment-reply-title">Leave a Comment</h2>
+                                <h5 class="comment-reply-title">Leave a Comment</h5>
                                 <span class="comment-form">
                                     <label>Your comment * For users who have taken <%= course.courseCode %></label>
                                     <p class="comment-form-comment">
@@ -372,10 +365,10 @@
                                             <a id="nav-details" href="#Details">&nbsp  Details</a>
                                         </li>
                                         <li class>
-                                            <a id="nav-meeting" href="#MeetingInfo">&nbsp  Meeting Information</a>
+                                            <a id="nav-meeting" href="#MeetingInfo">&nbsp  Meeting Info</a>
                                         </li>
                                         <li class>
-                                            <a id="nav-enrollment" href="#EnrollmentInfo">&nbsp  Enrollment Information</a>
+                                            <a id="nav-enrollment" href="#EnrollmentInfo">&nbsp  Enrollment Info</a>
                                         </li>
                                         <li class>
                                             <a id="nav-availablity" href="#AvailablityInfo">&nbsp  Class Availablity</a>

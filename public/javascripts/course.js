@@ -7,7 +7,7 @@ if($('#respond').length==0){
     $('#CommentId').parent().parent().parent().insertBefore('#firstcomment');
 }
 //hide aside
-if ($(window).width()<=1300){
+if ($(window).width()<=768){
     $('#aside').hide();
 }
 
@@ -249,9 +249,9 @@ $(".img-praise").on('click',function (event) {
 //window resize
 $(window).resize(function () {
     var ww = $(window).width();
-    if (ww > 1300) {
+    if (ww > 768) {
         $('#aside').show();
-    } else if (ww < 1300) {
+    } else if (ww < 768) {
         $('#aside').hide();
     }
 });
