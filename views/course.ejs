@@ -80,13 +80,13 @@
                                     <div class="col-sm-4">
                                         <div class="course-detail">
                                             <strong>Career: </strong>
-                                            <p><%= course.classDetails.career %></p>
+                                            <p class="m-b-10 m-t-10"><%= course.classDetails.career %></p>
                                             <strong>Grading: </strong>
-                                            <p>
+                                            <p class="m-b-10 m-t-10">
                                                 <%= course.classDetails.grading %>
                                             </p>
                                             <strong>Instructor: </strong>
-                                            <p>
+                                            <p class="m-b-10 m-t-10">
                                                 <%= course.instructor %>
                                             </p>
                                         </div>
@@ -161,19 +161,23 @@
                                 <div class="m-l-50">
 
                                     <% if(course.enrollmentInfo.addConsent){ %>
-                                        <p>Add Consent:
+                                        <p class="enroll-info m-t-10">Add Consent:</p>
+                                        <p  class="enroll-text">
                                             <%= course.enrollmentInfo.addConsent %>
                                         </p>
-                                        <% } %>
+                                    <% } %>
                                     <% if(course.enrollmentInfo.dropConsent){ %>
-                                    <p>Drop Consent: <%= course.enrollmentInfo.dropConsent %></p>
+                                    <p class="enroll-info m-t-10">Drop Consent: </p>
+                                    <p  class="enroll-text"><%= course.enrollmentInfo.dropConsent %></p>
                                     <% } %>
                                     <% if(course.enrollmentInfo.enrollReq){ %>
-                                    <p>Enroll Requirement: <%= course.enrollmentInfo.enrollReq %></p>
+                                    <p class="enroll-info m-t-10">Enroll Requirement: </p>
+                                    <p class="enroll-text"><%- course.enrollmentInfo.enrollReq %></p>
                                     <% } %>
-                                    <p>Class Attribute:
+                                    <p class="enroll-info m-t-10">Class Attribute:</p>
+                                    <p  class="enroll-text">
                                         <%= course.enrollmentInfo.classAttr %>
-                                    </p>                                 
+                                    </p>
                                 </div>
                             </section>
                             <section id="AvailablityInfo">
@@ -193,8 +197,8 @@
                                     <% for(var a = 0; a < component.length ;a++){ %>
                                         <% for(var b=0; b < course.componentDict[component[a]].length;b++){ %>
                                             <% component_num=component[a]+'['+b+']'; %>
-                                            <p class="oneline m-t-30">
-                                                <span class="h5-span"><%= componentDir[component[a]] %></span>
+                                            <p class="oneline m-t-40">
+                                                <span class="h4-span"><%= componentDir[component[a]] %></span>
                                                 <span>&nbsp&nbsp</span>
                                                 <% if(course.componentDict[component[a]].length!=1){ %>
                                                     <span class="press">Section code:
@@ -225,8 +229,8 @@
                             <section id="Comments">
                                 <h4 class="courseinfo-border">Comments
                                     <% if(sid != undefined){ %>
-                                    <span><a href="#respond" class="scroll_cmt_frm scroller" id="add-comment">
-                                        Add Comment
+                                    <span><a href="#respond" class="scroll_cmt_frm scroller button icon arrowdown" id="add-comment">
+                                        Add Your Comment
                                     </a></span>
                                     <% } %>
                                 </h4>
@@ -238,15 +242,20 @@
                                             <input id="firstcomment" value=<%= firstcomment %> style="display: none;">
                                         <% } %>
                                         <div class="thread container p-b-15 p-t-15" id=<%= course.comments[i].author %>>
+                                            <% var display_txt = null; %>
+                                                <% if(course.comments[i].text != null ){ %>
+                                                <% display_txt = course.comments[i].text.replace(/\n/g, "<br />"); %>
+                                            <% } %>
                                             <% if( sid == course.comments[i].author){ %>
                                             <span class="comment-form edit-form">
                                                 <p class="comment-form-comment">
                                                     <input id="comment-id" value=<%= course.comments[i]._id %> style="display: none;">
-                                                    <textarea id="edit-comment" name="text" col="60" row="8" required></textarea>
+                                                    
+                                                    <textarea id="edit-comment" name="text" rows="20"  cols="40" class="ui-autocomplete-input" autocomplete="off" role="textbox" aria-autocomplete="list" aria-haspopup="true"><%- course.comments[i].text %></textarea>
                                                 </p>
                                                 <p>
                                                     <span class="rating">
-                                                        <span>Rating: </span>
+                                                        <span class="rating-title"> Rating: </span>
                                                         <input id="rating5" type="radio" name="rating" value="5">
                                                         <label for="rating5">5</label>
                                                         <input id="rating4" type="radio" name="rating" value="4">
@@ -259,13 +268,14 @@
                                                         <label for="rating1">1</label>
                                                         <input id="edit-rating" style="display: none;" value="3">
                                                     </span>
+                                                    <span class="comment-submit p-l-150">
+                                                        <a id="edit-submit" name="submit" class="button icon comment primary pill">Edit a Comment</a>
+                                                    </span>
                                                 </p>
-                                                <p class="comment-submit">
-                                                    <input name="submit" type="submit" id="edit-submit" class="submit" value="Edit a Comment">
-                                                </p>
+                                                
                                             </span>
                                             <% } %>
-                                            <div class="comment-item former">
+                                            <div class="comment-item former ds-comment-body">
                                                 <% if(sid == course.comments[i].author){ %>
                                                     <% var commented = '1'; %>
                                                     <span class="my-comment-title h5-span">My Comment</span>
@@ -273,18 +283,15 @@
                                                         <input id="AuthorId" value=<%= course.comments[i].author %> style="display: none;">
                                                         <input id="CommentId" value=<%= course.comments[i]._id %> style="display: none;">
                                                         <ul class="button-group comment-edit-button">
-                                                            <input name="edit" type="submit" id="edit" class="edit button primary pill" value="Edit">
-                                                            <input name="Delete" type="submit" id="Delete" class="Delete button pill" value="Delete">
+                                                            <a id="edit" name="edit" class="button icon edit primary pill">Edit</a>
+                                                            <a id="Delete" name="Delete" class="danger button icon trash primary pill">Delete</a>
                                                         </ul>
                                                     </span>
                                                 <% } %>
                                                 <div class="time-section">
                                                     <span class="comment-time"><%= course.comments[i].time %></span>
                                                 </div>
-                                                <% var display_txt = null; %>
-                                                <% if(course.comments[i].text != null ){ %>
-                                                <% display_txt = course.comments[i].text.replace(/\n/g, "<br />"); %>
-                                                <% } %>
+                                                
                                                 <div class="comment-content m-b-8 text-gray"><%- display_txt %></div>
                                                 <div class="comment-mode">
                                                     <div class="comment-control">
@@ -300,17 +307,17 @@
                                                             <span class="praise-txt p-l-5"><%= course.comments[i].numVotes %></span>
                                                             
                                                             <div class="separator p-l-10"> ● </div>
-                                                            <span>Rating:  </span>
-                                                            <span>
+                                                            <span class="rating-title p-l-5">Rating:  </span>
+                                                            <span class="p-l-5">
                                                                 <%= course.comments[i].rating %>
                                                             </span>
-                                                            <div class="separator"> ● </div>
+                                                            <div class="separator p-l-10"> ● </div>
                                                             <span>
                                                                 <%= course.comments[i].semester %>
                                                             </span>
                                                             
                                                             <% if(course.comments[i].sectionCode!=''){ %>
-                                                                <div class="separator"> ● </div>
+                                                                <div class="separator p-l-10"> ● </div>
                                                                 <span>Section: </span>
                                                                 <span class="comment-section">
                                                                     <%= course.comments[i].sectionCode %>
@@ -327,16 +334,16 @@
                             </section>
                             <% if(sid != undefined && commented != 1){ %>
                             <section id="respond" class="comment-respond">
-                                <h5 class="comment-reply-title">Leave a Comment</h5>
+                                <h3 class="comment-reply-title">Leave a Comment</h3>
                                 <span class="comment-form">
                                     <label>Your comment * For users who have taken <%= course.courseCode %></label>
                                     <p class="comment-form-comment">
                                         <input name="courseId" value=<%= course._id %> style="display: none;"></input>
-                                        <textarea id="write-comment" name="text" col="60" row="8" required></textarea>
+                                        <textarea id="write-comment" name="text" rows="20" cols="40" class="ui-autocomplete-input" autocomplete="off" role="textbox" aria-autocomplete="list" aria-haspopup="true"></textarea>
                                     </p>
                                     <p>
                                         <span class="rating">
-                                            <span>Rating: </span>
+                                            <span class="rating-title">Rating: </span>
                                             <input id="rating5" type="radio" name="rating" value="5">
                                             <label for="rating5">5</label>
                                             <input id="rating4" type="radio" name="rating" value="4">
@@ -349,9 +356,9 @@
                                             <label for="rating1">1</label>
                                             <input id="rating" style="display: none;" value="3">
                                         </span>
-                                    </p>
-                                    <p class="comment-submit">
-                                        <input name="submit" type="submit" id="submit" class="submit" value="Send a Comment">
+                                        <span class="comment-submit p-l-150">
+                                            <a id="submit" name="submit" class="button icon comment primary pill">Send a Comment</a>
+                                        </span>
                                     </p>
                                 </span>
                             </section>

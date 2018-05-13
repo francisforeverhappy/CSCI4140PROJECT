@@ -15,9 +15,9 @@ p{
   margin: 0;
 }
 h4, h5, h6{
-    color: var(--2th-color-3);
-    background-color : white;
-    text-shadow : rgba(255,255,255,0.5) 0 5px 6px, rgba(255,255,255,0.2) 1px 3px 3px;
+    color:var(--2th-color-3);
+    background-color: white;
+    text-shadow: rgba(255,255,255,0.5) 0 5px 6px, rgba(255,255,255,0.2) 1px 3px 3px;
     font-weight: bold;
 }
 section{
@@ -36,6 +36,7 @@ a{
 a:hover{
     text-decoration: none;
 }
+
 /* main content */
 .main-container{
     flex-grow: 1;
@@ -202,9 +203,20 @@ table.altrowstable td {
 }
 
 /* Enrollment Info */
-
+.enroll-info{
+    font-size: 1.2rem;
+    font-weight:bold;
+    letter-spacing: 1px;
+    color:var(--2th-color-3);
+}
+.enroll-text{
+    font-size: 1rem;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
 /* Avail info */
 .avail-num{
+    font-size: 1.5rem;
     font-weight:bold;
 }
 
@@ -241,7 +253,6 @@ table.altrowstable td {
   font-size: 14px;
   font-weight: 400;
   color: var(--main-color-3);
-  margin-top: 8px;
 }
 .comments_border{
     margin-left: 15px;
@@ -319,15 +330,64 @@ table.altrowstable td {
     font-size: 1.5rem;
     color:#0b1920;
 }
-.comment-vote{
-    display: inline-block;
-    margin-left: 4px;
+.ds-comment-body {
+    z-index: 1;
+    position: relative;
+    left: 0;
+    padding: 15px 15px 15px 47px;
+    color: rgb(81, 82, 63);
+    border-color: #21242c;
+    border-radius: 5px;
+    box-shadow: 0 1px 2px rgba(0,0,0,.15), 0 1px 0 rgba(146, 145, 145, 0.75) inset;
+    -moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
 }
-.text-gray{
-    color: #586069;
+textarea {
+    margin-top: 10px;
+    width: 100%;
+    height: 200px;
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.07);
+    border-color: rgb(25, 16, 39);
+    /*border-image: none;
+    border-radius: 6px 6px 6px 6px;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px; */
+    border-top: 3px solid#e5e5e5;
+	border-bottom: 3px solid #e5e5e5;
+	box-shadow: inset 0 -1px 0 0 #e5e5e5, inset 0 1px 0 0 #e5e5e5, 0 1px 0 0 #e5e5e5, 0 -1px 0 0 #e5e5e5;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 1.2em;
+    line-height: 1.4em;
+    padding: 5px 8px;
+    transition: background-color 0.2s ease 0s;
 }
-.thread{
-    border-bottom: 1px #e1e4e8 solid;
+
+
+textarea:focus {
+    background: none repeat scroll 0 0 #FFFFFF;
+    outline-width: 0;
+    border-color: #1b1529;
+}
+
+.text {
+    padding: 10px;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    background: #fff;
+}
+.text:before {
+    top: 18px;
+    left: 78px;
+    width: 9px;
+    height: 9px;
+    border-width: 0 0 1px 1px;
+    border-style: solid;
+    border-color: #e5e5e5;
+    background: #fff;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
 }
 .triangle-up{
     width: 0; 
@@ -369,8 +429,9 @@ table.altrowstable td {
     padding: 50px;
 }
 .comment-reply-title{
-    font-size: 18px;
     margin-bottom: 25px;
+    color: var(--2th-color-3);
+    font-weight: bold;
 }
 .comment-respond p{
     margin-bottom: 25px;
@@ -385,17 +446,8 @@ table.altrowstable td {
 .edit-form{
     display:none;
 }
-#edit-comment{
-    width: 800px;
-    height: 135px;
-    resize: none;
-    border-width: 0px;
-}
 .comment-edit-button{
     right:0;
-}
-textarea{
-    border-radius: 8px;
 }
 
 .button1 {
@@ -489,6 +541,10 @@ textarea{
   display: inline-block;
   width: auto;
   height: 30px;
+}
+.rating-title{
+    font-size: 1rem;
+    font-weight: bold;
 }
 
 .rating > input {

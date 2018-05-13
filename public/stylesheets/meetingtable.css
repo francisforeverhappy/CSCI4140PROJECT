@@ -71,6 +71,8 @@ th, td {
 .table100 {
   position: relative;
   padding-top: 60px;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .table100-head {
