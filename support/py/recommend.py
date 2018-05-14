@@ -16,9 +16,15 @@ def browse_history():
         'ICType':'Panel',
     }
     r = cusis.session.post(URL,data=payload)
-    l = re.findall(r"<span  class='PSEDITBOX_DISPONLY' >([A-Z]+ [0-9]+)</span>",r.text)
-    courhis = [x.replace(" ","") for x in l]
-    l = [x.split(" ")[0] for x in l]
+    raw_l = re.findall(r"<span  class='PSEDITBOX_DISPONLY' >([A-Z]+ [0-9]+)</span>",r.text)
+    courhis = [x.replace(" ","") for x in raw_l]
+    l = [x.split(" ")[0] for x in raw_l]
+    print (l)
+    nums = [x.split(" ")[1] for x in raw_l]
+    status = int(max(nums)[0])
+    if status >= 3:
+        status = 3
+    print (status)
     counts = Counter(l)
     counts = sorted(counts.items(), key=lambda x: counts.get(x[0]), reverse=True)
     client = MongoClient()
@@ -26,7 +32,7 @@ def browse_history():
     db = client.csci4140_db
     courses = set()
     for t in list(counts)[0:len(counts)//2]:
-        posts = db.Course.find({"courseCode": {'$regex' : t[0]+".*"}}).sort([("avgRating", pymongo.DESCENDING), ("numRating", pymongo.DESCENDING)])
+        posts = db.Course.find({"courseCode": {'$regex' : t[0] + "[" + str(status) + "-9]" + ".*"}}).sort([("avgRating", pymongo.DESCENDING), ("numRating", pymongo.DESCENDING)])
         for p in posts[0:3]:
             if p['courseCode'] not in courhis:
                 courses.add(p['courseCode'])
