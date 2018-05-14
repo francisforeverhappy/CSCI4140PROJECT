@@ -19,12 +19,10 @@ def browse_history():
     raw_l = re.findall(r"<span  class='PSEDITBOX_DISPONLY' >([A-Z]+ [0-9]+)</span>",r.text)
     courhis = [x.replace(" ","") for x in raw_l]
     l = [x.split(" ")[0] for x in raw_l]
-    print (l)
     nums = [x.split(" ")[1] for x in raw_l]
     status = int(max(nums)[0])
     if status >= 3:
         status = 3
-    print (status)
     counts = Counter(l)
     counts = sorted(counts.items(), key=lambda x: counts.get(x[0]), reverse=True)
     client = MongoClient()
