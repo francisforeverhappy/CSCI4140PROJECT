@@ -1,0 +1,50 @@
+{
+  "name": "cute",
+  "version": "1.0.0",
+  "description": "CSCI4140 course project",
+  "main": "app.js",
+  "dependencies": {
+    "async": "^2.6.0",
+    "body-parser": "^1.18.2",
+    "cheerio": "^1.0.0-rc.2",
+    "child_process": "^1.0.2",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.3",
+    "crypto": "^1.0.1",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "express-session": "^1.15.6",
+    "flat": "^4.0.0",
+    "fs": "0.0.1-security",
+    "group-array": "^0.3.3",
+    "http": "0.0.0",
+    "mongodb": "^3.0.7",
+    "mongodb-backup": "^1.6.9",
+    "mongodb-restore": "^1.6.2",
+    "mongoose": "^5.0.17",
+    "mysql": "^2.15.0",
+    "node": "^10.0.0",
+    "nodemon": "^1.17.3",
+    "querystring": "^0.2.0",
+    "request": "^2.85.0",
+    "request-promise": "^4.2.2",
+    "sqlite3": "^4.0.0",
+    "ssl-root-cas": "^1.2.5",
+    "store": "^2.0.12",
+    "url": "^0.11.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/francisforeverhappy/CSCI4140PROJECT.git"
+  },
+  "author": "Ray",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/francisforeverhappy/CSCI4140PROJECT/issues"
+  },
+  "homepage": "https://github.com/francisforeverhappy/CSCI4140PROJECT#readme"
+}
