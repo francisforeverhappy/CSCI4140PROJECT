@@ -258,11 +258,13 @@ router.get('/dv/:courseCode', middleware.asyncMiddleware(async (req, res) => {
 }));
 
 router.get('/gc/:courseCode', middleware.asyncMiddleware(async (req, res) => {
+    const commentList = ['Worst', 'Bad', 'Average', 'Good', 'Excellent'];
     console.log('get /gc/:courseCode')
     let courseCode = req.params.courseCode;
     let course = await Course.findOne({courseCode: courseCode});
     let ratingSum = 0;
-    for (let i = 0; i < 20; i++) {
+    let length = 10;
+    for (let i = 0; i < length; i++) {
         let sid = '11550' + makeid();
         let oldComment = await Comment.findOne({courseCode: courseCode, author: sid});      
 
@@ -271,8 +273,8 @@ router.get('/gc/:courseCode', middleware.asyncMiddleware(async (req, res) => {
             continue;
         }
 
-        let text = sid;
         let rating = Math.floor(Math.random() * 5 + 1);
+        let text = commentList[Number(rating) - 1];
         ratingSum += Number(rating);
         let newComment = new Comment({
             _id: mongoose.Types.ObjectId(),
@@ -290,7 +292,7 @@ router.get('/gc/:courseCode', middleware.asyncMiddleware(async (req, res) => {
     }
 
     Course.find({courseCode: course.courseCode}, (err, courses) => {
-        let newNumRating = courses[0].numRating + 20;
+        let newNumRating = courses[0].numRating + length;
         let newAvgRating = (courses[0].avgRating * courses[0].numRating + Number(ratingSum)) / newNumRating;
         courses.forEach((course) => {
             course.numRating = newNumRating;
