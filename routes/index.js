@@ -24,8 +24,8 @@ router.get('/recommend', middleware.asyncMiddleware(async (req, res) => {
 }));
 
 router.get('/test', middleware.asyncMiddleware(async (req, res) => {
-    let section = await Course.find({courseCode: new RegExp('ugfn', 'i')});
-    console.log(section.length);
+    let section = await Course.find({courseCode: new RegExp('csci4140', 'i')});
+    console.log(section[0].componentDict);
 }));
 
 // login
