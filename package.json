@@ -21,7 +21,7 @@
     "mongodb": "^3.0.7",
     "mongodb-backup": "^1.6.9",
     "mongodb-restore": "^1.6.2",
-    "mongoose": "^5.0.17",
+    "mongoose": "^5.7.5",
     "mysql": "^2.15.0",
     "node": "^10.0.0",
     "nodemon": "^1.17.3",
