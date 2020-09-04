@@ -18,7 +18,7 @@
     "fs": "0.0.1-security",
     "group-array": "^0.3.3",
     "http": "0.0.0",
-    "mongodb": "^3.0.7",
+    "mongodb": "^3.1.13",
     "mongodb-backup": "^1.6.9",
     "mongodb-restore": "^1.6.2",
     "mongoose": "^5.0.17",
