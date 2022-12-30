@@ -14,7 +14,7 @@
     "ejs": "^2.6.1",
     "express": "^4.16.3",
     "express-session": "^1.15.6",
-    "flat": "^4.0.0",
+    "flat": "^5.0.1",
     "fs": "0.0.1-security",
     "group-array": "^0.3.3",
     "http": "0.0.0",
